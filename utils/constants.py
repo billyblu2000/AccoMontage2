@@ -86,3 +86,9 @@ FLUTE = 73
 SQUARE = 80
 SAWTOOTH = 81
 SHAKUHACHI = 77
+
+# pick progressions
+SHORT = 0
+LONG = 1
+DENSE = 2
+SPARSE = 3

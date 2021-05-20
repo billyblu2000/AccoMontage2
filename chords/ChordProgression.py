@@ -303,9 +303,14 @@ def query_progression(progression_list, source=None, type=None, tonic=None, mode
     return progression_list
 
 
-def print_progression_list(progression_list: List[ChordProgression]):
+def print_progression_list(progression_list: List[ChordProgression], limit=None):
+    limit = len(progression_list) if limit is None else limit
+    count = 0
     for progression in progression_list:
         print(progression)
+        count += 1
+        if count == limit:
+            break
     print("Total: ",len(progression_list),"\n")
 
 
