@@ -1,3 +1,8 @@
+# CHORDERATOR
+
+> A useful tool to generate chord progressions according to melody MIDIs
+
+
 ### Demo
 
 ```python
