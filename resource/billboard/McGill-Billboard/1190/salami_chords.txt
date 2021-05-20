@@ -1,0 +1,25 @@
+# title: Only Sixteen
+# artist: Dr. Hook
+# metre: 4/4
+# tonic: F
+
+0.000000000	silence
+0.255419501	A, intro, | F:maj D:min | G:min C:maj |, (guitar)
+5.085170068	B, verse, | F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:maj/5 |, (voice
+14.419591836	| F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:maj/5 |
+23.810907029	B, verse, | F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:maj/5 |
+33.227755102	| F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:7 |
+42.672335600	C, bridge, | Bb:maj C:maj | F:maj | Bb:maj C:maj | F:maj |
+52.105578231	| Bb:maj C:maj | F:maj D:min | G:7 | C:maj |
+61.576575963	B, verse, | F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:maj/5 |
+71.107210884	| F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:maj/5 |, voice)
+80.642902494	B, solo, | F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:maj/5 |, (guitar
+90.133718820	| F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:7 |, guitar)
+99.545918367	C, bridge, | Bb:maj C:maj | F:maj | Bb:maj C:maj | F:maj |, (voice
+109.011451247	| Bb:maj C:maj | F:maj D:min | G:7 | C:maj |
+118.468208616	B', verse, | F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:maj/5 |
+127.982380952	| F:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj F:maj/5 |
+137.540226757	| F:maj | Bb:maj C:maj | Bb:maj | &pause | C:maj | &pause |
+151.765623582	| F:maj | &pause | Bb:maj Bb:min | F:maj | &pause |, voice)
+163.445260770	silence
+166.269387755	end

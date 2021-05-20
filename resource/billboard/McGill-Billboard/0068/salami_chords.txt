@@ -1,0 +1,36 @@
+# title: Black Cars
+# artist: Gino Vannelli
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.116099773	A', intro, | E:5 | A:maj/5 | E:5 | A:maj/5 |
+7.545782312	A, pre-chorus, | E:maj | A:maj/5 . A:sus4/5 A:maj/5 | E:maj | A:maj/5 . A:sus4/5 A:maj/5 |, (synthesizer)
+15.006666666	B, verse, | E:maj | A:maj/5 | D:maj/9 A:maj/5 | E:maj |, (voice
+22.408526077	| E:maj | A:maj/5 | C:maj | D:maj | C:maj7 | D:maj |, voice)
+33.604331065	A, pre-chorus, | E:maj | A:maj/5 . A:sus4/5 A:maj/5 | E:maj | A:maj/5 . A:sus4/5 A:maj/5 |, (synthesizer)
+40.987346938	B, verse, | E:maj | A:maj/5 | D:maj/9 A:maj/5 | E:maj |, (voice
+48.461995464	| E:maj | A:maj/5 | C:maj | D:maj | C:maj7 | D:maj |, voice)
+59.645668934	C, trans, | N | N |, (drums)
+63.370362811	D, chorus, | A:7 | G:maj B:maj |, (voice)
+67.003922902	A, pre-chorus, | E:maj | A:maj/5 . A:sus4/5 A:maj/5 | E:maj | A:maj/5 . A:sus4/5 A:maj/5 |, (synthesizer)
+74.455464852	E, bridge, | G:maj | G:maj | A:maj | A:maj F#:min |, (voice
+81.912789115	| G:maj | G:maj | C:maj | G:maj/3 |, voice)
+89.353015873	A'', pre-chorus, | A:maj | D:maj/5 . D:sus4 D:maj | A:maj | D:maj/5 . D:sus4 D:maj |, (synthesizer
+96.756371882	| A:maj | D:maj/5 . D:sus4 D:maj | A:maj | D:maj/5 . D:sus4 D:maj |, synthesizer)
+104.189977324	B, verse, | E:maj | A:maj/5 | D:maj/9 A:maj/5 | E:maj |, (voice
+111.65802721	| E:maj | A:maj/5 | C:maj | D:maj | C:maj7 | D:maj |, voice)
+122.854716553	C, trans, | N | N |, (drums)
+126.573356009	D, chorus, | A:7 | G:maj B:maj |, (voice)
+130.258253968	A, pre-chorus, | E:maj | A:maj/5 . A:sus4/5 A:maj/5 | E:maj | A:maj/5 . A:sus4/5 A:maj/5 |, (synthesizer)
+137.646303854	D, chorus, | A:7 | G:maj B:maj |, (voice)
+141.365170068	A', trans, | E:5 | A:maj/5 | E:5 | A:maj/5 |
+148.77585034	A, pre-chorus, | E:maj | A:maj/5 . A:sus4/5 A:maj/5 | E:maj | A:maj/5 . A:sus4/5 A:maj/5 |, (synthesizer)
+156.256054421	D, chorus, | C:maj | D:maj |, (voice)
+160.01893424	A, pre-chorus, | E:maj | A:maj/5 . A:sus4/5 A:maj/5 | E:maj | A:maj/5 . A:sus4/5 A:maj/5 |, (synthesizer)
+167.425691609	D, chorus, | C:maj | D:maj |, (voice)
+171.107755102	A, pre-chorus, | E:maj | A:maj/5 . A:sus4/5 A:maj/5 | E:maj | A:maj/5 . A:sus4/5 A:maj/5 |, (synthesizer)
+178.577482993	D, chorus, | C:maj | D:maj |, (voice)
+182.275396825	A, fadeout, | E:maj | A:maj/5 . A:sus4/5 A:maj/5 | E:maj | A:maj/5 . A:sus4/5 A:maj/5 |, (synthesizer)
+187.942312925	silence
+189.570612244	end

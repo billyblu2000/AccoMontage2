@@ -1,0 +1,25 @@
+# title: I Really Don't Want To Know
+# artist: Elvis Presley
+# metre: 3/4
+# tonic: C
+
+0.0	silence
+0.278639455	A', intro, | C:maj | G:7 | C:maj . F:maj7 | C:maj |, (piano)
+10.596734693	A, verse, | C:maj | F:maj | C:maj | C:maj |, (voice
+19.670839002	| C:maj | E:7 | F:maj | F:maj |
+28.701337868	| F:maj | F#:dim | C:maj/5 | A:min . F:min/b3 |
+37.855442176	| G:maj | G:7 | C:maj . F:maj | C:maj |
+47.118684807	A, verse, | C:maj | F:maj | C:maj | C:maj |
+56.185328798	| C:maj | E:7 | F:maj | F:maj |
+65.216031746	| F:maj | F#:dim | C:maj/5 | A:min . F:min/b3 |
+74.008004535	| G:maj | G:7 | C:maj | C:maj |
+82.918458049	B, bridge, | C:7 | C:7 | F:maj | F:maj |
+91.887641723	| C:7 | C:7 | F:maj | F:maj |
+100.892086167	| D:7 | D:7 | G:maj | G:maj |
+109.808571428	| D:7 | D:7 | G:7 | G:7 |
+118.761292517	A, verse, | C:maj | F:maj | C:maj | C:maj |
+127.852947845	| C:maj | E:7 | F:maj | F:maj |
+136.841451247	| F:maj | F#:dim | C:maj/5 | A:min . F:min/b3 |
+145.979931972	| G:maj | G:7 | F:maj | C:maj |, voice)
+163.189841269	silence
+166.217142857	end

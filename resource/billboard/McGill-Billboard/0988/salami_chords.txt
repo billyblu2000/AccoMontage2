@@ -1,0 +1,23 @@
+# title: If
+# artist: Bread
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.394739229	A', intro, | A:maj(9) | E:maj/11 | A:sus2(b7) | D:maj6(9)/5 |
+10.62340136	| D:min9/5 | A:maj | D:min6 | E:7 |
+20.945623582	A, verse, | A:maj(9) | E:maj/11 | A:sus2(b7) | D:maj6(9)/5 |, (voice
+30.591609977	| D:min9/5 | A:maj | D:min6 | E:7 |
+40.382426303	| A:maj(9) | E:maj/11 | A:sus2(b7) | D:maj6(9)/5 |
+50.166281179	| D:min9/5 | A:maj | D:min6 | E:7 |
+59.925941043	B, chorus, | F#:min | F#:min/7 | F#:min/b7 | D:maj6 |
+69.676575963	| C#:hdim7 | F#:7 | B:min7 | E:7 |
+79.724240362	A, verse, | A:maj(9) | E:maj/11 | A:sus2(b7) | D:maj6(9)/5 |
+89.695623582	| D:min9/5 | A:maj | D:min6 | E:7 |
+99.487369614	| A:maj(9) | E:maj/11 | A:sus2(b7) | D:maj6(9)/5 |
+109.204897959	| D:min9/5 | A:maj | D:min6 | E:7 |
+119.145056689	B, chorus, | F#:min | F#:min/7 | F#:min/b7 | D:maj6 |
+128.858004535	| C#:hdim7 | F#:7 | B:min7 | E:7 |
+139.347301587	C, outro, | A:maj | D:maj/5 | D:min/5 | A:maj |, voice)
+152.949841269	silence
+155.506938775	end

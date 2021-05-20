@@ -1,0 +1,27 @@
+# title: Must Of Got Lost 
+# artist: The J. Geils Band
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.208979591	A, intro, | C:maj | F:maj | C:maj | F:maj |, (guitar)
+11.240975056	B, verse, | C:maj . . G:min | F:maj | C:maj . . G:min | F:maj |, (voice
+21.130566893	| C:maj . . G:min | F:maj . . E:min | D:min G:maj | C:maj |
+30.933900226	| C:maj . . G:min | F:maj | C:maj . . G:min | F:maj |
+40.667845804	| C:maj . . G:min | F:maj . . E:min | D:min G:maj | C:maj |
+50.240204081	C, chorus, | C:maj F:maj/5 C:maj . | D:min7 | F:maj G:maj | C:maj F:maj/9 C:maj . |
+59.286145124	| C:maj F:maj/5 C:maj . | D:min7 | F:maj G:maj | C:maj F:maj C:maj . |
+68.324126984	B, verse, | C:maj . . G:min | F:maj | C:maj . . G:min | F:maj |
+77.777573696	| C:maj . . G:min | F:maj . . E:min | D:min G:maj | C:maj |
+87.101496598	C, chorus, | C:maj F:maj/5 C:maj . | D:min7 | F:maj G:maj | C:maj F:maj/9 C:maj . |
+96.161519274	| C:maj F:maj/5 C:maj . | D:min7 | F:maj G:maj | C:maj F:maj/9 C:maj . |
+105.267641723	A', bridge, | C:maj |
+107.592222222	| F:maj | C:maj | F:maj | C:maj | F:maj |
+119.599727891	D, chorus, | N | N | N | N |
+128.940272108	| N | N | N | N |
+138.173741496	C, chorus, | C:maj F:maj/5 C:maj . | D:min7 | F:maj G:maj | C:maj F:maj/9 C:maj . |
+147.173265306	| C:maj F:maj/5 C:maj . | D:min7 | F:maj G:maj | C:maj F:maj/9 C:maj . |, voice)
+156.024988662	| C:maj F:maj/5 C:maj . | D:min7 | F:maj G:maj | C:maj F:maj/9 C:maj . |, (guitar)
+164.864761904	fadeout, | C:maj F:maj/5 C:maj . | D:min7 | F:maj G:maj | C:maj F:maj/9 C:maj . |, (voice)
+176.056802721	silence
+180.58015873	end

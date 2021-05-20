@@ -1,0 +1,37 @@
+# title: Breezin'
+# artist: George Benson
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.65015873	A, intro, | D:maj9(13) | F:maj9 | A:maj9 | F:maj9 |, (strings
+6.710566893	| D:maj9(13) |, strings)
+19.853061224	B, instrumental, | D:maj B:min7 | E:min A:sus4(b7,9) | D:maj B:min7 | E:min A:sus4(b7,9) |, (bass)
+31.444807256	| D:maj B:min7 | E:min A:sus4(b7,9) | D:maj B:min7 | E:min A:sus4(b7,9) |, (guitar)
+43.25877551	| D:maj B:min7 | E:min A:sus4(b7,9) | D:maj B:min7 | E:min A:sus4(b7,9) |, (flute
+55.054512471	| D:maj B:min7 | E:min A:sus4(b7,9) | D:maj B:min7 | E:min A:sus4(b7,9) |, flute)
+66.810566893	B, verse, | D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |, (guitar
+78.529886621	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+90.362244897	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+102.110272108	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+113.927437641	C, bridge, | D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+125.750612244	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+137.578231292	B, verse, | D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+149.44956916	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+161.285804988	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+173.104761904	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+184.935736961	C, bridge, | D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+196.777256235	B, solo, | D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+208.594965986	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+220.55648526	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+232.413968253	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+244.227482993	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+256.139319727	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |, guitar)
+268.098684807	| D:maj(9) | D:maj/5 A:maj |, (flute)
+274.13478458	B, verse, | D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+286.000181405	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+298.055759637	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+310.053469387	fadeout, | D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |
+321.944671201	| D:maj(9) | D:maj/5 A:maj | D:maj(9) | D:maj/5 A:maj |, guitar)
+336.248163265	silence
+341.76	end

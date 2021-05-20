@@ -1,0 +1,29 @@
+# title: Eleanor Rigby
+# artist: Ray Charles
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.255419501	A', intro, | E:min | E:min |, (strings)
+4.757641723	B, verse, | E:min | E:min | C:7 | C:7 E:min |, (voice
+13.258594104	| E:min | E:min | C:7 | C:7 E:min |
+21.571337868	C, chorus, | E:min7 | E:min6 | E:min(b13) | E:min |
+30.02340136	| E:min7 | E:min6 | E:min(b13) | E:min |
+38.429024943	A, interlude, | C:7 | C:7 | E:min | E:min |
+46.579229024	| A:min | A:min | E:min | E:min |
+54.915192743	B, verse, | E:min | E:min | C:7 | C:7 E:min |
+63.111836734	| E:min | E:min | C:7 | C:7 E:min |
+71.471020408	C, chorus, | E:min7 | E:min6 | E:min(b13) | E:min |
+79.667664399	| E:min7 | E:min6 | E:min(b13) | E:min |
+87.86430839	A, interlude, | C:7 | C:7 | E:min | E:min |
+95.875192743	| A:min | A:min | E:min | E:min |
+104.04861678	B, verse, | E:min | E:min | C:7 | C:7 E:min |
+112.29170068	| E:min | E:min | C:7 | C:7 E:min |
+120.511564625	C, chorus, | E:min7 | E:min6 | E:min(b13) | E:min |
+128.801088435	| E:min7 | E:min6 | E:min(b13) | E:min |
+137.113832199	A, interlude, | C:7 | C:7 | E:min | E:min |
+145.124716553	| A:min | A:min | E:min | E:min |
+153.391020408	C, chorus, | E:min7 | E:min6 | E:min(b13) | E:min |
+161.819863945	| E:min7 | E:min6 | E:min(b13) | E:min | &pause |, voice)
+176.610975056	silence
+180.323265306	end

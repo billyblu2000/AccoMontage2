@@ -1,0 +1,31 @@
+# title: I'm In Love
+# artist: Wilson Pickett
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.232199546	A, intro, | E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |, (guitar
+6.749002267	| A:maj7 . G#:min7 F#:min7 | F#:min7 B:9 |
+11.729183673	| E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |
+16.998752834	| A:maj7 . G#:min7 F#:min7 | F#:min7 B:9 |, guitar)
+22.131723356	A', verse, | E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |, (voice
+27.401337868	| A:maj7 . G#:min7 F#:min7 | F#:min7 B:9 |
+32.786893424	| E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |
+37.816349206	| A:maj7 . G#:min7 F#:min7 | F#:min7 . . G:min7 |
+42.918843537	B, pre-chorus, | G#:min7 | G#:min7 | A:maj | B:maj |
+53.238458049	C, chorus, | E:maj . G#:min7 A:maj | A:maj | F#:min7 . B:7 E:maj | E:maj |
+63.641088435	A', verse, | E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |
+68.991315192	| A:maj7 . G#:min7 F#:min7 | F#:min7 B:9 |
+74.067845804	| E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |
+79.275283446	| A:maj7 . G#:min7 F#:min7 | F#:min7 . . G:min7 |
+84.484512471	B, pre-chorus, | G#:min7 | G#:min7 | A:maj | B:maj |
+94.788072562	C, chorus, | E:maj . G#:min7 A:maj | A:maj | F#:min7 . B:7 E:maj | E:maj . F#:min7 G:min7 |, voice)
+105.22893424	B, solo, | G#:min7 | G#:min7 | A:maj | B:maj |, (guitar)
+115.374807256	A, chorus, | E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |, (voice
+120.59047619	| A:maj7 . G#:min7 F#:min7 | F#:min7 B:9 |
+125.761723356	| E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |
+130.946666666	| A:maj7 . G#:min7 F#:min7 | F#:min7 B:9 |
+136.125464852	fadeout, | E:maj6 . B:maj6/3 C#:min7 | C#:min7 E:maj |
+141.319115646	| A:maj7 . G#:min7 F#:min7 | F#:min7 B:9 |, voice)
+147.545782312	silence
+152.53430839	end

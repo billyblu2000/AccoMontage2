@@ -1,0 +1,33 @@
+# title: Goodbye Yellow Brick Road
+# artist: Elton John
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.232199546	D, intro, | F:maj C:maj/3 D:min D:min/b7 | Bb:maj C:maj F:maj . |, (piano)
+7.965714285	B, verse, | G:min7 Bb:maj C:maj . | F:maj F:maj/3 Bb:maj . |, (voice
+15.814353741	| Eb:maj C:7/3 | F:maj |
+23.754217687	| G:min7 Bb:maj C:maj . | F:maj F:maj/3 Bb:maj . |
+31.610045351	| Eb:maj C:7/3 | F:maj |
+39.4130839	C, chorus, | Bb:min Eb:maj | Ab:maj Db:maj |
+47.364603174	| Bb:min C:7 |
+51.325759637	D, chorus, | F:maj A:7 | Bb:maj F:maj |
+59.15861678	| D:7 G:min7 | C:maj . F:maj C:maj/3 |
+66.960702947	| D:min7 A:7 | (2/4) Bb:maj | Db:maj |
+76.882607709	| F:maj C:maj/3 D:min D:min/b7 | (2/4) Bb:maj C:maj |
+82.810816326	C, chorus, | Bb:min Eb:maj | Ab:maj Db:maj |
+90.792312925	| Bb:min C:7 | F:maj |
+98.700725623	B, verse, | G:min7 Bb:maj C:maj . | F:maj F:maj/3 Bb:maj . |
+106.7861678	| Eb:maj C:7/3 | F:maj |
+114.734263038	| G:min7 Bb:maj C:maj . | F:maj F:maj/3 Bb:maj . |
+122.714444444	| Eb:maj C:7/3 | F:maj |
+130.701451247	C, chorus, | Bb:min Eb:maj | Ab:maj Db:maj |
+138.763673469	| Bb:min C:7 |
+142.807324263	D, chorus, | F:maj A:7 | Bb:maj F:maj |
+150.723174603	| D:7 G:min7 | C:maj . F:maj C:maj/3 |
+158.634331065	| D:min7 A:7 | (2/4) Bb:maj | Db:maj |
+168.510544217	| F:maj C:maj/3 D:min D:min/b7 | (2/4) Bb:maj C:maj |
+174.352539682	C, chorus, | Bb:min Eb:maj | Ab:maj Db:maj |
+182.339501133	| Bb:min C:7 | F:maj |, voice)
+192.725623582	silence
+194.742857142	end

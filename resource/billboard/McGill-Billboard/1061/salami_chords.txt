@@ -1,0 +1,38 @@
+# title: Best Of My Love
+# artist: Eagles
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.232199546	A, intro, | C:maj7 C:maj . . | C:maj7 C:maj . . | G:9 G:sus4(b7,9) . . | G:9 G:sus4(b7,9) . . |, (guitar
+11.255714285	| C:maj7 C:maj . . | C:maj7 C:maj . . | G:9 G:sus4(b7,9) . . | G:9 G:sus4(b7,9) . . |, guitar)
+22.014217687	A, verse, | C:maj7 C:maj . . | C:maj7 C:maj . . | D:min6 D:min7 . . | D:min6 D:min7 . . |, (voice
+32.772426303	| C:maj7 C:maj . . | C:maj7 C:maj . . | D:min6 D:min7 . . | D:min6 D:min7 . . |
+43.493764172	| C:maj7 C:maj . . | C:maj7 C:maj . . | D:min6 D:min7 . . | D:min7 |
+54.288412698	| E:min7 | D:min7 |, voice)
+59.638185941	| E:min7 | G:sus4(b7,9) |, (guitar)
+65.024603174	B, verse, | C:maj7 C:maj . . | C:maj7 C:maj . . | D:min6 D:min7 . . | D:min6 D:min7 . . |, (voice
+75.68430839	| C:maj7 C:maj . . | C:maj7 C:maj . . | D:min6 D:min7 . . | D:min7 |
+86.380068027	| E:min7 | D:min7 | E:min7 | D:min7 |, voice)
+97.004557823	| G:7 |, (guitar)
+99.690702947	| C:maj7 C:maj . . | D:min6 D:min7 . . |, (voice
+105.00494331	| C:maj7 C:maj . . | G:maj F:maj E:min D:sus4(b7) |
+110.42802721	C, chorus, | C:maj | C:maj | F:maj | F:maj |
+121.061179138	| C:maj | C:maj | F:maj | F:maj |
+131.617664399	| F:min6 | F:min6 | C:maj | C:maj |
+142.02786848	| F:min6 | F:min6 | D:min7 | G:7 |
+152.542879818	B, verse, | C:maj7 C:maj . . | C:maj7 C:maj . . | D:min6 D:min7 . . | D:min6 D:min7 . . |
+163.248798185	| C:maj7 C:maj . . | C:maj7 C:maj . . | D:min6 D:min7 . . | D:min6 D:min7 . . |
+173.83526077	| E:min7 | D:min7 | E:min7 | D:min7 |
+184.447437641	| G:7 |
+187.193968253	| C:maj7 C:maj . . | D:min6 D:min7 . . |
+192.57739229	| C:maj7 C:maj . . | G:maj F:maj E:min D:sus4(b7) |
+197.873832199	C, chorus, | C:maj | C:maj | F:maj | F:maj |
+208.523106575	| C:maj | C:maj | F:maj | F:maj |
+219.115918367	| C:maj | C:maj | F:maj | F:maj |
+229.532426303	| C:maj | C:maj | F:maj | F:maj |
+240.041088435	C, chorus, | C:maj | C:maj | F:maj | F:maj |
+250.510136054	fadeout, | C:maj | C:maj | F:maj | F:maj |
+260.972562358	| C:maj | C:maj | F:maj | F:maj |, voice)
+270.233832199	silence
+274.808163265	end

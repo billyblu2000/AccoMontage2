@@ -1,0 +1,29 @@
+# title: I'll Take You There
+# artist: The Staple Singers
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.417959183	A, intro, | C:maj |, (guitar
+3.195804988	| C:maj | F:maj C:maj | C:maj | F:maj C:maj |, guitar)
+12.996530612	B, verse, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, (voice
+22.433174603	| C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+31.963650793	B, pre-chorus, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+41.384195011	B, chorus, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+50.874920634	| C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+60.353492063	B, chorus, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+69.823945578	| C:maj | F:maj G:sus4(b7,9) |, voice)
+74.556712018	B, solo, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, (keyboard
+84.044376417	| C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, keyboard)
+93.397551020	B, solo, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, (guitar
+102.876077097	| C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, guitar), (harmonica)
+112.330204081	B, solo, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, (bass
+121.770204081	| C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, bass)
+131.275192743	B, chorus, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, (voice
+140.586938775	| C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+149.992743764	B, chorus, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+159.381768707	| C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+168.831519274	B, chorus, fadeout, | C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |
+178.287981859	| C:maj | F:maj G:sus4(b7,9) | C:maj | F:maj G:sus4(b7,9) |, voice)
+191.279319727	silence
+194.748140589	end

@@ -1,0 +1,30 @@
+# title: Tenderness
+# artist: General Public
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.278639455	A, intro, | F:maj | F:maj | C:maj | G:maj |, (synthesizer
+6.70201814	| F:maj | F:maj | C:maj | G:maj | F:maj | F:maj | C:maj | G:maj |, synthesizer)
+17.332585034	B, verse, | F:maj | F:maj | C:maj | G:maj | F:maj | F:maj | C:maj | G:maj |, (voice
+27.920975056	| F:maj | F:maj | C:maj | G:maj | F:maj | F:maj | C:maj | G:maj |
+38.481836734	C', trans, | F:maj | F:maj | C:maj | G:maj |, (guitar)
+43.763106575	C, chorus, | F:maj6/9 | F:maj | C:maj | G:maj |, (voice)
+48.998662131	B, verse, | F:maj | F:maj | C:maj | G:maj | F:maj | F:maj | C:maj | G:maj |
+59.485215419	| F:maj | F:maj | C:maj | G:maj | F:maj | F:maj | C:maj | G:maj |
+69.847823129	D, bridge, | E:min | E:min | F:maj | G:maj | E:min | E:min | A:min | G:maj |
+80.498072562	| E:min | E:min | F:maj | G:maj | E:min | E:min | A:min | G:maj |
+91.058276643	C, chorus, | F:maj6/9 | F:maj | C:maj | G:maj | F:maj6/9 | F:maj | C:maj | G:maj |
+101.708752834	D', bridge, | E:min | E:min | F:maj | F:maj | G:maj | G:maj | F:maj | F:maj |
+112.275487528	| E:min | E:min | F:maj | F:maj | G:maj | G:maj | G:maj | (2/4) G:maj | Bb:maj7 | Bb:maj7 |, voice)
+124.993197278	C', trans, | F:maj | F:maj | C:maj | G:maj | x2, (guitar)
+135.770453514	C, chorus, | F:maj6/9 | F:maj | C:maj | G:maj | x2, (voice
+146.529115646	D, bridge, | E:min | E:min | F:maj | G:maj | E:min | E:min | A:min | G:maj |
+157.296621315	| E:min | E:min | F:maj | G:maj | E:min | E:min | A:min | G:maj |
+167.969047619	C, chorus, | F:maj6/9 | F:maj | C:maj | G:maj | F:maj6/9 | F:maj | C:maj | G:maj |
+178.678208616	| F:maj6/9 | F:maj | C:maj | G:maj | F:maj6/9 | F:maj | C:maj | G:maj |
+189.327301587	fadeout, | F:maj6/9 | F:maj | C:maj | G:maj | F:maj6/9 | F:maj | C:maj | G:maj |
+199.924149659	| F:maj6/9 | F:maj | C:maj | G:maj | F:maj6/9 | F:maj | C:maj | G:maj |
+210.505124716	| F:maj6/9 | F:maj | C:maj | G:maj |, voice)
+213.99510204	silence
+217.312653061	end

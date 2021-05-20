@@ -1,0 +1,48 @@
+# title: Need You Tonight
+# artist: INXS
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.310204081	A, intro, | N | N | N | N |, (drums 
+4.746938775	| N | N |, (voice), drums)
+9.171995464	B, intro, | C:maj | Eb:maj G:min/5 C:min . |, (guitar
+13.579591836	| C:maj | Eb:maj G:min/5 C:min . |, guitar) 
+17.998367346	C, verse, | C:maj | F:5(b7) |, (voice
+22.41015873	| C:maj | F:5(b7) |
+26.824489795	| C:maj | F:5(b7) |
+31.248253968	| C:maj | F:5(b7) |
+35.662947845	| C:maj | F:5(b7) |
+40.080544217	B, chorus, | C:maj | Eb:maj G:min/5 C:maj . |
+44.496439909	| C:maj | Eb:maj G:min/5 C:maj . |
+48.927346938	| C:maj | Eb:maj G:min/5 C:maj . |
+53.328367346	| C:maj | Eb:maj G:min/5 C:maj . |
+57.744535147	C, verse, | C:maj | F:5(b7) |
+62.169319727	| C:maj | F:5(b7) |
+66.583219954	| C:maj | F:5(b7) |
+71.004421768	| C:maj | F:5(b7) |
+75.418412698	| C:maj | F:5(b7) |
+79.833106575	C', verse, | C:maj | F:5(b7) |
+84.244897959	| C:maj | F:5(b7) |
+88.669387755	| C:maj | F:5(b7) |
+93.07755102	B, chorus, | C:maj | Eb:maj G:min/5 C:min . |
+97.503492063	| C:maj | Eb:maj G:min/5 C:min . |
+101.928276643	| C:maj | Eb:maj G:min/5 C:min . |
+106.341587301	| C:maj | Eb:maj G:min/5 C:min . |
+110.753378684	C, verse, | C:maj | F:5(b7) |
+115.173877551	| C:maj | F:5(b7) |
+119.588571428	| C:maj | F:5(b7) |
+124.0061678	| C:maj | F:5(b7) |
+128.426825396	| C:maj | F:5(b7) |
+132.841360544	C', verse, | C:maj | F:5(b7) |
+137.26185941	| C:maj | F:5(b7) |
+141.551020408	| C:maj | F:5(b7) |
+146.088344671	C', verse, | C:maj | F:5(b7) |
+150.514285714	| C:maj | F:5(b7) |
+154.926439909	| C:maj | F:5(b7) |
+159.346938775	C, chorus, | C:maj | F:5(b7) |
+163.767437641	| C:maj | F:5(b7) |
+168.207959183	D, ending, | Eb:maj G:min/5 C:maj . | C:maj | F:5(b7) | C:maj | N | &pause |, voice)
+181.437823129	A, outro, | N | N |, (drums), fadeout
+188.473469387	silence
+190.275918367	end

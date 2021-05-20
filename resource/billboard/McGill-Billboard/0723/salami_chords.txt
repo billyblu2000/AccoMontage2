@@ -1,0 +1,22 @@
+# title: Maybe Tomorrow
+# artist: Badfinger
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.534058956	A, intro, | A:maj |, (guitar)
+3.785578231	B, verse, | A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj |, (voice
+16.035192743	| A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj | E:maj |
+31.188140589	B', chorus, | A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj |
+42.718367346	| A:maj A:maj7/7 | F#:min | B:min G:maj | (2/4) E:maj | A:maj |
+56.09941043	B, verse, | A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj |
+67.962244897	| A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj | E:maj |
+82.623129251	B', chorus, | A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj |
+94.04956916	| A:maj A:maj7/7 | F#:min | B:min G:maj | (2/4) E:maj | A:maj |
+107.258163265	B, verse, | A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj |
+118.979591836	| A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj | E:maj |
+133.362222222	B'', chorus, | A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj |
+144.70739229	| A:maj A:maj7/7 | F#:min | B:min G:maj | E:maj A:maj |
+155.863015873	C, outro, | A:maj A:maj7/7 | F#:min | D:maj | A:maj |, voice)
+169.319909297	silence
+169.460068027	end

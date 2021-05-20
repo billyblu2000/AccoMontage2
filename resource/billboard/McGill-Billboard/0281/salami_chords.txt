@@ -1,0 +1,38 @@
+# title: There's the Girl
+# artist: Heart
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.387755102	Z
+2.044897959	C, intro, | B:min | F#:min7 | G:maj6 | A:maj(9) |
+9.439455782	| B:min | F#:min7 | G:maj6 | A:maj(9) | A:maj(9) |
+18.754603174	A, verse, | B:min | G:maj A:maj | B:min | G:maj A:maj |, (voice
+26.19723356	| E:min9 | F#:min7 | B:min(11) | G:maj A:maj |
+33.66095238	| B:min | G:maj A:maj | E:min9 | F#:min7 | G:maj | A:maj |
+44.755442176	B, chorus, | B:min7 | F#:min7 | G:maj | A:maj |
+52.197006802	| B:min7 | F#:min7 | G:maj | A:maj |
+59.660272108	B, transition, | B:min7 | F#:min7 | G:maj | A:maj |
+67.108208616	A, verse, | B:min | G:maj A:maj | B:min | G:maj A:maj |
+74.54324263	| E:min9 | F#:min7 | B:min(11) | G:maj A:maj |
+81.95893424	| B:min | G:maj A:maj | E:min9 | F#:min7 | G:maj | A:maj |
+93.085419501	B, chorus, | B:min7 | F#:min7 | G:maj | A:maj |
+100.543854875	| B:min7 | F#:min7 | G:maj | A:maj |
+107.936054421	| B:min7 | F#:min7 | G:maj | A:maj |
+115.366938775	| B:min7 | F#:min7 | G:maj | A:maj |
+122.870498866	B, transition, | B:min7 | F#:min7 | G:maj | A:maj |
+130.273968253	| B:min7 | F#:min7 | G:maj | A:maj |
+137.752653061	D, bridge, | E:min9 | D:maj/3 | G:maj | A:maj |
+145.17031746	| E:min9 | D:maj/3 | G:maj | A:maj | A:maj |
+154.395374149	B, chorus, | B:min7 | F#:min7 | G:maj | A:maj |
+161.875646258	| B:min7 | F#:min7 | G:maj | A:maj |
+169.291111111	| B:min7 | F#:min7 | G:maj | A:maj |
+176.738390022	| B:min7 | F#:min7 | G:maj | A:maj |
+184.175442176	B, transition, | B:min7 | F#:min7 | G:maj | A:maj |
+191.63648526	| B:min7 | F#:min7 | G:maj | A:maj |
+199.054920634	B, outro, | B:min7 | F#:min7 | G:maj | A:maj |
+206.515941043	| B:min7 | F#:min7 | G:maj | A:maj |
+213.910975056	fadeout, | B:min7 | F#:min7 | G:maj | A:maj |
+221.40340136	| B:min7 | F#:min7 | G:maj | A:maj |, voice)
+233.997959183	silence
+235.389387755	end

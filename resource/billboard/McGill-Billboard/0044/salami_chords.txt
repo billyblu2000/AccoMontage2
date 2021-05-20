@@ -1,0 +1,47 @@
+# title: Some Like It Hot
+# artist: The Power Station
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.618231292	A, intro, | N | N | N | N | N | N | N | N |, (drum kit)
+16.668956916	| D:1 | D:1 | D:1 | D:1 |, (bass guitar
+24.252857142	| D:1 | D:1 | D:1 | D:1 |, bass guitar)
+31.904058956	B, verse, | E:min | E:min | E:min | E:min |, (voice
+39.685124716	| E:min | E:min | E:min | E:min |
+47.355351473	| E:min | E:min | E:min | E:min |
+55.011746031	| E:min | E:min | E:min | E:min |
+62.60292517	C, pre-chorus, | C:maj | D:maj | E:min | E:min |
+70.277256235	| C:maj | D:maj | E:min | E:min |
+77.912517006	D, chorus, | E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+85.613809523	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+93.282607709	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+100.899206349	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+108.536417233	B, verse, | E:min | E:min | E:min | E:min |
+116.207256235	| E:min | E:min | E:min | E:min |
+123.853832199	| E:min | E:min | E:min | E:min |
+131.532426303	| E:min | E:min | E:min | E:min |
+139.197460317	C, pre-chorus, | C:maj | D:maj | E:min | E:min |
+146.846780045	| C:maj | D:maj | E:min | E:min |
+154.474263038	D, chorus, | E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+162.126689342	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+169.798662131	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+177.405532879	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |, voice)
+185.06446712	B, interlude, | E:min | E:min | E:min | E:min |
+192.726077097	| E:min | E:min | E:min | E:min |
+200.372562358	B, solo, | E:min | E:min | E:min | E:min |, (electric guitar
+208.089024943	| E:min | E:min | E:min | E:min |
+215.733854875	| E:min | E:min | E:min | E:min |
+223.351179138	| E:min | E:min | E:min | E:min |, electric guitar)
+231.041927437	C, pre-chorus, | C:maj | D:maj | E:min | E:min |, (voice
+238.628321995	| C:maj | D:maj | E:min | E:min |
+246.259909297	D, chorus, | E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+253.986916099	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+261.685464852	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+269.355873015	| E:min | C:maj D:sus4 | E:min | C:maj D:sus4 |
+276.965646258	D', outro, | E:min | E:min | E:min | E:min |
+284.596780045	| E:min | E:min | E:min | E:min |
+292.264897959	| E:min | E:min | E:min | E:min |
+299.895578231	| E:min | E:min |, voice)
+304.167097505	silence
+305.841632653	end

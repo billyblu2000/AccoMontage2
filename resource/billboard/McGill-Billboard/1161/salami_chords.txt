@@ -1,0 +1,18 @@
+# title: Daddy's Home
+# artist: Cliff Richard
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.278639455	A, intro, | E:maj C#:min7 | F#:min7 B:7 | E:maj F:maj | E:maj . F#:min7 B:7 |, (keyboard)
+18.082947845	A, verse, | E:maj7 C#:min7 | F#:min7 B:7 | x4, (voice
+52.361655328	A, verse, | E:maj7 C#:min7 | F#:min7 B:7 | x3
+78.631315192	| E:maj F:maj | E:7 |
+87.325056689	B, bridge, | A:maj B:7 | E:maj7 | x2
+104.767006802	| A:maj B:7 | E:maj7 E:maj/7 C#:min . |
+113.405442176	| F#:7 F#:7/b7 F#:7/13 F#:7/5 | B:7 B:7/b7 B:7/13 B:7/5 |
+121.951587301	A, verse, | E:maj7 C#:min7 | F#:min7 B:7 | x3
+148.147845804	| E:maj7 C#:min7 | F#:min7 . B:9 B:7(b9) | &pause |
+158.754829931	| E:maj7 |, voice)
+176.789115646	silence
+180.819591836	end

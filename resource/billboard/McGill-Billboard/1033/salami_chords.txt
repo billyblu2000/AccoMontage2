@@ -1,0 +1,35 @@
+# title: Goin' Back
+# artist: The Byrds
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.325079365	A, intro, | E:maj | E:maj | E:maj | E:maj |
+8.730907029	A, verse, | E:maj | E:maj | D:maj6/9 | D:maj6/9 |, (voice
+17.140113378	| E:maj | E:maj |
+21.349637188	| E:maj | E:maj | D:maj6/9 | D:maj6/9 |
+29.695827664	| E:maj | E:maj |
+33.88095238	B, chorus, | C#:min | C#:min | G#:min | G#:min |
+42.088979591	| C#:min | C#:min | E:maj | E:maj |
+50.244535147	| A:maj | B:sus4 | E:maj | E:maj |
+58.442199546	| A:maj | B:sus4 | E:maj | E:maj |
+66.623877551	A, verse, | E:maj | E:maj | D:maj6/9 | D:maj6/9 |
+74.999070294	| E:maj | E:maj |
+79.128911564	| E:maj | E:maj | D:maj6/9 | D:maj6/9 |
+87.48786848	| E:maj | E:maj |
+91.723129251	B, chorus, | C#:min | C#:min | G#:min | G#:min |
+99.796780045	| C#:min | C#:min | E:maj | E:maj |
+108.020430839	| A:maj | B:sus4 | E:maj | E:maj |
+116.346439909	| A:maj | B:sus4 | E:maj | E:maj |, voice)
+124.564535147	C, interlude, | A:sus4 | B:sus4 | E:maj | E:maj |
+132.763990929	| A:sus4 | B:sus4 | E:maj | E:maj |
+140.97585034	B, chorus, | C#:min | C#:min | G#:min | G#:min |, (voice
+149.121315192	| C#:min | C#:min | E:maj | E:maj |
+157.287800453	| A:maj | B:sus4 | E:maj | E:maj |
+165.495668934	| A:maj | B:sus4 | B:sus4 | B:sus4 |, voice)
+174.194263038	C', outro, | A:sus4 | B:sus4 | E:maj | E:maj |
+182.381972789	| A:sus4 | B:sus4 | E:maj | E:maj |
+190.667165532	| C#:min | C#:min | G#:min | G#:min |
+198.853968253	fadeout, | C#:min | C#:min | E:maj | E:maj |
+205.357278911	silence
+207.960816326	end

@@ -1,0 +1,36 @@
+# title: Maniac
+# artist: Michael Sembello
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.319274376	A, intro, | N | N | N | N | x2, (drums)
+12.69861678	B, intro, | Cb:maj7(#11) | Db:11 | Eb:min7 | Eb:min11 | x2, (synthesiser)
+24.895170068	C, verse, | Eb:min(b13) | Eb:min6 | Eb:min7 | Eb:maj9 |, (voice
+31.020362811	| Cb:maj | Db:maj/b7 | Cb:maj | Bb:sus4 Bb:maj |
+37.117619047	| Eb:min(b13) | Eb:min6 | Eb:min7 | Eb:maj9 |
+43.152879818	| Cb:maj | Db:maj/b7 | Cb:maj | Bb:sus4 Bb:maj |
+49.27217687	D, pre-chorus, | Ab:7 | Ab:7 | Bb:aug | Bb:aug |
+55.420612244	| Cb:maj | Cb:maj | Bb:sus4 | Bb:maj |
+61.527573696	B, chorus, | Cb:maj7(#11) | Db:11 | Eb:min7 | Eb:min11 | x3
+79.8892517	| Cb:maj7(#11) | Db:11 | Ab:min | Ab:min | Ab:min | Ab:min |
+88.991043083	C, verse, | Eb:min(b13) | Eb:min6 | Eb:min7 | Eb:maj9 |
+95.108344671	| Cb:maj | Db:maj/b7 | Cb:maj | Bb:sus4 Bb:maj |
+101.27031746	| Eb:min(b13) | Eb:min6 | Eb:min7 | Eb:maj9 |
+107.35478458	| Cb:maj | Db:maj/b7 | Cb:maj | Bb:sus4 Bb:maj |
+113.480090702	D, pre-chorus, | Ab:7 | Ab:7 | Bb:aug | Bb:aug |
+119.535396825	| Cb:maj | Cb:maj | Bb:sus4 | Bb:maj |
+125.646303854	B, chorus, | Cb:maj7(#11) | Db:11 | Eb:min7 | Eb:min11 | x3
+144.058458049	| Cb:maj7(#11) | Db:11 | Ab:min | Ab:min |, voice)
+150.146802721	E, interlude, | Gb:maj(11) | F:1(b5,11) | Bb:5(b7)/5 | Eb:min7 | x4, (synthesiser)
+174.613650793	C, solo, | Eb:min(b13) | Eb:min6 | Eb:min7 | Eb:maj9 |, (guitar
+180.606848072	| Cb:maj | Db:maj/b7 | Cb:maj | Bb:sus4 Bb:maj |
+186.808526077	| Eb:min(b13) | Eb:min6 | Eb:min7 | Eb:maj9 |
+192.932131519	| Cb:maj | Db:maj/b7 | Cb:maj | Bb:sus4 Bb:maj |, guitar)
+199.063628117	D, pre-chorus, | Ab:7 | Ab:7 | Bb:aug | Bb:aug |, (voice
+205.078843537	| Cb:maj | Cb:maj | Bb:sus4 | Bb:maj |
+211.354648526	B, outro, | Cb:maj7(#11) | Db:11 | Eb:min7 | Eb:min11 | x3
+229.626235827	| Cb:maj7(#11) | Db:11 | Ab:min | Ab:min |
+235.724512471	B, outro, | Cb:maj7(#11) | Db:11 | Eb:min7 | Eb:min11 | x3, fadeout, voice)
+250.193310657	silence
+252.682448979	end

@@ -1,0 +1,30 @@
+# title: I Never Loved A Man
+# artist: Aretha Franklin
+# metre: 3/4
+# tonic: F
+
+0.0	silence
+0.232199546	A', intro, | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj |, (organ)
+8.409387755	A, verse, | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj |, (voice
+16.253968253	| F:7 . Bb:maj | F:7 . Bb:maj | C:7 | C:7 |
+24.291814058	| F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj |
+32.230204081	| F:7 . Bb:maj | F:7 . Bb:maj | C:7 | C:7 |
+40.195782312	B, chorus, | C:7 | C:7 | C:7 | C:7 |
+48.144285714	| F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | C:7 |
+56.083854875	| N | N |
+60.076077097	| F:7 . Bb:maj | F:7 . Bb:maj |
+64.058435374	A, verse, | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj |
+72.130294784	| F:7 . Bb:maj | F:7 . Bb:maj | C:7 | C:7 |
+80.131269841	| F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj |
+88.210362811	| F:7 . Bb:maj | F:7 . Bb:maj | C:7 | C:7 |
+96.251360544	B, chorus, | C:7 | C:7 | C:7 | C:7 |
+104.186712018	| F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | C:7 |
+112.275079365	| N | N |
+116.345396825	| F:7 . Bb:maj | F:7 . Bb:maj |
+120.300975056	C, bridge, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+128.214875283	| F:7 | F:7 | C:7 | C:7 | C:7 | C:7 |
+140.062448979	| Bb:maj | Ab:maj | F:7 . Bb:maj | F:7 . Bb:maj |
+147.83047619	A', outro, | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj |
+155.603605442	fadeout, | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj | F:7 . Bb:maj |, voice)
+159.49786848	silence
+164.127346938	end

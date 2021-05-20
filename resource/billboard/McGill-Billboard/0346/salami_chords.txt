@@ -1,0 +1,21 @@
+# title: Living It Down 
+# artist: Freddy Fender
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.284444444	A, intro, | C:maj | F:maj | C:maj | G:7 |, (piano)
+12.197641723	B, chorus, | C:maj | C:7 | F:maj | F:maj |, (voice
+23.803219954	| C:maj | D:7 | D:min7 | G:7 |
+35.304920634	| C:maj | C:7 | F:maj | F:maj F#:dim7 |
+46.984263038	| C:maj/5 | G:7 | F:maj | C:maj G:7 |
+58.606462585	B, verse, | C:maj | C:7 | F:maj | F:maj |
+70.240204081	| C:maj | D:7 | D:min7 | G:7 |
+81.855782312	| C:maj | C:7 | F:maj | F#:dim7 |
+93.436235827	| C:maj/5 | G:7 | F:maj | C:maj |
+105.124036281	B, chorus, | C:maj | C:7 | F:maj | F:maj |
+116.686575963	| C:maj | D:7 | D:min7 | G:7 |
+128.324920634	| C:maj | C:7 | F:maj | F:maj F#:dim7 |
+139.807324263	| C:maj/5 | G:7 | F:maj | C:maj |, voice)
+153.382993197	silence
+155.89877551	end

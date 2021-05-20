@@ -1,0 +1,28 @@
+# title: I Want You To Want Me
+# artist: Cheap Trick
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.255419501	Z, applause
+7.476825396	A, intro, | * | * | * | * | * | * | * | * |, (drums)
+16.930430839	B, | A:maj | A:maj | A:maj | A:maj | G:maj | D:maj | A:maj | A:maj |, (guitar)
+26.308526077	C, verse, | A:maj | A:maj | A:maj | A:maj/7 | F#:min | F#:min | F#:min | F#:min7/b7 | D:maj | D:maj | D:maj | D:maj/7 |, (voice
+40.220521541	| A:maj | A:maj | A:maj | A:maj/7 | F#:min | F#:min | F#:min | F#:min7/b7 | D:maj | D:maj | D:maj | D:maj/7 |
+54.082471655	| A:maj | A:maj | A:maj | A:maj/7 | F#:min | B:7 | G:maj | A:maj A:maj/7 | F#:min | B:maj | G:maj | G:maj | F#:min | F#:min |
+70.226575963	D, chorus, | A:maj | A:maj | E:maj | E:maj | F#:min | F#:min | D:maj | D:maj |
+79.524013605	| A:maj | A:maj | E:maj | E:maj | F#:min | F#:min | D:maj | D:maj |
+88.886734693	C, verse, | A:maj | A:maj | A:maj | A:maj/7 | F#:min | F#:min | F#:min | F#:min7/b7 | D:maj | D:maj | D:maj | D:maj/7 |
+102.905578231	| A:maj | A:maj | A:maj | A:maj/7 | F#:min | B:7 | G:maj | A:maj A:maj/7 | F#:min | B:maj | G:maj | G:maj | F#:min | F#:min |
+119.205578231	D, chorus, | A:maj | A:maj | E:maj | E:maj | F#:min | F#:min | D:maj | D:maj |
+128.533015873	| A:maj | A:maj | E:maj | E:maj | F#:min | F#:min | D:maj | D:maj |
+137.835419501	solo, | A:maj | A:maj | E:maj | E:maj | F#:min | F#:min | D:maj | D:maj |
+147.199455782	| A:maj | A:maj | E:maj | E:maj | F#:min | F#:min | D:maj | D:maj |
+156.549387755	| A:maj | A:maj | E:maj | E:maj | F#:min | F#:min | D:maj | D:maj |
+165.859954648	C, verse, | A:maj | A:maj | A:maj | A:maj/7 | F#:min | F#:min | F#:min | F#:min7/b7 | D:maj | D:maj | D:maj | D:maj/7 |
+179.755034013	| A:maj | A:maj | A:maj | A:maj/7 |
+184.311043083	E, outro, | A:maj | N | N | N | N | N | N | N |
+193.631315192	| N | N | N | N | N | N | N | N |, voice)
+202.946417233	B, | A:maj | A:maj | A:maj | A:maj | G:maj | D:maj | A:maj | A:maj |, (guitar)
+218.895283446	Z, applause
+223.712653061	end

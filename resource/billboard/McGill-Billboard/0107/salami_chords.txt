@@ -1,0 +1,31 @@
+# title: Sweet Home Alabama
+# artist: Lynyrd Skynyrd
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.146938775	Z
+2.840816326	A, intro, | D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |, (guitar
+12.715918367	| D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |, guitar)
+22.507278911	A, verse, | D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |, (voice
+32.32786848	| D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |, voice)
+42.099047619	A, solo, | D:maj C:maj | G:maj | D:maj C:maj | G:maj |, (guitar)
+52.053446712	A, verse, | D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |, (voice
+61.817052154	| D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |
+71.540498866	A, chorus, | D:maj C:maj(9) | G:maj . . C:5 | D:maj C:maj(9) | G:maj C:5 |
+81.4092517	| D:maj C:maj(9) | G:maj . . C:5 | D:maj C:maj(9) | G:maj . F:maj C:maj/3 |, voice)
+91.389977324	A, solo, | D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |, (guitar)
+101.095170068	A, verse, | D:maj C:maj(9) | G:maj . F:maj C:maj | D:maj C:maj(9) | G:maj |, (voice
+111.015532879	| D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |
+120.849977324	A, chorus, | D:maj C:maj(9) | G:maj . . C:5 | D:maj C:maj(9) | G:maj C:5 |
+130.798185941	| D:maj C:maj(9) | G:maj . . C:5 | D:maj C:maj(9) | G:maj |, voice)
+140.573968253	A, solo, | D:maj C:maj | G:maj | D:maj C:maj | G:maj | x5, (guitar)
+189.497981859	A, verse, | D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |, (voice
+199.260566893	| D:maj C:maj(9) | G:maj | D:maj C:maj(9) | G:maj |
+209.062108843	A, chorus, | D:maj C:maj(9) | G:maj . . C:5 | D:maj C:maj(9) | G:maj C:5 |
+218.91941043	| D:maj C:maj(9) | G:maj . . C:5 | D:maj C:maj(9) | G:maj . F:maj C:maj/3 |
+228.771678004	A, chorus, | D:maj C:maj(9) | G:maj . . C:5 | D:maj C:maj(9) | G:maj C:5 |
+238.581065759	| D:maj C:maj(9) | G:maj . . C:5 | D:maj C:maj(9) | G:maj |, voice)
+248.346394557	A, outro, | D:maj C:maj | G:maj | D:maj C:maj | G:maj | x4, fadeout, (piano)
+282.990997732	silence
+283.533061224	end

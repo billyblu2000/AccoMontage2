@@ -1,0 +1,31 @@
+# title: You Can't Judge A Book By The Cover
+# artist: Bo Diddley
+# tonic: Ab
+# metre: 4/4
+
+0.0	silence
+0.371519274	A, intro, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+8.828390022	B, verse, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |, (voice
+17.232403628	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+25.625147392	C, chorus, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+33.953628117	| Eb:maj | Db:maj | Ab:maj | Ab:maj |, voice)
+42.399682539	A, trans, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+50.750907029	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+59.159591836	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+67.477301587	| Ab:maj | Ab:maj |
+71.703197278	B, verse, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |, (voice
+80.152358276	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+88.552947845	C, chorus, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+96.921088435	| Eb:maj | Db:maj | Ab:maj | Ab:maj |, voice)
+105.326780045	A, trans, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+113.750272108	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+122.175487528	B, verse, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |, (voice
+130.601065759	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+138.96340136	C, chorus, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+147.403650793	| D:maj | Db:maj | Ab:maj | Ab:maj |, voice)
+155.824149659	A, solo, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |, (guitar
+164.099160997	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+172.471405895	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+180.825147392	fadeout, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |, guitar)
+187.477913832	silence
+190.772244897	end

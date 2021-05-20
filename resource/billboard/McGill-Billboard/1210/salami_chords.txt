@@ -1,0 +1,32 @@
+# title: Lovers Who Wander
+# artist: Dion
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.417959183	A, intro, | C:maj | C:maj |, (voice
+5.884965986	| A:min | A:min |
+10.843900226	| F:maj | F:maj |
+14.745691609	| G:maj | N |
+18.983129251	B, chorus, | C:maj | C:maj | A:min | A:min |
+25.314331065	| F:maj | F:maj | G:maj | N |
+31.828299319	B, verse, | C:maj | C:maj | A:min | A:min |
+38.242721088	| F:maj | F:maj | G:maj | N |
+44.740839002	B, chorus, | C:maj | C:maj | A:min | A:min |
+51.213628117	| F:maj | F:maj | G:maj | N |
+57.759433106	C, bridge, | F:maj | F:maj | C:maj | C:maj |
+64.202471655	| D:maj | D:maj | G:maj | N |
+70.755034013	B, verse, | C:maj | C:maj | A:min | A:min |
+77.226326530	| F:maj | F:maj | G:maj | N |
+83.770158730	B, chorus, | C:maj | C:maj | A:min | A:min |
+90.261315192	| F:maj | F:maj | G:maj | N |
+96.787482993	C, bridge, | F:maj | F:maj | C:maj | C:maj |
+103.218072562	| D:maj | D:maj | G:maj | N |
+109.715623582	B, verse, | C:maj | C:maj | A:min | A:min |
+116.233809523	| F:maj | F:maj | G:maj | N |
+122.755306122	B, chorus, | C:maj | C:maj | A:min | A:min |
+129.161995464	| F:maj | F:maj | G:maj | G:maj |
+135.578684807	B', outro, fadeout, | C:maj | C:maj | A:min | A:min |
+142.013696145	| F:maj | F:maj | G:maj | G:maj |, voice)
+149.675260770	silence
+152.015034013	end

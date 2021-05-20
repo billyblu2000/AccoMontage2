@@ -1,0 +1,35 @@
+# title: I Got Stripes
+# artist: Johnny Cash
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.348299319	A, intro, | Cb:maj | Db:maj | Db:maj |, (guitar)
+3.931269841	B, verse, | Db:maj | Db:maj | Ab:maj | Ab:maj |, (voice
+8.662993197	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+13.244648526	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+17.89941043	| Ab:maj | Ab:maj | Ab:maj | Db:maj |
+22.486145124	C, chorus, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+27.157120181	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+31.739614512	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+36.507505668	| Ab:maj | Ab:maj | Ab:maj | Db:maj |
+41.213038548	B, verse, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+45.818390022	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+50.439501133	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+55.110589569	| Ab:maj | Ab:maj | Ab:maj | Db:maj |
+59.668344671	C, chorus, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+64.316145124	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+68.844716553	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+73.54941043	| Ab:maj | Ab:maj | Ab:maj | Db:maj |, voice)
+# tonic: Eb
+78.145873015	D, modulation, | Eb:maj | Eb:maj |, (guitar)
+80.47462585	B, verse, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |, (voice
+85.10478458	| Bb:maj | Bb:maj | Eb:maj | Eb:maj |
+89.714693877	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+94.228798185	| Bb:maj | Bb:maj | Bb:maj | Eb:maj |
+98.858231292	C, chorus, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+103.542766439	| Bb:maj | Bb:maj | Eb:maj | Eb:maj |
+108.054081632	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+112.785578231	| Bb:maj | Bb:maj | Bb:maj | Eb:maj |, voice)
+122.069319727	silence
+125.309387755	end

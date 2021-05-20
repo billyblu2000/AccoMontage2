@@ -1,0 +1,37 @@
+# title: I Just Can't Stop Loving You
+# artist: Michael Jackson
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.467301587	A, intro-a, | C:5 | C:5 C:sus4(b7,9) | C:sus4(b7,9) | C:5 | C:5 |, (synthesiser
+13.789931972	| C:5(b7) | C:5(b7) C:5(13) | C:5(13) | C:5 | (2/4) C:5 |, synthesiser)
+24.427392290	B, intro-b, | C:5 | C:5 | C:5 | C:5 |
+34.077369614	C, verse, | C:maj(9) | C:maj(9) | G:min7 | G:min7 |, (voice
+43.618163265	| C:maj(9) | C:maj(9) | G:min7 | G:min7 |
+53.237052154	D, pre-chorus, | F:maj9 | F:maj9 | F:min | A:min |
+62.820634920	| Bb:maj(9) | Bb:maj(9) | Eb:maj9 | G:11 |
+72.429591836	C', verse, | C:maj(9) | C:maj(9) | G:min7 | G:min7 |
+81.988321995	| C:maj(9) | C:maj(9) | G:min7/11 | G:min7/11 |
+91.540362811	D, pre-chorus, | F:maj9 | F:maj9 | F:min | A:min |
+101.211995464	| Bb:maj(9) | Bb:maj(9) | Eb:maj9 | G:11 |
+110.760589569	E, chorus, | G:min7 | C:maj | G:min7 | C:maj |
+120.347687074	| G:min7 | F:min7 Eb:maj7 | G:11 | G:11 |
+129.952403628	B', interlude, | C:5 | C:sus4 C:maj |
+134.677006802	C', verse, | C:maj(9) | C:maj(9) | G:min7 | G:min7 |
+144.288321995	| C:maj(9) | C:maj(9) | G:min7/11 | G:min7/11 |
+153.921269841	D, pre-chorus, | F:maj9 | F:maj9 | F:min | A:min |
+163.508004535	| Bb:maj(9) | Bb:maj(9) | Eb:maj9 | G:11 |
+173.074965986	E, chorus, | G:min7 | C:maj | G:min7 | C:maj |
+182.647551020	| G:min7 | F:min7 Eb:maj7 | G:11 | G:11 |
+192.242630385	B'', interlude, | C:maj |
+# tonic: Db
+194.661541950	F, bridge, | Bb:11 | Eb:maj7 | Db:11 | Gb:maj7 |
+204.228253968	| B:11 | E:maj7 | Ab:min7 | Ab:min7 Db:maj |
+213.800884353	E', chorus, | Ab:min7 | Db:maj | Ab:min7 | Db:maj |
+223.403854875	| Ab:min7 | Gb:min7 Fb:maj7 | Ab:11 |
+230.527369614	fadeout, | Ab:min7 | Db:maj | Ab:min7 | Db:maj |
+240.166575963	| Ab:min7 | Gb:min7 Fb:maj7 | Ab:11 |
+247.451428571	| Ab:min7 | Db:maj |, voice)
+250.207596371	silence
+253.587755102	end

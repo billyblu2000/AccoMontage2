@@ -1,0 +1,30 @@
+# title: California Nights
+# artist: Leslie Gore
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.348299319	A, intro, | F:min | F:min | Gb:maj/5 | Gb:maj/5 |, (guitar
+8.548639455	| E:maj | E:maj | C:maj | C:maj |, guitar)
+16.545011337	B, verse, | F:maj/5 | C:maj7 | F:maj/5 | E:min7 A:min7 |, (voice
+24.819183673	| F:maj/5 | C:maj7 | F:maj/5 | E:min7 A:min7 |
+32.92648526	| E:min7 A:min7 | D:min7 G:maj | C:sus4 C:maj C:sus4 C:maj | F:min/5 C:maj F:min/5 C:maj |
+40.8630839	C, chorus, | F:min | F:min | Gb:maj | Gb:maj |
+48.5761678	| E:maj | E:maj | C:maj | C:maj |
+56.218503401	| F:min | F:min | Gb:maj | Gb:maj |
+63.933786848	| E:maj | E:maj | C:maj | C:maj |
+71.565487528	B, verse, | F:maj/5 | C:maj7 | F:maj/5 | E:min7 A:min7 |
+79.700680272	| F:maj/5 | C:maj7 | F:maj/5 | E:min7 A:min7 |
+87.700566893	| E:min7 A:min7 | D:min7 G:maj | C:sus4 C:maj C:sus4 C:maj | F:min/5 C:maj F:min/5 C:maj |
+95.534104308	C, chorus, | F:min | F:min | Gb:maj | Gb:maj |
+103.204013605	| E:maj | E:maj | C:maj | C:maj |
+110.931519274	| F:min | F:min | Gb:maj | Gb:maj |
+118.67510204	| E:maj | E:maj | C:maj | C:maj |
+126.484671201	D, interlude, | G:7 | G:7 | G:7 | G:7 |
+134.174875283	| G:7 | G:7 | G:7 | G:7 |
+141.737777777	C, chorus, | F:min | F:min | Gb:maj | Gb:maj |
+149.391201814	| E:maj | E:maj | C:maj | C:maj |
+156.980249433	fadeout, | F:min | F:min | Gb:maj | Gb:maj |
+164.606780045	| E:maj | E:maj | C:maj | C:maj |, voice)
+167.591972789	silence
+169.501428571	end

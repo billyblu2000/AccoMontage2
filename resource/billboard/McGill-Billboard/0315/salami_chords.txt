@@ -1,0 +1,33 @@
+# title: Come And Get Your Love
+# artist: Redbone
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.348299319	A, intro, | D:1 | D:1 | D:maj | D:maj |
+10.605918367	B, verse, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |, (voice
+19.756598639	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+28.85478458	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+37.944897959	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+47.058163265	B', chorus, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+56.135034013	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |, voice)
+65.226235827	| E:min |, (guitar)
+67.493015873	B, verse, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |, (voice
+76.582902494	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+85.642675736	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+94.712630385	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+103.788253968	B', chorus, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+112.803877551	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |, voice)
+121.766802721	| E:min |, (guitar)
+124.02739229	B'', bridge, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |, (voice
+133.0792517	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+142.10893424	B', chorus, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+151.065487528	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |, voice)
+159.988435374	| E:min |, (guitar)
+162.22755102	B''', verse, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |, (voice
+171.143990929	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min | D:maj | D:maj | D:maj | D:maj |
+186.753356009	B', outro, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+195.687777777	fadeout, | E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |
+204.560045351	| E:min7 A:maj | D:maj B:min | E:min7 A:maj | D:maj B:min |, voice)
+210.851655328	silence
+214.344512471	end

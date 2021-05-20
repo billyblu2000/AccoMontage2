@@ -1,0 +1,38 @@
+# title: Caught Up In The Rapture
+# artist: Anita Baker
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.394739229	A, intro, | D:maj9 | F:maj/9 A:min7 | C:sus4(b7,9,13) | G:min7 A:sus4(b7) |, (voice
+11.170589569	| D:maj9 | F:maj/9 A:min7 | C:sus4(b7,9,13) | G:min7 A:sus4(b7) |
+21.658185941	B, verse, | D:maj7 | F#:min7 | G:maj7 | C:sus4(b7,9,13) |
+32.159637188	| D:maj7 | F#:min7 | G:maj7 | C:sus4(b7,9,13) |
+42.655056689	C, chorus, | C#:1(b3,b7,11,9) F#:7 | B:min7 E:7 | A:min D:7 | G:maj7 C:13 |
+53.173696145	| C#:1(b3,b7,11,9) F#:7 | B:min7 E:7 | A:sus4(b7,9) | A:sus4(b7,9) |
+63.761247165	D, bridge, | B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+74.257414965	| B:min7 | B:min7 | G:maj7 | E:min7 A:sus4(b7) |
+84.776643990	A, interlude, | D:maj9 | F:maj/9 A:min7 | C:sus4(b7,9,13) | G:min7 A:sus4(b7) |
+95.271473922	B, verse, | D:maj7 | F#:min7 | G:maj7 | C:sus4(b7,9,13) |
+105.783605442	| D:maj7 | F#:min7 | G:maj7 | C:sus4(b7,9,13) |
+116.285532879	C, chorus, | C#:1(b3,b7,11,9) F#:7 | B:min7 E:7 | A:min D:7 | G:maj7 C:13 |
+126.780952380	| C#:1(b3,b7,11,9) F#:7 | B:min7 E:7 | A:sus4(b7,9) | A:sus4(b7,9) |
+137.323038548	D', bridge, | B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+147.842925170	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+158.410884353	| B:min7 | B:min7 | G:maj7 | E:min7 A:sus4(b7) |
+168.867891156	A', interlude, | D:maj9 | F:maj/9 A:min7 | C:sus4(b7,9,13) | G:min7 A:sus4(b7) |
+179.350929705	| D:maj9 | F:maj/9 A:min7 | C:sus4(b7,9,13) | G:min7 A:sus4(b7) |
+189.901564625	C, chorus, | C#:1(b3,b7,11,9) F#:7 | B:min7 E:7 | A:min D:7 | G:maj7 C:13 |
+200.426870748	| C#:1(b3,b7,11,9) F#:7 | B:min7 E:7 | A:sus4(b7,9) | A:sus4(b7,9) |
+210.906848072	D'', bridge, | B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+221.450521541	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+231.944126984	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+242.510566893	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+253.051065759	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |, voice) 
+263.523265306	D, solo, | B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |, (guitar
+274.018684807	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+284.566009070	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |
+295.055963718	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |, fadeout 
+305.574603174	| B:min7 | B:min7 | G:maj7 | E:min7 F#:aug(b7) |, guitar)
+314.278888888	silence
+317.570612244	end

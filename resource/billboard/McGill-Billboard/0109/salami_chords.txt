@@ -1,0 +1,32 @@
+# title: Ma belle amie
+# artist: The tee set
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.255419501	A, intro, | D:7 |, (guitar)
+1.954013605	B, chorus, | G:maj | E:min A:maj | D:maj |, (voice
+10.500113378	| G:maj | E:min A:maj | D:maj |
+19.100907029	| C:maj | C:maj | G:maj | G:maj |
+30.758707482	| A:min | A:min | C:maj . D:sus4 D:maj | G:maj |, voice)
+42.237687074	C, trans, | Bb:maj . Eb:maj/5 Bb:maj |, (organ)
+44.841473922	D, verse, | Bb:maj . Eb:maj/5 Bb:maj | Bb:maj . Eb:maj/5 Bb:maj | Bb:maj D:min/5 | C:min/5 F:maj |, (voice
+55.857029478	| Bb:maj Bb:7 | Eb:maj Eb:min | Bb:maj Bb:maj/b7 Eb:maj/3 Eb:min/b3 | Bb:maj/5 Eb:maj |
+66.672630385	| Bb:maj Bb:maj/b7 Eb:maj/3 Eb:min/b3 | Bb:maj/5 |, voice)
+72.138276643	A, trans, | D:7 |, (guitar)
+74.849229024	B, chorus, | G:maj | E:min A:maj | D:maj |, (voice
+83.242267573	| G:maj | E:min A:maj | D:maj |
+91.739931972	| C:maj | C:maj | G:maj | G:maj |
+103.333378684	| A:min | A:min | C:maj . D:sus4 D:maj | G:maj |, voice)
+114.635963718	C, trans, | Bb:maj . Eb:maj/5 Bb:maj |, (organ)
+117.300090702	D, verse, | Bb:maj . Eb:maj/5 Bb:maj | Bb:maj . Eb:maj/5 Bb:maj | Bb:maj D:min/5 | C:min/5 F:maj |, (voice
+128.17154195	| Bb:maj Bb:7 | Eb:maj Eb:min | Bb:maj Bb:maj/b7 Eb:maj/3 Eb:min/b3 | Bb:maj/5 Eb:maj |
+139.063469387	| Bb:maj Bb:maj/b7 Eb:maj/3 Eb:min/b3 | Bb:maj/5 |, voice)
+144.448072562	A, trans, | D:7 |, (guitar)
+147.224829931	B, chorus, | G:maj | E:min A:maj | D:maj |, (voice
+155.587959183	| G:maj | E:min A:maj | D:maj |
+164.048458049	| C:maj | C:maj | G:maj | G:maj |
+175.462811791	| A:min | A:min | C:maj . D:sus4 D:maj | G:maj |
+186.81031746	| C:maj . D:sus4 D:maj | G:maj |, voice)
+195.349478458	silence
+196.911020408	end

@@ -1,0 +1,44 @@
+# title: I Got My Mind Set On You
+# artist: George Harrison
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.37755102	| N | N | N | N |
+6.887528344	A, chorus, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |, (voice
+13.285192743	| C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+19.714013605	B, verse, | E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+26.155328798	| E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+32.637052154	| E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+39.036439909	| E:maj A:maj | B:maj |
+42.249501133	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj | E:maj |
+50.305419501	A, chorus, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+56.715124716	| C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+63.142879818	C, bridge, | E:maj | A:maj | E:maj | A:maj |
+69.578344671	| E:maj | A:maj | E:maj | B:maj | B:maj |
+77.603333333	A, chorus, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+84.09600907	| C#:min G#:maj | C#:min | E:maj B:maj | E:maj B:maj |
+90.516439909	B, verse, | E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+96.943990929	| E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+103.393696145	| E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+109.801337868	| E:maj A:maj | B:maj |
+113.060226757	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj | E:maj |, voice)
+121.089138321	A, instrumental, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+127.500839002	| C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+133.924036281	A, chorus, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |, (voice
+140.372040816	| C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+146.847936507	C, bridge, | E:maj | A:maj | E:maj | A:maj |
+153.255510204	| E:maj | A:maj | E:maj | B:maj | B:maj |
+161.31154195	B, verse, | E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+167.753650793	| E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+174.19893424	| E:maj A:maj | B:maj | E:maj A:maj | B:maj |
+180.623424036	| E:maj A:maj | B:maj |
+183.830725623	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj | E:maj |
+191.882290249	A, chorus, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |, voice) 
+198.330929705	A, instrumental, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+204.768004535	A, outro, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |, (voice 
+211.228390022	| C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+217.661814058	fadeout, | C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+224.085895691	| C#:min G#:maj | C#:min | E:maj B:maj | E:maj |
+229.746938775	silence
+234.684081632	end

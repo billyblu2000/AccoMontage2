@@ -1,0 +1,48 @@
+# title: I've Been Everywhere
+# artist: Hank Snow
+# metre: 6/8
+# tonic: Db
+
+0.000000000	silence
+1.416417233	A, intro, | N Db:maj/3 | Db:dim/b3 Eb:min7 |, (piano)
+4.001179138	B, verse, | Db:maj | Db:maj | Db:maj | Db:maj |, (voice
+16.745986394	| Gb:7 | Gb:7 | Db:maj | Db:maj |
+29.486689342	| Ab:7 | Ab:7 | Db:maj |
+# metre: 2/4
+40.402721088	D, pre-chorus, | N |
+41.230657596	C, chorus, | Db:maj | Db:maj | Db:maj | Db:maj |
+45.325079365	| Gb:7 | Gb:7 | Db:maj | Db:maj |
+49.396031746	| Ab:7 | Ab:7 | Ab:7 | Db:maj | Db:maj |
+54.429931972	B', verse, | Db:maj | Db:maj | Db:maj | Db:maj |
+58.494263038	| Gb:7 | Gb:7 | Db:maj | Db:maj |
+62.502562358	| Ab:7 | Ab:7 | Db:maj | Db:maj |
+66.459977324	C, chorus, | Db:maj | Db:maj | Db:maj | Db:maj |
+70.453990929	| Gb:7 | Gb:7 | Db:maj | Db:maj |
+74.465646258	| Ab:7 | Ab:7 | Ab:7 | Db:maj | Db:maj |
+# tonic: D
+79.477052154	E, trans, | D:maj | D:maj |
+81.516326530	B'', verse, | D:maj | D:maj | D:maj | D:maj |
+85.457777777	| G:7 | G:7 | D:maj | D:maj |
+89.473990929	| A:7 | A:7 | D:maj | D:maj |
+93.439637188	C', chorus, | D:maj | D:maj | D:maj | D:maj |
+97.435351473	| G:7 | G:7 | D:maj | D:maj |
+101.475487528	| A:7 | A:7 | A:7 | D:maj | D:maj |
+# tonic: Eb
+106.471133786	E', trans, | Eb:maj | Eb:maj |
+108.485941043	B''', verse, | Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+112.451451247	| Ab:7 | Ab:7 | Eb:maj | Eb:maj |
+116.483628117	| Bb:7 | Bb:7 | Eb:maj | Eb:maj |
+120.439546485	C'', chorus, | Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+124.449251700	| Ab:7 | Ab:7 | Eb:maj | Eb:maj |
+128.528049886	| Bb:7 | Bb:7 | Bb:7 | Eb:maj | Eb:maj |
+# tonic: E
+133.495056689	E'', trans, | E:maj | E:maj |
+135.530340136	B'''', verse, | E:maj | E:maj | E:maj | E:maj |
+139.447823129	| A:7 | A:7 | E:maj | E:maj |
+143.461360544	| B:7 | B:7 | E:maj | E:maj |
+147.385170068	C''', chorus, | E:maj | E:maj | E:maj | E:maj |
+151.389024943	| A:7 | A:7 | E:maj | E:maj |
+155.354285714	| B:7 | B:7 | N | N | N |
+160.354149659	F, outro, fadeout, | E:maj | x4, voice)
+166.100204081	silence
+166.767120181	end

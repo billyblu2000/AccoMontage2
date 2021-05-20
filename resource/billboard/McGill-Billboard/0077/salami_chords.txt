@@ -1,0 +1,24 @@
+# title: Reminiscing
+# artist: Little River Band
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.325079365	A, intro, | Eb:maj | F:min9 Bb:sus4(b7) | Eb:maj | Ab:min9 Db:9 | F#:min9 B:9 | E:min9 A:9/5 |, (synth
+16.323628117	| D:maj | D:maj |, synth)
+21.386825396	B, verse, | G:maj7 | G:maj7 | C:9(13,#11) | C:9(13,#11) | B:9 | B:9 |, (voice
+36.838140589	| G:maj7 | G:maj7 | C:9(13,#11) | C:9(13,#11) | B:9 | B:9 |
+52.130657596	C, chorus, | G:maj7 | Bb:9 | D:maj G:maj/5 | D:maj |
+62.324399092	B, verse, | G:maj7 | G:maj7 | C:9(13,#11) | C:9(13,#11) | B:9 | B:9 |
+77.610793650	| G:maj7 | G:maj7 | C:9(13,#11) | C:9(13,#11) | B:9 | B:9 |
+92.794535147	C, chorus, | G:maj7 | Bb:9 | D:maj G:maj/5 | D:maj |
+102.882811791	D, bridge, | G:maj7 | G:min9 | B:9 | B:9 |
+113.053968253	C, chorus, | G:maj7 | Bb:9 | D:maj G:maj/5 | D:maj |
+123.065759637	B, verse, | G:maj7 | G:maj7 | C:9(13,#11) | C:9(13,#11) | B:9 | B:9 |
+138.454104308	| G:maj7 | G:maj7 | C:9(13,#11) | C:9(13,#11) | B:9 | B:9 |
+153.582154195	C, chorus, | G:maj7 | Bb:9 | D:maj G:maj/5 | D:maj |
+163.662290249	D, bridge, | G:maj7 | G:min9 | B:9 | B:9 |
+173.776326530	C, chorus, | G:maj7 | Bb:9 | D:maj G:maj/5 | D:maj |
+183.785941043	B, outro, instrumental, fadeout, | G:maj7 | G:maj7 | C:9(13,#11) | C:9(13,#11) | B:9 | B:9 |, (trumpet)
+207.402970521	silence
+211.578117913	end

@@ -1,0 +1,47 @@
+# title: Wake Me Up Before You Go-Go
+# artist: Wham!
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.348299319	A, intro, | N . . G:7 |
+0.859138321	| C:7 | N | C:7 | N | x2
+12.654875283	B, verse, | C:maj | C:maj | D:min | C:maj |, (voice
+18.529523809	| C:maj | C:maj | D:min | C:maj |
+24.473832199	C, bridge, | D:min7 | E:min7 | F:maj | E:min7 |
+30.37170068	| D:min7 | E:min7 | F:maj | G:maj | G:maj |
+37.755646258	B, chorus, | C:maj | C:maj | D:min | C:maj |
+43.653514739	| C:maj | C:maj | D:min | C:maj |
+49.551383219	| C:maj | C:maj | D:min | C:maj |
+55.4492517	| C:maj | C:maj | E:min D:min | C:maj |
+59.861043083	D, interlude, | C:7 | F:maj/5 | C:7 | C:7 |
+65.758911564	| C:7 | F:maj/5 | C:7 | C:7 |
+71.68	B, verse, | C:maj | C:maj | D:min | C:maj |
+77.554648526	| C:maj | C:maj | D:min | C:maj |
+83.498956916	C, bridge, | D:min7 | E:min7 | F:maj | E:min7 |
+89.396825396	| D:min7 | E:min7 | F:maj | G:maj | G:maj |
+96.75755102	B, chorus, | C:maj | C:maj | D:min | C:maj |
+102.678639455	| C:maj | C:maj | D:min | C:maj |
+108.553287981	| C:maj | C:maj | D:min | C:maj |
+114.497596371	| C:maj | C:maj | E:min D:min |
+118.8861678	D, interlude, | C:7 | F:maj/5 | C:7 | C:7 |
+124.784036281	| C:7 | F:maj/5 | C:7 | C:7 |, voice)
+130.728344671	B, solo, | C:maj | C:maj | D:min | C:maj |, (horns
+136.649433106	| C:maj | C:maj | D:min | C:maj |, horns)
+142.524081632	C, bridge, | D:min7 | E:min7 | F:maj | E:min7 |, (voice
+148.445170068	| D:min7 | E:min7 | F:maj | G:maj |, voice)
+154.319818594	B, instrumental, | C:maj | C:maj | D:min | C:maj |
+160.240907029	| C:maj | C:maj | D:min | C:maj |
+166.13877551	B, chorus, | C:maj | C:maj | D:min | C:maj |, (voice
+172.013424036	| C:maj | C:maj | D:min | C:maj |
+177.911292517	| C:maj | C:maj | D:min | C:maj |
+183.832380952	| C:maj | C:maj | D:min | C:maj |
+189.753469387	B, outro, | C:maj | C:maj | D:min | C:maj |
+195.651337868	| C:maj | C:maj | D:min | C:maj |
+201.572426303	| C:maj | C:maj | D:min | C:maj |, (horns
+207.470294784	| C:maj | C:maj | D:min | C:maj |
+213.414603174	| C:maj | C:maj | D:min | C:maj |, fadeout
+219.242811791	| C:maj | C:maj | D:min | C:maj |
+225.117460317	| C:maj | C:maj | D:min | C:maj |, horns), voice)
+229.993650793	silence
+234.422857142	end

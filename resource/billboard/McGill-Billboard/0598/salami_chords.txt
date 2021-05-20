@@ -1,0 +1,16 @@
+# title: Wish Someone Would Care
+# artist: Irma Thomas
+# tonic: D
+# metre: 4/4
+
+0.0	silence
+0.208979591	A, intro, | B:min . . . | D:maj . . . | B:min . . . | D:maj . . . |
+18.662789115	B, verse, | D:maj . . . | B:min . . . | G:maj . . . | A:7 . . . |, (voice
+35.766054421	| D:maj . . . | B:min . . . | G:maj . . . | A:7 . . . |
+53.082585034	C, chorus, | D:maj . . . | B:min . . . | D:maj . . . | B:min . A:maj . |
+70.439773242	B', verse, | D:maj . . . | B:min . . . | D:maj . . . | B:min . . . |
+87.611609977	| D:maj . . . | B:min . . . | D:maj . . . | B:min . . . | G:maj . . . | A:maj . . . |
+113.800498866	C, chorus, | D:maj . . . | B:min . . . |
+122.510408163	fadeout, | D:maj . . . | B:min . . . |, voice)
+130.263945578	silence
+134.164897959	end

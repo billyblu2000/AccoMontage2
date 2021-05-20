@@ -1,0 +1,45 @@
+# title: After the Lovin'
+# artist: Engelbert Humperdinck
+# metre: 6/8
+# tonic: C
+
+0.0	silence
+0.255419501	A, intro, | A:min | E:aug | A:min | D:7 |, (synthesizer
+7.224081632	| D:min7 | E:min7 | (3/4) F:maj A:min7 . | D:maj9 |
+13.398911564	| D:maj9 | G:11 | G:11 |, synthesizer)
+17.931337868	B, verse, | C:maj | C:maj7 | C:maj6 | C:maj7 |, (voice
+24.007188208	| D:min | D:minmaj7 | D:min7 | G:maj |
+30.088072562	| D:min7 | Bb:maj/3 | G:maj/5 | G:maj |
+36.213650793	| C:maj | C:maj | G:11 | G:maj |
+42.332199546	B, verse, | C:maj | C:maj7 | C:maj6 | C:maj7 |
+48.405600907	| D:min | D:minmaj7 | D:min7 | G:maj |
+54.43063492	| D:min7 | Bb:maj/3 | G:maj/5 | G:maj |
+60.451950113	| C:maj | C:maj | C:11 | C:7 |
+66.582040816	C, transition, | F:maj7 | F:maj7 | C:maj7 | C:maj7 |
+72.705986394	| G:11 | G:11 | C:maj | C:maj7 |
+78.850362811	| A:min | E:aug | A:min | F#:hdim7/b3 |
+85.040249433	| D:min7 | G:7 | D:min7 | G:7 |
+91.316757369	B, verse, | C:maj | C:maj7 | C:maj6 | C:maj7 |
+97.483015873	| D:min | D:minmaj7 | D:min7 | G:maj |
+103.547142857	| D:min7 | Bb:maj/3 | G:maj/5 | G:maj |
+109.577528344	| A:7 | A:7 | A:7 | A:7 |
+115.779319727	D, chorus, | F:maj | F:maj | E:7 | E:7/3 |
+121.89356009	| A:min | A:minmaj7 | D:7(#11) | D:7 |
+128.135124716	| D:min7 | E:min7 | D:min7 | G:11 |
+134.393945578	| C:maj | C:maj | Ab:7 | Ab:7 |
+140.646757369	B, verse, | Db:maj | Db:maj7 | Db:maj6 | Db:maj7 |
+147.010498866	| Eb:min | Eb:minmaj7 | Eb:min7 | Ab:maj |
+153.189682539	| Eb:min7 | B:maj/b11 | Ab:maj | Ab:maj |
+159.54585034	| Bb:11 | Bb:11 | Ab:dim7/9 | Ab:dim7/9 |
+165.641564625	D, chorus, | Gb:maj7 | Gb:maj7 | F:7 | F:7 |
+171.900861678	| Bb:min | Bb:minmaj7 | Eb:9 | Eb:9 |
+178.131224489	| Eb:min7 | F:min7 | Eb:min7 | Ab:11 |
+184.418548752	| Db:maj | Db:maj | Bb:sus4(b7) | Bb:7 |
+190.541292517	E, outro, | Eb:min7 | F:min7 | Eb:min7 | Ab:11 |
+196.838843537	| Db:maj | Db:maj | Bb:min7 | Bb:7 |
+203.040430839	| Eb:min7 | F:min7 | Eb:min7 | Ab:11 |
+211.011746031	| Db:maj | F:aug | Bb:min7 | Eb:7 |, voice)
+217.317188208	| Eb:min7 | F:min7 | Db:maj/3 Ab:maj/9 | Eb:min7 Ab:11 |
+223.634376417	| Db:maj7 |, fadeout
+232.63185941	silence
+236.460408163	end

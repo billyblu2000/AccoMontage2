@@ -1,0 +1,25 @@
+# title: Tell It Like It Is
+# artist: The Neville Brothers
+# metre: 12/8
+# tonic: E
+
+0.0	silence
+0.789478458	Z
+11.447437641	A, intro, | B:aug | &pause |
+16.973786848	B, chorus, | F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj6 C#:7(b9)/3 |, (voice
+33.894603174	| F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj7 |
+50.573378684	C, verse, | G#:min | C#:min | G#:min | C#:min |
+67.227165532	| G#:min | A:maj | B:maj | B:maj |
+84.421201814	B, chorus, | F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj6 C#:7(b9)/3 |
+101.145510204	| F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj7 |
+117.725736961	C, verse, | G#:min | C#:min | G#:min | C#:min |
+134.317755102	| G#:min | A:maj | B:7 | B:maj |
+151.098820861	B', chorus, | F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj6 C#:7(b9)/3 |
+167.712222222	| F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj6 C#:7(b9)/3 |
+184.19	| F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj6 C#:7(b9)/3 |
+200.714535147	| F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj6 C#:7(b9)/3 |
+217.253469387	B', outro, | F#:min7 B:7 | F#:min7 B:7 | E:maj6 B:13 | E:maj6 C#:7(b9)/3 |
+233.595941043	| F#:min7 B:7 | E:maj7 | &pause |, voice)
+260.527891156	Z
+263.314285714	silence
+266.866938775	end

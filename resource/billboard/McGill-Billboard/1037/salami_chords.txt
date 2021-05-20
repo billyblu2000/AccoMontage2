@@ -1,0 +1,37 @@
+# title: Town Without
+# artist: Gene Pitney
+# metre: 12/8
+# tonic: B
+
+0.0	silence
+0.464399092	A, intro, | B:min(9) | E:min(9) |
+8.047278911	| G:9 | F#:sus4(b13,b7) F#:7(b13) |
+14.079387755	B, verse, | B:min | B:min |, (voice
+20.202585034	| E:min | E:min |
+26.129637188	| F#:hdim7/b5 B:7 | E:min E:min/b3 |
+32.129433106	| D:maj/5 | F#:sus4(b7) F#:7 |
+38.029750566	B, verse, | B:min | B:min(9) |, (voice
+43.984965986	| E:min | E:min(9) |
+49.926825396	| F#:hdim7/b5 B:7 | E:min E:min/b3 |
+55.879546485	| D:maj/5 A:7 | D:maj |
+61.838253968	C, bridge, | G:maj G:maj6 | G:maj G:maj6 |
+67.806303854	| G:maj | E:sus4(b7) E:7 |
+73.702063492	| A:maj A:maj6 | A:maj7 F#:min7 |
+79.737142857	| B:min E:maj | A:maj A:maj/b7 |
+85.768185941	B, verse, | B:min | B:min(11,9) |
+91.849886621	| E:min | E:min(11,9) |
+97.823106575	| F#:hdim7/b5 B:7 | E:min E:min/b3 |
+103.756689342	| D:maj/5 G:maj | F#:sus4(b7) F#:7 |
+109.816689342	| E:min/b3 A:maj | D:maj |, voice)
+115.883922902	| G:7(b13) |, (saxophone
+# tonic: C
+118.867845804	B, verse, | C:min(9) | C:min(9) |
+124.84079365	| F:min(9) | F:min |, saxophone)
+130.670657596	| G:hdim7/b5 C:7 | F:min F:min/b3 |, (voice
+136.629433106	| Eb:maj/5 | G:sus4(b7) G:7 |
+142.565782312	D, outro, | Ab:7 | G:sus4(b7) G:7 |
+148.66446712	| C:min . G:maj/3 G:min/b3 | F:maj/3 F:min/b3 G:maj . | &pause |
+158.323922902	| C:min(9) | F:min(9) |, voice)
+164.531201814	| C:maj6(7) |
+171.293605442	silence
+172.120816326	end

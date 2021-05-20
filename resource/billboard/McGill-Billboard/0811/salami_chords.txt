@@ -1,0 +1,35 @@
+# title: Let's Get Serious
+# artist: Jermaine Jackson
+# metre: 4/4
+# tonic: Bb
+
+0.000000000	silence
+0.545668934	A, intro, | Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |, (guitar
+9.537777777	| Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |
+18.192834467	| Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |, guitar)
+27.052675736	A, verse, | Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |, (voice
+35.804897959	| Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |
+44.616031746	B, pre-chorus, | Eb:min7 Db:maj/3 Eb:min/b3 Eb:7/3 | Ab:sus4(b7) Ab:7 |
+48.999909297	| Eb:min7 Db:maj/3 Eb:min/b3 Eb:7/3 | Ab:sus4(b7) F:7/3 | (2/4) F:7/3 |
+54.481814058	A, verse, | Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |
+63.172902494	| Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |
+71.934376417	B, pre-chorus, | Eb:min7 Db:maj/3 Eb:min/b3 Eb:7/3 | Ab:sus4(b7) Ab:7 |
+76.333015873	| Eb:min7 Db:maj/3 Eb:min/b3 Eb:7/3 | Ab:sus4(b7) F:7/3 | (2/4) F:7/3 |
+81.641360544	C, chorus, | Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |
+90.544399092	| Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |
+99.300136054	D, bridge, | Cb:maj7 | Bb:min7 | Cb:maj7 | Bb:min7 |
+108.060975056	| (6/4) Cb:maj7 . Bb:min7 . Ab:maj . | Gb:maj7 | F:7 |, voice)
+115.813741496	A, interlude, | Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |, (guitar)
+124.533219954	A, verse, | Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |, (voice
+133.295396825	| Bb:min7 | Eb:min7 | Bb:min7 | Bb:min7 |
+142.039342403	B, pre-chorus, | Eb:min7 Db:maj/3 Eb:min/b3 Eb:7/3 | Ab:sus4(b7) Ab:7 |
+146.387596371	| Eb:min7 Db:maj/3 Eb:min/b3 Eb:7/3 | Ab:sus4(b7) F:7/3 | (2/4) F:7/3 |
+151.887868480	C, chorus, | Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |
+160.678344671	| Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |
+169.443514739	| Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |
+178.235736961	| Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |
+187.011791383	| Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |
+195.715986394	| Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |
+204.484625850	fadeout, | Bb:min7 | Bb:min7 | Eb:min7 Db:maj Ab:maj/3 F:min7 | Bb:min7 |, voice)
+213.484263038	silence
+216.372811791	end

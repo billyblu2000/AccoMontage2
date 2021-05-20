@@ -1,0 +1,23 @@
+# title: Unchained Melody
+# artist: The Righteous Brothers
+# metre: 12/8
+# tonic: C
+
+0.0	silence
+0.371519274	A, verse, | C:maj | A:min | F:maj | G:maj |, (voice
+15.109501133	| C:maj | A:min | G:maj | G:maj |
+29.617959183	| C:maj | A:min | F:maj | G:maj |
+43.979637188	| C:maj | A:min | G:maj | G:maj |
+58.597414965	B, chorus, | C:maj | G:maj | A:min | E:min |
+73.103333333	| F:maj | G:maj | C:maj | C:7 |
+87.347619047	C, bridge, | F:maj G:maj | F:maj Eb:maj | F:maj G:maj | C:maj |
+101.897210884	| F:maj G:maj | F:maj Eb:maj | F:maj G:maj | C:maj |
+116.425691609	A, verse, | C:maj | A:min | F:maj | G:maj |
+131.261609977	| C:maj | A:min | G:maj | G:maj |
+145.66526077	| C:maj | A:min | F:maj | G:maj |
+160.494580498	| C:maj | A:min | G:maj | G:maj |
+174.974829931	B, chorus, | C:maj | G:maj | A:min | E:min |
+189.542698412	| F:maj | G:maj |, voice)
+196.865396825	| C:maj | A:min | F:maj F:min | C:maj |, (strings)
+214.900680272	silence
+218.331428571	end

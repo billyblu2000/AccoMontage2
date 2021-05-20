@@ -1,0 +1,36 @@
+# title: Have You Ever Loved Somebody
+# artist: Freddie Jackson
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.417959183	D, intro, | N | E:sus4 |
+7.229614512	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |, (synthesizer
+17.911315192	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |, synthesizer)
+28.622834467	A, verse, | E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |, (voice
+39.317528344	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 . F:maj/9 G:maj |
+50.038866213	B, pre-chorus, | C:maj7 . . D:maj/13 | A:min7 D:sus4(b7,9) | G:maj7 G:maj9 | D:min7 G:sus4(b7,9) |
+60.72340136	| A:min7 G:maj(9)/3 | C:maj7 D:sus4(b7,9) |
+66.004988662	C, chorus, | E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+76.716621315	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+87.402380952	A, verse, | E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |, (voice
+98.130068027	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 . F:maj/9 G:maj |
+108.814761904	B, pre-chorus, | C:maj7 . . D:maj/13 | A:min7 D:sus4(b7,9) | G:maj7 G:maj9 | D:min7 G:sus4(b7,9) |
+119.529455782	| A:min7 G:maj(9)/3 | C:maj7 D:sus4(b7,9) |
+124.831451247	C, chorus, | E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+135.489387755	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+146.236281179	E, bridge, | A:min7 B:min7 | E:sus4 | A:min7 B:min7 | E:sus4 |
+156.943945578	| C:min7 D:min7 | Bb:maj7 | A:sus4 | D:sus4(b7,9) |, voice)
+167.685714285	| E:min | E:min | A:min7 B:min7 | C:maj7 D:sus4(b7,9) |
+178.370612244	| E:min | E:min | A:min7 B:min7 | C:maj7 D:sus4(b7,9) |
+188.999886621	B, pre-chorus, | C:maj7 . . D:maj/13 | A:min7 D:sus4(b7,9) | G:maj7 G:maj9 | D:min7 G:sus4(b7,9) |, (voice
+199.694058956	| A:min7 G:maj(9)/3 | C:maj7 D:sus4(b7,9) |
+205.021428571	C, chorus, | E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+215.772471655	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+226.510136054	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+237.148707482	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+247.818231292	fadeout, | E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+258.524195011	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |
+269.229002267	| E:min B:min7 . . | A:min7 | C:maj7 C:maj/9 | D:maj/9 |, voice)
+274.645623582	silence
+276.845714285	end

@@ -1,0 +1,28 @@
+# title: A Hazy Shade Of Winter
+# artist: Simon And Garfunel
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.325079365	A, intro, | D:min | C:7 | Bb:7 | A:7 |, (guitar)
+6.965578231	B, verse, | D:min | D:min | C:maj | C:maj | Bb:maj | Bb:maj | F:maj/5 | F:maj/5 |, (voice
+17.009705215	| C:maj | C:maj | C:maj | C:maj |
+23.680680272	C, chorus, | D:min | C:7 | Bb:7 | A:7 |
+30.337619047	| D:min | D:min | C:maj | C:maj |
+37.088639455	| Bb:maj | Bb:maj | F:maj7 | F:maj7 |
+43.903514739	| C:maj | C:maj |
+47.372902494	C', chorus, | D:min | C:7 | Bb:7 | A:7 |
+54.195714285	| D:min7 | D:min7 | C:maj(9) | C:maj(9) |
+60.939342403	| Bb:maj(9) | Bb:maj(9) | F:maj7 | F:maj7 |
+67.864195011	| C:maj | C:maj |
+71.282267573	C'', chorus, | D:min | C:7 | Bb:7 | A:7 |
+78.082789115	| D:min | D:min | G:min | G:min |
+84.902970521	| F:maj | F:maj | C:maj | C:maj |
+91.718390022	| D:min | D:min | C:maj | C:maj |
+98.540294784	| Bb:maj | Bb:maj | F:maj7 | F:maj7 |
+105.475192743	| C:maj | C:maj |
+108.910181405	A, chorus, | D:min | C:7 | Bb:7 | A:7 |
+115.754126984	| D:min | C:7 | Bb:7 | A:7 |
+122.518458049	| D:min | C:7 | Bb:7 | A:7 |
+129.260657596	| D:min | C:7 | Bb:7 | A:7 |, voice)
+137.521814058	end

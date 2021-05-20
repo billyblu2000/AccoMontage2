@@ -1,0 +1,36 @@
+# title: Heartaches
+# artist: Bachman-Turner Overdrive
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.220589569	A, verse, | D:maj | D:maj | A:maj | A:maj |, (voice
+8.173424036	| D:maj | D:maj | A:maj | A:maj |
+16.219138321	| E:maj | E:maj | D:maj | D:maj |
+24.195192743	| A:maj | A:maj | B:maj | B:maj |
+32.182857142	B, chorus, | E:maj | G:maj . . A:maj | E:maj | G:maj . . A:maj |
+40.007981859	| E:maj | G:maj . . A:maj | B:maj | B:maj |
+47.85632653	A', verse, | D:maj | D:maj | A:maj | A:maj |
+56.006530612	| D:maj | D:maj | A:maj | A:maj |
+64.04063492	| E:maj | E:maj | D:maj | D:maj |
+72.01185941	| A:maj | A:maj | B:maj | B:maj |
+79.9230839	B, chorus, | E:maj | G:maj . . A:maj | E:maj | G:maj . . A:maj |
+87.804172335	| E:maj | G:maj . . A:maj | B:maj | B:maj |
+95.642993197	B, chorus, | E:maj | G:maj . . A:maj | E:maj | G:maj . . A:maj |
+103.502947845	| E:maj | G:maj . . A:maj | B:maj | B:maj |
+111.432562358	A', verse, | D:maj | D:maj | A:maj | A:maj |
+119.617596371	| D:maj | D:maj | A:maj | A:maj |
+127.732970521	| E:maj | E:maj | D:maj | D:maj |
+135.675238095	| A:maj | A:maj | B:maj | B:maj |
+143.602947845	B, chorus, | E:maj | G:maj . . A:maj | E:maj | G:maj . . A:maj |
+151.42893424	| E:maj | G:maj . . A:maj | B:maj | B:maj |
+159.277278911	B, chorus, | E:maj | G:maj . . A:maj | E:maj | G:maj . . A:maj |
+167.172063492	| E:maj | G:maj . . A:maj | B:maj | B:maj |
+175.020408163	B, outro, | E:maj | G:maj . . A:maj | E:maj | G:maj . . A:maj |
+182.899070294	| E:maj | G:maj . . A:maj | B:maj | B:maj |
+190.728707482	| E:maj | G:maj . . A:maj | E:maj | G:maj . . A:maj |
+198.611882086	| E:maj | G:maj . . A:maj | B:maj | B:maj |, fadeout
+206.437006802	| E:maj | G:maj . . A:maj | E:maj | G:maj . . A:maj |
+214.325986394	| E:maj | G:maj . . A:maj | B:maj | B:maj |, voice)
+231.726553287	silence
+234.135510204	end

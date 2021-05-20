@@ -1,0 +1,29 @@
+# title: Be My Guest
+# artist: Fats Domino
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.394739229	A, verse, | Bb:maj | Eb:maj | Bb:maj | F:7 |, (voice
+7.462630385	| Bb:maj | Eb:maj | Bb:maj F:7 | Bb:maj |
+13.942426303	A, verse, | Bb:maj | Eb:maj | Bb:maj | F:7 |
+20.437074829	| Bb:maj | Eb:maj | Bb:maj | F:7 Bb:maj |
+26.883038548	B, chorus, | Eb:maj | Bb:maj | F:7 | Bb:maj |
+33.410272108	| Eb:maj | Bb:maj | F:7 | Bb:maj |
+39.844172335	A, verse, | Bb:maj | Eb:maj | Bb:maj | F:7 |
+46.37	| Bb:maj | Eb:maj | Bb:maj F:7 | Bb:maj |, voice)
+52.9030839	A, instrumental, | Bb:maj | Eb:maj | F:7 | Bb:maj |
+59.501746031	| Bb:maj | Eb:maj | F:7 | Bb:maj |
+66.017528344	| Bb:maj | Eb:maj | F:7 | Bb:maj |
+72.540294784	| Bb:maj | Eb:maj | F:7 | Bb:maj |
+79.171383219	B, chorus, | Eb:maj | Bb:maj | F:7 | Bb:maj |, (voice
+85.682380952	| Eb:maj | Bb:maj | F:7 | Bb:maj |
+92.255873015	A, verse, | Bb:maj | Eb:maj | Bb:maj | F:7 |
+98.82893424	| Bb:maj | Eb:maj | Bb:maj F:7 | Bb:maj |, voice)
+105.399659863	A, instrumental, | Bb:maj | Eb:maj | F:7 | Bb:maj |
+112.012063492	| Bb:maj | Eb:maj | F:7 | Bb:maj |
+118.667414965	| Bb:maj | Eb:maj | F:7 | Bb:maj |
+125.267324263	fadeout, | Bb:maj | Eb:maj | F:7 | Bb:maj |
+131.917664399	| Bb:maj | Eb:maj | F:7 | Bb:maj |
+133.42185941	silence
+135.91510204	end

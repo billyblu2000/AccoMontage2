@@ -1,0 +1,28 @@
+# title: Brass Monkey
+# artist: Beastie Boys
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+9.2879818e-2	A, intro, | N | N | N | N |
+8.42600907	| A:1 | A:1 | A:1 | A:1 |
+16.680680272	A, chorus, | A:1 | A:1 | A:1 | A:1 |, (voice
+24.930521541	B, verse, | N | N | N | N |
+33.205442176	| N | N | N | N |
+41.432857142	| N | N | N | N |
+49.646802721	A, chorus, | A:1 | A:1 | A:1 | A:1 |
+57.926462585	B, verse, | N | N | N | N |
+66.202879818	| N | N | N | N |
+74.447029478	| N | N | N | N |
+82.659682539	A, chorus, | A:1 | A:1 | A:1 | A:1 |
+90.949229024	B, verse, | N | N | N | N |
+99.195600907	| N | N | N | N |
+107.454603174	| N | N | N | N |
+115.69893424	| N | N | N | N |
+123.927324263	A, chorus, | A:1 | A:1 | A:1 | A:1 |
+132.192131519	A, chorus, | A:1 | A:1 | A:1 | A:1 |, voice)
+140.441564625	B, verse, | N | N | N | N |
+148.70632653	| N | N | N | N |
+156.978911564	A, coda, | A:1 |, (voice)
+157.593832199	silence
+158.615510204	end

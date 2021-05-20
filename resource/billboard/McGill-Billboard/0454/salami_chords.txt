@@ -1,0 +1,24 @@
+# title: Feel Like Making Love
+# artist: Roberta Flack
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.255419501	A, verse, | F:min9 | Bb:sus4(b7,9) | Eb:maj7 | Db:7 C:7 |, (voice
+11.194988662	| F:min9 | Bb:sus4(b7,9) | Eb:maj7 | A:7(#11) |
+21.456689342	B, chorus, | Ab:maj7 | G:min7 | F:min7 | C:min |
+31.785306122	| Ab:maj7 | G:min7 | Db:7(#11) | C:min | F:7 |
+44.569115646	A, verse, | F:min9 | Bb:sus4(b7,9) | Eb:maj7 | Db:7 C:7 |
+54.856575963	| F:min9 | Bb:sus4(b7,9) | Eb:maj7 | A:7(#11) |
+65.050612244	B, chorus, | Ab:maj7 | G:min7 | F:min7 | C:min |
+75.232653061	| Ab:maj7 | G:min7 | Db:7(#11) | C:min | F:7 |
+88.068140589	A, verse, | F:min9 | Bb:sus4(b7,9) | Eb:maj7 | Db:7 C:7 |
+98.331814058	| F:min9 | Bb:sus4(b7,9) | Eb:maj7 | A:7(#11) |
+108.578185941	B, chorus, | Ab:maj7 | G:min7 | F:min7 | C:min |
+118.743061224	| Ab:maj7 | G:min7 | Db:7(#11) | C:min | F:7 |
+131.517460317	A, verse, | F:min9 | Bb:sus4(b7,9) | Eb:maj7 | Db:7 C:7 |
+141.732063492	fadeout, | F:min9 | Bb:sus4(b7,9) | Eb:maj7 | A:7(#11) |
+151.953922902	B, chorus, | Ab:maj7 | G:min7 | F:min7 | C:min |
+162.168004535	| Ab:maj7 | G:min7 | Db:7(#11) | C:min | F:7 |, voice)
+173.03510204	silence
+177.449795918	end

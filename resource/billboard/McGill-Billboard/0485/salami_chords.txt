@@ -1,0 +1,22 @@
+# title: Rich Girl
+# artist: Hall and Oates
+# metre: 4/4
+# tonic: F
+
+0.000000000	silence
+0.719818594	A, chorus, | F:maj A:min7 | D:min F:maj/5 | Bb:maj F:maj/3 | G:min7 C:11 |, (voice
+12.933514739	| F:maj A:min7 | D:min F:maj/5 | Bb:maj F:maj/3 | (2/4) G:min7 | ->, voice)
+23.215238095	B, interlude, | F:maj | F:maj |, (guitar)
+28.917619047	C, chorus b, | Bb:maj7 | G:min7 | F:maj/5 | G:min7 A:min7 D:min . |, (voice
+40.501678004	| Bb:maj7 | G:min7 | G:min7 | C:11 |
+52.101496598	A, chorus, | F:maj A:min7 | D:min F:maj/5 | Bb:maj F:maj/3 | G:min7 C:11 |
+63.669750566	| F:maj A:min7 | D:min F:maj/5 | Bb:maj F:maj/3 | G:min7 F:maj |
+75.130113378	C, chorus b, | Bb:maj7 | G:min7 | F:maj/5 | G:min7 A:min7 D:min . |
+86.589659863	| Bb:maj7 | G:min7 | G:min7 | C:11 |
+97.985192743	A, chorus, | F:maj A:min7 | D:min F:maj/5 | Bb:maj F:maj/3 | G:min7 C:11 |
+109.437346938	| F:maj A:min7 | D:min F:maj/5 | Bb:maj F:maj/3 | G:min7 . D:min F:maj/5 |
+120.822040816	A', chorus, | Bb:maj7 F:maj/3 | G:min7 F:maj |
+126.469682539	| Bb:maj7 F:maj/3 | G:min7 C:11 |
+132.141587301	fadeout, | F:maj A:min7 | D:min F:maj/5 | Bb:maj F:maj/3 | G:min7 C:11 |, voice)
+143.522539682	silence
+147.395374149	end

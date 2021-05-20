@@ -1,0 +1,29 @@
+# title: Right Here, Right Now
+# artist: Jesus Jones
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | D:5 | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj A:5/11 |
+9.35510204	| D:5 | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj A:5/11 |
+18.359183673	A, verse, | D:5 | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj A:5/11 |, (voice
+27.363265306	| D:5 | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj A:5/11 |
+36.367346938	B, prechorus, | G:maj | G:maj | G:maj | G:maj D:maj/11 E:min/b3 D:maj/b7 |
+45.379591836	A', chorus, | D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |
+54.383673469	| D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |, voice)
+63.387755102	C, interlude, | D:1 |, (synthesizer)
+65.640816326	A, verse, | D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |, (voice
+74.636734693	| D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |
+83.652993197	B, prechorus, | G:maj | G:maj | G:maj | G:maj D:maj/11 E:min/b3 D:maj/b7 |
+92.669387755	C, chorus, | D:5 | D:5 |, voice)
+97.167074829	D, solo, | D:5(b7) | D:5(b7) | D:5(b7) | D:5(b7) |, (guitar
+106.163265306	| D:5(b7) | D:5(b7) | D:5(b7) | D:5(b7) |, guitar)
+115.159183673	B, prechorus, | G:maj | G:maj | G:maj | G:maj D:maj/11 E:min/b3 D:maj/b7 |
+124.182108843	A', chorus, | D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |
+133.175510204	| D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |
+142.179591836	A', chorus, | D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |
+151.195510204	| D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |
+160.195918367	A'', chorus, | D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 |
+169.208163265	| D:maj | E:maj/b7 | E:1(b3,b7)/b7 | G:maj/5 . D:maj E:min/b7 | D:1 |, voice)
+182.718367346	silence
+185.991836734	end

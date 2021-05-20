@@ -1,0 +1,28 @@
+# title: Through The Years
+# artist: Kenny Rogers
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.487619047	A, intro, | G:maj(9) . E:sus4(9) E:min(9) | A:min7 . D:11 D:7/b7 | B:min7 E:min7 | A:min7 D:sus4(b7,9) |, (piano)
+15.137301587	B, verse, | G:maj . F#:sus4(b7) B:7 | E:min . D:min7 G:7 | C:maj(9) D:7/b7 | B:min7 D:sus4(b7,9) |, (voice
+29.711337868	| G:maj . F#:sus4(b7) B:7 | E:min . D:min7 G:7 | C:maj(9) G:maj(9)/3 | A:min7 D:sus4(b7,9) |
+44.379863945	C, chorus, | G:maj(9) . E:sus4(9) E:min(9) | A:min7 . D:11 D:maj/b7 | B:min7 E:min7 | A:min7 . D:sus4(b7,9) D:7/b7 |
+58.965691609	| B:min7 E:7 | A:min7 . D:maj D:7/b7 | B:min7 E:7(b9) | C:maj9 | A:min9 D:sus4(b7,9) |, voice)
+77.243174603	A', trans, | G:maj . E:sus4(b7) E:min7 | C:sus4(9) C:maj D:sus4(b7,9) . |, (piano)
+84.672766439	B, verse, | G:maj . F#:sus4(b7) B:7 | E:min . D:min7 G:7 | C:maj(9) D:7/b7 | B:min7 D:sus4(b7,9) |, (voice
+99.216235827	| G:maj . F#:sus4(b7) B:7 | E:min . D:min7 G:7 | C:maj(9) G:maj(9)/3 | A:min7 D:sus4(b7,9) |
+113.85770975	C, chorus, | G:maj(9) . E:sus4(9) E:min(9) | A:min7 . D:11 D:maj/b7 | B:min7 E:min7 | A:min7 . D:sus4(b7,9) D:7/b7 |
+128.496281179	| B:min7 E:7 | A:min7 . D:maj D:7/b7 | B:min7 E:7(b9) | C:maj9 | A:min9 D:sus4(b7,9) |, voice)
+146.807414965	A', trans, | G:maj | Eb:11 |, (piano)
+# tonic: Ab
+154.058321995	C, chorus, | Ab:maj(9) . F:sus4(9) F:min(9) | Bb:min7 . Eb:11 Eb:maj/b7 | C:min7 F:min7 | Bb:min7 . Eb:sus4(b7,9) Eb:7/b7 |, (voice
+168.774172335	| C:min7 F:7 | Bb:min7 . Eb:maj Eb:7/b7 | C:min7 F:7(b9) | Db:maj9 | Bb:min9 Eb:sus4(b7,9) |, voice)
+186.943854875	C, instrumental, | Ab:maj(9) . F:sus4(9) F:min(9) | Bb:min7 . Eb:11 Eb:maj/b7 | C:min7 F:min7 | Bb:min7 . Eb:sus4(b7,9) Eb:7/b7 |, (strings
+201.654172335	| C:min7 F:7 | Bb:min7 . Eb:maj Eb:7/b7 | C:min7 F:7(b9) | Db:maj9 | Bb:min9 Eb:sus4(b7,9) |, strings)
+219.881088435	C, chorus, | Ab:maj(9) . F:sus4(9) F:min(9) | Bb:min7 . Eb:11 Eb:maj/b7 | C:min7 F:min7 | Bb:min7 . Eb:sus4(b7,9) Eb:7/b7 |, (voice
+234.5692517	| C:min7 F:7 | Bb:min7 . Eb:maj Eb:7/b7 | C:min7 F:7(b9) | Db:maj9 | Bb:min9 Eb:sus4(b7,9) |, voice)
+252.881972789	C, fadeout, | Ab:maj(9) . F:sus4(9) F:min(9) | Bb:min7 . Eb:11 Eb:maj/b7 | C:min7 F:min7 | Bb:min7 . Eb:sus4(b7,9) Eb:7/b7 |, (strings
+267.549591836	| C:min7 F:7 | Bb:min7 . Eb:maj Eb:7/b7 | C:min7 F:7(b9) | Db:maj9 | Bb:min9 Eb:sus4(b7,9) |, strings)
+280.473832199	silence
+285.67510204	end

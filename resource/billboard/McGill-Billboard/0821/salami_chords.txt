@@ -1,0 +1,26 @@
+# title: Just Like Jesse James
+# artist: Cher
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.278639455	A, intro, | Ab:maj Eb:maj | Db:maj | Ab:maj Eb:maj | Db:maj |, (guitar)
+14.598072562	B, verse, | Ab:maj Eb:maj | Db:maj Eb:maj | Ab:maj Eb:maj | Db:maj Eb:maj |, (voice
+28.88217687	| Ab:maj Eb:maj | Db:maj Eb:maj | Ab:maj Eb:maj | Db:maj Eb:maj |
+43.130340136	C, pre-chorus, | F:min Ab:maj | Bb:min Db:maj | Eb:maj | Db:maj Eb:maj |
+57.295442176	D, chorus, | Ab:maj Eb:maj | Db:maj Eb:maj | Ab:maj Eb:maj | Db:maj Eb:maj |
+71.198843537	| Ab:maj Eb:maj | F:min Db:maj | Ab:maj Eb:maj | Db:maj |, voice)
+85.157482993	A', trans, | Ab:maj Eb:maj | Db:maj . . Eb:maj |, (guitar)
+92.081383219	B, verse, | Ab:maj Eb:maj | Db:maj Eb:maj | Ab:maj Eb:maj | Db:maj Eb:maj |, (voice
+105.999478458	| Ab:maj Eb:maj | Db:maj . . Eb:maj | Ab:maj Eb:maj | Db:maj Eb:maj |
+119.798526077	C, pre-chorus, | F:min Ab:maj | Bb:min Db:maj | Eb:maj | Db:maj Eb:maj |
+133.451746031	D, chorus, | Ab:maj Eb:maj | Db:maj Eb:maj | Ab:maj Eb:maj | Db:maj Eb:maj |
+147.169002267	| Ab:maj Eb:maj | F:min Db:maj | Ab:maj Eb:maj | Db:maj . . Eb:maj |, voice)
+160.672131519	A, trans, | Ab:maj Eb:maj | Db:maj . . Eb:maj | Ab:maj Eb:maj | Db:maj . . Eb:maj |, (guitar)
+174.104081632	C, pre-chorus, | F:min Ab:maj | Bb:min Db:maj | Eb:maj | Db:maj | (2/4) Db:maj |, (voice
+189.372585034	D', chorus, | Ab:maj Eb:maj | Db:maj Eb:maj | Ab:maj Eb:maj | Db:maj Eb:maj |
+202.917324263	| Ab:maj Eb:maj | F:min Db:maj | Ab:maj Eb:maj | Db:maj |
+216.302199546	| Ab:maj Eb:maj | Db:maj Eb:maj | Ab:maj Eb:maj | Db:maj Eb:maj |
+229.640385487	| Ab:maj Eb:maj/11 | Db:maj/5 Eb:maj/11 | Ab:maj |, voice)
+243.879183673	silence
+246.308571428	end

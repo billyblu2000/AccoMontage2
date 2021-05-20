@@ -1,0 +1,53 @@
+# title: Make Me Smile
+# artist: Chicago
+# metre: 4/4
+# tonic: Eb
+
+0.000000000	silence
+0.371519274	A, intro, | Ab:maj7 | Ab:maj7 | Cb:maj/5 | Cb:maj/5 |, (brass
+8.057324263	| Ab:maj7 | Ab:maj7 | Cb:maj/5 | Cb:maj/5 |
+15.702698412	B, bridge, | C:sus2/5 | C:sus2/5 |
+19.483151927	| Bb:sus4(b7) | Bb:sus4(b7) | Bb:sus4(b7) | Bb:sus4(b7) | Bb:sus4(b7) | Bb:sus4(b7) |
+30.794444444	C, transition, | E:maj7 | E:maj7 | G:maj7 | G:maj7 |
+38.450226757	| Ab:sus4 | Ab:sus4 |, brass)
+42.267097505	D, verse, | C:min | Ab:maj | Eb:maj | Bb:maj G:7 |, (voice
+49.803582766	| C:min | Ab:maj | Eb:maj | Bb:maj G:7 |
+57.380748299	E, pre-chorus, | C:min Bb:maj/3 | Eb:maj F:min | G:sus4(b7) | G:7 |
+64.986303854	F, chorus, | Eb:sus4 Eb:maj | Db:maj Ab:maj |
+68.882494331	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+72.715941043	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+76.531065759	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+80.339206349	G, refrain, | Eb:maj C:min | Bb:sus4 Bb:maj | Ab:sus4 | Ab:maj |
+88.059569160	D, verse, | C:min | Ab:maj | Eb:maj | Bb:maj G:7 |
+95.853469387	| C:min | Ab:maj | Eb:maj | Bb:maj G:7 |
+103.476077097	E, pre-chorus, | C:min Bb:maj/3 | Eb:maj F:min | G:sus4(b7) | G:7 |
+111.204512471	F, chorus, | Eb:sus4 Eb:maj | Db:maj Ab:maj |
+115.171995464	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+118.976190476	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+122.805555555	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+126.596439909	G, refrain, | Eb:maj C:min | Bb:sus4 Bb:maj | Ab:maj | B:maj |, voice)
+# tonic: E
+134.330408163	H, instrumental, | E:min7 | A:7 | E:min7 | A:7 |, (brass
+142.184988662	| E:min7 | A:7 | E:min7 | A:7 |
+149.872834467	| E:min7 | A:7 | E:min7 | A:7 |
+157.657210884	| E:min7 | A:7 | E:min7 | A:7 |, brass)
+165.281360544	H, solo, | E:min7 | A:7 | E:min7 | A:7 |, (guitar
+172.880975056	| E:min7 | A:7 | E:min7 | A:7 |
+180.400929705	| E:min7 | A:7 | E:min7 | A:7 |
+187.905079365	| E:min7 | A:7 | E:min7 | A:7 |, (brass, guitar)
+195.378934240	B, bridge, | C:sus2/5 | C:sus2/5 |
+199.111156462	| Bb:sus4(b7) | Bb:sus4(b7) |, brass)
+202.808752834	F, chorus, | Eb:sus4 Eb:maj | Db:maj Ab:maj |, (voice
+206.491700680	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+210.177233560	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+213.880929705	| Eb:sus4 Eb:maj | Db:maj Ab:maj |
+217.587891156	G', refrain, | Eb:maj C:min | Bb:sus4 Bb:maj | Ab:sus4 | (2/4) Ab:sus4 |, voice)
+224.312403628	J, interlude, | N | N | N | N |, (drums)
+231.482607709	K, outro, | (5/4) C:maj . F:maj Bb:maj . | Eb:maj . . G:maj |, (piano)
+235.728979591	| (5/4) C:maj . F:maj Bb:maj . | Eb:maj . . G:maj |, (brass
+239.972789115	| (5/4) C:maj . F:maj Bb:maj . | Eb:maj . . G:maj |
+244.262585034	| (5/4) C:maj . F:maj Bb:maj . | Eb:maj . . G:maj |
+248.390181405	| (5/4) C:maj |
+250.801564625	| C:maj |, brass)
+263.968503401	silence
+265.778571428	end

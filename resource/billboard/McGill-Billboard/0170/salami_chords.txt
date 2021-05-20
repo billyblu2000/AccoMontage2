@@ -1,0 +1,43 @@
+# title: Golden Earring
+# artist: Twilight Zone
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+1.091337868	A, intro, | B:min | B:min |, (guitar
+5.236712018	B, instrumental, | B:5 | B:5 | F#:5 | F#:5 |
+13.273265306	| C#:5 | C#:5 | B:5 | B:5 |, guitar)
+21.346848072	C, verse, | B:min | B:min | E:min | E:min |, (voice
+29.397528344	| F#:min | F#:min | B:min | B:min |
+37.440975056	| B:min | B:min | E:min | E:min |
+45.427142857	| F#:min | F#:min | B:min | B:min |
+53.468888888	D, chorus, | B:min | B:min | A:sus4 | A:sus4 |
+61.536553287	| G:sus4 | G:sus4 | F#:sus4 | F#:sus4 |
+69.625351473	| G:5 | E:5 | B:5 | B:5 |
+77.631995464	| G:5 | E:5 | B:5 | B:5 |
+85.730702947	C, verse, | B:min | B:min | E:min | E:min |
+93.774557823	| F#:min | F#:min | B:min | B:min |
+101.821519274	| B:min | B:min | E:min | E:min |
+109.884376417	| F#:min | F#:min | B:min | B:min |
+117.896145124	D, chorus, | B:min | B:min | A:sus4 | A:sus4 |
+125.938004535	| G:sus4 | G:sus4 | F#:sus4 | F#:sus4 |
+134.032108843	| G:5 | E:5 | B:5 | B:5 |
+142.120702947	| G:5 | E:5 | B:5 | E:5 | E:5 |, voice)
+152.076780045	A, solo, | B:min | B:min | B:min | B:min |, (guitar
+160.194875283	| B:min | B:min | B:min | B:min |
+168.233673469	| B:min | B:min | B:min | B:min |
+176.240136054	| B:min | B:min | B:min | B:min |
+184.276848072	| B:min | B:min | B:min | B:min |
+192.365714285	| B:min | B:min | B:min | B:min |
+200.424331065	| B:min | B:min | B:min | B:min |, guitar)
+208.47185941	D', chorus, | B:min | B:min | A:sus4 | A:sus4 |, (voice
+216.499229024	| G:sus4 | G:sus4 | F#:sus4 | F#:sus4 |
+224.587959183	| B:min | B:min | A:sus4 | A:sus4 |
+232.665600907	| G:sus4 | G:sus4 | F#:sus4 | F#:sus4 |
+240.69739229	| G:5 | E:5 | B:5 | B:5 |
+248.771519274	| G:5 | E:5 | B:5 | B:5 |
+256.802358276	| G:5 | E:5 | B:5 | B:5 |
+264.863469387	fadeout, | G:5 | E:5 | B:5 | B:5 |
+272.904126984	| G:5 | E:5 | B:5 | B:5 |, voice)
+278.43047619	silence
+280.398367346	end

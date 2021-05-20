@@ -1,0 +1,50 @@
+# title: What You See Is What You Get
+# artist: Tina Turner
+# metre: 4/4
+# tonic: F
+
+0.000000000	silence
+0.464399092	A, intro, | F:maj | F:sus2 Bb:maj | C:maj | Bb:maj |, (guitar
+6.701179138	| F:maj | F:sus2 Bb:maj | C:maj | Bb:maj |
+12.844920634	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+18.956780045	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, guitar)
+25.116893424	A, verse, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, (voice
+31.252766439	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+37.356916099	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+43.484716553	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+49.597596371	B, pre-chorus, | Bb:maj | C:maj F:maj | Bb:maj | C:maj |
+55.812857142	| Bb:maj | C:maj F:maj | Bb:maj | C:maj | C:maj |
+63.454331065	C, chorus, | F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+69.613038548	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+75.772789115	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+81.938480725	| F:maj . G:min7 F:maj/3 | Bb:maj | C:maj | ->, voice)
+86.523401360	A, transition, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, (guitar)
+92.661111111	A, verse, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, (voice
+98.764852607	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+104.884988662	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+111.053015873	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+117.168140589	B, pre-chorus, | Bb:maj | C:maj F:maj | Bb:maj | C:maj |
+123.370181405	| Bb:maj | C:maj F:maj | Bb:maj | C:maj | C:maj | C:maj | C:maj |
+134.056349206	C, chorus, | F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+140.213106575	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+146.381678004	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+152.533333333	| F:maj . G:min7 F:maj/3 | Bb:maj | C:maj | ->, voice)
+157.176621315	C, solo, | F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |, (guitar
+163.268752834	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+169.396848072	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |, guitar)
+175.572970521	B, pre-chorus, | Bb:maj | C:maj F:maj | Bb:maj | C:maj |, (voice
+181.676825396	| Bb:maj | C:maj F:maj | Bb:maj | C:maj | C:maj | C:maj | C:maj |
+192.436916099	C, chorus, | F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+198.540861678	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+204.708934240	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+210.924852607	| F:maj . G:min7 F:maj/3 | Bb:maj | C:maj | ->
+215.461111111	C, chorus, | F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |, (guitar
+221.604897959	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+227.701065759	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+233.884897959	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+240.039863945	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+246.156916099	fadeout, | F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+252.316802721	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |
+258.458707482	| F:maj | G:min7 Bb:maj/7 | C:maj | Bb:maj . . C:maj |, guitar), voice)
+265.421111111	silence
+267.232675736	end

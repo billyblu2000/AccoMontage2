@@ -1,0 +1,35 @@
+# title: Don't Say You Love Me
+# artist: Billy Squier
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.544217687	A, intro, | N |, (guitar
+7.200725623	| F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj |, guitar)
+17.84170068	A, verse, | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj |, (voice
+28.562993197	| B:maj | E:maj B:maj | F#:maj . . B:maj | F#:maj . . B:maj |
+39.236598639	| F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj |
+49.911655328	| B:maj | E:maj B:maj | F#:maj . . B:maj | F#:maj . . B:maj |
+60.583219954	| B:maj | E:maj B:maj | F#:maj . . B:maj | F#:maj |, voice)
+71.261315192	A, interlude, | N |, (guitar
+74.086235827	| F#:maj . . B:maj | F#:maj . . B:maj |, guitar)
+79.352448979	A, verse, | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj |, (voice
+90.045034013	| B:maj | E:maj B:maj | F#:maj . . B:maj | F#:maj |
+100.805487528	| F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj |
+111.454036281	| B:maj | E:maj B:maj | F#:maj . . B:maj | F#:maj |
+122.232380952	| B:maj | E:maj B:maj | F#:maj . . B:maj | F#:maj |, voice)
+132.846213151	A, solo, | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj |, (guitar
+143.66648526	| F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj |
+154.370430839	| B:maj | E:maj B:maj | F#:maj . . B:maj | F#:maj |
+165.100272108	| B:maj | E:maj B:maj | F#:maj . . B:maj | F#:maj . . B:maj |
+175.771043083	| F#:maj . . B:maj | F#:maj . . B:maj |, guitar)
+181.072834467	B, bridge, | G#:min B:maj E:maj D#:maj | E:maj B:maj | x2, (voice 
+191.761791383	| G#:min B:maj E:maj D#:maj | E:maj B:maj | N | N | N |
+205.305442176	A, outro, | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj |
+215.8723356	| F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj |
+226.635623582	| F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj |
+237.325170068	| F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj |
+247.954535147	| F#:maj . . B:maj | F#:maj . . B:maj | F#:maj . . B:maj | F#:maj |
+258.655238095	| B:maj | E:maj B:maj |, voice)
+269.262607709	silence
+272.561632653	end

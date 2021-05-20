@@ -1,0 +1,32 @@
+# title: Stoned Love
+# artist: The Supremes
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.325079365	A, intro, | N | N | N |
+7.700839002	B, chorus, | D:maj | B:min | E:min | D:maj |, (voice
+15.861337868	| D:maj | B:min | E:min | D:maj |
+23.925238095	C, verse, | D:maj | B:min | E:min | D:maj |
+32.06446712	| D:maj | B:min | E:min | D:maj |
+40.169297052	| D:maj | B:min | E:min | D:maj |
+48.24861678	| N |
+50.274739229	B, chorus, | D:maj | B:min | E:min | D:maj |
+58.302380952	| D:maj | B:min | E:min | D:maj |
+66.343061224	C, verse, | D:maj | B:min | E:min | D:maj |
+74.417619047	| D:maj | B:min | E:min | D:maj |
+82.386870748	| D:maj | B:min | E:min | D:maj |
+90.436417233	| D:maj | B:min | E:min | N |
+98.499886621	B, chorus, | D:maj | B:min | E:min | D:maj |
+106.577959183	| D:maj | B:min | E:min | D:maj |
+114.517414965	D, bridge, | F#:min | D:maj7 | E:min | E:min |
+122.548344671	| F#:min | D:maj7 | E:min | E:min |
+130.539024943	| N |
+132.514535147	B, chorus, | D:maj | B:min | E:min | D:maj |
+140.562630385	| D:maj | B:min | E:min | D:maj |
+148.61	| N | N | N | N |
+156.569002267	| D:maj | B:min | E:min | D:maj |
+164.574489795	fadeout, | D:maj | B:min | E:min | D:maj |
+172.509773242	| D:maj | B:min | E:min |, voice)
+177.493333333	silence
+181.577142857	end

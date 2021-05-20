@@ -1,0 +1,33 @@
+# title: Levon
+# artist: Elton John
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.232199546	A, intro, | F:maj | Bb:maj | F:maj | Bb:maj |, (piano)
+13.639115646	B, verse, | F:maj Bb:maj | F:maj | Bb:maj | F:maj |, (voice
+27.725306122	| C:maj/3 | D:min | A:min Bb:maj | G:min7 |
+41.487210884	| F:maj Bb:maj | F:maj | Bb:maj | F:maj |
+55.352653061	| C:maj/3 | D:min | A:min Bb:maj | G:min7 |
+69.130884353	C, pre-chorus, | A:min D:min | Bb:maj F:maj/3 | G:min7 F:maj | Bb:maj F:maj/3 |, voice)
+82.773922902	| G:min7 | G:min7 |
+89.445963718	D, chorus, | Bb:sus4 Bb:maj | F:maj/3 | Bb:sus4 Bb:maj | F:maj/3 |, (voice
+102.800045351	| Bb:sus4 Bb:maj | F:maj/3 | Bb:maj | C:maj |, voice)
+116.302857142	A, trans, | F:maj | Bb:maj/5 | F:maj | Bb:maj/5 |
+129.690498866	B, verse, | F:maj Bb:maj/5 | F:maj | Bb:maj | F:maj |, (voice
+142.920294784	| C:maj/3 | D:min | A:min Bb:maj | G:min7 |
+156.082857142	| F:maj Bb:maj/5 | F:maj | Bb:maj | F:maj |
+169.364217687	| C:maj/3 | D:min | A:min Bb:maj | G:min7 |
+182.618435374	C, pre-chorus, | A:min D:min | Bb:maj F:maj/3 | G:min7 F:maj | Bb:maj F:maj/3 |, voice)
+195.880566893	| G:min7 | G:min7 |
+202.49430839	D, chorus, | Bb:sus4 Bb:maj | F:maj/3 | Bb:sus4 Bb:maj | F:maj/3 |, (voice
+215.605736961	| Bb:sus4 Bb:maj | F:maj/3 | Bb:maj | C:maj |
+228.847823129	D, chorus, | Bb:sus4 Bb:maj | F:maj/3 | Bb:sus4 Bb:maj | F:maj/3 |
+241.905374149	| Bb:sus4 Bb:maj | F:maj/3 | Bb:maj | C:maj |, voice)
+255.04786848	A, solo, | F:maj | Bb:maj/5 | F:maj | Bb:maj/5 |, (piano
+268.086553287	| F:maj | Bb:maj/5 | F:maj | Bb:maj/5 |
+281.103990929	| F:maj | Bb:maj/5 | F:maj | Bb:maj/5 |
+294.054489795	fadeout, | F:maj | Bb:maj/5 | F:maj | Bb:maj/5 |
+306.92031746	| F:maj | Bb:maj/5 | F:maj | Bb:maj/5 |, piano)
+319.622675736	silence
+321.828571428	end

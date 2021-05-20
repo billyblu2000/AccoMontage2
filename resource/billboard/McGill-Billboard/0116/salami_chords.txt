@@ -1,0 +1,47 @@
+# title: Let It Rain
+# artist: Eric Clapton
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.325079365	A, intro, | A:maj | G:maj/9 | G:maj/9 | A:maj |, (guitar
+8.345963718	| A:maj | G:maj/9 | G:maj/9 | A:maj |, guitar)
+16.228526077	B, verse, | D:maj | A:min | C:maj G:maj | D:maj |, (voice
+24.057324263	| D:maj | A:min | C:maj G:maj | D:maj |
+31.929138321	C, chorus, | D:maj A:min | D:maj A:min | C:maj G:maj | D:maj |
+39.718639455	| D:maj A:min | D:maj A:min | C:maj G:maj | D:maj |
+47.538662131	B, verse, | D:maj | A:min | C:maj G:maj | D:maj |
+55.399818594	| D:maj | A:min | C:maj G:maj | D:maj |
+63.199206349	C, chorus, | D:maj A:min | D:maj A:min | C:maj G:maj | D:maj |
+70.98723356	| D:maj A:min | D:maj A:min | C:maj G:maj |, voice)
+77.000657596	A, interlude, | A:maj | G:maj/9 | G:maj/9 | A:maj |, (guitar
+85.05802721	| A:maj | G:maj/9 | G:maj/9 | A:maj |
+93.069319727	D, solo, | F#:min | F#:min/b1 | F#:min/b7 | F#:maj6/13 B:sus2(b7) |
+101.004058956	| E:min | A:maj | E:min | A:maj | E:min | A:maj |, guitar)
+112.85770975	B, verse, | D:maj | A:min | C:maj G:maj | D:maj |, (voice
+120.728594104	| D:maj | A:min | C:maj G:maj | D:maj |
+128.677097505	C, chorus, | D:maj A:min | D:maj A:min | C:maj G:maj | D:maj |
+136.486938775	| D:maj A:min | D:maj A:min | C:maj G:maj | D:maj |
+144.286439909	C, chorus, | D:maj A:min | D:maj A:min | C:maj G:maj | D:maj |
+152.07063492	| D:maj A:min | D:maj A:min | C:maj G:maj |, voice)
+158.005963718	A, interlude, | A:maj | G:maj/9 | G:maj/9 | A:maj |, (guitar
+166.081156462	| A:maj | G:maj | G:maj/3 | A:maj |
+173.958140589	A', outro, | A:maj | G:maj | G:maj | A:maj |
+181.685600907	| A:maj | G:maj | G:maj | A:maj |
+189.358730158	| A:maj | G:maj | G:maj | A:maj |
+197.015079365	| A:maj | G:maj | G:maj | A:maj |
+204.710657596	| A:maj | G:maj | G:maj | A:maj |
+212.44063492	| A:maj | G:maj | G:maj | A:maj |
+220.106394557	| A:maj | G:maj | G:maj | A:maj |
+227.745238095	| A:maj | G:maj | G:maj | A:maj |
+235.290498866	| A:maj | G:maj | G:maj | A:maj |
+242.899455782	| A:maj | G:maj | G:maj | A:maj |
+250.538117913	| A:maj | G:maj | G:maj | A:maj |
+258.063061224	| A:maj | G:maj | G:maj | A:maj |
+265.577120181	| A:maj | G:maj | G:maj | A:maj |
+273.077528344	| A:maj | G:maj | G:maj | A:maj |
+280.657936507	| A:maj | G:maj | G:maj | A:maj |
+288.231655328	| A:maj | G:maj | G:maj | A:maj |
+296.634920634	| A:maj |, guitar)
+300.303673469	silence
+302.158367346	end

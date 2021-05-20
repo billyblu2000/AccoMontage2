@@ -1,0 +1,28 @@
+# title: Ruby Baby
+# artist: Dion
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+0.301859410	A, intro, | E:maj | E:maj |, (guitar)
+4.453854875	A, theme, | E:maj | E:maj | E:maj | E:maj |, (voice
+12.221927437	| E:maj | E:maj | E:maj | E:maj |
+19.935668934	| A:7 | A:7 | E:maj | E:maj |
+27.805918367	| B:7 | A:7 | E:maj | E:maj |
+35.607188208	A, theme, | E:maj | E:maj | E:maj | E:maj |
+43.535102040	| E:maj | E:maj | E:maj | E:maj |
+51.405986394	| A:7 | A:7 | E:maj | E:maj |
+59.341723356	| B:7 | A:7 | E:maj | E:maj |, voice)
+67.230045351	A, interlude, | E:maj | E:maj | E:maj | E:maj |, (choir
+75.175736961	| A:7 | A:7 | E:maj | E:maj |
+82.973900226	| B:7 | A:7 | E:maj | E:maj |, choir)
+90.854013605	A, theme, | E:maj | E:maj | E:maj | E:maj |, (voice
+98.741700680	| E:maj | E:maj | E:maj | E:maj |
+106.662018140	| A:7 | A:7 | E:maj | E:maj |
+114.550022675	| B:7 | A:7 | E:maj | E:maj |
+122.429886621	A, theme, | E:maj | E:maj | E:maj | E:maj |
+130.341950113	| A:7 | A:7 | E:maj | E:maj |
+138.158140589	| B:7 | A:7 | E:maj | E:maj |
+145.957913832	A, outro, fadeout, | E:maj | E:maj | E:maj | E:maj |, voice)
+153.558049886	silence
+156.738843537	end

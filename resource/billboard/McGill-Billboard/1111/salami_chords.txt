@@ -1,0 +1,30 @@
+# title: Land Of 1000 Dances
+# artist: Chris Kenner
+# tonic: Eb
+# metre: 4/4
+
+0.0	silence
+0.394739229	A, intro, | Bb:maj |, (horns)
+2.128571428	B, verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |, (voice
+9.364920634	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+16.507278911	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+23.674671201	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+30.827619047	B, verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+37.840702947	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+44.878979591	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+51.860861678	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+58.780839002	B, verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+65.804693877	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+72.807006802	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+79.73664399	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+86.747482993	B, verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+93.645941043	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+100.617777777	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+107.620566893	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+114.478730158	B, verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+121.415782312	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+128.367800453	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+135.316099773	fadeout, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+142.276371882	| Eb:7 | Eb:7 | Eb:7 |, voice)
+146.587573696	silence
+149.133061224	end

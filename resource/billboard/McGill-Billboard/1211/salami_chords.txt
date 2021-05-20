@@ -1,0 +1,29 @@
+# title: You Don't Own Me
+# artist: Lesley Gore
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.487619047	A, intro, | G:min | G:min |
+8.508866213	A, verse, | G:min C:min | D:7 . C:min D:7 |, (voice
+16.034126984	| G:min C:min | D:7 . C:min D:7 | G:maj |
+27.432970521	B, chorus, | G:maj | E:min |
+35.088253968	| C:maj | D:7 |
+42.763038548	A, verse, | G:min C:min | D:7 . C:min D:7 |
+50.235646258	| G:min C:min | D:7 . C:min D:7 | G:maj |
+61.743446712	B, chorus, | G:maj | E:min |
+69.356507936	| C:maj | D:7 |
+# tonic: Ab
+76.93462585	B, chorus, | Ab:maj | F:min |
+84.477732426	| Db:maj | Eb:7 |, voice)
+92.051043083	A, solo, | Ab:min Db:min | Eb:7 . Db:min Eb:7 |, (strings
+99.570612244	| Ab:min Db:min | Eb:7 . Db:min Eb:7 | Ab:maj |, strings)
+110.841088435	B, chorus, | Ab:maj | F:min |, (voice
+118.3723356	| Db:maj | Eb:7 |
+# tonic: A
+125.840453514	B, chorus, | A:maj | F#:min |
+133.149229024	| D:maj | E:7 |
+# tonic: Bb
+140.513197278	B, fadeout, | Bb:maj | G:min | Eb:maj | F:7 |, voice)
+147.655691609	silence
+151.849795918	end

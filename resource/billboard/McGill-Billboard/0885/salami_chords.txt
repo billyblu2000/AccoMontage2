@@ -1,0 +1,39 @@
+# title: The Way You Do The Things You Do
+# artist: UB40
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.208979591	A, verse, | Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |, (voice
+7.443446712	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+13.373151927	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+19.320589569	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+25.237641723	B, chorus, | Eb:maj | Db:maj | Eb:maj | Db:maj |
+31.210204081	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+37.16909297	A, verse, | Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+43.050929705	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+49.008049886	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+54.909682539	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+60.883151927	B, chorus, | Eb:maj | Db:maj | Eb:maj | Db:maj |
+66.856417233	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |, voice)
+72.735419501	C, solo, | Ab:maj | Db:maj | Ab:maj | Ab:maj |, (synthesizer
+78.698140589	| Ab:maj | Db:maj | Ab:maj | Ab:maj |, synthesizer)
+84.601179138	| &pause |
+87.564376417	A, verse, | Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |, (voice
+93.524852607	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+99.467891156	B, chorus, | Eb:maj | Db:maj | Eb:maj | Db:maj |
+105.436530612	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+111.327120181	A, verse, | Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+117.27632653	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+123.177596371	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+129.124444444	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+135.092539682	B, chorus, | Eb:maj | Db:maj | Eb:maj | Db:maj |
+141.009274376	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+146.920204081	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+152.902403628	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+158.822585034	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+164.738911564	fadeout, | Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+170.717732426	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |
+176.65446712	| Ab:maj | Db:maj/5 | Ab:maj | Ab:maj |, voice)
+179.62956916	silence
+183.27510204	end

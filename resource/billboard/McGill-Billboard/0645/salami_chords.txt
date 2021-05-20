@@ -1,0 +1,25 @@
+# title: (Sittin' On) The Dock Of The Bay
+# artist: Otis Redding
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.232199546	A, intro, | G:maj | G:maj | G:maj | G:maj |, (guitar)
+9.464671201	B, verse, | G:maj | B:maj | C:maj | A:maj |, (voice
+18.753061224	| G:maj | B:maj | C:maj | A:maj |
+28.022222222	C, chorus, | G:maj | E:min(9) | G:maj | E:min(9) |
+37.293809523	| G:maj | A:maj | G:maj | E:maj |
+46.516984126	B, verse, | G:maj | B:maj | C:maj | A:maj |
+55.858435374	| G:maj | B:maj | C:maj | A:maj |
+65.276553287	C, chorus, | G:maj | E:min(9) | G:maj | E:min(9) |
+74.607052154	| G:maj | A:maj | G:maj | E:maj |
+83.905215419	D, bridge, | G:maj D:maj | C:maj | G:maj D:maj | C:maj |
+93.148208616	| G:maj D:maj | C:maj G:maj | F:maj | D:maj |
+102.486213151	B, verse, | G:maj | B:maj | C:maj | A:maj |
+111.776598639	| G:maj | B:maj | C:maj | A:maj |
+121.096077097	C, chorus, | G:maj | E:min(9) | G:maj | E:min(9) |
+130.312947845	| G:maj | A:maj | G:maj | E:maj |, voice)
+139.612947845	A', outro, | G:maj | G:maj | G:maj | E:min |
+148.89	fadeout, | G:maj | G:maj | G:maj | E:min |
+159.358548752	silence
+164.780408163	end

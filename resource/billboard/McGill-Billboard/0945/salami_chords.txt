@@ -1,0 +1,49 @@
+# title: Riders On The Storm
+# artist: The Doors
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+0.369909297	Z
+14.499478458	B, intro, | E:min | E:min | E:min | E:min | x2, (organ
+32.741201814	| E:min | E:min . . D:maj/9 | E:min . . D:maj/9 | E:min . . D:maj/9 | E:min . . D:maj/9 |, organ)
+44.159206349	A, chorus, | E:min . . D:maj/9 | E:min . . D:maj/9 | E:min . . D:maj/9 | E:min |, (voice
+53.459342403	| A:min B:min/b7 | C:maj/13 D:maj/5 |
+58.144875283	| E:min . . D:maj/9 | E:min . . D:maj/9 |
+62.780793650	| G:maj7/5 D:maj . . | D:maj C:maj . . |
+67.551451247	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |
+72.273129251	A, verse, | E:min F#:min/b7 | G:maj/13 F#:min/b7 |
+77.078571428	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |
+81.640997732	| A:min B:min/b7 | C:maj/13 D:maj/5 |
+86.405124716	| E:min D:maj/9 | E:min D:maj/9 |
+91.190113378	| G:maj7/5 D:maj . . | D:maj C:maj . . | E:min D:maj/9 | E:min D:maj/9 |, voice)
+100.723809523	A, solo, | E:min | E:min | E:min | E:min |, (organ
+109.981496598	| A:min B:min/b7 | C:maj/13 D:maj/5 |
+114.656621315	| E:min . . D:maj/9 | E:min . . D:maj/9 |
+119.344535147	| G:maj7/5 D:maj . . | D:maj C:maj . . |
+124.011020408	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |
+128.719863945	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |, organ)
+133.490204081	A, verse, | E:min F#:min/b7 | G:maj/13 F#:min/b7 |, (voice
+138.181201814	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |
+142.988480725	| A:min B:min/b7 | C:maj/13 D:maj/5 |
+147.781201814	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |
+152.553219954	| G:maj7/5 D:maj . . | D:maj C:maj . . |
+157.245986394	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |, voice)
+161.892539682	B, solo, | E:min | E:min | E:min | E:min | x12, (organ
+269.554104308	| E:min . . D:maj/9 | E:min . . D:maj/9 | E:min . . D:maj/9 | E:min |, keyboard)
+279.270725623	Z, | * | * |
+281.545668934	A, interlude, | E:min F#:min/b7 | G:maj/13 F#:min/b7 | x4
+300.580952380	A, chorus, | E:min F#:min/b7 | G:maj/13 F#:min/b7 | x2, (voice
+310.081836734	| A:min B:min/b7 | C:maj/13 D:maj/5 |
+314.897732426	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |
+319.521564625	| G:maj7/5 D:maj . . | D:maj C:maj . . |
+324.346712018	| E:min F#:min/b7 | G:maj/13 F#:min/b7 |, voice)
+329.164172335	B, outro, | E:min | E:min | E:min | E:min | x2, (organ
+347.693673469	| E:min | E:min | E:min | E:min | x2, (voice)
+366.161587301	| E:min | E:min | E:min | E:min |, (organ
+375.491451247	| E:min | E:min | E:min | E:min |, fadeout
+384.490317460	| E:min | E:min | E:min | E:min |
+389.256802721	| E:min | E:min | E:min | E:min | x2, organ)
+404.776802721	Z
+428.379750566	silence
+430.680816326	end

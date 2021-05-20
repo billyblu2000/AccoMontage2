@@ -1,0 +1,22 @@
+# title: Everybody Loves Somebody
+# artist: Dean Martin
+# tonic: Eb
+# metre: 4/4
+
+0.0	silence
+0.30185941	A, intro, | Bb:7 | Bb:7 |, (strings)
+6.851224489	B, chorus, | N . . . | Ab:maj . C:7/5 C:7 | F:min . Db:maj/3 . | Bb:7 . . . |, (voice
+20.215691609	| Eb:maj . G:min Gb:min | F:min . . . | F:min/11 . . E:maj/b5 | Eb:maj . F:min/11 E:maj/b5 |
+32.043854875	B, chorus, | Eb:maj . Eb:aug . | Ab:maj . C:7/5 C:7 | F:min . Db:maj/3 . | Bb:7 . . . |
+43.857142857	| Eb:maj . G:min Gb:min | F:min . . . | F:min/11 . E:maj/b5 . | Eb:maj . . . |
+55.668140589	C, bridge, | Eb:7 . . . | Eb:7 . . . | Ab:maj . Eb:aug . | Ab:maj . G:7(#9) . |
+67.54494331	| C:min . C:minmaj7 C:min7 | F:maj . . . | F:min/11 . G:min/b3 . | Bb:9 . Bb:7 . |
+79.480430839	B, chorus, | Eb:maj . Eb:aug . | Ab:maj . C:7/5 C:7 | F:min . Db:maj/3 . | Bb:maj . . . |
+91.351972789	| Eb:maj . G:min Gb:min | F:min . . . | F:min/11 . E:maj/b5 . | Eb:maj . . . |
+103.328458049	C, bridge, | Eb:maj . . . | Eb:maj . . . | Ab:maj . Eb:aug . | Ab:maj . G:7(#9) . |
+115.233877551	| C:min . C:minmaj7 C:min7 | F:maj . . . | F:min/11 . G:min/b3 . | Bb:9 . Bb:7 . |
+127.10494331	B', chorus, | Eb:maj . Eb:aug . | Ab:maj . C:7/5 C:7 | F:min . Db:maj/3 . | Bb:maj . . . |
+139.042154195	| Eb:maj . G:min Gb:min | F:min | Bb:7(b9,b13) |
+150.606281179	| Eb:maj . Eb:aug . | Eb:maj . . . |, voice)
+160.937505668	silence
+161.77632653	end

@@ -1,0 +1,28 @@
+# title: Lonely Weekends
+# artist: Charlie Rich
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.534058956	A, intro, | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj |, (piano)
+5.83909297	A, chorus, | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |, (voice
+11.132675736	| F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj |
+17.675034013	A, verse, | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |
+23.004263038	| F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj |
+28.178208616	B, bridge, | Bb:maj | Bb:maj Eb:maj | Bb:maj | Bb:maj Eb:maj | x3
+43.998798185	| C:7 | C:7 | C:7 | C:7 |
+49.345396825	A, chorus, | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |
+54.722653061	| F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj | F:maj |, voice)
+62.516598639	A, solo, | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |, (baritone saxophone
+67.644489795	| F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |
+72.83494331	A, solo, | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |
+78.079478458	| F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj |, baritone saxophone)
+83.225510204	B, bridge, | Bb:maj | Bb:maj Eb:maj | Bb:maj | Bb:maj Eb:maj | x3, (voice 
+99.009931972	| C:7 | C:7 | C:7 | C:7 |
+104.125759637	A, chorus, | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |
+109.392698412	| F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |
+114.708390022	A, outro, | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |
+119.881655328	| F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj | F:maj Bb:maj |, fadeout
+125.150181405	| F:maj Bb:maj | F:maj Bb:maj |, voice)
+127.497460317	silence
+129.541224489	end

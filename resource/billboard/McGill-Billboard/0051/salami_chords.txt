@@ -1,0 +1,36 @@
+# title: Carrie
+# artist: Cliff Richard
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | C:sus2/9 | D:5 | C:sus2/9 | D:5 |, (guitar
+8.846802721	| F:maj/13 C:maj/9 | D:5 C:maj/9 | D:5 F:5/13 | D:5 |, guitar)
+17.496145124	B, verse, | C:sus2/9 | D:5 | C:sus2/9 | D:5 |, (voice
+26.068843537	| F:maj/13 C:maj/9 | D:5 C:maj/9 | D:5 F:5/13 | D:5 |
+34.65877551	| C:sus2/9 | D:5 | C:sus2/9 | D:5 |
+43.264172335	| F:maj/13 C:maj/9 | D:5 C:maj/9 | D:5 C:5 |
+49.667482993	C, chorus, | D:min . . C:maj | D:min C:maj | D:min . . C:maj | Bb:maj C:maj |
+58.280226757	| Eb:maj(9) F:maj(9) | C:sus4(b7,9) D:sus4(b7,9) | D:min C:maj | D:min C:maj |
+66.856099773	| D:min . . C:maj | D:min C:maj | D:min . . C:maj | Bb:maj C:maj |
+75.404807256	| Eb:maj(9) F:maj(9) | C:sus4(b7,9) D:sus4(b7,9) | Eb:9 |, voice)
+81.734240362	A, trans, | C:sus2/9 | D:5 | C:sus2/9 | D:5 |, (guitar)
+90.477278911	B, verse, | C:sus2/9 | D:5 | C:sus2/9 | D:5 |, (voice
+99.088321995	| F:maj/13 C:maj/9 | D:5 C:maj/9 | D:5 F:5/13 | D:5 |
+107.666371882	| C:maj | Bb:maj | C:maj | Bb:maj |
+116.196031746	| A:min | Bb:maj C:maj | D:min C:maj |
+122.715600907	C, chorus, | D:min . . C:maj | D:min C:maj | D:min . . C:maj | Bb:maj C:maj |
+131.291564625	| Eb:maj(9) F:maj(9) | C:sus4(b7,9) D:sus4(b7,9) |, voice)
+135.624988662	| D:min C:maj | D:min C:maj |, (guitar)
+139.784126984	C', solo, | D:min . . C:maj | D:min C:maj | D:min . . C:maj | Bb:maj C:maj |, (saxophone
+148.409795918	| Eb:maj(9) F:maj(9) | Bb:sus4(b7,9) C:sus4(b7,9) | D:min C:maj | D:min C:maj |, saxophone)
+157.050090702	C, chorus, | D:min . . C:maj | D:min C:maj | D:min . . C:maj | Bb:maj C:maj |, (voice
+165.63494331	| Eb:maj(9) F:maj(9) | C:sus4(b7,9) D:sus4(b7,9) |
+170.002947845	| Eb:maj(9) F:maj(9) | C:sus4(b7,9) D:sus4(b7,9) | Eb:9 |, voice)
+176.262675736	A, outro, | C:sus2/9 | D:5 | C:sus2/9 | D:5 |, (guitar
+184.998752834	| C:sus2/9 | D:5 | C:sus2/9 | D:5 |
+193.584761904	| C:sus2/9 | D:5 | C:sus2/9 | D:5 |
+202.15292517	fadeout, | C:sus2/9 | D:5 | C:sus2/9 | D:5 |
+210.769138321	| C:sus2/9 | D:5 | C:sus2/9 | D:5 |, guitar)
+220.93786848	silence
+225.410612244	end

@@ -1,0 +1,37 @@
+# title: Chiquitita
+# artist: ABBA
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.232199546	A, intro, | * | * | * | * |, (guitar)
+11.075918367	| A:maj D:maj | A:maj D:maj |, (piano)
+16.786394557	B, verse, | A:maj D:maj | A:maj | A:maj | E:maj |, (voice
+27.875691609	| E:maj D:maj/3 | E:maj E:7/3 | A:maj D:maj | A:maj D:maj |
+39.062426303	| A:maj D:maj | A:maj | C#:min C#:min(9) | C#:min C#:min(9) |
+50.083673469	| E:maj D:maj | E:maj | A:maj D:maj | A:maj |
+61.262857142	B, verse, | A:maj D:maj | A:maj | A:maj E:maj | E:maj |
+72.655374149	| E:maj D:maj | E:maj | A:maj | A:maj |
+84.000680272	| A:maj D:maj | A:maj | C#:min C#:min(9) | C#:min C#:min(9) |
+95.422789115	| E:maj D:maj | E:maj | A:maj D:maj | A:maj |
+106.811315192	C, chorus, | D:maj | (5/4) D:maj | A:maj | A:maj |
+118.922766439	| E:maj D:maj | E:maj | A:maj | A:maj |
+130.271088435	| D:maj | (5/4) D:maj | A:maj A:maj6 | A:maj7 A:maj6 |
+142.404965986	| E:maj D:maj | E:maj | A:maj | A:maj |
+153.864603174	| E:maj D:maj | E:maj | A:maj D:maj | A:maj |
+165.501972789	B, verse, | A:maj D:maj | A:maj | A:maj E:maj | E:maj |
+176.881020408	| E:maj D:maj | E:maj | A:maj D:maj | A:maj |
+188.402902494	| A:maj D:maj | A:maj | C#:min C#:min(9) | C#:min C#:min(9) |
+199.792517006	| E:maj D:maj | E:maj | A:maj D:maj | A:maj |
+211.170657596	C, chorus, | D:maj | (5/4) D:maj | A:maj A:maj6 | A:maj7 A:maj6 |
+223.319727891	| E:maj D:maj | E:maj | A:maj | A:maj |
+234.703061224	| D:maj | (5/4) D:maj | A:maj A:maj6 | A:maj7 A:maj6 |
+246.818798185	| E:maj D:maj | E:maj | A:maj | A:maj |
+258.249795918	| E:maj D:maj | E:maj | A:maj D:maj | A:maj |
+269.955192743	| E:maj D:maj | E:maj | A:maj | &pause |, voice)
+282.052789115	D, outro, | D:maj | D:maj | A:maj | A:maj |, (piano
+293.278548752	| D:maj | D:maj | A:maj | A:maj |
+304.563469387	fadeout, | D:maj | D:maj | A:maj | A:maj |
+315.754058956	| D:maj | D:maj | A:maj | A:maj |, piano)
+322.942562358	silence
+324.675918367	end

@@ -1,0 +1,33 @@
+# title: My World Fell Down
+# artist: Sagittarius
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.510839002	A, intro, | Db:minmaj7/5 | Ab:maj | Db:minmaj7/5 | Ab:maj | Ab:maj |, (piano)
+10.743106575	B, verse, | Db:min | Ab:min Eb:7/3 | Db:min | Ab:min Eb:7 |, (voice
+18.703061224	| Db:min | Ab:min Eb:7/3 | Db:min | Db:sus4 Db:maj |
+26.564285714	C, chorus, | F:7 | Bb:maj | F:7 | Bb:maj |
+34.559206349	| Eb:7 | Ab:maj | A:dim |
+40.579682539	| G:min | A:dim/b5 A:dim/b3 | Eb:7(b13) | Ab:maj | Ab:maj |
+50.561247165	B, verse, | Db:min | Ab:min Eb:7/3 | Db:min | Ab:min Eb:7 |
+58.516621315	| Db:min | Ab:min Eb:7/3 | Db:min | Db:sus4 Db:maj |
+66.547619047	C, chorus, | F:7 | Bb:maj | F:7 | Bb:maj |
+74.5392517	| Eb:7 | Ab:maj | A:dim |
+80.492585034	| G:min | A:dim/b5 A:dim/b3 | Eb:7(b13) | Ab:maj | Ab:maj |
+90.588276643	B', verse, | Db:min | Ab:min | Db:min | Ab:min |
+98.779070294	| Db:min | Ab:min | Db:min | Ab:maj | &pause |, voice)
+109.066553287	Z
+138.344489795	D, bridge, | Ab:maj | Db:maj |, (voice
+147.194693877	| Ab:maj | Db:maj |
+156.250589569	| Ab:maj | F:min |
+164.733514739	| Db:maj | Db:7 |
+172.455578231	C, chorus, | F:7 | Bb:maj | F:7 | Bb:maj |
+180.529546485	| Eb:7 | Ab:maj | A:dim |
+186.58	| G:min | A:dim/b5 A:dim/b3 | G:maj C:maj |
+192.618049886	C, chorus, | F:7 | Bb:maj | F:7 | Bb:maj |
+200.727052154	| E:7 | A:maj | A:dim |
+206.818117913	| G:min | A:dim/b5 A:dim/b3 | Eb:7(b13) | Ab:maj | Ab:maj |, voice)
+217.121292517	A, outro, | Db:min | Ab:maj | Db:min | Ab:maj |, (piano)
+227.021496598	silence
+230.347755102	end

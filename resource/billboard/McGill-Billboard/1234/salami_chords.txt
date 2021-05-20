@@ -1,0 +1,22 @@
+# title: Amanda
+# artist: Boston
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.351609977	A, intro, | G:maj G:sus4 | G:maj G:sus4 |, (guitar)
+8.230045351	A, verse, | G:maj G:sus4 | G:maj E:min7 | B:min7 | C:maj G:maj/3 | A:min7 G:maj | D:maj | D:maj |, (voice
+35.067573696	| G:maj G:sus4 | G:maj E:min7 | B:min7 | C:maj G:maj/3 | A:min7 G:maj | D:maj | D:maj |
+61.751655328	B, chorus, | E:min A:min | D:maj | E:min A:min | D:maj |
+76.731587301	| E:min A:min | D:maj | C:sus2(#11) | N |
+91.625941043	A, verse, | G:maj G:sus4 | G:maj E:min7 | B:min7 | C:maj G:maj/3 | A:min7 G:maj | D:maj |
+114.651133786	| G:maj G:sus4 | G:maj E:min7 | B:min7 | C:maj G:maj/3 | A:min7 G:maj | D:maj | D:maj |, voice)
+141.373832199	B, solo, | E:min A:min | D:maj | E:min A:min | D:maj |, (guitar)
+156.404421768	B, chorus, | E:min A:min | D:maj | E:min A:min | D:maj |, (voice
+171.950702947	| E:min A:min | D:maj |, voice)
+179.628662131	C, bridge, | E:maj | D:maj6(9) | E:maj | D:maj6(9) |, (guitar)
+194.849206349	| E:maj | D:maj6(9) | E:maj | D:maj6(9) |, (voice
+210.244557823	| C:maj D:maj | G:maj D:maj/3 E:min D:maj | C:maj B:min A:min G:maj | D:maj D:sus4/b7 | B:min D:maj/5 |
+229.171179138	A, verse, | G:maj G:sus4 | G:maj E:min7 | B:min7 | A:min A:min7/b7 | D:maj |, voice)
+254.70909297	silence
+255.973877551	end

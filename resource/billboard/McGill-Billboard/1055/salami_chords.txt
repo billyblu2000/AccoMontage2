@@ -1,0 +1,20 @@
+# title: My Wish Came True
+# artist: Elvis Presley
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.417959183	A, chorus, | N . D:maj A:7 |, (voice
+3.239773242	| D:maj | D:maj D:maj6 | G:maj | G:maj . D:maj/5 A:7 |
+17.428004535	| D:maj | E:7 | A:7 . G:maj G#:hdim7 | A:7 . D:maj/5 A:7 |
+31.652539682	| D:maj | D:maj D:maj6 | G:maj | G:maj . D:maj/5 A:7 |
+46.057074829	B, verse, | D:maj | E:min7 A:7 | D:maj G:maj | D:maj |
+60.544285714	| A:sus4(b7,9) | A:7 | D:maj | D:maj |
+75.166848072	| C#:9 | C#:9 | F#:min | A:7 . D:maj/5 A:7 |
+89.502947845	A', chorus, | D:maj | D:maj D:maj6 | G:maj | G:maj . D:maj A:7 |
+104.307165532	| D:maj | E:7 | A:7 . G:maj G#:hdim7 | A:7 . D:maj/5 A:7 |
+118.774058956	| D:maj | D:maj D:7 | G:maj | G:maj A:maj |
+133.493469387	| D:maj | D:maj D:maj6 | G:maj | G:maj . D:maj/5 A:7 | &pause |
+144.015124716	| D:maj | E:min A:7 | D:maj | D:maj7 |, voice)
+153.38755102	silence
+155.491632653	end

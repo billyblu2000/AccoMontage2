@@ -1,0 +1,39 @@
+# title: It's Raining Men
+# artist: The Weather Girls
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+2.3219954e-2	A, intro, | F:min | F:min | Eb:maj | Eb:maj |
+7.05909297	| Db:maj | Db:maj | C:sus4 | C:maj |
+14.057052154	| F:min | F:min7 | F:min6 | F:min(b13) |
+21.090453514	| F:min | F:min7 | F:min6 | F:min(b13) |
+28.124512471	B, verse, | F:min | F:min | F:min | F:min |, (voice
+35.224399092	| F:min | F:min | C:sus4 | C:maj |
+42.278707482	| F:min | F:min | Bb:min7 | Bb:min7 |
+49.276984126	| C:sus4 | C:maj | C:sus4 | C:maj |
+56.342517006	| C:maj |
+58.126235827	C, chorus, | Db:maj | Eb:maj | C:maj | F:min |
+65.125759637	| Db:maj | Bb:min | Bb:min/9 | C:7 | C:7 |
+74.005804988	| Db:maj | Eb:maj | C:maj | F:min |
+80.951247165	| Db:maj | Bb:min | Bb:min/9 | C:7 | C:7 |
+89.7930839	D, bridge, | Db:maj | Eb:maj | C:maj | F:min |
+96.849614512	| Db:maj | Eb:maj | C:maj | F:min |
+103.904399092	| Db:maj | Eb:maj | C:maj | F:min |
+110.937505668	| Bb:min F:min/5 | Db:maj D:hdim7 | C:maj/3 F:min | C:maj/5 F:min/b3 |
+117.955804988	| C:sus4 | C:maj |, voice)
+121.535056689	| F:min | F:min |
+125.005374149	B', verse, | F:min | F:min | F:min | F:min |, (voice
+132.117596371	| F:min | F:min | F:min | F:min |
+139.135873015	| F:min | F:min | F:min | F:min |
+146.196281179	| C:sus4 | C:maj |
+149.691609977	| F:min | F:min | Bb:min7 | Bb:min7 |
+156.808163265	| C:sus4 | C:maj | C:sus4 | C:maj |
+163.852290249	| C:sus4 | C:maj |
+167.349614512	C', outro, | Db:maj | Eb:maj | C:maj | F:min |
+174.35755102	| Db:maj | Eb:maj | C:maj | F:min |
+181.365600907	| Db:maj | Eb:maj | C:maj | F:min |
+188.394217687	| Db:maj | Eb:maj | C:maj | F:min |
+195.469478458	fadeout, | Db:maj | Eb:maj | C:maj | F:min |
+202.53893424	| Db:maj | Eb:maj | C:maj | F:min |, voice)
+209.214693877	end

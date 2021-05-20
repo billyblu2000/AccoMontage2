@@ -1,0 +1,40 @@
+# title: Motown Philly 
+# artist: Boyz II Men
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.510839002	A, intro, | N |
+2.693922902	| D:min7 | D:min7 | D:min7 | D:min7 |
+10.931065759	| D:min | D:min | D:min | D:min |
+19.241927437	| N |
+21.37340136	B, chorus, | D:min | D:min | Bb:maj | A:7 |, (voice
+29.66877551	| D:min | D:min | Bb:maj | A:7(b9) A:7 |
+37.988049886	C, verse, | D:min | D:min | Bb:maj | A:7 |
+46.320113378	| D:min | D:min | Bb:maj | A:7(b9) A:7 |
+54.653650793	| D:min | C#:dim7/b3 | G:min7 | A:sus4 |
+63.022494331	| G:min7 | A:7 | Bb:maj7 | C:maj A:7/3 |
+71.368480725	B, chorus, | D:min | D:min | Bb:maj | A:7 |
+79.635963718	| D:min | D:min | Bb:maj | A:7(b9) A:7 |, voice)
+88.004217687	| N |
+90.111201814	D, solo, | N | N | N | N |, (voice
+98.386258503	C, verse, | D:min | D:min | Bb:maj | A:7 |
+106.731043083	| D:min | D:min | Bb:maj | A:7(b9) A:7 |
+115.038639455	| D:min | C#:dim7/b3 | G:min7 | A:sus4 |
+123.312222222	| G:min7 | A:7 | Bb:maj7 | C:maj A:7/3 |
+131.711791383	B, chorus, | D:min | D:min | Bb:maj | A:7 |
+140.06877551	| D:min | D:min | Bb:maj | A:7(b9) A:7 |, voice)
+148.379387755	E, instrumental, | D:min | D:min | D:min | D:min |
+156.66446712	| D:min | D:min | D:min | D:min |
+164.997981859	| N |
+167.139002267	D, solo, | N | N | N | N |, (voice
+175.425192743	| N | N | N | N |
+183.761473922	F, interlude, | D:min | D:min | Bb:maj | A:7 |
+192.058390022	| D:min | D:min | Bb:maj | A:7 |
+200.441201814	B, chorus, | D:min | D:min | Bb:maj | A:7 |
+208.704104308	| D:min | D:min | Bb:maj | A:7(b9) A:7 |, voice)
+217.022607709	| N |
+219.151882086	E', coda, | D:min | D:min | D:min | D:min |
+227.455759637	| A:7(b9) A:7 | D:min |, (voice)
+230.806349206	silence
+234.24	end

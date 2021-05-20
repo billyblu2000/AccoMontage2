@@ -1,0 +1,27 @@
+# title: Coming On Strong
+# artist: Brenda Lee
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.417959183	A, intro, | C:maj | C:maj | G:sus4(b7) | G:sus4(b7) |, (trumpet
+8.092403628	| C:maj | C:maj | G:sus4(b7) | G:sus4(b7) |, trumpet)
+14.441405895	B, chorus, | C:maj | C:maj | A:min | A:min |, (voice
+20.824580498	| F:maj/5 C:maj | C:maj | G:7 | G:7 |
+27.218276643	| F:maj | F:maj | C:maj | A:min |
+33.641904761	| F:maj | G:7 | C:maj | C:maj |
+40.04371882	C, verse, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+46.474240362	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj |
+52.907528344	| D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj G:maj |
+59.309977324	| D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj |
+65.642902494	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |
+72.09430839	| E:maj A:maj | E:maj A:maj | G:maj | G:maj |
+78.440929705	B, chorus, | C:maj | C:maj | A:min | A:min |
+84.894535147	| F:maj/5 C:maj | C:maj | G:7 | G:7 |
+91.225374149	| F:maj | F:maj | C:maj | A:min |
+97.711791383	| F:maj | G:7 | C:maj | F:maj |
+104.037278911	C, outro, | C:maj | F:maj | C:maj | F:maj |
+110.549365079	fadeout, | C:maj | F:maj | C:maj | F:maj |
+116.94217687	| C:maj | F:maj |, voice)
+119.977505668	silence
+124.734693877	end

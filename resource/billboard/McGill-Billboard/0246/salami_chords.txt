@@ -1,0 +1,35 @@
+# title: Rhinestone Cowboy
+# artist: Glen Campbell
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.417959183	A, intro, | C:maj . . F:maj/5 | G:maj(11)/11 . . F:maj/5 | C:maj . . F:maj/5 | G:maj(11)/11 . . F:maj/5 |
+8.971768707	B, verse, | C:maj . . F:maj | C:maj . . F:maj | C:maj . . F:maj | C:maj . . F:maj |, (voice
+17.345124716	| C:maj . . F:maj | C:maj . . F:maj | G:maj . . C:maj/5 | C:maj . . C:maj/5 |
+25.682675736	| F:maj . . G:min/11 | F:maj . . G:min/11 | F:maj . . G:min/11 | F:maj |
+34.10154195	| C:maj . . F:maj/5 | C:maj |
+38.261587301	| G:maj | G:maj | F:maj | C:maj |
+46.629342403	| F:maj | F#:dim | D:min7/11 | G:maj . F:maj G:maj |
+55.0630839	C, chorus, | C:maj . . F:maj | C:maj | C:maj7 | C:maj6 |
+63.464535147	| G:sus4 | G:maj . F:maj G:maj |
+67.574081632	| C:maj . . F:maj | C:maj | C:maj7 | C:maj6 |
+75.999931972	| G:maj | G:maj |, voice)
+80.109931972	| F:maj | F:maj | G:maj | G:maj . F:maj G:maj |
+88.286507936	B, verse, | C:maj . . F:maj | C:maj . . F:maj | C:maj . . F:maj | C:maj . . F:maj |, (voice
+96.587732426	| C:maj . . F:maj | C:maj . . F:maj | G:maj . . C:maj/5 | C:maj . . C:maj/5 |
+104.863514739	| F:maj . . G:min/11 | F:maj . . G:min/11 | F:maj . . G:min/11 | F:maj |
+113.179682539	| C:maj . . F:maj/5 | C:maj |
+117.338730158	| G:maj | G:maj | F:maj | C:maj |
+125.556054421	| F:maj | F#:dim | D:min7/11 | G:maj . F:maj G:maj |
+133.967165532	C, chorus, | C:maj . . F:maj | C:maj | C:maj7 | C:maj6 |
+142.370907029	| G:sus4 | G:maj . F:maj G:maj |
+146.456916099	| C:maj . . F:maj | C:maj | C:maj7 | C:maj6 |
+154.783424036	| G:maj | G:maj |, voice)
+158.89	| F:maj | F:maj | G:sus4 | G:maj . F:maj G:maj |
+166.947210884	C, fadeout, | C:maj . . F:maj | C:maj | C:maj7 | C:maj6 |
+175.242653061	| G:sus4 | G:maj . F:maj G:maj |
+179.370997732	| C:maj . . F:maj | C:maj | C:maj7 | C:maj6 |
+187.659795918	| G:sus4 | G:maj . F:maj G:maj |, voice)
+191.378866213	silence
+195.343673469	end

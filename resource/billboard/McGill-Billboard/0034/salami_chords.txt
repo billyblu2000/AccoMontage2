@@ -1,0 +1,21 @@
+# title: Yvonne Elliman
+# artist: If I Can't Have You
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.412358276	A, intro, | G:min | G:min | A:min | (2/4) D:min |, (strings)
+9.178526077	| (3/4) D:min . A:min | (3/4) G:maj | A:min . Bb:maj F:maj | F:maj |, (horns)
+16.785215419	B, verse, | C:maj | F:min/5 | C:maj | G:maj/11 | F:maj/5 |, (voice
+27.876303854	| F:min/5 C:maj . . | F:min/5 | C:maj | G:maj/11 | F:maj/5 | G:maj/11 |
+41.003287981	C, pre-chorus, | F:maj | D:min | F:maj | D:min G:sus4 . . |
+49.770544217	D, chorus, | A:min | G:maj | E:min | A:min | x2
+67.234761904	A, transition, | G:min | G:min | A:min | (2/4) D:min |
+74.960770975	| (3/4) D:min . A:min | (3/4) G:maj | A:min . Bb:maj F:maj | F:maj | F:maj |
+84.822766439	B, verse, | C:maj | F:min/5 | C:maj | G:maj/11 | F:maj/5 | F:min/5 C:maj . . |
+97.990408163	C, pre-chorus, | F:maj | D:min | F:maj | D:maj | F:maj | D:min G:sus4 . . |
+111.260861678	D, chorus, | A:min | G:maj | E:min | A:min | x2, voice)
+128.612358276	A, interlude, | (3/4) D:min . A:min | (3/4) G:maj | A:min . Bb:maj F:maj | F:maj | F:maj |, (horns)
+138.458956916	D, outro, | A:min | G:maj | E:min | A:min | x4, fadeout, (voice)
+175.754716553	silence
+180.088163265	end

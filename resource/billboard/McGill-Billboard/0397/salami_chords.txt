@@ -1,0 +1,39 @@
+# title: Kozmic Blues
+# artist: Janis Joplin
+# metre: 6/8
+# tonic: A
+
+0.000000000	silence
+0.232199546	A', intro, | A:min(9) | A:min(9)/b7 | A:min(9)/13 | A:min/b13 |, (piano
+7.764399092	| A:min(9) | A:min(9)/b7 | A:min(9)/13 | A:min/b13 |, piano)
+15.332539682	B, verse, | A:min | A:min | D:min | D:min |, (voice
+23.326757369	| A:min | A:min/b7 | A:min/13 | A:min/b13 |
+31.261609977	C, pre-chorus, | F:maj | G:maj | F:maj | G:maj |
+39.084195011	| A:min | A:min | E:7 | E:7 |, voice)
+46.972358276	A, interlude, | A:min | A:min/b7 | A:min/13 | A:min/b13 |, (piano)
+55.116553287	B, verse, | A:min | A:min | D:min | D:min |, (voice
+63.454988662	| A:min | A:min/b7 | A:min/13 | A:min/b13 |
+71.684285714	C, pre-chorus, | F:maj | G:maj | F:maj | G:maj |
+79.756099773	| A:min | A:min | E:7 | E:7 |
+87.956485260	D, chorus, | A:maj | B:min | D:maj | A:maj |
+96.116213151	| A:maj | B:min | D:maj | D:maj | D:maj | (3/8) D:maj |, voice)
+107.206530612	A, interlude, | A:min | A:min/b7 | A:min/13 | A:min/b13 |, (piano)
+115.548253968	B, verse, | A:min | A:min | D:min | D:min |, (voice
+123.907981859	| A:min | A:min/b7 | A:min/13 | A:min/b13 |
+132.237641723	C', pre-chorus, | F:maj | G:maj | F:maj | G:maj |
+140.519024943	| A:min | A:min |
+144.676145124	D, chorus, | A:maj | B:min | D:maj | A:maj |
+152.889931972	| A:maj | B:min | D:maj | D:maj | D:maj | (3/8) D:maj |
+163.909659863	D, chorus, | A:maj | B:min | D:maj | A:maj |
+172.070816326	| A:maj | B:min | D:maj | D:maj | D:maj | D:maj |
+184.338934240	D', chorus, | A:maj | B:min | D:maj | A:maj |
+192.382018140	| A:maj | B:min | D:maj | A:maj |
+200.503287981	D', chorus, | A:maj | B:min | D:maj | A:maj |
+208.669841269	| A:maj | B:min | D:maj | A:maj |
+216.917505668	D', chorus, | A:maj | B:min | D:maj | A:maj |
+225.189795918	| A:maj | B:min | D:maj | A:maj |
+233.117959183	D', chorus, | A:maj | B:min | D:maj | A:maj |
+241.229886621	| A:maj | B:min | D:maj | A:maj |
+249.319297052	fadeout, | A:maj | B:min | D:maj | A:maj |, voice)
+259.947392290	silence
+264.254693877	end

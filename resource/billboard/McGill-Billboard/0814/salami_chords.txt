@@ -1,0 +1,53 @@
+# title: Big Iron
+# artist: Marty Robbins
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+0.534058956	A, intro, | C#:min | C#:min | C#:min | C#:min | G#:maj | C#:min |, (guitar)
+6.873106575	B, verse, | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |, (voice
+13.254603174	| E:maj | E:maj | E:maj | C#:min | C#:min | C#:min |
+19.487732426	| A:maj | A:maj | E:maj | E:maj |
+23.625147392	| E:maj | E:maj | C#:min | C#:min |
+27.933605442	| A:maj | E:maj | E:maj | E:maj | E:maj |
+33.065215419	B, verse, | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |, (voice
+39.388730158	| E:maj | E:maj | E:maj | C#:min | C#:min | C#:min |
+45.637777777	| A:maj | A:maj | E:maj | E:maj |
+49.806802721	| E:maj | E:maj | C#:min | C#:min |
+53.939954648	| A:maj | E:maj | E:maj | E:maj | E:maj |
+59.168707482	B, verse, | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |, (voice
+65.297097505	| E:maj | E:maj | E:maj | C#:min | C#:min | C#:min |
+71.508594104	| A:maj | A:maj | E:maj | E:maj |
+75.615827664	| E:maj | E:maj | C#:min | C#:min |
+79.784535147	| A:maj | E:maj | E:maj | E:maj | E:maj |
+84.969002267	B, verse, | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |, (voice
+91.292244897	| E:maj | E:maj | E:maj | C#:min | C#:min | C#:min |
+97.508730158	| A:maj | A:maj | E:maj | E:maj |
+101.773061224	| E:maj | E:maj | C#:min | C#:min |
+105.945192743	| A:maj | E:maj | E:maj | E:maj | E:maj |
+111.206417233	B, verse, | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |, (voice
+117.404716553	| E:maj | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |
+124.689387755	| A:maj | A:maj | E:maj | E:maj |
+128.853968253	| E:maj | E:maj | C#:min | C#:min |
+133.050340136	| A:maj | E:maj | E:maj | E:maj | E:maj |
+138.305419501	B, verse, | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |, (voice
+144.538185941	| E:maj | E:maj | E:maj | C#:min | C#:min | C#:min |
+150.785646258	| A:maj | A:maj | E:maj | E:maj |
+154.975895691	| E:maj | E:maj | C#:min | C#:min |
+159.211020408	| A:maj | E:maj | E:maj | E:maj | E:maj |
+164.453197278	B, verse, | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |, (voice
+170.713197278	| E:maj | E:maj | E:maj | C#:min | C#:min | C#:min |
+176.945510204	| A:maj | A:maj | E:maj | E:maj |
+181.192290249	| E:maj | E:maj | C#:min | C#:min |
+185.407528344	| A:maj | E:maj | E:maj | E:maj | E:maj |
+190.636167800	B', verse, | E:maj | E:maj | C#:min | C#:min | C#:min | C#:min |, (voice
+196.960907029	| E:maj | E:maj | E:maj | C#:min | C#:min | C#:min |
+203.202879818	| A:maj | A:maj | E:maj | E:maj |
+207.403628117	| E:maj | E:maj | C#:min | C#:min |
+211.612653061	| A:maj | E:maj | E:maj | E:maj | E:maj |
+216.852471655	| A:maj | A:maj | E:maj | E:maj |
+220.964104308	| E:maj | E:maj | C#:min | C#:min |
+225.193741496	| A:maj | E:maj | E:maj | E:maj | E:maj |, voice)
+230.401972789	fadeout, | C#:min | C#:min | C#:min | C#:min |, (guitar)
+234.126802721	silence
+236.930612244	end

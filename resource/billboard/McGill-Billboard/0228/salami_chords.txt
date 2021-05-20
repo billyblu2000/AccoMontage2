@@ -1,0 +1,38 @@
+# title: Still Cruisin
+# artist: The Beach Boys
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.743038548	A, intro, | N | N | N | N |
+9.722857142	| N | N | N | F:maj |
+17.909727891	B, chorus, | F:maj D:min | F:maj D:min | F:maj D:min | F:maj D:min |, (voice
+26.15909297	| G:min C:maj | G:min C:maj | N | F:maj |
+34.415873015	C, verse, | F:maj | F:maj/3 | F:maj | F:maj/3 |
+42.623673469	| G:min7(11) | C:maj(11) | G:min7(11) | C:maj(11) |
+50.836780045	| N | N |
+54.963968253	| F:maj | F:maj/3 | F:maj | F:maj/3 |
+63.1892517	| G:min7(11) | C:maj(11) | G:min7(11) | C:maj(11) |
+71.407414965	D, prechorus, | Bb:maj | Bb:maj |
+75.536598639	| F:maj D:min | F:maj D:min |
+79.646734693	| Bb:maj | Bb:maj |
+83.73877551	| N | N | N | N |
+92.007074829	B, chorus, | F:maj D:min | F:maj D:min | F:maj D:min | F:maj D:min |
+100.256213151	| G:min C:maj | G:min C:maj | N | F:maj |, voice)
+108.476938775	C, solo, | F:maj | F:maj/3 | F:maj | F:maj/3 |, (guitar
+116.707823129	| G:min7(11) | C:maj(11) | G:min7(11) | C:maj(11) |, guitar)
+124.92079365	| N | N |, (voice)
+129.007029478	| F:maj | F:maj/3 | F:maj | F:maj/3 |, (guitar
+137.266712018	| G:min7(11) | C:maj(11) | G:min7(11) | C:maj(11) |, guitar)
+145.479342403	D, prechorus, | Bb:maj | Bb:maj |, (voice
+149.565124716	| F:maj D:min | F:maj D:min |
+153.680907029	| Bb:maj | Bb:maj |
+157.788571428	| N | N | N | N |
+166.054535147	B, chorus, | F:maj D:min | F:maj D:min | F:maj D:min | F:maj D:min |
+174.226689342	| G:min C:maj | G:min C:maj | F:maj | F:maj |
+182.450226757	| F:maj D:min | F:maj D:min | F:maj D:min | F:maj D:min |
+190.713854875	| G:min C:maj | G:min C:maj | N | F:maj |
+198.962358276	fadeout, | F:maj D:min | F:maj D:min | F:maj D:min | F:maj D:min |
+207.16095238	| G:min C:maj | G:min C:maj |, voice)
+212.555464852	silence
+216.293877551	end

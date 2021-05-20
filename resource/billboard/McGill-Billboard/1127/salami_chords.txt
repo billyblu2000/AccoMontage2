@@ -1,0 +1,21 @@
+# title: One Less Bell To Answer
+# artist: The 5th Dimension
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.208979591	A, intro, | D:maj7 G:9 | D:maj7 G:maj(9) F#:min7 E:sus4(b7,9) | x2
+14.744671201	B, verse, | D:maj7 | D:maj6 D:maj7 | B:min7 F#:min7 | B:min7 F#:min7 |, voice)
+29.265034013	| G:maj7 | F#:sus4(b7,9) F#:7 | B:min7 E:9 | (2/4) A:sus4(b7,9) | E:min7 F#:min7 G:maj(9) A:sus4(b7,9) |
+45.580770975	| D:maj7 | D:maj6 D:maj7 | B:min7 F#:min7 | B:min7 F#:min7 |
+60.162902494	| G:maj7 | F#:sus4(b7,9) F#:7 |
+67.453968253	C, chorus, | Eb:maj | G:min7 | Ab:maj6 | F:maj6(9) |
+82.059319727	| C:maj9 E:min7 | F:maj7 C:maj9/3 | F:maj7 C:maj9/3 | E:sus4 E:maj |
+96.455691609	| E:min9 A:9 | E:min9 A:9 |, voice)
+103.584217687	B, instrumental, | D:maj9 A:maj6 | D:maj6(9) A:maj6 | B:min9 F#:min7 | B:min9 F#:min7 |
+118.328888888	D, bridge, | G:maj7 | A:maj6 B:min7 | E:min7 A:sus4(b7,9) | A:min7 B:7(b9) | B:7 |
+136.951292517	| E:min9 F#:min7 | G:maj9 A:sus4(b7,9) | G:maj7 F#:min7 E:min9 A:sus4(b7,9) |
+147.95755102	B, coda, | D:maj7 | D:maj6 D:maj7 | B:min7 F#:min7 | G:maj7 F#:min7 E:min9 A:sus4(b7,9) | x4
+204.730340136	| D:maj7 |
+207.191655328	silence
+210.703673469	end

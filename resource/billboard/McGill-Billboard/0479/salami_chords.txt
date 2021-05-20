@@ -1,0 +1,27 @@
+# title: Wendy
+# artist: The Beach Boys
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.441179138	A, intro, | D:1 | G:1 | D:1 | Bb:1 | &pause |
+11.099138321	B, interlude, | F:maj | G:min |
+14.791111111	C, verse, | F:maj | G:min | F:maj | Bb:maj |, (voice
+21.998480725	| F:maj | Bb:maj | Eb:maj | A:maj |
+29.164263038	D, verse, | D:min | G:min | D:min | Bb:maj |
+36.292789115	| F:maj | G:min C:maj | F:maj | G:min |
+43.2123356	C, verse, | F:maj | G:min | F:maj | Bb:maj |
+50.209365079	| F:maj | Bb:maj | Eb:maj | A:maj |
+57.09786848	D', verse, | D:min | G:min | D:min | Bb:maj |
+64.017414965	| F:maj | G:min C:maj | F:maj | Eb:maj |
+71.029841269	D'', solo, | D:min | G:min | D:min | Bb:maj |, voice), (synthesizer
+77.902947845	| F:maj | D:min | G:min | C:maj |, synthesizer)
+84.912993197	C, verse, | F:maj | G:min | F:maj | Bb:maj |, (voice
+91.834920634	| F:maj | Bb:maj | Eb:maj | A:maj |
+98.777687074	D''', verse, | D:min | G:min | D:min | Bb:maj |
+105.627573696	| F:maj | G:min C:maj | F:maj | F:maj |
+112.61755102	B, interlude, | F:maj | G:min |
+116.120884353	C', outro, | F:maj | G:min | F:maj | Bb:maj |
+123.286553287	| F:maj | G:min | F:maj | Bb:maj | x2, voice), fadeout
+134.907936507	silence
+139.023673469	end

@@ -1,0 +1,48 @@
+# title: Money
+# artist: Pink Floyd
+# metre: 7/4
+# tonic: B
+
+0.0	silence
+6.5306122e-2	Z
+12.718367346	A, intro, | B:min | B:min | B:min | B:min |
+26.53956916	| B:min | B:min | B:min | B:min |
+40.310249433	B, verse, | B:min | B:min | B:min | B:min |
+54.113990929	| B:min | B:min | B:min | B:min |
+67.945578231	| F#:min | F:1 E:min . . . . . | B:min | B:min |
+81.756780045	B, verse, | B:min | B:min | B:min | B:min |
+95.485691609	| B:min | B:min | B:min | B:min |
+109.056938775	| F#:min | F:1 E:min . . . . . | B:min | B:min |
+122.837097505	C, solo, | B:min | B:min | B:min | B:min |, (saxophone
+136.195691609	| B:min | B:min | B:min | B:min |
+149.614671201	| E:min | E:min | E:min | E:min |
+163.028072562	| B:min | B:min | B:min | B:min |
+176.454648526	| F#:min | F:1 E:min . . . . . | (4/4) B:min | (4/4) B:min |, saxophone)
+# metre: 4/4
+186.922970521	C, solo, | B:min | B:min | B:min | B:min |, (guitar
+194.232585034	| B:min | B:min | B:min | B:min |
+201.703038548	| E:min | E:min | E:min | E:min |
+209.072675736	| B:min | B:min | B:min | B:min |
+216.508231292	| F#:min | F#:min | B:1 A:1 G:1 F#:1 | E:1 D:1 C#:1 C:1 |
+223.897120181	| B:min | B:min | B:min | B:min |
+231.323945578	| B:min | B:min | B:min | B:min |
+238.769342403	| B:min | B:min | B:min | B:min |
+246.165396825	| E:min | E:min | E:min | E:min |
+253.542902494	| B:min | B:min | B:min | B:min |
+260.931065759	| F#:min | F#:min | B:1 A:1 G:1 F#:1 | E:1 D:1 C#:1 C:1 |
+268.365578231	| B:min | B:min | B:min | B:min |
+275.79600907	| B:min | B:min | B:min | B:min |
+283.063968253	| B:min | B:min | B:min | B:min |
+290.43478458	| E:min | E:min | E:min | E:min |
+297.839727891	| B:min | B:min | B:min | B:min |
+305.194648526	| F#:min | F#:min | B:1 A:1 G:1 F#:1 | E:1 D:1 C#:1 C:1 |
+# metre: 7/4
+312.591655328	| B:min | B:min |, guitar)
+319.004693877	B, verse, | B:min | B:min | B:min | B:min |, (voice
+331.920907029	| B:min | B:min | B:min | B:min |
+344.77324263	| F#:min | F:1 E:min . . . . . |
+# metre: 4/4
+351.191950113	D, outro, | B:min | B:min | B:min | B:min |
+358.612380952	| B:min | B:min | B:min | B:min |, fadeout, voice)
+402.040408163	silence
+405.942857142	end

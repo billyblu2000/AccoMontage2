@@ -1,0 +1,25 @@
+# title: Big Yellow Taxi
+# artist: Joni Mitchell
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.139319727	A, intro, | D:maj | D:maj | D:maj | D:maj |, (guitar)
+10.121519274	B, verse, | G:maj(9)/5 | D:maj | G:maj(9)/5 | D:maj |, (voice
+20.118752834	C, chorus, | D:maj | G:maj(9) | G:maj(9) | D:maj |, voice)
+30.226621315	A, trans, | D:maj | D:maj | D:maj | D:maj |, (guitar)
+40.235192743	B, verse, | G:maj(9)/5 | D:maj | G:maj(9)/5 | D:maj |, (voice
+50.127891156	C, chorus, | D:maj | G:maj9 | G:maj9 | D:maj |, voice)
+60.182199546	D, interlude, | D:maj | D:sus4 | D:maj | A:sus4(b7) |
+70.197074829	| G:maj(9) | G:maj(9) | D:maj | D:maj |
+80.163854875	| G:maj(9) | G:maj(9) | A:sus4(b7) | A:maj |
+90.22324263	B, verse, | G:maj(9)/5 | D:maj | G:maj(9)/5 | D:maj |, (voice
+100.151065759	C, chorus, | D:maj | G:maj9 | G:maj9 | D:maj |, voice)
+110.210770975	A, trans, | D:maj | D:maj | D:maj | D:maj |, (guitar)
+120.132380952	B, verse, | G:maj(9)/5 | D:maj | G:maj(9)/5 | D:maj |, (voice
+130.06632653	C, chorus, | D:maj | G:maj9 | G:maj9 | D:maj |, voice)
+140.147006802	A, outro, | D:maj | D:maj | D:maj | D:maj |, (guitar
+150.168979591	| D:maj | D:maj | D:maj | D:maj |
+160.2030839	| D:maj | D:maj |, guitar)
+165.000997732	silence
+167.523265306	end

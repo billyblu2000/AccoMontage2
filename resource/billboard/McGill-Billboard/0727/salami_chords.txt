@@ -1,0 +1,31 @@
+# title: Eight Days A Week
+# artist: The Beatles
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.766258503	A, intro, | D:maj(9) | E:maj/b7 | G:maj/5 | D:maj(9) |, (guitar)
+7.895351473	B, verse, | D:maj | E:maj | G:maj | D:maj |, (voice
+14.838707482	| D:maj | E:maj | G:maj | D:maj |
+21.786734693	C, pre-chorus, | B:min | G:maj | B:min | E:maj |
+28.752675736	B', chorus, | D:maj | E:maj | G:maj | D:maj |
+35.633741496	B, verse, | D:maj | E:maj | G:maj | D:maj |
+42.571224489	| D:maj | E:maj | G:maj | D:maj |
+49.519160997	C, pre-chorus, | B:min | G:maj | B:min | E:maj |
+56.430725623	B', chorus, | D:maj | E:maj | G:maj | D:maj |
+63.268231292	D, bridge, | A:maj | A:maj | B:min | B:min |
+70.346439909	| E:maj | E:maj | G:maj | A:maj |
+77.320340136	B, verse, | D:maj | E:maj | G:maj | D:maj |
+84.268163265	| D:maj | E:maj | G:maj | D:maj |
+91.255306122	C, pre-chorus, | B:min | G:maj | B:min | E:maj |
+98.182244897	B', chorus, | D:maj | E:maj | G:maj | D:maj |
+105.06510204	D, bridge, | A:maj | A:maj | B:min | B:min |
+112.129070294	| E:maj | E:maj | G:maj | A:maj |
+119.108049886	B, verse, | D:maj | E:maj | G:maj | D:maj |
+126.102448979	| D:maj | E:maj | G:maj | D:maj |
+133.120997732	C, pre-chorus, | B:min | G:maj | B:min | E:maj |
+140.040589569	B'', chorus, | D:maj | E:maj | G:maj | D:maj |
+146.889659863	| G:maj | D:maj | G:maj | D:maj |, voice)
+153.855736961	A, outro, | D:maj(9) | E:maj/b7 | G:maj/5 | D:maj(9) |, (guitar)
+162.644807256	silence
+164.418707482	end

@@ -1,0 +1,32 @@
+# title: Undercover Angel
+# artist: Alan O'Day
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.743038548	A, intro, | Bb:1 | Bb:1 |, (synthesizer
+5.635079365	| Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj7 | Eb:min/5 Bb:maj |, synthesizer)
+15.392471655	B, verse, | Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj7 | Eb:min/5 Bb:maj |, (voice
+25.094603174	| Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj7 | Eb:min/5 Bb:maj |
+34.802562358	C, pre-chorus, | Bb:7 . . Ab:sus2 | G:min7 | Gb:maj . . Ab:sus2(b7) | Bb:maj G:min7 F:maj . |
+44.509002267	D, chorus, | Bb:maj F:maj/3 | G:min Ab:maj6 | Eb:maj Bb:maj/3 | C:7 . F:maj F:aug |
+54.301111111	| Bb:maj F:maj/3 | G:min Ab:maj6 | Eb:maj Bb:maj/3 | Db:dim C:min7 |, voice)
+64.078435374	C, trans, | Bb:7 . . Ab:sus2 | G:min7 | Gb:maj . . Ab:sus2(b7) | Bb:maj F:maj7/11 F:maj . |, (synthesizer)
+73.813832199	B, verse, | Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj7 | Eb:min/5 Bb:maj |, (voice
+83.573786848	| Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj7 | Eb:min/5 Bb:maj |
+93.361428571	C, pre-chorus, | Bb:7 . . Ab:sus2 | G:min7 | Gb:maj . . Ab:sus2(b7) | Bb:maj G:min7 F:maj . |
+103.158185941	D, chorus, | Bb:maj F:maj/3 | G:min Ab:maj6 | Eb:maj Bb:maj/3 | C:7 . F:maj F:aug |
+112.938321995	| Bb:maj F:maj/3 | G:min Ab:maj6 | Eb:maj Bb:maj/3 | Db:dim C:min7 |, voice)
+122.718344671	C, trans, | Bb:7 . . Ab:sus2 | G:min7 | Gb:maj . . Ab:sus2(b7) | Bb:maj F:maj7/11 F:maj . |, (synthesizer)
+132.379523809	B, verse, | Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj7 | Eb:min/5 Bb:maj |, (voice
+142.106757369	| Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj7 | Bb:maj |
+151.819863945	C, pre-chorus, | Bb:7 . . Ab:sus2 | G:min7 | Bb:7 . . Ab:sus2 | G:min7 |
+161.523741496	C, pre-chorus, | Bb:7 . . Ab:sus2 | G:min7 | Gb:maj . . Ab:sus2(b7) | Bb:maj G:7 |
+# tonic: C
+171.189818594	D, chorus, | C:maj G:maj/3 | A:min Bb:maj6 | F:maj C:maj/3 | D:7 . G:maj G:aug |
+181.001768707	| C:maj G:maj/3 | A:min Bb:maj6 | F:maj C:maj/3 | Eb:dim D:min7 | C:maj . G:7 G:aug(b7) |
+190.746099773	C', pre-chorus, | C:maj A:min G:maj . |
+193.212380952	D, fadeout, | C:maj G:maj/3 | A:min Bb:maj6 | F:maj C:maj/3 | D:7 . G:maj G:aug |
+202.934897959	| C:maj G:maj/3 | A:min Bb:maj6 |, voice)
+209.095691609	silence
+213.185306122	end

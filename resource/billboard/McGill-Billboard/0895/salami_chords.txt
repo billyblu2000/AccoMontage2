@@ -1,0 +1,26 @@
+# title: A Dream Goes On Forever
+# artist: Todd Rundgren
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.417959183	A, intro, | D:min7 . E:sus4 E:maj | A:min7 . B:sus4 B:maj | E:min7 . . A:maj6 | D:sus4(b7,9) |, (guitar)
+10.579115646	B, verse, | C:maj7 | B:min7 | A:min7 B:7 | E:min7 |, (voice
+20.296893424	| D:min7 G:maj6 | C:maj9 B:min7 | A:min7 D:7 | G:maj |
+30.043378684	C, bridge, | D:min7 G:maj6 | C:maj9 B:min7 | A:min7 D:7 | G:maj |
+39.690861678	| D:min7 G:7 | C:maj9 B:min7 | E:sus4(b7,9) E:maj6 | D:9 |
+49.264013605	| C:maj7 | B:min7 | A:min7 B:7 | E:min7 |
+58.965442176	| D:min7 G:maj6/b5 | C:maj9 B:min7 | A:min7 D:7/b11 | G:maj |
+68.56648526	B, verse, | D:min7 G:maj6/b5 | C:maj9 B:min7 | A:min7 D:7/b11 | G:maj |
+78.30063492	| D:min7 G:maj6 | C:maj9 B:min7 | A:min7 D:7 | G:maj |, voice)
+87.887619047	A, interlude, | D:min7 . E:sus4 E:maj | A:min7 . B:sus4 B:maj | E:min7 . . A:maj6 | D:sus4(b7,9) |, (guitar)
+97.918480725	B, verse, | C:maj7 | B:min7 | A:min7 B:7 | E:min7 |, (voice
+107.628412698	| D:min7 G:maj6/b5 | C:maj9 B:min7 | A:min7 D:7/b11 | G:maj |
+117.275827664	D, outro, | C:maj7 | B:min7 | A:min7 B:7 | E:min7 |
+126.903174603	| D:min7 G:maj6/b5 | C:maj9 B:min7 | A:min7 D:7 | G:maj |
+136.582471655	| D:min7 Db:7 | C:maj7 B:min7 | A:min7 D:sus4(b7)/5 | G:maj |
+146.258752834	| D:min7 G:maj6/b5 | C:maj9 B:min7 | A:min7 D:7 | G:maj |
+155.822834467	fadeout, | D:min7 G:maj6/b5 | C:maj9 B:min7 | A:min7 D:7/b11 | G:maj |
+165.327301587	| D:min7 G:maj6/b5 | C:maj9 B:min7 | A:min7 D:7/b11 | G:maj |, voice)
+176.159682539	silence
+179.127074829	end

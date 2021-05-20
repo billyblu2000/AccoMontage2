@@ -1,0 +1,27 @@
+# title: Ghostbusters Theme
+# artist: Ray Parker Jr
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+2.185170068	A, intro, | B:1 G:1 | Gb:1 F:1 | E:1 D:1 | A#:1 | A#:1 |, (synth
+12.695487528	B, instrumental, | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, synth)
+29.218095238	C, verse, | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, (voice)
+45.82015873	D, chorus, | B:min . . B:min/b7 | B:min/b7 | B:min/13 . . B:min/11 | B:min/11 |, (synth
+54.232199546	| B:min . . B:min/b7 | B:min/b7 | B:min/13 . . B:min/11 | B:min/11 |, synth)
+62.471043083	B, instrumental, | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, (guitar)
+70.690680272	C, verse, | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, (voice)
+87.311224489	D, chorus, | B:min . . B:min/b7 | B:min/b7 | B:min/13 . . B:min/11 | B:min/11 |, (synth
+95.606916099	| B:min . . B:min/b7 | B:min/b7 | B:min/13 . . B:min/11 | B:min/11 |, synth)
+103.942721088	C, verse, | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, (voice
+120.516757369	E, bridge, | B:min A:maj . . | A:maj B:min | B:min A:maj . . | A:maj B:min | B:min A:maj . . | A:maj B:min | B:min A:maj . . | A:maj B:min |
+137.139297052	C, verse, | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, voice)
+153.740385487	F, instrumental, | F#:min | F#:min | F#:min | F#:min | F#:min | F#:min | F#:min | F#:min |
+170.406371882	D, chorus, | B:min . . B:min/b7 | B:min/b7 | B:min/13 . . B:min/11 | B:min/11 |, (synth
+178.626462585	| B:min . . B:min/b7 | B:min/b7 | B:min/13 . . B:min/11 | B:min/11 |, synth)
+186.957029478	C, verse, | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, (voice
+203.58755102	G, outro, | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |
+220.169614512	| B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, fadeout
+236.804149659	| B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj | B:maj B:maj A:maj E:maj |, voice)
+243.554104308	silence
+246.883265306	end

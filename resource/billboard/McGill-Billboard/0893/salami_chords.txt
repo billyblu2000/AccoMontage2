@@ -1,0 +1,32 @@
+# title: War
+# artist: Edwin Starr
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.348299319	A, intro, | N | N |
+4.852970521	B, chorus, | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |, (voice
+13.65095238	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+22.254535147	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+30.842630385	C, verse, | Eb:min | Eb:min | Eb:min | Eb:min |
+39.796394557	| Eb:min | Eb:min | Eb:min | Eb:min |
+48.855782312	B, chorus, | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+57.673469387	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+66.377800453	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+75.020861678	C, verse, | Eb:min | Eb:min | Eb:min | Eb:min |
+84.108185941	| Eb:min | Eb:min | Eb:min | Eb:min |
+93.132902494	B, chorus, | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+101.935600907	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+110.711519274	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+119.509002267	C, verse, | Eb:min | Eb:min | Eb:min | Eb:min |
+128.430589569	| Eb:min | Eb:min | Eb:min | Eb:min |
+137.488095238	B, chorus, | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+146.289002267	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+155.107074829	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+163.965555555	C, verse, | Eb:min | Eb:min | Eb:min | Eb:min |
+172.946031746	| Eb:min | Eb:min | Eb:min | Eb:min |
+182.064217687	B, chorus, | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+190.913265306	fadeout, | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj |
+199.741405895	| Eb:min Gb:maj | Eb:1 . Ab:1 Gb:maj | Eb:min Gb:maj |, voice)
+204.776780045	silence
+208.744489795	end

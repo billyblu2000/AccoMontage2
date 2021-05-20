@@ -1,0 +1,31 @@
+# title: Love Train
+# artist: The O'Jays
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.278639455	A', intro, | C:maj | D:maj | F:maj | G:sus4 |
+8.298979591	A, chorus, | C:maj | D:maj | F:maj | G:sus4 |, (voice
+16.145147392	| C:maj | D:maj | F:maj | G:sus4 |
+23.977369614	B, verse, | G:sus4 | G:sus4 | F:maj | F:maj |
+31.799795918	| G:sus4 | G:sus4 | F:maj | F:maj |
+39.651519274	| G:sus4 | G:sus4 | A:min | A:min |
+47.476213151	| D:min | D:min | G:maj G:maj/b7 | G:maj/13 G:maj/5 |
+55.208367346	A, chorus, | C:maj | D:maj | F:maj | G:sus4 |
+63.078390022	| C:maj | D:maj | F:maj | G:sus4 |
+70.847528344	B, verse, | G:sus4 | G:sus4 | F:maj | F:maj |
+78.612675736	| G:sus4 | G:sus4 | F:maj | F:maj |
+86.398117913	| G:sus4 | G:sus4 | A:min | A:min |
+94.206984126	| D:min | D:min | G:maj G:maj/b7 | G:maj/13 G:maj/5 |
+101.918458049	A, chorus, | C:maj | D:maj | F:maj | G:sus4 |
+109.722380952	| C:maj | D:maj | F:maj | G:sus4 |
+117.567732426	C, bridge, | Eb:maj Eb:maj7 | Eb:maj6 Eb:maj | C:maj | C:maj |
+125.420816326	| Eb:maj Eb:maj7 | Eb:maj6 Eb:maj | G:sus4(b7,9,13) | G:7 |
+133.132154195	A, chorus, | C:maj | D:maj | F:maj | G:sus4 |
+140.968594104	| C:maj | D:maj | F:maj | G:sus4 |
+148.782040816	| C:maj | D:maj | F:maj | G:sus4 |
+156.65340136	| C:maj | D:maj | F:maj | G:sus4 |
+164.49356009	fadeout, | C:maj | D:maj | F:maj | G:sus4 |
+172.391179138	| C:maj | D:maj | F:maj |, voice)
+177.818412698	silence
+179.670204081	end

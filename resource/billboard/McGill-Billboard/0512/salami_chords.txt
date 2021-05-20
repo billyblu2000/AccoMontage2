@@ -1,0 +1,34 @@
+# title: Going To A Go-Go
+# artist: The Rolling Stones
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+4.063492e-2	Z
+2.414875283	A, intro, | N | N | N | N |, (drums)
+10.591791383	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |, (guitar
+18.035623582	B, chorus, | E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |, (voice
+25.558185941	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+33.035124716	B, verse, | E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+40.509478458	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+47.97755102	C, chorus, | E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+55.397528344	| E:maj D:maj | A:maj E:maj | E:maj D:maj | E:maj |
+62.773265306	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+70.308435374	B, verse, | E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+77.776145124	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+85.350702947	C, chorus, | E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+92.885328798	| E:maj D:maj | A:maj E:maj | E:maj D:maj | E:maj |
+100.327913832	B, solo, | E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |, (saxophone
+107.775328798	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+115.330362811	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+122.815124716	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |, saxophone)
+130.366190476	C, chorus, | E:maj D:maj | A:maj E:maj | E:maj D:maj | E:maj |, (voice
+137.756235827	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+145.228911564	B, verse, | E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+152.728367346	| E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+160.172947845	C, chorus, | E:maj E:sus4(b7,9) | E:sus4(b7,9) | E:maj E:sus4(b7,9) | E:sus4(b7,9) |
+167.69371882	| E:maj D:maj | A:maj E:maj | E:maj D:maj | E:maj |
+175.073696145	| E:maj D:maj | A:maj E:maj | E:maj D:maj | E:maj |, voice)
+180.999546485	Z
+200.573968253	silence
+203.206530612	end

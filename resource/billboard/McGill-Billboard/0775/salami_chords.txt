@@ -1,0 +1,40 @@
+# title: Walking In Memphis
+# artist: Marc Cohn
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.394739229	A, intro, | F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |, (piano)
+7.495351473	B, verse, | F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |, (voice
+14.964285714	| F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |
+22.360952380	| F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |
+29.705963718	| F:maj G:5 | C:5 A:5 | F:maj G:5 |
+35.262721088	| C:5 A:min7 | F:maj G:sus4(9) | C:maj A:min7 | F:maj G:sus4(9) |
+42.840453514	| C:maj A:min7 | F:maj G:sus4(9) | C:maj A:min7 | F:maj G:sus4(9) |
+50.157709750	| F:sus4(b7,9) C:5/5 | C:maj A:min7/11 | F:sus4(b7,9) C:5/5 | C:maj A:min7/11 |
+57.535782312	| F:sus4(b7,9) C:5/5 | C:maj A:min7/11 | F:sus4(b7,9) C:5/5 | C:maj A:min7/11 |
+64.841201814	| F:sus4(b7,9) C:5/5 | C:maj A:min7 | F:sus4(b7,9) C:5/5 | C:maj A:min7/11 |
+72.168253968	| F:sus4(b7,9) C:5/5 | C:maj A:min7 | F:sus4(b7,9) | C:maj | F:sus4(b7,9) | C:maj |
+83.061383219	C, chorus, | F:maj G:sus4(9) | C:maj A:min7 | F:maj G:sus4(9) | A:min7 |
+90.477278911	| F:maj G:sus4(9) | C:maj A:min7 | F:maj G:sus4(9) | ->
+95.957346938	D, interlude, | C:sus4(b7) | C:maj | C:sus4(b7,9) | C:maj |
+103.397482993	| C:sus4(b7) | C:maj | C:sus4(b7,9) | C:maj |
+110.882721088	| C:sus4(b7) | C:maj | C:sus4(b7,9) | C:maj |
+118.331292517	| E:7 | F:maj | F#:dim G:maj | G:maj | G:maj |, voice)
+132.841360544	B', verse, | F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |, (piano)
+139.958662131	| F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |, (voice
+147.300113378	| F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |
+154.873696145	| F:sus4(b7,9) C:5/5 | C:maj A:min7 | F:sus4(b7,9) C:5/5 | C:maj A:min7/11 |
+162.175011337	| F:sus4(b7,9) C:5/5 | C:maj A:min7 | F:sus4(b7,9) | C:maj |
+169.389569160	C', chorus, | F:maj G:sus4(9) | C:maj A:min7 | F:maj G:sus4(9) | A:min7 |
+176.758594104	| F:maj G:sus4(9) | C:maj A:min7 | F:maj E:min7 | C:maj A:min7 |
+183.957120181	| F:maj G:sus4(9) | C:maj A:min7 | F:maj G:sus4(9) | A:min7 |
+191.268662131	| F:maj G:sus4(9) | C:maj A:min7 | F:maj G:sus4(9) | C:maj | ->
+198.414512471	A', outro, | F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |
+205.969478458	| F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |
+213.573877551	| F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |
+221.492426303	| F:maj G:5 | C:5 A:min7 | F:maj G:maj | ->
+231.371746031	| F:maj G:5 | C:5 A:5 | F:maj G:5 | C:5 A:5 |, voice), (piano
+238.488503401	| F:maj G:5 | C:5 A:5 | F:maj G:maj | C:maj |, piano)
+252.574852607	silence
+255.944489795	end

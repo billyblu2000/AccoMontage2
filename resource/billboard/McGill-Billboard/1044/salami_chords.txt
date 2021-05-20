@@ -1,0 +1,23 @@
+# title: I've Passed This Way Before
+# artist: Jimmy Ruffin
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.801088435	A, intro, | (2/4) Eb:maj F:maj |
+1.910294784	| Bb:maj | Bb:maj . Eb:maj F:maj |
+6.253537414	B, verse, | Bb:maj D:min | D:min C:min/b3 | C:min/b3 C:min | Eb:maj F:maj Bb:maj . | x2, (voice
+23.698752834	B, chorus, | Bb:maj D:min | D:min C:min/b3 | C:min/b3 C:min | Eb:maj F:maj Bb:maj . | x2, voice)
+40.959115646	A, interlude, | (2/4) Eb:maj F:maj |, (horns)
+42.144331065	C, verse, | Bb:maj | D:min | G:min | Eb:maj . . F:maj | x3, (voice
+68.009002267	| Bb:maj | D:min | G:min | G:maj |
+# tonic: C
+76.631315192	B', chorus, | C:maj E:min | E:min D:min/b3 | D:min/b3 D:min | F:maj G:maj C:maj . | x2
+93.84031746	C', verse, | C:maj | E:min | A:min | F:maj . . G:maj | x4
+128.13802721	D, interlude, | C:maj | C:maj | G:maj | G:maj Ab:maj |
+# tonic: Db
+136.896961451	B'', chorus, | Db:maj F:min | F:min Eb:min/b3 | Eb:min/b3 Eb:min | Gb:maj Ab:maj Db:maj . | x2
+154.035056689	B'', outro, | Db:maj F:min | F:min Eb:min/b3 | Eb:min/b3 Eb:min | Gb:maj Ab:maj Db:maj . |
+162.55430839	| Db:maj F:min | F:min Eb:min/b3 | Eb:min/b3 Eb:min | Gb:maj Ab:maj Db:maj . |, fadeout, voice)
+166.487074829	silence
+169.19510204	end

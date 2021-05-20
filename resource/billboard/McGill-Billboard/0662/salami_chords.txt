@@ -1,0 +1,45 @@
+# title: Looking For A Love
+# artist: The J. Geils Band
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.185759637	A, intro, | N | N |
+3.478367346	| C:maj | C:maj | F:maj C:maj | C:maj |, (piano
+9.935895691	| C:maj | C:maj | F:maj C:maj | C:maj |, piano)
+16.450544217	| C:maj | C:maj | C:maj | F:maj C:maj |, (voice
+22.825215419	B, chorus, | C:maj | F:maj | C:maj | F:maj |
+29.347369614	| C:maj E:maj/5 | A:min G:maj | F:maj | (2/4) F:maj |
+34.914217687	| C:maj | C:maj |
+38.077732426	C, verse, | C:maj | C:maj | F:maj | F:maj C:maj |
+44.565487528	| C:maj | C:maj | F:maj | F:maj C:maj |
+50.976848072	| C:maj | C:maj | F:maj | F:maj C:maj |
+57.443832199	| C:maj | C:maj | F:maj | F:maj C:maj |
+63.891814058	B, chorus, | C:maj | F:maj | C:maj | F:maj |
+70.259523809	| C:maj E:maj/5 | A:min G:maj | F:maj | (2/4) F:maj |
+75.932766439	| C:maj | C:maj |
+79.123038548	C, verse, | C:maj | C:maj | F:maj | F:maj C:maj |
+85.557369614	| C:maj | C:maj | F:maj | F:maj C:maj |
+92.000725623	| C:maj | C:maj | F:maj | F:maj C:maj |
+98.382789115	| C:maj | C:maj | F:maj | F:maj C:maj |
+104.78201814	B, chorus, | C:maj | F:maj | C:maj | F:maj |
+111.231609977	| C:maj E:maj/5 | A:min G:maj | F:maj | (2/4) F:maj |
+116.876439909	| C:maj | C:maj |, voice)
+119.981950113	C, solo, | C:maj | C:maj | F:maj | F:maj C:maj |, (guitar)
+126.365668934	| C:maj | C:maj | F:maj | F:maj C:maj |, (harmonica)
+132.627188208	| C:maj | C:maj | F:maj | F:maj C:maj |, (organ)
+138.986870748	| C:maj | C:maj | F:maj | F:maj C:maj |, (guitar)
+145.171156462	C, solo, | C:maj | C:maj | F:maj | F:maj C:maj |, (harmonica)
+151.43031746	| C:maj | C:maj | F:maj | F:maj C:maj |, (organ)
+157.698956916	C', outro, | C:maj | C:maj | F:maj | F:maj |, (voice
+163.983129251	| C:maj | C:maj | F:maj | F:maj |, voice)
+170.235510204	| C:maj | C:maj | F:maj | F:maj |
+176.576371882	| C:maj | C:maj | F:maj | F:maj |
+182.78893424	| C:maj | C:maj | F:maj | F:maj |
+188.967755102	| C:maj | C:maj | F:maj | F:maj |
+195.105555555	| C:maj | C:maj | F:maj | F:maj |
+201.324263038	fadeout, | C:maj | C:maj | F:maj | F:maj |
+207.607777777	| C:maj | C:maj | F:maj | F:maj |
+213.845804988	| C:maj | C:maj | F:maj | F:maj | C:maj |
+221.495147392	silence
+227.970612244	end

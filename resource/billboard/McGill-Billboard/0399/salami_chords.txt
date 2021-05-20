@@ -1,0 +1,21 @@
+# title: One Night
+# artist: Elvis Presley
+# metre: 12/8
+# tonic: E
+
+0.0	silence
+0.394739229	A, intro, | E:1 A:1 | E:1 |, (guitar)
+6.299841269	B, verse, | E:7 | E:7 | B:7 | B:7 |, (voice
+18.041904761	| B:7 | B:7 | E:7 | E:7 |
+29.7723356	B, verse, | E:7 | E:7 | B:7 | B:7 |
+41.436984126	| B:7 | B:7 | E:maj | E:7 |
+53.405895691	C, bridge, | A:maj | A:maj | E:maj | E:maj |
+65.248072562	| F#:7 | F#:7 | B:7 | N |
+76.904489795	B, verse, | E:maj | E:maj | B:7 | B:7 |
+88.677006802	| B:7 | B:7 | E:maj | E:7 |
+100.542403628	C, bridge, | A:maj | A:maj | E:maj | E:maj |
+112.646507936	| F#:7 | F#:7 | B:7 | N |
+124.481179138	B, verse, | E:maj | E:maj | B:7 | B:7 |
+136.41723356	| B:7 | B:7 | E:maj A:maj | E:maj B:7 E:maj . |, voice)
+149.025668934	silence
+151.04	end

@@ -1,0 +1,56 @@
+# title: The Spirit of Radio
+# artist: Rush
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.487619047	A, intro, | N | N | E:1 | E:1 |, (guitar
+7.662585034	| E:1 | E:1 | (2/4) E:1 |
+12.027936507	| E:1 | E:1 | E:1 |
+17.600725623	B, interlude, | E:1 | A:1 | E:1 | A:1 |
+22.640816326	| E:1 | A:1 | E:1 | A:1 |
+27.978888888	C, instrumental, | E:maj | B:maj | G#:min7 | A:maj . . B:maj |
+34.919523809	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |, guitar)
+42.046417233	C, verse, | E:maj | B:maj | G#:min7 | A:maj . . B:maj |, (voice
+49.110204081	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |, voice)
+56.192290249	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |, (guitar)
+63.343877551	C, verse, | E:maj | B:maj | G#:min7 | A:maj . . B:maj |, (voice
+70.441020408	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |, voice)
+77.489614512	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |, (guitar
+84.660589569	A, bridge, | E:1 | E:1 | E:1 | E:1 |
+91.726235827	| E:1 | E:1 | E:1 | E:1 |, (voice)
+98.777687074	| E:1 | E:1 |, (guitar)
+102.328571428	| E:1 | E:1 | E:1 | E:1 |, (voice)
+109.388321995	| E:1 | E:1 |, (guitar)
+112.895419501	C, verse, | E:maj | B:maj | G#:min7 | A:maj . . B:maj |, (voice
+120.063197278	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |
+127.205941043	C, verse, | E:maj | B:maj | G#:min7 | A:maj . . B:maj |
+134.281065759	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |, voice)
+141.359342403	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |, (guitar
+148.445170068	A, bridge, | E:1 | E:1 | E:1 | E:1 |, guitar)
+155.522222222	| E:1 | E:1 | E:1 | E:1 |, (voice)
+162.581972789	| E:1 | E:1 |, (guitar)
+166.11770975	| E:1 | E:1 | E:1 | E:1 |, (voice)
+173.208752834	D, interlude, | E:1 | (3/4) E:1 | D:maj/3 | (3/4) D:maj/3 |, (guitar
+179.351315192	| E:maj/3 | (3/4) E:maj/3 | D:maj/3 | D:maj/3 |
+186.015056689	| E:1 | (3/4) E:1 | D:maj/3 | (3/4) D:maj/3 |
+192.12877551	| E:maj/3 | (3/4) E:maj/3 | D:maj/3 | D:maj/3 |
+198.716371882	C, instrumental, | E:maj | B:maj | G#:min7 | A:maj . . B:maj |
+205.825215419	| E:maj | B:maj | G#:min7 | A:maj . . B:maj |
+213.019863945	A, interlude, | E:1 | E:1 | N | N |
+219.521451247	B, instrumental, | E:1 | A:1 | E:1 | A:1 |
+224.547074829	| E:1 | A:1 | E:1 | A:1 |
+229.900770975	B, outro, | E:maj | A:maj B:maj |, guitar)
+233.164875283	| E:maj | A:maj B:maj | E:maj | A:maj |, (voice)
+239.608684807	| E:1 | A:1 | E:1 | A:1 |, (guitar
+245.736780045	| E:maj | A:maj B:maj |, guitar)
+249.103673469	| E:maj | A:maj B:maj |, (voice)
+252.358140589	| E:1 | A:1 | E:1 | A:1 |, (guitar
+258.38324263	| E:1 | A:1 | E:1 | A:1 |
+264.459682539	| E:1 | A:1 | E:1 | A:1 |
+270.593832199	| E:1 | A:1 | E:1 | A:1 |
+276.722403628	| E:1 | A:1 | E:1 | A:1 |
+282.796122448	| E:1 | A:1 | E:1 | E:1 |
+289.109795918	| E:1 | E:1 |, guitar)
+295.868662131	silence
+297.508571428	end

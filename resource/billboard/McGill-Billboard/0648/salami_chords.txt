@@ -1,0 +1,59 @@
+# title: What Have I Done To Deserve This?
+# artist: Pet Shop Boys 
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.441179138	A, intro, | (6/4) N |, (drums)
+3.418321995	| F:maj | E:min A:min |, (synth
+7.610929705	| F:maj | E:min A:min |
+11.690068027	| F:maj | E:min A:min |
+15.714058956	| F:maj | E:min A:min |
+19.785873015	| F:maj | E:min A:min |
+23.874126984	| F:maj | E:min A:min |
+27.977233560	B, intro, | D:1(11) | C:1(11) |
+32.035510204	| D:1(11) | C:1(11) |, synth)
+36.122154195	verse, | D:1(11) | C:1(11) |, (voice
+40.130090702	| D:1(11) | C:1(11) |
+44.202063492	| D:1(11) | C:1(11) |
+48.235600907	C, refrain, | Bb:5 | C:5 | Bb:maj | C:maj |
+56.410045351	B, verse, | D:1(11) | C:1(11) |
+60.490861678	| D:1(11) | C:1(11) |
+64.576326530	| D:1(11) | C:1(11) |
+68.586326530	C, refrain, | Bb:maj | C:maj | Bb:maj | C:maj |
+76.770226757	A, chorus, | F:maj | E:min A:min |
+80.826122448	| F:maj | E:min A:min |
+84.857868480	| F:maj | E:min A:min |
+88.914625850	| F:maj | E:min A:min |
+93.021201814	| N | N |
+97.099795918	D, bridge, | C:maj | D:min | D:min | G:maj |
+105.226031746	| C:maj | D:min | D:min | ->
+111.314444444	C, refrain, | Bb:maj | C:maj | Bb:maj | C:maj |
+119.466417233	B, verse, | C:sus2 | C:1(11) |
+123.554444444	| C:sus2 | C:1(11) |
+127.658231292	| C:sus2 | C:1(11) |
+131.649886621	C, refrain, | Bb:5/9 | C:5 | Bb:maj/9 | (2/4) C:maj |
+138.803514739	A, chorus, | F:maj | E:min A:min |
+142.880521541	| F:maj | E:min A:min |
+146.907278911	| F:maj | E:min A:min |
+151.025192743	| F:maj | E:min A:min |
+155.100362811	| N | N |
+159.115782312	D, bridge, | C:maj | D:min | D:min | G:maj |
+167.219297052	| C:maj | D:min | D:min | ->
+173.441587301	C, refrain, | Bb:maj | C:maj | Bb:maj | C:maj |
+181.531859410	| Bb:maj/9 | C:maj | Bb:maj/9 | C:maj |
+189.603922902	| Bb:maj/9 | C:maj | Bb:maj/9 | C:maj |
+197.787619047	A, outro, | F:maj | E:min A:min |
+201.763424036	| F:maj | E:min A:min |
+205.915963718	| F:maj | E:min A:min |
+210.043197278	| F:maj | E:min A:min |
+214.067256235	| F:maj | E:min A:min |
+218.127936507	| F:maj | E:min A:min |
+222.172358276	| F:maj | E:min A:min |
+226.227732426	| F:maj | E:min A:min |
+230.363514739	| F:maj | E:min A:min |
+234.348412698	| F:maj | E:min A:min |
+238.459795918	| F:maj | E:min A:min |
+242.507482993	fadeout, | F:maj | E:min A:min |, voice)
+256.781020408	silence
+259.952086167	end

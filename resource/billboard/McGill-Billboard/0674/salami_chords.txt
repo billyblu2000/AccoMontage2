@@ -1,0 +1,23 @@
+# title: Sugar Shack
+# artist: The Fireballs
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.719818594	A, intro, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+8.795668934	A', verse, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |, (voice
+15.858163265	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+22.929047619	B, prechorus, | A:min7 | D:maj(9) | A:min7 | D:maj(9) | A:min7 | D:maj(9) |
+33.717097505	A, chorus, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+40.899387755	A', verse, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+48.01664399	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+55.107913832	B, prechorus, | A:min7 | D:maj(9) | A:min7 | D:maj(9) | A:min7 | D:maj(9) |
+66.007210884	A', chorus, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+73.249931972	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+80.411882086	A', verse, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+87.617891156	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+94.763650793	B, prechorus, | A:min7 | D:maj(9) | A:min7 | D:maj(9) | A:min7 | D:maj(9) |
+105.686870748	A', chorus, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |
+112.983968253	fadeout, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj C:maj |, voice)
+119.419047619	silence
+123.852290249	end

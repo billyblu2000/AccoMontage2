@@ -1,0 +1,26 @@
+# title: Lonely Eyes
+# artist: Robert John
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.325079365	A, intro, | N |
+2.930453514	B, instrumental, | F:maj | A:min | Bb:maj | Bb:maj/9 |, (guitar)
+23.246961451	C, verse, | F:maj | C:maj/11 | Bb:maj | G:min Bb:maj/9 |, (voice
+33.332244897	D, bridge, | D:min | A:min | Bb:maj | Bb:maj/9 |
+43.333378684	B, chorus, | F:maj | A:min | Bb:maj | Bb:maj/9 |
+53.41893424	| F:maj | A:min | Bb:maj Bb:min | F:maj Bb:maj/9 |
+63.558843537	C, verse, | F:maj | C:maj/11 | Bb:maj | G:min Bb:maj/9 |
+73.719614512	| F:maj | C:maj/11 | Bb:maj | G:min Bb:maj/9 |
+83.780816326	D, bridge, | D:min | A:min | Bb:maj | C:7 |
+93.718458049	B, chorus, | F:maj | A:min | Bb:maj | Bb:maj/9 |
+103.787732426	| F:maj | A:min | Bb:maj Bb:min | F:maj D:maj |
+113.841065759	C', verse, | G:maj | D:maj/11 | C:maj | A:min C:maj/9 |
+123.829546485	D', bridge, | E:min | B:min | C:maj | D:7 | C:maj/9 |
+136.364535147	B', chorus, | G:maj | B:min | C:maj | C:maj/9 |
+146.421428571	| G:maj | B:min | C:maj C:min | G:maj C:maj/9 |
+156.511904761	B', outro, | G:maj | B:min | C:maj | C:maj/9 |
+166.560839002	| G:maj | B:min | C:maj | C:maj/9 |
+176.57	fadeout, | G:maj | B:min | C:maj | C:maj/9 |, voice)
+186.798752834	silence
+190.275918367	end

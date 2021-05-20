@@ -1,0 +1,24 @@
+# title: Where Do You Wanna Go
+# artist: The Fifth Dimension
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.208979591	A', intro, | G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . |
+8.674444444	A, verse, | G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . |, (voice
+17.18526077	| G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . |
+25.681609977	B, chorus, | G:maj . B:7 . | E:min . E:min/b7 . | C:maj . . . | C:maj . . . | D:maj . . . | D:maj . . . |
+38.15770975	| G:maj . . . | F:maj . . . | E:min . . . | D:maj . . . | E:min . . . | A:maj . D:maj . |
+50.687097505	| G:maj . . . | E:min . . . | E:min . . . | D:maj . . . |
+59.037278911	A, verse, | G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . |
+67.458004535	| G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . | G:maj . C:maj . |
+75.845873015	B', chorus, | G:maj . B:7 . | E:min . E:min/b7 . | C:maj . . . | C:maj . . . | D:maj . . . | D:maj . . . |
+88.383696145	| G:maj . . . | F:maj . . . | E:min . . . | D:maj . . . | E:min . . . | A:maj . D:maj . |
+101.069229024	| G:maj . . . | E:min . . . | A:min . . . | D:maj . . . | Eb:maj . . . |
+# tonic: Ab
+111.468820861	A, verse, | Ab:maj . Db:maj . | Ab:maj . Db:maj . | Ab:maj . Db:maj . | Ab:maj . Db:maj . |
+119.936712018	| Ab:maj . Db:maj . | Ab:maj . Db:maj . | Ab:maj . Db:maj . | Ab:maj . Db:maj . |
+128.27877551	| Ab:maj . Db:maj . | Ab:maj . Db:maj . | Ab:maj . Db:maj . | Ab:maj . Db:maj . |
+136.66185941	fadeout, | Ab:maj . Db:maj . | Ab:maj . Db:maj . | Ab:maj . Db:maj . | Ab:maj . Db:maj . |, voice)
+141.177324263	silence
+145.005714285	end

@@ -1,0 +1,56 @@
+# title: Maggie May
+# artist: Rod Stewart
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.443514739	A, intro, | (6/4) A:min G:maj A:min A:min G:maj A:min | (6/4) A:min G:maj G:maj A:min G:maj G:maj | (2/4) A:min |, (guitar
+7.387052154	| (6/4) A:min G:maj A:min A:min G:maj A:min | (6/4) A:min G:maj G:maj A:min G:maj G:maj | (2/4) A:min |
+14.724716553	| (5/4) E:min . D:maj E:min B:min | E:min G:maj A:maj B:maj | (2/4) E:min |
+20.521678004	| (5/4) E:min . D:maj E:min B:min | E:min G:maj A:maj B:maj | E:maj |, guitar)
+27.319002267	Z
+31.8461678	B, intro, | D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |, (guitar
+39.207755102	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 E:min7 |, guitar)
+46.48770975	C, verse, | A:maj | G:maj | D:maj | D:maj |, (voice
+53.920544217	| A:maj | G:maj | D:maj | D:maj |
+61.163333333	D, pre-chorus, | G:maj | D:maj | G:maj | A:maj |
+68.591836734	| E:min | F#:min7/b7 | E:min | E:min . . D:sus2/9 |
+75.991496598	E, chorus, | E:min | A:maj | E:min | A:maj |
+83.448548752	| E:min | A:maj | D:maj | D:maj |
+90.875374149	C, verse, | A:maj | G:maj | D:maj | D:maj |
+98.360884353	| A:maj | G:maj | D:maj | D:maj |
+105.741995464	D, pre-chorus, | G:maj | D:maj | G:maj | A:maj |
+113.156621315	| E:min | F#:min7 | E:min | D:sus2/9 |
+120.656031746	E, chorus, | E:min | A:maj | E:min | A:maj |
+128.087981859	| E:min | A:maj D:sus4 | D:maj | D:maj |
+135.598752834	C, verse, | A:maj | G:maj | D:maj | D:maj |
+143.041179138	| A:maj | G:maj | D:maj | D:maj |
+150.481904761	D, pre-chorus, | G:maj | D:maj | G:maj | A:maj |
+157.889886621	| E:min | F#:min7 | E:min | D:sus2/9 |
+165.012607709	E, chorus, | E:min | A:maj | E:min | A:maj |
+172.919183673	| E:min | A:maj D:sus4 | D:maj | D:maj |, voice)
+180.382743764	F, solo, | E:min | A:maj | D:maj | G:maj |, (guitar
+187.823605442	| E:min | G:maj | D:maj | D:maj |, guitar)
+195.220589569	C, verse, | A:maj | G:maj | D:maj | D:maj |, (voice
+202.712562358	| A:maj | G:maj | D:maj | D:maj |
+210.117369614	D, pre-chorus, | G:maj | D:maj | G:maj | A:maj |
+217.622811791	| E:min | F#:min7 | E:min | E:min . . D:sus2/9 |
+225.179115646	E, chorus, | E:min | A:maj | E:min | A:maj |
+232.668888888	| E:min | A:maj D:sus4 | D:maj | D:maj |, voice)
+240.091065759	F, solo, | E:min | A:maj | D:maj | G:maj |, (guitar
+247.428911564	| E:min | G:maj | D:maj | D:maj |
+255.025147392	| E:min | A:maj | D:maj | G:maj |
+262.497777777	| E:min | G:maj | ->
+266.244761904	G, interlude, | D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |
+273.718412698	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |
+281.133673469	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |
+288.48909297	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |
+295.89861678	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |
+303.340294784	G, outro, | D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |, (voice
+310.641247165	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |
+317.887891156	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |
+325.363106575	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |, voice)
+332.582947845	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |, fadeout
+339.893197278	| D:sus2 | E:1(b3,b7,11,9) | G:maj | D:5 D:sus4 |, guitar)
+345.561065759	silence
+350.19755102	end

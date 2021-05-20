@@ -1,0 +1,24 @@
+# title: Out Of My Mind
+# artist: Johnny Tillotson
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.255419501	A, verse, | G:maj | G:7 | C:maj | C:maj |, (voice
+11.749954648	| D:maj | D:maj | C:maj G:maj | G:maj |
+21.223038548	| G:maj | G:7 | C:maj | C:maj |
+30.774875283	| D:maj | D:maj | G:maj | G:7 |
+40.252403628	B, chorus, | C:maj | C:maj | G:maj | G:maj |
+49.787596371	| D:7 | D:7 | G:maj | G:7 |
+59.241655328	| C:maj | C:maj | G:maj | G:maj |
+68.700408163	| D:7 | D:7 | G:maj | G:maj |
+78.37201814	A, verse, | G:maj | G:7 | C:maj | C:maj |
+87.825011337	| D:maj | D:maj | C:maj G:maj | G:maj |
+97.27956916	| G:maj | G:7 | C:maj | C:maj |
+106.77664399	| D:maj | D:maj | G:maj | G:7 |
+116.215668934	B, chorus, | C:maj | C:maj | G:maj | G:maj |
+125.799818594	| D:7 | D:7 | G:maj | G:7 |
+135.267278911	| C:maj | C:maj | G:maj | G:maj |
+144.662358276	| D:7 | D:7 | G:maj | G:maj |, voice)
+154.644897959	silence
+157.361632653	end

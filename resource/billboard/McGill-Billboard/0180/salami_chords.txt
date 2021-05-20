@@ -1,0 +1,31 @@
+# title: Gordon Lightfoot
+# artist: Beautiful 
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.208979591	A, intro, | B:maj7 | B:maj7 | G:maj9 | G:maj9 |, (guitar
+9.431678004	| B:maj7 | B:maj7 | G:maj9 | G:maj9 |, guitar)
+18.29047619	B, verse, | B:maj7 | B:maj7 | B:min7 | B:min7 |, (voice
+27.294489795	| E:maj7 | E:maj7 | E:min7 | E:min7 |
+36.25802721	| B:maj7 | B:maj7 | B:min7 | B:min7 |
+45.26877551	| E:maj7 | E:maj7 | E:min7 | E:min7 |, voice)
+54.248684807	A, trans, | B:maj7 | B:maj7 | G:maj9 | G:maj9 |, (guitar)
+63.241315192	B, verse, | B:maj7 | B:maj7 | B:min7 | B:min7 |, (voice
+72.30170068	| E:maj7 | E:maj7 | E:min7 | E:min7 |
+81.318140589	| B:maj7 | B:maj7 | B:min7 | B:min7 |
+90.233310657	| E:maj7 | E:maj7 | E:min7 | E:min7 |, voice)
+99.207823129	A, trans, | B:maj7 | B:maj7 | G:maj9 | G:maj9 |, (guitar)
+108.298888888	B, verse, | B:maj7 | B:maj7 | B:min7 | B:min7 |, (voice
+117.380204081	| E:maj7 | E:maj7 | E:min7 | E:min7 |
+126.338163265	| B:maj7 | B:maj7 | B:min7 | B:min7 |
+135.326666666	| E:maj7 | E:maj7 | E:min7 | E:min7 |, voice)
+144.356303854	A', trans, | B:maj7 | B:maj7 | B:min7 | B:min7 |, (guitar)
+153.293492063	C, chorus, | E:maj7 | E:maj7 | B:maj7 | B:maj7 |, (voice
+162.34371882	| E:maj/5 | E:maj/5 | F#:sus4(b7) | F#:sus4(b7) |
+171.214489795	| F#:sus4(b7) | F#:sus4(b7) |, voice)
+175.775147392	A, coda, | B:maj7 | B:maj7 | G:maj9 | G:maj9 |, (guitar
+184.759297052	| B:maj7 | B:maj7 | G:maj9 | G:maj9 |
+194.026530612	| B:maj7 |, guitar)
+199.645170068	silence
+202.657959183	end

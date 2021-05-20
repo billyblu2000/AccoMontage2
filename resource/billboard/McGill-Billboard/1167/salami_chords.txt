@@ -1,0 +1,58 @@
+# title: Rebel Yell
+# artist: Billy Idol
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+1.021678004	A, intro, | B:min7 | B:min7 | B:min7 | B:min7 |, (synthesizer
+6.827142857	B, interlude, | G:maj7 | F#:min7 | E:sus2(b7) | E:sus2(b7) |
+12.59446712	| G:maj7 | F#:min7 | E:sus2(b7) | E:sus2(b7) . D:maj A:sus2 |, synthesizer)
+18.376371882	A, trans, | B:min7 | B:min7 | B:min7 | B:min7 |, (drums)
+24.138208616	C, verse, | B:min | B:min | B:min | B:min |, (voice
+29.914263038	| A:sus4 | A:sus4 | G:maj7 | E:min7 . D:1 A:1 |
+35.67585034	| B:min | B:min | B:min | B:min |
+41.473832199	| A:sus4 | A:sus4 | G:maj7 | E:min7 . D:1 A:1 |
+47.224671201	C, chorus, | B:min | B:min | B:min | B:min |
+52.980929705	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+58.759455782	| B:min | B:min | B:min | B:min |
+64.526190476	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+70.28664399	A, trans, | B:min7 | B:min7 | B:min7 | B:min7 |, (drums)
+76.074285714	C, verse, | B:min | B:min | B:min | B:min |, (voice
+81.866734693	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+87.653922902	| B:min | B:min | B:min | B:min |
+93.394852607	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+99.209047619	C, chorus, | B:min | B:min | B:min | B:min |
+104.90324263	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+110.705986394	| B:min | B:min | B:min | B:min |
+116.473151927	| D:maj/5 | D:maj/5 | G:maj7 | G:maj7 |, voice)
+122.260340136	B, interlude, | G:maj7 | F#:min7 | E:sus2(b7) | E:sus2(b7) |, (synthesizer
+128.036145124	| G:maj7 | F#:min7 | E:sus2(b7) | E:sus2(b7) |
+133.823832199	| G:maj7 | F#:min7 | E:sus2(b7) | E:sus2(b7) |
+139.543945578	| G:maj7 | F#:min7 | E:sus2(b7) | E:sus2(b7) . D:maj A:sus2 |, synthesizer)
+145.361791383	A, trans, | B:min | B:min | B:min7 | B:min7 |, (guitar
+151.107437641	C, solo, | B:min | B:min | B:min | B:min |
+156.834217687	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+162.553741496	| B:min | B:min | B:min | B:min |
+168.394058956	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |, guitar)
+174.149954648	A', trans, | N | N | N | N |, (drums
+179.947959183	| N | N | N | N |, drums)
+185.745782312	C', bridge, | B:1 | B:1 | B:1 | B:1 |, (voice
+191.481927437	| A:1 | A:1 | G:1 | E:1 . D:1 A:1 |
+197.212358276	| B:1 | B:1 | B:1 | B:1 |
+202.989931972	| A:1 | A:1 | G:1 | E:1 . D:1 A:1 |
+208.806916099	| B:min | B:min | B:min | B:min |
+214.563378684	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+220.407074829	| B:min | B:min | B:min | B:min |
+226.112131519	| D:maj/5 | D:maj/5 | G:maj7 | G:maj7 |
+231.826916099	C, chorus, | B:min | B:min | B:min | B:min |
+237.619954648	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+243.443015873	| B:min | B:min | B:min | B:min |
+249.169115646	| D:maj/5 | D:maj/5 | G:maj7 | G:maj7 |, voice)
+254.910385487	C, solo, | B:min7 | B:min7 | B:min7 | B:min7 |, (guitar
+260.729727891	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |
+266.468117913	| B:min7 | B:min7 | B:min7 | B:min7 |
+272.254761904	| D:maj/5 | D:maj/5 | G:maj7 | E:min7 . D:1 A:1 |, guitar)
+278.017414965	A, outro, | B:min7 | B:min7 | B:min7 | B:min7 |, (synthesizer
+283.829659863	| B:min7 |, synthesizer)
+285.884081632	silence
+290.664489795	end

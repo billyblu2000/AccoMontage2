@@ -1,0 +1,43 @@
+# title: Walk Like A Man
+# artist: Grand Funk Railroad
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.232199546	A, intro, | E:maj | E:maj D:maj . . | E:maj | E:maj D:maj . A:maj |, (synthesizer
+8.080544217	| E:maj | E:maj D:maj . A:maj | E:maj | E:maj |, synthesizer)
+15.5792517	B, instrumental, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |, (guitar
+23.22371882	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |, guitar)
+30.763854875	C, chorus, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |, (voice
+38.28893424	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+45.859977324	B, verse, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+53.48723356	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+60.914013605	C, chorus, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+68.523492063	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |, voice)
+76.063424036	D, trans, | D:maj | A:maj | E:maj | E:maj |, (synthesizer)
+83.536757369	B, verse, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |, (voice
+91.133219954	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+98.705555555	C, chorus, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+106.282403628	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |, voice)
+113.824217687	E, bridge, | F:maj(#11) . E:sus4(9) B:maj7(b7)/3 | (2/4) B:maj7(b7)/3 |, (guitar
+116.712902494	| A:maj . B:maj C:maj | C:maj D:maj D#:maj E:maj |
+120.435283446	| D:maj | A:maj |, guitar)
+124.193809523	A, interlude, | E:maj | E:maj D:maj . . | E:maj | E:maj D:maj . A:maj |, (synthesizer
+132.005442176	| E:maj | E:maj D:maj . A:maj | E:maj | E:maj |, synthesizer)
+139.544217687	B, solo, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |, (guitar
+147.158185941	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+154.730181405	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+162.103310657	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+169.546530612	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+176.96340136	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+184.497120181	E, bridge, | F:maj(#11) . E:sus4(9) B:maj7(b7)/3 | (2/4) B:maj7(b7)/3 |
+187.431020408	| A:maj . B:maj C:maj | C:maj D:maj D#:maj E:maj |
+191.092040816	| D:maj | A:maj | E:maj | E:maj |
+198.649455782	| D:maj | A:maj |
+202.501156462	F, instrumental, | E:min7 | E:min7 | E:min7 | E:min7 |
+210.06861678	| E:min7 | E:min7 | E:min7 | E:min7 |
+217.459047619	| E:min7 | E:min7 | E:min7 | E:min7 |, guitar)
+224.818979591	C, chorus, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |, (voice
+232.269206349	| D:maj A:maj | E:maj | D:maj A:maj | E:maj |, voice)
+243.507664399	silence
+245.23755102	end

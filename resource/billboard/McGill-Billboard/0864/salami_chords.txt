@@ -1,0 +1,39 @@
+# title: Elvira
+# artist: Oak Ridge Boys
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.417959183	A, intro, | C:maj . . F:maj/5 | C:maj |
+4.37893424	| C:maj . . F:maj/5 | C:maj |
+8.229387755	B, chorus, | C:maj . . F:maj/5 | C:maj |, (voice
+12.01494331	| C:maj . . F:maj/5 | C:maj |
+15.85154195	| C:maj | G:maj | C:maj | C:maj |
+23.554920634	C, verse, | C:7 | x6
+34.972789115	| G:7 | x2
+38.778866213	| C:7 | x2
+42.540408163	| F:7 | x2
+46.302199546	| C:7 | G:7 |
+50.111882086	| C:7 | x2
+53.901632653	B, chorus a, | C:maj . . F:maj/5 | C:maj |
+57.762358276	| C:maj . . F:maj/5 | C:maj |
+61.516077097	| C:maj | G:maj | C:maj | C:maj |
+69.075827664	D, chorus b, | C:maj C:1 | C:1 | C:maj C:1 | C:1 |
+76.553990929	| C:maj | G:maj | C:maj | C:maj |
+84.152471655	C, verse, | C:7 | x6
+95.535873015	| G:7 | x2
+99.285283446	| C:7 | x2
+103.091179138	| F:7 | x2
+106.836575963	| C:7 | G:7 |
+110.666621315	| C:7 | x2
+114.396417233	B, chorus a, | C:maj . . F:maj/5 | C:maj |
+118.135782312	| C:maj . . F:maj/5 | C:maj |
+121.956054421	| C:maj | G:maj | C:maj | C:maj |
+129.503197278	D, chorus b, | C:maj C:1 | C:1 | C:maj C:1 | C:1 |
+136.925714285	| C:maj | G:maj | C:maj | Ab:maj |
+# tonic: Db
+144.428321995	B', chorus a, | Db:maj . . Gb:maj/5 | Db:maj |
+148.241950113	fadeout, | Db:maj . . Gb:maj/5 | Db:maj |
+152.035464852	| Db:maj | Ab:maj | Db:maj | Db:maj |, voice)
+157.165419501	silence
+161.155147392	end

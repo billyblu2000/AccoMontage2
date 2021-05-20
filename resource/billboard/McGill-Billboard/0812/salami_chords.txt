@@ -1,0 +1,36 @@
+# title: Super Freak Part One
+# artist: Rick James
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.557278911	A, intro, | A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, (bass
+8.406689342	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, bass)
+15.658866213	A, verse, | A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, (voice
+22.97015873	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |
+30.346689342	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |
+37.664897959	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |
+44.951768707	B, chorus, | A:min/11 A:min | G:maj/b7 A:min | A:min/11 A:min | G:maj/b7 A:min |
+52.305419501	| A:min/11 A:min | G:maj/b7 A:min | A:min/11 A:min | G:maj/b7 A:min |
+59.621020408	C, bridge, | F:maj G:maj A:min7 . | F:maj G:maj A:min7 . | F:maj G:maj A:min7 . |, voice)
+65.102244897	| A:min | A:min | A:min/b13 | (5/4) A:maj/5 |, (synthesizer)
+72.446258503	A, interlude, | A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, (bass
+79.784489795	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, bass)
+87.145306122	A, verse, | A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, (voice
+94.452585034	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |
+101.775532879	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |
+109.116530612	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |
+116.431247165	B, chorus, | A:min/11 A:min | G:maj/b7 A:min | A:min/11 A:min | G:maj/b7 A:min |
+123.766757369	| A:min/11 A:min | G:maj/b7 A:min | A:min/11 A:min | G:maj/b7 A:min |
+131.044421768	C, bridge, | F:maj G:maj A:min7 . | F:maj G:maj A:min7 . | F:maj G:maj A:min7 . |, voice)
+136.553514739	| A:min | A:min | A:min/b13 | (5/4) A:maj/5 |, (synthesizer)
+143.894058956	A, interlude, | A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, (bass
+151.249523809	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |
+158.629002267	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, bass)
+165.937278911	A, verse, | A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, (voice
+173.22526077	| A:min/11 A:min | G:maj A:min | A:min/11 A:min | G:maj A:min |, voice)
+180.600045351	B, solo, | A:min/11 A:min | G:maj/b7 A:min | A:min/11 A:min | G:maj/b7 A:min |, (saxophone
+187.917460317	fadeout, | A:min/11 A:min | G:maj/b7 A:min | A:min/11 A:min | G:maj/b7 A:min |
+195.339478458	| A:min/11 A:min | G:maj/b7 A:min | A:min/11 A:min | G:maj/b7 A:min |, saxophone)
+198.15909297	silence
+201.848163265	end

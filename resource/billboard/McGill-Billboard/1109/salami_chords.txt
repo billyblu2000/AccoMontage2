@@ -1,0 +1,40 @@
+# title: It Takes Two 
+# artist: Rob Base
+# metre: 4/4
+# tonic: G
+
+0.000000000	silence
+0.232199546	A, intro, | F:min | F:min | Eb:maj | F:min |, (synth), (spoken)
+13.653333333	| N | N | N | N |, (drums)
+22.262222222	B, chorus, | G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, (voice
+30.854081632	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, voice)
+39.494126984	B, verse, | G:maj . F:maj G:maj | N | N | N | N |, (rap
+50.254580498	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |
+58.815555555	| G:maj . F:maj G:maj | N | N | N |, rap)
+67.406689342	B, chorus, | G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, (voice
+76.006575963	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, voice)
+84.590181405	B, verse, | G:maj . F:maj G:maj | N | N | N | N |, (rap
+95.401156462	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |
+103.950317460	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |
+112.566643990	| N | N | N | N |, rap)
+121.182403628	B, chorus, | G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, (voice
+129.750612244	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, voice)
+138.270453514	B, verse, | G:maj . F:maj G:maj | N | N | N | N |, (rap
+149.085600907	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |
+157.666349206	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |
+166.250816326	| N | N |
+170.592063492	B, chorus, | G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, (voice
+179.185918367	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, voice)
+187.751451247	B, verse, | G:maj . F:maj G:maj | N | N | N | N |, (rap
+198.511655328	| N | N | N | N |
+207.111564625	| N | N | N | N |
+215.663378684	| N | N | N | N |
+224.279795918	| N | N | N | N |
+232.935487528	| N | N | N | N |, rap)
+241.455714285	B, chorus, | G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, (voice
+250.087460317	| G:maj . F:maj G:maj | N | G:maj . F:maj G:maj | N |, voice)
+258.631904761	B, outro, | G:maj . F:maj G:maj | N | N | N |, (rap
+267.271814058	| N | N | N | N |
+275.863582766	fadeout, | N | N | N | N |, rap)
+298.930748299	silence
+301.534467120	end

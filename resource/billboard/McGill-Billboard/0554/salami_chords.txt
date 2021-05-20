@@ -1,0 +1,27 @@
+# title: Walk Right In
+# artist: The Moments
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+4.435011337	A, intro, | A:maj | A:maj | D:7 | D:7 |, (guitar
+12.004716553	| A:maj | A:maj F#:7 | B:7 E:7 | A:maj |, guitar)
+18.877823129	B, verse, | A:maj | A:maj F#:7 | B:7 E:7 | A:maj |, (voice
+25.797369614	| A:maj | A:maj F#:7 | B:7 | E:7 |
+32.716916099	| A:maj | A:maj | D:7 | D:7 |
+39.543582766	| A:maj | A:maj F#:7 | B:7 E:7 | A:maj |
+46.463129251	B, verse, | A:maj | A:maj F#:7 | B:7 E:7 | A:maj |
+53.336235827	| A:maj | A:maj F#:7 | B:7 | E:7 |
+60.302222222	| A:maj | A:maj | D:7 | D:7 |
+67.175328798	| A:maj | A:maj F#:7 | B:7 E:7 | A:maj |, voice)
+74.048435374	B, instrumental, | A:maj | A:maj F#:7 | B:7 E:7 | A:maj |, (guitar
+80.87510204	| A:maj | A:maj F#:7 | B:7 | E:7 |
+87.794648526	| A:maj | A:maj | D:7 | D:7 |
+94.621315192	| A:maj | A:maj F#:7 | B:7 E:7 | A:maj |, guitar)
+101.494421768	B, verse, | A:maj | A:maj F#:7 | B:7 E:7 | A:maj |, (voice
+108.460408163	| A:maj | A:maj F#:7 | B:7 | E:7 |
+115.379954648	| A:maj | A:maj | D:7 | D:7 |
+122.392380952	| A:maj | A:maj F#:7 | B:7 E:7 | A:maj |
+129.311927437	C, outro, | B:7 E:7 | A:maj |, voice)
+134.884716553	silence
+139.075918367	end

@@ -1,0 +1,24 @@
+# title: Break It To Me Gently 
+# artist: Juice Newton
+# metre: 12/8
+# tonic: E
+
+0.0	silence
+0.464399092	A, intro, | E:maj E:aug(7) | A:maj | A:min6 | E:maj | B:maj A:maj G#:min F#:min |
+20.758639455	B, verse, | E:maj E:aug | A:maj7 A:min6 | E:maj G#:7 | C#:7(b9) |, (voice
+36.899183673	| F#:7 | F#:7 | F#:min7 | B:maj A:maj G#:min F#:min |
+53.088752834	B, verse, | E:maj E:aug | A:maj7 A:min6 | E:maj G#:7 | C#:7(b9) |
+69.332743764	| F#:7 | F#:7 | F#:min7 | B:maj A:maj G#:min F#:min |
+85.459750566	C, bridge, | A:maj | G#:min | F#:min7 B:maj | E:maj7 E:7 |
+101.683287981	| A:maj | G#:min7 C#:7 | F#:7 | B:maj A:maj G#:min F#:min |
+117.876054421	B, verse, | E:maj E:aug | A:maj7 A:min6 | E:maj G#:7 | C#:7(b9) |
+134.002403628	| F#:7 | F#:7 | F#:min7 B:7 | E:maj E:aug(b7) |, voice)
+150.213015873	C, bridge, | A:maj | G#:min | F#:min7 B:maj | E:maj E:7 |, (guitar)
+166.436575963	| A:maj | G#:min | F#:7 | B:7 C:7 |, (voice
+# tonic: F
+182.569863945	B, verse, | F:maj F:aug | Bb:maj7 Bb:min | F:maj A:7 | D:7(b9) |
+198.77877551	| G:7 | G:7 | G:min7 C:7 | F:maj F:7/b7 D:7 . |
+214.94031746	| G:7 | C:7 N . . | F:maj | Bb:maj Bb:min6 |
+232.256213151	| F:maj |, voice)
+239.7692517	silence
+243.408979591	end

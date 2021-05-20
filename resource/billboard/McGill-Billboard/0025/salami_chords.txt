@@ -1,0 +1,37 @@
+# title: Chicago 
+# artist: Graham Nash
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.232199546	A, intro, | A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 |, (organ)
+13.392539682	B, verse, | A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 | G:maj C:maj/5 G:maj C:maj/5 | A:min D:min/5 A:min D:min/5 |, (voice
+25.049251700	| A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 | G:maj C:maj/5 G:maj C:maj/5 | A:min D:min/5 A:min . |
+36.686757369	C, chorus, | G:maj . F:maj . | E:min |
+42.588798185	| G:maj . F:maj . | (2/4) E:min . |
+46.948752834	| D:maj . G:maj/5 . | D:7 . G:maj/5 . |, voice)
+52.820385487	A, trans, | A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 |, (organ)
+58.628820861	B, verse, | A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 | G:maj C:maj/5 G:maj C:maj/5 | A:min D:min/5 A:min D:min/5 |, (voice
+70.203605442	| A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 | G:maj C:maj/5 G:maj C:maj/5 | A:min D:min/5 A:min . |
+81.788730158	C, chorus, | G:maj . F:maj . | E:min |
+87.648253968	| G:maj . F:maj . | (2/4) E:min . |
+91.926326530	| D:maj . G:maj/5 . | D:7 . G:maj/5 . |
+97.813015873	| D:maj . G:maj/5 . | D:7 . G:maj/5 . |
+103.604421768	| G:maj | G:maj/b7 |, voice)
+109.407573696	A, trans, | A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 |, (organ)
+115.355918367	B, verse, | A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 | G:maj C:maj/5 G:maj C:maj/5 | A:min D:min/5 A:min D:min/5 |, (voice
+127.178253968	| A:min D:min/5 A:min D:min/5 | A:min D:min/5 A:min D:min/5 | G:maj C:maj/5 G:maj C:maj/5 | A:min D:min/5 A:min . |
+138.917913832	C, chorus, | G:maj . F:maj . | E:min |
+144.824489795	| G:maj . F:maj . | (2/4) E:min . |
+149.167913832	| D:maj . G:maj/5 . | D:7 . G:maj/5 . |
+155.034036281	| D:maj . G:maj/5 . | D:7 . G:maj/5 . |
+160.826825396	| G:maj | G:maj/b7 | G:maj/b7 | G:maj/b7 |, voice)
+170.773650793	Z
+175.902471655	C', outro, | G:maj . F:maj . | E:maj | G:maj . F:maj . | E:maj |, (piano
+187.472630385	| G:maj . F:maj . | E:maj |, piano)
+193.341451247	| G:maj . F:maj . | E:maj | G:maj . F:maj . | E:maj |, (voice
+204.872494331	| G:maj . F:maj . | E:maj | G:maj . F:maj . | E:maj |
+216.400725623	fadeout, | G:maj . F:maj . | E:maj | G:maj . F:maj . | E:maj |
+227.853582766	| G:maj . F:maj . | E:maj | G:maj . F:maj . | E:maj |, voice)
+236.100498866	silence
+241.084081632	end

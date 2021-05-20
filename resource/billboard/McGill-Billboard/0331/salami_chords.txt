@@ -1,0 +1,28 @@
+# title: Jungle Boogie
+# artist: Kool and the Gang
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.394739229	A, verse, | G:min7 | G:min7 | G:min7 | G:min7 |, (voice
+11.102312925	| G:min7 | G:min7 | G:min7 | G:min7 |, voice)
+20.250226757	B, instrumental, | G:min7 | G:min7 | G:min7 | G:min7 |, (bass)
+29.363424036	| G:min7 | G:min7 | G:min7 | G:min7 |, (trumpet)
+38.466303854	C, chorus, | G:min7 | G:min7 | G:min7 | G:min7 |, (voice
+47.538095238	| G:min7 | G:min7 | G:min7 | G:min7 |, voice)
+56.639297052	B, instrumental, | G:min7 | G:min7 | G:min7 | G:min7 |, (bass)
+65.682517006	| G:min7 | G:min7 | G:min7 | G:min7 |, (trumpet)
+74.732947845	C, chorus, | G:min7 | G:min7 | G:min7 | G:min7 |, (voice
+83.846780045	| G:min7 | G:min7 | G:min7 | G:min7 |, voice)
+92.885895691	A', verse, | G:min7 | G:min7 | G:min7 | G:min7 |, (voice
+101.99956916	| G:min7 | G:min7 | G:min7 | G:min7 |
+111.03494331	| G:min7 | G:min7 | G:min7 | G:min7 |, voice)
+120.100521541	B', instrumental, | G:min7 | G:min7 | G:min7 | G:min7 |, (trumpet)
+129.17770975	D, outro, | G:min7 | G:min7 | G:min7 | G:min7 |, (bass
+138.181360544	| G:min7 | G:min7 | G:min7 | G:min7 |
+147.154535147	| G:min7 | G:min7 | G:min7 | G:min7 |
+156.13786848	| G:min7 | G:min7 | G:min7 | G:min7 |
+164.971950113	| G:min7 | G:min7 | G:min7 | G:min7 |
+173.862539682	| G:min7 | G:min7 | G:min7 | G:min7 | G:min7 |, bass)
+183.809160997	silence
+186.200816326	end

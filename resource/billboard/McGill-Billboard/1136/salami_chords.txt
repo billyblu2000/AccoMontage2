@@ -1,0 +1,39 @@
+# title: Get Together
+# artist: The Youngbloods
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.371519274	A, intro, | A:maj | G:maj/9 | A:maj | G:maj/9 |
+9.944240362	| A:maj | A:maj |
+14.522108843	B, verse, | A:maj | A:maj | A:maj | G:maj | G:maj |, (voice
+26.192108843	| A:maj | A:maj | A:maj | G:maj | G:maj |
+38.004512471	| A:maj | A:maj | A:maj | G:maj | G:maj |
+49.729047619	C, chorus, | D:maj | E:maj | A:maj | D:maj E:maj |, voice)
+58.871995464	| A:maj | A:maj |
+63.535487528	B, verse, | A:maj | A:maj | A:maj | G:maj | G:maj |, (voice
+75.264535147	| A:maj | A:maj | A:maj | G:maj | G:maj |
+87.062879818	| A:maj | A:maj | A:maj | G:maj | G:maj |
+98.714104308	C, chorus, | D:maj | E:maj | A:maj | D:maj E:maj |, voice)
+107.899977324	| A:maj | A:maj |
+112.362448979	C, chorus, | D:maj | E:maj | A:maj | D:maj E:maj |, (voice)
+121.312517006	| A:maj | A:maj |
+125.817256235	B', solo, | A:maj | A:maj | A:maj | G:maj | G:maj |, (guitar
+137.268253968	| A:maj | A:maj | A:maj | G:maj | G:maj |
+148.769206349	| A:maj | A:maj | A:maj | G:maj | G:maj |, guitar)
+160.099229024	C, chorus, | D:maj | E:maj | A:maj | D:maj E:maj |, (voice)
+169.199229024	| A:maj | A:maj |
+173.759727891	A, interlude, | A:maj | A:maj |
+178.456848072	| A:maj | G:maj/9 | A:maj | G:maj/9 |
+187.803061224	| A:maj | A:maj |
+192.43770975	B, verse, | A:maj | A:maj | A:maj | G:maj | G:maj |, (voice
+204.093741496	| A:maj | A:maj | A:maj | G:maj | G:maj |
+215.746031746	| A:maj | A:maj | A:maj | G:maj | G:maj |
+227.239455782	C, chorus, | D:maj | E:maj | A:maj | D:maj E:maj |, voice)
+236.367800453	| A:maj | A:maj |
+240.908072562	C, chorus, | D:maj | E:maj | A:maj | D:maj E:maj |, (voice)
+249.732199546	| A:maj | A:maj |
+254.225804988	C, chorus, | D:maj | E:maj | A:maj | D:maj E:maj |, (voice
+262.956757369	| A:maj | A:maj | A:maj | A:maj |, voice)
+274.947482993	silence
+276.767346938	end

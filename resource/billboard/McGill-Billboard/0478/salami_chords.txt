@@ -1,0 +1,44 @@
+# title: One Last Kiss
+# artist: J. Geils Band
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.30185941	A, intro, | D:min | D:min . . C:maj | Bb:maj | Bb:maj . . C:maj |, (guitar
+8.737619047	| D:min | D:min . . C:maj | Bb:maj | C:maj |, guitar)
+16.12893424	B, verse, | D:min | Bb:maj | F:maj | G:maj |, (voice
+23.57079365	| D:min | Bb:maj | F:maj | G:maj |
+30.941609977	| D:min | D:min | G:min | G:min |
+38.224353741	| D:min | D:min | G:min | Bb:maj |
+45.615736961	C, chorus, | C:maj | D:min | C:maj | D:min |
+53.011451247	| C:maj | D:min | Bb:maj | C:maj |
+60.414263038	| C:maj/b7 | C:maj/b7 |
+64.147142857	B, verse, | D:min | Bb:maj | F:maj | G:maj |
+71.615963718	| D:min | Bb:maj | F:maj | G:maj |
+78.970861678	| D:min | D:min | G:min | G:min |
+86.242494331	| D:min | D:min | G:min | Bb:maj |
+93.591088435	C, chorus, | C:maj | D:min | C:maj | D:min |
+100.977437641	| C:maj | D:min | Bb:maj | C:maj |
+108.3830839	| C:maj/b7 | C:maj/b7 |, voice)
+112.102244897	A, trans, | D:min | D:min . . C:maj | Bb:maj | Bb:maj . . C:maj |, (guitar
+119.563650793	| D:min | D:min . . C:maj | Bb:maj | C:maj |, guitar)
+126.954807256	A, solo, | D:min | D:min | G:min | G:min |, (harmonica
+134.380770975	| D:min | D:min | G:min | G:min |
+141.745396825	| D:min | D:min | G:min | G:min |
+149.101020408	| D:min | D:min | Bb:maj | Bb:maj |, harmonica)
+156.553333333	C, chorus, | C:maj | D:min | C:maj | D:min |, (voice
+163.996213151	| C:maj | D:min | Bb:maj | C:maj |
+171.329047619	| C:maj/b7 | C:maj/b7 |, voice)
+175.075238095	A, trans, | D:min | D:min . . C:maj | Bb:maj | Bb:maj . . C:maj |, (guitar
+182.579115646	| D:min | D:min . . C:maj | Bb:maj | Bb:maj . . C:maj |
+190.062743764	A, solo, | D:min | D:min | Bb:maj | Bb:maj |
+197.381519274	| D:min | D:min | Bb:maj | Bb:maj |
+204.725079365	| D:min | D:min | Bb:maj | Bb:maj |
+212.105895691	| D:min | D:min | Bb:maj | Bb:maj |
+219.414058956	| D:min | D:min | Bb:maj | Bb:maj |
+226.783151927	| D:min | D:min | Bb:maj | Bb:maj |
+234.13292517	| D:min | D:min | Bb:maj | Bb:maj |
+241.456077097	fadeout, | D:min | D:min | Bb:maj | Bb:maj |
+248.846235827	| D:min | D:min | Bb:maj | Bb:maj | D:min | D:min |, guitar)
+258.577414965	silence
+263.888979591	end

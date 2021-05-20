@@ -1,0 +1,26 @@
+# title: That's Old Fashioned (That's The Way Love Should Be)
+# artist: The Everly Brothers
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.348299319	A, intro, | G:maj | C:maj | G:maj | A:min7 D:maj |, (trombone
+8.516394557	| G:maj C:maj | G:maj D:1 |, trombone)
+12.555192743	B, verse, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj F:maj E:min D:min |, (voice
+20.752154195	| C:maj D:maj | C:maj D:maj | G:maj C:maj | G:maj |
+28.965170068	| C:maj D:maj | C:maj D:maj | G:maj . F#:maj F:maj | E:7 |
+37.134557823	| A:7 | D:7 | G:maj C:maj | G:maj D:7 |
+45.297052154	B, verse, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj F:maj E:min D:min |
+53.490362811	| C:maj D:maj | C:maj D:maj | G:maj C:maj | G:maj |
+61.640680272	| C:maj D:maj | C:maj D:maj | G:maj . F#:maj F:maj | E:7 |
+69.835782312	| A:7 | D:7 | G:maj C:maj | G:maj |
+77.970975056	C, bridge, | C:maj D:maj | G:maj E:min | C:maj D:maj | G:maj |
+86.159365079	| C:maj D:maj | G:maj E:min | A:7 | D:7 |
+94.33739229	B, verse, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj F:maj E:min D:min |
+102.494807256	| C:maj D:maj | C:maj D:maj | G:maj C:maj | G:maj |
+110.670136054	| C:maj D:maj | C:maj D:maj | G:maj . F#:maj F:maj | E:7 |
+118.82079365	| A:7 | D:7 | G:maj C:maj | G:maj |, voice)
+126.925124716	A, coda, | G:maj | C:maj | G:maj | A:min7 D:maj |, (trombone)
+134.87494331	| G:maj | G:maj |, (guitar)
+140.039546485	silence
+142.471836734	end

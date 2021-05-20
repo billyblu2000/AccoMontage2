@@ -1,0 +1,35 @@
+# title: Man In The Mirror
+# artist: Michael Jackson
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.417959183	A, intro, | G:maj G:sus4(b7,9) | G:maj D:maj/3 | C:maj(9) | C:maj(9) |, (synthesiser)
+9.94770975	| G:maj G:sus4(b7,9) | G:maj D:maj/3 | C:maj(9) | C:maj(9) |, (voice
+19.576848072	| G:maj G:sus4(b7,9) | G:maj D:maj/3 | C:maj(9) | C:maj(9) |
+29.096938775	B, verse, | G:maj G:sus4(b7,9) | G:maj D:maj/3 | C:maj(9) | C:maj(9) |
+38.679637188	| G:maj G:sus4(b7,9) | G:maj D:maj/3 | C:maj(9) | C:maj(9) |
+48.228049886	| A:min7 | G:maj(9)/3 | C:maj(9) | G:maj(9)/3 |
+57.7930839	| A:min7 | G:maj(9)/3 | C:maj(9) | D:sus4(b7,9) |
+67.38356009	C, chorus, | G:maj G:maj/3 | C:maj . D:sus4 D:maj(9) | G:maj G:maj/3 | C:maj . D:sus4 D:maj(9) |
+76.9630839	| G:maj G:maj/3 | C:maj A:9/3 | D:min11 | D:min11 |
+86.50478458	D, interlude, | G:maj D:maj/3 | E:min7 D:maj | C:maj9(#11) | C:maj9 D:7 E:min7 D:maj/3 |
+96.071315192	B, verse, | G:maj D:maj/3 | E:min7 D:maj | C:maj(9) C:maj9(#11) | C:maj(9) |
+105.673582766	| G:maj D:maj/3 | E:min7 D:maj | C:maj(9) C:maj9(#11) | C:maj(9) |
+115.240340136	| A:min7 | G:maj(9)/3 | C:maj(9) | G:maj(9)/3 |
+124.781065759	| A:min7 | G:maj(9)/3 | C:maj(9) | D:sus4(b7,9) |
+134.345668934	C, chorus, | G:maj G:maj/3 | C:maj D:sus4 | G:maj G:maj/3 | C:maj D:sus4 |
+143.889637188	| G:maj G:maj/3 | C:maj A:9/3 | D:min11 | D:min11 |
+153.448163265	| G:maj G:maj/3 | C:maj D:sus4 | G:maj G:maj/3 | C:maj D:sus4 |
+163.057936507	| G:maj G:maj/3 | C:maj A:9/3 | D:min11 | D:min11 |
+# tonic: Ab
+172.431383219	C', chorus, | Ab:maj Ab:maj/3 | Db:maj . Eb:sus4 Eb:maj(9) | Ab:maj Ab:maj/3 | Db:maj . Eb:sus4 Eb:maj(9) |
+182.191156462	| Ab:maj Ab:maj/3 | Db:maj Bb:9/3 | Eb:min11 | Eb:min11 |
+191.780045351	| Eb:min11 | Eb:min11 |
+196.565419501	| Ab:maj Ab:maj/3 | Db:maj . Eb:sus4 Eb:maj(9) | Ab:maj Ab:maj/3 | Db:maj . Eb:sus4 Eb:maj(9) |
+206.093424036	| Ab:maj Ab:maj/3 | Db:maj Bb:9/3 | Eb:min11 | Eb:min11 |
+215.704557823	D', interlude, | Ab:maj Eb:maj/3 | F:min7 Eb:maj | Db:maj(9) Db:maj9(#11) | Db:maj(9) |
+225.232811791	| Ab:maj Eb:maj/3 | F:min7 Eb:maj | Db:maj(9) | Db:maj(9) |
+234.828231292	E, coda, fadeout, | Db:maj(9) | x31, voice)
+316.935714285	silence
+320.00047619	end

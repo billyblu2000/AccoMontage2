@@ -1,0 +1,31 @@
+# title: I've Got Love On My Mind
+# artist: Nathalie Cole
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.255419501	A, intro, | E:sus4 E:maj | E:maj | Ab:sus4 Ab:maj |
+12.875056689	| (2/4) Ab:sus2 Ab:maj | Ab:1 Gb:1 F:1 Eb:1 |
+16.400997732	B, verse, | Db:maj F:min7 | Gb:maj Gb:maj/9 | Db:maj F:min7 | Gb:maj Gb:maj/9 |, (voice
+30.293310657	| Db:maj F:min7 | Gb:maj Gb:maj/9 | A:7 Ab:7 | A:7 Ab:7 |
+44.251927437	| A:7 Ab:7 | (6/4) A:maj . Ab:1 Gb:1 F:1 Eb:1 |
+53.043945578	B, verse, | Db:maj F:min7 | Gb:maj Gb:maj/9 | Db:maj F:min7 | Gb:maj Gb:maj/9 |
+67.114897959	| Db:maj F:min7 | Gb:maj Gb:maj/9 | A:7 Ab:7 | A:7 Ab:7 |
+81.257437641	| A:7 Ab:7 | (6/4) A:maj . Ab:1 Gb:1 F:1 Eb:1 |
+90.131451247	B, verse, | Db:maj F:min7 | Gb:maj Gb:maj/9 | Db:maj F:min7 | Gb:maj Gb:maj/9 |
+104.406916099	| Db:maj F:min7 | Gb:maj Gb:maj/9 | A:7 Ab:7 | A:7 Ab:7 |
+118.721519274	| A:7 Ab:7 | (6/4) A:maj . Ab:1 Gb:1 F:1 Eb:1 |
+127.58648526	C, bridge, | E:sus4 E:maj | E:maj |
+134.669024943	| F#:sus4 F#:maj | F#:maj |
+141.721292517	| Bb:sus4 Bb:maj | Bb:sus4 Bb:maj |
+148.703333333	B', outro, | Eb:maj G:min7 | Ab:maj Ab:maj/9 | Eb:maj G:min7 | Ab:maj Ab:maj/9 |
+162.755510204	| Eb:maj G:min7 | Ab:maj Ab:maj/9 | Eb:maj G:min7 | Ab:maj Ab:maj/9 |
+176.679750566	| Eb:maj G:min7 | Ab:maj Ab:maj/9 | Eb:maj G:min7 | Ab:maj Ab:maj/9 |
+190.598639455	| Eb:maj G:min7 | Ab:maj Ab:maj/9 | Eb:maj G:min7 | Ab:maj Ab:maj/9 |
+204.577573696	| Eb:maj G:min7 | Ab:maj Ab:maj/9 |
+211.47478458	| Eb:maj G:min7 | Ab:maj Ab:maj/9 | Eb:maj G:min7 | Ab:maj Ab:maj/9 |
+225.508390022	| Eb:maj G:min7 | Ab:maj Ab:maj/9 | Eb:maj G:min7 | Ab:maj Ab:maj/9 |
+239.3692517	fadeout, | Eb:maj G:min7 | Ab:maj Ab:maj/9 | Eb:maj G:min7 | Ab:maj Ab:maj/9 |
+253.292131519	| Eb:maj G:min7 | Ab:maj Ab:maj/9 |, voice)
+258.786394557	silence
+261.276734693	end

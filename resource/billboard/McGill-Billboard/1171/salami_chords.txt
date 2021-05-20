@@ -1,0 +1,47 @@
+# title: Night Moves
+# artist: Bob Seger
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.325079365	A, intro, | Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |, (guitar
+8.567301587	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |, guitar)
+16.672312925	A, verse, | Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |, (voice
+24.761360544	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+32.828798185	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+40.987256235	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+49.042789115	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+57.084580498	B, chorus, | F:min . . Eb:maj | Db:maj . . Eb:maj | F:min . . Eb:maj | Db:maj . . Eb:maj |
+65.112222222	| F:min . . Eb:maj | Db:maj Db:maj7 |
+69.129160997	A, verse, | Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+77.23201814	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+85.318820861	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+93.382290249	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+101.382834467	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+109.461043083	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+117.530839002	B, chorus, | F:min . . Eb:maj | Db:maj . . Eb:maj | F:min . . Eb:maj | Db:maj . . Eb:maj |
+125.598956916	| F:min . . Eb:maj | Db:maj Db:maj7 |
+129.658979591	A, verse, | Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+137.773673469	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+145.805827664	C, bridge, | F:min | F:min | Ab:maj Ab:7 | Ab:maj Ab:7 |
+153.993333333	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+162.077301587	| Db:maj | Db:maj | Gb:maj | Gb:maj |
+170.118072562	| Eb:maj | Eb:maj |
+174.13664399	D, interlude, | Ab:maj | &pause |, (guitar)
+181.472358276	| Ab:maj | Db:maj7 | Ab:maj | Db:maj7 | (3/4) F:min |, (voice
+200.884353741	| Db:maj | (3/4) F:min | Db:maj | (3/4) F:min |
+211.320770975	| Db:maj Db:maj7 | Db:maj7 | Ab:maj | (2/4) Ab:maj |, voice)
+221.377732426	A, instrumental, | Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |, (guitar
+229.66510204	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |, guitar)
+237.947687074	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+246.047800453	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+254.178458049	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+262.360204081	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+270.428163265	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+278.537097505	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+286.661972789	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+294.754535147	| Ab:maj | Ab:maj . . Gb:maj | Db:maj | Db:maj . . Gb:maj |
+302.732993197	| F:min | F:min | C:min | C:min |
+310.783492063	| Bb:min | Db:maj | Ab:maj | Ab:maj | &pause |
+322.33941043	silence
+325.773061224	end

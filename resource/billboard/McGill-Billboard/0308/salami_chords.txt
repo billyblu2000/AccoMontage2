@@ -1,0 +1,28 @@
+# title: You Can't Roller Skate In A Buffalo Herd
+# artist: Roger Miller
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.162539682	A, intro, | G:maj | G:maj |, (guitar)
+3.00015873	B, verse, | G:maj | G:maj | D:7 | D:7 |, (voice
+8.41861678	| G:maj | G:maj | D:7 | N |
+13.876825396	| G:maj | G:maj | D:7 | D:7 |
+19.108866213	| G:maj | G:maj | D:7 | N |
+24.556984126	C, chorus, | C:maj | G:maj | A:7 | D:7 |
+29.863287981	B, verse, | G:maj | G:maj | D:7 | D:7 |
+35.287029478	| G:maj | G:maj | D:7 | N |
+40.601269841	D, solo, | G:maj | C:maj | D:7 | D:7 |
+46.011451247	| G:maj | C:maj | D:7 | (2/4) D:7 | G:maj | G:maj |
+53.386439909	B, verse, | G:maj | G:maj | D:7 | D:7 |
+58.759342403	| G:maj | G:maj | D:7 | N |
+64.216780045	| G:maj | G:maj | D:7 | D:7 |
+69.462698412	| G:maj | G:maj | D:7 | N |
+75.06063492	C, chorus, | C:maj | G:maj | A:7 | D:7 |
+80.320181405	B, verse, | G:maj | G:maj | D:7 | D:7 |
+85.705170068	| G:maj | G:maj | D:7 | N |
+91.168163265	| G:maj | G:maj | D:7 | D:7 |
+96.469637188	| G:maj | G:maj | D:7 | N |
+101.93015873	| G:maj | G:maj | D:7 | D:7 |, fadeout, voice)
+107.319160997	silence
+112.279818594	end

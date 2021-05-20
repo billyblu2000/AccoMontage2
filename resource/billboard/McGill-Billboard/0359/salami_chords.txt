@@ -1,0 +1,42 @@
+# title: Just Like Heaven
+# artist: The Cure
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.208979591	A, intro, | A:1 E:1 | B:1 D:1 | A:1 E:1 | B:1 D:1 |, (bass)
+6.626507936	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, (guitar
+12.871746031	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+19.141519274	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+25.44063492	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+31.705079365	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+37.978662131	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+44.28340136	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, guitar)
+50.598072562	B, verse, | A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, (voice
+56.936054421	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+63.219863945	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+69.582539682	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, voice)
+75.933673469	A, interlude, | A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, (guitar
+82.366870748	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+88.67201814	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+94.997142857	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, guitar)
+101.369501133	B, verse, | A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, (voice
+107.766916099	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+114.133968253	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+120.500680272	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+126.863151927	C, chorus, | F#:min | G:maj | F#:min | G:maj |
+133.244104308	| F#:min | G:maj |
+136.482494331	| D:maj | D:maj | D:maj | D:maj |, voice)
+142.843356009	A, interlude, | A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, (piano
+149.272879818	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+155.711179138	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+162.08430839	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, piano)
+168.48648526	B, verse, | A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |, (voice
+174.847687074	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+181.286689342	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+187.694240362	| A:maj E:maj | B:min D:maj | A:maj E:maj | B:min D:maj |
+194.122789115	C, chorus, | F#:min | G:maj | F#:min | G:maj |
+200.476893424	| F#:min | G:maj |, voice)
+203.615782312	| D:maj |, (synthesizer)
+209.583310657	silence
+212.166530612	end

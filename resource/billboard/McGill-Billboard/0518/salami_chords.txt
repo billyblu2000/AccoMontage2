@@ -1,0 +1,82 @@
+# title: Suite: Judy Blue Eyes
+# artist: Crosby, Stills & Nash
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.394739229	Z
+2.577414965	A, intro, | E:maj | E:maj | E:maj | E:maj |, (guitar
+8.867664399	| E:maj | E:maj | E:maj |, guitar)
+13.689433106	B, verse, | E:maj | A:sus4 A:maj | A:sus4 A:maj | E:maj | B:maj | B:maj |, (voice
+23.298390022	| A:11 | A:11 |
+26.471723356	| E:maj | A:sus4 A:maj | A:sus4 A:maj | E:maj | B:maj | B:maj |
+36.097687074	| A:11 | A:11 |
+39.300045351	C, chorus, | E:maj | B:maj | A:11 | A:11 |
+45.761405895	| E:maj | A:11 |
+48.971428571	B, verse, | E:maj | A:sus4 A:maj | A:sus4 A:maj | E:maj | B:maj | B:maj |
+58.546258503	| A:11 | A:11 |
+61.76047619	| E:maj | A:sus4 A:maj | A:sus4 A:maj | E:maj | B:maj | B:maj |
+71.268253968	| A:11 | A:11 |
+74.442154195	C', chorus, | E:maj | B:maj | A:11 | A:11 |
+80.917755102	A, interlude, | E:maj | E:maj | E:maj | E:maj |, voice), (guitar
+87.286031746	| E:maj | E:maj | E:maj |, guitar)
+91.990385487	B, verse, | E:maj | A:sus4 A:maj | A:sus4 A:maj | E:maj | B:maj | B:maj |, (voice
+101.539047619	| A:11 | A:11 |
+104.727528344	| E:maj | A:sus4 A:maj | A:sus4 A:maj | E:maj | B:maj | B:maj |
+114.201247165	| A:11 | A:11 |
+117.322607709	C, chorus, | E:maj | B:maj | A:11 | A:11 |
+123.791564625	| E:maj | A:11 |
+127.022517006	B, verse, | E:maj | A:sus4 A:maj | A:sus4 A:maj | E:maj | B:maj | B:maj |
+136.542766439	| A:11 | A:11 |
+139.747029478	| E:maj | A:sus4 A:maj | A:sus4 A:maj | E:maj | B:maj | B:maj |
+149.319727891	| A:11 | A:11 |
+152.568571428	C'', chorus, | E:maj | B:maj | A:11 | A:11 |
+158.894285714	| E:maj | A:11 | E:maj | A:11 |
+165.254557823	| E:maj | A:11 | E:maj | E:maj |, voice)
+171.663378684	D, trans, | E:maj | E:maj | E:maj | E:maj |, (guitar)
+177.981768707	E, verse, | E:maj | E:maj | E:maj | E:maj |, (voice
+184.086575963	| E:maj | E:maj | A:maj | A:11 |
+190.259841269	| A:11 | A:11 |
+193.463537414	| E:maj | E:maj | E:maj | E:maj |
+199.726417233	| E:maj | E:maj | E:maj | E:maj |
+205.883333333	| E:maj | E:maj | A:maj | A:11 |
+212.138707482	| A:11 | A:11 |
+215.221768707	| E:maj | E:maj | E:maj | E:maj |
+221.357959183	F, chorus, | D:maj | D:maj | A:maj | A:maj |
+227.758730158	| D:maj | D:maj | A:maj | A:maj |, voice)
+234.213582766	D, interlude, | E:maj | E:maj | E:maj | E:maj |, (guitar)
+240.505147392	E, verse, | E:maj | E:maj | E:maj | E:maj |, (voice
+246.784489795	| E:maj | E:maj | A:maj | A:11 |
+253.114988662	| A:11 | A:11 |
+256.325124716	| E:maj | E:maj | E:maj | E:maj |
+262.47739229	| E:maj | E:maj | E:maj | E:maj |
+268.750498866	| E:maj | E:maj | A:maj | A:11 |
+275.050521541	| A:11 | A:11 |
+278.171791383	| E:maj | E:maj | E:maj | E:maj |, voice)
+284.390748299	D', solo, | E:maj | E:maj | E:maj | E:maj |, (guitar
+290.490385487	| E:maj | E:maj | E:maj | E:maj |
+296.564172335	| E:maj | E:maj | E:maj | E:maj |
+302.811473922	| E:maj | E:maj | E:maj | E:maj |
+308.979637188	| E:maj | E:maj |, guitar)
+312.097324263	G, verse, | B:min/11 | B:min/11 E:maj . . | B:min/11 | E:sus4(b7) E:7 |, (voice
+318.293922902	| E:5(b7) | E:5(b7) | E:5(b7) | D:maj7/9 C#:min7/b3 | C#:min7/b3 |, voice)
+326.14170068	H, solo, | E:maj | E:maj | E:maj | E:maj |, (guitar
+332.261972789	| E:maj | E:maj | E:maj | E:maj | E:maj |, guitar)
+340.132562358	G, verse, | B:min/11 | B:min/11 E:maj . . | B:min/11 | E:sus4(b7) E:7 |, (voice
+346.462517006	| E:5(b7) | E:5(b7) | E:5(b7) | D:maj7/9 C#:min7/b3 | C#:min7/b3 |, voice)
+354.468117913	H, solo, | E:maj | E:maj | E:maj | E:maj |, (guitar
+360.650657596	| E:maj | E:maj | E:maj | E:maj | E:maj |, guitar)
+368.525782312	G, verse, | B:min/11 | B:min/11 E:maj . . | B:min/11 | E:sus4(b7) E:7 |, (voice
+374.813174603	| E:5(b7) | E:5(b7) | E:5(b7) | D:maj7/9 C#:min7/b3 | C#:min7/b3 |, voice)
+382.721632653	H', solo, | E:maj | E:maj | E:maj | E:maj |, (guitar
+388.833922902	| E:maj | E:maj | E:maj | E:maj | E:maj |, guitar)
+395.012312925	I, outro, | A:maj B:min7 | F#:min D:maj . E:maj | A:maj B:min7 | F#:min D:maj E:maj . |, (voice
+401.237437641	| A:maj B:min7 | F#:min D:maj . E:maj | A:maj B:min7 | F#:min D:maj E:maj . |
+407.472267573	| A:maj B:min7 | F#:min D:maj . E:maj | A:maj B:min7 | F#:min D:maj E:maj . |
+413.759433106	| A:maj B:min7 | F#:min D:maj . E:maj | A:maj B:min7 | F#:min D:maj E:maj . |
+420.105941043	| A:maj B:min7 | F#:min D:maj . E:maj | A:maj B:min7 | F#:min D:maj E:maj . |
+426.477165532	| A:maj B:min7 | F#:min D:maj . E:maj | A:maj B:min7 | F#:min D:maj E:maj . |
+432.784376417	| A:maj B:min7 | F#:min D:maj . E:maj | A:maj B:min7 | F#:min D:maj E:maj . |
+439.063378684	| A:maj B:min7 | F#:min D:maj . E:maj | A:maj B:min7 | F#:min D:maj E:maj . |, voice)
+446.253764172	silence
+449.455487528	end

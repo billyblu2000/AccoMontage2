@@ -1,0 +1,37 @@
+# title: Heaven Must Have Sent You
+# artist: Bonnie Pointer
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.487619047	A', intro, | N |
+2.626258503	| C:maj | C:maj | A:min | A:min |, (strings
+10.08	| F:maj7 | F:maj7 | G:maj | E:min G:maj |, strings)
+17.560430839	B, chorus, | Bb:maj A:min | Ab:maj G:maj | F:maj E:min7 | D:min7 D:min7/11 |, (voice
+25.008571428	| Bb:maj A:min | Ab:maj G:maj | F:maj E:min7 | D:min7 D:min7/11 |
+32.484716553	A, verse, | C:maj | C:maj | A:min | A:min |
+39.959750566	| F:maj7 | F:maj7 | G:maj | E:min G:maj |
+47.391927437	| C:maj | C:maj | A:min | A:min |
+54.858752834	| F:maj7 | F:maj7 | G:maj | E:min G:maj |
+62.335736961	A, verse, | C:maj | C:maj | A:min | A:min |
+69.775963718	| F:maj7 | F:maj7 | G:maj | E:min G:maj |
+77.27095238	| C:maj | C:maj | A:min | A:min |
+84.706394557	| F:maj7 | F:maj7 | G:maj | E:min G:maj |
+92.15526077	B, chorus, | Bb:maj A:min | Ab:maj G:maj | F:maj E:min7 | D:min7 D:min7/11 |
+99.638730158	| Bb:maj A:min | Ab:maj G:maj | F:maj E:min7 | D:min7 D:min7/11 |, voice)
+107.09802721	A, instrumental, | C:maj | C:maj | A:min | A:min |, (strings
+114.579841269	| F:maj7 | F:maj7 | G:maj | E:min G:maj |
+122.067301587	| C:maj | C:maj | A:min | A:min |
+129.538594104	| F:maj7 | F:maj7 | G:maj | E:min G:maj |, strings)
+137.029659863	A, verse, | C:maj | C:maj | A:min | A:min |, (voice
+144.494172335	| F:maj7 | F:maj7 | G:maj | E:min G:maj |
+151.993786848	| C:maj | C:maj | A:min | A:min |
+159.477324263	| F:maj7 | F:maj7 | G:maj | E:min G:maj |
+166.89356009	B, chorus, | Bb:maj A:min | Ab:maj G:maj | F:maj E:min7 | D:min7 D:min7/11 |
+174.401609977	| Bb:maj A:min | Ab:maj G:maj | F:maj E:min7 | D:min7 D:min7/11 |, voice)
+181.855555555	A, instrumental, | C:maj | C:maj | A:min | A:min |, (strings
+189.298458049	| F:maj7 | F:maj7 | G:maj | E:min G:maj |
+196.780702947	fadeout, | C:maj | C:maj | A:min | A:min |
+204.242721088	| F:maj7 | F:maj7 | G:maj | E:min G:maj |, strings)
+211.278367346	silence
+215.745306122	end

@@ -1,0 +1,29 @@
+# title: You've got a Friend
+# artist: Roberta Flack and Donny Hathaway
+# metre: 4/4
+# tonic: Ab
+
+0.000000000	silence
+0.255419501	A, intro, | Ab:maj | Db:maj/5 | Ab:maj | G:hdim7 C:7 |, (synth)
+14.013514739	B, verse, | F:min | C:7/5 C:7 | F:min C:7/5 | F:min/b3 C:7/5 F:min . |, (voice
+25.853922902	| Bb:min7 | Eb:7 | Ab:maj | Ab:maj |
+37.546666666	C, pre-chorus, | G:hdim7 | C:7 | F:min C:7/5 | F:min/b3 C:7/5 F:min . |
+49.184761904	| Bb:min7 | C:min7 | Eb:11 | Eb:maj |
+60.961020408	D, chorus, | Ab:maj | Ab:7 | Db:maj | Db:maj |
+72.560770975	| Ab:maj | Ab:maj | Eb:7 | Eb:7 |
+84.028004535	| Ab:maj | Ab:maj7 | Db:maj | Gb:maj Db:maj . . |
+95.393854875	| Db:maj7 C:min7 | Bb:min7 | Ab:maj |
+103.635941043	E, bridge, | Gb:maj(9) | Db:maj | Ab:maj | Ab:maj |
+114.834331065	| Db:maj | Gb:7 | F:min7 | Bb:min7 | Eb:11 | Eb:maj |
+131.200000000	C, chorus, | Ab:maj | Ab:7 | Db:maj | Db:maj |
+142.793265306	| Ab:maj | Ab:maj | Eb:7 | Eb:7 |
+153.905238095	| Ab:maj | Ab:maj7 | Db:maj | Gb:maj Db:maj . . |
+164.970136054	| Db:maj7 C:min7 | Bb:min7 | ->
+170.329773242	F, outro, | Ab:maj | Db:maj/5 |
+175.945396825	| Ab:maj | Db:maj/5 |
+181.297392290	| Ab:maj | Db:maj/5 |
+186.794897959	| Ab:maj | Db:maj/5 |
+192.145192743	fadeout, | Ab:maj | Db:maj/5 |
+197.540045351	| Ab:maj | Db:maj/5 |, voice)
+202.321473922	silence
+206.540272108	end

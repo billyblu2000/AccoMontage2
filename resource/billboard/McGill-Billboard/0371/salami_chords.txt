@@ -1,0 +1,20 @@
+# title: Losing You
+# artist: Brenda Lee
+# metre: 12/8
+# tonic: E
+
+0.0	silence
+0.371519274	A, intro, | E:maj | C#:min | A:maj | B:maj |, (trumpet)
+13.278231292	B, verse, | E:maj . C#:min . | F#:min | B:7 | A:maj/5 . E:maj . |, (voice
+26.061587301	| E:maj . C#:min . | A:maj7 | F#:min7 . B:maj . | A#:dim . B:maj . |
+38.909954648	| E:maj . C#:min . | F#:min | B:7 | A:maj/5 . E:maj . |
+51.828752834	| E:maj . C#:min . | A:maj7 | B:maj | E:maj |
+64.742721088	C, bridge, | C:maj | G:maj/3 | A:min | E:min/b3 |
+77.697256235	| F:maj . F#:min B:maj | E:maj E:maj/7 C#:min C#:min/b7 | A:maj7 | A:maj/9 . F#:min B:maj |
+90.757346938	B, verse, | E:maj . C#:min . | F#:min | B:7 | A:maj/5 . E:maj . |
+103.72723356	| E:maj . C#:min . | A:maj7 | B:maj |, voice)
+113.581904761	| E:maj . C#:min . | F#:min | B:7 | A:maj/5 . E:maj . |, (trumpet)
+126.435011337	| E:maj . C#:min . | A:maj7 | B:maj |, (voice)
+138.816916099	A', coda, | E:maj | C#:min . A:maj . | E:maj |, (trumpet)
+150.488526077	silence
+155.297959183	end

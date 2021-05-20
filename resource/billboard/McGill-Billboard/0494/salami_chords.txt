@@ -1,0 +1,25 @@
+# title: I Don't Need You
+# artist: Kenny Rogers
+# metre: 4/4
+# tonic: Db
+
+0.000000000	silence
+0.394739229	A, intro, | Db:maj(9) | Ab:7/11 Db:maj |, (guitar)
+7.549523809	B, verse, | Db:maj(9) | Ab:maj/11 Ab:maj6/11 | Gb:maj6(9) Db:maj/11 | Gb:maj6(9) |, (voice
+21.807800453	| Ab:maj Gb:maj(9)/9 | Ab:maj6 Ab:9 | Db:maj(9) | Ab:maj/11 |
+36.094535147	| Db:maj(9) | Ab:maj/11 | Gb:maj(9) Db:maj/3 | Eb:min7(11) |
+50.285328798	| Ab:maj Gb:maj(9)/9 | Ab:maj6 Gb:maj/9 | Db:sus4(9) Db:maj(9) | Ab:maj/11 |
+64.460725623	C, chorus, | Db:maj Ab:maj/11 | Db:maj | Gb:maj Db:maj/11 | Gb:maj |
+78.752176870	| Ab:maj Ab:sus4(b7) | Ab:maj6 |, voice)
+85.865555555	A, trans, | Db:maj(9) | Ab:7/11 Db:maj |, (guitar)
+93.066870748	B, verse, | Db:maj(9) | Ab:maj/11 Ab:maj6/11 | Gb:maj6(9) Db:maj/11 | Gb:maj6(9) |, (voice
+107.317641723	| Ab:maj Gb:maj(9)/9 | Ab:maj6 Ab:9 | Db:maj(9) | Ab:maj/11 |
+121.580997732	| Db:maj(9) | Ab:maj/11 | Gb:maj(9) Db:maj/3 | Eb:min7(11) |
+135.821768707	| Ab:maj Gb:maj(9)/9 | Ab:maj6 Gb:maj/9 | Db:sus4(9) Db:maj(9) | Ab:maj/11 |
+149.925986394	C, chorus, | Db:maj Ab:maj/11 | Db:maj | Gb:maj Db:maj/11 | Gb:maj |
+164.132607709	| Ab:maj Ab:sus4(b7) | Ab:maj6 |, voice)
+171.181541950	A, trans, | Db:maj(9) | Ab:7/11 Db:maj |, (guitar)
+178.277687074	D, outro, | Gb:maj Db:maj/11 | Gb:maj6 | Ab:maj Ab:9 | Ab:maj6 | Ab:maj |, (voice)
+196.120294784	| Ab:maj6/11 Db:maj | Db:maj | Db:maj |, (guitar)
+205.821678004	silence
+208.718367346	end

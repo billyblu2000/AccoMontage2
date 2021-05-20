@@ -1,0 +1,25 @@
+# title: I Second That Emotion
+# artist: The Miracles
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.30185941	A', intro, | A:maj G:maj | G:maj | D:maj | D:maj |, (trombone)
+10.550748299	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+20.697029478	| D:maj | D:maj | G:maj A:maj | D:maj |
+30.730204081	C, pre-chorus, | G:maj | D:maj | G:maj | D:maj |
+40.733945578	D, chorus, | D:maj | A:maj G:maj | G:maj | D:maj |
+50.839387755	| D:maj | A:maj G:maj | G:maj | D:maj |, voice)
+60.80031746	A', trans, | A:maj G:maj |, (trombone)
+63.314580498	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+73.335147392	| D:maj | D:maj | G:maj A:maj | D:maj |
+83.332312925	C, pre-chorus, | G:maj | D:maj | G:maj | D:maj |
+93.371768707	D, chorus, | D:maj | A:maj G:maj | G:maj | D:maj |
+103.420816326	| D:maj | A:maj G:maj | G:maj | D:maj |, voice)
+113.428163265	A, trans, | A:maj G:maj | D:maj | A:maj G:maj | G:maj | D:maj |, (trombone)
+125.939614512	C, pre-chorus, | G:maj | D:maj | G:maj | D:maj |, (voice
+135.869183673	D, chorus, | D:maj | A:maj G:maj | G:maj | D:maj |
+145.840725623	| D:maj | A:maj G:maj | G:maj | D:maj |, voice)
+155.744331065	A, fadeout, | A:maj G:maj | D:maj | A:maj G:maj | D:maj |, (trombone)
+165.558276643	silence
+168.489795918	end

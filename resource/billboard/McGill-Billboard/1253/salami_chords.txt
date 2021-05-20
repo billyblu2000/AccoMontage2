@@ -1,0 +1,25 @@
+# title: All Alone Am I
+# artist: Brenda Lee
+# metre: 6/8
+# tonic: F
+
+0.0	silence
+0.602857142	A, intro, | N |, (strings)
+4.922630385	B, chorus, | Bb:maj7 | G:min7 | C:maj | F:maj | G:min | E:dim/b5 | A:7 | A:7 |, (voice
+20.3461678	| Bb:maj7 | G:min7 | C:maj | F:maj | G:min | C:maj | F:maj | F:maj |
+34.500249433	C, bridge, | F:maj | F:maj | F:maj | F:maj |
+41.771133786	| F:maj | F:maj | C:maj | C:maj |
+49.036757369	| D:min | D:min | D:min | D:min |
+56.120453514	| D:min | D:min | A:7 | A:7 |
+63.25015873	B, chorus, | Bb:maj7 | G:min7 | C:maj | F:maj | G:min | E:dim/b5 | A:7 | A:7 |
+77.663219954	| Bb:maj7 | G:min7 | C:maj | F:maj | G:min | C:maj | F:maj | F:maj |
+92.232086167	C', bridge, | F:maj | F:aug | F:maj6 | F:maj6 |, (strings, (harpsichord
+99.404693877	| F:maj | F:maj6 | G:min | C:maj |
+106.681904761	| D:min | D:minmaj7 | D:min7 | D:min D:min7 |, strings), harpsichord)
+113.908503401	| G:7 | G:7 | C:7 | C:7 |
+121.267414965	B, chorus, | Bb:maj7 | G:min7 | C:maj | F:maj | G:min | E:dim/b5 | A:7 | A:7 |
+135.661315192	| Bb:maj7 | G:min7 | C:maj | F:maj | G:min | C:maj | &pause |
+150.558185941	D, outro, | F:maj | Bb:maj | A:min Bb:maj | C:maj C:7 |, voice), (harpsichord
+158.731609977	| F:maj |, harpsichord)
+162.484331065	silence
+166.373877551	end

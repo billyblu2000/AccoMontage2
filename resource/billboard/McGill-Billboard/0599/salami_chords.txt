@@ -1,0 +1,52 @@
+# title: Hey Stoopid
+# artist: Alice Cooper
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+1.511292517	A, intro, | N | N | N | N |
+11.939977324	| N | N | N | N |
+19.575510204	| N | N | * | * |, (voice
+27.020068027	| * | * |, voice)
+30.512380952	B, intro b, | A:min | A:min | F:maj | F:maj |, (electric guitar
+38.130408163	| C:maj | C:maj | G:maj | G:maj |, electric guitar)
+# tonic: A
+45.273492063	B, verse, | A:min | A:min | F:maj | F:maj |, (voice
+52.88510204	| C:maj | C:maj | G:maj | G:maj |
+60.076054421	| A:min | A:min | F:maj | F:maj |
+67.726689342	| C:maj | C:maj | G:maj | G:maj |
+75.099523809	C, pre-chorus, | A:min | D:min | F:maj | G:maj |
+82.560340136	| A:min | D:min | F:maj | G:maj |
+# tonic: C
+89.873219954	D, chorus, | C:min | Ab:maj Bb:maj | C:min | Ab:maj Bb:maj |
+97.334013605	| C:min | Ab:maj Bb:maj | C:min | Ab:maj Bb:maj |
+104.706054421	| F:min | G:min | C:min | Bb:maj |
+# tonic: A
+112.04031746	B, verse, | A:min | A:min | F:maj | F:maj |
+119.529705215	| C:maj | C:maj | G:maj | G:maj |
+126.6461678	| A:min | A:min | F:maj | F:maj |
+134.31201814	| C:maj | C:maj | G:maj | G:maj |
+141.649047619	C, pre-chorus, | A:min | D:min | F:maj | G:maj |
+149.049546485	| A:min | D:min | F:maj | G:maj |
+# tonic: C
+156.427664399	D', chorus, | C:min | Ab:maj Bb:maj | C:min | Ab:maj Bb:maj |
+163.847324263	| C:min | Ab:maj Bb:maj | C:min | Ab:maj Bb:maj |
+171.228185941	| F:min | G:min | C:min | C:min |, voice)
+# tonic: D
+178.635623582	E, solo, | G:maj | A:maj | B:min | D:maj |, (electric guitar
+185.993151927	| G:maj | A:maj | F#:min | F#:min |, electric guitar)
+193.437573696	F, bridge, | G:maj | G:maj | A:maj | A:maj |, (voice
+200.833900226	| G:maj | G:maj | A:maj | A:maj |
+208.211972789	| F#:min | F#:min | F#:maj/b3 | F#:maj/5 |
+# tonic: C
+215.628299319	D'', chorus, | N | N | N | N |
+223.02446712	| C:min | C:1 | C:1 | C:1 |
+230.420226757	| F:min | G:min | ->
+234.111292517	D''', chorus, | C:min | Ab:maj Bb:maj | C:min | Ab:maj Bb:maj |
+241.50739229	| C:min | Ab:maj Bb:maj | C:min | Ab:maj Bb:maj |
+248.896780045	| F:min | G:min | ->
+252.567369614	D'''', chorus, | C:min | Ab:maj Bb:maj | C:min | Ab:maj Bb:maj |
+259.977097505	| C:min | Ab:maj Bb:maj | C:min | Ab:maj Bb:maj |
+267.349319727	| F:min | G:min | N |, voice)
+272.573696145	silence
+274.670975056	end

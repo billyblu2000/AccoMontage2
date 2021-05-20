@@ -1,0 +1,23 @@
+# title: Too Weak To Fight
+# artist: Clarence Carter
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.232199546	A, intro, | Db:maj | Ab:maj | Gb:maj | Ab:maj |
+9.708866213	B, verse, | Db:maj6 | Gb:maj6 | Db:maj6(9) | Gb:maj6 |, (voice
+19.040090702	| Db:maj6(9) | Gb:maj6 | Bb:min | Gb:maj6 |
+28.334172335	| Db:maj6(9) | Gb:maj6 | Db:maj6(9) | Gb:maj6 |
+37.675351473	| Db:maj6(9) | Ab:7 | Bb:min | Ab:maj |
+47.019750566	C, chorus, | Gb:maj6 | Ab:7 | Bb:min | Ab:maj |
+56.267301587	B, verse, | Db:maj6(9) | Gb:maj6 | Db:maj6(9) | Gb:maj6 |
+65.70371882	| Db:maj6(9) | Gb:maj6 | Bb:min | Gb:maj6 |
+75.165238095	| Db:maj6(9) | Gb:maj6 | Db:maj6(9) | Gb:maj6 |
+84.547755102	| Db:maj6(9) | Ab:7 | Bb:min | Ab:maj |
+93.8361678	C, chorus, | Gb:maj6 | Ab:7 | Bb:min | Ab:maj |
+103.165918367	B, outro, | Db:maj6(9) | Gb:maj6 | Db:maj6(9) | Gb:maj6 |
+112.573378684	| Db:maj6(9) | Gb:maj6 | Db:maj6(9) | Gb:maj6 |
+121.887664399	fadeout, | Db:maj6(9) | Gb:maj6 | Db:maj6(9) | Gb:maj6 |
+131.289705215	| Db:maj6(9) | Gb:maj6 | Db:maj6(9) | Gb:maj6 |, voice)
+135.042244897	silence
+138.396734693	end

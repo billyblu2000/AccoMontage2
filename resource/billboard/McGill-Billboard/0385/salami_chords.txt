@@ -1,0 +1,30 @@
+# title: Hold On
+# artist: Wilson Phillips
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.394739229	A, intro, | N | F:maj |, (drums)
+5.275011337	| F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 | F:maj C:maj/11 | Bb:maj/5 |, (keyboard)
+15.140498866	B, verse, | Bb:maj/5 | Bb:maj/5 | D:min . . A:min7 | Bb:maj C:sus4 |, (voice
+24.99632653	| F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 | F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 |
+34.824852607	| F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 | D:min . . A:min7 | Bb:maj | C:maj |
+47.001519274	C, chorus, | F:maj Bb:maj/5 | C:maj/11 F:maj | F:maj Bb:maj/5 | C:maj/11 F:maj |
+56.896916099	| F:maj Bb:maj/5 | C:maj/11 F:maj | Bb:maj F:maj/3 | G:min7 C:sus4 |
+66.641791383	| Bb:maj F:maj/3 | G:min7 | C:sus4(b7) | N |, voice)
+76.478344671	D, interlude, | F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 | F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 |, (guitar)
+86.280204081	B, verse, | F:maj C:maj/11 | Bb:maj/5 . . A:min/5 | D:min | Bb:maj C:sus4(b7) |, (voice
+96.171315192	| F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 | F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 |
+105.965782312	| F:maj C:maj/11 | Bb:maj/5 . . A:min/5 | D:min . . A:min7 | Bb:maj | C:sus4(b7) |
+118.207619047	C, chorus, | F:maj Bb:maj/5 | C:maj/11 F:maj | F:maj Bb:maj/5 | C:maj/11 F:maj |
+128.071723356	| F:maj Bb:maj/5 | C:maj/11 F:maj | Bb:maj F:maj/3 | G:min7 C:sus4 |
+137.80478458	| Bb:maj F:maj/3 | G:min7 | C:sus4(b7) | N |
+147.688888888	E, bridge, | F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 | F:maj C:maj/11 | Bb:maj/5 |
+157.5092517	| F:maj C:maj/11 | Bb:maj/5 . . C:maj/11 | F:maj C:maj/11 | Bb:maj/5 |
+167.346916099	F, outro, | N | N | N | N |
+177.191179138	| F:1 | F:1 | Bb:maj F:maj/3 | G:min7 C:sus4 |
+187.016689342	| F:maj Bb:maj/5 | C:maj/11 F:maj | F:maj Bb:maj/5 | C:maj/11 F:maj |
+196.818412698	| F:maj Bb:maj/5 | C:maj/11 F:maj | Bb:maj F:maj/3 | G:min7 C:sus4 |
+206.597687074	| F:maj Bb:maj/5 | C:sus4/11 F:maj | F:maj Bb:maj/5 | C:sus4/11 F:maj |, fadeout, voice)
+218.10510204	silence
+221.361632653	end

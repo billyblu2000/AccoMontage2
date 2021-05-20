@@ -1,0 +1,19 @@
+# title: Baby You're Right
+# artist: James Brown
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.23371882	A, verse, | D:7 | D:7 | D:7 | A:7 |, (voice
+16.645351473	B, chorus, | D:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 |
+38.429433106	| D:7 | G:7 E:7 | D:7 A:7 | D:7 A:7 |
+52.888480725	A, verse, | D:7 | D:7 | D:7 | A:7 |
+68.015646258	B, chorus, | D:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 |
+90.312743764	| D:7 | G:7 E:7 | D:7 A:7 | D:7 A:7 |
+104.829319727	A, instrumental, | D:7 | D:7 | D:7 | A:7 |
+119.76170068	B, | D:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 |
+141.847460317	| D:7 | G:7 E:7 | D:7 A:7 | D:7 A:7 |
+156.425283446	C, outro, fadeout, | G:7 E:7 | G:7 E:7 | G:7 E:7 | G:7 E:7 |
+171.487482993	| G:7 E:7 | G:7 E:7 |, voice)
+177.454489795	silence
+179.258684807	end

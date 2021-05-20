@@ -1,0 +1,27 @@
+# title: Hey Baby
+# artist: Bruce Channel
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.116099773	A, intro, | A:maj F#:7 | B:min7 E:7 | A:maj F#:7 | B:min7 E:7 |, (harmonica
+7.572131519	| A:maj F#:7 | B:min7 E:7 | A:maj F#:7 | B:min7 E:7 |, harmonica)
+14.958117913	A, chorus, | A:maj F#:7 | B:min7 E:7 | A:maj F#:7 | B:min7 E:7 |, (voice
+22.347188208	| A:maj F#:7 | B:min7 E:7 | A:maj F#:7 | B:min7 E:7 |
+29.703015873	A, chorus, | A:maj F#:7 | B:min7 E:7 | A:maj D:maj | A:maj A:7 |
+37.027369614	| A:maj F#:maj | B:min E:maj | A:maj D:maj | A:maj A:7 |
+44.521224489	B, verse, | D:maj | D:maj | A:maj | A:7 |
+51.809024943	| D:maj | D:maj | B:maj | N |
+59.178639455	A, chorus, | A:maj F#:7 | B:min7 E:7 | A:maj F#:7 | B:min7 E:7 |
+66.595487528	| A:maj F#:7 | B:min7 E:7 | A:maj D:maj | A:maj . Ab:1 G:1 |
+74.026145124	C, bridge, | F#:7 | F#:7 | B:7 | B:7 |
+81.381814058	| E:7 | E:7 | A:maj | N |
+88.815736961	A, chorus, | A:maj F#:maj | B:min7 E:7 | A:maj F#:maj | B:min7 E:7 |
+96.209705215	| A:maj F#:maj | B:min7 E:7 | A:maj F#:maj | B:min7 E:7 |
+103.723537414	C, bridge, | F#:7 | F#:7 | B:7 | B:7 |
+111.04877551	| E:7 | E:7 | A:maj | A:maj |
+118.391224489	A, chorus, | A:maj F#:7 | B:min E:7 | A:maj F#:7 | B:min7 E:7 |
+125.813809523	| A:maj F#:7 | B:min E:7 | A:maj F#:7 | B:min7 E:7 |
+133.378662131	A, fadeout, | A:maj F#:7 | B:min E:7 | A:maj F#:7 | B:min7 E:7 |, voice)
+141.525623582	silence
+143.177142857	end

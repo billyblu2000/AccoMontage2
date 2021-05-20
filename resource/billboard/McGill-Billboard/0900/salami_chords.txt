@@ -1,0 +1,24 @@
+# title: I Wish It Would Rain
+# artist: The Temptations
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.371519274	A', intro, | Bb:maj | Eb:maj | Bb:maj | Eb:maj |, (piano
+11.806916099	| Bb:maj | Bb:maj |, piano)
+17.36185941	B, verse, | Bb:1 | Bb:1 | Bb:1 | Bb:1 |, (voice
+28.237437641	| Eb:1 | Eb:1 | Bb:1 | Bb:1 |
+39.035895691	| F:1 | Eb:1 | Bb:maj | Eb:maj |
+49.976598639	B', verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+60.688571428	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+71.484739229	| F:7 | Eb:maj | Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+87.924875283	A, chorus, | Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+98.547074829	| Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+109.081587301	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+119.723446712	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+130.407913832	| F:7 | Eb:maj | Bb:maj | Eb:maj |
+141.199024943	A, chorus, | Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+151.919138321	fadeout, | Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+162.563628117	| Bb:maj | Eb:maj | Bb:maj | Eb:maj |, voice)
+169.225782312	silence
+173.606575963	end

@@ -1,0 +1,38 @@
+# title: Don't Leave Me This Way
+# artist: Thelma Houston
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.743038548	A, intro, | C:min11 | C:min7 | Ab:maj | Ab:maj |, (voice
+12.14462585	| Eb:maj Bb:maj/3 | C:min | Eb:maj/5 | Eb:maj/5 |
+20.863265306	| C:min | C:min | Ab:maj | Ab:maj |
+28.927732426	| Eb:maj Bb:maj/3 | C:min | Eb:maj/5 | Bb:7 |
+37.164988662	B, verse, | C:min7 F:maj | Bb:maj | Bb:7 |
+43.32510204	| Eb:maj | Bb:maj C:min | F:min(9) | Bb:sus4 |
+51.49648526	| C:min7 F:maj | Bb:maj | Bb:7 |
+57.602448979	| Eb:maj | Bb:maj C:min | F:min(9) | Bb:sus4 |
+65.776893424	| C:maj | C:maj |
+69.734285714	C, chorus, | C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+77.693696145	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+85.8030839	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+93.757369614	| G:maj | G:maj |
+97.57154195	B, verse, | C:min7 F:maj | Bb:maj | Bb:7 |
+103.500340136	| Eb:maj | Bb:maj C:min | F:min(9) | Bb:sus4 |
+111.358843537	| C:min7 | F:min7 Bb:7 |
+115.499274376	| C:min7 F:maj | Bb:maj | Bb:7 |
+121.449727891	| Eb:maj | Bb:maj C:min | F:min(9) | Bb:sus4 |
+129.409433106	| C:maj | C:maj |
+133.222063492	C, chorus, | C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+141.088503401	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+148.967981859	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+156.831224489	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+164.710068027	D, outro, | C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+172.534739229	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+180.422630385	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+188.347006802	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+196.238458049	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |
+204.071814058	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |, fadeout
+211.837732426	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj |, voice)
+218.366689342	silence
+221.701224489	end

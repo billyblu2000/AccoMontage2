@@ -1,0 +1,66 @@
+# title: Red Red Wine
+# artist: UB40
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.417959183	A, chorus, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |, (voice
+7.335691609	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+12.659433106	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+18.09510204	| Ab:maj | Gb:maj Ab:maj |
+23.416507936	A, chorus, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+28.879138321	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+34.18446712	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+39.61185941	| Ab:maj | Gb:maj Ab:maj |, voice)
+44.978049886	B', trans, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |, (synthesizer)
+50.392562358	C, verse, | Ab:maj | Db:maj |, (voice
+55.699206349	| Gb:maj | Db:maj |
+61.14478458	| Ab:maj | Db:maj |
+66.502199546	| Gb:maj | Db:maj |
+71.954172335	A, chorus, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+77.32664399	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+82.670430839	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+88.075532879	| Ab:maj | Gb:maj Ab:maj |, voice)
+93.479206349	B, trans, | Db:maj Gb:maj | Ab:sus4/5 Ab:maj |, (synthesizer
+98.857460317	| Db:maj Gb:maj | Ab:sus4/5 Ab:maj |, synthesizer)
+104.222993197	C, verse, | Ab:maj | Db:maj |, (voice
+109.642086167	| Gb:maj | Db:maj |
+114.996099773	| Ab:maj | Db:maj |
+120.395873015	| Gb:maj | Db:maj |
+125.749274376	A, chorus, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+131.184263038	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+136.583650793	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+141.962494331	| Ab:maj | Gb:maj Ab:maj | (2/4) Ab:maj |
+148.584489795	D, bridge, | N | N | N | N |
+153.985941043	| Db:maj Gb:maj | Ab:maj Gb:maj |
+159.391201814	| Db:maj Gb:maj | Ab:maj Gb:maj |
+164.69877551	| Ab:maj | Gb:maj Ab:maj |
+170.122766439	A, chorus, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+175.450589569	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+180.906054421	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+186.228684807	| Ab:maj | Gb:maj Ab:maj |, voice)
+191.627619047	B', trans, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |, (synthesizer)
+197.011950113	C, verse, | Ab:maj | Db:maj |, (voice
+202.421519274	| Gb:maj | Db:maj |
+207.75446712	| Ab:maj | Db:maj |
+213.194648526	| Gb:maj | Db:maj |
+218.588390022	A, chorus, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+223.983038548	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+229.407777777	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+234.6992517	| Ab:maj | Gb:maj Ab:maj |, voice)
+240.119070294	B, trans, | Db:maj Gb:maj | Ab:sus4/5 Ab:maj |, (synthesizer
+245.499977324	| Db:maj Gb:maj | Ab:sus4/5 Ab:maj |, synthesizer)
+250.909863945	C, verse, | Ab:maj | Db:maj |, (voice
+256.247482993	| Gb:maj | Db:maj |
+261.682607709	| Ab:maj | Db:maj |
+267.025646258	| Gb:maj | Db:maj |
+272.442539682	A, chorus, | Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+277.864716553	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+283.202630385	| Db:maj Gb:maj | Ab:maj/5 Gb:maj/9 |
+288.629886621	| Ab:maj | Gb:maj Ab:maj |, voice)
+293.933764172	B', trans, | Db:maj Gb:maj | Ab:sus4/5 Ab:maj |, (synthesizer)
+299.388435374	B, outro, | Db:maj Gb:maj | Ab:sus4/5 Ab:maj |, (voice
+304.746031746	fadeout, | Db:maj Gb:maj | Ab:sus4/5 Ab:maj |
+310.194149659	| Db:maj Gb:maj | Ab:sus4/5 Ab:maj |, voice)
+315.559183673	silence
+321.01877551	end

@@ -1,0 +1,28 @@
+# title: Sweet Nothin's
+# artist: Brenda Lee
+# metre: 4/4
+# tonic: G
+
+0.000000000	silence
+0.510839002	Z, talking
+7.616145124	C, intro, | G:maj |
+10.016507936	A, verse, | G:maj | C:maj | G:maj | G:maj |
+17.697437641	| G:maj | C:maj | G:maj | G:maj |
+25.310929705	| C:maj | C:maj | G:maj | G:maj |
+32.908140589	| D:maj | C:maj | G:maj | G:maj |
+40.505510204	A, verse, | G:maj | C:maj | G:maj | G:maj |
+48.219319727	| G:maj | C:maj | G:maj | G:maj |
+55.804512471	| C:maj | C:maj | G:maj | G:maj |
+63.480884353	| D:maj | C:maj | G:maj | G:maj |
+71.029183673	D, instrumental, | G:maj | C:maj | G:maj | G:maj |
+78.759229024	| G:maj | C:maj | G:maj | G:maj |
+86.373469387	| C:maj | C:maj | G:maj | G:maj |
+94.055351473	| D:maj | C:maj | G:maj | G:maj |
+101.685238095	A, verse, | G:maj | C:maj | G:maj | G:maj |
+109.499727891	| G:maj | C:maj | G:maj | G:maj |
+117.182879818	| C:maj | C:maj | G:maj | G:maj |
+124.894965986	| D:maj | C:maj | G:maj | G:maj |
+132.574421768	| D:maj | C:maj | G:maj | (2/4) G:maj |
+139.181609977	| N | G:maj |
+142.802721088	silence
+145.763265306	end

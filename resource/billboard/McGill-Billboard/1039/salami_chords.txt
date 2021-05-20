@@ -1,0 +1,45 @@
+# title: Girl I m Gonna Miss You
+# artist: Milli Vanilli
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.208979591	A, intro, | N | N |, (synthesizer
+6.54802721	B, interlude, | A:maj | A:maj |
+12.910294784	| E:maj | E:maj |, synthesizer)
+19.249342403	B, verse, | A:maj | A:maj |, (voice
+25.588390022	| E:maj | E:maj |
+31.904217687	| A:maj | A:maj |
+38.243265306	| E:maj | E:maj |
+44.605532879	| A:maj | A:maj |
+50.921360544	| E:maj | E:maj |
+57.283628117	C, pre-chorus, | D:maj | D:maj |
+63.622675736	| A:maj . . D:maj/5 | A:maj . B:min A:maj/3 |
+69.938503401	| D:maj | D:maj |
+76.27755102	| E:maj | E:maj |
+82.593378684	| N . D:maj(9) E:maj |
+85.82095238	D, chorus, | A:maj | E:maj |
+92.11356009	| B:min A:maj/3 | (2/4) D:maj F#:min | E:maj |, voice)
+100.078004535	E, solo, | A:maj | E:maj |, (saxophone
+106.393832199	| B:min A:maj/3 | (2/4) D:maj F#:min | E:maj | E:maj |, saxophone)
+117.469750566	B, interlude, | A:maj | A:maj |, (synthesizer
+123.83201814	| E:maj | E:maj |, synthesizer)
+130.12462585	| A:maj | A:maj |, (saxophone
+136.486893424	| E:maj | E:maj |, saxophone)
+142.825941043	B, verse, | A:maj | A:maj |, (voice
+149.164988662	| E:maj | E:maj |
+155.504036281	| A:maj | A:maj(9) |
+161.8430839	| E:maj | E:7 |
+168.228571428	C, pre-chorus, | D:maj | D:maj |
+174.521179138	| A:maj . . D:maj/5 | A:maj . B:min A:maj/3 |
+180.860226757	| D:maj | D:maj |
+187.222494331	| E:maj | E:maj |
+193.538321995	| N . D:maj(9) E:maj |
+196.742675736	D, chorus, | A:maj | E:maj |
+203.058503401	| B:min A:maj/3 | (2/4) D:maj F#:min | E:maj |
+210.999727891	D, chorus, | A:maj | E:maj |
+217.269115646	| B:min A:maj/3 | (2/4) D:maj F#:min | E:maj |, voice)
+225.210340136	D, fadeout, | A:maj | E:maj |, (saxophone
+231.572607709	| B:min A:maj/3 | (2/4) D:maj F#:min | E:maj |, saxophone)
+236.077278911	silence
+237.871020408	end

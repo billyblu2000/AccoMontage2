@@ -1,0 +1,31 @@
+# title: In-A-Gadda-Da-Vida
+# artist: Iron Butterfly
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.510839002	A, intro, | D:min |, (organ
+8.291451247	| D:min | D:min | D:min | D:min |
+16.528412698	| D:min7 | D:min7 | D:min7 | D:min7 |, organ)
+24.641224489	B, verse, | D:min7 | D:min7 | D:min7 | D:min7 |, (voice
+32.778458049	| D:min7 | D:min7 | D:min7 | D:min7 |
+40.897278911	| N | N |
+44.977528344	C, chorus, | G:sus4(b7,9,13) | E:maj | G:sus4(b7,9,13) | E:maj |
+52.979795918	| A:sus4(b7,9,13) | F#:maj | A:sus4(b7,9,13) | F#:maj |
+60.987392290	| B:maj | B:maj | D:min | D:min |, voice)
+69.132630385	B', interlude, | D:min7 | D:min7 | D:min7 | D:min7 |, (organ)
+77.344172335	B, verse, | D:min7 | D:min7 | D:min7 | D:min7 |, (voice
+85.507687074	| D:min7 | D:min7 | D:min7 | D:min7 |
+93.562312925	| N | N |
+97.618571428	C, chorus, | G:sus4(b7,9,13) | E:maj | G:sus4(b7,9,13) | E:maj |
+105.420317460	| A:sus4(b7,9,13) | F#:maj | A:sus4(b7,9,13) | F#:maj |
+113.131315192	| B:maj | B:maj | D:min | D:min |, voice)
+120.864965986	B'', interlude, | D:min7 | D:min7 | D:min7 | D:min7 |, (organ
+128.931088435	| D:min7 | D:min7 | D:min7 | D:min7 |, organ)
+136.823922902	| N | N | N | N |
+144.760929705	B''', interlude, | D:min7 | D:min7 | D:min7 | D:min7 |, (organ
+152.771065759	| D:min7 | D:min7 | D:min7 | D:min7 |
+160.786757369	D, solo, | D:min | D:min | D:min | (2/4) D:min |
+168.005487528	D', outro, | D:min7 | D:min7 |, organ)
+172.001496598	silence
+174.482562358	end

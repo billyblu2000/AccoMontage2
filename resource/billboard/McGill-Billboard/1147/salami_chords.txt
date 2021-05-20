@@ -1,0 +1,28 @@
+# title: A Cowboy's Work Is Never Done
+# artist: Sonny & Cher
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.348299319	A, intro, | N | N | N | N |, (guitar)
+18.967301587	| C:min |
+22.662335600	B, verse, | C:min | (2/4) C:min | G:maj | (2/4) G:maj |, (voice
+33.550884353	| C:min | (2/4) C:min | G:maj | (2/4) G:maj |
+44.194535147	| C:min |, voice)
+47.746575963	A, interlude, | C#:min | C#:min | C#:min | C#:min |, (guitar
+61.961201814	| C:min |, guitar)
+65.433424036	B, verse, | C:min | (2/4) C:min | G:maj | (2/4) G:maj |, (voice
+76.100748299	| C:min | (2/4) C:min | G:maj | (2/4) G:maj |
+86.789160997	| C:min |
+90.405827664	D, bridge, | Ab:maj Bb:maj | C:min | G:sus4(b7) G:7 | C:min |
+104.458707482	| Ab:maj Bb:maj | C:min C:min/b7 | F:maj6 | G:sus4(b7) G:7 |, voice)
+118.546326530	A, interlude, | C:min | C#:min |
+125.635714285	| C#:min | C#:min | C#:min | C#:min |, (guitar
+139.784852607	| C:min |, guitar)
+143.484920634	B, verse, | C:min | (2/4) C:min | G:7 | (2/4) G:7 |, (voice
+154.237256235	| C:min | (2/4) C:min | G:sus4(b7) G:7 | &pause |, voice)
+165.651156462	B, outro, | C:min | C:min | G:7 | (2/4) G:7 |, (trumpet
+178.158163265	| C:min | C:min | G:7 | G:7 C:min |, fadeout
+190.736190476	| C:min |, trumpet)
+196.373786848	silence
+197.773061224	end

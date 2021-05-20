@@ -1,0 +1,28 @@
+# title: Liar, Liar
+# artist: The Castaways
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.510839002	A, intro, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, (organ)
+7.436938775	A, chorus, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, (voice
+13.937460317	B, verse, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |
+20.408503401	| C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, voice)
+26.889546485	C, trans, | C:maj Ab:maj | G:maj F:maj |, (organ)
+30.094988662	B, verse, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, (voice
+36.616077097	| C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, voice)
+43.142585034	C, trans, | C:maj Ab:maj | G:maj F:maj |, (organ)
+46.349863945	| * | * |, (guitar
+49.593945578	A, solo, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, guitar)
+56.161972789	A, chorus, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, (voice
+62.760907029	B, verse, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |
+69.350204081	| C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, voice)
+75.94478458	C, trans, | C:maj Ab:maj | G:maj F:maj |, (organ)
+79.166757369	B, verse, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, (voice
+85.734693877	| C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, voice)
+92.287891156	C, trans, | C:maj Ab:maj | G:maj F:maj |, (organ)
+95.542539682	A, chorus, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, (voice)
+102.146258503	A, outro, | C:maj C:min/b3 | G:min F:maj | C:maj C:min/b3 | G:min F:maj |, (organ
+108.962607709	| C:maj |, organ)
+110.318004535	silence
+114.860408163	end

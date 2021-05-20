@@ -1,0 +1,35 @@
+# title: Help Is On The Way
+# artist: Little River Band
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.370362811	A, intro, | B:maj | B:maj |
+5.049115646	| E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |, (guitar
+14.117913832	| E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |, guitar)
+23.031473922	A, verse, | E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |, (voice
+31.993900226	| E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |
+41.015918367	B, chorus, | F:maj/5 C:maj | F:maj/5 C:maj | F:maj/5 C:maj | G:maj |
+50.175895691	| F:maj/5 C:maj | F:maj/5 C:maj | F:maj/5 C:maj | G:maj |
+58.853696145	A, verse, | E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |
+67.833514739	| E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |
+76.787800453	B, chorus, | F:maj/5 C:maj | F:maj/5 C:maj | F:maj/5 C:maj | G:maj |
+85.760272108	| F:maj/5 C:maj | F:maj/5 C:maj | F:maj/5 C:maj | G:maj |, voice)
+94.717324263	C, bridge, | F#:min | C#:min/3 | A:maj/5 | B:min |, (piano)
+103.669773242	| F#:min | C#:min/3 | A:maj/5 | B:min |, (voice
+112.548253968	| F#:min | C#:min/3 | A:maj/5 | B:min | A:maj | B:min |, voice)
+126.303514739	| C:maj/5 G:maj | C:maj/5 G:maj | C:maj/5 G:maj | G:maj/5 D:maj |, (guitar
+135.01446712	| C:maj/5 G:maj | C:maj/5 G:maj | C:maj/5 G:maj | G:maj/5 D:maj |, guitar)
+143.946575963	A, verse, | E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |, (voice
+152.86585034	| E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |
+161.822721088	B, chorus, | F:maj/5 C:maj | F:maj/5 C:maj | F:maj/5 C:maj | G:maj |
+170.781043083	| F:maj/5 C:maj | F:maj/5 C:maj | F:maj/5 C:maj | G:maj |
+179.788526077	| F:maj/5 C:maj | F:maj/5 C:maj | F:maj/5 C:maj | G:maj |
+188.765804988	| F:maj/5 C:maj | F:maj/5 C:maj | F:maj/5 C:maj | G:maj |, voice)
+197.706462585	A, outro, | E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |, (guitar
+206.622358276	| E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |
+215.604512471	| E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |
+224.496190476	| E:maj/5 B:maj | E:maj/5 B:maj | F#:maj | F#:maj |, fadeout
+233.632721088	| E:maj/5 B:maj | x4, guitar)
+240.336870748	silence
+242.311836734	end

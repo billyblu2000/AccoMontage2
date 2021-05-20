@@ -1,0 +1,40 @@
+# title: Is That All There Is
+# artist: Peggy Lee
+# tonic: C
+# metre: 3/4
+
+0.0	silence
+0.75154195	Z
+3.346938775	A, verse, | G:13 | G:13 | C:maj | C:maj |, (voice
+10.406417233	| G:13 | G:13 | C:maj | C:maj |
+17.268208616	| F:maj | C:maj | G:maj | C:maj |
+24.791383219	| F:maj | C:maj | G:maj/b3 | Bb:maj | N |
+# metre: 4/4
+35.805170068	B, chorus, | G:13 | G:13 | G:13 | G:13 |
+44.865782312	| G:13 G:dim | G:sus4(b7) . G:13 G:9(b13) | C:min9 | C:min7 . F:9 . |
+53.783265306	| C:min9 | Eb:min9 | Bb:maj7 Bb:maj6 | Bb:aug Bb:maj . . |
+62.636757369	| A:7 | A:1(b5,b7,3)/b5 | D:7 | D:7 |
+71.550748299	A, verse, | C:min7 | Eb:min9 | C:min7 | Eb:maj |
+80.648231292	| C:min7 | Eb:min9 | Bb:maj | Bb:maj |
+89.541972789	| C:min7 | Eb:min9 | C:min7 | Eb:maj |
+98.465170068	| C:min7 | Eb:min9 | Bb:maj | Bb:maj |
+107.444693877	B, chorus, | G:13 | G:13 | G:13 | G:13 |
+115.98462585	| G:13 G:dim | G:sus4(b7) . G:13 G:9(b13) | C:min9 | C:min7 F:9 |
+124.621405895	| C:min9 | Eb:min9 | Bb:maj7 Bb:maj6 | Bb:aug Bb:maj . . |
+133.44031746	| A:7 | A:1(b5,b7,3)/b5 | D:7 | D:7 |
+142.268231292	A, verse, | C:min7 | Eb:min9 | C:min7 | Eb:min9 |
+150.893764172	| C:min7 | Eb:min9 | Bb:maj | Bb:maj |
+159.527029478	| C:min7 | Eb:min9 | C:min7 | Eb:min9 |
+168.053197278	| C:min7 | Eb:min9 | Bb:maj7 | Bb:maj7 |
+176.515442176	B, chorus, | G:13 | G:13 | G:13 | G:13 |
+184.915464852	| G:13 G:dim | G:sus4(b7) . G:13 G:9(b13) |
+189.219365079	A, verse, | C:min7 | Eb:min9 | C:min7 | Eb:min9 |
+197.728163265	| C:min7 | Eb:min9 | Bb:maj | Bb:maj |
+206.205328798	| C:min7 | Eb:min9 | C:min7 | Eb:min9 |
+214.658911564	| C:min7 | Eb:min9 | Bb:maj7 | Bb:maj7 |
+223.142154195	B, chorus, | G:13 | G:13 | G:13 | G:13 |
+231.673605442	| G:13 G:dim | G:sus4(b7) . G:13 G:9(b13) | C:min9 | C:min7 F:9 |
+240.193106575	| C:min9 | Eb:min9 | Bb:maj7 Bb:maj6 | Bb:aug Bb:maj . . |
+248.821428571	| A:7 | A:1(b5,b7,3)/b5 D:7 | G:min | G:min | G:min | G:min |, voice)
+259.808072562	silence
+264.071836734	end

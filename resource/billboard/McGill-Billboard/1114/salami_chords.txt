@@ -1,0 +1,27 @@
+# title: Wichita Lineman
+# artist: Glen Campbell
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.417959183	A, intro, | F:maj7 | Bb:maj6/5 | F:maj7 | Bb:maj6/5 |, (strings)
+13.259433106	B, verse, | Bb:maj7 | A:min7 | Bb:maj7 |, (voice
+21.783741496	| D:min7 A:min7 | G:maj | D:maj | D:maj |
+33.279365079	| C:maj6(9) | C:maj6(9) | G:maj(9)/3 | Bb:maj6 |
+44.622222222	| D:maj | A:sus4(9) |, voice)
+50.364512471	| Bb:maj | C:maj(9) | Bb:maj | C:sus4(b7) |, (strings)
+61.870589569	B, verse, | Bb:maj7 | A:min7 | Bb:maj7 |, (voice
+70.388435374	| D:min7 A:min7 | G:maj | D:maj | D:maj |
+81.886258503	| C:maj6(9) | C:maj6(9) | G:maj(9)/3 | Bb:maj6 |
+93.11526077	| D:maj | A:sus4(9) |, voice)
+98.835941043	| Bb:maj | C:maj(9) | Bb:maj | C:sus4(b7) |, (strings)
+110.120657596	B, solo, | Bb:maj7 | F:maj | C:sus4(b7) |, (guitar
+118.474535147	| D:min7 A:min7 | G:maj | D:maj | D:maj |, guitar)
+129.77526077	| C:maj6(9) | C:maj6(9) | G:maj(9)/3 | Bb:maj6 |, (voice
+141.095034013	| D:maj | A:sus4(9) |, voice)
+146.858594104	| Bb:maj | C:maj(9) | Bb:maj | C:sus4(b7) |, (strings
+158.121587301	C, coda, | Bb:maj | C:maj(9) | Bb:maj | C:maj(9) |
+169.054897959	fadeout, | Bb:maj | C:maj(9) | Bb:maj | C:maj(9) |
+179.927369614	| Bb:maj | C:maj(9) | Bb:maj | C:maj(9) |, strings)
+183.902040816	silence
+187.428571428	end

@@ -1,0 +1,30 @@
+# title: Fever
+# artist: Rita Coolidge
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.278639455	A, intro, | A:min | A:min | A:min | A:min . E:7(b9) . |, (guitar
+10.306349206	| A:min | A:min | F:9 . E:7(b9) . | A:min E:7 . . |, guitar)
+19.508163265	B, verse, | A:min | A:min | A:min | A:min . E:7(b9) . |, (voice
+28.703151927	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |
+37.888140589	B, chorus, | A:min | A:min | A:min | A:min . E:7(b9) . |
+46.902721088	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |
+56.104557823	B, verse, | A:min | A:min | A:min | A:min . E:7(b9) . |
+65.259115646	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |
+74.433287981	B, chorus, | A:min | A:min | A:min | A:min . E:7(b9) . |
+83.545306122	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |, voice)
+92.710770975	B, solo, | A:min | A:min | A:min | A:min . E:7(b9) . |, (guitar
+101.967936507	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |, guitar)
+111.047006802	B, verse, | A:min | A:min | A:min | A:min . E:7(b9) . |, (voice
+120.190294784	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |
+129.342675736	B, chorus, | A:min | A:min | A:min | A:min . E:7(b9) . |
+138.529206349	| A:min | A:min | F:9 . E:7(b9) . | A:min |, voice)
+147.75079365	B, solo, | A:min | A:min | A:min | A:min . E:7(b9) . |, (organ
+156.848594104	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |, organ)
+165.730816326	B, verse, | A:min | A:min | A:min | A:min . E:7(b9) . |, (voice
+174.775941043	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |
+183.973854875	B, chorus, | A:min | A:min | A:min | A:min . E:7(b9) . |
+193.118321995	| A:min | A:min | F:9 . E:7(b9) . | A:min9 |, voice)
+206.193197278	silence
+210.207346938	end

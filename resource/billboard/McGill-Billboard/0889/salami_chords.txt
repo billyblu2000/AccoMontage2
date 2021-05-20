@@ -1,0 +1,54 @@
+# title: Don t You Know What The Night Can Do
+# artist: Steve Winwood
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.208979591	A, intro, | A:min7 G:maj/9 | A:min7 G:maj/9 | F:maj9 G:maj/b7 | F:maj9 G:maj(9) |, (synth
+11.604625850	| A:min7 G:maj/9 | A:min7 G:maj/9 | F:maj9 G:maj/b7 | F:maj9 G:maj(9) |, synth)
+22.797732426	B, verse, | C:maj | F:maj F:maj(9) | C:maj | F:maj |, (voice
+33.920068027	| C:maj | F:maj F:maj(9) | C:maj/5 G:maj . . | C:maj/5 G:maj . . |
+45.085487528	| C:maj | F:maj . . F:maj(9) | C:maj | G:maj F:maj(9) |
+56.213854875	| C:maj | F:maj | C:maj/5 | G:maj |
+67.445736961	C, pre-chorus, | A:min | C:maj | A:min | F:maj G:sus4 |
+78.553106575	| A:min | C:maj | A:min | F:maj G:sus4 |
+89.747664399	| G:maj C:maj/5 | G:7 |
+95.309569160	D, chorus, | C:maj G:maj | G:maj F:maj/9 |
+100.906122448	| C:maj G:maj | G:maj F:maj/9 |
+106.461723356	| C:maj G:maj |
+109.293492063	B, verse, | C:maj | F:maj F:maj(9) | C:maj | F:maj |
+120.445986394	| C:maj | F:maj | C:maj/5 G:maj . . | C:maj/5 G:maj . . |
+131.597981859	| C:maj | F:maj . . F:maj(9) | C:maj | G:maj F:maj(9) |
+142.742040816	| C:maj | F:maj | C:maj/5 | G:maj |
+153.957551020	C, pre-chorus, | A:min | C:maj | A:min | F:maj G:sus4 |
+165.053514739	| A:min | C:maj | A:min | F:maj G:sus4 |
+176.210793650	| G:maj C:maj/5 | G:7 |
+181.829977324	D, chorus, | C:maj G:maj | G:maj F:maj/9 |
+187.365532879	| C:maj G:maj | G:maj F:maj/9 |
+192.989614512	| C:maj G:maj | G:maj F:maj/9 |
+198.581768707	| C:maj G:maj | G:maj F:maj/9 G:maj . | (2/4) G:maj |, voice)
+205.519818594	A, interlude, | A:min7 G:maj/9 | A:min7 G:maj/9 | F:maj9 G:maj/b7 | F:maj9 G:maj(9) |, (synth
+216.644081632	| A:min7 G:maj/9 | A:min7 G:maj/9 | F:maj9 G:maj/b7 | F:maj9 G:maj(9) |, synth)
+227.900022675	| C:maj F:maj/5 C:maj . | C:maj F:maj/5 C:maj . | G:maj C:maj/5 G:maj . | G:maj C:maj/5 G:maj . |, (choir
+239.067687074	| C:maj F:maj/5 C:maj . | C:maj F:maj/5 C:maj . | G:maj C:maj/5 G:maj . | G:maj C:maj/5 G:maj . |, choir)
+250.236009070	C, pre-chorus, | A:min | C:maj | A:min | F:maj G:sus4 |, (voice
+261.379977324	| A:min | C:maj | A:min | F:maj G:sus4 |
+272.539954648	| G:maj C:maj/5 | G:7 |
+278.092040816	D, chorus, | C:maj G:maj | G:maj F:maj/9 |
+283.692176870	| C:maj G:maj | G:maj F:maj/9 |
+289.211541950	| C:maj G:maj | G:maj F:maj/9 |
+294.852108843	| C:maj G:maj | G:maj F:maj/9 G:maj . | (2/4) G:maj |
+301.828095238	A, interlude, | A:min7 G:maj/9 | A:min7 G:maj/9 | F:maj9 G:maj/b7 | F:maj9 G:maj(9) |, (synth
+313.047709750	| A:min7 G:maj/9 | A:min7 G:maj/9 | F:maj9 G:maj/b7 | F:maj9 G:maj(9) |, synth)
+324.127346938	| C:maj F:maj/5 C:maj . | C:maj F:maj/5 C:maj . | G:maj C:maj/5 G:maj . | G:maj C:maj/5 G:maj . |, (choir
+335.272925170	| C:maj F:maj/5 C:maj . | C:maj F:maj/5 C:maj . | G:maj C:maj/5 G:maj . | G:maj C:maj/5 G:maj . |
+346.487868480	| C:maj F:maj/5 C:maj . | C:maj F:maj/5 C:maj . | C:maj F:maj/5 C:maj . | C:maj F:maj/5 C:maj . |
+357.679841269	| G:maj C:maj/5 G:maj . | G:maj C:maj/5 G:maj . |
+363.208480725	| C:maj F:maj/5 C:maj . | C:maj F:maj/5 C:maj . | G:maj C:maj/5 G:maj . | G:maj C:maj/5 E:min7 . |, choir)
+374.398548752	E, outro, | A:min | A:min |, (voice
+379.948208616	| A:min G:maj/9 | A:min |
+385.565170068	| A:min G:maj/9 | A:min |
+391.132902494	| A:min G:maj/9 | A:min |
+396.701995464	fadeout, | A:min G:maj/9 | A:min |, voice)
+411.432811791	silence
+415.387823129	end

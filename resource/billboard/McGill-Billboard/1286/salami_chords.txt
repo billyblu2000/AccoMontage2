@@ -1,0 +1,23 @@
+# title: Sukiyaki
+# artist: A Taste Of Honey
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.174149659	A', intro, | Bb:maj Ab:maj7/9 | Bb:maj Ab:maj7/9 | Bb:maj Ab:maj7/9 | Bb:maj Ab:maj7/9 |
+14.654897959	A', verse, | Bb:maj Ab:maj7/9 | Bb:maj Ab:maj7/9 | Bb:maj Ab:maj7/9 | Bb:maj Ab:maj7/9 |, (voice
+28.774512471	| Eb:maj/5 Ab:maj/9 | Bb:maj . G:sus4 G:maj | Eb:maj . Ab:maj F:min | Bb:7 |
+42.823628117	A, verse, | Eb:maj7 C:min | Eb:maj . C:min Bb:maj | Eb:maj G:min | C:min Bb:maj |
+56.870748299	| Eb:maj Ab:maj7 | Ab:maj7 . G:sus4 G:maj | Eb:maj . Ab:maj F:min | Eb:maj(9) |
+70.93941043	B, chorus, | Ab:maj7 Bb:7 | Eb:maj Eb:7 | Ab:min7 Db:7 | G:min C:min Bb:sus4(b7) Bb:7 |
+84.815804988	| Eb:maj C:min | Eb:maj . C:min Bb:maj | Eb:maj G:min | C:min Bb:maj |
+98.969773242	| Eb:maj Ab:maj7 | Ab:maj7 . G:sus4 G:maj | Eb:maj . Ab:maj F:min | Eb:maj7 |, voice)
+113.050498866	A, solo, | Eb:maj C:min | Eb:maj . C:min Bb:sus4 | Eb:maj G:min | C:min Bb:maj |, (guitar
+127.355623582	| Eb:maj Ab:maj7 | Ab:maj7 . G:sus4 G:maj | Eb:maj . Ab:maj F:min | Eb:maj7 |, guitar)
+141.411655328	A, verse, | Eb:maj C:min | Eb:maj . C:min Bb:maj | Eb:maj G:min | C:min Bb:maj |, (voice
+155.62292517	| Eb:maj Ab:maj7 | Ab:maj7 . G:sus4 G:maj | Eb:maj . Ab:maj F:min | C:min F:maj | F:min G:min Ab:maj Bb:sus4 | &pause |
+177.764195011	A', outro, | Eb:maj/5 Ab:maj7/9 | Eb:maj/5 Ab:maj7/9 | Eb:maj/5 Ab:maj7/9 | Eb:maj/5 Ab:maj7/9 |, voice)
+192.209909297	| Eb:maj/5 Ab:maj7/9 | Eb:maj/5 Ab:maj7/9 | Eb:maj/5 Ab:maj7/9 | Eb:maj/5 Ab:maj7/9 |
+207.369659863	| Eb:maj |
+221.971156462	silence
+223.242448979	end

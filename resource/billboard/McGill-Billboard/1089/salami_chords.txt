@@ -1,0 +1,40 @@
+# title: Who Will You Run To 
+# artist: Heart
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.232199546	A, intro, | A:maj | A:maj | A:maj | A:maj |, (guitar
+9.24154195	| G:maj | G:maj |, guitar)
+13.374693877	B, verse, | A:maj | A:maj | D:maj | D:maj |, (voice
+21.640997732	| A:maj | A:maj | D:maj | D:maj . G:maj D:maj |
+29.907301587	| E:maj | F#:min | D:maj | D:maj . G:maj D:maj |
+38.173605442	C, pre-chorus, | E:maj | D:maj | E:maj | D:maj |
+46.347029478	D, chorus, | A:maj | E:maj/3 | D:maj | G:maj |
+54.613333333	| A:maj | E:maj/3 | D:maj | G:maj |, voice)
+62.926077097	A, trans, | A:maj | A:maj | A:maj | A:maj |, (guitar
+71.192380952	| G:maj | G:maj |, guitar)
+75.27909297	B, verse, | A:maj | A:maj | D:maj | D:maj |, (voice
+83.498956916	| A:maj | A:maj | D:maj | D:maj . G:maj D:maj |
+91.76526077	| E:maj | F#:min | D:maj | D:maj . G:maj D:maj |
+100.031564625	C, pre-chorus, | E:maj | D:maj | E:maj | D:maj |
+108.251428571	D, chorus, | A:maj | E:maj/3 | D:maj | G:maj |
+116.564172335	| A:maj | E:maj/3 | D:maj | G:maj |, voice)
+124.83047619	A, solo, | A:maj | A:maj | A:maj | A:maj |, (guitar
+133.096780045	| G:maj | G:maj |
+137.183492063	| A:maj | A:maj | A:maj | A:maj |
+145.449795918	| G:maj | G:maj |
+149.536507936	C', pre-chorus, | E:maj | D:maj | E:maj | D:maj | D:maj |, (voice
+159.8461678	D', chorus, | A:maj | E:maj/3 | D:maj | G:maj |
+168.112471655	| A:maj | E:maj/3 | G:maj | G:maj |, voice)
+176.285895691	A', trans, | A:maj | A:maj |, (guitar)
+180.511927437	D', outro, | A:maj | E:maj/3 | G:maj | G:maj |, (voice
+188.778231292	| A:maj | E:maj/3 | G:maj | G:maj |, voice)
+196.998095238	| A:maj | E:maj/3 | G:maj | G:maj |, (guitar
+205.217959183	| A:maj | E:maj/3 | G:maj | G:maj |
+213.484263038	| A:maj | E:maj/3 | G:maj | G:maj |
+221.750566893	fadeout, | A:maj | E:maj/3 | G:maj | G:maj |
+229.970430839	| A:maj | E:maj/3 | G:maj | G:maj |
+238.283174603	| A:maj | E:maj/3 | G:maj | G:maj |, guitar)
+242.996825396	silence
+245.420408163	end

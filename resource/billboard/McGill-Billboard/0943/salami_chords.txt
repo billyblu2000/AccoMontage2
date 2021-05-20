@@ -1,0 +1,29 @@
+# title: I Found A True Love
+# artist: Wilson Pickett
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.232199546	A, intro, | C:maj | F:maj/5 | C:maj |
+11.609977324	B, verse, | C:maj | C:7 | C:maj | C:7 |
+18.227029478	| F:7 | F:7 | C:maj | C:7 |
+24.822131519	| C:maj | C:7 | C:7 | C:7 |
+31.397346938	| A:min | G:maj | C:maj | C:maj |
+37.941405895	B, verse, | C:maj | C:7 | C:maj | C:7 |
+44.549387755	| F:7 | F:7 | C:maj | C:7 |
+51.090249433	| C:maj | C:7 | C:maj | C:7 |
+57.670090702	| A:min | G:maj | C:maj | C:7 |
+64.213287981	C, solo, | C:maj | F:7 | C:maj | C:maj |, (guitar
+70.826870748	| C:maj | F:7 | C:maj | C:maj |
+77.345668934	| C:maj | F:7 | C:maj | C:maj |
+83.940136054	| C:maj | F:7 | C:maj | C:maj |, guitar)
+90.517505668	C, chorus, | C:maj | F:7 | C:maj | C:maj |, (voice
+97.106235827	| C:maj | F:7 | C:maj | C:maj |
+103.679614512	| C:maj | F:7 | C:maj | C:maj |
+110.228503401	| C:maj | F:7 | C:maj | C:maj |, voice)
+116.750498866	D, outro, | C:maj | G:maj | F:7 | C:maj/5 G:maj |, (trumpet
+123.401473922	| C:maj | G:maj | F:7 | C:maj/5 G:maj |
+129.988707482	| C:maj | G:maj | F:7 | C:maj/5 G:maj |
+136.547936507	fadeout, | C:maj | G:maj | F:7 | C:maj/5 G:maj |, trumpet)
+139.946666666	silence
+145.580408163	end

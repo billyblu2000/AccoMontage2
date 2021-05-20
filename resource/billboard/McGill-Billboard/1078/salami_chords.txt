@@ -1,0 +1,28 @@
+# title: There'll Never Be
+# artist: Switch
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.515918367	C, intro, | D:11 | D:11 |, (horns)
+6.702154195	A, intro, | G:maj7 | E:min7 | D:11 | D:11 |, (guitar
+19.133809523	| B:min7 | E:min11 | D:11 | D:11 |, guitar), (voice
+31.570748299	B, intro, | E:min | C:min/b3 . C:min7/b3 C:min6/b3 | G:maj/5 | C#:hdim7 |
+44.043809523	C, intro, | C:maj | B:min E:min | A:9 | A:9 |
+56.351746031	| D:11 | D:11 |
+62.477959183	A, verse, | G:maj7 | E:min7 | D:11 | D:11 |
+75.092290249	| B:min7 | E:min11 | D:11 | D:11 |
+87.629455782	B, pre-chorus, | E:min | C:min/b3 . C:min7/b3 C:min6/b3 | G:maj/5 | C#:hdim7 |
+100.097278911	C, chorus, | C:maj | B:min E:min | A:9 | A:9 |
+112.516870748	| D:11 | D:11 |
+118.687437641	D, interlude, | G:7 G:7/13 G:7/b7 . | x4
+130.843174603	A, verse, | G:maj7 | E:min7 | D:11 | D:11 |
+143.377210884	| B:min7 | E:min11 | D:11 | D:11 |
+155.905873015	B, pre-chorus, | E:min | C:min/b3 . C:min7/b3 C:min6/b3 | G:maj/5 | C#:hdim7 |
+168.488049886	C, chorus, | C:maj | B:min E:min | A:9 | A:9 |
+180.819024943	| D:11 | D:11 |
+187.001428571	D, outro, | G:7 G:7/13 G:7/b7 . | x4
+199.191451247	| G:7 G:7/13 G:7/b7 . | x4, fadeout
+211.461791383	| G:7 G:7/13 G:7/b7 . |, voice)
+214.325941043	silence
+216.973061224	end

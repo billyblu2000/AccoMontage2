@@ -1,0 +1,36 @@
+# title: Blue Jean
+# artist: David Bowie
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+1.021678004	A, intro, | C:maj . . G:maj |, (guitar)
+3.084331065	B, verse, | D:maj | D:maj | D:maj | D:maj | D:maj |, (voice
+12.96893424	| G:maj | G:maj | G:maj | G:maj | G:maj | G:maj |
+24.738639455	| D:maj | D:maj |
+28.598231292	| C:maj | D:maj | C:maj . . G:maj | A:maj | A:maj |
+38.254376417	C, chorus, | F#:min | F#:min11 | A:maj | A:maj |
+45.949659863	| F#:min | F#:min11 | A:maj | A:maj |
+53.53340136	| F#:min | F#:min11 | A:maj | A:maj |
+61.170884353	| F#:min | F#:min11 |, voice)
+64.968344671	A, trans, | C:maj . . G:maj |, (guitar)
+66.905170068	B, verse, | D:maj | D:maj | D:maj | D:maj | D:maj |, (voice
+76.580249433	| G:maj | G:maj | G:maj | G:maj | G:maj | G:maj |
+88.154875283	| D:maj | D:maj |
+91.9261678	| C:maj | D:maj | C:maj . . G:maj | A:maj | A:maj |
+101.555895691	C, chorus, | F#:min | F#:min11 | A:maj | A:maj |
+109.193015873	| F#:min | F#:min11 | A:maj | A:maj |
+116.745827664	| F#:min | F#:min11 | A:maj | A:maj |
+124.254489795	| F#:min | F#:min11 |, voice)
+128.004965986	A, trans, | C:maj . . G:maj |, (guitar
+129.937619047	D, interlude, | D:maj | D:maj | D:maj | D:maj |, guitar)
+137.463764172	C', chorus, | F#:min | F#:min11 | A:maj | A:maj |, (voice
+145.068480725	| F#:min | F#:min11 | A:maj | A:maj |
+152.5992517	| F#:min | F#:min11 | A:maj | A:maj |
+160.158594104	| F#:min | F#:min11 | A:maj | A:maj |
+167.622403628	| F#:min | F#:min11 | A:maj | A:maj |
+175.165510204	| F#:min | F#:min11 |, voice)
+178.944671201	A', outro, | C:maj . . G:maj | C:maj . . A:5 |, (guitar
+182.788095238	| E:5 |, guitar)
+189.589455782	silence
+192.248684807	end

@@ -1,0 +1,43 @@
+# title: Stop This Game
+# artist: Cheap Trick
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+2.345215419	A, intro, | E:maj |, (synthesizer
+5.665668934	| E:maj | E:maj | E:maj | E:maj |
+15.143582766	| E:maj | E:maj | E:maj | E:maj |
+24.174353741	| E:maj | E:maj |, synthesizer)
+29.512562358	| E:maj | E:maj | E:maj | E:maj |, (voice
+37.732426303	| E:maj | E:maj | E:maj | E:maj |
+47.229387755	| E:maj | E:maj |, voice)
+51.873378684	B, trans, | E:min | E:min | G:maj | G:maj |, (synthesizer
+58.709954648	| E:min | E:min | C:maj | C:maj |
+65.505283446	| C:maj | C:maj |, synthesizer)
+68.9430839	C, verse, | E:maj | E:maj | E:maj | C:maj |, (voice
+75.828458049	| E:maj | E:maj | E:maj | C:maj |
+82.718004535	| A:min | B:maj | ->
+86.123605442	D, chorus, | E:maj | E:7/b7 | E:maj6/13 | C:maj |
+93.169773242	| E:maj | E:7/b7 | E:maj6/13 | C:maj |
+100.088480725	C, verse, | E:maj | E:maj | E:maj | C:maj |
+107.081337868	| E:maj | E:maj | E:maj | C:maj |
+113.98585034	| A:min | B:maj | ->
+117.455963718	D, chorus, | E:maj | E:7/b7 | E:maj6/13 | C:maj |
+124.448367346	| E:maj | E:7/b7 | E:maj6/13 | C:maj | C:maj | ->
+133.13462585	E, bridge, | A:maj | A:maj . . D:maj | A:maj | A:maj . . D:maj |
+140.055464852	| B:maj | B:maj . . D:maj | B:maj | B:maj |, voice)
+146.900022675	B, trans, | E:min | E:min | G:maj | G:maj |, (synthesizer
+153.722040816	| E:min | E:min | C:maj | C:maj |
+160.537324263	| C:maj | C:maj |, synthesizer)
+163.892154195	D, chorus, | E:maj | E:7/b7 | E:maj6/13 | C:maj |
+170.914036281	| E:maj | E:7/b7 | E:maj6/13 | C:maj |
+177.859478458	D, chorus, | E:maj | E:7/b7 | E:maj6/13 | C:maj |
+184.760975056	| E:maj | E:7/b7 | E:maj6/13 | C:maj |
+191.741451247	D, chorus, | E:maj | E:7/b7 | E:maj6/13 | C:maj |
+198.676621315	| E:maj | E:7/b7 | E:maj6/13 | C:maj |
+205.670136054	D, chorus, | E:maj | E:7/b7 | E:maj6/13 | C:maj |
+212.640861678	| E:maj | E:7/b7 | E:maj6/13 | C:maj |, voice)
+219.514988662	D, fadeout, | E:maj | E:7/b7 | E:maj6/13 | C:maj |, (synthesizer
+226.414195011	| E:maj | E:7/b7 | E:maj6/13 | C:maj | E:maj |, synthesizer)
+233.871383219	silence
+237.688163265	end

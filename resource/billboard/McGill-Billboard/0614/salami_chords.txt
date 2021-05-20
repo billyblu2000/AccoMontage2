@@ -1,0 +1,49 @@
+# title: I want to take you higher
+# artist: Sly And The Family Stone
+# tonic: A
+# metre: 4/4
+
+0.0	silence
+0.255419501	A, intro, | E:min | E:min | E:min |
+7.363605442	B, verse, | (3/4) A:min |
+9.137732426	| A:min | A:min | A:min |, (voice
+16.101791383	| A:min | A:min | A:min | A:min |
+25.466848072	C, chorus, | A:min | A:min | A:min | A:min |
+34.844444444	| A:min | A:min | A:min | A:min |
+44.127664399	D, trans, | A:min |, voice)
+46.396303854	A, bridge, | E:min | E:min | E:min |
+53.541814058	B, verse, | (3/4) A:min |
+55.315215419	| A:min | A:min | A:min |, (voice
+62.325736961	| A:min | A:min | A:min | A:min |
+71.593106575	C, chorus, | A:min | A:min | A:min | A:min |
+81.004920634	| A:min | A:min | A:min | A:min |
+90.334897959	D, trans, | A:min |, voice)
+92.635555555	A, bridge, | E:min | E:min | E:min |
+99.694693877	E, solo, | A:min | A:min | A:min | A:min |, (harmonica
+109.085056689	| A:min | A:min | A:min | A:min |, harmonica)
+117.900816326	C, chorus, | A:min | A:min | A:min | A:min |, (voice
+127.192290249	| A:min | A:min | A:min | A:min |, voice)
+136.648548752	A, bridge, | E:min | E:min | E:min |
+143.754036281	B, verse, | (3/4) A:min |
+145.497913832	| A:min | A:min | A:min |, (voice
+152.561768707	| A:min | A:min | A:min | A:min |
+161.891791383	C, chorus, | A:min7 | A:min7 | A:min7 | A:min7 |
+171.309024943	| A:min7 | A:min7 | A:min7 | A:min7 |
+180.764489795	D, trans, | A:min7 |, voice)
+183.116598639	F, solo, | A:min7 | A:min7 | A:min7 | A:min7 |, (guitar
+192.53063492	| A:min7 | A:min7 | A:min7 | A:min7 |, guitar)
+201.974399092	C, chorus, | A:min7 | A:min7 | A:min7 | A:min7 |, (voice
+211.424240362	| A:min7 | A:min7 | A:min7 | A:min7 |, voice)
+220.92585034	G, solo, | A:min7 | A:min7 | A:min7 | A:min7 |, (trumpet
+230.318117913	| A:min7 | A:min7 | A:min7 | A:min7 |, trumpet)
+239.760294784	C, chorus, | A:min7 | A:min7 | A:min7 | A:min7 |, (voice
+249.13786848	| A:min7 | A:min7 | A:min7 | A:min7 |, voice)
+258.560907029	H, interlude, | A:min7 | A:min7 | A:min7 | A:min7 |
+268.014104308	| A:min7 | A:min7 | A:min7 | A:min7 |
+277.440453514	C, chorus, | A:min7 | A:min7 | A:min7 | A:min7 |, (voice
+286.876848072	| A:min7 | A:min7 | A:min7 | A:min7 |, voice)
+296.403015873	I, solo, | A:min7 | A:min7 | A:min7 | A:min7 |, (saxophone
+305.826575963	fadeout, | A:min7 | A:min7 | A:min7 | A:min7 |
+315.260589569	| A:min7 | A:min7 | A:min7 |, saxophone)
+321.767074829	silence
+323.683265306	end

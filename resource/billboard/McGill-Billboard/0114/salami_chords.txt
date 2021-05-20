@@ -1,0 +1,38 @@
+# title: Sunshine of Your Love
+# artist: Cream
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.383673469	C, intro, | D:maj | D:maj | D:maj | D:maj |
+8.862267573	| D:maj | D:maj | D:maj | D:maj |
+17.257142857	A, verse, | D:maj | D:maj | D:maj | D:maj |
+25.510226757	| D:maj | D:maj | D:maj | D:maj |
+33.779591836	| G:maj | G:maj | G:maj | G:maj |
+42.057142857	| D:maj | D:maj | D:maj | D:maj |
+50.376371882	B, chorus, | A:maj | C:maj G:maj | A:maj | C:maj G:maj |
+58.779591836	| A:maj | C:maj G:maj | A:maj | A:maj |
+67.069387755	| D:maj | D:maj |
+71.27526077	A, verse, | D:maj | D:maj | D:maj | D:maj |
+79.61632653	| D:maj | D:maj | D:maj | D:maj |
+87.906122448	| G:maj | G:maj | G:maj | G:maj |
+96.171428571	| D:maj | D:maj | D:maj | D:maj |
+104.579591836	B, chorus, | A:maj | C:maj G:maj | A:maj | C:maj G:maj |
+112.922448979	| A:maj | C:maj G:maj | A:maj | A:maj |
+121.212244897	D, instrumental, | D:maj | D:maj | D:maj | D:maj |
+129.53877551	| D:maj | D:maj | D:maj | D:maj |
+137.769297052	| G:maj | G:maj | G:maj | G:maj |
+145.985306122	| D:maj | D:maj | D:maj | D:maj |
+154.293877551	| A:maj | C:maj G:maj | A:maj | C:maj G:maj |
+162.602698412	| A:maj | C:maj G:maj | A:maj | A:maj |
+170.815396825	| D:maj | D:maj | D:maj | D:maj |
+179.220408163	A, verse, | D:maj | D:maj | D:maj | D:maj |
+187.546938775	| D:maj | D:maj | D:maj | D:maj |
+195.844897959	| G:maj | G:maj | G:maj | G:maj |
+204.111972789	| D:maj | D:maj | D:maj | D:maj |
+212.461224489	B, chorus, | A:maj | C:maj G:maj | A:maj | C:maj G:maj |
+220.840816326	| A:maj | C:maj G:maj | A:maj | C:maj G:maj |
+229.142857142	| A:maj | C:maj G:maj | A:maj | A:maj | A:maj | A:maj | A:maj | A:maj | A:maj | A:maj |
+245.604081632	E, fadeout, | A:maj |
+250.118888888	silence
+253.236734693	end

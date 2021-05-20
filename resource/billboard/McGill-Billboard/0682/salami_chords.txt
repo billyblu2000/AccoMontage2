@@ -1,0 +1,32 @@
+# title: Brandy
+# artist: Looking Glass
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.371519274	B', intro, | C#:min | A:maj | C#:min | A:maj |
+8.375328798	| E:maj/5 | B:maj | A:maj E:maj/3 | F#:min B:sus4(b7,9) |
+16.125918367	A, verse, | E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | D:maj A:maj |, (voice
+23.7992517	| E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | E:maj |
+31.513854875	| E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | D:maj A:maj |
+39.201451247	| E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | E:maj |
+46.829863945	B, chorus, | C#:min | A:maj | C#:min | A:maj |
+54.520839002	| E:maj/5 | B:maj | A:maj E:maj/3 | F#:min B:sus4(b7,9) |
+62.209659863	A, verse, | E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | D:maj A:maj |
+69.866870748	| E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | E:maj |
+77.623809523	| E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | D:maj A:maj |
+85.289183673	| E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | E:maj |
+92.989818594	B, chorus, | C#:min | A:maj | C#:min | A:maj |
+100.629886621	| E:maj/5 | B:maj | A:maj E:maj/3 | F#:min B:sus4(b7,9) |
+108.293650793	C, bridge, | C#:min | C#:min/b7 | A:maj7 | C#:min/b7 |
+115.968730158	| C#:min | C#:min/b7 | A:maj7 | C#:min/b7 |
+123.680181405	| C#:min | D:maj7 | C#:min7 | A:maj |
+131.406961451	| E:maj/5 | B:maj | A:maj E:maj/3 | F#:min B:sus4(b7,9) |
+139.046213151	A, verse, | E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | D:maj A:maj |
+146.716122448	| E:maj E:maj/3 | A:maj C#:min | F#:min A:maj | E:maj |
+154.364603174	B, chorus, | C#:min | A:maj | C#:min | A:maj |
+162.070929705	| E:maj/5 | B:maj | A:maj E:maj/3 | F#:min B:sus4(b7,9) |
+169.732040816	B, fadeout, | C#:min | A:maj | C#:min | A:maj |
+177.299478458	| E:maj/5 | B:maj | A:maj E:maj/3 | F#:min B:sus4(b7,9) | C#:min |, voice)
+186.665215419	silence
+187.977142857	end

@@ -1,0 +1,34 @@
+# title: Nick of Time
+# artist: Bonnie Raitt
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+1.201632653	C, intro, | N | N |
+5.391383219	| D:min7 | G:maj A:min | D:min7 | D:min7 G:7 |
+13.637460317	| D:min7 | G:maj A:min | D:min7 | D:min7 G:7 |
+21.834013605	| C:maj | C:maj |
+25.95632653	A, verse, | D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+34.140589569	| D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+42.340136054	| D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+50.496145124	| D:min7 | C:maj/3 | E:7(b13)/3 E:7/3 | A:min |
+58.670294784	| D:min7 | D:min7 G:7 | C:maj | C:maj |
+66.866213151	A, verse, | D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+75.00770975	| D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+83.138321995	| D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+91.290702947	| D:min7 | C:maj/3 | E:7(b13)/3 E:7/3 | A:min |
+99.389342403	| D:min7 | D:min7 G:7 | C:maj | C:maj |
+107.550816326	F, bridge, | Bb:maj | F:maj | C:maj | D:min |
+115.6861678	| D:min7 | C:maj/3 | E:7(b13)/3 E:7/3 | A:min |
+123.795555555	| D:min7 | D:min7 G:7 | D:min7 | D:min7 G:7 | D:min7 | D:min7 G:7 | C:maj | C:maj |
+140.152448979	A, verse, | D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+148.299319727	| D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+156.390022675	| D:min7 | C:maj/3 | F:maj6 | C:maj/5 |
+164.484353741	| D:min7 | C:maj/3 | E:7(b13)/3 E:7/3 | A:min |
+172.596825396	| D:min7 | D:min7 G:7 | D:min7 | D:min7 G:7 | D:min7 | D:min7 G:7 | D:min7 | D:min7 G:7 | D:min7 | D:min7 G:7 | C:maj | C:maj |
+196.919727891	J, outro, | D:min7 | G:maj A:min | D:min7 | D:min7 G:7 |
+205.056712018	| D:min7 | G:maj A:min | D:min7 | D:min7 G:7 |
+213.122902494	E, fadeout, | D:min7 | G:maj A:min | D:min7 | D:min7 G:7 |
+221.175873015	| D:min7 | G:maj A:min | D:min7 | D:min7 G:7 |
+229.227097505	silence
+232.907755102	end

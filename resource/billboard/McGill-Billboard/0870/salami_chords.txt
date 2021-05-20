@@ -1,0 +1,37 @@
+# title: And She Was
+# artist: Talking Heads
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.185759637	A, intro, | E:maj A:maj | E:maj | E:maj A:maj | E:maj |
+8.374149659	B, verse, | E:maj A:maj | E:maj | E:maj A:maj | E:maj |, (voice
+16.005827664	| E:maj A:maj | E:maj | E:maj A:maj | E:maj |
+23.589750566	C, pre-chorus, | Bb:maj F:maj | C:maj F:maj | Bb:maj C:maj | F:maj |
+31.213673469	| Bb:maj F:maj | C:maj F:maj | Bb:maj G:maj | C:maj |
+38.823764172	D, chorus, | E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+46.393106575	| E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |, voice)
+54.010340136	A, trans, | E:maj A:maj | E:maj | E:maj A:maj | E:maj |
+61.640181405	B, verse, | E:maj A:maj | E:maj | E:maj A:maj | E:maj |, (voice
+69.284172335	| E:maj A:maj | E:maj | E:maj A:maj | E:maj |
+76.90941043	C, pre-chorus, | Bb:maj F:maj | C:maj F:maj | Bb:maj C:maj | F:maj |
+84.487596371	| Bb:maj F:maj | C:maj F:maj | Bb:maj G:maj | C:maj |
+91.987641723	D, chorus, | E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+99.547823129	| E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+107.184353741	E, bridge, | B:min | B:min | G:maj | G:maj |
+114.832947845	| B:min | B:min | G:maj | G:maj |, voice)
+122.496575963	A, trans, | E:maj A:maj | E:maj | E:maj A:maj | E:maj |
+130.079546485	B, verse, | E:maj A:maj | E:maj | E:maj A:maj | E:maj |, (voice
+137.67015873	| E:maj A:maj | E:maj | E:maj A:maj | E:maj |
+145.22170068	C, pre-chorus, | Bb:maj F:maj | C:maj F:maj | Bb:maj C:maj | F:maj |
+152.781655328	| Bb:maj F:maj | C:maj F:maj | Bb:maj G:maj | C:maj |
+160.311655328	D, chorus, | E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+167.808503401	| E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+175.387142857	| E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+182.934013605	| E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+190.484489795	D, outro, | E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+198.025578231	| E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+205.498684807	| E:maj A:maj | D:maj A:maj | E:maj A:maj | D:maj A:maj |
+212.976553287	| E:maj A:maj | D:maj A:maj | E:maj |, voice)
+217.129795918	silence
+219.245714285	end

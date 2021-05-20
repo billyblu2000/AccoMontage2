@@ -1,0 +1,58 @@
+# title: With a Little Luck
+# artist: Paul McCartney
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.417959183	A, intro, | A:maj/9 | A:maj/9 | E:maj | E:maj |, (synthesizer
+8.986122448	| A:maj/9 | (2/4) A:maj/9 |
+12.262698412	| D:maj9 C#:min7 | (2/4) A:maj/9 |, synthesizer)
+15.495147392	B, chorus, | E:maj | E:maj/3 | A:maj | A:maj/9 |, (voice
+24.017823129	| E:maj | E:maj/3 | A:maj | A:maj/9 |, voice)
+32.562312925	| C#:min7 | C#:min7 |, (synthesizer)
+36.926757369	C, verse, | F#:min | C#:7 | F#:min | C#:7 |, (voice
+45.5230839	| F#:min | C#:7 | F#:min/5 | C#:7 |
+54.035804988	| F#:min | C#:7 | D:maj7(#11) | D:maj7(#11) |
+62.600748299	| A:maj/9 | A:maj/9 | A:maj/9 | A:maj/9 |
+71.22201814	B, chorus, | E:maj | E:maj/3 | A:maj | A:maj/9 |
+79.765895691	| E:maj | E:maj/3 | A:maj | A:maj/9 |, voice)
+88.290612244	| C#:min7 | C#:min7 |, (synthesizer)
+92.695419501	C, verse, | F#:min | C#:7 | F#:min | C#:7 |, (voice
+101.204648526	| F#:min | C#:7 | F#:min/5 | C#:7 |
+109.77941043	| F#:min | C#:7 | D:maj7(#11) | D:maj7(#11) |
+118.34600907	| A:maj/9 | A:maj/9 |
+122.592380952	B, chorus, | E:maj | E:maj/3 | A:maj | A:maj/9 |
+131.197437641	| E:maj | E:maj/3 | A:maj | A:maj/9 |, voice)
+139.787482993	| C#:min7 | C#:min7 |, (synthesizer)
+144.058752834	D, interlude, | E:maj | E:maj/3 | A:maj | A:maj/9 |, (voice
+152.639365079	| E:maj | E:maj/3 | A:maj | A:maj/9 |
+161.234648526	| E:maj | E:maj/3 | A:maj | A:maj/9 |
+169.787142857	| E:maj | E:maj/3 | A:maj | A:maj/9 |
+178.354149659	| E:maj | E:maj/3 | A:maj |
+184.821927437	A', interlude, | A:maj/9 | A:maj/9 | E:maj | E:maj |, voice)
+193.402063492	| (6/4) A:maj/9 |, (synthesizer
+196.556916099	| A:maj/9 . D:maj7 . | C#:min7 . A:maj/9 . | E:maj . D:maj7 . | C#:min7 . A:maj/9 . |
+205.202380952	| E:maj . D:maj7 . | C#:min7 . A:maj/9 . | E:maj . D:maj7 . |
+211.612607709	| (6/4) C#:min7 |
+214.837664399	| A:maj/9 | A:maj/9 |
+219.125238095	E, trans, | E:maj | E:maj | E:maj | E:maj |
+227.694875283	| E:maj | E:maj |
+231.944126984	| E:maj | E:maj | E:maj | E:maj |
+240.579659863	| A:maj/9 | A:maj/9 |
+244.84063492	B, instrumental, | E:maj | E:maj/3 | A:maj | A:maj/9 |
+253.417097505	| E:maj | E:maj/3 | A:maj | A:maj/9 |
+261.961020408	| C#:min7 | C#:min7 |
+266.306870748	C, instrumental, | F#:min | C#:7 | F#:min | C#:7 |
+274.835011337	| F#:min | C#:7 | F#:min/5 | C#:7 |
+283.409206349	| F#:min | C#:7 | D:maj7(#11) | D:maj7(#11) |
+291.921269841	| A:maj/9 | A:maj/9 |, synthesizer)
+296.262993197	B', outro, | E:maj | E:maj/3 | A:maj | A:maj/9 |, (voice
+304.807641723	| E:maj | E:maj/3 | A:maj | A:maj/9 |
+313.361882086	| E:maj | E:maj/3 | A:maj | A:maj/9 |
+321.958344671	| E:maj | E:maj/3 | A:maj |
+328.362199546	| D:maj7 . C#:min7 . | A:maj/9 . E:maj . |
+332.669047619	| D:maj7 . C#:min7 . | C#:min7 . A:maj/9 . |, voice)
+336.935306122	| A:maj/9 | (2/4) A:maj/9 |, (synthesizer
+340.245691609	| E:maj |, (synthesizer)
+343.16770975	silence
+346.070204081	end

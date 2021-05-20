@@ -1,0 +1,42 @@
+# title: Not Fade Away
+# artist: Rolling Stones
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+4.9342403e-2	A, intro, | E:1 | E:1 | E:1 | E:1 |, (drums)
+10.203650793	| E:1 | E:1 | E:1 | E:1 | E:1 | E:1 | E:1 | E:1 |, (harmonica
+20.341179138	| E:1 | E:1 | E:1 | E:1 | E:1 | E:1 | E:1 | E:1 |
+30.534671201	| E:1 | E:1 | E:1 | E:1 |, harmonica)
+35.634535147	B, verse, | E:maj | E:maj | A:maj | A:maj D:maj/5 A:maj . |, (voice
+40.685283446	| E:maj | E:maj | E:maj | E:maj A:maj/5 E:maj . |
+45.675873015	| E:maj | E:maj | A:maj | A:maj D:maj/5 A:maj . |
+50.760090702	| E:maj | E:maj | E:maj | E:maj |
+55.740294784	| E:maj | E:maj | E:maj | E:maj |
+60.756802721	B, verse, | E:maj | E:maj | A:maj | A:maj D:maj/5 A:maj . |
+65.76585034	| E:maj | E:maj | E:maj | E:maj A:maj/5 E:maj . |
+70.822267573	| E:maj | E:maj | A:maj | A:maj D:maj/5 A:maj . |
+75.867777777	| E:maj | E:maj | E:maj | E:maj |
+80.888480725	| E:maj | E:maj | E:maj | E:maj |
+85.952675736	| E:maj | E:maj | E:maj | E:maj |
+91.041995464	C, interlude, | A:maj | A:maj D:maj/5 A:maj . | A:maj | A:maj D:maj/5 A:maj . |, (guitar
+95.915691609	| E:maj | E:maj A:maj/5 E:maj . | E:maj | E:maj A:maj/5 E:maj . |
+100.95095238	| A:maj | A:maj D:maj/5 A:maj . | A:maj | A:maj D:maj/5 A:maj . |
+105.982902494	| E:maj | E:maj A:maj/5 E:maj . | E:maj | E:maj A:maj/5 E:maj . |, guitar)
+111.030181405	| E:maj | E:maj |
+113.559478458	B, verse, | E:maj | E:maj | A:maj | A:maj D:maj/5 A:maj . |, (voice
+118.478435374	| E:maj | E:maj | E:maj | E:maj A:maj/5 E:maj . |
+123.566689342	| E:maj | E:maj | A:maj | A:maj D:maj/5 A:maj . |
+128.646553287	| E:maj | E:maj | E:maj | E:maj |
+133.667596371	| E:maj | E:maj | E:maj | E:maj |
+138.652902494	| E:maj | E:maj | E:maj | E:maj |
+143.669546485	| E:maj | E:maj | E:maj | E:maj |, voice)
+148.55786848	D, solo, | E:1 | E:1 D:1 E:1 . | E:1 | E:1 D:1 E:1 . |, (harmonica
+153.547755102	| E:1 | E:1 D:1 E:1 . | E:1 | E:1 D:1 E:1 . |
+158.466984126	| E:1 | E:1 D:1 E:1 . | E:1 | E:1 D:1 E:1 . |
+163.327823129	| E:1 | E:1 D:1 E:1 . | E:1 | E:1 D:1 E:1 . |
+168.271632653	| E:1 | E:1 D:1 E:1 . | E:1 | E:1 D:1 E:1 . |
+173.236870748	| E:1 | E:1 D:1 E:1 . | E:1 | E:1 D:1 E:1 . |, harmonica)
+178.201972789	| E:maj | E:maj |
+180.747165532	outro, | E:maj A:maj | E:maj | E:maj A:maj | E:maj |, (guitar)
+186.279183673	end

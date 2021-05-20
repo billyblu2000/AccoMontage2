@@ -1,0 +1,31 @@
+# title: Just When I Needed You Most
+# artist: Randy Vanwarmer
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.30185941	A, intro, | A:maj | A:7 | A:maj6 | A:maj |
+10.575170068	| A:maj | A:7 | A:maj6 | A:maj |
+20.443492063	B, verse, | A:maj | A:7 | A:maj6 | D:maj/5 |, (voice
+30.392653061	| D:maj | A:maj | B:min | A:maj/5 E:maj |
+40.32356009	| A:maj | A:7 | A:maj6 | D:maj/5 |
+50.232448979	| D:maj | A:maj | E:maj | A:maj . E:maj/5 A:maj/3 |, voice)
+60.122199546	C, trans, | D:maj | A:maj | E:7 | A:maj | A:7 |
+72.518299319	B, verse, | A:maj | A:7 | A:maj6 | A:maj |, (voice
+82.489523809	| D:maj | A:maj | B:min | E:maj |
+92.440861678	| A:maj | A:7 | A:maj6 | D:maj/5 |
+102.372471655	| D:maj | A:maj | E:maj | A:maj . E:maj/5 A:maj/3 |, voice)
+112.28031746	C, trans, | D:maj | A:maj | E:7 | A:maj | A:7 |
+124.704535147	B', solo, | A:maj | A:7 | A:maj6 | D:maj/5 |, (guitar
+134.660566893	| D:maj | A:maj | B:min | E:maj |
+144.491360544	| A:maj | A:7 | A:maj6 | D:maj/5 |
+154.493786848	| D:maj | A:maj | E:7 | A:maj | A:maj |, guitar)
+166.823106575	B, verse, | A:maj | A:7 | A:maj6 | D:maj/5 |, (voice
+176.665827664	| D:maj | A:maj | B:min | E:maj |
+186.56430839	| A:maj | A:7 | A:maj6 | D:maj/5 |
+196.426666666	| D:maj | A:maj | E:maj | A:maj . E:maj/5 A:maj/3 |
+206.271111111	| D:maj | A:maj | E:maj | A:maj . E:maj/5 A:maj/3 |
+216.159297052	| D:maj | A:maj | E:maj |, voice)
+223.596598639	A', coda, | A:maj | A:7 | A:maj6 | A:maj |, (piano)
+238.445714285	silence
+243.513469387	end

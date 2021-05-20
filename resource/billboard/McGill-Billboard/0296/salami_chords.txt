@@ -1,0 +1,62 @@
+# title: Lyin' Eyes
+# artist: Eagles
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.232199546	A, intro, | G:maj | G:maj7 | C:maj | C:maj |, (guitar
+7.575986394	| A:min | D:7 | G:maj | G:maj |, guitar)
+14.77217687	B, verse, | G:maj | G:maj7 | C:maj | C:maj |, (voice
+22.012448979	| A:min | A:min | D:7 | D:7 |
+29.335532879	| G:maj | G:maj7 | C:maj | C:maj |
+36.585873015	| A:min | C:maj | G:maj | G:maj |
+43.821927437	B, verse, | G:maj | G:maj7 | C:maj | C:maj |
+51.042562358	| A:min | A:min | D:7 | D:7 |
+58.282811791	| G:maj | G:maj7 | C:maj | C:maj |
+65.580204081	| A:min | C:maj | G:maj | C:maj D:7 |
+72.846961451	B, verse, | G:maj | G:maj7 | C:maj | C:maj |
+80.06292517	| A:min | A:min | D:7 | D:7 |
+87.354557823	| G:maj | G:maj7 | C:maj | C:maj |
+94.63031746	| A:min | C:maj | G:maj | G:maj |
+101.917981859	C, chorus, | G:maj | C:maj/5 | G:maj | G:maj |
+109.282494331	| E:min | B:min | A:min | D:7 |
+116.486553287	| G:maj | G:7 | C:maj | A:maj |
+123.739501133	| A:min | D:7 | ->, voice)
+127.452448979	A, interlude, | G:maj | G:maj7 | C:maj | C:maj |, (guitar
+134.656666666	| A:min | D:7 | G:maj | G:maj |, guitar)
+141.861405895	B, verse, | G:maj | G:maj7 | C:maj | C:maj |, (voice
+149.071904761	| A:min | A:min | D:7 | D:7 |
+156.295918367	| G:maj | G:maj7 | C:maj | C:maj |
+163.520272108	| A:min | C:maj | G:maj | C:maj D:7 |
+170.730204081	B, verse, | G:maj | G:maj7 | C:maj | C:maj |
+178.027437641	| A:min | A:min | D:7 | D:7 |
+185.232290249	| G:maj | G:maj7 | C:maj | C:maj |
+192.456553287	| A:min | C:maj | G:maj | G:maj |
+199.717278911	C, chorus, | G:maj | C:maj/5 | G:maj | G:maj |
+207.042766439	| E:min | B:min | A:min | D:7 |
+214.230113378	| G:maj | G:7 | C:maj | A:maj |
+221.517165532	| A:min | D:7 | ->, voice)
+225.118594104	A, interlude, | G:maj | G:maj7 | C:maj | C:maj |, (guitar
+232.350340136	| A:min | D:7 | G:maj | G:maj |, guitar)
+239.522811791	B, verse, | G:maj | G:maj7 | C:maj | C:maj |, (voice
+246.715419501	| A:min | A:min | D:7 | D:7 |
+253.87632653	| G:maj | G:maj7 | C:maj | C:maj |
+261.04340136	| A:min | C:maj | G:maj | C:maj D:7 |
+268.215782312	B, verse, | G:maj | G:maj7 | C:maj | C:maj |, (voice
+275.444603174	| A:min | A:min | D:7 | D:7 |
+282.613197278	| G:maj | G:maj7 | C:maj | C:maj |
+289.800861678	| A:min | C:maj | G:maj | G:maj |
+296.920022675	B, verse, | G:maj | G:maj7 | C:maj | C:maj |, (voice
+304.096122448	| A:min | A:min | D:7 | D:7 |
+311.340884353	| G:maj | G:maj7 | C:maj | C:maj |
+318.534716553	| A:min | C:maj | G:maj | G:maj |
+325.776145124	C', chorus, | G:maj | C:maj/5 | G:maj | G:maj |
+333.032607709	| E:min | B:min | A:min | D:7 |
+340.205079365	| G:maj | G:7 | C:maj | A:maj |
+347.399637188	| A:min | D:7 |
+350.994126984	| G:maj | G:maj7 | A:min | D:7 |
+358.245487528	| G:maj | G:maj7 | A:min | D:7 |, voice)
+365.447142857	| G:maj | G:maj7 | A:min | D:7 |, (guitar
+372.730612244	| G:maj C:maj | G:maj |, guitar)
+379.884263038	silence
+380.708571428	end

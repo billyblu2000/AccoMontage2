@@ -1,0 +1,39 @@
+# title: Superman
+# artist: Donna Fargo
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.325079365	A, chorus, | F#:7 | E:7 |, (voice)
+5.855623582	| B:maj | B:maj |
+10.901088435	B, verse, | B:maj | E:maj |, (voice
+15.664557823	| B:maj | F#:7 |
+20.449183673	| B:maj | E:maj |
+25.26585034	| F#:7 | E:maj B:maj |
+30.031564625	A, chorus, | F#:7 | E:7 |
+34.94031746	| B:maj | ->
+37.359863945	C, bridge, | E:maj | B:maj |
+42.17047619	| F#:7 | E:maj B:maj |
+46.892471655	| E:maj | B:maj |
+51.753492063	| F#:7 | E:maj B:maj |
+56.495941043	A, chorus, | F#:7 | E:7 |
+61.397687074	| B:maj | ->, voice)
+63.826349206	A, solo, | F#:7 | E:7 |, (banjo
+68.682358276	| B:maj | B:maj |, banjo)
+73.721383219	B, verse, | B:maj | E:maj |, (voice
+78.518956916	| B:maj | F#:7 |
+83.464240362	| B:maj | E:maj |
+88.374648526	| F#:7 | E:maj B:maj |
+93.208208616	A, chorus, | F#:7 | E:7 |
+98.043945578	| B:maj | ->
+100.571995464	C, bridge, | E:maj | B:maj |
+105.413356009	| F#:7 | E:maj B:maj |
+110.180816326	| E:maj | B:maj |
+114.987800453	| F#:7 | E:maj B:maj |
+119.777891156	A, chorus, | F#:7 | E:7 |
+124.677687074	| B:maj | ->
+127.139387755	C, bridge, | E:maj | B:maj |
+131.871133786	fadeout, | F#:7 | E:maj B:maj | ->
+136.685827664	| E:maj | B:maj | F#:7 | E:maj B:maj |, voice)
+142.96526077	silence
+146.991020408	end

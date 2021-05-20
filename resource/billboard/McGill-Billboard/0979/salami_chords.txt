@@ -1,0 +1,57 @@
+# title: Karma Chameleon
+# artist: Culture Club
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.348299319	A, intro, | F:1 | F:1 |
+3.018594104	| Bb:1 | N | F:1 | F:1 |
+8.246507936	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (harmonica)
+13.444353741	B, verse, | Bb:maj | F:maj | Bb:maj | Bb:maj |, (voice
+18.688888888	| Bb:maj | F:maj | Bb:maj | Bb:maj |
+23.881904761	| Eb:maj | Eb:maj | F:maj | F:maj |
+29.130657596	| Eb:maj | Eb:maj | F:maj | F:maj |
+34.359455782	| Eb:maj | Eb:maj | F:maj | F:maj |
+39.547074829	| C:min7 | C:min7 | G:min | F:maj |
+44.837936507	C, chorus, | Bb:maj | F:maj7/3 | G:min | G:min |
+49.975759637	| C:min7 | C:min7 | F:sus4 | F:maj |
+55.145600907	| Bb:maj | D:min7 | G:min | G:min |
+60.421814058	| C:min7 | C:min7 | F:sus4 | F:maj |
+65.617981859	B, verse, | Bb:maj | F:maj | Bb:maj | Bb:maj |
+70.859659863	| Bb:maj | F:maj | Bb:maj | Bb:maj |
+76.054807256	| Eb:maj | Eb:maj | F:maj | F:maj |
+81.274149659	| Eb:maj | Eb:maj | F:maj | F:maj |
+86.462222222	| Eb:maj | Eb:maj | F:maj | F:maj |
+91.695918367	| C:min7 | C:min7 | G:min | F:maj |
+96.975396825	C, chorus, | Bb:maj | F:maj7/3 | G:min | G:min |
+102.156371882	| C:min7 | C:min7 | F:sus4 | F:maj |
+107.344195011	| Bb:maj | D:min7 | G:min | G:min |
+112.568049886	| C:min7 | C:min7 | F:sus4 | F:maj |
+117.771564625	D, bridge, | Eb:maj(9) | Eb:maj(9) | D:min7 | D:min7 |
+123.061020408	| C:min | C:min | G:min7 | G:min7 |
+128.275034013	| Eb:maj(9) | Eb:maj(9) | D:min7 | D:min7 |
+133.498752834	| C:min | C:min | G:min7 | F:maj |, voice)
+138.683537414	B, solo, | Bb:maj | F:maj | Bb:maj | Bb:maj |, (harmonica
+143.906281179	| Bb:maj | F:maj | Bb:maj | Bb:maj |, harmonica)
+149.130090702	| Eb:maj | Eb:maj | F:maj | F:maj |, (voice
+154.379795918	| Eb:maj | Eb:maj | F:maj | F:maj |
+159.536462585	| Eb:maj | Eb:maj | F:maj | F:maj |
+164.760090702	| C:min7 | C:min7 | G:min | F:maj |
+169.998435374	C, chorus, | Bb:maj | F:maj7/3 | G:min | G:min |
+175.217732426	| C:min7 | C:min7 | F:sus4 | F:maj |
+180.401882086	| Bb:maj | D:min7 | G:min | G:min |
+185.572040816	| C:min7 | C:min7 | F:sus4 | F:maj |
+190.671496598	C, chorus, | Bb:maj | F:maj7/3 | G:min | G:min |
+195.786530612	| C:min7 | C:min7 | F:sus4 | F:maj |
+200.87079365	| Bb:maj | D:min7 | G:min | G:min |
+206.01095238	| C:min7 | C:min7 | F:sus4 | F:maj |
+211.229501133	C, chorus, | Bb:maj | F:maj7/3 | G:min | G:min |
+216.421269841	| C:min7 | C:min7 | F:sus4 | F:maj |
+221.640612244	| Bb:maj | D:min7 | G:min | G:min |
+226.935555555	fadeout, | C:min7 | C:min7 | F:sus4 | F:maj |
+231.993628117	| Bb:maj | F:maj7/3 | G:min | G:min |
+237.007006802	| C:min7 | C:min7 | F:sus4 | F:maj |
+242.029387755	| Bb:maj | D:min7 | G:min | G:min |
+247.065419501	| C:min7 | C:min7 | F:sus4 | F:maj |, voice)
+250.403990929	silence
+254.615510204	end

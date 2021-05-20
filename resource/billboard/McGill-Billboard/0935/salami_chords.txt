@@ -1,0 +1,30 @@
+# title: Cry Like A Baby
+# artist: The Box Tops
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | B:min | B:min | B:min | B:min |, (synthesiser)
+7.670929705	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+14.888594104	| D:maj | D:maj | D:maj | D:maj |
+22.111723356	| G:maj | G:maj | A:maj | (2/4) G:maj | D:maj |
+30.208367346	| F#:maj | F#:maj |
+33.887029478	| D:maj A:maj | G:maj D:maj |
+37.541768707	B', verse, | D:maj | D:maj | D:maj | D:maj |
+44.679931972	| D:maj | D:maj | D:maj | D:maj |
+51.924557823	| G:maj | G:maj | A:maj | (2/4) G:maj | D:maj | D:maj |
+61.775600907	C, bridge, | E:min | E:min | B:min A:maj | G:7 |
+68.989682539	| E:min | E:min | B:min A:maj | G:maj | G:maj |, voice)
+77.936802721	D, solo, | D:maj | D:maj | D:maj | D:maj |, (electric sitar
+85.114285714	| D:maj | F#:maj | F#:maj |, electric sitar)
+90.562222222	B'', verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+97.748004535	| D:maj | D:maj | D:maj | D:maj |
+104.922267573	| G:maj | G:maj D:maj | D:maj | D:maj |
+112.14430839	B''', verse, | D:maj | D:maj | D:maj | D:maj |
+119.342766439	| D:maj | D:maj | D:maj | D:maj |
+126.526961451	E, outro, | D:7 | D:maj | D:maj | D:maj |
+133.716825396	| D:7 | D:maj | D:maj | D:maj |
+140.96739229	fadeout, | D:7 | D:maj | D:maj | D:maj |
+148.165691609	| D:7 | D:maj | D:maj | D:maj |, voice)
+151.352086167	silence
+155.308253968	end

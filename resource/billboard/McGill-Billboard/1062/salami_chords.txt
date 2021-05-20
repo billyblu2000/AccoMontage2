@@ -1,0 +1,32 @@
+# title: Tuff Enuff 
+# artist: The Fabulous Thunderbirds
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.464399092	A, intro, | (2/4) D:maj E:maj | B:maj | B:maj . D:maj E:maj | B:maj | B:maj . D:maj E:maj |, (guitar
+10.015691609	| B:maj | B:maj | B:maj | B:maj |, guitar)
+18.28510204	B, verse, | B:maj | B:maj | B:maj | B:maj |, (voice
+26.600498866	| B:maj | B:maj | B:maj | B:maj |
+34.741315192	C, chorus, | B:maj | B:maj . D:maj E:maj | B:maj | B:maj . D:maj E:maj |
+42.998480725	| B:maj | B:maj . D:maj E:maj | B:maj | B:maj . D:maj A:maj |
+51.191043083	B, verse, | B:maj | B:maj | B:maj | B:maj |
+59.491111111	| B:maj | B:maj | B:maj | B:maj |
+67.673922902	C, chorus, | B:maj | B:maj . D:maj E:maj | B:maj | B:maj . D:maj E:maj |
+75.948185941	| B:maj | B:maj . D:maj E:maj | B:maj | B:maj |, voice)
+84.135034013	D, solo, | D:maj | D:maj . . E:maj | B:maj | B:maj |, (guitar
+92.600453514	| D:maj | D:maj E:maj | B:maj | B:maj |, guitar)
+100.877210884	B, verse, | B:maj | B:maj | B:maj | B:maj |, (voice
+109.101655328	| B:maj | B:maj | B:maj | B:maj |
+117.248321995	C, chorus, | B:maj | B:maj . D:maj E:maj | B:maj | B:maj . D:maj E:maj |
+125.573900226	| B:maj | B:maj . D:maj E:maj | B:maj | B:maj . D:maj A:maj |
+133.758185941	B, verse, | B:maj | B:maj | B:maj | B:maj |
+142.014875283	| B:maj | B:maj | B:maj | B:maj |, voice)
+150.187210884	D', solo, | D:maj | D:maj . . E:maj | B:maj | B:maj |, (guitar)
+158.369274376	C, chorus, | B:maj | B:maj . D:maj E:maj | B:maj | B:maj . D:maj E:maj |, (voice
+166.650113378	| B:maj | B:maj . D:maj E:maj | B:maj | B:maj |
+174.673650793	C', outro, | D:maj | D:maj | D:maj | D:maj |
+182.873219954	fadeout, | D:maj | D:maj | D:maj | D:maj |
+190.844807256	| D:maj | D:maj | D:maj | D:maj |, voice)
+198.600272108	silence
+202.579591836	end

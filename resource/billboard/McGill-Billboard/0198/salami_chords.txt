@@ -1,0 +1,35 @@
+# title: Along Comes A Woman
+# artist: Chicago
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.394739229	A, intro, | A:5(b7) | A:5(b7) | A:5(b7) | A:5(b7) |
+9.482199546	| A:5(b7) | A:5(b7) | A:5(b7) | A:5(b7) |
+18.035011337	A, verse, | A:5(b7) | A:5(b7) | A:5(b7) | A:5(b7) |, (voice
+26.59217687	| A:5(b7) | A:5(b7) | A:5(b7) | A:5(b7) |
+35.145623582	B, pre-chorus, | B:min | G:maj | B:min | G:maj |
+43.560340136	| B:min | G:maj | F#:min G:maj | A:maj |
+52.129886621	C, chorus, | G:maj A:maj/3 | D:maj . . A:maj | G:maj A:maj/3 | D:maj . . A:maj |
+60.660770975	| G:maj A:maj/3 | D:maj | B:min/11 | B:min/11 |
+69.187256235	A', pre-verse, | A:5(b7) | A:5(b7) | A:5(b7) | A:5(b7) |
+77.798367346	A, verse, | A:5(b7) | A:5(b7) | A:5(b7) | A:5(b7) |
+86.289750566	| A:5(b7) | A:5(b7) | A:5(b7) | A:5(b7) |
+94.836553287	B, pre-chorus, | B:min | G:maj | B:min | G:maj |
+103.34723356	| B:min | G:maj | F#:min G:maj | A:maj |
+111.92047619	C, chorus, | G:maj A:maj/3 | D:maj . . A:maj | G:maj A:maj/3 | D:maj . . A:maj |
+120.465170068	| G:maj A:maj/3 | D:maj | B:min/11 | B:min/11 |
+128.968140589	| G:maj A:maj/3 | D:maj . . A:maj | G:maj A:maj/3 | D:maj . . A:maj |
+137.530839002	| G:maj A:maj/3 | D:maj | B:min/11 | B:min/11 |, voice)
+146.100090702	D, instrumental, | A:11 | A:11 | A:11 | A:11 |, (guitar
+154.673356009	| A:11 | A:11 | A:11 | A:11 |
+163.159841269	| A:11 | A:11 | A:11 | A:11 |
+171.686258503	| A:11 | A:11 | A:11 | A:11 |, guitar)
+180.225374149	C, chorus, | G:maj A:maj/3 | D:maj . . A:maj | G:maj A:maj/3 | D:maj . . A:maj |, (voice
+188.779977324	| G:maj A:maj/3 | D:maj | B:min/11 | B:min/11 |
+197.310770975	| G:maj A:maj/3 | D:maj . . A:maj | G:maj A:maj/3 | D:maj . . A:maj |
+205.84600907	| G:maj A:maj/3 | D:maj | B:min/11 | B:min/11 |
+214.36430839	fadeout, | G:maj A:maj/3 | D:maj . . A:maj | G:maj A:maj/3 | D:maj . . A:maj |
+222.96217687	| G:maj A:maj/3 | D:maj |, voice)
+226.66526077	silence
+228.752448979	end

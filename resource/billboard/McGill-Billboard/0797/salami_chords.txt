@@ -1,0 +1,38 @@
+# title: I Don't Love You Anymore
+# artist: Teddy Pendergrass
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.673378684	A, intro, | N | N | N | N |
+9.312426303	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |, (trumpet)
+17.405079365	B, chorus, | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |, (voice
+25.500702947	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+33.53478458	C, verse, | D:maj6 | C:maj6 | D:maj6 | C:maj6 |
+41.65802721	| D:maj6 | B:7/3 | E:min | C:min7/b3 |
+49.695532879	D, pre-chorus, | A:min B:min | A:min B:min | A:min B:min | A:min B:min |
+57.818979591	| A:min B:min | A:min B:min | D:sus4(b7) | D:7 |
+65.93526077	B, chorus, | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+73.92648526	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+82.040068027	C, verse, | D:maj6 | C:maj6 | D:maj6 | C:maj6 |
+90.114081632	| D:maj6 | B:7/3 | E:min | C:min7/b3 |
+98.161201814	D, pre-chorus, | A:min B:min | A:min B:min | A:min B:min | A:min B:min |
+106.15861678	| A:min B:min | A:min B:min | D:sus4(b7) | D:7 |
+114.217165532	B, chorus, | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+122.258707482	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+130.421247165	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+138.512154195	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+146.670997732	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+154.694058956	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+162.774535147	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+170.770702947	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+178.891632653	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+187.015578231	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+195.119229024	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+203.171473922	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+211.325056689	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+219.4423356	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+227.459342403	fadeout, | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |
+235.485306122	| G:maj . A:min A:min/11 | G:maj . A:min A:min/11 |, voice)
+239.385782312	silence
+243.561473922	end

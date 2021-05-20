@@ -1,0 +1,37 @@
+# title: A Trick Of The Night
+# artist: Bananarama
+# tonic: C
+# metre: 4/4
+
+0.0	silence
+0.394739229	A, intro, | C:5 | C:sus4(b7) | Ab:maj/3 | F:min G:min7/b7 |, (synthesizer
+8.978095238	B', pre-verse, | C:min | C:min | C:min | C:min |
+17.601814058	| Ab:maj | Eb:maj/3 | F:maj | F:maj |, synthesizer)
+26.099614512	B, verse, | C:min | C:min | C:min | C:min |, (voice
+34.671111111	| Ab:maj | Eb:maj/3 | F:maj | F:maj |
+43.23	B, verse, | C:min | C:min | C:min | C:min |
+51.820022675	| Ab:maj | Eb:maj/3 | F:maj | F:maj |
+60.312675736	C, pre-chorus, | Ab:maj | G:min | F:maj | Eb:maj |
+68.892607709	| Ab:maj | Eb:maj/3 | F:maj | Ab:maj/9 Bb:maj |
+77.456349206	D, chorus, | C:maj | G:min7 | F:min7 | Ab:maj/9 Bb:maj |
+86.021814058	| C:maj | G:min7 | F:min7 | Ab:maj/9 Bb:maj |, voice)
+94.566712018	B', pre-verse, | C:min | C:min | C:min | C:min |, (synthesizer
+103.135555555	| Ab:maj | Eb:maj/3 | F:maj | F:maj |, synthesizer)
+111.720453514	B, verse, | C:min | C:min | C:min | C:min |, (voice
+120.264489795	| Ab:maj | Eb:maj/3 | F:maj | F:maj |
+128.784399092	C, pre-chorus, | Ab:maj | G:min | F:maj | Eb:maj |
+137.363696145	| Ab:maj | Eb:maj/3 | F:maj | Ab:maj/9 Bb:maj |
+145.943628117	D, chorus, | C:maj | G:min7 | F:min7 | Ab:maj/9 Bb:maj |
+154.523650793	| C:maj | G:min7 | F:min7 | Ab:maj/9 Bb:maj |
+163.016213151	D, chorus, | C:maj | G:min7 | F:min7 | Ab:maj/9 Bb:maj |
+171.596235827	| C:maj | G:min7 | F:min7 | Ab:maj/9 Bb:maj |, voice)
+180.176507936	B', pre-verse, | C:min | C:min | C:min | C:min |, (synthesizer
+188.777029478	| Ab:maj | Eb:maj/3 | F:maj | F:maj |, synthesizer)
+197.285668934	E, outro, | C:min | G:min7 | F:min7 | Ab:maj/9 Bb:maj |, (voice
+205.844444444	| C:min | G:min7 | F:min7 | Ab:maj/9 Bb:maj |
+214.408344671	| C:min | G:min7 | F:min7 | Ab:maj/9 Bb:maj |
+222.983469387	| C:min | G:min7 | F:min7 | Ab:maj/9 Bb:maj |
+231.533764172	fadeout, | C:min | G:min7 | F:min7 | Ab:maj/9 Bb:maj |
+240.07526077	| C:min | G:min7 | F:min7 | Ab:maj/9 Bb:maj |, voice)
+245.783219954	silence
+248.81632653	end

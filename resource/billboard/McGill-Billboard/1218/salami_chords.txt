@@ -1,0 +1,25 @@
+# title: Behind Closed Doors
+# artist: Charlie Rich
+# metre: 4/4
+# tonic: Gb
+
+0.0	silence
+0.417959183	A, intro, | Gb:maj Ab:7 | Db:maj | Gb:maj | Ab:7 |, (piano)
+11.63154195	B, verse, | Db:maj | Gb:maj Ab:7 | Db:maj | Db:maj |, (voice
+22.990068027	| Db:maj | Gb:maj | Ab:7 Eb:7 | Ab:7 |
+34.222517006	| Db:maj | Gb:maj Ab:7 | Db:maj | Db:maj |
+45.543741496	| Db:maj Eb:min7 | Gb:maj Ab:7 | Db:maj | Db:maj |
+56.88047619	C, chorus, | Gb:maj Ab:7 | Db:maj | Gb:maj Ab:7 | Db:maj |
+68.09292517	| Gb:maj F:min7 | Eb:min7 | Eb:min7 F:min7 Gb:maj Ab:sus4(b7) | Eb:min7 F:min7 Gb:maj Ab:sus4(b7) |
+79.325873015	| Db:maj |, voice)
+# tonic: G
+82.206258503	A, interlude, | G:maj A:7 | D:maj | G:maj | A:7 |, (piano)
+93.504013605	B, verse, | D:maj | G:maj A:7 | D:maj | D:maj |, (voice
+104.882199546	| D:maj | G:maj | A:7 E:7 | A:7 |
+116.14095238	| D:maj | G:maj A:7 | D:maj | D:maj |
+127.502585034	| D:maj E:min7 | G:maj A:7 | D:maj | D:maj |
+138.725487528	C, chorus, | G:maj A:7 | D:maj | G:maj A:7 | D:maj |
+149.809024943	| G:maj F#:min7 | E:min7 | E:min7 F#:min7 G:maj A:sus4(b7) | E:min7 F#:min7 G:maj A:sus4(b7) |, voice)
+160.981360544	| D:maj D:maj/3 | G:maj A:sus4(b7,9) | D:maj |, (piano)
+173.68526077	silence
+175.542857142	end

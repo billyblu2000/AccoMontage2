@@ -1,0 +1,35 @@
+# title: Dial My Heart
+# artist: The Boys
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.464399092	A, intro, | N | N | N | G:maj9 |, (synthesizer
+10.634739229	B, instrumental, | A:maj/9 | E:min7 E:min9/9 | A:maj/9 | E:min9 |
+20.215691609	| A:maj/9 | E:min7 E:min9/9 | A:maj/9 | E:min9 |, synthesizer)
+29.744761904	C, verse, | B:1 | E:1 F#:1 | B:1 | G:1 F#:1 E:1 . |, (voice
+39.301587301	| E:min9 | A:maj/9 | E:min9 | A:1(11,9) A#:dim |
+48.835351473	B, chorus, | A:maj/9 | E:min9 | A:maj/9 | E:min9 |
+58.430612244	| A:maj/9 | E:min9 | A:maj/9 | E:min9 |, voice)
+67.957369614	D, interlude, | B:min Bb:maj | A:sus4 A:maj | B:min E:1(b5,b7,3)/b5 | G:maj7/9 A:maj |, (synthesizer
+77.484988662	| B:5(b7) | E:1 F#:1 | B:5(b7) | G:1 F#:1 E:1 . |, synthesizer)
+87.086621315	C, verse, | B:1 | E:1 F#:1 | B:1 | G:1 F#:1 E:1 . |, (voice
+96.639002267	| E:min9 | A:maj/9 | E:min9 | A:1(11,9) A#:dim |
+106.138412698	B, chorus, | A:maj/9 | E:min9 | A:maj/9 | E:min9 |
+115.71371882	| A:maj/9 | E:min9 | A:maj/9 | E:min9 |, voice)
+125.288571428	B, instrumental, | A:maj/9 | E:min7 | A:maj/9 | E:min9 |
+134.815056689	| A:maj/9 | E:min7 | A:maj/9 | E:min9 |
+144.344444444	E, solo, | E:min9 | A:maj/9 | E:min9 | A:maj/9 |
+153.90185941	| E:min9 | A:maj/9 | E:min9 | A:1(11,9) A#:dim |, synthesizer)
+163.459319727	B, chorus, | A:maj/9 | E:min9 | A:maj/9 | E:min9 |, (voice
+173.006870748	| A:maj/9 | E:min9 | A:maj/9 | E:min9 |
+182.578503401	B, chorus, | A:maj/9 | E:min9 | A:maj/9 | E:min9 |
+192.067256235	| A:maj/9 | E:min9 | A:maj/9 | E:min9 |
+201.669863945	B, interlude, | A:maj/9 | E:min7 | A:maj/9 | E:min9 |
+211.214807256	| A:maj/9 | E:min7 | A:maj/9 | E:min9 |
+220.775328798	B, chorus, | A:maj/9 | E:min9 | A:maj/9 | E:min9 |
+230.351292517	| A:maj/9 | E:min9 | A:maj/9 | E:min9 |, voice)
+239.867845804	fadeout, | A:maj/9 | E:min7 | A:maj/9 | E:min9 | A:maj/9 |, (synthesizer
+249.405532879	| A:maj/9 | E:min7 | A:maj/9 | E:min9 | A:maj/9 |, synthesizer)
+259.552653061	silence
+265.45632653	end

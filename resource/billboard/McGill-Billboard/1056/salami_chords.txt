@@ -1,0 +1,46 @@
+# title: After The Love Has Gone
+# artist: Earth, Wind & Fire
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+3.1927437e-2	Z
+0.342857142	A, intro, | F:maj/5 A:min7 | Bb:maj(9) C:sus4(b7) |, (synthesizer
+10.332698412	| F:maj . G:min7 F:maj/3 | Bb:maj7 . G:min7 C:sus4(b7) |
+18.100839002	B, instrumental, | F:maj(9) Bb:min | F:maj(9) Bb:min6 |
+25.682426303	| F:maj(9) . . B:7(#11) | Bb:min7(11) Ab:maj7/3 |, synthesizer)
+33.205691609	B, pre-verse, | F:maj(9) Bb:min6 | F:maj(9) Bb:min6 |, (voice
+40.763151927	| F:maj(9) B:7(#11) Bb:min7(11) . | Db:maj9 | F:maj/5 |
+48.329002267	| F:maj(9) Bb:min6 | F:maj(9) Bb:min6 |
+55.880045351	| F:maj(9) B:7(#11) Bb:min7(11) . | Db:maj9 | F:maj/5 |
+63.482857142	C, verse, | F:maj(9) F:aug(9) | F:maj(9) A:min7 |
+71.161519274	| D:min Bb:maj7 | Eb:maj7 . Bb:maj/9 C:7 |
+78.777619047	| F:maj(9) F:aug(9) | F:maj(9) A:min7 |
+86.31494331	| D:min9 Bb:sus2 | Eb:maj9 . C:sus4(b7) B:aug |
+93.871133786	D, bridge, | Bb:maj9 . A:min7 D:min7 | G:min9 . F:maj9 B:sus4(b7,9) |
+101.302199546	| E:maj9 . Ab:min7/5 Ab:min7 | (2/4) Db:min9 | B:maj9 |
+110.472358276	E, chorus, | C:min9 F:min9 | Bb:min9 Ab:maj6/5 |
+117.764285714	| Ab:min9 Gb:maj/5 | Gb:maj9 . Ab:min7 Bb:min7 |
+124.985918367	| C:min9 F:min9 | Bb:min9 Ab:maj6/5 |
+132.241882086	| Ab:min9 Gb:maj/5 | Gb:maj9 . Ab:min7 Bb:min7 |
+139.565306122	| (3/4) B:maj7 Db:min7 Eb:min7 |
+142.329206349	E, chorus, | F:min9 Bb:min9 | Eb:min9 Db:maj6/5 |
+149.595011337	| Db:min9 B:maj/bb13 | B:maj9 . Db:min7 Eb:min7 |
+156.779274376	| F:min9 Bb:min9 | Eb:min9 Db:maj6/5 |
+164.105873015	| Db:min9 B:maj/bb13 | B:maj9 . Db:min7 Eb:min7 |, voice)
+171.342471655	E, solo, | F:min9 Bb:min9 | Eb:min9 Db:maj6/5 |, (saxophone
+178.603310657	| Db:min9 B:maj/bb13 | B:maj9 . Db:min7 Eb:min7 |
+185.834217687	| F:min9 Bb:min9 | Eb:min9 Db:maj6/5 |
+193.132494331	| Db:min9 B:maj/bb13 | B:maj9 . Db:min7 Eb:min7 |
+200.388503401	| F:min9 . . Bb:min9 | Eb:min9 . . Db:maj6/5 |
+207.669297052	| Db:min9 B:maj/bb13 | B:maj9 . Db:min7 Eb:min7 |
+214.9161678	| F:min9 . . Bb:min9 | Eb:min9 . . Db:maj6/5 |
+222.210612244	| Db:min9 B:maj/bb13 | B:maj9 . Db:min7 Eb:min7 |, saxophone)
+229.324648526	E, chorus, | F:min9 Bb:min9 | Eb:min9 Db:maj6/5 |, (voice
+236.667120181	| Db:min9 B:maj/bb13 | B:maj9 . Db:min7 Eb:min7 |
+243.903605442	| F:min9 Bb:min9 | Eb:min9 Db:maj6/5 |
+251.212244897	| Db:min9 B:maj/bb13 | (2/4) B:maj9 | Db:min7 |
+260.645532879	| Eb:min7 |
+266.160385487	| F:min9 |, voice)
+274.833469387	Z
+280.894693877	end

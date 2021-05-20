@@ -1,0 +1,35 @@
+# title: Talk to me
+# artist: Chico DeBarge
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.510839002	G, pre-intro, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+12.570929705	C, intro, | Ab:1 | Ab:1 | Ab:1 | Ab:1 |
+20.975895691	| Ab:1 | Ab:1 | Ab:1 | Ab:1 |
+29.339954648	A, verse, | Ab:7 | Ab:7 | Ab:7 | Ab:7 |
+37.709206349	| Ab:7 | Ab:7 | Ab:7 | Ab:7 |
+46.076031746	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+54.441995464	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+62.806802721	| Ab:7 | Ab:7 | Ab:7 | Ab:7 |
+71.192902494	| Ab:7 | Ab:7 | Ab:7 | Ab:7 |
+79.558163265	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+87.917414965	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+96.254421768	K, interlude, | Ab:1 | Ab:1 | Ab:1 | Ab:1 |
+104.629115646	| Ab:1 | Ab:1 | Ab:1 | Ab:1 |
+113.003061224	B, chorus, | Gb:maj | Bb:min | Cb:maj | Db:sus4(b7) |
+121.417142857	| Gb:maj | Bb:min | Cb:maj | Bb:maj |
+129.714058956	H, spoken, | Gb:sus2 | Gb:sus2 | Gb:sus2 | Gb:sus2 |
+138.129501133	| Gb:sus2 | Gb:sus2 | Gb:sus2 | Gb:sus2 |
+146.483038548	| Ab:7 | Ab:7 | Ab:7 | Ab:7 |
+154.849047619	A, verse, | Ab:7 | Ab:7 | Ab:1 | Ab:1 |
+163.211020408	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+171.614058956	| Ab:7 | Ab:7 | Ab:1 | Ab:1 |
+179.997029478	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+188.281088435	| Ab:7 | Ab:7 | Ab:1 | Ab:1 |
+196.733446712	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+205.090022675	E, fadeout, | Ab:7 | Ab:7 | Ab:1 | Ab:1 |
+213.461020408	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+221.810045351	| Ab:9 | Ab:9 | Ab:1 | Ab:1 |
+229.053038548	silence
+232.501405895	end

@@ -1,0 +1,34 @@
+# title: Silent Lucidity
+# artist: Queensryche
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.417959183	A, intro, | G:maj G:maj(9) | G:maj G:maj(9) | E:min9 E:min7 | E:min9 E:min7 |, (guitar)
+13.515736961	B, verse, | G:maj G:maj(9) | G:maj G:maj(9) | E:min9 E:min7 | E:min9 E:min7 |, (voice
+27.201179138	| G:maj G:maj(9) | G:maj G:maj(9) | E:min9 E:min7 | E:min9 E:min7 |
+40.49371882	| C:maj C:maj(9) | C:maj C:maj(9) | A:min7 A:min11 | A:min7 A:min11 |
+54.19941043	| C:maj C:maj(9) | C:maj C:maj(9) | A:min7 A:min11 | G:5 |, voice)
+68.704739229	A, trans, | G:maj G:maj(9) | G:maj G:maj(9) | E:min9 E:min7 | E:min9 E:min7 |, (guitar)
+82.420113378	B, verse, | G:maj G:maj(9) | G:maj G:maj(9) | E:min9 E:min7 | E:min9 E:min7 |, (voice
+96.1630839	| G:maj G:maj(9) | G:maj G:maj(9) | E:min9 E:min7 | E:min9 E:min7 |
+109.887074829	| C:maj C:maj(9) | C:maj C:maj(9) | A:min7 A:min11 | A:min7 A:min11 |
+123.608049886	| C:maj C:maj(9) | C:maj C:maj(9) | A:min7 A:min11 | A:min7 |
+137.308979591	C, chorus, | D:maj | C:maj6(9) | D:maj | C:maj6(9) |
+151.04494331	| D:maj | C:maj6(9) | D:maj | C:maj6(9) | C:maj6(9) |, voice)
+168.206621315	A', trans, | G:maj G:maj(9) | G:maj G:maj(9) |, (guitar
+175.021995464	D, bridge, | Eb:maj | Eb:maj | C:sus2 C:maj | C:sus2 C:maj |
+188.664535147	| Eb:maj | Eb:maj | C:sus2 C:maj | Bb:maj | Ab:maj |, guitar)
+202.416281179	| C:min(9)/5 | F:sus2(b7) F:maj | Eb:maj C:min6/b3 | G:min/5 C:min6/9 |, (strings
+216.122199546	| D:min D:min(9) | C:sus4(9) C:min | Bb:maj7 Bb:maj(9) | Ab:maj7 |
+229.869705215	| G:maj |, strings)
+232.362086167	B, verse, | G:maj G:maj(9) | G:maj G:maj(9) | E:min9 E:min7 | E:min9 E:min7 |, (voice
+246.077800453	| G:maj G:maj(9) | G:maj G:maj(9) | E:min9 E:min7 | E:min9 E:min7 |
+259.808956916	| C:maj C:maj(9) | C:maj C:maj(9) | A:min7 A:min11 | A:min7 A:min11 |
+273.479002267	| C:maj C:maj(9) | C:maj C:maj(9) | A:min7 A:min11 | A:min7 |
+287.273877551	C, chorus, | D:maj | C:maj6(9) | D:maj | C:maj6(9) |
+300.921473922	| D:maj | C:maj6(9) | D:maj | C:maj6(9) | C:maj6(9) |, voice)
+319.785215419	A, outro, | G:maj G:maj(9) | G:maj G:maj(9) | G:maj G:maj(9) | G:maj G:maj(9) |, (guitar
+333.535306122	| G:maj G:maj(9) | G:maj |, guitar)
+345.025306122	silence
+347.820408163	end

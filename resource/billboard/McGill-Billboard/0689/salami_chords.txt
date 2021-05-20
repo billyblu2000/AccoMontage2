@@ -1,0 +1,37 @@
+# title: The Anaheim, Azusa & Cucamonga Sewing Circle, Book Review And Timing Association
+# artist: Jan & Dean 
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.417959183	A, chorus, | B:maj E:maj | A:maj E:maj | B:maj C#:min | C#:min |, (voice)
+7.121519274	| B:maj D:maj | D:maj |, (trombone)
+10.19356009	B, verse, | D:maj D:maj/5 | D:maj D:maj/5 | D:maj D:maj/5 | D:maj D:maj/5 |, (voice)
+16.881950113	| G:maj G:maj/5 | G:7 G:maj/5 |, (oboe)
+20.139727891	| D:maj D:maj/5 | D:maj D:maj/5 | D:maj C:min | C:7 |, (voice
+26.732811791	C, pre-chorus, | F:maj | Bb:maj | C:7 | F:maj |
+33.054376417	| F:maj | Bb:maj | G:7 | C:maj . . E:maj |
+39.409206349	A, chorus, | B:maj E:maj | A:maj E:maj | B:maj C#:min | (2/4) C#:min | B:maj |, (voice)
+45.278911564	| D:maj | D:maj |, (trombone)
+48.484421768	B, verse, | D:maj D:maj/5 | D:maj D:maj/5 | D:maj D:maj/5 | D:maj D:maj/5 |, (voice)
+55.064693877	| G:maj G:maj/5 | G:7 G:maj/5 |, (oboe)
+58.313174603	| D:maj D:maj/5 | D:maj D:maj/5 | D:maj C:min | C:7 |, (voice
+64.798253968	C, pre-chorus, | F:maj | Bb:maj | C:7 | F:maj |
+71.268571428	| F:maj | Bb:maj | G:7 | C:maj . . E:maj |
+77.716984126	A, chorus, | B:maj E:maj | A:maj E:maj | (2/4) B:maj | C#:min B:maj |, (voice)
+83.665056689	| D:maj | D:maj |, (trombone)
+86.800362811	B, verse, | D:maj D:maj/5 | D:maj D:maj/5 | D:maj D:maj/5 | D:maj D:maj/5 |, (voice)
+93.486099773	| G:maj G:maj/5 | G:7 G:maj/5 |, (oboe)
+96.813605442	| D:maj D:maj/5 | D:maj D:maj/5 | D:maj C:min | C:7 |, (voice
+103.380453514	C, pre-chorus, | F:maj | Bb:maj | C:7 | F:maj |
+109.809387755	| F:maj | Bb:maj | G:7 | C:maj . . E:maj |
+116.332358276	A, chorus, | B:maj E:maj | A:maj E:maj | B:maj C#:min | (2/4) C#:min |, (voice)
+122.322721088	| B:maj | B:maj E:maj/3 |, (trombone)
+125.570430839	A', chorus, | A:maj . B:maj C:dim | C#:min G#:min | E:maj A:maj | (2/4) A:maj |
+131.477619047	| B:sus4(b7)/11 E:maj | E:maj |
+134.727301587	D, fadeout, | E:maj | E:maj . E:maj/5 E:maj/3 | E:maj | E:maj . E:maj/5 E:maj/3 |
+141.260045351	| E:maj | E:maj . E:maj/5 E:maj/3 | E:maj | E:maj . E:maj/5 E:maj/3 |
+147.656712018	| E:maj | E:maj . E:maj/5 E:maj/3 | E:maj | E:maj . E:maj/5 E:maj/3 |
+154.122585034	| E:maj | E:maj . E:maj/5 E:maj/3 | E:maj | E:maj . E:maj/5 E:maj/3 |, voice)
+161.889523809	silence
+165.12	end

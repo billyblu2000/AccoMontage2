@@ -1,0 +1,27 @@
+# title: Count On Me
+# artist: Jefferson Starship
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.557278911	A', intro, | N E:maj F#:min E:maj/3 | A:maj | E:maj | D:maj | F#:7 | B:min7 | E:maj |, (piano)
+15.337369614	A, verse, | A:maj | E:maj | D:maj | F#:7 | B:min7 | E:maj |, (voice
+28.129024943	| A:maj | E:maj | D:maj | F#:7 | B:min7 | E:maj |
+40.979024943	B, chorus, | A:maj D:maj | E:maj | A:maj D:maj | E:maj |
+49.574172335	| A:maj D:maj | E:maj | A:maj D:maj | E:maj |, voice)
+58.040861678	| D:maj | D:maj |, (piano)
+62.369365079	A, verse, | A:maj | E:maj | D:maj | F#:7 | B:min7 | E:maj |, (voice
+75.288299319	| A:maj | E:maj | D:maj | F#:7 | B:min7 | E:maj |
+88.100430839	B, chorus, | A:maj D:maj | E:maj | A:maj D:maj | E:maj |
+96.728163265	| A:maj D:maj | E:maj | A:maj D:maj | E:maj |, voice)
+105.327800453	| D:maj | D:maj | C#:maj | C#:maj |, (piano)
+113.928458049	C, bridge, | F#:min | F#:min | B:min7 | E:maj |, (voice)
+122.462199546	A', solo, | A:maj | E:maj | D:maj | F#:7 | B:min7 | E:maj |, (guitar)
+135.325034013	A, verse, | A:maj | E:maj | D:maj | F#:7 | B:min7 | E:maj |, (voice
+148.223287981	| A:maj | E:maj | D:maj | F#:7 | B:min7 | E:maj |
+161.017777777	B, chorus, | A:maj D:maj | E:maj | A:maj D:maj | E:maj |
+169.627619047	| A:maj D:maj | E:maj | A:maj D:maj | E:maj |
+178.142721088	B, fadeout, | A:maj D:maj | E:maj | A:maj D:maj | E:maj |
+186.681723356	| A:maj D:maj | E:maj | A:maj D:maj | E:maj |, voice)
+193.51510204	silence
+197.87755102	end

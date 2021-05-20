@@ -1,0 +1,32 @@
+# title: Doo Doo Doo Doo Doo
+# artist: The Rolling Stones
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.510839002	A, intro, | E:maj | G:maj | C:maj | E:maj |, (guitar
+9.238798185	| E:maj | G:maj | C:maj | E:maj |, guitar)
+17.762494331	B, verse, | E:min7 | E:min7 | A:min | E:min7 |, (voice
+26.625600907	| E:min7 | E:min7 | A:min | E:min7 |
+35.554671201	A, chorus, | E:min | G:maj | C:maj | E:min |
+44.17292517	| E:min | G:maj | C:maj | E:min |
+52.798820861	B, verse, | E:min7 | E:min7 | A:min | E:min7 |
+61.671564625	| E:min7 | E:min7 | A:min | E:min7 |
+70.573378684	A', chorus, | E:min | G:maj | C:maj | E:min |
+79.202789115	| E:min | G:maj | C:maj | E:min |
+87.82047619	| E:min | G:maj | C:maj | E:min |
+96.502993197	| E:min | G:maj | C:maj | E:min |, voice)
+105.28632653	B, solo, | E:min7 | E:min7 | A:min | E:min7 |, (guitar
+114.351337868	| E:min7 | E:min7 | A:min | E:min7 |, guitar)
+123.163151927	A'', chorus, | E:min | G:maj | C:maj | E:min |, (voice
+131.781224489	| E:min | G:maj | C:maj | E:min |
+140.320725623	| E:min | G:maj | C:maj | E:min |
+148.91446712	| E:min | G:maj | C:maj | E:min |
+157.4392517	| E:min | G:maj | C:maj | E:min |
+165.912290249	| E:min | G:maj | C:maj | E:min |
+174.514648526	| E:min | G:maj | C:maj | E:min |
+183.050226757	fadeout, | E:min | G:maj | C:maj | E:min |
+191.474761904	| E:min | G:maj | C:maj | E:min |
+199.977188208	| E:min | G:maj | C:maj | E:min |, voice)
+206.642766439	silence
+207.841247165	end

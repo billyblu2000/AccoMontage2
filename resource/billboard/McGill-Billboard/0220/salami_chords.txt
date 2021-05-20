@@ -1,0 +1,26 @@
+# title: Ramblin' Rose
+# artist: Nat King Cole
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.580498866	A, chorus, | E:7 | E:7 | A:maj | A:maj |, (voice
+13.577528344	| B:7 | B:7 | E:7 | E:7 A:7 |
+23.532993197	| D:maj | D:maj | A:maj | A:maj |
+33.373333333	| B:min | E:maj | A:maj D:maj | A:maj |
+43.325170068	A', chorus, | E:7 | E:7 | A:maj | A:maj |
+53.252494331	| B:7 | B:7 | E:7 | E:7 A:7 |
+63.114353741	| D:maj | D:maj | A:maj | A:maj |
+73.046462585	| B:min | E:maj | A:maj | F:7 |
+# tonic: Bb
+82.901678004	A'', chorus, | F:7 | F:7 | Bb:maj | Bb:maj |
+92.810566893	| C:7 | C:7 | F:7 | F:7 Bb:7 |
+102.578390022	| Eb:maj | Eb:maj | Bb:maj | Bb:maj G:min |
+112.410272108	| C:min | F:maj | Bb:maj Eb:maj | Bb:maj |
+122.258344671	A''', chorus, | F:7 | F:7 | Bb:maj | Bb:maj |
+131.987573696	| C:7 | C:7 | F:7 | F:7 Bb:7 |
+141.767777777	| Eb:maj | Eb:maj | Bb:maj | Bb:maj G:min |
+151.635646258	| C:min | F:13 | &pause |
+158.383310657	outro, | Bb:maj Eb:7 | Bb:maj |, voice)
+166.073696145	silence
+168.979501133	end

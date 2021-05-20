@@ -1,0 +1,28 @@
+# title: Amor
+# artist: Ben E. King
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.325079365	A', intro, | Bb:maj6 | Bb:maj6 | Bb:maj6 | Bb:maj6 |
+10.009455782	A, verse, | Bb:maj6 | Bb:maj6 | Bb:maj6 | Bb:maj6 |, (voice
+19.559319727	| Bb:maj6 | Bb:maj6 | F:maj/5 | F:maj/5 |
+29.047460317	| C:min | C:min | C:min | F:maj(9)/5 |
+38.465510204	| F:maj | F:maj | Bb:maj6 | Bb:maj6 . . A:7 |
+47.930113378	B, chorus, | D:min | A:7 | A:7 | D:min |
+57.363469387	| F:maj F#:dim | G:min7 C:7 | C:7 | F:7 |
+66.72446712	A, verse, | Bb:maj6 | Bb:maj6 | Bb:maj6 | Bb:maj6 |
+76.240249433	| Bb:maj6 | Bb:maj6 | F:maj/5 | F:maj/5 |
+85.710612244	| C:min | C:min | C:min | F:maj(9)/5 |
+95.156122448	| F:maj | F:maj | Bb:maj6 | Bb:maj6 . . A:7 |, voice)
+104.630521541	B, instrumental, | D:min | A:7 | A:7 | D:min |, (strings
+114.104897959	| F:maj F#:dim | G:min7 C:7 | C:7 | F:7 |, strings)
+123.683741496	A, verse, | Bb:maj6 | Bb:maj6 | Bb:maj6 | Bb:maj6 |, (voice
+133.214421768	| Bb:maj6 | Bb:maj6 | F:maj/5 | F:maj/5 |
+142.71079365	| C:min | C:minmaj7 | C:min7 | F:maj(9)/5 |
+152.27170068	| F:maj | F:maj |, voice)
+157.012290249	C, outro, | Bb:7(#11) | Bb:7(#11) | Bb:7(#11) | Bb:7(#11) |, (piano
+166.618390022	fadeout, | Bb:7(#11) | Bb:7(#11) | Bb:7(#11) | Bb:7(#11) |
+176.181179138	| Bb:7(#11) | Bb:7(#11) | Bb:7(#11) |, piano)
+181.67292517	silence
+185.364897959	end

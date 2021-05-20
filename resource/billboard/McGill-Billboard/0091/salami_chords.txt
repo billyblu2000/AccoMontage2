@@ -1,0 +1,44 @@
+# title: True
+# artist: Spandau Ballet
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.325079365	A, intro, | G:maj | E:min9 | C:maj9 | B:min7 |
+10.157437641	| G:maj | E:min9 | C:maj9 | B:min7 |
+20.019070294	| G:maj | E:min9 | C:maj9 | B:min7 |
+29.882267573	| A:min | F:maj6(9) | D:1 |
+37.61632653	B, verse, | G:maj | B:min | C:maj | Eb:maj |, (voice
+47.438208616	| G:maj | B:min | C:maj | ->
+54.874807256	| E:min7 | C:maj | G:maj G:maj/7 | C:maj |
+62.240702947	| G:maj | C:maj C:maj/7 | G:maj | C:maj C:maj/7 |
+72.041995464	| G:maj | C:maj C:maj/7 | (3/4) C:maj . G:maj/3 | F:maj9 |
+81.304671201	A, chorus, | G:maj | E:min9 | C:maj9 | B:min7 |
+91.118526077	| G:maj | E:min9 | C:maj9 | B:min7 |
+101.024693877	| A:min | F:maj6(9) | D:1 |
+108.43600907	B, verse, | G:maj | B:min | C:maj | Eb:maj |
+118.211201814	| G:maj | B:min | C:maj | ->
+125.710249433	| E:min7 | C:maj | G:maj G:maj/7 | C:maj |
+133.018820861	| G:maj | C:maj C:maj/7 | G:maj | C:maj C:maj/7 |
+142.900566893	| G:maj | C:maj C:maj/7 | (3/4) C:maj . G:maj/3 | F:maj9 |
+152.199274376	A, chorus, | G:maj | E:min9 | C:maj9 | B:min7 |
+161.990975056	| G:maj | E:min9 | C:maj9 | B:min7 |
+171.80217687	| A:min | F:maj6(9) | F:maj6(9) |
+179.297777777	C, solo, | Eb:maj | Ab:maj | Eb:maj | Ab:maj |, (saxophone
+189.131678004	| Eb:maj | Ab:maj | Eb:maj | Ab:maj |
+198.960907029	| Eb:maj | Ab:maj | Eb:maj | Ab:maj |
+208.84015873	| Eb:maj | Ab:maj | G:maj | G:maj |, saxophone)
+218.677777777	B, verse, | C:maj C:maj/7 | G:maj | C:maj | N G:maj A:min G:maj/3 |, (voice
+228.478117913	| C:maj C:maj/7 | G:maj | (3/4) C:maj . G:maj/3 | F:maj9 | F:maj9 |
+240.187210884	A, chorus, | G:maj | E:min9 | C:maj9 | B:min7 |
+250.036598639	| G:maj | E:min9 | C:maj9 | B:min7 |
+259.932244897	D, coda, | A:min7 | E:min9 E:min7 | A:min7 | E:min9 E:min7 |
+269.771632653	| A:min7 | F:maj6(9) | F:maj6(9) |
+277.128276643	A', outro, | G:maj | E:min9 | C:maj9 | B:min7 |
+287.024603174	| G:maj | E:min9 | C:maj9 | B:min7 |
+296.867346938	| G:maj | E:min9 | C:maj9 | B:min7 |
+306.668571428	fadeout, | G:maj | E:min9 | C:maj9 | B:min7 |
+316.520544217	| G:maj | E:min9 | C:maj9 | B:min7 |
+326.398435374	| G:maj | E:min9 | C:maj9 | B:min7 | G:maj |, voice)
+337.455600907	silence
+343.118367346	end

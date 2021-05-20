@@ -1,0 +1,33 @@
+# title: Lovely Day 
+# artist: Bill Withers
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+0.580498866	A, intro, | E:1 | C#:1 | A:1 | A:1 . C:1 B:1 |
+10.356734693	| E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+20.181700680	A', verse, | E:maj | C#:min7 | A:maj9 | A:maj9 . C:maj7 B:sus4(b7) |, (voice
+29.980498866	| E:maj | C#:min7 | A:maj9 | C:maj7 |
+39.740816326	B, pre-chorus, | D:sus4(b7,9) | E:sus4(b7,9) | A:min7 | B:min7 |
+49.554104308	| D:sus4(b7,9) | E:sus4(b7,9) | A:min7 | B:min7 |
+59.332448979	A'', chorus, | E:maj | C#:min7 | A:maj9 | A:maj9 . C:maj7 B:sus4(b7) |
+69.139274376	| E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+78.958526077	A', verse, | E:maj | C#:min7 | A:maj9 | A:maj9 . C:maj7 B:sus4(b7) |
+88.728979591	| E:maj | C#:min7 | A:maj9 | C:maj7 |
+98.511768707	B, pre-chorus, | D:sus4(b7,9) | E:sus4(b7,9) | A:min7 | B:min7 |
+108.265895691	| D:sus4(b7,9) | E:sus4(b7,9) | A:min7 | B:min7 |
+118.057029478	A'', chorus, | E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+127.863718820	| E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+137.654512471	A', verse, | E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+147.469410430	| E:maj | C#:min7 | A:maj9 | C:maj7 |
+157.215827664	B, pre-chorus, | D:sus4(b7,9) | E:sus4(b7,9) | A:min7 | B:min7 |
+166.970408163	| D:sus4(b7,9) | E:sus4(b7,9) | A:min7 | B:min7 |
+176.821405895	A'', chorus, | E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+186.612380952	| E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+196.374580498	| E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+206.219977324	| E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+216.010453514	| E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+225.817551020	fadeout, | E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |
+235.592335600	| E:maj | C#:min7 | A:maj9 | A:maj9 C:maj7 . B:sus4(b7) |, voice)
+245.899319727	silence
+247.299455782	end

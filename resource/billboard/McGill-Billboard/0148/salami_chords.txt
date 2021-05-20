@@ -1,0 +1,35 @@
+# title: Spirits In The Material World
+# artist: The Police
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.255419501	A, intro, | N |, (drums)
+1.323537414	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |, (synth
+7.955056689	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |, synth)
+14.762902494	A, verse, | A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |, (voice
+21.562947845	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+28.384353741	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+35.136666666	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+41.981678004	B, chorus, | D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |
+48.827936507	| D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |
+55.625668934	A, verse, | A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+62.418616780	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+69.250521541	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+76.058435374	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+82.754625850	B, chorus, | D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |
+89.620476190	| D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |, voice)
+96.346666666	C, transition, | D:min7 | F:maj(9) | A:min7 | F:maj D:min |, (synth)
+103.130272108	A, solo, | A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |, (guitar
+109.978730158	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |, guitar)
+116.765578231	A, verse, | A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |, (voice
+123.626439909	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+130.402335600	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+137.170476190	| A:min(9) A:min/b3 | G:maj E:min | A:min(9) A:min/b3 | G:maj E:min |
+143.946712018	B, chorus, | D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |
+150.738752834	| D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |
+157.522902494	| D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |
+164.247188208	fadeout, | D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |, voice)
+170.978367346	| D:maj | D:maj . G:maj C:maj | D:maj | D:maj . G:maj C:maj |
+176.916961451	silence
+178.925034013	end

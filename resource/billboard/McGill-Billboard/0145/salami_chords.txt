@@ -1,0 +1,32 @@
+# title: Runaround Sue
+# artist: Dion
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.255419501	A, intro, | D:maj | D:maj | B:min | B:min |, (voice
+11.088911564	| G:maj | G:maj | A:maj | A:maj |
+23.266394557	B', chorus, | D:maj | D:maj | B:min | B:min |
+29.292290249	| G:maj | G:maj | A:maj | A:maj |
+35.334331065	| D:maj | D:maj | B:min | B:min |
+41.394036281	| G:maj | G:maj | A:maj N . . | N |
+47.378299319	B, chorus, | D:maj | D:maj | B:min | B:min |
+53.422290249	| G:maj | G:maj | A:maj N . . | N |
+59.489682539	| D:maj | D:maj | B:min | B:min |
+65.458276643	| G:maj | G:maj | A:maj N . . | N |
+71.50877551	B', chorus, | D:maj | D:maj | B:min | B:min |
+77.576439909	| G:maj | G:maj | A:maj N . . | N |
+83.615374149	C, bridge, | G:maj | G:maj | D:maj | D:maj |
+89.751133786	| G:maj | G:maj | A:maj N . . | N |
+95.76877551	B, chorus, | D:maj | D:maj | B:min | B:min |
+101.841768707	| G:maj | G:maj | A:maj N . . | N |
+107.872585034	| D:maj | D:maj | B:min | B:min |
+113.908707482	| G:maj | G:maj | A:maj N . . | N |
+119.924081632	C, bridge, | G:maj | G:maj | D:maj | D:maj |
+125.898049886	| G:maj | G:maj | A:maj N . . | N |
+131.959387755	B, chorus, | D:maj | D:maj | B:min | B:min |
+138.034353741	| G:maj | G:maj | A:maj | A:maj |, voice)
+144.092539682	B', chorus, | D:maj | D:maj | B:min | B:min |, (saxophone
+150.035532879	fadeout, | G:maj | G:maj | A:maj | A:maj |, saxophone)
+158.778049886	silence
+163.369795918	end

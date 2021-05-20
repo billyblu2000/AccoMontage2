@@ -1,0 +1,31 @@
+# title: I Put A Spell On You
+# artist: Creedence Clearwater Revival
+# metre: 12/8
+# tonic: E
+
+0.000000000	silence
+0.050793650	Z
+0.253968253	A, intro, | E:min | E:min |, (guitar) 
+8.916190476	A, verse, | E:min | A:min | E:min | E:min |, (voice
+22.333106575	| A:min | A:min | B:7 | B:7 |
+35.568979591	| E:min | E:min | A:min | C:maj |
+48.556961451	| E:min | B:7 | E:min A:min | B:7 |, voice)
+61.592993197	A, solo, | E:min | A:min | E:min | E:min |, (guitar
+74.425442176	| A:min | A:min | B:7 | B:7 |
+87.285532879	| E:min | E:min | A:min | C:maj |
+99.799637188	| E:min | B:7 | E:min A:min | B:7 C:maj |
+112.418956916	| F:maj D:maj | G:maj A:maj |
+118.797936507	A, solo, | E:min | A:min | E:min | E:min |
+131.446916099	| A:min | A:min | B:7 | B:7 |
+143.977324263	| E:min | E:min | A:min | C:maj |
+156.397142857	| E:min | B:7 | E:min A:min | B:7 C:maj |
+168.953492063	| F:maj D:maj | G:maj A:maj |, guitar)
+175.251972789	A, verse, | E:min | A:min | E:min | E:min |, (voice
+187.888480725	| A:min | A:min | B:7 | B:7 |
+200.613310657	| E:min | E:min | A:min | C:maj |
+213.264988662	| E:min | B:7 | E:min A:min | B:7 C:maj |, voice)
+225.877029478	| F:maj D:maj | (6/4) G:maj . A:maj . . . |
+233.912630385	| E:min | E:min | E:min | &pause |, guitar)
+245.826757369	Z
+252.988662131	silence
+254.275918367	end

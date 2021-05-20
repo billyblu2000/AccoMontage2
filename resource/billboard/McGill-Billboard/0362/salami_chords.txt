@@ -1,0 +1,31 @@
+# title: Last Kiss
+# artist: Wednesday
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+2.693514739	A, intro, | E:maj | C#:min | A:maj | B:maj |, (piano)
+10.048866213	B, chorus, | E:maj | C#:min | A:maj | B:maj |, (voice
+17.258684807	| E:maj | C#:min | A:maj | B:maj |, voice)
+24.46478458	| E:maj | N |, (drums)
+28.099070294	C, verse, | E:maj | C#:min | A:maj | B:maj |, (voice
+35.292947845	| E:maj | C#:min | A:maj | B:maj |
+42.559909297	| E:maj | C#:min | A:maj | B:maj |
+49.801927437	| E:maj | C#:min | A:maj | B:maj |, voice)
+57.090113378	| E:maj | N |, (drums)
+60.7230839	B, chorus, | E:maj | C#:min | A:maj | B:maj |, (voice
+67.993764172	| E:maj | C#:min | A:maj | B:maj |, voice)
+75.261269841	| E:maj | N |, (drums)
+78.912857142	C, verse, | E:maj | C#:min | A:maj | B:maj |, (voice
+86.406281179	| E:maj | C#:min | A:maj | B:maj |
+93.854489795	| E:maj | C#:min | A:maj | B:maj |
+101.173741496	| E:maj | C#:min | A:maj | B:maj |
+108.466462585	| E:maj | C#:min | A:maj | B:maj |
+115.8392517	| E:maj | N |, (drums)
+119.450113378	B, chorus, | E:maj | C#:min | A:maj | B:maj |, (voice
+126.727097505	| E:maj | C#:min | A:maj | B:maj |, voice)
+133.987482993	| E:maj | N |, (drums)
+137.665691609	C', outro, | E:maj | C#:min | A:maj | B:maj |, (organ
+144.98861678	fadeout, | E:maj | C#:min | A:maj | B:maj |, organ)
+152.183582766	silence
+156.081632653	end

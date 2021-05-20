@@ -1,0 +1,24 @@
+# title: Breaking Up Is Hard To Do
+# artist: Neil Sedaka
+# tonic: B
+# metre: 4/4
+
+0.000000000	silence
+0.278639455	A, intro, | B:maj G#:min | C#:min F#:maj | B:maj G#:min | C#:min F#:maj |, (voice
+9.258004535	| B:maj G#:min | C#:min F#:maj | B:maj E:maj6 | B:maj |
+17.322086167	A', chorus, | B:maj G#:min | C#:min F#:maj | B:maj G#:min | C#:min F#:maj |
+25.474263038	| B:maj Eb:7/5 | G#:min | C#:7 | F#:7 |
+33.584716553	A'', chorus, | B:maj G#:min | C#:min F#:maj | B:maj G#:min | C#:min F#:maj |
+41.768684807	| B:maj Eb:7/5 | G#:min | C#:7 F#:7 | B:maj |
+49.916553287	B, bridge, | B:min E:maj | B:min E:maj | A:maj | A:maj |
+58.209727891	| A:min D:maj | A:min D:maj | G:maj | F#:maj | F#:maj |
+68.488639455	A'', chorus, | B:maj G#:min | C#:min F#:maj | B:maj G#:min | C#:min F#:maj |
+76.744807256	| B:maj Eb:7/5 | G#:min | C#:7 F#:7 | B:maj |
+84.944580498	B, bridge, | B:min E:maj | B:min E:maj | A:maj | A:maj |
+93.257324263	| A:min D:maj | A:min D:maj | G:maj | F#:maj | F#:maj |
+103.569070294	A'', chorus, | B:maj G#:min | C#:min F#:maj | B:maj G#:min | C#:min F#:maj |
+111.866190476	| B:maj Eb:7/5 | G#:min | C#:7 F#:7 | ->
+118.125170068	A''', outro, | B:maj G#:min | C#:min F#:maj | B:maj G#:min | C#:min F#:maj |
+126.490770975	fadeout, | B:maj G#:min | C#:min F#:maj | B:maj G#:min | C#:min F#:maj |, voice)
+134.190272108	silence
+138.738344671	end

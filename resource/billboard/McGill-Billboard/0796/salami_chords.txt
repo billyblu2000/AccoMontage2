@@ -1,0 +1,38 @@
+# title: You're The First, The Last, My Everything
+# artist: Barry White
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.208979591	A, intro, | C:1 | C:1 | C:1 | C:1 |, (strings)
+7.987664399	B, verse, | F:maj | F:maj7 | D:min | D:min |, (voice
+15.385555555	| F:maj7 | F:7 | Bb:maj | Bb:maj |
+22.785941043	| G:min7 | C:7 | A:min7 | D:min |
+30.189591836	| G:7 | G:7 | Bb:min6 | C:7 |
+37.523446712	C, chorus, | F:maj | F:maj7 | D:min | D:min |
+45.030362811	| F:maj7 | F:7 | Bb:maj | Bb:maj |
+52.37510204	| Bb:maj | Bb:min6 | F:maj7 | D:7 |
+59.723696145	| G:7 | C:7 |, voice)
+63.439478458	| F:maj | F:maj | F:maj | F:maj |, (strings)
+70.84956916	B, verse, | F:maj | F:maj7 | D:min | D:min |, (voice
+78.234240362	| F:maj7 | F:7 | Bb:maj | Bb:maj |
+85.683197278	| G:min7 | C:7 | A:min7 | D:min |
+93.02494331	| G:7 | G:7 | Bb:min6 | C:7 |
+100.443832199	C, chorus, | F:maj | F:maj7 | D:min | D:min |
+107.782675736	| F:maj7 | F:7 | Bb:maj | Bb:maj |
+115.112993197	| Bb:maj | Bb:min6 | F:maj7 | D:7 |
+122.46079365	| G:7 | C:7 |, voice)
+126.143424036	| F:maj | F:maj | F:maj | F:maj |, (strings
+133.504535147	C', interlude, | F:maj | F:maj | F:maj7 | F:maj7 |
+140.914761904	| F:7 | F:7 | Bb:maj | Bb:maj |
+148.219138321	| Bb:maj | Bb:min6 | F:maj | D:7 |
+155.536417233	| G:7 | C:7 |, strings)
+159.152970521	C, chorus, | F:maj | F:maj7 | D:min | D:min |, (voice
+166.444263038	| F:maj7 | F:7 | Bb:maj | Bb:maj |
+173.738321995	| Bb:maj | Bb:min6 | F:maj | D:7 |
+181.09047619	| G:7 | C:7 | ->, voice)
+184.721632653	| F:maj | F:maj | F:maj | F:maj |
+192.047142857	fadeout, | F:maj | F:maj | F:maj | F:maj |
+199.36478458	| F:maj | F:maj | F:maj | F:maj |
+202.176145124	silence
+203.964081632	end

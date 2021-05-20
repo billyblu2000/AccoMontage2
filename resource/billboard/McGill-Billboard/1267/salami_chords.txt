@@ -1,0 +1,25 @@
+# title: Rock and Roll, Hoochie Koo
+# artist: Rick Derringer
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+2.758072562	A, intro, | F:maj G:maj | A:maj | F:maj . C:maj G:maj | A:maj |, (guitar
+12.315306122	| E:7 | E:7 |, guitar)
+17.12526077	B, verse, | A:5 . C:5 D:5 | A:5 | x4, (voice
+36.72494331	A, chorus, | F:maj G:maj | A:maj | F:maj . C:maj G:maj | A:maj | x2, voice)
+56.148911564	| E:7 | E:7 |, (guitar)
+61.055442176	B, verse, | A:5 . C:5 D:5 | A:5 | x4, (voice
+80.830725623	A, chorus, | F:maj G:maj | A:maj | F:maj . C:maj G:maj | A:maj | x2
+100.33478458	| E:7 | E:7 |, voice)
+105.244444444	B, solo, | A:5 . C:5 D:5 | x8, (guitar
+124.407800453	| A:5 | x4
+133.788866213	| A:5 . C:5 D:5 | x4, guitar)
+143.270566893	B, verse, | A:5 . C:5 D:5 | A:5 | x4, (voice
+163.006371882	C, chorus, | F:maj G:maj | A:maj | F:maj . C:maj G:maj | A:maj | x2
+182.505192743	C, chorus, | F:maj G:maj | A:maj | F:maj . C:maj G:maj | A:maj | x2
+201.575351473	C, outro, | F:maj G:maj | A:maj | F:maj . C:maj G:maj | A:maj |
+211.095555555	| F:maj G:maj |, voice)
+214.192653061	Z
+493.228117913	C, | A:5 |
+505.6	end

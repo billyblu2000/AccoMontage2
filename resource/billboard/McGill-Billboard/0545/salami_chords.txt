@@ -1,0 +1,42 @@
+# title: Redneck Friend
+# artist: Jackson Browne
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.232199546	A, intro, | E:maj | E:maj | C#:min | C#:min |, (guitar
+6.755963718	| E:maj | E:maj | C#:min | C#:min |
+13.070045351	| A:maj | A:maj | E:maj | E:maj |
+19.45956916	| A:maj | A:maj | B:maj | B:maj |, guitar)
+25.819115646	B, verse, | E:maj | E:maj | C#:min | C#:min |, (voice
+32.050929705	| E:maj | E:maj | C#:min | C#:min |
+38.362539682	| A:maj | A:maj | E:maj | E:maj |
+44.727505668	| A:maj | A:maj | B:maj | B:maj |
+51.200589569	B, verse, | E:maj | E:maj | C#:min | C#:min |
+57.543650793	| E:maj | E:maj | C#:min | C#:min |
+63.804263038	| A:maj | A:maj | E:maj | E:maj |
+70.191043083	| A:maj | A:maj | B:maj | B:maj |
+76.503968253	C, chorus, | A:maj | A:maj | E:maj | E:maj |
+82.848072562	| B:maj | B:maj | E:maj | E:maj |
+89.197913832	| A:maj | A:maj | E:maj | E:maj |
+95.633310657	| B:maj | B:maj | A:maj | E:maj | E:maj |
+103.413764172	B, verse, | E:maj | E:maj | C#:min | C#:min |
+109.743106575	| E:maj | E:maj | C#:min | C#:min |
+116.193197278	| A:maj | A:maj | E:maj | E:maj |
+122.511360544	| A:maj | A:maj | B:maj | B:maj |
+128.907619047	C, chorus, | A:maj | A:maj | E:maj | E:maj |
+135.229977324	| B:maj | B:maj | E:maj | E:maj |
+141.628140589	| A:maj | A:maj | E:maj | E:maj |
+147.864376417	| B:maj | B:maj | A:maj | E:maj | E:maj |, voice)
+155.757120181	D, solo, | E:maj | E:maj | C#:min | C#:min |, (guitar
+162.172448979	| E:maj | E:maj | C#:min | C#:min |
+168.47340136	| A:maj | A:maj | E:maj | E:maj |
+174.883287981	| A:maj | A:maj | B:maj | B:maj |, guitar)
+181.241950113	C, chorus, | A:maj | A:maj | E:maj | E:maj |, (voice
+187.668321995	| B:maj | B:maj | E:maj | E:maj |
+193.958594104	| A:maj | A:maj | E:maj | E:maj |
+200.361564625	| B:maj | B:maj | A:maj | E:maj | E:maj |
+208.334852607	E, outro, | B:maj | B:maj | A:maj | E:maj | E:maj |, voice)
+216.372131519	| B:maj | B:maj | A:maj | A:maj | E:maj E:maj/b7 | A:maj/3 C:7 | B:7 | E:7 |, (guitar)
+238.919229024	silence
+241.449795918	end

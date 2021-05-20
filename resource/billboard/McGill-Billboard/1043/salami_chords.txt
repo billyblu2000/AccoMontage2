@@ -1,0 +1,32 @@
+# title: Is There Something I Should Know
+# artist: Duran Duran
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+1.137777777	A, intro, | * | * | * | * | x2, (voice)
+16.66063492	B, intro, | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 |, (guitar
+24.408707482	| D:maj D:maj/b7 | D:maj D:maj/b7 | G:maj | C:maj |
+32.16956916	| D:maj D:maj/b7 | D:maj D:maj/b7 |, guitar)
+35.91585034	B, verse, | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 |, (voice
+43.643151927	| G:maj | C:maj | D:maj D:maj/b7 | D:maj D:maj/b7 |
+51.353945578	| D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 |
+59.056961451	| D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 |
+66.768707482	C, pre-chorus, | G:maj | C:maj | D:maj | D:maj |
+74.453378684	| G:maj | C:maj | F:maj | C:maj |
+82.178548752	D, chorus, | D:maj | F:maj C:maj | A:5 | G:sus4 G:maj | x2
+97.554376417	| G:maj | C:maj | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 |
+109.10356009	B, verse, | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 |
+116.870589569	| G:maj | C:maj | D:maj D:maj/b7 | D:maj D:maj/b7 |
+124.485714285	| D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 |
+132.228367346	| D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 | D:maj D:maj/b7 |
+139.881519274	C, pre-chorus, | G:maj | C:maj | D:maj | D:maj |
+147.630907029	| G:maj | C:maj | F:maj | C:maj |
+155.42802721	D, chorus, | D:maj | F:maj C:maj | A:5 | G:sus4 G:maj | x2
+170.702086167	| G:maj | C:maj | D:maj D:maj/b7 | D:maj D:maj/b7 |, voice)
+178.395124716	E, interlude, | B:min | C:maj | D:maj | E:min | x2, (synthesiser
+193.846054421	| B:min | C:maj | D:maj | C:maj | C:maj |, synthesiser)
+203.429750566	D', outro, | D:sus4(b7) | G:maj C:maj | x8, (voice
+234.170362811	| D:sus4(b7) | G:maj C:maj | x4, fadeout, voice)
+248.523174603	silence
+250.409795918	end

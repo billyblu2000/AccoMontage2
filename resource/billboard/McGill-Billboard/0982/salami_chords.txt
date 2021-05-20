@@ -1,0 +1,30 @@
+# title: Unforgettable
+# artist: Natalie Cole
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.754081632	B, intro, | F:maj/5 D:min7 F:maj7/7 . |
+3.718956916	| G:min7/5 C:7/3 Bb:maj6/5 . |
+6.668321995	| C:maj6/3 F:maj6 D:dim C:sus4/5 |
+9.67430839	| G:min7 C:dim G:min D:7 |
+12.714058956	A, verse, | F:maj6 | F:maj6 | E:7/b3 | E:7/b3 |, (voice
+23.761451247	| C:7 | C:7 | G:7 | G:7 |
+34.474376417	| C:min7 | Eb:min7 | Bb:maj D:dim | G:7 |
+45.194217687	| C:13 | C:13 . . B:7 | C:7 | C:7 |
+55.897414965	A, verse, | F:maj6 | F:maj6 | E:7/b3 | E:7/b3 |
+66.360702947	| C:7 | C:7 | G:7 | G:7 |
+76.89292517	| C:min7 | Eb:min7 | Bb:maj Ab:maj13 | G:7 |
+87.426190476	| C:sus4(b7) C:7 | F:sus4(b7) F:7 | Bb:maj G:min | Eb:min7 Ab:7 |, voice)
+# tonic: Db
+98.027346938	C, solo, | Db:maj6 | Db:maj6 | C:7(b9)/b9 | C:7(b9)/b9 |, (piano
+108.512403628	| Gb:maj6 | Gb:maj6 | Eb:7 | Eb:7 |
+119.012675736	| Ab:min9 | Cb:min6 | Gb:maj6/5 . Bb:sus4(b7) Bb:hdim7 | Eb:7 |
+129.846235827	| Ab:9 Ab:maj | Ab:9 . . G:7 | Ab:7 | Ab:7 C:maj6 Bb:maj6 Ab:maj6 |, piano)
+# tonic: Bb
+140.623446712	A, verse, | F:maj7 | F:maj7 | E:7/b3 | E:7/b3 |, (voice
+151.229773242	| C:7 | C:7 | G:7 | G:7 |
+161.66664399	| C:min7 | Eb:min7 | Bb:maj Ab:maj6(7) | G:7 |
+172.320113378	| C:sus4(b7) C:7 | F:sus4(b7) F:7 | Bb:maj Db:maj6 | E:maj6 Db:maj6 | Bb:maj(9) |, voice)
+188.953061224	silence
+193.384489795	end

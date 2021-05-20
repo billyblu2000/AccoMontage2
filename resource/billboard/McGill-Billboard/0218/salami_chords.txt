@@ -1,0 +1,19 @@
+# title: Fernando
+# artist: Abba
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.81632653	I, fade in, | A:maj |
+13.436734693	C, intro, | D:maj | D:maj | A:maj | A:maj | A:maj | A:maj |
+28.065306122	A, verse, | A:maj | A:maj | A:maj | F#:min | F#:min | B:min | B:min | B:min | E:maj | E:maj | (2/4) E:maj | A:maj | A:maj |
+58.089795918	| A:maj | A:maj | A:maj | F#:min | F#:min | B:min | B:min | B:min | E:maj | E:maj | (2/4) E:maj | A:maj | A:maj |
+87.2	B, chorus, | E:maj | E:maj | A:maj | A:maj | E:maj | E:maj | A:maj | A:maj/b7 | F#:maj | B:maj | B:maj |
+111.2	| E:maj | E:maj | A:maj | A:maj | E:maj | E:maj | D:maj | D:maj | A:maj | (2/4) A:maj | E:maj | E:maj | A:maj | A:maj |
+142.367346938	A, verse, | A:maj | A:maj | A:maj | F#:min | F#:min | B:min | B:min | B:min | E:maj | E:maj | (2/4) E:maj | A:maj | A:maj |
+171.326870748	B, chorus, | E:maj | E:maj | A:maj | A:maj | E:maj | E:maj | A:maj | A:maj/b7 | F#:maj | B:maj | B:maj |
+195.250068027	| E:maj | E:maj | A:maj | A:maj |
+203.846530612	| E:maj | E:maj | A:maj | A:maj | E:maj | E:maj | A:maj | A:maj/b7 | F#:maj | B:maj | B:maj |
+227.330612244	E, fadeout, | E:maj | E:maj | A:maj | A:maj |
+251.526530612	silence
+255.558820861	end

@@ -1,0 +1,37 @@
+# title: Kisses On The Wind
+# artist: Neneh Cherry
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.208979591	Z
+8.939682539	A, intro, | N | N | N |
+15.812789115	B, instrumental, | D:maj6 | C:maj6 | D:maj6 | Bb:maj6 |
+24.017573696	| D:maj6 | C:maj6 | D:maj6 | Bb:maj6 |
+32.122539682	B, verse, | D:maj6 | C:maj6 | D:maj6 | Bb:maj6 |, (voice
+40.254195011	| D:maj6 | C:maj6 | D:maj6 | Bb:maj6 |
+48.376780045	C, pre-chorus, | G:min7 | Eb:maj7 | G:min9 | A:min | A:min |
+58.575600907	D, chorus, | D:maj | F:maj/5 C:maj | D:maj | F:maj/5 C:maj |
+66.706984126	| D:maj | F:5 | C:maj | F:maj . C:maj G:maj |, voice)
+74.857346938	A, trans, | N | N |, (synthesizer)
+78.887210884	B, verse, | B:min7/b3 | C:maj6 | B:min7/b3 | Bb:maj7 |, (voice
+87.027936507	| B:min7/b3 | C:maj6 | B:min7/b3 | Bb:maj6 |
+95.173990929	C, pre-chorus, | G:min9 | Eb:maj9 | G:min9 | A:min7 | A:1 |
+105.372154195	D, chorus, | D:maj | C:sus4(9) C:maj | D:maj | C:sus4(9) C:maj |
+113.550385487	| D:maj | F:maj | C:maj | F:maj . C:maj G:maj |, voice)
+121.640045351	A, trans, | N | N |, (synthesizer
+125.689863945	E, bridge, | N | N | N | N |
+133.877346938	| N | N | N | N |, synthesizer)
+142.025691609	| E:min E:min/9 | E:min9/b3 E:min9/11 | D:min D:min/9 | D:min7/b3 D:min7 |, (voice
+150.152312925	| E:min E:min/9 | E:min9/b3 E:min9/11 | D:min7 | D:min7 |
+158.282222222	C, pre-chorus, | G:min7 | Eb:maj7 | G:min9 | A:min | A:min |
+168.441111111	D, chorus, | D:maj | F:maj/5 C:maj | D:maj | F:maj/5 C:maj |
+176.615578231	| D:maj | F:maj | C:maj | F:maj . C:maj G:maj |
+184.736825396	D, chorus, | D:maj | F:maj/5 C:maj | D:maj | F:maj/5 C:maj |
+192.867619047	| D:maj | F:maj | C:maj | F:maj . C:maj G:maj |
+201.033741496	D, chorus, | D:maj | F:maj/5 C:maj | D:maj | F:maj/5 C:maj |
+209.162154195	| D:maj | F:maj | C:maj | F:maj . C:maj G:maj |
+217.314331065	D, fadeout, | D:maj | F:maj/5 C:maj | D:maj | F:maj/5 C:maj |
+225.449365079	| D:maj | F:maj | C:maj | F:maj . C:maj G:maj | D:maj |, voice)
+235.078820861	silence
+237.400816326	end

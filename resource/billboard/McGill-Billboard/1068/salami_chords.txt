@@ -1,0 +1,32 @@
+# title: Never Can Say Goodbye
+# artist: Gloria Gaynor
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.394739229	A, intro, | F:maj7 | F:maj7 | D:min7 | G:sus4(b7) |
+8.026281179	| C:maj | C:maj |
+11.759523809	B, verse, | F:maj7 | F:maj7 | G:sus4(b7) | G:sus4(b7) |, (voice
+19.2492517	| F:maj7 | F:maj7 | G:sus4(b7) | G:7 |
+26.800362811	| C:maj7 | C:maj7 | C:min7 | C:min7 |
+34.351201814	| C:maj7 | C:maj7 | C:min7 | C:min7 |
+41.874716553	| C:maj7 | C:maj7 | C:min7 | C:7 |
+49.432199546	| F:maj7 | F:maj7 | D:min7 | G:sus4(b7) |
+56.920521541	C, chorus, | C:maj | C:maj | C:min7 | C:min7 |
+64.457210884	| D:maj/b7 | Db:maj7/7 | C:maj | C:maj |
+72.01755102	B, verse, | F:maj7 | F:maj7 | G:sus4(b7) | G:sus4(b7) |
+79.670113378	| F:maj7 | F:maj7 | G:sus4(b7) | G:7 |
+87.17877551	| C:maj7 | C:maj7 | C:min7 | C:min7 |
+94.735215419	| C:maj7 | C:maj7 | C:min7 | C:min7 |
+102.300136054	| C:maj7 | C:maj7 | C:min7 | C:7 |
+109.85632653	| F:maj7 | F:maj7 | D:min7 | G:sus4(b7) |
+117.45	C, chorus, | C:maj | C:maj | C:min7 | C:min7 |
+124.954104308	| D:maj/b7 | Db:maj7/7 | C:maj | C:maj |
+132.567052154	C, chorus, | C:maj | C:maj | C:min7 | C:min7 |
+140.142857142	| D:maj/b7 | Db:maj7/7 | C:maj | C:maj |, voice)
+147.726417233	A, interlude, | F:maj7 | F:maj7 | D:min7 | G:sus4(b7) |
+155.315238095	C, chorus, | C:maj | C:maj | C:min7 | C:min7 |, (voice
+162.74	fadeout, | D:maj/b7 | Db:maj7/7 | C:maj | C:maj |
+170.376349206	| C:maj | C:maj | C:min7 | C:min7 |, voice)
+175.984036281	silence
+178.050612244	end

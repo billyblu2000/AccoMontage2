@@ -1,0 +1,29 @@
+# title: Three Hearts In A Tangle
+# artist: Roy Drusky
+# metre: 3/4
+# tonic: Db
+
+0.0	silence
+0.441179138	A', intro, | Db:maj | Db:7 | Gb:maj | Gb:maj |, (voice
+8.292766439	| Db:maj | Ab:7 | Db:maj | Db:maj |
+16.111337868	A, verse, | Db:maj | Ab:7 | Db:maj | Db:maj |
+23.81015873	| Db:maj | Db:maj | Ab:7 | Ab:7 |
+31.538548752	| Db:maj | Db:7 | Gb:maj | Gb:maj |
+39.409160997	| Db:maj | Ab:7 | Db:maj | Db:maj |
+47.213900226	A, chorus, | Db:maj | Ab:7 | Db:maj | Db:maj |
+54.961201814	| Db:maj | Db:maj | Ab:7 | Ab:7 |
+62.759546485	| Db:maj | Db:7 | Gb:maj | Gb:maj |
+70.576575963	| Db:maj | Ab:7 | Db:maj | Db:maj |, voice)
+78.344126984	A', interlude, | Db:maj | Db:7 | Gb:maj | Gb:maj |, (guitar)
+86.210975056	| Db:maj | Ab:7 | Db:maj | Db:maj |, (piano)
+93.987074829	A, verse, | Db:maj | Ab:7 | Db:maj | Db:maj |, (voice
+101.74632653	| Db:maj | Db:maj | Ab:7 | Ab:7 |
+109.539682539	| Db:maj | Db:7 | Gb:maj | Gb:maj |
+117.169002267	| Db:maj | Ab:7 | Db:maj | Db:maj |
+124.694693877	A, chorus, | Db:maj | Ab:7 | Db:maj | Db:maj |
+132.411292517	| Db:maj | Db:maj | Ab:7 | Ab:7 |
+140.095532879	| Db:maj | Db:7 | Gb:maj | Gb:maj |
+147.770544217	| Db:maj | Ab:7 | &pause |
+153.123197278	| Db:maj | Db:maj | &pause |, voice)
+160.728526077	silence
+164.048979591	end

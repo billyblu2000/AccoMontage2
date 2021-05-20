@@ -1,0 +1,35 @@
+# title: Freeze-Frame
+# artist: J. Geils Band
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.441179138	| * | * | * |
+4.272471655	A, intro, | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |, (organ)
+14.673582766	B, instrumental, | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |, (trumpet)
+24.949909297	B, verse, | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |, (voice
+35.231904761	| C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |
+45.570226757	| G:maj | G:maj | F:maj | F:maj |, voice)
+50.715759637	| G:maj Ab:maj/7 | A:maj/b7 Ab:maj/7 | G:maj Ab:maj/7 | Bb:maj/13 B:maj/b13 |, (organ)
+55.8830839	B, verse, | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |, (voice
+66.22664399	| C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |
+76.535351473	| G:maj | G:maj | F:maj | F:maj |, voice)
+81.749863945	| G:maj Ab:maj/7 | A:maj/b7 Ab:maj/7 | G:maj Ab:maj/7 | Bb:maj/13 B:maj/b13 |, (organ)
+86.895056689	C, chorus, | C:maj N | C:maj N | C:maj N | C:maj N | G:maj | N |, (voice
+94.621655328	B, verse, | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |
+104.867823129	| C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |
+115.262040816	| G:maj | G:maj | F:maj | F:maj |, voice)
+120.486190476	| G:maj Ab:maj/7 | A:maj/b7 Ab:maj/7 | G:maj Ab:maj/7 | Bb:maj/13 B:maj/b13 |, (organ)
+125.590362811	C, chorus, | C:maj N | C:maj N | C:maj N | C:maj N | G:maj | N |, (voice)
+133.350113378	D, trans, | C:7 | C:7 | C:7 | C:7 | x2, (trumpet
+143.624671201	B, verse, | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |
+153.953650793	| C:maj | Bb:maj F:maj | C:maj | Bb:maj F:maj | x2
+164.272970521	| G:maj | G:maj | F:maj | F:maj |, trumpet)
+169.4692517	| G:maj Ab:maj/7 | A:maj/b7 Ab:maj/7 | G:maj Ab:maj/7 | Bb:maj/13 B:maj/b13 |, (organ)
+174.526349206	C, chorus, | C:maj N | C:maj N | C:maj N | C:maj N | G:maj | N |, (voice)
+182.331020408	A, outro, | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |, (organ)
+192.67723356	| C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |, (voice
+202.942902494	| C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj |
+213.255759637	| C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj | &pause |, voice)
+235.218140589	silence
+239.830204081	end

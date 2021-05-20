@@ -1,0 +1,30 @@
+# title: Baby Can I Hold You 
+# artist: Tracy Chapman
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.325079365	A, intro, | D:maj . A:maj/11 D:maj | A:sus4(b7) A:7 | x2, (guitar)
+14.450929705	A, verse, | D:maj . A:maj/11 D:maj | A:sus4(b7) A:7 |, (voice
+21.080385487	| E:min | A:sus4(b7) A:7 |
+27.555986394	| D:maj . A:maj/11 D:maj | A:sus4(b7) A:7 |
+34.170136054	| E:min | (2/4) E:min/b3 | A:maj | A:sus4 A:maj |
+45.528435374	A, verse, | D:maj . A:maj/11 D:maj | A:sus4(b7) A:7 |
+52.032244897	| E:min | A:sus4(b7) A:7 |
+58.467845804	| D:maj . A:maj/11 D:maj | A:sus4(b7) A:7 |
+64.985419501	| E:min | (2/4) E:min/b3 | A:maj | A:sus4 A:maj |
+76.233650793	B, chorus, | D:maj | E:min G:maj | D:maj | E:min G:maj |
+89.074739229	| B:min | A:maj |, voice)
+95.458435374	C, trans, | D:maj | E:min . G:maj A:maj |, (synthesizer)
+101.935238095	A, verse, | D:maj . A:maj/11 D:maj | A:sus4(b7) A:7 |, (voice
+108.390521541	| E:min | A:sus4(b7) A:7 |
+114.879365079	| D:maj . A:maj/11 D:maj | A:sus4(b7) A:7 |
+121.443537414	| E:min | (2/4) E:min/b3 | A:maj | A:sus4 A:maj |
+132.589387755	B, chorus, | D:maj | E:min G:maj | D:maj | E:min G:maj |
+145.367324263	| B:min | A:maj |
+151.741043083	B, chorus, | D:maj | E:min G:maj | D:maj | E:min G:maj |
+164.428480725	| B:min | A:maj |, voice)
+170.892086167	B', outro, | D:maj | E:min . G:maj A:maj | D:maj | E:min . G:maj A:maj |
+183.837528344	| D:maj |
+190.635827664	silence
+194.168163265	end

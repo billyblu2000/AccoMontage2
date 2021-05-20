@@ -1,0 +1,24 @@
+# title: As Usual
+# artist: Brenda Lee
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.417959183	A, intro, | Db:maj | Ab:7 | Db:maj | Ab:7 |, (piano)
+12.561995464	B, verse, | Db:maj | Db:maj | Ab:7 | Ab:7 |, (voice
+23.980068027	| Ab:7 | Ab:7 | Db:maj | Db:maj |
+35.323038548	| Db:maj | Db:maj | Db:7 | Gb:maj |
+46.602448979	| Eb:min7 Ab:7 | Eb:min7 Ab:7 | C:dim Db:maj | A:7 |
+# tonic: D
+57.820022675	B, verse, | D:maj | D:maj | A:7 | A:7 |
+69.085442176	| A:7 | A:7 | D:maj | D:maj |
+80.410408163	| D:maj | D:maj | D:7 | G:maj |
+91.788480725	| E:min7 A:7 | E:min7 A:7 | C#:dim D:maj | Bb:7 |
+# tonic: Eb
+102.957278911	B, verse, | Eb:maj | Eb:maj | Bb:7 | Bb:7 |
+114.337097505	| Bb:7 | Bb:7 | Eb:maj | Eb:maj |
+125.691111111	| Eb:maj | Eb:maj | Eb:7 | Ab:maj |
+136.672653061	| Bb:7 | Bb:7 | D:dim Eb:maj | Eb:maj |, voice)
+147.678911564	A, coda, | Eb:maj | Eb:maj |, (piano)
+153.065941043	silence
+157.67510204	end

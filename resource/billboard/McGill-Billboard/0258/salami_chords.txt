@@ -1,0 +1,62 @@
+# title: Don t Treat Me Bad
+# artist: Firehouse
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+4.063492e-2	Z
+4.037369614	A, intro, | Ab:maj Eb:maj/11 | Db:maj(9)/5 Eb:maj/11 |
+8.416893424	| Ab:maj Eb:maj/11 | Db:maj(9)/5 Eb:maj/11 |
+12.673877551	B, verse, | Ab:maj Eb:maj/11 | Db:maj(9)/5 Eb:maj/11 |, (voice
+16.944807256	| F:min7 C:min | Db:maj Eb:maj |
+21.414761904	| Ab:maj Eb:maj/11 | Db:maj(9)/5 Eb:maj/11 |
+25.758843537	| F:min7 C:min | Db:maj Eb:maj |
+30.183310657	| Db:maj Eb:maj | C:min . F:min7 Eb:maj |
+34.527528344	| Db:maj Eb:maj | C:min . F:min7 Eb:maj |
+38.822131519	| Db:maj Eb:maj | C:min . F:min7 Eb:maj |
+43.143356009	| Bb:min | Eb:maj | Eb:maj |
+49.671995464	C, chorus, | Ab:maj Bb:min | Db:maj Eb:maj |
+53.920226757	| Ab:maj Bb:min | Db:maj Eb:maj |
+58.156394557	| Ab:maj Bb:min | Db:maj Eb:maj |
+62.352607709	| Ab:maj Bb:min | Eb:maj |, voice)
+66.643922902	D, trans, | Ab:maj Db:maj | Bb:min Eb:maj |
+70.862970521	| Ab:maj Db:maj | Bb:min Eb:maj |
+75.049591836	B, verse, | Ab:maj Eb:maj/11 | Db:maj(9)/5 Eb:maj/11 |, (voice
+79.237142857	| F:min7 C:min | Db:maj Eb:maj |
+83.621269841	| Ab:maj Eb:maj/11 | Db:maj(9)/5 Eb:maj/11 |
+87.863922902	| F:min7 C:min | Db:maj Eb:maj |
+92.119795918	| Db:maj Eb:maj | C:min . F:min7 Eb:maj |
+96.422675736	| Db:maj Eb:maj | C:min . F:min7 Eb:maj |
+100.742970521	| Db:maj Eb:maj | C:min . F:min7 Eb:maj |
+104.958185941	| Bb:min | Eb:maj | Eb:maj |
+111.348435374	C, chorus, | Ab:maj Bb:min | Db:maj Eb:maj |
+115.596439909	| Ab:maj Bb:min | Db:maj Eb:maj |
+119.81154195	| Ab:maj Bb:min | Db:maj Eb:maj |
+124.128526077	| Ab:maj Bb:min | Eb:maj | Eb:maj | &pause |, voice)
+136.061678004	D, trans, | Ab:maj Db:maj | Bb:min Eb:maj |
+140.169750566	| Ab:maj Db:maj | Bb:min Eb:maj |
+144.409138321	E, solo, | Ab:maj Eb:maj/11 | Db:maj(9)/5 Eb:maj/11 |, (guitar
+148.551065759	| F:min7 C:min | Db:maj Eb:maj |
+152.733764172	| F:min7 C:min | Db:maj Eb:maj |, guitar)
+156.880884353	| Bb:min | Eb:maj | Eb:maj |, (voice
+163.099795918	| Eb:maj | Eb:maj |, voice)
+167.238911564	D', trans, | Ab:maj Bb:min | Db:maj Eb:maj |
+171.527256235	| Ab:maj Bb:min | Db:maj Eb:maj |
+175.694353741	C, chorus, | Ab:maj Bb:min | Db:maj Eb:maj |, (voice
+179.884716553	| Ab:maj Bb:min | Db:maj Eb:maj |
+184.095804988	| Ab:maj Bb:min | Db:maj Eb:maj |
+188.354897959	| Ab:maj Bb:min | Eb:maj |
+192.504126984	C, chorus, | Ab:maj Bb:min | Db:maj Eb:maj |
+196.740068027	| Ab:maj Bb:min | Db:maj Eb:maj |
+200.991882086	| Ab:maj Bb:min | Db:maj Eb:maj |
+205.22755102	| Ab:maj Bb:min | Eb:maj |, voice)
+209.405578231	D, coda, | Ab:maj Db:maj | Bb:min Eb:maj |
+213.601043083	| Ab:maj Db:maj | Bb:min Eb:maj |
+217.747120181	| Ab:maj Db:maj | Bb:min Eb:maj |
+221.88648526	| Ab:maj Db:maj | Bb:min Eb:maj |
+225.993809523	| Ab:maj Db:maj | Bb:min Eb:maj |
+230.079070294	| Ab:maj Db:maj | Bb:min Eb:maj |
+234.465306122	| Ab:maj Db:maj Eb:maj . | Db:maj Eb:maj Ab:maj . |
+265.436734693	Z, fadeout
+321.875011337	silence
+322.690612244	end

@@ -1,0 +1,46 @@
+# title: Beat It
+# artist: Michael Jackson
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+6.9659863e-2	A, intro a, | G:1 | G:1 | E:1 | E:1 |
+6.936757369	| G:1 | G:1 |
+10.419750566	| D:1 | D:1 | N | N |
+17.416122448	| N | N | N | N |
+23.979387755	B', intro b, | Eb:min | Db:maj | Eb:min | Db:maj |, (guitar
+31.209931972	| Eb:min | Db:maj | Eb:min | Db:maj |, guitar)
+38.283310657	C, verse, | Eb:min | Db:maj | Eb:min | Db:maj |, (voice
+44.926462585	| Cb:maj | Db:maj | Eb:min | Db:maj |
+51.858435374	| Eb:min | Db:maj | Eb:min | Db:maj |
+58.770022675	| Cb:maj | Db:maj | Eb:min | Db:maj |
+65.868911564	B, chorus, | Eb:min | Db:maj | Eb:min | Db:maj |
+72.585918367	| Eb:min | Db:maj | Eb:min | Db:maj |
+79.491405895	| Eb:min | Db:maj | Eb:min | Db:maj |
+86.410907029	C, verse, | Eb:min | Db:maj | Eb:min | Db:maj |
+93.403151927	| Cb:maj | Db:maj | Eb:min | Db:maj |
+100.227641723	| Eb:min | Db:maj | Eb:min | Db:maj |
+107.115056689	| Cb:maj | Db:maj | Eb:min | Db:maj |
+114.03031746	B, chorus, | Eb:min | Db:maj | Eb:min | Db:maj |
+120.917981859	| Eb:min | Db:maj | Eb:min | Db:maj |
+127.837278911	| Eb:min | Db:maj | Eb:min | Db:maj |
+134.828412698	| Eb:min | Db:maj | Eb:min | Db:maj |, voice)
+141.647959183	D, instrumental, | Eb:min | Eb:min | Eb:min | Eb:min |
+148.572539682	| Eb:min | Eb:min | Eb:min | Eb:min |
+155.463673469	| Eb:min | Eb:min | Eb:min | Eb:min |
+162.375238095	| Eb:min | Eb:min | Eb:min | Eb:min |
+169.310362811	C, solo, | Eb:min | Db:maj | Eb:min | Db:maj |, (guitar
+176.242312925	| Cb:maj | Db:maj | Eb:min | Db:maj |
+183.141156462	| Eb:min | Db:maj | Eb:min | Db:maj |
+190.032154195	| Cb:maj | Db:maj | Eb:min | Db:maj |, guitar)
+196.943854875	B, chorus, | Eb:min | Db:maj | Eb:min | Db:maj |, (voice
+203.911768707	| Eb:min | Db:maj | Eb:min | Db:maj |
+210.775623582	| Eb:min | Db:maj | Eb:min | Db:maj |
+217.663197278	| Eb:min | Db:maj | Eb:min | Db:maj |
+224.578662131	| Eb:min | Db:maj | Eb:min | Db:maj |
+231.502358276	| Eb:min | Db:maj | Eb:min | Db:maj |
+238.41755102	| Eb:min | Db:maj | Eb:min | Db:maj |
+245.358684807	fadeout, | Eb:min | Db:maj | Eb:min | Db:maj |
+252.260839002	| Eb:min | Db:maj | Eb:min | Db:maj |, voice)
+256.812698412	silence
+257.93430839	end

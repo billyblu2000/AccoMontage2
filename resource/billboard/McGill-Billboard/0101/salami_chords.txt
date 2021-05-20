@@ -1,0 +1,23 @@
+# title: A Lesson in Leavin
+# artist: Dottie West
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.232199546	D, intro, | N | N |
+6.636621315	A', chorus, | N | N | N | N |, (voice
+19.467573696	| B:maj | B:maj | E:maj | F#:maj |, voice)
+32.232857142	| G#:min D#:min E:maj F#:sus4(b7) | B:maj |
+38.66095238	B, verse, | G#:min7 | B:maj(9) | G#:min7 | B:maj(9) |, (voice
+51.518208616	C, prechorus, | G#:min7 | D#:min7 | E:maj B:maj/3 | E:maj F#:sus4 | (2/4) F#:sus4 |
+66.090362811	A, chorus, | B:maj | B:maj | E:maj | F#:maj |
+78.720839002	| B:maj | B:maj | E:maj | F#:maj |, voice)
+91.60095238	E, solo, | G#:min7 | B:maj(9) | G#:min7 | B:maj(9) |, (guitar)
+104.313219954	C, prechorus, | G#:min7 | D#:min7 | E:maj B:maj/3 | E:maj F#:sus4 | (2/4) G#:sus4 |, (voice
+# tonic: Db
+118.778594104	A, chorus, | N | N | Gb:maj | Ab:maj |
+131.574399092	| Db:maj | Db:maj | Gb:maj | Ab:maj | Db:maj Ab:sus4(b7,9) |
+147.472607709	A, chorus, | Db:maj | Db:maj | Gb:maj | Ab:maj |
+160.232426303	fadeout, | Db:maj | Db:maj | Gb:maj | Ab:maj | Db:maj Ab:sus4(b7,9) | Db:maj |, voice)
+177.191473922	silence
+182.987755102	end

@@ -1,0 +1,33 @@
+# title: Maybe I'm Amazed
+# artist: Paul McCartney
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.835918367	A, intro, | N A:maj . . | D:maj/3 F:maj6 | E:min7 A:maj | A:maj | A:maj |, (piano)
+# tonic: C
+15.958684807	B, verse, | Bb:maj F:maj/3 | C:maj G:maj/11 | Bb:maj F:maj/3 | C:maj |, (voice
+28.351564625	| Bb:maj F:maj/3 | C:maj G:maj | Bb:maj F:maj/3 | Ab:maj Eb:maj/3 | C:maj |
+# tonic: D
+43.805464852	C, chorus, | D:maj D:maj9 | D:9 . D:7 D:7/3 | G:maj | D:maj(b9) |
+55.774331065	| D:maj D:maj9 | D:9 . D:7 D:7/3 | G:maj | D:maj/3 F:maj6 | E:min7 A:maj |, voice)
+# tonic: C
+71.053061224	B, solo, | Bb:maj F:maj/3 | C:maj G:maj | Bb:maj F:maj/3 | C:maj |, (guitar
+83.104217687	| Bb:maj F:maj/3 | C:maj G:maj | Bb:maj F:maj/3 | Ab:maj Eb:maj/3 | C:maj |, guitar)
+# tonic: D
+98.290068027	C, chorus, | D:maj D:maj9 | D:9 . D:7 D:7/3 | G:maj | D:maj(b9) |, (voice
+110.312040816	| D:maj D:maj9 | D:9 . D:7 D:7/3 | G:maj | D:maj/3 F:maj6 | E:min7 A:maj |
+# tonic: C
+125.527074829	B, verse, | Bb:maj F:maj/3 | C:maj G:maj | Bb:maj F:maj/3 | C:maj |
+137.508571428	| Bb:maj F:maj/3 | C:maj G:maj | Bb:maj F:maj/3 | Ab:maj Eb:maj/3 | C:maj |, voice)
+# tonic: D
+152.740861678	C, solo, | D:maj D:maj9 | D:7 | G:maj | D:maj(b9) |, (organ
+164.512607709	| D:maj D:maj9 | D:7 | G:maj | D:maj/3 F:maj6 | E:min7 A:maj | A:maj | &pause |, organ)
+# tonic: C
+183.391201814	B, solo, | Bb:maj F:maj/3 | C:maj G:maj | Bb:maj F:maj/3 | C:maj |, (guitar
+195.628117913	| Bb:maj F:maj/3 | C:maj G:maj | Bb:maj F:maj/3 | Ab:maj Eb:maj/3 | C:maj |
+# tonic: D
+210.837188208	C, fadeout, | D:maj D:maj9 | D:7 | G:maj | D:maj(b9) |
+223.005986394	| D:maj D:maj9 | D:7 | G:maj | D:maj/3 F:maj6 | E:min7 A:maj | A:maj |, guitar)
+228.484353741	silence
+233.404081632	end

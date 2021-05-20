@@ -1,0 +1,54 @@
+# title: Wanna Be Startin' Somethin'
+# artist: Michael Jackson
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+6.9659863e-2	A, intro, | D:1 | D:1 | D:1 | D:1 |, (synthesiser
+8.956553287	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+16.742108843	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |, synthesiser)
+24.677460317	A, chorus, | D:1 | D:1 | D:1 | D:1 |, (voice
+32.562494331	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+40.379977324	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+48.196757369	A', verse, | D:1 | D:1 | D:1 | D:1 |
+56.1092517	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+63.997596371	A, chorus, | D:1 | D:1 | D:1 | D:1 |
+71.766122448	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+79.614580498	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+87.504739229	A', verse, | D:1 | D:1 | D:1 | D:1 |
+95.359319727	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+103.189727891	A'', chorus, | D:1 | D:1 | D:1 | D:1 |
+111.075873015	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+118.892312925	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+126.755873015	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+134.600702947	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+142.471224489	B, interlude, | D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+150.317324263	A', verse, | D:1 | D:1 | D:1 | D:1 |
+158.164013605	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+166.056553287	A'', chorus, | D:1 | D:1 | D:1 | D:1 |
+173.842448979	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+181.680884353	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+189.559523809	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+197.464240362	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |, voice)
+205.298299319	C, solo, | D:1 | D:1 | D:1 | D:1 |, (guitar
+213.116417233	| D:1 | D:1 | D:1 | D:1 |, guitar)
+220.975056689	B, interlude, | D:maj | E:maj/b7 | D:maj | E:maj/b7 |, (voice
+228.821791383	A', verse, | D:1 | D:1 | D:1 | D:1 |
+236.706031746	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+244.561519274	A''', chorus, | D:1 | D:1 | D:1 | D:1 |
+252.38648526	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+260.224829931	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+268.141473922	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+275.933356009	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+283.835714285	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+291.648639455	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+299.482426303	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+307.313333333	| N | N | N | N |
+315.189659863	| N | N | N | N |
+322.997573696	| N | N | N | N |
+330.799591836	| N | N | N | N |
+338.609455782	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+346.463628117	fadeout, | D:maj | E:maj/b7 | D:maj | E:maj/b7 |
+354.294013605	| D:maj | E:maj/b7 | D:maj | E:maj/b7 |, voice)
+362.148253968	silence
+362.447301587	end

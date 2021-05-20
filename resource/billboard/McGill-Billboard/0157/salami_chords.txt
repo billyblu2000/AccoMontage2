@@ -1,0 +1,26 @@
+# title: Sleep Walk
+# artist: Santo & Johnny
+# metre: 6/8
+# tonic: Db
+
+0.000000000	silence
+0.275736961	C, intro, | Db:maj | Bb:min | Gb:min | Ab:maj |
+7.885260770	| Db:maj | Bb:min | Gb:maj | Ab:maj |
+15.444897959	A, verse, | Db:maj | Bb:min | Gb:min | Ab:maj |
+23.050408163	| Db:maj | Bb:min | Gb:min | Ab:maj |
+30.708095238	| Db:maj | Bb:min | Gb:min | Ab:maj |
+38.338684807	| Db:maj | Bb:min | Gb:maj | Ab:maj |
+45.861224489	A, verse, | Db:maj | Bb:min | Gb:min | Ab:maj |
+53.421814058	| Db:maj | Bb:min | Gb:min | Ab:maj |
+61.012244897	| Db:maj | Bb:min | Gb:min/3 | Ab:maj |
+68.591746031	| Db:maj | Gb:maj | Db:maj | Db:maj |
+76.115011337	F, bridge, | Gb:maj | Gb:maj | Gb:min | Gb:min |
+83.795941043	| Db:maj | Db:maj | Db:7 | Db:7 |
+91.413219954	| Gb:maj | Gb:maj | Gb:min | Gb:min |
+99.102766439	| Ab:7 | Ab:7 | Ab:7(#9) | Ab:7(#9) |
+106.668820861	A, verse, | Db:maj | Bb:min | Gb:min | Ab:maj |
+114.170249433	| Db:maj | Bb:min | Gb:min | Ab:maj |
+121.701950113	| Db:maj | Bb:min | Gb:min | Ab:maj6(b7) Ab:7 | &pause |
+134.400000000	J, outro, | Db:maj7 | Ab:7(b9) | Db:maj13 | Db:maj13 |
+141.405873015	silence
+143.207619047	end

@@ -1,0 +1,31 @@
+# title: Walk Right In
+# artist: Dr. Hook
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | D:7 | D:7 |, (synthesizer
+4.527891156	| D:7 | D:7 | D:7 | D:7 |, synthesizer)
+12.86600907	B, verse, | D:maj | D:maj B:7 | E:7 A:7 | D:maj |, (voice
+21.260975056	| D:maj | D:maj B:7 | E:7 | A:7 |
+29.583287981	| D:maj | D:maj | G:maj | E:7/3 |
+37.950929705	| D:maj | D:maj B:7 | E:7 A:7 |, voice)
+44.236349206	A, trans, | D:7 | D:7 | D:7 | D:7 |, (synthesizer)
+52.519773242	B, verse, | D:maj | D:maj B:7 | E:7 A:7 | D:maj |, (voice
+60.829818594	| D:maj | D:maj B:7 | E:7 | A:7 |
+69.142267573	| D:maj | D:maj | G:maj | E:7/3 |
+77.488888888	| D:maj | D:maj B:7 | E:7 A:7 | D:maj |, voice)
+85.803356009	B', solo, | D:maj | D:maj B:7 | E:7 A:7 | D:maj |, (harmonica
+94.080657596	| D:maj | D:maj B:7 | E:7 | A:7 |, harmonica)
+102.386462585	| D:maj | D:7 | G:maj | E:7/3 |, (guitar
+110.673378684	| D:maj | D:maj B:7 | E:7 A:7 |, guitar)
+116.950657596	A, trans, | D:7 | D:7 | D:7 | D:7 |, (synthesizer)
+125.221020408	B', verse, | D:maj | D:maj B:7 | E:7 A:7 | D:maj |, (voice
+133.531609977	| D:maj | D:maj B:7 | E:7 | A:7 |
+141.827482993	| D:maj | D:maj | G:maj | E:7/3 |
+150.142494331	| D:maj | D:maj B:7 | E:7 A:7 | D:maj |
+158.448752834	| D:maj | D:maj B:7 | E:7 A:7 | D:maj |
+166.674965986	fadeout, | D:maj | D:maj B:7 | E:7 A:7 | D:maj |
+174.914149659	| D:maj | D:maj B:7 | E:7 A:7 |, voice)
+179.722448979	silence
+183.666938775	end

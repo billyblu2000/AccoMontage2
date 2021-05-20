@@ -1,0 +1,30 @@
+# title: I Want a New Drug
+# artist: Huey Lewis & The News
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.497959183	A, intro, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | x2, (guitar)
+19.106530612	A, verse, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj |, (voice
+27.792108843	| D:7 . C:maj G:maj | D:7 . C:maj G:maj | D:7 . C:maj G:maj | D:7 . C:maj G:maj |
+36.483446712	| A:7 . G:maj D:maj | A:7 . G:maj D:maj |
+40.769002267	B, chorus, | E:min | E:min | C:maj . F:maj . | C:maj . D:maj . | D:maj |, voice)
+51.612607709	A, pre-verse, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj |, (guitar)
+60.374512471	A, verse, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj |, (voice
+69.040612244	| D:7 . C:maj G:maj | D:7 . C:maj G:maj | D:7 . C:maj G:maj | D:7 . C:maj G:maj |
+77.745963718	| A:7 . G:maj D:maj | A:7 . G:maj D:maj |
+82.081179138	B, chorus, | E:min | E:min | C:maj . F:maj . | C:maj . D:maj . | D:maj |
+92.965646258	A, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj |, voice)
+101.644489795	A, solo, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | x2, (horns)
+119.010362811	| A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | x7, (guitar)
+179.86371882	A, verse, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj |, (voice
+188.52185941	| D:7 . C:maj G:maj | D:7 . C:maj G:maj | D:7 . C:maj G:maj | D:7 . C:maj G:maj |
+197.19956916	| A:7 . G:maj D:maj | A:7 . G:maj D:maj |
+201.565578231	B, chorus, | E:min | E:min | C:maj . F:maj . | C:maj . D:maj . | D:maj |
+212.472358276	A, pre-verse, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj |, voice)
+221.114126984	A, solo, | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | x2, (horns)
+238.474716553	| A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | x3, (guitar
+264.571768707	| A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj |, fadeout
+273.250340136	| A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj | A:7 . G:maj D:maj |, guitar)
+282.018344671	silence
+286.062789115	end

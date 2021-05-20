@@ -1,0 +1,21 @@
+# title: People
+# artist: Barbara Streisand
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.506122448	A, intro, | N | B:min7 | E:sus4(b7,9) |, (flute)
+15.387755102	B, verse, | A:maj9 | E:sus4(b7) | A:maj9 | E:sus4(b7) |, (voice
+28.15510204	| A:maj9 | A:maj9 | G#:hdim7 | C#:sus4(b7) C#:7 |
+41.157777777	| F#:minmaj7 | x4
+53.312426303	| F#:min7 B:7 | E:maj7 | C#:min7 C:aug(b7) | E:maj/5 G:dim | F#:min7 | B:9 | N | N . B:min7 E:7 |
+78.457142857	B, verse, | A:maj9 | E:sus4(b7) | A:maj9 | E:sus4(b7) |
+90.731632653	| A:maj9 | A:maj9 | B:min7/b7 | B:min7/b7 |
+102.995918367	| D:maj6 | D:maj6 | C#:min7 | A:maj |
+115.45446712	| D:maj7 | D:maj7 | A:maj6/3 | B:9 | A:maj7/5 F#:min7 | B:min7 E:7 | A:maj9 | A:9 |
+140.495804988	C, coda, | D:maj7 | B:hdim7 | A:maj | B:min7 E:sus4(b7) | A:maj | A:11 |
+160.024489795	| D:maj7 | D:maj7 | C#:min7 | A:13 |
+169.289795918	| D:maj7 | D:maj7 | A:maj6/3 | B:9 | A:maj7/5 F#:min7 | A:maj9 | A:9 |
+190.15510204	| D:maj7 | B:hdim7 | A:maj | B:min7 F:maj/5 | A:maj | A:maj |, voice) 
+219.159183673	silence
+220.577959183	end

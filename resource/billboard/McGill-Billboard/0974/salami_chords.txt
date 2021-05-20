@@ -1,0 +1,37 @@
+# title: Kokomo (From The Cocktail Soundtrack)
+# artist: The Beach Boys
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.394739229	A, intro, | N | N |, (drums)
+4.617460317	| N | N |, (voice
+8.762176870	| N | N |
+12.882244897	| N | N | N |
+19.107188208	B, verse, | C:maj | C:maj7 | G:min7 | F:maj |
+27.425714285	| F:min | C:maj | D:7 | G:7 |
+35.742675736	| C:maj | C:maj7 | G:min7 | F:maj |
+43.993673469	| F:min | C:maj | D:7 | G:7 |
+52.272562358	C, chorus, | C:maj | C:maj | F:maj | F:maj |
+60.570272108	| C:maj | C:maj | F:maj | F:min |
+68.852789115	| C:maj | A:min | D:min | G:maj |
+77.170793650	A, interlude, | C:maj | N |
+81.314467120	B, verse, | C:maj | C:maj7 | G:min7 | F:maj |
+89.636916099	| F:min | C:maj | D:7 | G:7 |
+97.882290249	| C:maj | C:maj7 | G:min7 | F:maj |
+106.185668934	| F:min | C:maj | D:7 | G:7 |
+114.457414965	C, chorus, | C:maj | C:maj | F:maj | F:maj |
+122.732607709	| C:maj | C:maj | F:maj | F:min |
+131.068185941	| C:maj | A:min | D:min | G:maj |
+139.411247165	A, interlude, | C:maj | N |, voice)
+143.537732426	B, solo, | C:maj | C:maj7 | G:min7 | F:maj |, (saxophone
+151.810226757	| F:min | C:maj | D:7 | G:7 |, saxophone)
+160.081700680	B, verse, | C:maj | C:maj7 | G:min7 | F:maj |, (voice
+168.377755102	| F:min | C:maj | D:7 | G:7 |
+176.617641723	C, chorus, | C:maj | C:maj | F:maj | F:maj |
+184.964852607	| C:maj | C:maj | F:maj | F:min |
+193.249455782	| C:maj | A:min | D:min | G:maj |
+201.529637188	C, chorus, outro, fadeout, | C:maj | C:maj | F:maj | F:maj |
+205.764240362	| C:maj | C:maj | F:maj | F:min |, voice)
+214.356190476	silence
+217.614897959	end

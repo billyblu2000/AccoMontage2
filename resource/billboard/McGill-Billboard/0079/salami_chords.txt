@@ -1,0 +1,29 @@
+# title: Cold Sweat - Part 1
+# artist: James Brown
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.232199546	A, intro, | D:min7 | D:min7 | D:min7 | D:min7 |
+8.956757369	B, verse, | D:min7 | D:min7 | D:min7 | D:min7 |, (voice
+17.581768707	| D:min7 | D:min7 | D:min7 | D:min7 |
+26.168163265	| D:min7 | D:min7 | D:min7 | D:min7 |
+34.748956916	| D:min7 | D:min7 | D:min7 | D:min7 |
+43.296689342	C, chorus, | C:7 | F:7 | C:7 | F:7 |
+51.909727891	| C:7 | F:7 | C:7 | F:7 |
+60.467959183	| C:7 | F:7 |
+64.789206349	| N | G:7 | N | G:9 |, voice)
+72.967165532	A, trans, | D:maj6(b7,11) | D:maj6(b7,11) | D:maj6(b7,11) | D:maj6(b7,11) |
+81.602857142	B, verse, | D:min7 | D:min7 | D:min7 | D:min7 |, (voice
+90.265827664	| D:min7 | D:min7 | D:min7 | D:min7 |
+98.815079365	| D:min7 | D:min7 | D:min7 | D:min7 |
+107.411972789	| D:min7 | D:min7 | D:min7 | D:min7 |
+115.947369614	C, chorus, | C:7 | F:7 | C:7 | F:7 |
+124.489591836	| C:7 | F:7 | C:7 | F:7 |
+133.017596371	| C:7 | F:7 |
+137.274104308	| N | G:7 | N | G:9 |, voice)
+145.596802721	A, outro, | D:min7 | D:min7 | D:min7 | D:min7 |
+154.277414965	| D:min7 | D:min7 | D:min7 | D:min7 |, (saxophone
+162.850090702	fadeout, | D:min7 | D:min7 | D:min7 | D:min7 |, saxophone)
+170.318367346	silence
+171.937959183	end

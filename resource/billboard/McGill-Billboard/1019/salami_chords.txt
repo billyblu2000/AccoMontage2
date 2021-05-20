@@ -1,0 +1,31 @@
+# title: The Arms Of Orion
+# artist: Prince & Sheena Easton
+# metre: 6/8
+# tonic: D
+
+0.0	silence
+0.232199546	A, intro, | D:5 | D:5 | D:5 | D:5 | (4/4) N |
+7.988140589	| D:maj B:min7 | A:maj/3 A:maj | G:maj D:maj/3 | E:min7 A:sus4(b7) | A:sus4(b7) |, (horn)
+# metre: 4/4
+15.673469387	B, verse, | D:maj(9) | F#:min11 | G:maj6 | D:maj(9) | G:maj6 | D:maj(9) | E:min7 | A:sus4(b7) A:7 |, (saxophone
+30.864263038	| D:maj(9) | F#:min11 | G:maj6 | D:maj | G:maj(9) | D:maj | E:min7 |
+44.442993197	| C:maj13 | B:min9 | A:11 | A:11 |
+52.059138321	C, chorus, | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 |
+67.553900226	| C:maj13 | B:min7 | A:11 | A:maj |
+75.249523809	B, verse, | D:maj(9) | F#:min11 | G:maj6 | D:maj(9) | G:maj(9) | D:maj(9) | E:min | A:sus4(b7) A:7 |
+90.713990929	| D:maj(9) | F#:min11 | G:maj6 | D:maj | G:maj(9) | D:maj | E:min7 |
+104.257596371	| C:maj13 | B:min9 | A:11 | A:7 |
+112.008684807	C, chorus, | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 |
+127.532947845	| C:maj13 | B:min7 | A:11 | A:maj |
+135.248185941	D, bridge, | G:maj(9) | B:min7 | F#:min11 | G:maj(9) | C:maj13 | B:min11 | A:11 | A:maj |
+150.598185941	B', verse, | D:maj(9) | F#:min11 | G:maj6 | D:maj(9) | G:maj(9) | D:maj | E:min | A:sus4(b7) A:7 |
+166.032312925	| D:maj(9) | F#:min11 | G:maj6 | D:maj(9) | G:maj(9) | D:maj | E:min | A:sus4(b7) A:7 |
+181.446349206	B, verse, | D:maj(9) | F#:min11 | G:maj6 | D:maj(9) | G:maj(9) | D:maj(9) | E:min | A:sus4(b7) A:7 |
+196.770884353	| D:maj | A:maj D:maj/3 | G:maj13 | E:min7 | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 |
+212.157324263	| C:maj13 | B:min7 | A:11 | A:maj |
+219.786984126	B, verse, | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 |
+235.161587301	fadeout, | C:maj13 | B:min7 | A:11 | A:maj |
+242.798503401	B, verse, | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 | D:maj | A:maj D:maj/3 | G:maj13 | E:min7 |
+258.013151927	| C:maj13 | B:min7 | A:11 | A:maj |, saxophone)
+264.707482993	silence
+267.964081632	end

@@ -1,0 +1,49 @@
+# title: Sanctify Yourself
+# artist: Simple Minds
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.298979591	A, intro, | G:min7 | G:min7 | G:min7 | G:min7 |
+7.778684807	| G:min7 | G:min7 | F:maj/9 | C:maj/5 |, (synthesizer
+15.278730158	| G:min7 | G:min7 | F:maj/9 | C:maj/5 |
+22.77877551	| G:min7 | G:min7 | F:maj/9 | C:maj/5 |
+30.243990929	| G:min7 | G:min7 | F:maj/9 | C:maj/5 |, synthesizer)
+37.697596371	B, verse, | G:maj | G:maj/b7 | C:maj/3 | F:maj |, (voice
+45.21632653	| G:maj | G:maj/b7 | C:maj/3 | F:maj |
+52.669387755	| G:maj | G:maj/b7 | C:maj/3 | F:maj |
+60.197732426	C, bridge, | Eb:maj | Eb:maj | F:maj | F:maj |
+67.597959183	| Eb:maj | Eb:maj |
+71.366530612	D, chorus, | G:maj | C:maj | G:maj | C:maj |
+78.878185941	| G:maj | C:maj | G:maj | C:maj |, voice)
+86.308571428	A, interlude, | G:min7 | G:min7 | F:maj/9 | C:maj/5 |, (synthesizer
+93.861224489	| G:min7 | G:min7 | F:maj/9 | C:maj/5 |
+101.322448979	| G:min7 | G:min7 | F:maj/9 | C:maj/5 |
+108.812244897	| G:min7 | G:min7 | F:maj/9 | C:maj/5 |, synthesizer)
+116.27755102	B, verse, | G:maj | G:maj/b7 | C:maj/3 | F:maj |, (voice
+123.771428571	| G:maj | G:maj/b7 | C:maj/3 | F:maj |
+131.253061224	| G:maj | G:maj/b7 | C:maj/3 | F:maj |
+138.73877551	C, bridge, | Eb:maj | Eb:maj | F:maj | F:maj |
+146.224489795	| Eb:maj | Eb:maj |
+149.926530612	D, chorus, | G:maj | C:maj | G:maj | C:maj |
+157.444897959	| G:maj | G:maj | G:maj | G:maj |, voice)
+164.926530612	E, solo, | G:min | G:min | C:maj | C:maj |, (guitar
+172.420408163	| G:maj | G:maj | Bb:maj . . C:maj | C:maj |, guitar)
+179.893877551	A, interlude, | G:min7 | G:min7 | F:maj/9 | C:maj/5 |, (synthesizer
+187.363265306	| G:min7 | G:min7 | F:maj/9 | C:maj/5 |, synthesizer)
+194.840816326	B, verse, | G:maj | G:maj/b7 | C:maj/3 | F:maj |, (voice
+202.33877551	| G:maj | G:maj/b7 | C:maj/3 | F:maj |
+209.824489795	| G:maj | G:maj/b7 | C:maj/3 | F:maj |
+217.310204081	C, bridge, | Eb:maj | Eb:maj | F:maj | F:maj |
+224.780770975	| Eb:maj | Eb:maj |
+228.506122448	D, chorus, | G:maj | C:maj | G:maj | C:maj |
+235.983673469	| G:maj | C:maj | G:maj | C:maj |
+243.493877551	D, chorus, | G:maj | C:maj | G:maj | C:maj |
+250.971428571	| G:maj | C:maj | G:maj | C:maj |
+258.432653061	D, outro, | G:maj | C:maj | G:maj | C:maj |
+265.926530612	| G:maj | C:maj | G:maj | C:maj |
+273.391836734	| G:maj | C:maj | G:maj | C:maj |, fadeout
+280.946938775	| G:maj | C:maj | G:maj | C:maj |
+288.391836734	| G:maj | C:maj | G:maj | C:maj |, voice)
+295.428571428	silence
+299.180408163	end

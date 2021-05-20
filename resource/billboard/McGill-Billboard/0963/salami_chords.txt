@@ -1,0 +1,32 @@
+# title: The Stroke
+# artist: Billy Squier
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.255419501	A, intro, | N | N | N | N |, (drums
+9.305827664	| N | N | N | N |
+18.04095238	| N | N | N | N |
+26.585351473	| N | N | N | N | N |, drums)
+37.224535147	B', verse, | G:5 | G:5 | D:5 | D:5 | G:5 | G:5 | A:5 G:1 | F#:1 E:1 |, (voice)
+45.928639455	C, trans, | D:min C:maj/9 | D:min C:maj/9 | D:min C:maj/9 | G:5/11 G:5 | D:min C:maj/9 | D:min C:maj/9 | D:min C:maj/9 | G:5 F:5 |, (guitar)
+54.601428571	B, verse, | D:min | D:min | D:min | G:5/11 G:5 | D:min | D:min | D:min | D:min |, (voice
+63.328095238	| G:5 | G:5 | D:5 | D:5 | G:5 | G:5 | A:5 G:1 | F#:1 E:1 |
+72.176303854	D, chorus, | C:maj D:min | D:min | D:min | G:5 F:5 | C:maj D:min | D:min | D:min | G:5 F:5 |
+81.138117913	| C:maj D:min | D:min | D:min | G:5 F:5 | C:maj D:min | D:min | D:min | D:min |, voice)
+89.992721088	C, trans, | D:min C:maj/9 | D:min C:maj/9 | D:min C:maj/9 | G:5/11 G:5 | D:min C:maj/9 | D:min C:maj/9 | D:min C:maj/9 | G:5 F:5 |, (guitar)
+98.713333333	B, verse, | D:min | D:min | D:min | G:5/11 G:5 | D:min | D:min | D:min | D:min |, (voice
+107.571337868	| G:5 | G:5 | D:5 | D:5 | G:5 | G:5 | A:5 G:1 | F#:1 E:1 |
+116.477800453	D, chorus, | C:maj D:min | D:min | D:min | G:5 F:5 | C:maj D:min | D:min | D:min | G:5 F:5 |
+125.415396825	| C:maj D:min | D:min | D:min | G:5 F:5 | C:maj D:min | D:min | D:min | D:min |, voice)
+134.254104308	A, interlude, | N | N | N | N | x2, (drums)
+143.067097505	C, trans, | D:min C:maj/9 | D:min C:maj/9 | D:min C:maj/9 | G:5/11 G:5 | D:min C:maj/9 | D:min C:maj/9 | D:min C:maj/9 | G:5 F:5 |, (guitar)
+151.867596371	B, verse, | D:min | D:min | D:min | G:5/11 G:5 | D:min | D:min | D:min | D:min |, (voice
+160.764920634	| G:5 | G:5 | D:5 | D:5 | G:5 | G:5 | A:5 G:1 | F#:1 E:1 |
+169.629863945	D, chorus, | D:min | D:min | D:min | D:min | D:min | D:min | D:min | D:min |
+178.188390022	| D:min | D:min | D:min | D:min | D:min | D:min | D:min | D:min |
+186.778548752	D, chorus, | C:maj D:min | D:min | D:min | G:5/11 G:5 | C:maj D:min | D:min | D:min | G:5 F:5 |
+195.582902494	| C:maj D:min | D:min | D:min | G:5/11 G:5 | C:maj D:min | D:min | D:min | G:5 F:5 |, voice)
+205.032199546	Z
+206.262857142	silence
+208.222040816	end

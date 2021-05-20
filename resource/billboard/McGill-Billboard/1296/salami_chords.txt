@@ -1,0 +1,47 @@
+# title: White Wedding
+# artist: Billy Idol
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.371519274	A, intro, | B:min | B:min | B:min | B:min |
+8.518684807	| B:min | B:min | E:maj | D:maj |, (guitar
+14.987324263	| B:min | B:min | D:maj | E:maj |
+21.545736961	| B:min7 | B:min7 | B:min | B:min |, guitar)
+28.055578231	B', verse, | B:5 | B:5 | A:5 | E:5 |, (voice
+34.601020408	| B:5 | B:5 | A:5 | E:5 |
+41.092585034	| B:5 | B:5 | A:5 | A:5 |
+47.556462585	| B:5 | B:5 | A:maj | E:maj |
+54.108571428	| B:min | B:min | E:maj | D:maj |
+60.559342403	| B:min | B:min | E:maj | D:maj |
+67.168752834	| B:min | B:min |
+70.4023356	B, verse, | B:min | B:min | A:maj | E:maj |
+76.891768707	| B:min | B:min | A:maj | E:maj |
+83.425600907	| B:min | B:min | A:maj | A:maj |
+89.931360544	| B:min | B:min | A:maj | E:maj |
+96.420861678	| B:min | B:min | E:maj | D:maj |
+102.970839002	| B:min | B:min | E:maj | D:maj |
+109.484557823	| B:min | B:min | B:min | B:min |, voice)
+115.981882086	A', interlude, | B:min | B:min | E:maj | D:maj |, (guitar
+122.471179138	| B:min | B:min | D:maj | E:maj |
+128.962857142	| B:min | B:min | B:min/11 | B:min/11 |
+135.535283446	| B:min | B:min | D:maj | E:maj |
+142.048684807	| B:min9 | B:min9 | A:maj | E:maj |
+148.546530612	| B:min | B:min |, guitar)
+151.809501133	B, verse, | B:min | B:min | A:maj | E:maj |, (voice
+158.337120181	| B:min | B:min | A:maj | E:maj |
+164.88739229	| B:min | B:min | A:maj | A:maj |
+171.338435374	| B:min | B:min | A:maj | E:maj |
+177.852040816	| B:min | B:min | E:maj | D:maj |
+184.349591836	| B:min | B:min | E:maj | D:maj |
+190.907278911	| B:min | B:min | B:min | B:min |
+197.413741496	C, verse, | B:min | B:min | B:min | B:min |
+203.894807256	| B:min | B:min | B:min | B:min |
+210.424331065	| B:min | B:min | B:min | B:min |
+216.950521541	| B:min | B:min | E:maj | D:maj |
+223.492698412	| B:min | B:min | D:maj | E:maj |
+230.00079365	| B:min | B:min | E:maj | D:maj |
+236.520566893	fadeout, | B:min | B:min | E:maj | D:maj |
+243.029591836	| B:min | B:min | E:maj | D:maj |, voice)
+249.361496598	silence
+253.382040816	end

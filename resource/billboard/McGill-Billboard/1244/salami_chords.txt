@@ -1,0 +1,35 @@
+# title: Help!
+# artist: The Beatles
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+1.068117913	A, intro, | B:min | B:min B:min/b7 | G:maj | G:maj G:maj/7 |, (voice
+6.19	| E:maj | E:maj | A:maj A:7 | A:maj6 A:maj |
+11.219523809	B, verse, | A:maj | A:maj | C#:min | C#:min |
+16.247301587	| F#:min | F#:min | D:maj G:maj | A:maj |
+21.341292517	| A:maj | A:maj | C#:min | C#:min |
+26.370816326	| F#:maj | F#:maj | D:maj G:maj | A:maj |
+31.305691609	C, chorus, | B:min | B:min | B:min | B:min B:min/b7 |
+36.317414965	| G:maj | G:maj | G:maj | G:maj G:maj/7 |
+41.371927437	| E:maj | E:maj | E:maj | E:maj |
+46.410997732	| A:7 | A:7 | A:maj | A:maj |
+51.484875283	B, verse, | A:maj | A:maj | C#:min | C#:min |
+56.565827664	| F#:min | F#:min | D:maj G:maj | A:maj |
+61.691791383	| A:maj | A:maj | C#:min | C#:min |
+66.727188208	| F#:min | F#:min | D:maj G:maj | A:maj |
+71.650181405	C, chorus, | B:min | B:min | B:min | B:min B:min/b7 |
+76.661519274	| G:maj | G:maj | G:maj | G:maj G:maj/7 |
+81.758435374	| E:maj | E:maj | E:maj | E:maj |
+86.885306122	| A:7 | A:7 | A:maj | A:maj |
+91.922267573	B, verse, | A:maj | A:maj | C#:min | C#:min |
+97.01185941	| F#:min | F#:min | D:maj G:maj | A:maj |
+102.077528344	| A:maj | A:maj | C#:min | C#:min |
+107.236054421	| F#:min | F#:min | D:maj G:maj | A:maj |
+112.290408163	C', chorus, | B:min | B:min | B:min | B:min B:min/b7 |
+117.319909297	| G:maj | G:maj | G:maj | G:maj G:maj/7 |
+122.361768707	| E:maj | E:maj | E:maj | E:maj |
+127.433809523	| A:7 | A:7 | F#:min | F#:min |
+132.538253968	| A:maj6 | A:maj6 |, voice)
+136.948253968	silence
+139.618412698	end

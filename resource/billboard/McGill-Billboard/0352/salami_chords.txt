@@ -1,0 +1,42 @@
+# title: Good Vibrations
+# artist: Marky Mark & The Funky Bunch
+# metre: 4/4
+# tonic: Ab
+
+0.000000000	silence
+0.208979591	A, intro, | N | N | Ab:1 | Bb:1 | Gb:1 | Ab:1 | Ab:1 | Bb:1 | Gb:1 | Ab:1 |, (synthesizer
+10.103015873	| Ab:1 | Bb:1 | Gb:1 | Ab:1 | Ab:1 | Bb:1 | Gb:1 | Ab:1 |
+17.984263038	B, instrumental, | Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+25.902879818	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |, synthesizer)
+33.761814058	B, chorus, | Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |, (voice
+41.638752834	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+49.550884353	A, verse, | Ab:1 | Bb:1 | Gb:1 | Ab:1 | Ab:1 | Bb:1 | Gb:1 | Ab:1 |
+57.443764172	| Ab:1 | Bb:1 | Gb:1 | Ab:1 | Ab:1 | Bb:1 | Gb:1 | Ab:1 |
+65.351383219	B, pre-chorus, | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj |
+73.232675736	B, chorus, | Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+81.141405895	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+89.010884353	A, verse, | Ab:1 | Bb:1 | Gb:1 | Ab:1 | Ab:1 | Bb:1 | Gb:1 | Ab:1 |
+96.940770975	| Ab:1 | Bb:1 | Gb:1 | Ab:1 | Ab:1 | Bb:1 | Gb:1 | Ab:1 |
+104.814875283	B, pre-chorus, | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj |
+112.726145124	B, chorus, | Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+120.593741496	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |, voice)
+128.476009070	C, bridge, | N | N | N | N | N | N | N | N |, (drums
+136.379251700	| N | N | N | N | N | N | N | N |, drums)
+144.255895691	A, verse, | Ab:1 | Bb:1 | Gb:1 | Ab:1 | Ab:1 | Bb:1 | Gb:1 | Ab:1 |, (voice
+152.203265306	| Ab:1 | Bb:1 | Gb:1 | Ab:1 | Ab:1 | Bb:1 | Gb:1 | Ab:1 |
+160.035555555	B, pre-chorus, | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj |
+167.949931972	B, chorus, | Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+175.844716553	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+183.733514739	A, verse, | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj |
+191.634285714	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |, voice)
+199.533900226	B, solo, | Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |, (piano
+207.440997732	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |, piano)
+215.311859410	B, chorus, | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj |, (voice
+223.213424036	| Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj | Ab:maj | Bb:min/b7 | Gb:maj | Ab:maj |
+231.080997732	B, chorus, | Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+239.019297052	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |, voice)
+246.886825396	B', solo, | Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |, (piano
+254.746122448	| Ab:maj | Bb:min7 | Gb:maj | Ab:maj | Ab:maj | Bb:min7 | Gb:maj | Ab:maj |
+262.662562358	| * | * | * | * |, piano)
+268.840634920	silence
+269.557551020	end

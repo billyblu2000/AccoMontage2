@@ -1,0 +1,23 @@
+# title: If I Were Your Woman
+# artist: Gladys Night & The Pips
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.464399092	A, intro, | F#:maj | F#:maj | B:min/5 | B:min/5 | F#:maj | F#:maj | B:min/5 | B:min/5 |
+13.509274376	B, verse, | D#:min | D#:min | C:dim | C:dim | F#:maj/5 | F#:maj/5 | D#:7 | D#:7 |
+26.438798185	| G#:min | G#:min | D#:min | D#:min | G#:min | G#:min | D#:min | D#:min |
+39.384739229	| B:maj | B:maj | D#:min | D#:min |, voice)
+45.784104308	A, trans, | F#:maj | F#:maj | B:min/5 | B:min/5 |
+52.219523809	C, bridge, | D#:min | D#:min | C:dim | C:dim | F#:maj/5 | F#:maj/5 | D#:7 | D#:7 |, (voice
+65.160340136	| G#:min | G#:min | D#:min | D#:min | G#:min | G#:min | D:maj | D:maj |
+78.008321995	D, chorus, | F#:maj | F#:maj | B:min/5 | B:min/5 | F#:maj/5 | F#:maj/5 | D#:7 | D#:7 | B:min | B:min |, voice)
+94.04095238	A, trans, | F#:maj | F#:maj | B:min/5 | B:min/5 | F#:maj | F#:maj | B:min/5 | B:min/5 |
+107.129841269	C, bridge, | D#:min | D#:min | C:dim | C:dim | F#:maj/5 | F#:maj/5 | D#:sus4(b7) | D#:7 |, (voice
+119.981020408	| G#:min | G#:min | D#:min | D#:min | G#:min | G#:min | D#:min | D#:min |
+132.690498866	D, chorus, | F#:maj | F#:maj | B:min/5 | B:min/5 | F#:maj/5 | F#:maj/5 | D#:7 | D#:7 | B:min | B:min |
+148.665895691	| F#:maj | F#:maj | B:min/5 | B:min/5 | F#:maj/5 | F#:maj/5 | D#:7 | D#:7 | B:min | B:min |
+164.482199546	A, outro, | F#:maj | F#:maj | B:min/5 | B:min/5 | F#:maj | F#:maj | B:min/5 | B:min/5 |
+176.958140589	fadeout, | F#:maj | F#:maj | B:min/5 | B:min/5 | F#:maj | F#:maj | B:min/5 | B:min/5 |, voice)
+190.148208616	silence
+194.220408163	end

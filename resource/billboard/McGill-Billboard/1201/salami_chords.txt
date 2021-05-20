@@ -1,0 +1,30 @@
+# title: Three Times A Lady
+# artist: The Commodores
+# metre: 3/4
+# tonic: Ab
+
+0.0	silence
+0.510839002	A, intro, | Ab:sus2 | Ab:sus2 |, (piano)
+5.603015873	B, verse, | Ab:maj | Ab:7/b7 | F:min | Bb:hdim7/b5 |, (voice
+15.289342403	| Ab:maj | Ab:7/b7 | F:min | Bb:hdim7/b5 |
+25.078185941	| Ab:maj | Ab:7/b7 | F:min | Bb:hdim7/b5 |
+34.716258503	| Ab:maj | Ab:7/b7 | F:min | Bb:hdim7/b5 | Bb:hdim7/b5 |
+47.229387755	C, chorus, | Ab:maj | Eb:maj/3 | Gb:maj | Db:maj/3 |
+56.859659863	| Bb:min7 | Ab:maj | Eb:maj | Eb:maj/b7 |
+66.470861678	| Ab:maj | Eb:maj/3 | Gb:maj | Db:maj/3 |
+76.177346938	| Bb:min7 | Ab:maj | Eb:maj | Eb:maj/b7 | C:min7 | Eb:sus4(b7,9)/5 |
+90.514648526	| Ab:maj | Eb:maj/11 | Db:maj | Eb:sus4(b7) |
+100.194036281	D, verse, | Ab:maj | Eb:maj/11 | Db:maj/5 | Eb:sus4(b7) |
+109.76185941	| Ab:maj | Eb:maj/11 | Db:maj/5 | Eb:sus4(b7) |
+119.287097505	| Ab:maj | Eb:maj/11 | Db:maj/5 | Eb:sus4(b7) |
+128.829387755	| Ab:maj | Eb:maj/11 | Db:maj/5 | Eb:sus4(b7) |
+138.332947845	D', instrumental, | Ab:maj | Eb:maj/11 | Db:maj/5 | Eb:sus4(b7) |, voice), (guitar)
+147.932857142	| Ab:maj | Eb:maj/11 | Db:maj/5 | Eb:sus4(b7) |
+157.367528344	| Ab:maj | Eb:maj/11 | Db:maj/5 | Eb:sus4(b7) |, (voice
+166.774739229	| Ab:maj | Eb:maj/11 | Db:maj/5 | Db:maj/5 | Db:maj/5 |
+178.829501133	C', chorus, | Ab:maj | Eb:maj/3 | Gb:maj | Db:maj/3 |
+188.328117913	| Bb:min7 | Ab:maj | Eb:maj | Eb:maj/b7 |
+197.742063492	| C:min7 | Eb:sus4(b7,9)/5 |
+203.540226757	| Ab:maj |, voice)
+216.219795918	silence
+219.7161678	end

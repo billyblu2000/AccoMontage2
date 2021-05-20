@@ -1,0 +1,38 @@
+# title: Baby Come Back
+# artist: Player
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.278639455	A, intro, | Bb:1 | G:1 |, (bass
+6.509750566	| Ab:maj/9 | G:min7 |, bass)
+12.52600907	| Ab:maj/9 | G:min7 |, (guitar
+18.501337868	| Ab:maj/9 | G:min7 C:min | &pause |, guitar)
+26.26031746	A, verse, | Ab:maj/9 | G:min7 | x3, (voice
+44.656757369	| Ab:maj/9 | C:sus4(b7) C:7 |
+50.726984126	B, chorus, | Ab:maj7 | G:min7 C:min |
+56.887029478	| F:min7 G:min7 | C:min |
+63.105283446	| Ab:maj7 | G:min7 C:min |
+69.056145124	| F:min7 G:min7 | C:min Db:maj7 |, voice)
+75.27909297	A, interlude, | Ab:maj/9 | G:min7 |, (guitar)
+81.53941043	A, verse, | Ab:maj/9 | G:min7 | x3, (voice
+99.991133786	| Ab:maj/9 | C:sus4(b7) C:7 |
+106.074172335	B, chorus, | Ab:maj7 | G:min7 C:min |
+112.14664399	| F:min7 G:min7 | C:min |
+118.351065759	| Ab:maj7 | G:min7 C:min |
+124.402879818	| F:min7 G:min7 | C:min Db:maj7 |
+130.675192743	| Bb:sus4(b7) Bb:7 |
+133.672789115	C, bridge, | Gb:maj7 | Db:maj7 | x2
+145.824489795	| Gb:maj7 | F:min7 Bb:min |
+151.810385487	| Bb:sus4(b7) | Bb:sus4(b7) . | &pause |
+159.402562358	B, chorus, | Ab:maj7 | G:min7 C:min |
+165.679863945	| F:min7 G:min7 | C:min |
+171.706099773	| Ab:maj7 | G:min7 C:min |
+177.935351473	| F:min7 G:min7 | C:min |
+184.490997732	B, outro, | F:min7 G:min7 | C:min |
+190.557188208	| Ab:maj7 | G:min7 C:min |
+196.698752834	| F:min7 G:min7 | C:min |
+202.937528344	| Ab:maj7 | G:min7 C:min |, fadeout
+209.051405895	| F:min7 G:min7 | C:min |, voice)
+213.476893424	silence
+217.521632653	end

@@ -1,0 +1,31 @@
+# title: Will You Love Me Tomorrow
+# artist: The Shirelles
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.232199546	A, intro, | C:maj | C:maj | C:maj | C:maj |
+7.297369614	B, verse, | C:maj | C:maj | F:maj | G:maj |, (voice
+14.217324263	| C:maj | C:maj | G:7/5 | G:7/5 |
+21.210566893	C, chorus, | E:maj | E:maj | A:min | A:min |
+28.222607709	| F:maj | G:maj | C:maj | C:maj |
+35.164739229	B, verse, | C:maj | C:maj | F:maj | G:maj |
+42.144217687	| C:maj | C:maj | G:7/5 | G:7/5 |
+49.125510204	C, chorus, | E:maj | E:maj | A:min | A:min |
+56.029523809	| F:maj | G:maj | C:maj | C:maj |
+63.083854875	D, bridge, | F:maj | F:maj | E:min | E:min |
+70.102562358	| F:maj | F:maj | C:maj | C:maj |
+77.124263038	| F:maj | F:maj | E:min | E:min |
+84.206575963	| A:min | D:7 | F:maj | G:maj |
+91.25095238	B, verse, | C:maj | C:maj | F:maj | G:maj |
+98.227845804	| C:maj | C:maj | G:7/5 | G:7/5 |
+105.21861678	C, chorus, | E:maj | E:maj | A:min | A:min |
+112.238956916	| F:maj | G:maj | C:maj | C:maj |, voice)
+119.292244897	B, instrumental, | C:maj | C:maj | F:maj | G:maj |, (strings
+126.201655328	| C:maj | C:maj | G:7/5 | G:7/5 |, strings)
+133.261814058	C', chorus, | E:maj | E:maj | A:min | A:min |, (voice
+140.300521541	| F:maj | G:maj | C:maj | C:maj |
+147.407301587	| F:maj | G:maj | C:maj | C:maj |
+154.382471655	fadeout, | F:maj | G:maj | C:maj | C:maj |, voice)
+160.937505668	silence
+163.57877551	end

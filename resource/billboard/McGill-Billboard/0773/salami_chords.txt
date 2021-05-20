@@ -1,0 +1,22 @@
+# title: I Want To Walk You Home
+# artist: Fats Domino
+# metre: 12/8
+# tonic: Db
+
+0.0	silence
+0.417959183	A, intro, | Ab:7 |, (piano)
+2.701564625	A, chorus, | Db:maj | Db:maj | Db:maj | Db:maj |, (voice 
+13.809886621	| Gb:maj | Gb:maj | Db:maj | Db:maj |
+24.708684807	| Ab:7 | Gb:maj | Db:maj | Db:maj |
+35.385147392	A, verse, | Db:maj | Db:maj | Db:maj | Db:maj |
+46.229160997	| Gb:maj | Gb:maj | Db:maj | Db:maj |
+56.919773242	| Ab:7 | Gb:maj | Db:maj | Db:maj |
+67.559977324	A, verse, | Db:maj | Db:maj | Db:maj | Db:maj |
+78.211995464	| Gb:maj | Gb:maj | Db:maj | Db:maj |
+88.840975056	| Ab:7 | Gb:maj | Db:maj | Db:maj |
+99.468571428	A, chorus, | Db:maj | Db:maj | Db:maj | Db:maj |
+110.129229024	| Gb:maj | Gb:maj | Db:maj | Db:maj |
+120.848072562	| Ab:7 | Gb:maj | Db:maj | Db:maj |
+131.433151927	A, outro, | Db:maj | Db:maj | Db:maj | Db:maj |, fadeout, voice) 
+138.623129251	silence
+141.609795918	end

@@ -1,0 +1,30 @@
+# title: Years From Now
+# artist: Dr. Hook
+# metre: 3/4
+# tonic: G
+
+0.0	silence
+0.232199546	A, intro, | G:maj | D:maj | C:maj | D:maj | x2, (piano)
+9.848253968	B, verse, | G:maj | D:maj | C:maj | D:maj | x2, (voice
+19.540861678	| G:maj | B:7 | C:maj | A:maj | D:maj | D:maj | D:maj | D:maj |
+29.138866213	B, verse, | G:maj | D:maj | C:maj | D:maj | x2
+38.926303854	| G:maj | B:7 | C:maj | A:maj | D:maj | D:maj | D:maj | D:maj |
+48.733492063	C, pre-chorus, | C:maj | C:maj | D:maj | D:maj | G:maj | B:7 | E:min | A:7 |
+58.644353741	| D:maj | D:maj |
+61.078072562	| C:maj | C:maj | D:maj | D:maj | G:maj | B:7 | E:min | A:7 |
+70.936961451	| D:maj | D:sus4 | D:maj | D:maj |
+75.91909297	D, chorus, | G:maj | D:maj | C:maj | D:maj | x2
+85.768956916	| G:maj | B:7 | C:maj | D:maj | G:maj | D:maj | C:maj | D:maj |, voice)
+95.669727891	B', solo, | G:maj | D:maj | C:maj | D:maj | G:maj | B:7 | C:maj | A:maj |, (guitar
+105.534693877	| D:maj | D:maj | D:maj | D:maj |, guitar)
+110.473356009	C, pre-chorus, | C:maj | C:maj | D:maj | D:maj | G:maj | B:7 | E:min | A:7 |, (voice
+120.395464852	| D:maj | D:maj | D:maj | D:maj |
+125.29478458	| C:maj | C:maj | D:maj | D:maj | G:maj | B:7 | E:min | A:7 |
+135.262040816	| D:maj | D:sus4 | D:maj | D:maj |
+140.247301587	D, chorus, | G:maj | D:maj | C:maj | D:maj | x2
+150.208480725	| G:maj | B:7 | C:maj | D:maj | G:maj | D:maj | C:maj | D:maj |, voice)
+160.184761904	D', outro, | G:maj | D:maj | C:maj | D:maj | G:maj | B:7 | C:maj | D:maj |, (guitar
+170.151927437	fadeout, | G:maj | D:maj | C:maj | D:maj | x2
+180.159637188	| G:maj | B:7 | C:maj | D:maj | G:maj | D:maj | C:maj | D:maj |, guitar)
+191.541405895	silence
+195.683265306	end

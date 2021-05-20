@@ -1,0 +1,17 @@
+# title: There's No Other (Like My Baby)
+# artist: The Crystals
+# metre: 12/8
+# tonic: D
+
+0.0	silence
+1.695056689	A, intro, | D:maj | G:maj A:maj | D:maj | G:maj A:maj |
+17.345306122	B, chorus, | D:maj B:min | G:maj A:maj | D:maj G:maj | D:maj A:maj |, (voice
+32.740136054	B, chorus, | D:maj B:min | G:maj A:maj | D:maj G:maj | D:maj A:maj |
+48.134965986	C, verse, | D:maj B:min | G:maj A:maj | D:maj B:min | G:maj A:maj |
+63.506575963	B, chorus, | D:maj B:min | G:maj A:maj | D:maj G:maj | D:maj A:maj |
+78.878185941	C, verse, | D:maj B:min | G:maj A:maj | D:maj B:min | G:maj A:maj |
+94.273015873	B, chorus, | D:maj B:min | G:maj A:maj | D:maj G:maj | D:maj A:maj |
+109.667845804	D, bridge, | D:maj | B:min | G:maj | A:maj |
+125.039455782	B', chorus, | D:maj B:min | G:maj A:maj | D:maj G:maj | D:maj |, voice)
+140.805804988	silence
+143.177142857	end

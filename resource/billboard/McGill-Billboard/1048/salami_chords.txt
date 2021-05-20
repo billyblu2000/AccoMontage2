@@ -1,0 +1,32 @@
+# title: Hooked On A Feeling
+# artist: B.J. Thomas
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+4.6439909e-2	A, intro, | A:5 | E:1(3)/3 | A:7/b7 | D:maj/3 |, (sitar
+7.713764172	| D:min/b3 | A:maj/5 | E:sus4 | E:5 |, sitar)
+15.326870748	B, verse, | A:maj | E:maj | A:7 | D:maj |, (voice
+22.982131519	| D:min | A:maj | E:sus4 | E:5 |
+30.568253968	C, pre-chorus, | A:maj | C#:7 | F#:min | A:7 |
+38.127165532	D, chorus, | D:maj | E:7 | A:maj | A:maj7/7 |
+45.801224489	| F#:min | E:maj | A:maj A:maj7/7 | (2/4) F#:min7 | E:maj |, voice)
+54.357913832	B, verse, | A:maj | E:maj | A:7 | D:maj |, (voice
+62.015736961	| D:min | A:maj | E:sus4 | E:5 |
+69.577029478	B, verse, | A:maj | E:maj/3 | A:7/b7 | D:maj/3 |
+77.221088435	| D:min/b3 | A:maj/5 | E:sus4 E:maj | E:sus4 E:maj |
+84.870294784	C, pre-chorus, | A:maj | C#:7 | F#:min | A:7 |
+92.46154195	D, chorus, | D:maj | E:7 | A:maj | A:maj7/7 |
+100.058888888	| F#:min | E:maj | A:maj A:maj7/7 | (2/4) F#:min7 | E:maj/3 E:maj |, voice)
+108.659523809	E, trans, | A:maj | E:maj | A:7 | D:maj | D:min |, (strings
+118.189024943	C, pre-chorus, | A:maj | C#:7 | F#:min | A:7 |, (voice
+125.826439909	D, chorus, | D:maj | E:7 | A:maj | A:maj7/7 |
+133.414285714	| F#:min | E:maj | A:maj A:maj7/7 | F#:min7 E:maj/3 |, voice)
+141.07909297	E, outro, | A:maj | E:maj | A:7 | D:maj |, (strings
+148.683310657	| D:min | A:maj | E:sus4 | E:5 |
+156.281746031	| A:maj | E:maj | A:7 | D:maj |
+163.856961451	| D:min | A:maj | E:sus4 | E:5 |
+171.500136054	fadeout, | A:maj | E:maj | A:7 | D:maj |
+179.134376417	| D:min | A:maj | E:sus4 | E:5 |, strings)
+186.758095238	silence
+191.190204081	end

@@ -1,0 +1,29 @@
+# title: There But For Fortune
+# artist: Joan Baez
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.278639455	A, intro, | Bb:maj | Eb:min/5 | Bb:maj | Eb:min/5 |, (guitar)
+10.614693877	B, verse, | Bb:maj | Eb:min/5 | Bb:maj | Eb:min/5 |, (voice
+20.370770975	| Bb:maj | G:min | C:maj | F:maj |
+29.737188208	| Bb:maj | G:min | Eb:maj | C:min |
+39.398639455	| D:min | G:min | C:maj | F:maj |, voice)
+48.775170068	A, trans, | Bb:maj | Eb:min/5 | Bb:maj |, (guitar)
+55.839637188	B, verse, | Bb:maj | Eb:min/5 | Bb:maj | Eb:min/5 |, (voice
+65.536439909	| Bb:maj | G:min | C:maj | F:maj |
+75.044081632	| Bb:maj | G:min | Eb:maj | C:min |
+84.816553287	| D:min | G:min | C:maj | F:maj |, voice)
+94.245464852	A, trans, | Bb:maj | Eb:min/5 | Bb:maj |, (guitar)
+101.238888888	B, verse, | Bb:maj | Eb:min/5 | Bb:maj | Eb:min/5 |, (voice
+110.523129251	| Bb:maj | G:min | C:maj | F:maj |
+119.802539682	| Bb:maj | G:min | Eb:maj | C:min |
+129.018979591	| D:min | G:min | C:maj | F:maj |, voice)
+138.305124716	A, trans, | Bb:maj | Eb:min/5 | Bb:maj |, (guitar)
+145.143673469	B, verse, | Bb:maj | Eb:min/5 | Bb:maj | Eb:min/5 |, (voice
+154.437278911	| Bb:maj | G:min | C:maj | F:maj |
+163.731405895	| Bb:maj | G:min | Eb:maj | C:min |
+172.80340136	| D:min | G:min | C:maj | F:maj |, voice)
+182.019342403	A, outro, | Bb:maj | Eb:min/5 | Bb:maj | Bb:maj |, (guitar)
+190.984126984	silence
+195.134693877	end

@@ -1,0 +1,44 @@
+# title: I'm In Love
+# artist: Evelyn "Champagne" King
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.394739229	A, intro, | F:min | C:min | F:min G:min | G:min C:min |, (synthesizer
+9.795532879	| F:min | C:min | F:min G:min | G:min C:min |
+18.130453514	| F:min | C:min | F:min G:min | G:min C:min |
+26.517188208	| F:min | C:min | F:min G:min | G:min C:min |, synthesizer)
+34.865555555	| F:min | C:min | F:min G:min | G:min C:min |, (voice
+43.189115646	| F:min | C:min | F:min G:min | G:min C:min |
+51.525079365	B, verse, | F:min | C:min | F:min G:min | G:min C:min |
+59.907482993	| F:min | C:min | F:min G:min | G:min C:min |
+68.277074829	C, pre-chorus, | Ab:maj | Bb:maj | G:min | C:maj |
+76.653333333	| Ab:maj | Bb:maj | G:min | Bb:sus4(b7) |
+84.985034013	D, chorus, | F:min | C:min | F:min G:min | G:min C:min |
+93.313854875	| F:min | C:min | F:min G:min | G:min C:min |
+101.707120181	| F:min | C:min | F:min G:min | G:min C:min |
+110.062585034	| F:min | C:min | F:min G:min | G:min C:min |, voice)
+118.386666666	A, interlude, | F:min | C:min | F:min G:min | G:min C:min |, (synthesizer)
+126.734512471	B, verse, | F:min | C:min | F:min G:min | G:min C:min |, (voice
+135.101723356	| F:min | C:min | F:min G:min | G:min C:min |
+143.428888888	C, pre-chorus, | Ab:maj | Bb:maj | G:min | C:maj |
+151.808117913	| Ab:maj | Bb:maj | G:min | Bb:sus4(b7) |
+160.180068027	D, chorus, | F:min | C:min | F:min G:min | G:min C:min |
+168.465351473	| F:min | C:min | F:min G:min | G:min C:min |
+176.889909297	| F:min | C:min | F:min G:min | G:min C:min |
+185.217437641	| F:min | C:min | F:min G:min | G:min C:min |, voice)
+193.56154195	A, interlude, | F:min | C:min | F:min G:min | G:min C:min |, (synthesizer
+201.95340136	| F:min | C:min | F:min G:min | G:min C:min |
+210.290997732	D, chorus, | F:min | C:min | F:min G:min | G:min C:min |
+218.653265306	| F:min | C:min | F:min G:min | G:min C:min |
+227.011043083	| F:min | C:min | F:min G:min | G:min C:min |
+235.355646258	| F:min | C:min | F:min G:min | G:min C:min |
+243.693424036	D, chorus, | F:min | C:min | F:min G:min | G:min C:min |
+252.080181405	| F:min | C:min | F:min G:min | G:min C:min |
+260.417165532	| F:min | C:min | F:min G:min | G:min C:min |
+268.795963718	| F:min | C:min | F:min G:min | G:min C:min |
+277.11755102	D, chorus, | F:min | C:min | F:min G:min | G:min C:min |
+285.481269841	fadeout, | F:min | C:min | F:min G:min | G:min C:min |
+293.843877551	| F:min | C:min | F:min G:min |, voice)
+300.187573696	silence
+303.882448979	end

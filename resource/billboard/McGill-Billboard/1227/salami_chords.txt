@@ -1,0 +1,49 @@
+# title: Chicago
+# artist: 25 or 6 to 4
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.282993197	C, intro, | A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+6.913015873	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+13.504512471	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+20.024172335	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+26.554920634	A, verse, | A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+33.055600907	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+39.553015873	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+46.037256235	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+52.556190476	B, chorus, | F:maj | F:maj | C:maj | C:maj | G:maj | G:maj | F:maj | F:maj |
+65.584761904	K, interlude, | A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+72.091428571	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+78.542494331	A, verse, | A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+85.048888888	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+91.531360544	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+98.033242630	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+104.558730158	B, chorus, | F:maj | F:maj | C:maj | C:maj | G:maj | G:maj | F:maj | F:maj |
+117.542063492	D, instrumental, | A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+124.043174603	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+130.465578231	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+136.985192743	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+143.437936507	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+149.885986394	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+156.292063492	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+162.773333333	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+169.263015873	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+175.666575963	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+182.044444444	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+188.389773242	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+194.833492063	H, pre-verse, | A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+201.396553287	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+207.866439909	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+214.339047619	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+220.784761904	A, verse, | A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+227.265374149	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+233.686349206	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+240.101587301	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+246.547301587	B, chorus, | F:maj | F:maj | C:maj | C:maj | G:maj | G:maj | F:maj | F:maj |
+259.509841269	J, outro, | A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+265.955555555	| A:min | A:min/b7 | A:min/13 | F:maj7 E:7 |
+272.369183673	| D:min(9) | C:min(9) | B:7(b9,b13) | G:7/b3 |
+281.259682539	| B:maj/b7 | B:maj/b7 | B:maj/b7 |
+288.221678004	silence
+290.017233560	end

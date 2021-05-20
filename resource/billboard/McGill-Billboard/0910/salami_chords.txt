@@ -1,0 +1,46 @@
+# title: Time For Me To Fly
+# artist: REO Speedwagon
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+4.4897959e-2	Z
+0.220589569	A, intro, | D:maj G:maj/5 | A:maj/11 G:maj/5 |, (guitar
+6.038412698	| D:maj G:maj/5 | A:maj/11 G:maj/5 |, guitar)
+11.604149659	B, verse, | D:maj | A:maj/3 |, (voice
+17.097006802	| G:maj6/3 | D:maj |
+22.60217687	| D:maj | A:maj/3 |
+28.119319727	| G:maj6/3 | D:maj |
+33.678185941	C, pre-chorus, | A:sus4 A:maj | G:maj D:maj |
+39.134988662	| A:maj | G:maj D:maj |
+44.656099773	| G:maj D:maj | G:maj D:maj |
+50.107210884	| A:maj | ->, voice)
+52.85356009	A, trans, | D:maj G:maj | A:maj G:maj |, (guitar
+58.231088435	| D:maj G:maj | A:maj G:maj |, guitar)
+63.361995464	B, verse, | D:maj | A:sus4 A:maj |, (voice
+68.560702947	| G:maj | D:maj |
+73.877120181	| D:maj | A:sus4 A:maj |
+79.21015873	| G:maj | D:maj |
+84.52786848	C, pre-chorus, | A:maj | G:maj D:maj |
+89.84648526	| A:maj | G:maj D:maj |
+95.096916099	| G:maj D:maj | G:maj D:maj |
+100.306303854	| A:maj |, voice)
+103.005487528	A', trans, | D:maj G:maj | D:maj |, (guitar)
+108.255328798	D, chorus, | A:maj | G:maj D:maj |, (voice
+113.546893424	| A:maj | G:maj D:maj |
+118.920453514	| G:maj | A:maj |
+124.019546485	| G:maj | A:maj |, voice)
+129.160226757	E, solo, | D:maj | D:maj |, (guitar
+134.384399092	| G:maj | G:maj |
+139.710068027	| A:sus4 | A:maj |
+144.996621315	| D:maj G:maj | D:maj |, guitar)
+150.065011337	D, chorus, | A:maj | G:maj D:maj |, (voice
+155.301723356	| A:maj | G:maj D:maj |
+160.475941043	| G:maj | A:sus4 A:maj |
+165.673922902	| G:maj | A:maj |
+170.890521541	| G:maj | A:maj |
+176.043469387	F, outro, | D:maj G:maj | A:maj G:maj |
+181.288412698	| D:maj G:maj | A:maj G:maj |
+186.465668934	| D:maj G:maj | A:maj G:maj | G:maj |
+194.187006802	| D:maj |, voice)
+213.133061224	end

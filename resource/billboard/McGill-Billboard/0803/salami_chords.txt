@@ -1,0 +1,39 @@
+# title: True Colors
+# artist: Cyndi Lauper
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.116099773	A, intro-a, | N | N |
+5.816984126	B, intro-b, | A:min7 G:maj/3 | C:maj7 F:maj |, (guitar
+11.242403628	| A:min7 G:maj/3 | C:maj7 F:maj |, guitar)
+16.71802721	C, verse, | A:min7 G:maj/3 | C:maj C:maj/3 | F:maj(9) F:maj | A:min G:maj |, (voice
+27.849818594	| C:maj D:min | C:maj/3 F:maj | A:min G:maj | F:maj/5 C:maj |
+38.94446712	D, chorus, | F:maj C:maj | G:sus4 G:maj |
+44.463174603	| F:maj C:maj/3 | F:maj G:maj | F:maj C:maj | F:maj A:min |
+55.619002267	| F:maj/5 C:maj | F:maj/5 C:maj |
+61.233832199	| G:sus4(9) |
+64.296054421	B, trans, | A:min7 G:maj/3 | C:maj7 F:maj |, (guitar
+69.782040816	| A:min7 G:maj/3 | C:maj7 F:maj |, guitar)
+75.464852607	C, verse, | A:min7 G:maj/3 | C:maj C:maj/3 | F:maj(9) F:maj | A:min G:maj |
+86.679002267	| C:maj D:min | C:maj/3 F:maj | A:min G:maj | F:maj/5 C:maj |
+97.953786848	D, chorus, | F:maj C:maj | G:sus4 G:maj |
+103.533061224	| F:maj C:maj/3 | F:maj G:maj | F:maj C:maj | F:maj A:min |
+114.787074829	| F:maj/5 C:maj | F:maj/5 C:maj |
+120.378390022	| G:sus4(9) |
+123.447369614	B, trans, | A:min7 G:maj/3 | C:maj7 F:maj |, (guitar
+128.943333333	| A:min7 G:maj/3 | C:maj7 F:maj |, guitar)
+134.407210884	C, verse, | A:min7 G:maj/3 | C:maj C:maj/3 | F:maj(9) F:maj | A:min G:maj |
+145.411337868	| C:maj D:min | C:maj/3 F:maj | A:min G:maj | F:maj/5 C:maj |
+156.506417233	D', chorus, | F:maj C:maj | G:sus4 G:maj |
+162.056825396	| F:maj C:maj/3 | F:maj G:maj | F:maj C:maj | F:maj A:min |
+173.27941043	| F:maj/5 C:maj | F:maj/5 C:maj |
+178.8823356	| F:maj/5 C:maj | G:sus4 G:maj |
+184.390770975	| F:maj C:maj | F:maj . G:sus4 G:maj |
+189.977301587	| F:maj C:maj | E:min7 A:min |
+195.887188208	| F:maj/5 C:maj | F:maj/5 C:maj |
+202.344875283	| G:sus4(9) | &pause |
+209.4823356	B', trans, | A:min7 G:maj/3 | C:maj7 F:maj |, voice)
+213.783061224	A', outro, | N | N | N | N |
+225.374761904	silence
+228.222244897	end

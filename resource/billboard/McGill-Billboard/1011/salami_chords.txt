@@ -1,0 +1,39 @@
+# title: I Drove All Night
+# artist: Cyndi Lauper
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.116099773	A, intro, | Eb:maj | Eb:maj | Db:maj | Db:maj |, (synthesizer
+7.522086167	| Ab:maj | Ab:maj |, synthesizer)
+11.114353741	B, verse, | Eb:maj | Eb:maj | Db:maj | Db:maj |, (voice
+18.447573696	| Eb:maj | Eb:maj | Db:maj | F:min |
+25.776281179	| Ab:maj | Db:maj | Eb:maj | Eb:maj |
+33.099387755	C, pre-chorus, | Db:maj | Db:maj | Eb:maj | Eb:maj |
+40.449024943	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+47.762267573	D, chorus, | C:min | Db:maj | Ab:maj | F:min | Eb:maj | Eb:maj |
+58.788004535	| C:min | Db:maj | Ab:maj | F:min | Eb:maj | Eb:maj |
+69.728548752	| Db:maj | Db:maj | Db:maj | Db:maj |, voice)
+77.031383219	A', trans, | Ab:maj | Ab:maj |, (synthesizer)
+80.726734693	B, verse, | Eb:maj | Eb:maj | Db:maj | Db:maj |, (voice
+88.051088435	| Eb:maj | Eb:maj | Db:maj | F:min |
+95.348367346	| Ab:maj | Db:maj | Eb:maj | Eb:maj |
+102.712222222	C, pre-chorus, | Db:maj | Db:maj | Eb:maj | Eb:maj |
+110.035238095	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+117.361179138	D, chorus, | C:min | Db:maj | Ab:maj | F:min | Eb:maj | Eb:maj |
+128.371315192	| C:min | Db:maj | Ab:maj | F:min | Eb:maj | Eb:maj |
+139.305873015	| Db:maj | Db:maj | Db:maj | Db:maj |
+146.657573696	E, interlude, | F:min | Db:maj | Ab:maj | C:min | Db:maj | Eb:maj |, voice)
+157.632653061	| F:min | Db:maj | Ab:maj | C:min | Db:maj | Eb:maj |, (synthesizer)
+168.629047619	C, pre-chorus, | Db:maj | Db:maj | Eb:maj | Eb:maj |, (voice
+175.970861678	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+183.247732426	D, chorus, | C:min | Db:maj | Ab:maj | F:min | Eb:maj | Eb:maj |
+194.276462585	| C:min | Db:maj | Ab:maj | F:min | Eb:maj | Eb:maj |
+205.241179138	| Db:maj | Db:maj |
+208.884263038	E', interlude, | Ab:maj | F:min | Eb:maj | Eb:maj |
+216.263628117	C', pre-chorus, | Db:maj | Db:maj | Eb:maj | Eb:maj |
+223.550430839	| Db:maj | Db:maj |
+227.218231292	E, interlude, | F:min | Db:maj | Ab:maj | C:min | Db:maj | Eb:maj |
+238.236281179	fadeout, | F:min | Db:maj | Ab:maj | C:min | Db:maj | Eb:maj |, voice)
+249.173333333	silence
+252.813061224	end

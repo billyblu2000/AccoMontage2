@@ -1,0 +1,27 @@
+# title: Surfin' Safari
+# artist: The Beach Boys
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+1.393197278	A, intro, | E:maj | D:maj | B:maj | E:maj | E:maj |, (voice
+9.204829931	B, verse, | A:maj | D:maj | E:maj | A:maj |
+15.049047619	| A:maj | D:maj | E:maj | A:maj |
+20.982267573	C, chorus, | A:maj | A:maj | A:maj | A:maj |
+26.940884353	| D:maj | D:maj | A:maj | A:maj |
+32.936916099	| E:maj | D:maj | B:maj | E:maj | E:maj |
+40.454693877	B, verse, | A:maj | D:maj | E:maj | A:maj |
+46.459455782	| A:maj | D:maj | E:maj | A:maj |
+52.338820861	C, chorus, | A:maj | A:maj | A:maj | A:maj |
+58.371791383	| D:maj | D:maj | A:maj | A:maj |
+64.376235827	| E:maj | D:maj | B:maj | E:maj | E:maj |, voice)
+71.946870748	D, solo, | A:maj | D:maj | E:maj | A:maj |, (guitar
+78.021065759	| A:maj | D:maj | E:maj | A:maj |, guitar)
+84.035895691	B, verse, | A:maj | D:maj | E:maj | A:maj |, (voice
+90.036712018	| A:maj | D:maj | E:maj | A:maj |
+96.165714285	C, chorus, | A:maj | A:maj | A:maj | A:maj |
+102.380294784	| D:maj | D:maj | A:maj | A:maj |
+108.506077097	| E:maj | D:maj | B:maj | E:maj | E:maj |
+116.204603174	E, outro, | A:maj | A:maj | A:maj | A:maj |, fadeout, voice)
+124.746031746	silence
+128.914285714	end

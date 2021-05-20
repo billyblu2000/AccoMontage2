@@ -1,0 +1,20 @@
+# title: Crying Time
+# artist: Ray Charles
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.255419501	A, chorus, | Ab:maj | Eb:7 | Bb:min7 Eb:7 | Ab:maj |, (voice
+17.62201814	| Ab:7 | Db:maj | Eb:sus4 Eb:7 | Ab:maj Db:maj Ab:maj . |
+31.794852607	B, verse, | Ab:maj | Eb:7 | Eb:7 | Ab:maj |
+45.937029478	| Ab:7 | Db:maj | Eb:sus4 Eb:7 | Ab:maj Db:maj Ab:maj . |
+60.140249433	A, chorus, | Ab:maj | Eb:7 | Bb:min7 Eb:7 | Ab:maj |
+74.366689342	| Ab:7 | Db:maj | Eb:sus4 Eb:7 | Ab:maj Db:maj Ab:maj . |, voice)
+88.581496598	C, interlude, | Ab:7 | Db:maj | Eb:sus4 Eb:7 | Ab:maj Db:maj Ab:maj . |, (violins)
+102.82063492	B, verse, | Ab:maj | Eb:7 | Eb:7 | Ab:maj |, (voice
+117.049183673	| Ab:7 | Db:maj | Eb:sus4 Eb:7 | Ab:maj Db:maj Ab:maj . |
+131.142154195	A, chorus, | Ab:maj | Eb:7 | Bb:min7 Eb:7 | Ab:maj |
+145.393968253	| Ab:7 | Db:maj | Eb:sus4 Eb:7 | Ab:maj Db:maj Ab:maj . |
+159.72356009	D, outro, | Eb:sus4 Eb:7 | Db:maj/5 | Ab:maj |, voice)
+174.978911564	silence
+179.43510204	end

@@ -1,0 +1,40 @@
+# title: She's A Woman
+# artist: The Beatles
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+4.063492e-2	Z
+0.371519274	A, intro, | Eb:7 | Eb:7 | Db:7 | Db:7 |, (guitar
+5.938390022	| Ab:7 | Ab:7 | Ab:7 | Ab:7 |, guitar)
+11.467482993	B, verse, | Ab:7 | Db:7 | Ab:7 | Ab:7 |, (voice
+16.982585034	| Ab:7 | Db:7 | Ab:7 | Ab:7 |
+22.457845804	| Db:7 | Db:7 | Db:7 | Db:7 |
+27.988344671	| Ab:7 | Db:7 | Ab:7 | Ab:7 |
+33.44	| Eb:7 | Eb:7 | Db:7 | Db:7 |
+38.948639455	| Ab:7 | Db:7 | Ab:7 | Eb:7 |
+44.399229024	B, verse, | Ab:7 | Db:7 | Ab:7 | Ab:7 |
+49.887346938	| Ab:7 | Db:7 | Ab:7 | Ab:7 |
+55.368095238	| Db:7 | Db:7 | Db:7 | Db:7 |
+60.888299319	| Ab:7 | Db:7 | Ab:7 | Ab:7 |
+66.343446712	| Eb:7 | Eb:7 | Db:7 | Db:7 |
+71.819342403	| Ab:7 | Db:7 | Ab:7 | Eb:7 |
+77.293265306	C, bridge, | C:min | F:min | C:min | Db:7 Eb:7 |
+82.701836734	B, verse, | Ab:7 | Db:7 | Ab:7 | Ab:7 |
+88.10786848	| Ab:7 | Db:7 | Ab:7 | Ab:7 |
+93.605600907	| Db:7 | Db:7 | Db:7 | Db:7 |
+99.08739229	| Ab:7 | Db:7 | Ab:7 | Ab:7 |
+104.533922902	| Eb:7 | Eb:7 | Db:7 | Db:7 |
+110.020816326	| Ab:7 | Db:7 | Ab:7 | Eb:7 |, voice)
+115.485804988	D, solo, | Ab:7 | Ab:7 | Ab:7 | Ab:7 |, (guitar
+120.902539682	| Db:7 | Db:7 | Ab:7 | Ab:7 |
+126.347913832	| Eb:7 | Db:7 | Ab:7 | Ab:7 |, guitar)
+131.762585034	D, chorus, | Ab:7 | Ab:7 | Ab:7 | Ab:7 |, (voice
+137.147142857	| Db:7 | Db:7 | Ab:7 | Ab:7 |
+142.658117913	| Eb:7 | Db:7 | Ab:7 | Ab:7 |
+148.034580498	D, chorus, | Ab:7 | Ab:7 | Ab:7 | Ab:7 |
+153.465600907	| Db:7 | Db:7 | Ab:7 | Ab:7 |
+158.88802721	| Eb:7 | Db:7 | Ab:7 | Ab:13 |, voice)
+167.067573696	Z
+173.360181405	silence
+174.733061224	end

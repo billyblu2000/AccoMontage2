@@ -1,0 +1,32 @@
+# title: Cruisin'
+# artist: Smokey Robinson
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.464399092	A, intro, | E:maj | E:maj | E:maj | E:maj |, (strings)
+13.296621315	B, verse, | E:maj | F#:min7 | E:maj | F#:min7 |, (voice
+24.7292517	| E:maj | F#:min7 | E:maj | F#:min7 |
+36.165827664	| E:maj | F#:min7 | E:maj | F#:min7 |
+47.486757369	C, pre-chorus, | E:maj | F#:min7 | E:maj | F#:min7 |
+58.924399092	D, chorus, | E:maj | A:maj | D:maj B:7 | E:maj |
+70.241904761	| E:maj | A:maj | D:maj B:7 | E:maj |
+81.609591836	B, verse, | E:maj | F#:min7 | E:maj | F#:min7 |
+92.999546485	| E:maj | F#:min7 | E:maj | F#:min7 |
+104.460204081	| E:maj | F#:min7 | E:maj | F#:min7 |
+115.847414965	C, pre-chorus, | E:maj | F#:min7 | E:maj | F#:min7 |
+127.205079365	D, chorus, | E:maj | A:maj | D:maj B:7 | E:maj |
+138.515464852	| E:maj | A:maj | D:maj B:7 | E:maj |, voice)
+149.90802721	E, trans, | E:maj | E:maj |, (strings)
+155.532426303	B, solo, | E:maj | F#:min7 | E:maj | F#:min7 |, (synthesizer
+166.879841269	| E:maj | F#:min7 | E:maj | F#:min7 |, synthesizer)
+178.200521541	B, verse, | E:maj | F#:min7 | E:maj | F#:min7 |, (voice
+189.660589569	| E:maj | F#:min7 | E:maj | F#:min7 |
+201.088956916	| E:maj | F#:min7 | E:maj | F#:min7 |
+212.529387755	C, pre-chorus, | E:maj | F#:min7 | E:maj | F#:min7 |
+223.814399092	D, chorus, | E:maj | A:maj | D:maj B:7 | E:maj |
+235.148480725	| E:maj | A:maj | D:maj B:7 | E:maj |
+246.456598639	D, fadeout, | E:maj | A:maj | D:maj B:7 | E:maj |
+257.834376417	| E:maj | A:maj | D:maj B:7 | E:maj |, voice)
+265.125442176	silence
+270.027755102	end

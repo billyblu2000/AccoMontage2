@@ -1,0 +1,41 @@
+# title: If I Could Turn Back Time
+# artist: Cher
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.359183673	A, intro, | B:maj | B:maj | B:maj | B:maj |, (guitar)
+9.35909297	A, chorus, | B:maj | B:maj | E:maj | E:maj |, (voice
+18.274399092	| C#:min | C#:min | F#:maj(11) | ->
+24.946938775	B, verse, | F#:maj B:maj | E:maj F#:maj | F#:maj B:maj | E:maj F#:maj |
+33.89510204	| F#:maj B:maj | E:maj F#:maj | F#:maj B:maj | E:maj F#:maj |
+42.726530612	C, pre-chorus, | E:maj . G#:min F#:maj | F#:maj | E:maj . G#:min F#:maj | F#:maj |
+51.671224489	| E:maj/3 | F#:maj/3 |
+56.150430839	A, chorus, | B:maj | B:maj | E:maj | E:maj |
+64.959365079	| C#:min | C#:min | F#:maj | ->
+71.591836734	A, chorus, | B:maj | B:maj | E:maj | E:maj |
+80.479115646	| C#:min | C#:min |
+84.881632653	B, interlude, | F#:maj B:maj | E:maj F#:maj | F#:maj B:maj | E:maj F#:maj |
+89.33877551	B, verse, | F#:maj B:maj | E:maj F#:maj | F#:maj B:maj | E:maj F#:maj |
+98.236734693	| F#:maj B:maj | E:maj F#:maj | F#:maj B:maj | E:maj F#:maj |
+107.063174603	C, prechorus, | E:maj . G#:min F#:maj | F#:maj | E:maj . G#:min F#:maj | F#:maj |
+115.934693877	| E:maj/3 | F#:maj/3 |
+120.391836734	A, chorus, | B:maj | B:maj | E:maj | E:maj |
+129.208163265	| C#:min | C#:min | F#:maj | ->
+135.836734693	A, chorus, | B:maj | B:maj | E:maj | E:maj |
+144.702040816	| C#:min | C#:min | F#:maj | ->
+151.281632653	B', interlude, | F#:maj B:maj | E:maj F#:maj | F#:maj B:maj | E:maj F#:maj |
+160.151088435	| F#:maj B:maj | E:maj F#:maj | F#:maj B:maj | E:maj F#:maj |
+168.930612244	| F#:maj B:maj | E:maj F#:maj |
+173.257142857	C, prechorus, | E:maj . G#:min F#:maj | F#:maj | E:maj . G#:min F#:maj | F#:maj |
+182.184580498	| E:maj/3 | F#:maj/3 |
+186.579591836	A, chorus, | B:maj | B:maj | E:maj | E:maj |
+195.412244897	| C#:min | C#:min |
+# tonic: D
+199.820408163	A', chorus, | D:maj | D:maj | G:maj | G:maj |
+208.620408163	| E:min | E:min | A:maj | A:maj |
+217.375170068	A', chorus, | D:maj | D:maj | G:maj | G:maj |
+226.204081632	| E:min | E:min | A:maj | ->, fadeout
+232.767346938	| D:maj | D:maj | G:maj | G:maj |, voice)
+239.070022675	silence
+240.953469387	end

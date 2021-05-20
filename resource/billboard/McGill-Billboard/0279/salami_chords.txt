@@ -1,0 +1,39 @@
+# title: Born To Be Alive
+# artist: Patrick Hernandez
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+5.8049886e-2	Z
+0.626938775	A, intro, | A:1 | A:1 | A:1 | A:1 | A:1 | A:1 | A:1 | A:1 |, (synthesizer)
+15.3392517	| A:1 | A:1 | A:1 | A:1 | A:1 | A:1 | A:1 | A:1 |, (guitar
+22.671836734	| A:min7 | A:min7 | A:min7 | A:min7 | A:min7 | A:min7 | A:min7 | A:min7 |, guitar)
+30.017142857	| D:maj(#9) | D:maj(#9) | C:maj | A:maj(#9) | D:maj(#9) | D:maj(#9) | C:maj | A:maj(#9) |, (voice
+37.442471655	B, chorus, | B:min | B:min | C:maj | B:min | D:maj | D:maj | D:maj | D:maj |
+44.792607709	| B:min | B:min | A:maj | A:maj | G:maj | G:maj | G:maj | G:maj |, voice)
+52.132630385	| D:min7 | D:min7 | D:min7 | D:min7 |, (guitar)
+55.823106575	C, verse, | D:maj | D:maj | G:maj | G:maj | D:maj | D:maj | C:maj | G:maj |, (voice
+63.209614512	| D:maj | D:maj | G:maj | G:maj | D:maj | D:maj | D:maj | D:maj |
+70.549183673	B, chorus, | B:min | B:min | C:maj | B:min | D:maj | D:maj | D:maj | D:maj |
+77.923151927	| B:min | B:min | A:maj | A:maj | G:maj | G:maj | G:maj | G:maj |, voice)
+85.298820861	| D:min7 | D:min7 | D:min7 | D:min7 |, (guitar)
+89.019342403	C, verse, | D:maj | D:maj | G:maj | G:maj | D:maj | D:maj | C:maj | G:maj |, (voice
+96.347482993	| D:maj | D:maj | G:maj | G:maj | D:maj | D:maj | D:maj | D:maj |
+103.692517006	B, chorus, | B:min | B:min | C:maj | B:min | D:maj | D:maj | D:maj | D:maj |
+111.078208616	| B:min | B:min | A:maj | A:maj | G:maj | G:maj | G:maj | G:maj |
+118.43	D, bridge, | B:min | B:min | B:min | B:min | G:maj | G:maj | G:maj | G:maj |
+125.817074829	| B:min | B:min | B:min | B:min | G:maj | G:maj | G:maj | G:maj |
+133.186734693	| F#:sus4(b7) | F#:sus4(b7) | F#:7 | F#:7 |, voice)
+136.80185941	| B:min | B:min | B:min | B:min | G:maj | G:maj | G:maj | G:maj |, (synthesizer)
+144.244126984	| B:min | B:min | B:min | B:min | G:maj | G:maj | G:maj | G:maj |, (voice
+151.630544217	| F#:sus4(b7) | F#:sus4(b7) | F#:7 | F#:7 |, voice)
+155.295056689	A, interlude, | D:min7 | D:min7 | D:min7 | D:min7 | x2, (guitar)
+162.708390022	C, verse, | D:maj | D:maj | G:maj | G:maj | D:maj | D:maj | C:maj | G:maj |, (voice
+170.068412698	| D:maj | D:maj | G:maj | G:maj | D:maj | D:maj | D:maj | D:maj |
+177.437074829	B, chorus, | B:min | B:min | C:maj | B:min | D:maj | D:maj | D:maj | D:maj |
+184.766349206	| B:min | B:min | A:maj | A:maj | G:maj | G:maj | G:maj | G:maj |
+192.136598639	B, chorus, | B:min | B:min | C:maj | B:min | D:maj | D:maj | D:maj | D:maj |
+199.54340136	fadeout, | B:min | B:min | A:maj | A:maj | G:maj | G:maj | G:maj | G:maj |
+206.8761678	| B:min | B:min | C:maj | B:min | D:maj | D:maj |, voice)
+210.999727891	silence
+215.013877551	end

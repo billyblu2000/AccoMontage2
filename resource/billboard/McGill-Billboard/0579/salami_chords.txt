@@ -1,0 +1,29 @@
+# title: Heart Full of Soul
+# artist: The Yardbirds
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.441179138	A, intro, | D:min . . . | D:min . . . | D:min . . . | D:min . . . |, (guitar)
+7.428707482	B, verse, | D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |, (voice
+14.437029478	| D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |
+21.525011337	| D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |
+28.66185941	| D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |
+35.856349206	C, chorus, | D:maj . . . | F:maj . G:maj . | D:maj . . . | Bb:maj . F:maj . |
+42.78371882	| D:maj . . . | A:maj . . . | G:maj F:maj D:min C:maj |, voice)
+48.221519274	A, trans, | D:min . . . | D:min . . . | D:min . . . | D:min . . . |, (guitar)
+55.202517006	D, solo, | D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |, (guitar
+62.278684807	| D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |, guitar)
+69.494671201	C, chorus, | D:maj . . . | F:maj . G:maj . | D:maj . . . | Bb:maj . F:maj . |, (voice
+76.446303854	| D:maj . . . | A:maj . . . | G:maj F:maj D:min C:maj |, voice)
+81.84877551	A, trans, | D:min . . . | D:min . . . | D:min . . . | D:min . . . |, (guitar)
+89.055238095	B, verse, | D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |, (voice
+96.181723356	| D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |
+103.386575963	| D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |
+110.503469387	| D:min . . . | G:maj . . . | Bb:maj . . . | F:maj . . . |
+117.774240362	C, chorus, | D:maj . . . | F:maj . G:maj . | D:maj . . . | Bb:maj . F:maj . |
+124.751133786	| D:maj . . . | A:maj . . . | G:maj F:maj D:min C:maj |, voice)
+130.171927437	A, trans, | D:min . . . | D:min . . . | D:min . . . | D:min . . . |
+137.344013605	A, fadeout, | D:min . . . | D:min . . . | D:min . . . | D:min . . . |
+146.842993197	silence
+149.394285714	end

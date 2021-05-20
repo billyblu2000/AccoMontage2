@@ -1,0 +1,33 @@
+# title: Quarter To Three
+# artist: Gary U.S. Bonds
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.255419501	Z
+6.872403628	A, intro, | N | N | N | N |
+12.995623582	| N | N | N | N |
+18.897301587	B, solo, | Eb:maj | Eb:maj | C:min | C:min |, (saxophone
+24.781723356	| Ab:maj | Ab:maj | Bb:maj | Bb:maj |, saxophone)
+30.646145124	B, verse, | Eb:maj | Eb:maj | C:min | C:min |, (voice
+36.655079365	| Ab:maj | Ab:maj | Bb:maj | Bb:maj |
+42.477664399	B, verse, | Eb:maj | Eb:maj | C:min | C:min |
+48.51	| Ab:maj | Ab:maj | Bb:maj | Bb:maj |
+54.387755102	C, bridge, | Ab:maj | Ab:maj | Eb:maj | Eb:maj |
+60.332539682	| Ab:maj | Ab:maj | Bb:7 | Bb:7 |
+66.169523809	B, verse, | Eb:maj | Eb:maj | C:min | C:min |
+72.151904761	| Ab:maj | Ab:maj | Bb:maj | Eb:maj |, voice)
+78.069455782	B, solo, | Eb:maj | Eb:maj | C:min | C:min |, (saxophone
+84.147074829	| Ab:maj | Ab:maj | Bb:maj | Bb:maj |
+90.129229024	B, solo, | Eb:maj | Eb:maj | C:min | C:min |
+96.105215419	| Ab:maj | Ab:maj | Bb:maj | Bb:maj |, saxophone)
+102.166417233	C, bridge, | Ab:maj | Ab:maj | Eb:maj | Eb:maj |, (voice
+108.218163265	| Ab:maj | Ab:maj | Bb:7 | Bb:7 |
+114.185714285	B, verse, | Eb:maj | Eb:maj | C:min | C:min |
+120.209705215	| Ab:maj | Ab:maj | Bb:maj | Eb:maj |, voice)
+126.206145124	B, solo, | Eb:maj | Eb:maj | C:min | C:min |, (saxophone
+132.281972789	| Ab:maj | Ab:maj | Bb:maj | Bb:maj |
+138.282244897	B, fadeout, | Eb:maj | Eb:maj | C:min | C:min |
+144.282199546	| Ab:maj | Ab:maj | Bb:maj | Bb:maj |, saxophone)
+147.121632653	silence
+150.543673469	end

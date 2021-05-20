@@ -1,0 +1,30 @@
+# title: Honky Tonk Women
+# artist: The Rolling Stones
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.424489795	A, intro, | N | N | N | N |
+9.2	| G:maj | G:maj | G:maj | G:maj |
+17.689795918	B, verse, | G:maj | G:maj | C:maj . . C:sus4 | C:maj |, (voice
+26.048979591	| G:maj | A:maj | D:maj . . D:sus4 | D:maj |
+34.351020408	| G:maj | G:maj | C:maj . . C:sus4 | C:maj |
+42.579591836	| G:maj | D:maj | G:maj | G:maj |
+50.669387755	C, chorus, | G:maj | D:maj | G:maj | G:maj |
+58.734693877	| G:maj | D:maj | G:maj | G:maj |
+66.620408163	B, verse, | G:maj | G:maj | C:maj . . C:sus4 | C:maj |
+74.620408163	| G:maj | A:maj | D:maj . . D:sus4 | D:maj |
+82.579591836	| G:maj | G:maj | C:maj . . C:sus4 | C:maj |
+90.553151927	| G:maj | D:maj | G:maj | G:maj |
+98.489795918	C, chorus, | G:maj | D:maj | G:maj | G:maj |
+106.375510204	| G:maj | D:maj | G:maj | G:maj |, voice)
+114.188639455	B, solo, | G:maj | G:maj | C:maj . . C:sus4 | C:maj |, (guitar
+121.991836734	| G:maj | A:maj | D:maj . . D:sus4 | D:maj |
+129.75510204	| G:maj | G:maj | C:maj . . C:sus4 | C:maj |
+137.534693877	| G:maj | D:maj | G:maj | G:maj |, guitar)
+145.255873015	C, chorus, | G:maj | D:maj | G:maj | G:maj |, (voice 
+153.028571428	| G:maj | D:maj | G:maj | G:maj |
+160.718367346	C, chorus, | G:maj | D:maj | G:maj | G:maj |
+168.440816326	| G:maj | D:maj | G:maj G:maj/3 G:maj/11 G:maj/#11 | G:maj/5 G:maj |
+179.118730158	silence
+182.282448979	end

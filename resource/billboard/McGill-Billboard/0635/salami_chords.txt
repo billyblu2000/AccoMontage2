@@ -1,0 +1,34 @@
+# title: Little Old Lady From Pasadena
+# artist: Jan & Dean
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.438276643	A, intro, | N | N | Bb:maj | Bb:maj |, (voice
+7.706122448	B, verse, | Eb:maj | Eb:maj | Eb:maj | Ab:maj Eb:maj |
+14.341179138	| Eb:maj | Eb:maj | Bb:7 | F:maj Bb:7 |
+20.932789115	| Eb:maj | Ab:maj | F:maj Db:maj | Bb:7 | Bb:7 |
+29.193287981	A, chorus, | Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+35.723900226	| Ab:maj | Ab:maj | Eb:maj | Eb:maj |
+42.267664399	| Gb:maj | Bb:maj | Bb:maj | Bb:maj |
+48.907029478	B, verse, | Eb:maj | Eb:maj | Eb:maj | Ab:maj Eb:maj |
+55.611995464	| Eb:maj | Eb:maj | Bb:7 | F:maj Bb:7 |
+62.148208616	| Eb:maj | Ab:maj | F:maj Db:maj | Bb:7 | Bb:7 |
+70.478367346	A, chorus, | Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+77.072834467	| Ab:maj | Ab:maj | Eb:maj | Eb:maj |
+83.597641723	| Gb:maj | Bb:maj | Bb:maj | A:maj |, voice)
+# tonic: F
+90.267573696	B', verse, | F:maj | F:maj | F:maj | Bb:maj F:maj |, (harmonica
+96.91600907	| F:maj | F:maj | C:7 | G:maj C:7 |, harmonica)
+103.404263038	| F:maj | Bb:maj | G:maj Eb:maj | C:7 | C:7 |, (voice
+111.68217687	A', chorus, | F:maj | F:maj | F:maj | F:maj |
+118.267369614	| Bb:maj | Bb:maj | F:maj | F:maj |
+124.836916099	| Ab:maj | Db:maj | Db:maj |
+129.671836734	B'', outro, | Db:maj | Gb:maj Db:maj | Ab:7 | Eb:maj Ab:7 |
+136.248888888	| Db:maj | Gb:maj Db:maj | Ab:7 | Eb:maj Ab:7 |
+142.754240362	| Db:maj | Gb:maj Db:maj | Ab:7 | Eb:maj Ab:7 |
+149.164988662	| Db:maj | Gb:maj Db:maj | Ab:7 | Eb:maj Ab:7 |, fadeout
+155.689795918	| Db:maj | Gb:maj Db:maj | Ab:7 | Eb:maj Ab:7 |
+162.204807256	| Db:maj | Gb:maj Db:maj | Ab:7 | Eb:maj Ab:7 |, voice)
+165.581882086	silence
+166.765714285	end

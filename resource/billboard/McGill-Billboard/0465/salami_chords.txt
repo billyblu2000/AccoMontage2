@@ -1,0 +1,35 @@
+# title: Give To Live
+# artist: Sammy Hagar
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+4.2857142e-2	Z
+0.30185941	A, verse, | E:min A:maj | D:maj G:maj/3 | G:maj A:maj | D:maj |, (voice
+15.30494331	| E:min A:maj | D:maj B:min | G:maj |
+26.505396825	| A:maj A:maj/b7 | A:maj/13 A:maj/5 |
+33.854693877	B, chorus, | D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+48.423945578	| D:maj E:min | F#:min A:maj | B:min G:maj | A:maj . . F#:min |, voice)
+62.838140589	C, trans, | B:min |, (guitar)
+66.625034013	A, verse, | E:min A:maj | D:maj G:maj/3 | G:maj A:maj | D:maj |, (voice
+81.15292517	| E:min A:maj | D:maj B:min | G:maj |
+92.068299319	| A:maj A:maj/b7 | A:maj/13 A:maj/5 |
+99.214172335	B, chorus, | D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+113.637981859	| D:maj E:min | F#:min A:maj | B:min G:maj | A:maj . . F#:min |, voice)
+128.1592517	C, trans, | B:min | B:min |, (guitar)
+135.384217687	D, bridge, | C:maj | G:maj | D:maj | A:maj |, (voice
+149.645623582	| C:maj | G:maj |
+156.743061224	| A:maj A:maj/b7 | A:maj/13 A:maj/5 | D:maj |
+167.405600907	A, verse, | E:min A:maj | D:maj G:maj/3 | G:maj A:maj | D:maj |
+181.699841269	| E:min A:maj | D:maj B:min | G:maj | G:maj |
+196.261224489	| A:maj A:maj/b7 | A:maj/13 A:maj/5 | &pause |
+211.684421768	B, chorus, | D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+226.635147392	| D:maj E:min | F#:min A:maj | D:maj G:maj | A:maj |
+241.038594104	B', outro, | D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+255.299773242	| D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+269.541043083	| D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+283.455759637	| D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+297.164149659	| D:maj G:maj | A:maj | D:maj G:maj | A:maj |, voice)
+312.378049886	| D:maj/5 | &pause |, (guitar)
+317.775691609	Z
+339.356734693	end

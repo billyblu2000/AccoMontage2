@@ -1,0 +1,33 @@
+# title: Feelin' Stronger Every Day
+# artist: Chicago
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.232199546	A, intro, | (2/4) D:min7 F:maj7 | G:7 | (2/4) G:maj C:maj | F:maj |
+9.55526077	| (2/4) D:min7 F:maj7 | G:7 | (2/4) G:maj C:maj | F:maj |
+18.695328798	| C:7 | C:7 |
+24.921723356	B, verse, | C:maj | Eb:maj Bb:maj | Eb:maj/5 Bb:maj F:maj . | Eb:maj/5 Bb:maj F:maj . |, (voice
+37.290272108	| C:maj | Eb:maj Bb:maj | Eb:maj/5 Bb:maj F:maj . | Eb:maj/5 Bb:maj F:maj . |
+49.481723356	C, chorus, | A:min7 | D:min7 | A:min7 |
+58.649433106	| (2/4) D:min7 F:maj7 | G:7 |
+63.166054421	B, verse, | C:maj | Eb:maj Bb:maj | Eb:maj/5 Bb:maj F:maj . | Eb:maj/5 Bb:maj F:maj . |
+75.190680272	| C:maj | Eb:maj Bb:maj | Eb:maj/5 Bb:maj F:maj . | Eb:maj/5 Bb:maj F:maj . |
+87.160294784	C, chorus, | A:min7 | D:min7 | A:min7 | ->
+96.078095238	A, interlude, | (2/4) D:min7 F:maj | G:maj | (2/4) G:maj C:maj | F:maj |, voice)
+105.047074829	| (2/4) D:min7 F:maj | G:maj | (2/4) G:maj C:maj | F:maj |
+114.038866213	| C:7 | C:7 |
+120.005011337	D, bridge, | G:maj . . C:maj | D:maj . . C:maj | G:maj . . C:maj |
+129.014875283	| A:7 | A:7 |
+135.175691609	| A:7 | E:7 | B:maj F#:maj | C#:maj . . B:maj |, (voice
+147.282358276	| A:7 | E:7 | B:maj F#:maj | C#:maj . . B:maj |, voice)
+159.192743764	E, outro, | A:maj E:maj | B:7 | x2
+171.228208616	| A:maj E:maj | B:7 | x2
+182.973424036	| A:maj E:maj | B:7 | x2
+194.682811791	| A:maj E:maj | B:7 | x2
+206.592675736	| A:maj E:maj | B:7 | x2
+218.390453514	| A:maj E:maj | B:7 | x2
+230.321836734	fadeout, | A:maj E:maj | B:7 | x2
+242.160090702	| A:maj E:maj | B:7 | x2
+251.773968253	silence
+253.910204081	end

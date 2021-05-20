@@ -1,0 +1,17 @@
+# title: Oh Me, Oh My (Dreams In My Arms)
+# artist: Al Green
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.592108843	A, intro, | F:maj | Bb:maj | G:min | A:7 |, (horns)
+10.570884353	B, verse, | F:maj | Bb:maj/5 | A:min | A:min | Bb:maj | G:min | A:7 | A:7 |, (voice
+30.439229024	| F:maj | Bb:maj/5 | A:min | A:min | Bb:maj | G:min | A:7 | A:7 |
+50.358276643	C, chorus, | F:maj | D:7 | Bb:maj | Eb:9 | E:7 | E:7 | Ab:min | Db:7 | C:7(11) | C:7(11) |, voice)
+75.10494331	D, instrumental, | F:maj | G:min | A:min | Bb:maj | A:min | Ab:dim | G:min | C:7 |, (horns)
+94.870929705	C, chorus, | F:maj | D:7 | Bb:maj | Eb:9 | E:7 | E:7 | Ab:min7 | Db:7 | C:7(11) | C:7(11) |, (voice
+119.611791383	C', outro, | F:maj | D:7 | Bb:maj | Eb:9 | E:7 | E:7 |, (horns 
+134.478367346	| F:maj | D:7 | Bb:maj | Eb:9 | E:7 | C:7 |
+149.362358276	| F:maj | D:7 | Bb:maj | Eb:9 | E:7 | C:7 |, horns), voice), fadeout 
+162.959909297	silence
+166.643265306	end

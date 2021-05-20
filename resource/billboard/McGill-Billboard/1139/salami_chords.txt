@@ -1,0 +1,31 @@
+# title: Are You Sure Hank Done It This Way
+# artist: Waylon Jennings
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+4.0816326e-2	A, intro, | B:maj | E:maj | B:maj | E:maj |, (guitar
+8.830204081	| B:maj | E:maj | B:maj | E:maj |, guitar)
+17.579546485	A, verse, | B:maj | E:maj | B:maj | E:maj |, (voice
+26.18664399	| B:maj | E:maj | B:maj | E:maj |, voice)
+34.742494331	B, trans, | B:maj | E:maj | B:maj | E:maj |, (guitar)
+43.292199546	A, verse, | B:maj | E:maj | B:maj | E:maj |, (voice
+51.951247165	| B:maj | E:maj |
+56.192086167	C, chorus, | B:maj | E:maj | B:maj | E:maj |, voice)
+64.668548752	A, solo, | B:maj | E:maj | B:maj | E:maj |, (guitar
+73.242040816	| B:maj | E:maj |
+77.415328798	| B:maj | E:maj | B:maj | E:maj |, guitar)
+86.042562358	A, verse, | B:maj | E:maj | B:maj | E:maj |, (voice
+94.443492063	| B:maj | E:maj |
+98.617732426	C, chorus, | B:maj | E:maj | B:maj | E:maj |, voice)
+107.089818594	B, trans, | B:maj | E:maj |, (guitar)
+111.29941043	A, verse, | B:maj | E:maj | B:maj | E:maj |, (voice
+119.652108843	| B:maj | E:maj |
+123.830498866	C, chorus, | B:maj | E:maj | B:maj | E:maj |, voice)
+132.254988662	A, outro, | B:maj | E:maj | B:maj | E:maj |, (guitar
+140.71095238	| B:maj | E:maj | B:maj | E:maj |
+149.114557823	| B:maj | E:maj | B:maj | E:maj |
+157.508888888	fadeout, | B:maj | E:maj | B:maj | E:maj |
+165.991292517	| B:maj | E:maj | B:maj | E:maj |, guitar)
+171.804444444	silence
+176.431020408	end

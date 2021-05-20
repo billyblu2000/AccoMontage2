@@ -1,0 +1,37 @@
+# title: Lady (You Bring Me Up)
+# artist: Commodores
+# tonic: C
+# metre: 4/4
+
+0.000000000	silence
+0.487619047	A, intro, | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . G:7 |, (synth
+8.515986394	| C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | Ab:maj7 G:min7 F:min7 . | F:maj/9 F:min7 . . | F:min7 |
+18.451972789	A, chorus, | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . G:7/3 |, (voice
+26.387868480	| C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | Ab:maj7 G:min7 F:min7 . | F:maj/9 F:min7 . . | F:min7 |
+36.301859410	B, verse, | C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 . . |
+44.252018140	| C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 Eb:maj F:maj |
+52.204693877	| C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 . . |
+60.140158730	| C:min7 Bb:maj . . | F:min7 G:min7 . . | Ab:maj7 G:min7 F:min7 . | F:maj/9 F:min7 . . | F:min7 |, voice)
+70.060022675	C, interlude, | Ab:maj7 G:min7 F:min7 . | F:maj/9 F:min7 . . | F:min7 |, (synth)
+76.084081632	A, chorus, | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . G:7/3 |, (voice
+83.924058956	| C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | Ab:maj7 G:min7 F:min7 . | F:maj/9 F:min7 . . | F:min7 |
+93.836575963	B, verse, | C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 . . |
+101.852040816	| C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 Eb:maj F:maj |
+109.755986394	| C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 . . |
+117.707981859	| C:min7 Bb:maj . . | F:min7 G:min7 . . | Ab:maj7 G:min7 F:min7 . | F:maj/9 F:min7 . . |
+125.668049886	A, chorus, | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . G:7/3 |
+133.579773242	| C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | Ab:maj7 G:min7 F:min7 . | F:maj/9 F:min7 . . | F:min7 |
+141.523809523	D, bridge, | Ab:maj7 | Bb:maj/b7 | Ab:hdim7 | C:min7 |
+149.477573696	| Ab:maj7 | Bb:maj/b7 | Ab:hdim7 | C:min7 |
+157.420022675	| Ab:maj7 | Bb:maj/b7 | Ab:hdim7 | C:min7 |
+165.284036281	| F:min7 | Bb:maj/b7 |
+169.342857142	A, chorus, | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . G:7/3 |
+177.251950113	| C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . . | C:min7 Bb:maj Ab:maj7 . | G:min7 F:min7 . G:7/3 |
+185.180045351	| C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 . . |, voice)
+193.156598639	A, outro, | C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 Eb:maj F:maj |, (synth
+201.004875283	| C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 . . |
+208.956712018	| C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 Eb:maj F:maj |
+216.885079365	| C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 . . |
+224.876893424	fadeout, | C:min7 Bb:maj . . | F:min7 G:min7 . . | C:min7 Bb:maj . . | F:min7 G:min7 Eb:maj F:maj |, synth)
+238.261224489	silence
+241.307482993	end

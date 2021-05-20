@@ -1,0 +1,22 @@
+# title: Oh Me Oh My (I'm A Fool For You Baby)
+# artist: Aretha Franklin
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.255419501	A, intro, | F:sus4(b7,9) | Bb:maj7 | F:sus4(b7,9) | Bb:maj7 |, (piano)
+17.511088435	B, verse, | F:sus4(b7,9) F:7 | Bb:maj9 . C:min7 Bb:maj(9)/3 | Eb:maj6(7) F:7 | Bb:maj7 . C:min7(11) Bb:7/3 |, (voice
+35.251405895	| Eb:maj F:7 | Bb:maj/3 G:min7 | Gb:maj | F:sus4(b7,9) F:7 |
+52.543106575	B', verse, | F:sus4(b7,9) F:7 | Bb:maj9 . C:min7 Bb:maj(9)/3 | Eb:maj7 F:7 | Bb:maj7 . C:min7 Bb:7/3 |
+69.917891156	| Eb:maj7 F:7 | Bb:maj7 D:min7 G:min7 . | Gb:maj | F:sus4(b7,9) |
+86.99755102	C, chorus, | Eb:maj F:7 | Bb:maj D:min7 G:min7 . | Eb:maj F:7 | Bb:maj D:min7 G:min7 . |
+103.122380952	| Eb:maj F:7 | Bb:maj D:min7 G:min7 . | Gb:maj | F:sus4(b7,9) |
+119.291882086	B', verse, | F:sus4(b7,9) F:7 | Bb:maj7 . C:min7 Bb:maj/3 | Eb:maj7 F:7 | Bb:maj7 . C:min7 Bb:7/3 |
+136.27770975	| Eb:maj7 F:7 | Bb:maj7 D:min7 G:min7 . | Gb:maj | F:sus4(b7,9) |
+153.127414965	C', chorus, | Eb:maj F:7 | Bb:maj D:min7 G:min7 . | Eb:maj F:7 | Bb:maj D:min7 G:min7 . |
+169.20510204	| Eb:maj F:7 | Bb:maj D:min7 G:min7 . | Gb:maj | F:sus4(b7,9) |
+185.191315192	| Gb:maj | F:sus4(b7,9) |
+192.910453514	| Gb:maj | F:sus4(b7,9) |
+200.566961451	C, chorus, fadeout, | Eb:maj F:7 | Bb:maj D:min7 G:min7 . | Eb:maj F:7 | Bb:maj D:min7 G:min7 . |, voice)
+218.500839002	silence
+221.657845804	end

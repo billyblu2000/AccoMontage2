@@ -1,0 +1,41 @@
+# title: If you love somebody set them free
+# artist: Sting
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.348299319	A, intro, | D:min | D:min | D:min | D:min |
+8.161269841	| D:min | D:min | D:min | D:min |
+15.745986394	B, verse, | D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |, (voice
+23.477936507	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+31.165351473	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+38.831791383	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+46.490068027	C, chorus, | B:min | B:min | G:11 | G:11 |
+54.203129251	| B:min | B:min | G:11 | D:min7/5 |
+61.814195011	B, | D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+69.576371882	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+77.194807256	B, verse, | D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+84.899501133	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+92.605419501	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+100.287845804	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+107.956258503	C, chorus, | B:min | B:min | G:11 | G:11 |
+115.579727891	| B:min | B:min | G:11 | D:min7/5 |
+123.285963718	B, | D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+130.985442176	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+138.636553287	D, bridge, | G:min11 | F:maj(9) | C:maj/3 | C:maj |
+146.325011337	| G:min11 | F:maj(9) | C:maj/3 | C:maj |
+153.970521541	| G:min11 | F:maj(9) | C:maj/3 | C:maj |
+161.653605442	| G:min11 | F:maj(9) | C:maj/3 | C:maj |
+169.314557823	B, verse, | D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+177.079206349	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+184.727165532	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+192.422743764	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+200.082743764	C, chorus, | B:min | B:min | G:11 | G:11 |
+207.732154195	| B:min | B:min | G:11 | D:min7/5 |
+215.392108843	B, | D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+223.074421768	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+230.76526077	outro, | D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |, fadeout
+238.421360544	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |
+246.16371882	| D:min7 | D:min7/5 . G:maj/9 G:maj | D:min | D:min7/5 . G:maj/9 G:maj |, voice)
+253.487278911	silence
+255.843265306	end

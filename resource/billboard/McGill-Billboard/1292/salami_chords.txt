@@ -1,0 +1,25 @@
+# title: He's So Fine
+# artist: The Chiffons
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.394739229	A', intro, | A:min7 | D:maj | A:min7 | D:maj |
+6.780226757	A, verse, | A:min7 | D:maj | A:min7 | D:maj |, (voice
+13.531519274	| A:min7 | D:maj | A:min7 | D:maj |
+20.178231292	| G:maj | G:maj | G:maj | G:maj |
+26.799455782	| G:maj | G:maj | G:maj | G:maj |
+33.483174603	A, verse, | A:min7 | D:maj | A:min7 | D:maj |
+40.213537414	| A:min7 | D:maj | A:min7 | D:maj |
+46.82510204	| G:maj | G:maj | G:maj | G:maj |
+53.356145124	| G:maj | G:maj | G:maj | G:maj |
+59.91324263	B, bridge, | C:maj | C:maj | C:maj | C:maj |
+66.553786848	| G:maj | G:maj | G:maj | G:maj |
+73.162312925	| C:maj | C:maj | C:maj | C:maj |
+79.720907029	| D:7 | D:7 | D:7 | D:7 |
+86.392811791	A, verse, | A:min7 | D:maj | A:min7 | D:maj |
+93.007482993	| A:min7 | D:maj | A:min7 | D:maj |
+99.579931972	fadeout, | G:maj | E:min | G:maj | E:min |
+106.10723356	| G:maj | E:min | G:maj | E:min |, voice)
+110.6430839	silence
+115.644081632	end

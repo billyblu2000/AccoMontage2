@@ -1,0 +1,28 @@
+# title: Take Me Down
+# artist: Alabama
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.264126984	A, intro, | C:maj | C:maj | F:maj/5 | F:maj/5 |, (electric guitar
+10.596984126	| C:maj6 | C:maj | F:maj(9)/5 | F:maj6/5 F:maj/5 |, electric guitar)
+20.815555555	B, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+30.966462585	| G:maj | D:min7 | C:maj | C:maj . . G:sus4(b7,9) |
+41.199795918	| C:maj | C:maj . . G:sus4(b7,9) | C:maj | C:maj |
+51.46802721	| G:maj | D:min7 | C:maj | C:maj . . B:1 |
+61.673968253	C, chorus, | A:min | D:min | A:min | D:min E:min F:maj G:sus4(b7,9) |
+71.871088435	| C:maj G:maj/3 | A:min E:min | F:maj | F:maj7 F:maj6 |, voice)
+82.385374149	A, interlude, | C:maj | C:maj | F:maj(9)/5 | F:maj6/5 F:maj/5 |, (electric guitar)
+92.570408163	B, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+102.832086167	| G:maj | D:min7 | C:maj | C:maj . . G:sus4(b7,9) |
+113.079637188	| C:maj | C:maj . . G:sus4(b7,9) | C:maj | C:maj |
+123.376916099	| G:maj | D:min7 | C:maj | C:maj |
+133.456757369	D, bridge, | F:maj7 F:maj6 | F:maj7 F:maj6 | C:maj | C:maj |
+143.495827664	| F:maj7 F:maj6 | F:maj7 F:maj6 | D:min7 | E:maj |
+153.662380952	C, chorus, | A:min | D:min | A:min | D:min E:min F:maj G:sus4(b7,9) |
+163.869342403	| C:maj G:maj/3 | A:min E:min | F:maj | F:maj7 F:maj6 |
+174.104988662	A, outro, | C:maj | G:maj/11 | F:maj7 | F:maj7 |
+184.289433106	| C:maj | G:maj/11 | F:maj7 | F:maj7 | x2
+204.677573696	| C:maj | G:maj/11 | F:maj7 | F:maj7 | x2, fadeout, voice)
+223.064807256	silence
+223.973877551	end

@@ -1,0 +1,24 @@
+# title: When Will I Be Loved
+# artist: Linda Ronstadt
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+0.557278911	A, chorus, | E:maj | E:maj | E:maj | E:maj |, (voice
+8.328798185	| E:maj | A:maj/5 B:maj/11 | E:maj | A:maj B:maj |
+15.650249433	| E:maj | A:maj B:maj | E:maj | A:maj B:maj |
+22.968163265	| E:maj | A:maj B:maj | E:maj | E:maj |
+30.162857142	B, verse, | A:maj(9) | B:maj | A:maj(9) | E:maj |
+37.422471655	| A:maj(9) | B:maj | Db:min7 | B:maj | B:maj |
+46.516689342	A, chorus, | E:maj | A:maj B:maj | E:maj | A:maj B:maj |
+53.689092970	| E:maj | A:maj B:maj | E:maj | E:maj |, voice)
+60.821700680	| E:maj | A:maj B:maj | E:maj | A:maj B:maj |, (guitar
+68.093061224	| E:maj | A:maj B:maj | E:maj | E:maj |, guitar)
+75.252925170	B, verse, | A:maj(9) | B:maj | A:maj(9) | E:maj |, (voice
+82.501315192	| A:maj(9) | B:maj | Db:min7 | B:maj | B:maj |
+91.491201814	A, chorus, | E:maj | A:maj B:maj | E:maj | A:maj B:maj |
+98.638435374	| E:maj | A:maj B:maj | E:maj | A:maj B:maj |
+105.796235827	| E:maj | A:maj B:maj | E:maj | A:maj B:maj |
+112.879047619	| E:maj | A:maj/5 B:maj/11 | A:maj/5 | &pause | E:maj |, voice)
+124.633106575	silence
+124.917551020	end

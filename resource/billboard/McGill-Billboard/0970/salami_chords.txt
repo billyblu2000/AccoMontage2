@@ -1,0 +1,45 @@
+# title: Modern Love
+# artist: David Bowie
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.812698412	A, intro, | N | N | N | N |, (guitar)
+8.753378684	| N | N | N | N |, (drums)
+16.562811791	| D:maj/9 E:min | E:min | D:maj/b7 C:maj | C:maj |, (keyboard
+21.923106575	| C:maj/9 D:sus4 | D:sus4 | D:maj/9 E:min | E:min |, keyboard)
+27.376530612	B, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+32.706848072	| G:maj | G:maj | A:min7 | A:min |
+38.106689342	| E:7 | E:7 | F:maj | F:maj |
+43.378843537	refrain, | C:maj | C:maj | G:maj | G:maj | E:min7 E:min | E:min |
+51.387301587	B, verse, | C:maj | C:maj | C:maj | C:maj |
+56.771247165	| G:maj | G:maj | A:min7 | A:min |
+61.986598639	| E:7 | E:7 | F:maj | F:maj |
+67.339138321	refrain, | C:maj | C:maj | G:maj | G:maj | E:min7 E:min | E:min |
+75.304625850	C, chorus, | C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+85.827074829	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+96.338752834	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |, voice)
+106.882834467	A, interlude, | D:maj/9 E:min | E:min | D:maj/b7 C:maj | C:maj |, (keyboard
+112.187732426	| C:maj/9 D:sus4 | D:sus4 | D:maj/9 E:min | E:min |, keyboard)
+117.491043083	B, solo, | C:maj | C:maj | C:maj | C:maj |, (saxophone
+122.787392290	| G:maj | G:maj | A:min7 | A:min |
+128.053401360	| E:7 | E:7 | F:maj | F:maj |
+133.275306122	| C:maj | C:maj | G:maj | G:maj | E:min7 E:min | E:min |, saxophone)
+141.188435374	B, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+146.437891156	| G:maj | G:maj | A:min7 | A:min |
+151.612811791	| E:7 | E:7 | F:maj | F:maj |
+156.826734693	refrain, | C:maj | C:maj | G:maj | G:maj | E:min7 E:min | E:min |
+164.650884353	C, chorus, | C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+174.946643990	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+185.274739229	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+195.522857142	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+205.855963718	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+216.122653061	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+226.411269841	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |, (saxophone
+236.653990929	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+246.874988662	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+257.059002267	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+267.350022675	fadeout, | C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj | F:maj |
+277.603106575	| C:maj | C:maj | D:maj | D:maj | E:min | E:min | F:maj |, voice), saxophone)
+286.051065759	silence
+288.635102040	end

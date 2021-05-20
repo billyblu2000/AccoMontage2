@@ -1,0 +1,36 @@
+# title: Lookin' for Love 
+# artist: Johnny Lee
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.534058956	A, intro, | E:min | F#:min | G:maj | A:maj |, (guitar
+8.430634920	| E:min | F#:min | G:maj | A:maj | A:maj |, guitar)
+18.068684807	B, verse, | G:maj | G:maj | D:maj | D:maj |, (voice
+25.802879818	| G:maj | D:maj | A:maj | A:maj |
+33.472063492	| G:maj | G:maj | D:maj | D:maj |
+41.199206349	| G:maj | D:maj | A:maj A:maj/b7 | A:maj/13 A:maj/5 |
+48.891020408	C, chorus, | D:maj | D:maj | F#:min | F#:min |
+56.597732426	| G:maj | G:maj | E:min F#:maj | G:maj A:maj |
+64.289092970	| D:maj | D:maj | F#:min | F#:min |
+72.105827664	| G:maj | E:min A:maj6 | D:maj | D:maj |
+79.772448979	B, verse, | G:maj | G:maj | D:maj | D:maj |
+87.467324263	| G:maj | D:maj | A:maj | A:maj |
+95.163718820	| G:maj | G:maj | D:maj | D:maj |
+102.880589569	| G:maj | D:maj | A:maj A:maj/b7 | A:maj/13 A:maj/5 |
+110.581111111	C, chorus, | D:maj | D:maj | F#:min | F#:min |
+118.288798185	| G:maj | G:maj | E:min F#:maj | G:maj A:maj |
+125.962653061	| D:maj | D:maj | F#:min | F#:min |
+133.689659863	| G:maj | E:min A:maj6 | D:maj | D:maj |
+141.379387755	D, bridge, | G:maj | G:maj | E:min F#:min | G:maj A:maj | A:maj | (2/4) A:maj |
+151.992879818	C, chorus, | D:maj | D:maj | F#:min | F#:min |
+159.715374149	| G:maj | G:maj | E:min F#:maj | G:maj A:maj |
+167.400589569	| D:maj | D:maj | F#:min | F#:min |
+175.161746031	| G:maj | E:min A:maj6 |
+179.030385487	C, chorus, | D:maj | D:maj | F#:min | F#:min |
+186.710544217	| G:maj | G:maj | E:min F#:maj | G:maj A:maj |
+194.390566893	fadeout, | D:maj | D:maj | F#:min | F#:min |
+202.111995464	| G:maj | E:min A:maj6 |
+205.908752834	| D:maj | D:maj |, voice)
+208.491972789	silence
+212.035918367	end

@@ -1,0 +1,33 @@
+# title: Old Time Rock & Roll
+# artist: Bob Seger
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.278639455	A, intro, | F#:maj | C#:maj | F#:maj | C#:maj |, (piano)
+8.146371882	B, verse, | F#:maj | F#:maj | B:maj | B:maj |, (voice
+15.907097505	| C#:maj | C#:maj | F#:maj | F#:maj |
+23.630589569	| F#:maj | F#:maj | B:maj | B:maj |
+31.380929705	| C#:maj | C#:maj | F#:maj | C#:maj |
+39.084603174	C, chorus, | F#:maj | F#:maj | B:maj | B:maj |
+46.802562358	| C#:maj | C#:maj | F#:maj | C#:maj |, voice)
+54.441814058	B, solo, | F#:maj | F#:maj | B:maj | B:maj |, (guitar
+62.183968253	| C#:maj | C#:maj | F#:maj | C#:maj |, guitar)
+69.818140589	B, verse, | F#:maj | F#:maj | B:maj | B:maj |, (voice
+77.647210884	| C#:maj | C#:maj | F#:maj | F#:maj |
+85.36956916	| F#:maj | F#:maj | B:maj | B:maj |
+93.11217687	| C#:maj | C#:maj | F#:maj | C#:maj |
+100.781133786	C, chorus, | F#:maj | F#:maj | B:maj | B:maj |
+108.5130839	| C#:maj | C#:maj | F#:maj | C#:maj |, voice)
+116.172970521	B, solo, | F#:maj | F#:maj | B:maj | B:maj |, (saxophone
+123.910362811	| C#:maj | C#:maj | F#:maj | C#:maj |, saxophone)
+131.57430839	C, chorus, | F#:maj | F#:maj | B:maj | B:maj |, (voice
+139.378911564	| C#:maj | C#:maj | F#:maj | C#:maj |
+147.048820861	C', chorus, | N | N | N | N |
+154.852675736	| N | N | N | C#:maj |
+162.585419501	C, chorus, | F#:maj | F#:maj | B:maj | B:maj |
+170.447641723	| C#:maj | C#:maj | F#:maj | C#:maj |
+178.219546485	fadeout, | F#:maj | F#:maj | B:maj | B:maj |, voice)
+185.9261678	| C#:maj | C#:maj | F#:maj | C#:maj |, (guitar)
+190.844807256	silence
+194.821224489	end

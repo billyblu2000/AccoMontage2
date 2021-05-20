@@ -1,0 +1,37 @@
+# title: Nightshift
+# artist: The Commodores
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.60371882	A, intro, | N | N | N | N |, (drums)
+9.774875283	B, instrumental, | Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |, (synthesizer
+18.948662131	| Db:maj(9) | Db:maj(9) | Ab:maj | Ab:maj Eb:maj |, synthesizer)
+28.078412698	B, verse, | Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |, (voice
+37.242290249	| Db:maj | Db:maj | Eb:maj | Eb:maj |
+46.345124716	| Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |
+55.509591836	| Db:maj(9) | Db:maj(9) | Eb:maj | Eb:maj |
+64.659024943	C, pre-chorus, | F:min | Bb:min | Eb:maj | Eb:maj |
+73.807641723	| F:min | Bb:min | Db:maj7 | Db:maj7 |
+82.951473922	D, chorus, | Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |
+92.034104308	| Db:maj | Db:maj | Ab:maj | Ab:maj Eb:maj |
+101.217981859	| Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |
+110.35739229	| Db:maj | Eb:maj | Ab:maj | F:min |
+119.506734693	| Db:maj | Eb:maj |, voice)
+124.058140589	B', instrumental, | Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |, (synthesizer)
+133.227142857	B, verse, | Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |, (voice
+142.353197278	| Db:maj(9) | Db:maj(9) | Eb:maj | Eb:maj |
+151.496598639	| Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |
+160.64095238	| Db:maj(9) | Db:maj(9) | Eb:maj | Eb:maj |
+169.768412698	C, pre-chorus, | F:min | Bb:min | Eb:maj | Eb:maj |
+178.912494331	| F:min | Bb:min | Db:maj7 | Ab:maj |
+188.123287981	D, chorus, | Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |
+197.195600907	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+206.315328798	| Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |
+215.463741496	| Db:maj | Eb:maj | F:min | ->
+222.326757369	D, chorus, | Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |
+231.413809523	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+240.562312925	fadeout, | Ab:maj | F:min Db:maj | Eb:maj | Eb:maj |
+249.722607709	| Db:maj | Db:maj | Ab:maj | Ab:maj Eb:maj | Ab:maj |, voice)
+259.761632653	silence
+265.273469387	end

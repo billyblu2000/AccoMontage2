@@ -1,0 +1,52 @@
+# title: Lucille
+# artist: Kenny Rogers
+# metre: 3/4
+# tonic: Bb
+
+0.0	silence
+0.60371882	A, intro, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (guitar
+5.828208616	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |, guitar)
+10.880204081	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+16.001111111	| Bb:maj | Bb:maj | F:7 | F:7 |
+21.088979591	| C:min | C:min | F:7 | F:7 |
+26.087278911	| C:min | F:7 | Bb:maj | Bb:maj |
+31.210589569	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+36.204285714	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+41.29095238	| F:7 | F:7 | F:7 | F:7 |
+46.351201814	| F:7 | F:7 | F:7 | Bb:maj | Bb:maj |
+52.730997732	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+57.836802721	| Bb:maj | Bb:maj | F:7 | F:7 |
+62.836462585	| C:min | C:min | F:7 | F:7 |
+67.921587301	| C:min | F:7 | Bb:maj | Bb:maj |
+72.927052154	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+77.922517006	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+82.964897959	| F:7 | F:7 | F:7 | F:7 |
+87.978730158	| F:7 | F:7 | Bb:maj | Bb:maj |
+93.019387755	C, chorus, | N | N | Eb:maj | Eb:maj |
+98.189206349	| Eb:maj | Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+104.54494331	| Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+109.67031746	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+114.712766439	| F:7 | F:7 | Bb:maj | Bb:maj |, voice)
+119.771043083	A', trans, | C:maj | C:maj |, (guitar)
+# tonic: C
+122.272403628	B, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+127.361451247	| C:maj | C:maj | G:7 | G:7 |
+132.393900226	| D:min | D:min | G:7 | G:7 |
+137.415691609	| D:min | G:7 | C:maj | C:maj |
+142.48095238	| C:maj | C:maj | C:maj | C:maj |
+147.539591836	| C:maj | C:7 | F:maj | F:maj |
+152.49340136	| G:7 | G:7 | G:7 | G:7 |
+157.524172335	| G:7 | G:7 | N | N |
+162.570045351	C, chorus, | N | N | F:maj | F:maj |
+167.678185941	| F:maj | F:maj | F:maj | C:maj | C:maj |
+174.066553287	| F:maj | F:maj | F:maj | F:maj |
+179.176507936	| F:maj | F:maj | C:maj | C:maj |
+184.171814058	| G:7 | G:7 | C:maj | C:maj |
+189.169115646	C, chorus, | N | N | F:maj | F:maj |
+194.327800453	| F:maj | F:maj | F:maj | C:maj | C:maj |
+200.603197278	fadeout, | F:maj | F:maj | F:maj | F:maj |
+205.682358276	| F:maj | F:maj | C:maj | C:maj |
+210.714195011	| G:7 | G:7 | C:maj | C:maj |
+215.757460317	| N | N |, voice)
+217.64063492	silence
+222.902857142	end

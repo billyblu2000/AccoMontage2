@@ -1,0 +1,37 @@
+# title: Years Ago
+# artist: George Harrison
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | D:maj | D:maj | D:maj | D:maj |, (guitar)
+8.547074829	B, verse, | D:maj | D:maj | E:min | E:dim7 G:dim7 |, (voice
+16.207528344	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+23.907845804	| D:maj | D:maj | E:min | E:dim7 G:dim7 |
+31.532698412	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+39.231723356	C, chorus, | A:maj D:maj | E:min | A:7 | D:maj |
+46.989886621	| A:maj D:maj | E:min | A:maj | A:aug |
+54.559818594	B, verse, | D:maj | D:maj | E:min | E:dim7 G:dim7 |
+62.126802721	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+69.781043083	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |, voice)
+77.404965986	A, trans, | D:maj | D:maj | D:maj | D:maj |, (guitar
+84.961814058	B, solo, | D:maj | D:maj | E:min | E:dim7 G:dim7 |
+92.53430839	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+100.169319727	| D:maj | D:maj | E:min | E:dim7 G:dim7 |
+107.786553287	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |, guitar)
+115.451428571	C, chorus, | A:maj D:maj | E:min | A:maj | D:maj |, (voice
+123.126145124	| A:maj D:maj | E:min | A:maj | A:aug |
+130.693038548	B, verse, | D:maj | D:maj | E:min | E:dim G:dim |
+138.275873015	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+145.925328798	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+153.615759637	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min | A:maj |
+163.265646258	B, instrumental, | D:maj | D:maj | E:min | E:dim7 G:dim7 |, (synthesizer
+170.915283446	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+178.443832199	| D:maj | D:maj | E:min | E:dim7 G:dim7 |
+186.047845804	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+193.791088435	B, fadeout, | D:maj | D:maj | E:min | E:dim7 G:dim7 |
+201.388752834	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |
+209.058684807	| D:maj | D:maj | E:min | E:dim7 G:dim7 |
+216.594399092	| D:maj F#:min | E:min G:min | D:maj B:maj | E:min |, synthesizer)
+222.772244897	silence
+227.369795918	end

@@ -1,0 +1,36 @@
+# title: Blow Away
+# artist: George Harrison
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.301859410	A, intro, | D:maj | B:min7 | F#:min7 | A:sus4(b7) A:maj |, (guitar
+8.962902494	| D:maj | B:min7 | F#:min7 | A:sus4(b7) A:maj | A:sus4(b7) |, guitar)
+19.341882086	B, verse, | D:maj | B:min7 | F#:min7 | A:sus4(b7) A:maj |, (voice
+27.693514739	| D:maj | B:min7 | F#:min7 | A:sus4(b7) A:maj | A:sus4(b7) |
+38.044217687	C, chorus, | D:maj B:min | F#:min . A:sus4(b7) A:7 | D:maj B:min | C:maj . . G:maj |
+46.354875283	| F#:min7 B:min | F#:min A:7 | F:maj C:maj | A:sus4(b7) A:maj |
+54.669319727	| D:maj B:min | F#:min . A:sus4(b7) A:7 | D:maj B:min | C:maj . . G:maj |
+62.947482993	| F#:min7 B:min | F#:min A:7 | F:maj C:maj | G:maj C:maj |, voice)
+71.338049886	D, interlude, | F:maj C:maj | A:sus4(b7) | A:sus4(b7) |, (guitar)
+77.708163265	B, verse, | D:maj | B:min7 | F#:min7 | A:sus4(b7) A:maj |, (voice
+86.262131519	| D:maj | B:min7 | F#:min7 | A:sus4(b7) A:maj | A:sus4(b7) |
+96.681428571	C, chorus, | D:maj B:min | F#:min . A:sus4(b7) A:7 | D:maj B:min | C:maj . . G:maj |
+105.080294784	| F#:min7 B:min | F#:min A:7 | F:maj C:maj | A:sus4(b7) A:maj |
+113.483424036	| D:maj B:min | F#:min . A:sus4(b7) A:7 | D:maj B:min | C:maj . . G:maj |
+121.685034013	| F#:min7 B:min | F#:min A:7 | F:maj C:maj | G:maj C:maj |, voice)
+130.062040816	D, interlude, | F:maj C:maj | A:sus4(b7) | A:sus4(b7) |, (guitar)
+136.489886621	B, verse, | D:maj | B:min7 | F#:min7 | A:sus4(b7) A:maj |, (voice
+144.819206349	| D:maj | B:min7 | F#:min7 | A:sus4(b7) A:maj | A:sus4(b7) |
+155.300861678	C, chorus, | D:maj B:min | F#:min . A:sus4(b7) A:7 | D:maj B:min | C:maj . . G:maj |
+163.697664399	| F#:min7 B:min | F#:min A:7 | F:maj C:maj | A:sus4(b7) A:maj |
+172.023764172	| D:maj B:min | F#:min . A:sus4(b7) A:7 | D:maj B:min | C:maj . . G:maj |
+180.295396825	| F#:min7 B:min | F#:min A:7 | F:maj C:maj | G:maj C:maj |, voice)
+188.643174603	D, interlude, | F:maj C:maj | A:sus4(b7) | A:sus4(b7) |, (guitar
+194.956235827	C, solo, | D:maj B:min | F#:min . A:sus4(b7) A:7 | D:maj B:min | C:maj . . G:maj |, guitar)
+203.335918367	C', chorus, | F#:min7 B:min | F#:min A:7 | F:maj C:maj | A:sus4(b7) A:maj |, (voice
+211.626666666	| D:maj B:min | F#:min . A:sus4(b7) A:7 | D:maj B:min | C:maj . . G:maj |
+219.845487528	| F#:min7 B:min | F#:min A:7 | F:maj C:maj | G:maj C:maj |, voice)
+228.254081632	D, outro, | F:maj C:maj | A:sus4(b7) | A:sus4(b7) |, (guitar)
+237.707845804	silence
+240.718367346	end

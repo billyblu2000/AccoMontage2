@@ -1,0 +1,30 @@
+# title: Best Thing That Ever Happened To Me
+# artist: Gladys Knight & The Pips
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.232199546	A, intro, | A:maj A:maj/7 | A:maj/b7 A:maj/13 | D:maj7 D:min6/9 | A:maj7 |
+12.328752834	B, verse, | A:maj7 | A:maj7 | B:min7 | B:min7 |, (voice
+23.127074829	| E:sus4 | E:7 | A:maj7 | A:7 |
+33.715374149	| D:maj7 | E:sus4(b7) E:7 | A:maj7 | A:maj7 |
+44.280453514	| F#:min F#:min/7 | F#:min/b7 B:9 | E:sus4(b7,9) | E:7 |
+54.822312925	C, chorus, | A:maj7 | A:7 | D:maj7 | D:maj7 |
+65.220453514	| B:min7 | E:7 | A:maj7 | A:7 |
+75.5392517	| D:maj7 | E:7 | A:maj7 | D:maj7 |
+85.857301587	| B:min7 | E:7 | A:maj7 | D:maj7 |
+96.113650793	| B:min7 | E:7 |, voice)
+101.205056689	D, trans, | A:maj7 | B:min/b7 | A:maj7 | F#:sus4(b7) F#:7 |, (strings)
+111.343922902	B, verse, | B:maj7 | B:maj7 | C#:min7 | C#:min7 |, (voice
+121.643174603	| F#:sus4 | F#:7 | B:maj7 | B:7 |
+131.720839002	| E:maj7 | F#:sus4(b7) F#:7 | B:maj7 | B:maj7 |
+141.818140589	| G#:min G#:min/7 | G#:min/bb7 C#:9 | F#:sus4(b7,9) | F#:7 |
+151.995238095	C, chorus, | B:maj7 | B:7 | E:maj7 | E:maj7 |
+162.121723356	| C#:min7 | F#:7 | B:maj7 | B:7 |
+172.30941043	| E:maj7 | F#:7 | B:maj7 | E:maj7 |
+182.482471655	| C#:min7 | F#:7 | B:maj7 | E:maj7 |
+192.5161678	| C#:min7 | F#:7 | B:maj7 | E:maj7 |
+202.569886621	| C#:min7 | &pause | F#:7 | &pause |, voice)
+209.118911564	A, coda, | B:maj B:maj/7 | B:maj/b7 B:maj/13 | E:maj7 E:min6/9 | B:maj7 | &pause |
+222.354285714	silence
+227.369795918	end

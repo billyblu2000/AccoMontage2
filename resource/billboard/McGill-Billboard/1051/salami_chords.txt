@@ -1,0 +1,30 @@
+# title: My Kinda Lover
+# artist: Billy Squier
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.278639455	A, intro, | C:maj | C:maj |, (guitar)
+5.499501133	B, verse, | C:maj | C:maj | G:maj | G:maj |, (voice
+15.818956916	| C:maj | C:maj | G:maj | G:maj |
+26.084331065	C, pre-chorus, | A:min | F:maj G:maj | A:min | F:maj G:maj |
+36.154013605	D, chorus, | A:min | F:maj | G:maj | A:min |
+45.8930839	| A:min | F:maj | G:maj |, voice)
+53.285963718	| A:min | A:min |, (drums)
+58.394875283	B, verse, | C:maj | C:maj | G:maj | G:maj |, (voice
+68.501950113	| C:maj | C:maj | G:maj | G:maj |
+78.648412698	C, pre-chorus, | A:min | F:maj G:maj | A:min | F:maj G:maj |
+88.531678004	D, chorus, | A:min | F:maj | G:maj | A:min |
+98.442244897	| A:min | F:maj | G:maj | A:min |
+108.370090702	E, bridge, | G:maj | F:maj/9 | G:maj | F:maj/9 |
+118.424240362	| G:maj | F:maj/9 | G:maj | F:maj/9 | F:maj |
+131.053741496	B, verse, | C:maj | C:maj | G:maj | G:maj |
+141.095306122	| C:maj | C:maj | G:maj | G:maj |
+151.178367346	C, pre-chorus, | A:min | F:maj G:maj | A:min | F:maj G:maj |
+161.083151927	D, chorus, | A:min | F:maj | G:maj | A:min |
+170.981587301	| A:min | F:maj | G:maj | A:min |
+180.724875283	D, chorus, | A:min | F:maj | G:maj | A:min |
+190.45786848	fadeout, | A:min | F:maj | G:maj | A:min |
+200.17095238	| A:min | F:maj | G:maj | A:min |, voice)
+208.886712018	silence
+211.173877551	end

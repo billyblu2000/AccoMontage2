@@ -1,0 +1,21 @@
+# title: Dum Dum
+# artist: Brenda Lee
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.565986394	A, intro, | Db:7 | Gb:7 | Db:7 | Ab:7 |, (hammond organ)
+8.81632653	B, chorus, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Ab:7 | N |, (voice
+23.856734693	B, verse, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:maj | Ab:7 | N |
+39.09324263	B, chorus, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 |, voice) 
+50.722902494	| Ab:7 | N |, (hammond organ)
+54.576054421	B, verse, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:maj | Ab:7 | N |, (voice
+69.97632653	B, chorus, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 |, voice) 
+81.357414965	| Ab:7 | N |, (tenor saxophone
+85.329818594	B, solo, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Ab:7 | N |, tenor saxophone) 
+100.421519274	B, verse, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:maj | Ab:7 | N |, (voice
+115.755011337	B, chorus, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 |, voice) 
+127.29510204	| Ab:7 | N |, (hammond organ)
+131.319863945	B, outro, | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Db:7 | Gb:7 Db:7 | Ab:7 | N |, fadeout, (voice) 
+144.780045351	silence
+148.244897959	end

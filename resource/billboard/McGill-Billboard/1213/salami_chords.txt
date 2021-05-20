@@ -1,0 +1,40 @@
+# title: I Don't Want To Spoil The Party
+# artist: The Beatles
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.441179138	A, intro, | G:maj | G:7 G:maj6 | D:sus4(b7) | D:min7 D:sus2(b7) |, (guitar
+5.500272108	| D:maj | D:maj/9 D:7/3 | G:maj | G:maj |, guitar)
+10.486893424	B, verse, | G:maj | G:maj | G:maj | G:maj |, (voice
+15.389591836	| G:maj | G:maj | D:7(#9) | D:7(#9) |
+20.355532879	| E:min | B:maj | A:min | D:maj |
+25.37941043	| G:maj | F:maj | G:maj | G:maj |
+30.293582766	B, verse, | G:maj | G:maj | G:maj | G:maj |
+35.271111111	| G:maj | G:maj | D:7(#9) | D:7(#9) |
+40.240748299	| E:min | B:maj | A:min | D:maj |
+45.186031746	| G:maj | F:maj | G:maj | G:maj |
+50.202517006	C, chorus, | G:maj | G:maj |
+52.639637188	| E:min | A:maj | C:maj | D:maj |
+57.655147392	| G:maj | G:maj |
+60.192879818	| E:min | A:maj | C:maj | D:maj |
+65.108752834	B, verse, | G:maj | G:maj | G:maj | G:maj |
+70.147482993	| G:maj | G:maj | D:7(#9) | D:7(#9) |
+75.305918367	| E:min | B:maj | A:min | D:maj |
+80.321950113	| G:maj | F:maj | G:maj | G:maj |, voice) 
+85.318707482	B, solo, | G:maj | G:maj | G:maj | G:maj |, (guitar
+90.315464852	| G:maj | G:maj | D:7(#9) | D:7(#9) |
+95.473514739	| E:min | B:maj | A:min | D:maj |
+100.531950113	| G:maj | F:maj | G:maj | G:maj |, guitar) 
+105.629387755	C, chorus, | G:maj | G:maj |, (voice
+108.023605442	| E:min | A:maj | C:maj | D:maj |
+113.221179138	| G:maj | G:maj |
+115.708299319	| E:min | A:maj | C:maj | D:maj |
+120.760362811	B, verse, | G:maj | G:maj | G:maj | G:maj |
+125.81079365	| G:maj | G:maj | D:7(#9) | D:7(#9) |
+130.909024943	| E:min | B:maj | A:min | D:maj |
+135.921609977	| G:maj | F:maj | G:maj | G:maj |, voice) 
+140.986190476	A, outro, | G:maj | G:7 G:maj6 | D:sus4(b7) | D:min7 D:sus2(b7) |, (guitar
+146.05462585	| D:maj | D:maj/9 D:7/3 | G:maj |, guitar)
+151.464739229	silence
+156.16	end

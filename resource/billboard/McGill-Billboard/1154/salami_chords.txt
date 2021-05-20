@@ -1,0 +1,27 @@
+# title: Think Of Me
+# artist: Buck Owens
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.348299319	A, intro, | B:maj | F#:7 | B:maj | F#:7 |, (guitar)
+7.473832199	B, chorus, | B:maj | E:maj | F#:7 | B:maj |, (voice
+14.512902494	| B:maj | E:maj | F#:7 | B:maj |
+21.619206349	C, verse, | B:maj | E:maj | F#:7 | B:maj |
+28.786507936	| B:maj | E:maj | F#:7 | B:maj |
+35.828390022	B, chorus, | B:maj | E:maj | F#:7 | B:maj |
+42.963333333	| B:maj | E:maj | F#:7 | B:maj |
+50.05324263	C, verse, | B:maj | E:maj | F#:7 | B:maj |
+57.086780045	| B:maj | E:maj | F#:7 | B:maj |
+64.188231292	B, chorus, | B:maj | E:maj | F#:7 | B:maj |
+71.307845804	| B:maj | E:maj | F#:7 | B:maj |, voice)
+78.389727891	A, solo, | B:maj | F#:7 | B:maj | F#:7 |, (guitar)
+85.522471655	C, verse, | B:maj | E:maj | F#:7 | B:maj |, (voice
+92.649206349	| B:maj | E:maj | F#:7 | B:maj |
+99.637437641	C, verse, | B:maj | E:maj | F#:7 | B:maj |
+106.73292517	| B:maj | E:maj | F#:7 | B:maj |
+113.847437641	B', chorus, | B:maj | E:maj | F#:7 | B:maj |
+121.002970521	| B:maj | E:maj | F#:7 | B:maj |
+128.108730158	| F#:7 | B:maj | B:maj |, voice)
+134.373877551	silence
+139.937959183	end

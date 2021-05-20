@@ -1,0 +1,47 @@
+# title: Hair
+# artist: The Cowsills
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.65015873	A, intro, | C:min | C:min | C:min | C:min | &pause |, (guitar)
+15.673469387	B, verse, | Eb:maj/5 | &pause |, (voice
+20.990839002	| C:min/5 | &pause |
+30.487800453	| Eb:maj/5 | &pause |
+33.459954648	| G:min | &pause |
+36.826848072	| Eb:maj | &pause |
+39.543582766	| G:min | &pause |
+42.329977324	| Bb:maj | &pause |
+47.809886621	| G:min | &pause |
+51.060680272	| Eb:maj | &pause |
+53.847074829	| G:min | &pause |
+56.517369614	| Bb:maj | &pause |
+58.374965986	| Ab:maj Bb:maj | &pause |
+64.110294784	C, verse, | C:min Ab:maj | C:min Eb:maj |
+68.382766439	| C:min Ab:maj | C:min Eb:maj |
+72.722448979	| G:min Eb:maj | G:min Bb:maj |
+76.93462585	| G:min Eb:maj | G:min Bb:maj |
+81.156575963	D, chorus, | C:min Ab:maj/3 | C:min Eb:maj |
+85.392471655	| Bb:maj Eb:7 | Ab:maj Bb:maj | G:maj |
+91.687891156	C, verse, | C:min Ab:maj | C:min Eb:maj |
+95.742721088	| C:min Ab:maj | C:min Eb:maj |
+99.822993197	| G:min Eb:maj | G:min Bb:maj |
+103.944058956	| G:min Eb:maj | G:min Bb:maj |
+108.142154195	D', chorus, | C:min Ab:maj/3 | C:min Eb:maj |
+112.31786848	| Bb:maj Eb:7 | Ab:maj Bb:maj | Eb:maj |
+118.629183673	E, bridge, | C:sus4 C:sus4/7 | G:sus4/9 G:maj/3 | C:sus4 | C:sus4 |
+126.911882086	| F:sus4 F:maj | F:sus4 F:maj | F:sus4 F:maj | F:sus4 F:maj | Bb:maj |
+137.336235827	F, interlude, | Eb:maj | Eb:maj | Eb:maj | Bb:maj |
+144.926553287	G, pre-verse, | C:min Ab:maj | C:min Ab:maj | Bb:maj | N | N |
+155.230045351	C, verse, | C:min Ab:maj | C:min Eb:maj |
+159.429909297	| C:min Ab:maj | C:min Eb:maj |
+163.633877551	| G:min Eb:maj | G:min Bb:maj |
+167.896099773	| G:min Eb:maj | G:min Bb:maj |
+172.025011337	D'', chorus, | C:min Ab:maj/3 | C:min Eb:maj |
+176.18462585	| Bb:maj | Eb:7 | Ab:maj Bb:maj |
+180.442267573	| C:min Ab:maj/3 | C:min Eb:maj |
+184.671111111	| Bb:maj Eb:7 | Ab:maj Bb:maj |
+188.943605442	E, outro, | C:min Ab:maj/3 | C:min Ab:maj/3 | C:min Ab:maj/3 |
+195.117981859	| C:min Ab:maj/3 | C:min . Bb:maj G:maj |, voice)
+209.033628117	silence
+212.397981859	end

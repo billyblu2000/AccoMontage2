@@ -1,0 +1,28 @@
+# title: Fire And Ice
+# artist: Pat Benetar
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.22095238	A, intro, | N | N |, (drum kit)
+4.823174603	A', intro, | C:5 | x4
+12.90154195	B, verse, | C:5 | Ab:maj | Eb:maj | G:maj | x2, (voice
+29.193265306	G, transition, | G:maj | Ab:maj | Ab:maj |
+35.289365079	C, chorus, | C:min | Ab:maj7 | Bb:maj(9) | Bb:maj(9) | x2
+51.487460317	D, interlude, | F:maj | Ab:maj |
+55.610702947	A', intro, | C:5 | x4
+63.676802721	B, verse, | C:5 | Ab:maj | Eb:maj | G:maj | x2
+79.899070294	G, transition, | G:maj | Ab:maj | Ab:maj |
+85.963287981	C, chorus, | C:min | Ab:maj7 | Bb:maj(9) | Bb:maj(9) | x2
+102.094671201	E, transition, | Ab:maj | Bb:maj |
+106.164195011	F, bridge, | G:sus4(b7) | G:7/3 | Ab:5/5 Ab:5 . . | Ab:5 |
+114.334149659	| G:sus4(b7) | G:7/3 | Ab:maj | Bb:maj |, voice)
+122.428707482	C, solo, | C:min | Ab:maj7 | Bb:maj(9) | Bb:maj(9) | x2, (electric guitar
+138.691156462	E, solo, | Ab:maj | Bb:maj |, electric guitar)
+142.739614512	C, chorus, | C:min | Ab:maj7 | Bb:maj(9) | Bb:maj(9) | x2, (voice
+158.942834467	C, outro, | C:min | Ab:maj7 | Bb:maj(9) | Bb:maj(9) | x2
+175.210272108	| C:min | Ab:maj7 | Bb:maj(9) | Bb:maj(9) |
+183.327845804	| C:min | Ab:maj7 | Bb:maj(9) | Bb:maj(9) |, fadeout
+191.446734693	| C:min | Ab:maj7 | Bb:maj(9) | Bb:maj(9) |, voice)
+199.248299319	silence
+200.17632653	end

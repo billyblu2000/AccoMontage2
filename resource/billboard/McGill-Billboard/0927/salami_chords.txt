@@ -1,0 +1,20 @@
+# title: Out Of Sight, Out Of Mind
+# artist: Little Anthony & The Imperials
+# metre: 4/4
+# tonic: Ab
+
+0.000000000	silence
+0.371519274	A, intro, | Ab:maj | Eb:maj | Ab:maj | Eb:maj | Eb:maj N . . |, (voice
+19.162947845	B, verse, | Ab:maj Ab:maj7/7 | F:min A:dim | Bb:min . Bb:minmaj7/7 Bb:min7/b7 | Eb:maj |
+33.552834467	C, chorus, | Eb:maj | Eb:maj | Ab:maj Db:maj | Eb:maj |
+48.286961451	B, verse, | Ab:maj Ab:maj7/7 | F:min A:dim | Bb:min . Bb:minmaj7/7 Bb:min7/b7 | Eb:maj |
+62.845736961	C, chorus, | Eb:maj | Eb:maj | Ab:maj | Eb:maj |
+77.392108843	D, bridge, | Db:maj | Ab:maj F:min | Bb:min7 Eb:maj | Ab:maj |
+91.980816326	| C:7 | F:min | Bb:7 | Eb:7 | Eb:maj N . . |
+110.248344671	B, verse, | Ab:maj Ab:maj7/7 | F:min A:dim | Bb:min . Bb:minmaj7/7 Bb:min7/b7 | Eb:maj |
+124.853696145	C', chorus, | Eb:maj | Eb:maj | Gb:13 | F:7 |
+139.465238095	E, outro, | Bb:min7 | Eb:9 | &pause |
+146.947482993	| Ab:maj7 Gb:maj9 | &pause |
+152.113922902	| Ab:maj7 |, voice)
+157.930521541	silence
+159.798888888	end

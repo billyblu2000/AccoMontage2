@@ -1,0 +1,23 @@
+# title: Woman To Woman
+# artist: Shirley Brown
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.348299319	A, intro, | Eb:maj7 | C:min | Eb:maj7 | C:min |
+16.085306122	| Eb:maj7 | C:min | Eb:maj7 | C:min |
+31.464353741	| Eb:maj7 | C:min | Eb:maj7 | C:min |
+46.868390022	| Eb:maj7 | C:min | Eb:maj7 | C:min |
+62.43324263	| Eb:maj7 | C:min | Eb:maj7 | C:min |
+78.018049886	| Eb:maj7 | C:min | Bb:sus4(b7,9) | Bb:sus4(b7,9) |
+93.579637188	B, verse, | Eb:maj7 | Ab:maj7 | Eb:maj7 | C:min Bb:min Ab:maj . |, (voice
+109.005147392	| Eb:maj7 | Ab:maj7 | Eb:maj7 | Bb:sus4(b7,9) | Bb:sus4(b7,9) |
+128.255419501	B, verse, | Eb:maj7 | Ab:maj7 | Eb:maj7 | Ab:maj7 |
+143.822811791	| Eb:maj7 | Ab:maj7 | Eb:maj7 | Bb:sus4(b7,9) | Bb:sus4(b7,9) |
+162.895215419	B, verse, | Eb:maj7 | Ab:maj7 | Eb:maj7 | C:min Bb:min Ab:maj . |, (voice
+178.266077097	| Eb:maj7 | Ab:maj7 | Eb:maj7 | Bb:sus4(b7,9) | Bb:sus4(b7,9) |
+197.172471655	B, verse, | Eb:maj7 | Ab:maj7 | Eb:maj7 | C:min Bb:min Ab:maj . |
+212.308140589	fadeout, | Eb:maj7 | Ab:maj7 | Eb:maj7 | C:min Bb:min Ab:maj . |
+227.28446712	| Eb:maj7 | Ab:maj7 |, voice)
+232.547845804	silence
+234.840816326	end

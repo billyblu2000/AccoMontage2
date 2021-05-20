@@ -1,0 +1,56 @@
+# title: Amie
+# artist: Pure Prairie League
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.278639455	A, intro, | A:maj | A:maj | A:maj | A:maj |, (guitar
+5.919387755	| A:maj | A:maj | A:maj | A:maj |
+11.374444444	| A:maj | A:maj | A:maj | A:maj |
+16.867029478	B, trans, | A:maj | G:maj D:maj | A:maj | G:maj D:maj |, guitar)
+22.571088435	C, verse, | A:maj | G:maj D:maj | A:maj | G:maj D:maj |, (voice
+28.038798185	| A:maj | G:maj D:maj | A:maj | A:maj |
+33.567165532	| D:maj | D:maj | C:maj | C:maj |
+39.038503401	| D:maj | D:maj | C:maj | C:maj |
+44.535419501	| E:maj | E:maj | E:maj | E:maj |
+49.87371882	D, chorus, | A:maj | A:maj | G:maj | D:maj |
+55.30356009	| A:maj | A:maj | G:maj | D:maj |
+60.722789115	| B:min | B:min7 | E:maj | E:maj |, voice)
+66.118344671	B, trans, | A:maj | G:maj D:maj | A:maj | G:maj D:maj |, (guitar)
+71.729750566	C, verse, | A:maj | G:maj D:maj | A:maj | G:maj D:maj |, (voice
+77.196099773	| A:maj | G:maj D:maj | A:maj | A:maj |
+82.664512471	| D:maj | D:maj | C:maj | C:maj |
+88.10217687	| D:maj | D:maj | C:maj | C:maj |
+93.485555555	| E:maj | E:maj | E:maj | E:maj |
+98.886077097	D, chorus, | A:maj | A:maj | G:maj | D:maj |
+104.291473922	| A:maj | A:maj | G:maj | D:maj |
+109.657097505	| B:min | B:min7 | E:maj | E:maj |, voice)
+115.005056689	B, trans, | A:maj | G:maj D:maj | A:maj | G:maj D:maj |, (guitar)
+120.508707482	C, solo, | A:maj | G:maj D:maj | A:maj | G:maj D:maj |
+125.92755102	| A:maj | G:maj D:maj | A:maj | A:maj |
+131.214716553	| D:maj | D:maj | C:maj | C:maj |
+136.536031746	| D:maj | D:maj | C:maj | C:maj |
+141.796077097	| E:maj | E:maj | E:maj | E:maj |, guitar)
+147.031405895	D, chorus, | A:maj | A:maj | G:maj | D:maj |, (voice
+152.404807256	| A:maj | A:maj | G:maj | D:maj |
+157.711746031	| B:min | B:min7 | E:maj | E:maj |, voice)
+163.058730158	B', trans, | A:maj | G:maj D:maj |, (guitar)
+165.811678004	C, verse, | A:maj | G:maj D:maj | A:maj | G:maj D:maj |, (voice
+171.174263038	| A:maj | G:maj D:maj | A:maj | A:maj |
+176.537301587	| D:maj | D:maj | C:maj | C:maj |
+181.947301587	| D:maj | D:maj | C:maj | C:maj |
+187.259614512	| E:maj | E:maj | E:maj | E:maj |
+192.607097505	D, chorus, | A:maj | A:maj | G:maj | D:maj |
+197.938843537	| A:maj | A:maj | G:maj | D:maj |
+203.251224489	| B:min | B:min7 | E:maj | E:maj |
+208.635646258	D, chorus, | A:maj | A:maj | G:maj | D:maj |
+213.915646258	| A:maj | A:maj | G:maj | D:maj |
+219.241587301	| B:min | B:min7 | E:maj | E:maj |
+224.491473922	E, outro, | A:maj | A:maj | A:sus2(b7) | D:maj/5 |
+230.053015873	| A:maj | A:maj | A:sus2(b7) | D:maj/5 |
+235.442789115	| A:maj | A:maj | A:sus2(b7) | D:maj/5 |
+240.877845804	| A:maj | A:maj | D:maj/5 | D:maj/5 |
+246.329002267	| F:maj7/3 | F:maj7/3 | E:7(b9)/11 | E:7(b9)/11 |, voice)
+251.992108843	| A:maj(9) |, (guitar)
+258.275555555	silence
+260.59755102	end

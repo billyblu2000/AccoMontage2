@@ -1,0 +1,32 @@
+# title: Sidewalk Surfin'
+# artist: Jan & Dean
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.417959183	Z
+6.455147392	A, intro, | N | N | D:maj | D:maj |, (voice
+13.860249433	B, verse, | D:maj | D:maj | D:maj | D:maj |
+20.848208616	| A:maj | A:maj | D:maj | D:maj |
+27.804195011	| G:maj | G:maj | D:maj | D:maj |
+34.786371882	| A:maj F:maj | G:maj A:maj | D:maj | A:maj |
+41.907936507	B', verse, | D:maj | D:maj | D:maj | D:maj |
+48.9092517	| A:maj | A:maj | D:maj | D:maj |
+55.906621315	| G:maj | G:maj | D:maj | D:maj |
+62.862471655	| A:maj F:maj | G:maj A:maj | D:maj | Eb:7 |, voice)
+# tonic: Eb
+70.032675736	C, solo, | Eb:maj | Eb:maj | Eb:maj | Eb:maj |, (saxophone)
+77.042539682	| Bb:maj | Bb:maj | Eb:maj | Eb:maj |, (horn)
+84.019002267	B'', verse, | Ab:maj | Ab:maj | Eb:maj | Eb:maj |, (voice
+91.06170068	| Bb:maj Gb:maj | Ab:maj Bb:maj | Eb:maj | Eb:maj |
+98.162902494	B''', verse, | Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+105.171247165	| Bb:maj | Bb:maj | Eb:maj | Eb:7 |
+112.181519274	| Ab:maj | Ab:maj | Eb:maj | Eb:maj |
+119.147641723	| Bb:maj Gb:maj | Ab:maj Bb:maj | Eb:maj | Eb:maj |
+126.262857142	D, outro, | Bb:maj Gb:maj | Ab:maj Bb:maj | Eb:maj | Eb:maj |
+133.249297052	| Bb:maj Gb:maj | Ab:maj Bb:maj | Eb:maj | Eb:maj |
+140.229455782	| Bb:maj Gb:maj | Ab:maj Bb:maj | Eb:maj | Eb:maj |
+147.211201814	fadeout, | Bb:maj Gb:maj | Ab:maj Bb:maj | Eb:maj | Eb:maj |
+154.195827664	| Bb:maj Gb:maj | Ab:maj Bb:maj | Eb:maj | Eb:maj |, voice)
+160.290725623	silence
+162.379591836	end

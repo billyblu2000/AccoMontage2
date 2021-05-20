@@ -1,0 +1,25 @@
+# title: Happy Together
+# artist: The Turtles
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.441179138	A', intro, | F#:min | F#:min | F#:min | F#:min |, (guitar)
+8.763696145	A, verse, | F#:min | F#:min | E:maj | E:maj |, (voice
+16.682108843	| D:7 | D:7 | C#:7 | C#:7 |
+24.550045351	A, verse, | F#:min | F#:min | E:maj | E:maj |
+32.488367346	| D:7 | D:7 | C#:7 | C#:7 |
+40.324988662	B, chorus, | F#:maj | C#:min7 | F#:maj | A:maj | x2
+56.115328798	A, verse, | F#:min | F#:min | E:maj | E:maj |
+64.195691609	| D:7 | D:7 | C#:7 | C#:7 |
+72.156281179	B, chorus, | F#:maj | C#:min7 | F#:maj | A:maj | x2
+88.015056689	A, verse, | F#:min | F#:min | E:maj | E:maj |
+96.143174603	| D:7 | D:7 | C#:7 | C#:7 |
+104.214217687	B, interlude, | F#:maj | C#:min7 | F#:maj | A:maj |
+112.365714285	| F#:maj | C#:min7 | F#:maj | C#:min7 | C#:min7 |
+122.172857142	A, verse, | F#:min | F#:min | E:maj | E:maj |
+130.365804988	| D:7 | D:7 | C#:7 | F#:min |
+138.486621315	A', outro, | C#:7 | F#:min | x7
+166.401405895	| C#:7 | F#:maj |, voice)
+172.454603174	silence
+174.863673469	end

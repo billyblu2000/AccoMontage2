@@ -1,0 +1,38 @@
+# title: Good Morning Starshine
+# artist: Oliver
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.139319727	A, intro, | N | N | N | N |
+7.813106575	| F:11 | F:11 | F:11 | F:11 |, (guitar)
+15.451179138	| F:11 | F:11 |, (voice
+19.159319727	| Bb:maj | Bb:maj7 | C:min7 | F:7 |
+26.831609977	| C:min7 | F:7 | Bb:maj | Bb:maj |
+34.575714285	B, verse, | Eb:maj F:maj | Eb:maj F:maj | Eb:maj F:maj | Eb:maj F:maj |
+42.288185941	| Eb:maj F:maj | Eb:maj F:maj | Bb:maj | F:maj |
+49.874716553	| Eb:maj F:maj | Eb:maj F:maj | Eb:maj F:maj | Eb:maj D:7 |
+57.613605442	| G:min Bb:maj | Eb:maj Bb:min | C:7 F:7 | Bb:maj |
+65.181473922	C, chorus, | Bb:maj | Bb:maj | C:min7 F:7 | C:min7 F:7 |
+72.91526077	| F:7 | F:7 | Bb:maj | Bb:7 |
+80.531655328	| Eb:maj D:7 | G:min C:min | Bb:maj F:7 | Bb:maj |
+88.245918367	B, verse, | Eb:maj F:maj | Eb:maj F:maj | Eb:maj F:maj | Eb:maj F:maj |
+96.139297052	| Eb:maj F:maj | Eb:maj F:maj | Bb:maj | F:maj |
+103.631564625	| Eb:maj F:maj | Eb:maj F:maj | Eb:maj F:maj | Eb:maj D:7 |
+111.425668934	| G:min Bb:maj | Eb:maj Bb:min | C:7 F:7 | Bb:maj |
+118.982063492	C, chorus, | Bb:maj | Bb:maj | C:min7 F:7 | C:min7 F:7 |
+126.700385487	| F:7 | F:7 | Bb:maj | Bb:7 |
+134.324240362	| Eb:maj D:7 | G:min C:min | Bb:maj F:7 | Bb:maj |, voice)
+142.059863945	D, bridge, | Ab:maj/5 | Ab:maj/5 | Ab:maj/5 | Ab:maj/5 |, (guitar
+149.703106575	| Eb:maj F:maj | Eb:maj F:maj | Eb:maj F:maj | Eb:maj F:maj |, guitar)
+157.187006802	C, chorus, | Bb:maj | Bb:maj | C:min7 F:7 | C:min7 F:7 |, (voice
+164.899954648	| F:7 | F:7 | Bb:maj | Bb:maj |
+172.533174603	| Eb:maj D:7 | G:min C:min | Bb:maj G:min | C:min7 F:7 |
+180.205873015	| Bb:maj7 | Bb:maj7 |
+183.995147392	| Bb:maj G:min | C:min7 F:7 | Bb:maj7 | Bb:maj7 |
+191.704988662	E, outro, | Bb:maj | C:min7 F:7 | Bb:maj7 | Bb:maj7 |
+199.349773242	| Bb:maj | C:min7 F:7 | Bb:maj7 | Bb:maj7 |
+206.966961451	| Bb:maj | C:min7 F:7 | Bb:maj7 | Bb:maj7 |
+214.513628117	| Bb:maj |, voice)
+217.77324263	silence
+219.271836734	end

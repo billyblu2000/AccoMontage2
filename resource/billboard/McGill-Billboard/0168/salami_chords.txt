@@ -1,0 +1,33 @@
+# title: The Animals 
+# artist: San Franciscan Nights 
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.232199546	A, intro, | E:1 | E:1 | E:1 | E:1 |
+7.314285714	| E:1 | E:1 | E:1 | E:1 |, (bass
+15.403265306	| E:1 | E:1 | E:1 | E:1 |
+23.42632653	| E:1 | E:1 | E:1 | E:1 |
+31.395419501	| E:1 | E:1 | E:1 | E:1 |
+39.431587301	| E:1 | N |, bass)
+42.631836734	B', pre-verse, | C:maj E:min/5 | A:min7 E:min/b3 |, (guitar)
+47.903061224	B, verse, | C:maj E:min/5 | A:min7 E:min/b3 | C:maj E:min/5 | A:min7 E:min/b3 |, (voice
+58.333650793	| D:min F:maj | C:maj |
+63.542834467	| C:maj D:maj | F:maj C:maj | D:maj F:maj | C:maj |
+74.084036281	B, verse, | C:maj E:min/5 | A:min7 E:min/b3 | C:maj E:min/5 | A:min7 E:min/b3 |
+84.675873015	| D:maj F:maj | C:maj |
+89.971678004	| C:maj D:maj | F:maj C:maj | D:maj F:maj | C:maj |
+100.51786848	C, bridge, | F:min | E:min |
+105.797029478	| F:maj | G:maj | G:maj |, voice)
+113.643469387	B, solo, | C:maj E:min/5 | A:min7 E:min/b3 | C:maj E:min/5 | A:min7 E:min/b3 |, (guitar
+124.167936507	| D:maj F:maj | C:maj |
+129.393673469	| C:maj D:maj | F:maj C:maj | D:maj F:maj | C:maj |, guitar)
+139.872698412	B, verse, | C:maj E:min/5 | A:min7 E:min/b3 | C:maj E:min/5 | A:min7 E:min/b3 |, (voice
+150.355714285	| D:maj F:maj | C:maj |
+155.596213151	| C:maj D:maj | F:maj C:maj | D:maj F:maj | C:maj |
+166.082902494	C, bridge, | F:min | E:min |
+171.259478458	| F:maj | G:maj | G:maj |, voice)
+178.976371882	B, solo, | C:maj E:min/5 | A:min7 E:min/b3 | C:maj E:min/5 | A:min7 E:min/b3 |, (guitar
+189.361746031	fadeout, | D:maj F:maj | C:maj | C:maj D:maj |, guitar)
+197.439274376	silence
+200.646530612	end

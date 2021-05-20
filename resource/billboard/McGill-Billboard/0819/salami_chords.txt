@@ -1,0 +1,22 @@
+# title: Mercy Mercy Me (The Ecology) 
+# artist: Marvin Gaye
+# tonic: E
+# metre: 4/4
+
+0.000000000	silence
+0.371519274	A, intro, | Bb:sus4(b7) | Bb:sus4(b7) | B:sus4(b7) | B:sus4(b7) |
+10.804716553	B, chorus, | E:maj7 | E:maj7 | C#:min7 | C#:min7 |, (voice
+21.105396825	| F#:min7 | F#:min7 | B:sus4(b7) | B:sus4(b7) |
+31.353628117	B, chorus, | E:maj7 | E:maj7 | C#:min7 | C#:min7 |
+41.527800453	| F#:min7 | F#:min7 | B:sus4(b7) | B:sus4(b7) |
+51.875578231	B, chorus, | E:maj7 | E:maj7 | C#:min7 | C#:min7 |
+62.106507936	| F#:min7 | F#:min7 | B:sus4(b7) | B:sus4(b7) |
+72.355691609	B, chorus, | E:maj7 | E:maj7 | C#:min7 | C#:min7 |
+82.511995464	| F#:min7 | F#:min7 | B:sus4(b7) | B:sus4(b7) |
+92.823356009	B, chorus, | E:maj7 | E:maj7 | C#:min7 | C#:min7 |
+103.119115646	| F#:min7 | F#:min7 | B:sus4(b7) | B:sus4(b7) |, voice)
+113.339614512	C, solo, | F:maj7 | F:maj7 | D:min7 | D:min7 |, (saxophone
+123.673786848	| G:min7 | G:min7 | C:sus4(b7) | C:sus4(b7) |
+133.981156462	fadeout, | F:min7 | F:min7 | B:min7 | B:min7 |, saxophone)
+148.473083900	silence
+151.286439909	end

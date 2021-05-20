@@ -1,0 +1,27 @@
+# title: Born To Be Wild
+# artist: Steppenwolf
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.179591836	A, intro, | E:maj | E:maj | E:maj | E:maj | x2, 
+14.117732426	B, verse, | E:maj | E:7(#9) | E:maj | E:7(#9) | x2, (voice
+27.271836734	C, bridge, | G:maj A:maj | E:maj | G:maj A:maj | E:maj | x2
+40.692970521	B, verse, | E:maj | E:7(#9) | E:maj | E:7(#9) | x2
+53.823854875	C, bridge, | G:maj A:maj | E:maj | G:maj A:maj | E:maj | x2
+67.21015873	D, chorus, | E:maj | E:maj | G:maj | G:maj |
+73.849795918	| A:maj | G:maj | E:maj | E:maj |
+80.515192743	| E:maj | D:maj | E:maj | D:maj |
+87.585668934	| E:maj | D:maj | E:maj | D:maj |, voice)
+94.092721088	A, interlude, | E:maj | E:maj | E:maj | E:maj | x5, 
+126.839002267	| N | N |, (drums)
+130.147845804	B, verse, | E:maj | E:7(#9) | E:maj | E:7(#9) | x2, (voice
+143.323990929	| G:maj A:maj | E:maj | G:maj A:maj | E:maj | x2
+156.432834467	C, chorus, | E:maj | E:maj | G:maj | G:maj |
+163.010566893	| A:maj | G:maj | E:maj | E:maj |
+169.778480725	| E:maj | D:maj | E:maj | D:maj |
+176.68063492	| E:maj | D:maj | E:maj | D:maj |
+183.286712018	A, outro, | E:maj | E:maj | E:maj | E:maj | x2
+196.478480725	| E:maj | E:maj | E:maj | E:maj | x2, fadeout
+208.655034013	silence
+209.502040816	end

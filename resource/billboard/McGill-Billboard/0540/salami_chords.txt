@@ -1,0 +1,32 @@
+# title: With You I'm Born Again
+# artist: Billy Preston
+# metre: 3/4
+# tonic: D
+
+0.000000000	silence
+0.696598639	A', intro, | D:min9 | C:maj6(9) | Bb:maj9 | A:sus4(b7,9) |, (strings)
+11.679637188	A, chorus, | D:min | C:maj | Bb:maj9 | A:min7 |, (voice
+22.801995464	| G:min7 | E:hdim7 | A:7 | D:sus4 . D:maj |
+33.599274376	| D:min9 | A:min7 | Bb:maj9 | A:min7 |
+42.747936507	| G:min9 | A:sus4(b7,9) . A:maj | D:sus4 | D:maj |
+52.035918367	B, verse, | G:min9 | A:min7 | Bb:maj7 | A:min7 |
+60.929160997	| G:min9 | A:min7 | Eb:maj9 . D:min7 | C:min9 |
+72.028299319	A, chorus, | D:min9 | A:min7 | Bb:maj9 | A:min7 |
+81.316281179	| G:min9 | A:sus4 . A:maj | D:min9 | D:min9/b7 |
+90.836462585	| Bb:maj9 | A:sus4 . A:maj |, voice)
+97.848888888	C, interlude, | E:min/b7 | D:maj | A:maj/11 | D:maj |, (strings
+106.811791383	| E:min/b7 | D:maj | A:maj/11 | D:maj |, strings)
+115.588934240	A, chorus, | D:min9 | A:min7 | Bb:maj9 | A:min7 |, (voice
+124.458956916	| G:min9 | A:sus4(b7,9) . A:maj | D:sus4 | D:maj |
+133.375419501	| D:min9 | A:min7 | Bb:maj9 | A:min7 |
+142.384761904	| G:min9 | A:sus4(b7,9) . A:maj | D:sus4 | D:maj |
+151.254784580	B, verse, | G:min9 | A:min7 | Bb:maj7 | A:min7 |
+160.031927437	| G:min9 | A:min7 | Eb:maj9 | C:min9 | C:min9 |
+# tonic: Eb
+170.945306122	A, chorus, | Eb:min9 | Bb:min7 | Cb:maj9 | Bb:min7 |
+179.676009070	| Ab:min9 | Bb:sus4(b7,9) . Bb:maj | Eb:min9 | Eb:min9/b7 |
+189.381950113	| Cb:maj9 | Bb:sus4(b7,9) | Bb:maj |
+199.366530612	| Eb:sus4 | Eb:sus4 | Eb:maj | Eb:maj | Eb:maj |, voice)
+210.697868480	| Eb:maj | Eb:maj | Eb:maj |, (strings)
+216.409977324	silence
+222.302040816	end

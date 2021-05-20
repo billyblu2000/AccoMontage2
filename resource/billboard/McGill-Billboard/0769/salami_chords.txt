@@ -1,0 +1,37 @@
+# title: All Through The Night
+# artist: Cyndi Lauper
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.208979591	A, intro, | Ab:maj | Ab:maj |
+5.29	B, verse, | Ab:maj | Eb:maj | Eb:maj | Eb:maj Ab:maj |, (voice
+15.375759637	| Ab:maj | Eb:maj | Eb:maj | Eb:maj Ab:maj |
+25.486213151	C, prechorus, | F:min | F:min | C:min | C:min |
+35.612585034	| Db:maj | (2/4) Bb:min |
+39.334603174	D, chorus, | Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+49.506598639	| Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+59.570612244	| Ab:maj | F:min | C:min |
+67.142630385	B, verse, | Ab:maj | Eb:maj | Eb:maj | Eb:maj Ab:maj |, (voice
+77.222879818	| Ab:maj | Eb:maj | Eb:maj | Eb:maj Ab:maj |
+87.262562358	C, prechorus, | F:min | F:min | C:min | C:min |
+97.456893424	| Db:maj | (2/4) Bb:min |
+101.201088435	D, chorus, | Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+111.27292517	| Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+121.384013605	| Ab:maj | F:min | C:min |, voice)
+128.944739229	B, solo, | Ab:maj | Eb:maj | Eb:maj | Eb:maj Ab:maj |, (synthesizer
+139.024195011	| Ab:maj | Eb:maj | Eb:maj | Eb:maj Ab:maj |, synthesizer)
+149.171179138	C, prechorus, | F:min | F:min | C:min | C:min |
+159.25941043	| Db:maj | Bb:min Eb:maj |
+164.24292517	D, chorus, | Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+174.379614512	| Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+184.48600907	D, chorus, | Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+194.516077097	| Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+204.648548752	| Ab:maj | F:min | C:min |
+212.2530839	D', outro, | Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |, voice)
+222.376439909	| Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+232.447188208	| Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+242.516757369	fadeout, | Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 |
+252.657596371	| Ab:maj | F:min | Db:maj | Bb:min Eb:sus4 | Ab:maj | F:min |
+265.380861678	silence
+269.844897959	end

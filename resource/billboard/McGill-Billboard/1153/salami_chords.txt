@@ -1,0 +1,34 @@
+# title: The Sounds Of Silence
+# artist: Simon & Garfunkel
+# metre: 4/4
+# tonic: Cb
+
+0.0	silence
+0.348299319	A, intro, | Eb:sus2 | Eb:sus2 |, (guitar)
+5.425759637	B, verse, | Db:maj(9) | Db:maj(9) | Eb:min(9) | Eb:min(9) |, (voice
+14.450181405	| Cb:maj Gb:maj | Gb:maj | (2/4) Cb:maj | Gb:maj |
+22.40877551	| Cb:maj | Cb:maj | Gb:maj | Gb:maj Eb:min | (2/4) Gb:maj |
+32.526235827	| Db:maj(9) |
+34.875668934	| Eb:min(9) | Eb:min(9) |
+39.644013605	B, verse, | Db:maj(9) | Db:maj(9) | Eb:min(9) | Eb:min(9) |
+48.697165532	| Cb:maj Gb:maj | Gb:maj | (2/4) Cb:maj | Gb:maj |
+56.692811791	| Cb:maj | Cb:maj | Gb:maj | Gb:maj Eb:min | (2/4) Gb:maj |
+66.98956916	| Db:maj(9) |
+69.268526077	| Eb:min(9) | Eb:min(9) |
+73.860861678	B, verse, | Db:maj(9) | Db:maj(9) | Eb:min(9) | Eb:min(9) |
+82.933605442	| Cb:maj Gb:maj | Gb:maj | Cb:maj Gb:maj | Gb:maj |
+91.902108843	| Cb:maj | Cb:maj | Gb:maj | Gb:maj Eb:min | (2/4) Gb:maj |
+101.906553287	| Db:maj(9) |
+104.147619047	| Eb:min(9) | Eb:min(9) |
+108.651428571	B, verse, | Db:maj(9) | Db:maj(9) | Eb:min(9) | Eb:min(9) |
+117.399659863	| Cb:maj Gb:maj | Gb:maj | (2/4) Cb:maj | Gb:maj |
+125.174489795	| Cb:maj | Cb:maj | Gb:maj | Gb:maj Eb:min | Gb:maj |
+136.169024943	| Db:maj(9) |
+138.443151927	| Eb:min(9) | Eb:min(9) |
+143.030408163	B, verse, | Db:maj(9) | Db:maj(9) | Eb:min(9) | Eb:min(9) |
+151.746077097	| Cb:maj Gb:maj | Gb:maj | Cb:maj Gb:maj | Gb:maj |
+160.522743764	| Cb:maj | Cb:maj | Gb:maj | Gb:maj Eb:min | Gb:maj |
+171.514195011	| Db:maj(9) |
+175.056281179	| Eb:min(9) | Eb:min(9) |, voice)
+183.809160997	silence
+189.361632653	end

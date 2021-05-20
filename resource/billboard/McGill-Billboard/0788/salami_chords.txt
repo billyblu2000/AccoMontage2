@@ -1,0 +1,21 @@
+# title: Last Date
+# artist: Floyd Cramer
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.487619047	A, intro, | N F:maj C:maj G:maj | C:maj |, (piano
+6.440929705	B, verse, | C:maj . . C:7 | F:maj | C:maj . . C:7 | F:maj |
+20.178163265	| C:maj . . C:7 | F:maj |
+27.098662131	| C:maj G:7 | C:7 F:maj | C:maj G:7 | C:maj G:7 |
+40.96	B, verse, | C:maj . . C:7 | F:maj | C:maj . . C:7 | F:maj |
+55.003922902	| C:maj . . C:7 | F:maj |
+61.997006802	| C:maj G:7 | C:7 F:maj | C:maj G:7 | C:maj |, piano)
+76.037596371	C, bridge, | F:maj G:maj | C:maj . . C:7 | F:maj G:maj | C:maj . . C:7 |, (strings)
+89.900272108	| F:maj G:maj | C:maj A:min | F:maj | D:min7 G:maj |, (piano
+103.610340136	B', verse, | C:maj . . C:7 | F:maj | C:maj . . C:7 | F:maj |
+117.724671201	| C:maj . . C:7 | F:maj |
+124.71770975	| C:maj G:7 | C:7 F:maj | C:maj G:7 |
+135.349909297	| C:maj F:maj C:maj G:maj | C:maj |, piano)
+145.867755102	silence
+149.524897959	end

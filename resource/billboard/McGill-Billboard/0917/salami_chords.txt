@@ -1,0 +1,28 @@
+# title: A Love Song
+# artist: Anne Murray
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.185759637	A, intro, | * |, (guitar)
+1.787936507	B, verse, | G:maj | G:maj | G:maj | G:maj |, (voice
+8.941428571	| A:min | D:maj | A:min | D:maj |
+16.142539682	| G:maj | G:maj | G:maj | G:maj |
+23.301632653	| A:min | D:maj | A:min | D:maj |
+30.468253968	C, chorus, | G:maj | G:maj | A:min | D:maj |
+37.852403628	| A:min | D:maj | G:maj | G:maj |
+45.1723356	| G:maj | G:maj/3 | A:min | D:maj |
+52.447414965	| A:min | D:maj | G:maj | G:maj |
+59.769138321	B, verse, | G:maj | G:maj | G:maj | G:maj |
+67.108594104	| A:min | D:maj | A:min | D:maj |
+74.291133786	| G:maj | G:maj | G:maj | G:maj |
+81.607346938	| A:min | D:maj | A:min | D:maj | C:maj | D:maj |
+92.572879818	C, chorus, | G:maj | G:maj | A:min | D:maj |
+99.912358276	| A:min | D:maj | G:maj | G:maj |
+107.326825396	| G:maj | G:maj/3 | A:min | D:maj |
+114.660294784	| A:min | D:maj | G:maj | G:maj |
+122.089886621	outro, | A:min | D:maj | C:maj | &pause |
+132.589070294	| G:maj | &pause |
+138.953378684	Z, applause
+146.866213151	Z', talking
+164.310204081	end

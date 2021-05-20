@@ -1,0 +1,34 @@
+# title: I Like The Way (The Kissing Game) 
+# artist: Hi-Five
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.232199546	A, intro, | N | N | Eb:min | Eb:min |, (synthesizer
+9.49079365	| Eb:min | Eb:min |
+14.118548752	| Eb:min11 | Eb:min11 | Eb:min11 | Ab:sus4(b7) F:min9 |, synthesizer)
+23.396802721	B, chorus, | Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |, (voice
+32.58462585	| Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+41.860975056	C, verse, | Eb:min11 Db:maj(11) | F:min7 Eb:sus4 | C:hdim7 F:7 | Bb:sus4(b7,9) |
+51.11356009	| Eb:min11 Db:maj(11) | F:min7 Eb:sus4 | C:hdim7 F:7 | Bb:sus4(b7,9) |
+60.356349206	| Eb:min11 Db:maj(11) | F:min7 Eb:sus4 | C:hdim7 F:7 | Bb:sus4(b7,9) |
+69.592947845	| Eb:min11 Db:maj(11) | F:min7 Eb:sus4 | Gb:maj9(#11) | Ab:sus4(b7,9) |
+78.839954648	B, chorus, | Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+88.072471655	| Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+97.319319727	C, verse, | Eb:min11 Db:maj(11) | F:min7 Eb:sus4 | C:hdim7 F:7 | Bb:sus4(b7,9) |
+106.572539682	| Eb:min11 Db:maj(11) | F:min7 Eb:sus4 | C:hdim7 F:7 | Bb:sus4(b7,9) |
+115.819319727	| Eb:min11 Db:maj(11) | F:min7 Eb:sus4 | C:hdim7 F:7 | Bb:sus4(b7,9) |
+125.111904761	| Eb:min11 Db:maj(11) | F:min7 Eb:sus4 | Gb:maj9(#11) | Ab:sus4(b7,9) |
+134.318730158	B, chorus, | Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+143.565487528	| Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+152.835147392	D, bridge, | Eb:sus4(b7,9) | Bb:min9 | Eb:sus4(b7,9) | Bb:min9 |
+162.071587301	| Eb:sus4(b7,9) | Bb:min9 | Eb:sus4(b7,9) | Gb:maj9 F:7(b9) |
+171.298730158	B, chorus, | Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+180.551678004	| Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+189.782653061	B, chorus, | Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+199.0361678	| Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+208.247301587	B, fadeout, | Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+217.531950113	| Bb:min9 Ab:maj | Eb:sus4(b7,9) Ab:maj/11 | Gb:maj6(9) Eb:min7(11) | C:hdim7 F:7(b9) |
+226.752721088	| Bb:min7 | Eb:min7 | Gb:maj9 |, voice)
+233.406984126	silence
+237.844897959	end

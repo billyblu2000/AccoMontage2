@@ -1,0 +1,34 @@
+# title: Put Your Hand In The Hand
+# artist: Ocean
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.278639455	A, intro, | N | N |, (drums)
+7.198344671	| E:maj | E:maj |, (piano)
+14.22723356	B, chorus, | E:maj | B:maj |, (voice
+21.190498866	| F#:min7 B:maj | E:maj |
+28.123764172	| E:7 | A:maj A#:dim |
+35.136848072	| E:maj C#:min F#:min7 A:maj | E:maj A:maj E:maj B:maj |
+42.170566893	B, verse, | E:maj | B:maj |
+49.246235827	| F#:min7 B:maj | E:maj |
+56.330566893	| E:7 | A:maj A#:dim |
+63.346802721	| E:maj C#:min F#:min7 A:maj | E:maj A:maj E:maj . |
+# tonic: A
+70.40494331	B, chorus, | A:maj | E:maj |
+77.433015873	| B:min7 E:maj | A:maj |
+84.462380952	| A:7 | D:maj D#:dim |
+91.44446712	| A:maj F#:min B:min7 D:maj | A:maj D:maj A:maj E:maj |
+98.458412698	B, verse, | A:maj | E:maj |
+105.558911564	| E:7 | A:maj |
+112.593015873	| A:7 | D:maj D#:dim |
+119.620544217	| A:maj F#:min B:min7 D:maj | A:maj D:maj A:maj E:maj |
+126.643968253	B, chorus, | A:maj | E:maj |
+133.704807256	| B:min7 E:maj | A:maj |
+140.749070294	| A:7 | D:maj D#:dim |
+147.771655328	| A:maj F#:min B:min7 D:maj | A:maj D:maj A:maj E:maj |
+154.760521541	B, chorus, | A:maj | E:maj |
+161.783673469	fadeout, | B:min7 E:maj | A:maj |
+168.813015873	| A:7 | D:maj D#:dim | A:maj F#:min B:min7 D:maj | A:maj D:maj A:maj E:maj |, voice)
+172.826122448	silence
+176.143673469	end

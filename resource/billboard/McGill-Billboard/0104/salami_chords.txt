@@ -1,0 +1,44 @@
+# title: We Two
+# artist: Little River Band
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.255419501	A, intro, | A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |, (guitar
+8.106394557	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |, guitar)
+15.844058956	B, verse, | A:5 | A:1(#5) | A:5 | A:1(#5) |, (voice
+23.524149659	| A:5 | A:1(#5) | A:5 | A:1(#5) |
+31.216077097	| D:maj | G:min/5 | D:maj | G:min/5 |
+39.002403628	| D:maj | G:min/5 | D:maj | G:min/5 |
+46.781950113	| A:maj | D:min/5 | A:maj | D:min/5 |
+54.467188208	| E:min | D:min7 | ->
+58.29956916	A, trans, | A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |, (guitar)
+66.10664399	B, verse, | A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |, (voice
+73.853537414	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+81.554557823	| D:maj | G:min/5 | D:maj | G:min/5 |
+89.266462585	| D:maj | G:min/5 | D:maj | G:min/5 |
+96.993265306	| A:maj | D:min/5 | A:maj | D:min/5 |
+104.714965986	| E:min | D:min7 | A:maj | D:min/5 |
+112.464240362	C, bridge, | D:sus4 | D:maj | A:maj(9) | A:maj(9) |
+120.134149659	| D:sus4 | D:maj | A:maj | E:maj |, voice)
+127.902471655	D, interlude, | A:5 | D:min6/5 | A:5 | D:min6/5 |, (guitar
+135.615941043	| A:5 | D:min6/5 | A:5 | F:maj(9) G:5(b7) B:min7 . |, guitar)
+143.341224489	B', verse, | A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |, (voice
+151.068117913	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+158.795079365	| D:maj | G:min/5 | D:maj | G:min/5 |
+166.593038548	| D:maj | G:min/5 | D:maj | G:min/5 |
+174.313061224	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+181.97941043	| A:maj(9) | D:min6/5 | B:min | D:min6 | D:min6 |, voice)
+187.819433106	A, trans, | A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |, (guitar)
+195.649274376	E, chorus, | A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |, (voice
+203.329002267	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+211.010702947	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+218.663628117	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+226.31770975	| A:maj(9) | D:min6/5 | D:min6/5 |, voice)
+232.014920634	E, outro, | A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |, (synthesizer
+239.635487528	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+247.240204081	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+254.811179138	fadeout, | A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 |
+262.460521541	| A:maj(9) | D:min6/5 | A:maj(9) | D:min6/5 | A:maj(9) |, synthesizer)
+270.582131519	silence
+273.763265306	end

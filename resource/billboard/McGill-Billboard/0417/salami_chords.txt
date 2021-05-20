@@ -1,0 +1,37 @@
+# title: (You're So Square) Baby, I Don't Care
+# artist: Joni Mitchell
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.348299319	A, intro, | G:5 | G:5 | G:5 | G:5 |, (guitar
+6.349455782	| G:sus4 | G:sus4 | G:sus4 | G:sus4 |, guitar)
+12.335306122	| D:maj/11 | D:maj/11 | G:maj | G:maj |, (voice
+18.122086167	| C:maj/5 | C:maj/5 | C:maj/5 | C:maj/5 |
+23.876507936	B, verse, | G:maj C:maj | G:maj | G:maj C:maj | G:maj |
+29.500521541	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj |
+35.107029478	C, chorus, | C:7 | D:7 N . . |, voice)
+37.833832199	D, interlude, | G:5 | G:5 | G:5 | G:5 |, (guitar)
+43.470113378	B, verse, | G:maj C:maj | G:maj | G:maj C:maj | G:maj |, (voice
+49.080022675	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj |
+54.7123356	C, chorus, | C:7 | D:7 N . . | G:maj | G:maj |
+60.268185941	E, bridge, | C:7 | C:7 | G:maj | G:7 |
+65.845374149	| C:7 | C#:dim | D:maj N . . | N |
+71.307256235	B, verse, | G:maj C:maj | G:maj | G:maj C:maj | G:maj |
+76.83292517	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj |
+82.365170068	C, chorus, | C:7 | D:7 N . . | G:5 | G:5 |, voice)
+87.833764172	E, instrumental, | C:7 | C:7 | G:maj | G:7 |, (horns
+93.379977324	| C:7 | C#:dim | D:1 | N |, horns)
+99.023446712	B, verse, | G:maj C:maj | G:maj | G:maj C:maj | G:maj |, (voice
+104.612675736	| G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj |
+110.159931972	C, chorus, | C:7 | D:7 N . . |
+112.90941043	A, outro, | D:maj/11 | D:maj/11 | D:maj/11 | D:maj/11 |
+118.586281179	| C:maj/5 | C:maj/5 | C:maj/5 | C:maj/5 |
+124.131224489	| D:maj/11 | D:maj/11 | D:maj/11 | D:maj/11 |
+129.816870748	| C:maj/5 | C:maj/5 | C:maj/5 | C:maj/5 |
+135.391133786	| D:maj/11 | D:maj/11 | D:maj/11 | D:maj/11 |, fadeout
+140.978526077	| C:maj/5 | C:maj/5 | C:maj/5 | C:maj/5 |
+146.483582766	| D:maj/11 | D:maj/11 | D:maj/11 | D:maj/11 |
+152.178526077	| C:maj/5 | C:maj/5 | C:maj/5 | C:maj/5 |, voice)
+157.455487528	silence
+158.040816326	end

@@ -1,0 +1,37 @@
+# title: El Condor Pasa
+# artist: Simon & Garfunkel
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+0.278639455	A, intro, | E:min/b3 | E:min/b3 | E:min/b3 | E:min/b3 | E:min/b3 | E:min/b3 | A:min/b3 | E:min/5 |, (guitar)
+40.007981859	B, verse, | * | * |, (voice
+44.187913832	| G:maj | G:maj |
+47.548798185	| G:maj | G:maj | G:maj | G:maj |
+54.023605442	| E:min | E:min | E:min | E:min |
+60.568367346	B, verse, | E:min | E:min |
+63.806054421	| G:maj | G:maj |
+66.927800453	| G:maj | G:maj | G:maj | G:maj |
+73.436371882	| E:min | E:min | E:min | E:min |
+79.970362811	C, chorus, | C:maj6 | C:maj6 | C:maj6 | C:maj6 |
+86.432539682	| G:maj | G:maj | G:maj | G:maj |
+92.903900226	| C:maj6 | C:maj6 | C:maj6 | C:maj6 |
+99.218866213	| G:maj | G:maj | G:maj | G:maj |
+105.867392290	| E:min | E:min | E:min | E:min |
+112.430725623	| E:min | E:min |
+115.673333333	B, verse, | E:min | E:min |
+118.904671201	| G:maj | G:maj |
+122.199591836	| G:maj | G:maj | G:maj | G:maj |
+128.768571428	| E:min | E:min |
+131.977278911	B, verse, | E:min | E:min |
+135.149954648	| G:maj | G:maj |
+138.459070294	| G:maj | G:maj | G:maj | G:maj |
+145.073083900	| E:min | E:min |, voice)
+148.307210884	C, chorus, | C:maj6 | C:maj6 | C:maj6 | C:maj6 |, (flute
+154.802063492	| G:maj | G:maj | G:maj | G:maj |
+161.364807256	| C:maj6 | C:maj6 | C:maj6 | C:maj6 |
+167.735714285	| G:maj | G:maj | G:maj | G:maj |
+174.322063492	| E:min | E:min | E:min | E:min |
+181.030702947	| E:min | E:min |, flute)
+185.063038548	silence
+188.525714285	end

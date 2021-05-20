@@ -1,0 +1,31 @@
+# title: If I Were A Carpenter
+# artist: Bobby Darin
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.371519274	A, intro, | D:maj | D:maj |, (guitar
+4.319954648	| D:maj | D:maj | D:maj | D:maj |, guitar)
+12.153469387	B, verse, | D:maj | C:maj | G:maj | D:maj |, (voice
+19.907823129	| D:maj | C:maj | G:maj | D:maj | D:maj |
+29.631043083	B, verse, | D:maj | C:maj | G:maj | D:maj |
+37.418639455	| D:maj | C:maj | G:maj | D:maj | D:maj |
+47.162494331	| C:maj G:maj | D:maj |
+51.093605442	C, chorus, | C:maj | D:maj | C:maj | D:maj | D:maj |
+60.986598639	| C:maj | G:maj | D:maj | D:maj |, voice)
+68.791247165	| C:maj G:maj | D:maj |, (guitar)
+72.757210884	B, verse, | D:maj | C:maj | G:maj | D:maj |, (voice
+80.59047619	| D:maj | C:maj | G:maj | D:maj | D:maj |
+90.347687074	B, verse, | D:maj | C:maj | G:maj | D:maj |
+98.19893424	| D:maj | C:maj | G:maj | D:maj | D:maj |
+108.006031746	| C:maj G:maj | D:maj |, voice)
+111.95664399	D, solo, | C:maj | G:maj | D:maj | D:maj |, (flute
+119.837369614	| C:maj | G:maj | D:maj | ->, flute)
+125.748321995	B, verse, | D:maj | C:maj | G:maj | D:maj |, (voice
+133.649206349	| D:maj | C:maj | G:maj | D:maj | D:maj |
+143.51095238	| D:maj | D:maj |
+147.419886621	| D:maj | C:maj | G:maj | D:maj | D:maj |
+157.338412698	| C:maj G:maj | D:maj |, voice)
+165.195215419	Z
+178.3292517	silence
+181.23755102	end

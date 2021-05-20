@@ -1,0 +1,29 @@
+# title: Hurts To Be In Love
+# artist: Gino Vanelli
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.394739229	A, intro, | C:maj7 | D:maj6 | C:maj7 | D:maj6 |, (synthesizer
+13.37217687	| C:maj7 | D:maj6 | C:maj7 | D:maj6 |, synthesizer)
+24.514172335	B, verse, | D:maj/9 | E:min | D:maj/9 | E:min |, (voice
+35.701814058	| D:maj/9 | E:min | D:maj/9 | E:maj |
+46.980725623	C, chorus, | C:maj7 | D:maj6 | C:maj7 | D:maj6 |
+58.243378684	| C:maj7 | B:7 |
+63.951632653	B, verse, | D:maj/9 | E:min | D:maj/9 | E:min |
+75.222630385	| D:maj/9 | E:min | D:maj/9 | E:maj |
+86.404172335	C, chorus, | C:maj7 | D:maj6 | C:maj7 | D:maj6 |
+97.785034013	| C:maj7 | B:7 |
+103.471451247	D, bridge, | E:min | D:maj/b7 C:maj | D:sus4 D:maj/b7 | B:sus4(b7) B:min7 |
+114.874829931	| E:min | D:maj/b7 C:maj | A:min | B:sus4(b7) |, voice)
+126.315283446	A, trans, | C:maj7 | D:maj6 | C:maj7 | D:maj6 |, (synthesizer
+137.605873015	B, verse, | D:maj/9 | E:min | D:maj/9 | E:min |, synthesizer)
+148.879886621	| D:maj/9 | E:min | D:maj/9 | E:maj |, (voice
+160.265442176	C, chorus, | C:maj7 | D:maj6 | C:maj7 | D:maj6 |
+171.64446712	| C:maj7 | B:7 |, voice)
+177.323129251	A, outro, | C:maj7 | D:maj6 | C:maj7 | D:maj6 |, (synthesizer
+188.696099773	| C:maj7 | D:maj6 | C:maj7 | D:maj6 |
+199.913333333	| C:maj7 | D:maj6 | C:maj7 | D:maj6 |
+211.09585034	fadeout, | C:maj7 | D:maj6 | C:maj7 | D:maj6 |, synthesizer)
+219.498231292	silence
+222.693877551	end

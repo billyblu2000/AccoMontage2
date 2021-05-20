@@ -1,0 +1,36 @@
+# title: Invisible Touch
+# artist: Genesis
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+6.9659863e-2	A, intro, | (2/4) N | F:sus4 F:maj | Bb:maj/5 . . C:maj/11 | F:sus4 F:maj | Bb:maj/3 . C:sus4(b7,9) C:maj |, (synthesizer
+8.318185941	| F:sus4 F:maj | Bb:maj/5 . . C:maj/11 | F:sus4 F:maj | Bb:maj/3 . C:sus4(b7,9) C:maj |, synthesizer)
+15.607505668	B, verse, | D:min | Bb:maj7 | A:min | F:maj(9) |, (voice
+22.952879818	| D:min | Bb:maj7 | A:min | C:maj |
+30.20755102	C, prechorus, | G:maj | G:maj | Bb:maj | F:maj |
+37.588435374	| Bb:maj | F:maj | Bb:maj | Bb:maj C:maj |
+44.909115646	D, chorus, | F:sus4 F:maj | Bb:maj/5 . . C:maj/11 | F:sus4 F:maj | Bb:maj/3 . C:sus4(b7,9) C:maj |
+52.149750566	| F:sus4 F:maj | Bb:maj/5 . . C:maj/11 | F:sus4 F:maj | Bb:maj/3 . C:sus4(b7,9) C:maj |
+59.573378684	B, verse, | D:min | Bb:maj7 | A:min | F:maj |
+66.857188208	| D:min | Bb:maj7 | A:min | C:maj |
+74.166077097	C, prechorus, | G:maj | G:maj | Bb:maj | F:maj |
+81.529160997	| Bb:maj | F:maj | Bb:maj | Bb:maj C:maj |
+88.875464852	D, chorus, | F:sus4 F:maj | Bb:maj/5 . . C:maj/11 | F:sus4 F:maj | Bb:maj/3 . C:sus4(b7,9) C:maj |
+96.266666666	| F:sus4 F:maj | Bb:maj/5 . . C:maj/11 | F:sus4 F:maj | Bb:maj/3 . C:sus4(b7,9) C:maj |, voice)
+103.526054421	E, bridge, | Eb:11 | Eb:11 | Eb:11 | Eb:11 |, (synthesizer
+110.829818594	| Eb:11 | Eb:11 | Eb:11 | Eb:11 |, synthesizer)
+118.195351473	D, chorus, | F:sus4 F:maj | Bb:maj/5 . . C:maj/11 | F:sus4 F:maj | Bb:maj/3 . C:sus4(b7,9) C:maj |, (voice
+125.551768707	| F:sus4 F:maj | Bb:maj/5 . . C:maj/11 | F:sus4 F:maj | Bb:maj/3 . C:sus4(b7,9) C:maj |
+132.85739229	B, verse, | D:min | Bb:maj7 | A:min | F:maj |
+140.082743764	| D:min | Bb:maj7 | A:min | C:maj |
+147.442517006	C, prechorus, | G:maj | G:maj | Bb:maj | F:maj |
+154.743174603	| Bb:maj | F:maj | Bb:maj | Bb:maj C:maj |
+162.16095238	D, chorus, | G:sus4 G:maj | C:maj/5 . . D:maj/11 | G:sus4 G:maj | C:maj/3 . D:sus4(b7,9) D:maj |
+169.509206349	| G:sus4 G:maj | C:maj/5 . . D:maj/11 | G:sus4 G:maj | C:maj/3 . D:sus4(b7,9) D:maj |
+176.797369614	| G:sus4 G:maj | C:maj/5 . . D:maj/11 | G:sus4 G:maj | C:maj/3 . D:sus4(b7,9) D:maj |
+184.14047619	| G:sus4 G:maj | C:maj/5 . . D:maj/11 | G:sus4 G:maj | C:maj/3 . D:sus4(b7,9) D:maj |
+191.454829931	D, chorus, | G:sus4 G:maj | C:maj/5 . . D:maj/11 | G:sus4 G:maj | C:maj/3 . D:sus4(b7,9) D:maj |, fadeout
+198.812222222	| G:sus4 G:maj | C:maj/5 . . D:maj/11 | G:sus4 G:maj | C:maj/3 . D:sus4(b7,9) D:maj |, voice)
+205.877596371	silence
+209.345306122	end

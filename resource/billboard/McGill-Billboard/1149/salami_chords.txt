@@ -1,0 +1,28 @@
+# title: Going To Chicago Blues
+# artist: Count Basie
+# metre: 4/4
+# tonic: Eb
+
+0.000000000	silence
+0.952018140	A, intro, | N | N | F:9 B:7 | Bb:7 Bb:aug(b7) |
+12.561995464	B, verse, | Eb:maj | Ab:7 A:dim | Eb:maj | Eb:7 |
+24.652426303	| Ab:7 | Ab:7 | Eb:maj | Eb:maj |
+36.571428571	| F:min7 B:7 | Bb:7 | Eb:maj Ab:7 | Eb:maj |
+48.947664399	C, verse, | Eb:maj | Ab:7 | Eb:maj | Eb:maj |
+61.370340136	| Ab:7 | Ab:7 | Eb:maj | Eb:maj |
+73.978775510	| F:min7 | Bb:7 | Eb:maj . Ab:7 A:dim | Eb:maj Bb:7 |
+86.865850340	C', verse, | Eb:7 | Ab:maj | Eb:7 | Eb:7 |
+99.706485260	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+112.732879818	| Bb:7 | Bb:7 | Eb:maj . Ab:7 A:dim | Bb:7 |
+125.782494331	C'', verse, | Eb:7 | Ab:7 | Eb:7 | Eb:7 |
+138.948208616	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+152.299682539	| Bb:7 | Bb:7 | Eb:maj . Ab:7 A:dim | Eb:maj Bb:7 |
+165.744036281	C''', verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+179.559909297	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+193.538321995	| F:sus4(b7) Bb:7 | F:sus4(b7) Bb:7 | Eb:maj . Ab:7 A:dim | Eb:maj Bb:7 |
+207.423854875	C', verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+220.984308390	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+234.614421768	| F:sus4(b7) Bb:7 | F:sus4(b7) Bb:7 | Eb:maj . Ab:7 A:dim | Eb:maj Bb:7 Eb:maj . |
+248.874172335	C, ending, | Eb:maj6/5 Eb:maj |
+251.820408163	silence
+254.223673469	end

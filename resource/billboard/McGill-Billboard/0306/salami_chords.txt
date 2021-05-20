@@ -1,0 +1,43 @@
+# title: In The Navy
+# artist: Village People 
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.394739229	A, intro, | N | N |
+4.721020408	B, interlude, | G:min | F:7 | Eb:maj7 | D:sus4 D:maj |, (trumpet
+12.499024943	| G:min | F:7 | Eb:maj7 | D:7 |, trumpet)
+20.22095238	C, verse, | G:min | G:min | G:min | Bb:maj |, (voice
+27.952902494	| C:min | Bb:maj | C:min7 | D:maj |
+35.659433106	| G:min | G:min | G:min | Bb:maj |
+43.378503401	| C:min | Bb:maj | C:min7 | D:maj |
+# tonic: G
+51.086870748	D, chorus, | G:maj7 | G:maj7 | A:min7 | D:maj |
+58.720408163	| A:min7 | D:maj | G:maj | D:maj |
+66.348798185	| G:maj7 | G:maj7 | A:min7 | D:maj |
+73.993356009	| A:min7 | D:maj | G:maj | D:maj |, voice)
+# tonic: G
+81.657959183	A, trans, | G:min | N | N | N |
+89.281292517	C, verse, | G:min | G:min | G:min | Bb:maj |, (voice
+96.971405895	| C:min | Bb:maj | C:min7 | D:maj |
+104.671927437	| G:min | G:min | G:min | Bb:maj |
+112.373151927	| C:min | Bb:maj | C:min7 | D:maj |
+# tonic: G
+120.068140589	D, chorus, | G:maj7 | G:maj7 | A:min7 | D:maj |
+127.697936507	| A:min7 | D:maj | G:maj | D:maj |
+135.315011337	| G:maj7 | G:maj7 | A:min7 | D:maj |
+142.980340136	| A:min7 | D:maj | G:maj | D:maj |, voice)
+# tonic: G
+150.650272108	A, trans, | N | N | N | N | N | N |
+161.937256235	E, bridge, | G:min7 | G:min7 | G:min7 | G:min7 |, (trumpet
+169.541201814	| G:min7 | G:min7 | G:min7 | G:min7 |
+177.19063492	| G:min7 | G:min7 | G:min7 | G:min7 |
+184.787324263	| G:min7 | G:min7 | G:min7 | G:min7 |
+192.374240362	| G:min7 | G:min7 |, trumpet)
+# tonic: G
+196.092721088	D, chorus, | G:maj7 | G:maj7 | A:min7 | D:maj |, (voice
+203.61786848	| A:min7 | D:maj | G:maj | D:maj |
+211.112517006	fadeout, | G:maj7 | G:maj7 | A:min7 | D:maj |
+218.69478458	| A:min7 | D:maj | G:maj | D:maj |, voice)
+224.002902494	silence
+226.246530612	end

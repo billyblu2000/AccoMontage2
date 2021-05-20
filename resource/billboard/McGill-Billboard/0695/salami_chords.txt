@@ -1,0 +1,40 @@
+# title: Boulevard
+# artist: Jackson Browne
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.255419501	A, chorus, | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (guitar
+5.288321995	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, guitar)
+11.908798185	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (voice
+18.640385487	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |
+25.354897959	| D:maj A:maj |
+27.057324263	B, verse, | E:maj | E:maj | F#:min | F#:min |
+33.872789115	| E:maj | E:maj | F#:min | F#:min D:maj | D:maj |, voice)
+42.27526077	A, chorus, | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (guitar
+47.353537414	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, guitar)
+54.089387755	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (voice
+60.806099773	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |
+67.631791383	| D:maj A:maj |
+69.255555555	B, verse, | E:maj | E:maj | F#:min | F#:min |
+76.087573696	| E:maj | E:maj | F#:min | F#:min D:maj | D:maj |
+84.659954648	C, bridge, | D:maj | E:maj | D:maj | E:maj |
+91.555782312	| D:maj | E:maj | D:maj | E:maj |, voice)
+98.440748299	A, chorus, | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (guitar
+103.587301587	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, guitar)
+110.344172335	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (voice
+117.234444444	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |
+124.046258503	| D:maj A:maj |
+125.717210884	B, verse, | E:maj | E:maj | F#:min | F#:min |
+132.710045351	| E:maj | E:maj | F#:min | F#:min D:maj | D:maj |
+141.302131519	C, bridge, | D:maj | E:maj | D:maj | E:maj |
+148.143106575	| D:maj | E:maj | D:maj | E:maj |, voice)
+155.083968253	A, chorus, | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (guitar
+160.209591836	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, guitar)
+167.012199546	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (voice
+173.761043083	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, voice)
+180.633832199	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj E:maj/3 D:maj/3 E:maj |, (guitar
+187.46063492	| D:maj A:maj | D:maj/5 A:maj | D:maj/5 A:maj | A:maj |
+194.328344671	fadeout, | A:maj | A:maj | A:maj |, guitar)
+199.482630385	silence
+201.351836734	end

@@ -1,0 +1,46 @@
+# title: Never Knew Love Like This Before
+# artist: Stephanie Mills
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.394739229	A, intro, | B:maj | E:sus4(b7,9) E:maj | F#:maj(9)/3 | D#:min7 |, (keyboard
+8.873922902	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) . E:maj F#:sus4(b7,9) |, keyboard)
+17.369115646	A, verse, | B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |, (voice
+25.850498866	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) |
+34.336961451	| B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |
+42.823378684	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) |
+51.317959183	| B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |
+59.852426303	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) . . D#:min7 |
+68.28648526	B, chorus, | E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+76.843492063	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+85.285555555	| E:maj7 | D#:min7 G#:min7 | C#:sus4(b7) C#:7 | F#:sus4(b7,9) |, voice)
+93.741587301	A, instrumental, | B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |
+102.282494331	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) |
+110.756530612	A, verse, | B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |, (voice
+119.279546485	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) |
+127.757891156	| B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |
+136.27664399	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) |
+144.757142857	| B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |
+153.275419501	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) . . D#:min7 |
+161.749546485	B, chorus, | E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+170.220136054	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+178.722743764	| E:maj7 | D#:min7 G#:min7 | C#:sus4(b7) C#:7 | F#:sus4(b7,9) |
+187.188571428	A', verse, | B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |
+195.719455782	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) |
+204.24446712	| B:maj | E:sus4(b7,9) E:maj | F#:maj/3 | D#:min7 |
+212.681609977	| G#:min7 | C#:min7 | F#:sus4(b7,9) | F#:sus4(b7,9) . . D#:min7 |
+221.174535147	B', chorus, | E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+229.669138321	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+238.189863945	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+246.692244897	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+255.162539682	B', outro, | E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+263.649319727	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+272.131496598	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+280.662199546	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+289.141156462	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+297.62292517	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+306.093151927	fadeout, | E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |
+314.622154195	| E:maj7 | D#:min7 G#:min7 | C#:min7 | D#:min7 |, voice)
+322.853786848	silence
+324.497324263	end

@@ -1,0 +1,32 @@
+# title: Saturday Night
+# artist: Bay City Rollers
+# metre: 4/4
+# tonic: G
+
+0.000000000	silence
+0.232199546	A, intro, | N | N | N | N |, (crowd
+7.639365079	| G:maj | G:maj | G:maj | G:maj |, crowd)
+14.794058956	B, verse, | G:maj | E:min | C:maj | D:maj |, (voice
+21.921927437	| G:maj | E:min | C:maj | D:maj |
+29.033673469	C, pre-chorus, | E:min | B:min | C:maj | D:maj | D:maj |
+38.042154195	D, chorus, | G:maj | C:maj | G:maj | D:maj |
+45.146009070	| G:maj | C:maj | G:maj | D:maj |
+52.174240362	E, chorus, | C:maj | G:maj/3 | A:min7 | G:maj |
+58.816145124	| C:maj | G:maj/3 | A:min7 |, voice)
+63.967346938	A, interlude, | G:maj | G:maj | N | N |, (crowd
+71.423242630	| G:maj | G:maj | G:maj | G:maj |, crowd)
+78.391655328	B, verse, | G:maj | E:min | C:maj | D:maj |, (voice
+85.343356009	| G:maj | E:min | C:maj | D:maj |
+92.297029478	C, pre-chorus, | E:min | B:min | C:maj | D:maj | D:maj |
+101.020634920	D, chorus, | G:maj | C:maj | G:maj | D:maj |
+107.948707482	| G:maj | C:maj | G:maj | D:maj |
+114.872607709	E, chorus, | C:maj | G:maj/3 | A:min7 | G:maj |
+121.732834467	| C:maj | G:maj/3 | A:min7 | ->, voice)
+126.836825396	A, interlude, | G:maj | G:maj | N | N |, (crowd
+134.018979591	| G:maj | G:maj | G:maj | G:maj |
+140.788004535	| G:maj | G:maj | G:maj | G:maj | G:maj |, crowd)
+148.963265306	E, chorus, | C:maj | G:maj/3 | A:min7 | G:maj |, (voice
+155.908956916	| C:maj | G:maj/3 | A:min7 | G:maj |
+162.605510204	fadeout, | C:maj | G:maj/3 | A:min7 | G:maj |, voice)
+173.572426303	silence
+178.121156462	end

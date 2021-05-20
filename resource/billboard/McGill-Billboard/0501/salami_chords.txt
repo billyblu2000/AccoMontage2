@@ -1,0 +1,32 @@
+# title: Last Dance
+# artist: Donna Summer
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.417959183	A, intro, | Eb:maj | Ab:maj/5 | Eb:maj | Ab:maj/5 |, (flute)
+15.70648526	B, verse, | Eb:maj7 | Ab:maj/5 | Eb:maj7 | Bb:aug(b7) |, (voice
+30.844126984	| Eb:maj7 | Ab:maj/5 | Eb:7 | Eb:7 |
+46.067619047	| Ab:maj7 | Bb:maj/b7 | G:min7 | C:min |
+61.164376417	| Ab:maj7 | Bb:maj/b7 | G:min7 G:7 | C:min F:9 | F:9 | &pause |
+80.178503401	A, chorus, | Eb:maj/5 | Ab:maj/9 | Eb:maj/5 | Ab:maj/9 |
+87.76755102	| Eb:maj/5 | Ab:maj/9 |
+91.640136054	| F:9/3 | Bb:maj |
+95.372834467	B, verse, | Eb:maj7 | Ab:maj/5 | Eb:maj7 | Bb:aug(b7) |
+103.003786848	| Eb:maj7 | Ab:maj/5 | Eb:7 | Eb:7 |
+110.608979591	| Ab:maj7 | Bb:maj/b7 | G:min7 | C:min |
+118.20095238	| Ab:maj7 | Bb:maj/b7 | G:min7 G:7 | C:min F:9 |
+125.80893424	A, chorus, | Eb:maj/5 | Ab:maj/9 | Eb:maj/5 | Ab:maj/9 |
+# tonic: F
+133.396122448	| F:maj/5 | Bb:maj/9 |
+137.178276643	| G:9/3 | Bb:maj7 | F:maj/3 | G:min7 C:sus4(b7,9) |, voice)
+144.825736961	B, verse, | F:maj | Bb:maj/5 | F:maj | C:aug(b7) |, (strings
+152.39494331	| F:maj | Bb:maj/5 | F:7 | F:7 |, strings)
+160.00723356	| Bb:maj7 | C:maj/b7 | A:min7 | D:min |, (voice
+167.609977324	| Bb:maj7 | C:maj/b7 | A:min7 A:7 | D:min G:9/5 |
+175.15079365	A, chorus, | F:maj/5 | Bb:maj/9 | F:maj/5 | Bb:maj/9 |
+182.743333333	| F:maj/5 | Bb:maj/9 |
+186.545056689	| G:9/3 | Bb:maj7 | F:maj/3 | G:min7 C:sus4(b7,9) |, voice)
+194.182947845	| C:sus4(b7,9) | F:maj |, (strings)
+197.067755102	silence
+199.653877551	end

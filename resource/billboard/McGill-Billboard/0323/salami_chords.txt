@@ -1,0 +1,42 @@
+# title: Dream Police
+# artist: Cheap Trick 
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+7.755102e-2	A', intro, | E:maj | B:maj A:maj | E:maj | B:maj A:maj |, (guitar)
+7.666712018	A, chorus, | E:maj | B:maj A:maj | E:maj | B:maj A:maj |, (voice
+14.681746031	| E:maj | B:maj A:maj | E:maj | E:maj |
+21.73170068	B, verse, | F#:min C#:min | D:maj A:maj | C#:min G#:maj | E:maj B:maj . . |
+28.795351473	| F#:min C#:min | D:maj A:maj | C#:min G#:maj | E:maj B:maj . . | E:maj B:maj . . |
+37.602675736	C, pre-chorus, | E:maj | E:maj | E:maj | E:maj |
+44.486575963	| E:maj D:maj | C:maj G:maj/3 | A:maj | A:maj |
+51.411791383	| E:min D:maj | C:maj G:maj/3 | B:maj | B:maj |
+58.350612244	A, chorus, | E:maj | B:maj A:maj | E:maj | B:maj A:maj |
+65.348571428	| E:maj | B:maj A:maj | E:maj | E:maj |
+72.331927437	B, verse, | F#:min C#:min | D:maj A:maj | C#:min G#:maj | E:maj B:maj . . |
+79.352131519	| F#:min C#:min | D:maj A:maj | C#:min G#:maj | E:maj B:maj . . | E:maj B:maj . . |
+88.043673469	C, pre-chorus, | E:maj | E:maj | E:maj | E:maj |
+94.974331065	| E:maj D:maj | C:maj G:maj/3 | A:maj | A:maj |
+101.913990929	| E:min D:maj | C:maj G:maj/3 | B:maj | B:maj |
+108.943129251	D, bridge, | E:min B:1 | C:1 G:1 | A:maj E:1 | F:1 C:1 |
+115.971201814	| E:min B:1 | C:1 G:1 | A:maj E:1 | F:1 E:1 |, voice)
+123.027959183	B, solo, | F#:min C#:min | D:maj A:maj | C#:min G#:maj | E:maj B:maj . . |, (guitar
+130.133333333	| F#:min C#:min | D:maj A:maj | C#:min G#:maj | E:maj B:maj . . | E:maj B:maj . . |, guitar)
+138.847346938	C, pre-chorus, | E:maj B:maj . . | E:maj | E:maj | E:maj | E:maj |, (voice
+145.798458049	| E:maj D:maj | C:maj G:maj/3 | A:maj | A:min |
+152.808594104	| E:min D:maj | C:maj G:maj/3 |
+156.295736961	E, interlude, | B:maj | E:min/5 | F:dim/#11 | B:7 |, voice)
+163.197369614	| D#:maj/b13 B:maj6 | C:dim/7 | B:maj | B:maj |, (guitar)
+169.925170068	| F#:1(b5,b7,3) | G:maj7 | (3/8) Ab:min | (3/8) Ab:maj |, (synthesizer
+174.656235827	| C:1(b5,b7,3) | Db:maj | (3/4) D:7(b9) |
+179.396054421	| Eb:1(b5,b7,3) | G:1(b5,b7,3) | (3/8) Ab:maj7 | (3/8) A:min |
+184.045895691	| Bb:maj7 | A:1(b5,b7,3) | Bb:maj7 | A:1(b5,b7,3) |
+190.836598639	| Bb:maj7 | A:1(b5,b7,3) | Bb:maj7 | A:1(b5,b7,3) |, synthesizer)
+197.597641723	A, chorus, | E:maj | B:maj A:maj | E:maj | B:maj A:maj |, (voice
+204.620045351	| E:maj | B:maj A:maj | E:maj | B:maj A:maj |
+211.575691609	fadeout, | E:maj | B:maj A:maj | E:maj | B:maj A:maj |
+218.496598639	| E:maj | B:maj A:maj | E:maj | B:maj A:maj |
+225.478072562	| E:maj | B:maj A:maj |, voice)
+228.554013605	silence
+231.314285714	end

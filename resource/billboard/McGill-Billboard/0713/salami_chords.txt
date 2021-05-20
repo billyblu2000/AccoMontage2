@@ -1,0 +1,29 @@
+# title: Ko-Ko Joe
+# artist: Jerry Reed
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.30185941	A, intro, | A:maj | A:maj | A:maj | A:maj |, (guitar)
+9.563741496	B, verse, | A:maj | A:maj | A:maj | E:7 |, (voice
+18.827414965	| A:maj | A:maj |
+23.455170068	| A:maj | A:maj | A:maj C:maj | D:maj A:maj |
+32.847528344	C, chorus, | B:7 | D:7 | A:7 | ->
+39.912040816	| B:7 | D:maj | D:maj/b7 | D:7 B:7 E:7 . |, voice)
+49.445963718	A, trans, | A:7 | A:7 |, (guitar)
+54.059478458	B, verse, | A:maj | A:maj | A:maj | E:7 |, (voice
+63.416507936	| A:maj | A:maj |
+68.125759637	| A:maj | A:maj | A:maj C:maj | D:maj A:maj |
+77.446916099	C, chorus, | B:7 | D:7 | A:7 | ->
+84.568594104	| B:7 | D:maj | D:maj/b7 | D:7 B:7 E:7 . |, voice)
+94.156734693	A, trans, | A:7 | A:7 |, (guitar)
+98.672879818	B, verse, | A:maj | A:maj | A:maj | E:7 |, (voice
+108.043287981	| A:maj | A:maj |
+112.687845804	| A:maj | A:maj | A:maj C:maj | D:maj A:maj |
+122.034149659	C, chorus, | B:7 | D:7 | A:7 | ->
+129.097845804	| B:7 | D:maj | D:maj/b7 | D:7 B:7 E:7 . |, voice)
+138.593650793	A, trans, | A:7 | A:7 |, (guitar)
+143.239115646	C, fadeout, | B:7 | D:7 | A:7 |, (voice
+150.284535147	| B:7 |, voice)
+151.092244897	silence
+155.324081632	end

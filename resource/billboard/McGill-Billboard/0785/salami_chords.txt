@@ -1,0 +1,32 @@
+# title: Soul And Inspiration
+# artist: The Righteous Brothers
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.441179138	A, intro, | A:maj . . D:maj/5 | A:maj | A:maj . . D:maj/5 | A:maj |, (guitar)
+9.290022675	B, verse, | A:maj | D:maj | E:maj | A:maj |, (voice
+17.895442176	| A:maj | D:maj | E:maj | A:maj |
+26.563809523	| B:min7 | D:maj | E:maj | E:maj |
+35.165714285	C, chorus, | D:maj | A:maj | D:maj | E:maj |
+43.735034013	| A:maj C#:min | D:maj E:maj | D:maj E:maj | ->, voice)
+50.281882086	A, trans, | A:maj . . D:maj/5 | A:maj |, (guitar)
+54.595442176	B, verse, | A:maj | D:maj | E:maj | A:maj |, (voice
+63.13648526	| A:maj | D:maj | E:maj | A:maj |
+71.799319727	| B:min7 | D:maj | E:maj | E:maj |
+80.348163265	C, chorus, | D:maj | A:maj | D:maj | E:maj |
+88.984489795	| A:maj C#:min | D:maj E:maj | D:maj E:maj | ->, voice)
+95.439319727	A, trans, | A:maj . . D:maj/5 | A:maj |, (guitar)
+99.815351473	D, bridge, | B:maj7 | E:maj | B:maj7 | E:maj |, (voice
+108.410816326	| B:maj7 | E:maj | D:maj | E:maj | E:maj |, voice)
+119.009274376	| G:maj | D:maj | A:maj | A:maj |, (guitar)
+127.506145124	B, verse, | A:maj | D:maj | E:maj | A:maj |, (voice
+136.07600907	| A:maj | D:maj | E:maj | A:maj |
+144.563990929	| B:min7 | D:maj | E:maj | E:maj |
+153.14324263	C', chorus, | D:maj | A:maj | D:maj | E:maj |
+161.676349206	| A:maj C#:min | D:maj E:maj | D:maj E:maj | A:maj |
+170.329229024	| A:maj C#:min | D:maj E:maj | D:maj E:maj |
+176.816802721	| G:maj | D:maj |
+181.132517006	| A:maj |, voice)
+186.734875283	silence
+188.786938775	end

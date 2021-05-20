@@ -1,0 +1,35 @@
+# title: We Don t Need Another Hero (Thunderdome)
+# artist: Tina Turner
+# metre: 4/4
+# tonic: B
+
+0.000000000	silence
+0.441179138	A, intro, | B:maj | F#:maj | B:maj | F#:maj |, (synthesizer
+10.157210884	| C#:min11/b3 | F#:maj | C#:maj | C#:maj |, synthesizer)
+19.920929705	A, verse, | B:maj | F#:maj | B:maj | F#:maj |, (voice
+29.609591836	| C#:min11/b3 | F#:maj | C#:maj | C#:maj |
+39.322743764	| B:maj | F#:maj | B:maj | F#:maj |
+49.056145124	| C#:min11/b3 | F#:maj | C#:maj | C#:maj |
+58.758662131	B, pre-chorus, | E:maj | (2/4) F#:maj | C#:min9 | C#:min9 |
+67.271972789	| E:maj | (2/4) F#:maj | C#:min9 | F#:maj . E:maj/3 F#:maj |
+75.778956916	C, chorus, | E:maj F#:maj | F#:maj . E:maj/3 F#:maj | E:maj F#:maj | F#:maj/13 . B:maj/3 F#:maj/13 |
+85.473877551	| E:maj F#:maj | C#:min | C#:min |
+92.735192743	A, verse, | B:maj | F#:maj | B:maj | F#:maj |
+102.454331065	| C#:min11/b3 | F#:maj | C#:maj | C#:maj |
+112.185782312	| B:maj | F#:maj | B:maj | F#:maj |
+121.884807256	| C#:min11/b3 | F#:maj | C#:maj | C#:maj |
+131.602063492	B, pre-chorus, | E:maj | (2/4) F#:maj | C#:min9 | C#:min9 |
+140.051156462	| E:maj | (2/4) F#:maj | C#:min9 | C#:min9 | F#:maj . E:maj/3 F#:maj |
+151.015238095	C, chorus, | E:maj F#:maj | F#:maj . E:maj/3 F#:maj | E:maj F#:maj | F#:maj/13 . B:maj/3 F#:maj/13 |
+160.767482993	| E:maj F#:maj | C#:min B:maj |
+165.544761904	D, bridge, | A:maj | F#:maj | A:maj | C#:min |
+175.302494331	| D:maj | E:maj/b7 | D:maj | E:7 | E:7 |, voice)
+187.408344671	C, solo, | E:maj F#:maj | F#:maj . E:maj/3 F#:maj | E:maj F#:maj | F#:maj F#:maj/13 B:maj/3 F#:maj/13 |, (saxophone
+197.153038548	| E:maj F#:maj | F#:maj . E:maj/3 F#:maj | E:maj F#:maj | F#:maj . E:maj/3 F#:maj |, saxophone)
+206.840249433	C, chorus, | E:maj F#:maj | F#:maj . E:maj/3 F#:maj | E:maj F#:maj | F#:maj/13 . B:maj/3 F#:maj/13 |, (voice
+216.549773242	| E:maj F#:maj | C#:min | C#:min | F#:maj . E:maj/3 F#:maj |
+226.292108843	C, chorus, | E:maj F#:maj | F#:maj . E:maj/3 F#:maj | E:maj F#:maj | F#:maj/13 . B:maj/3 F#:maj/13 |
+235.955623582	| E:maj F#:maj | C#:min | C#:min |, voice)
+243.101451247	fadeout, | C#:min | C#:min | C#:min | C#:min |, (synthesizer)
+253.074285714	silence
+255.503673469	end

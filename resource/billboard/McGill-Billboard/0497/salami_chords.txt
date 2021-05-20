@@ -1,0 +1,35 @@
+# title: City In The Sky
+# artist: The Staple Singers
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.534058956	A', intro, | D:7 | D:7 | D:7 | D:min7 |, (synthesizer
+10.152539682	| D:7 | C:sus4 | D:7 | C:sus4 |, synthesizer)
+19.323333333	B, verse, | D:7 | C:sus4 | D:7 | C:sus4 |, (voice
+28.400997732	| D:7 | C:sus4 | G:7 | G:7 |
+37.537596371	| D:7 | C:sus4 | G:7 | G:7 |
+46.608639455	| D:7 | C:sus4 |
+51.069727891	C, chorus, | A:7 | G:7 | G:7 | G:7 |, voice)
+60.083673469	A, interlude, | D:7 | D:7 | D:7 | D:7(#9) |, (synthesizer)
+69.119070294	B, verse, | D:7 | C:sus4 | D:7 | C:sus4 |, (voice
+78.196054421	| D:7 | C:sus4 | G:7 | G:7 |
+87.29356009	| D:7 | C:sus4 | G:7 | G:7 |
+96.317482993	| D:7 | C:sus4 |
+100.832063492	C, chorus, | A:7 | G:7 | G:7 | G:7 |, voice)
+109.865555555	A, interlude, | D:7 | D:7 | D:7 | D:7(#9) |, (synthesizer)
+118.810657596	B, verse, | D:7 | C:sus4 | D:7 | C:sus4 |, (voice
+127.908684807	| D:7 | C:sus4 | G:7 | G:7 |
+136.960929705	| D:7 | C:sus4 | G:7 | G:7 |
+145.953605442	| D:7 | C:sus4 |
+150.411723356	C, chorus, | A:7 | G:7 | G:7 | G:7 |, voice)
+159.472267573	A, outro, | D:7 | D:7 | D:7 | D:7 |, (synthesizer
+168.431111111	| D:7 | D:7 | D:7 | D:7 |
+177.471156462	| D:7 | D:7 |
+181.839206349	| D:7 | D:7 | D:7 | D:7 |
+190.654376417	| D:7 | D:7 | D:7 | D:7 |
+199.395419501	| D:7 | D:7 | D:7 | D:7 |
+208.16600907	fadeout, | D:7 | D:7 | D:7 | D:7 |
+216.917120181	| D:7 | D:7 | D:7 |, synthesizer)
+221.889886621	silence
+224.104489795	end

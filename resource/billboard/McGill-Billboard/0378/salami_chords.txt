@@ -1,0 +1,52 @@
+# title: The Humpty Dance 
+# artist: Digital Underground 
+# metre: 4/4
+# tonic: Eb
+
+0.000000000	silence
+0.208979591	A, intro, | Eb:maj | Eb:maj |, (percussion)
+11.045963718	A, verse, | Eb:maj | Eb:maj |, (rap
+20.274126984	| Eb:maj | Eb:maj |
+29.618548752	| Eb:maj | Eb:maj |
+38.818594104	| Eb:maj | Eb:maj |
+48.026349206	| Eb:maj | Eb:maj |
+57.266462585	| Eb:maj | Eb:maj |
+66.562244897	| Eb:maj | Eb:maj |
+75.874512471	B, chorus, | Eb:maj |
+80.550430839	| Eb:maj | Eb:maj |
+89.844217687	| Eb:maj | Eb:maj |
+99.034376417	A, verse, | Eb:maj | Eb:maj |
+108.330068027	| Eb:maj | Eb:maj |
+117.562154195	| Eb:maj | Eb:maj |
+126.866485260	| Eb:maj | Eb:maj |
+136.176530612	| Eb:maj | Eb:maj |
+145.411337868	B, chorus, | Eb:maj |
+150.032426303	| Eb:maj | Eb:maj |
+159.346099773	| Eb:maj | Eb:maj |
+168.570362811	C, interlude, | Eb:maj | Eb:maj |
+177.915260770	Z 
+185.826507936	A, verse, | Eb:maj | Eb:maj |
+195.206893424	| Eb:maj | Eb:maj |
+204.358458049	| Eb:maj | Eb:maj | Eb:maj |
+218.326643990	B, chorus, | Eb:maj |
+222.966780045	| Eb:maj | Eb:maj |
+232.230476190	| Eb:maj | Eb:maj |
+241.470702947	| Eb:maj | Eb:maj |
+250.798775510	| Eb:maj | Eb:maj |
+259.998639455	B, chorus, | Eb:maj |
+264.687278911	| Eb:maj | Eb:maj |
+274.030566893	| Eb:maj | Eb:maj |
+283.206326530	| Eb:maj | (6/4) Eb:maj |
+290.191360544	C, interlude, | Eb:maj | Eb:maj |
+299.441564625	| Eb:maj | Eb:maj |, rap)
+308.719591836	| Eb:maj |, (percussion
+313.446145124	A, outro, | Eb:maj | Eb:maj |
+322.559501133	| Eb:maj | Eb:maj |
+331.830317460	| Eb:maj | Eb:maj |
+341.124013605	| Eb:maj | Eb:maj |
+350.438684807	B, outro, | Eb:maj |
+355.022539682	A, outro, | Eb:maj | Eb:maj |
+364.319977324	| Eb:maj | Eb:maj |, fadeout
+373.589909297	| Eb:maj | Eb:maj |, percussion)
+384.766213151	silence
+388.156485260	end

@@ -1,0 +1,18 @@
+# title: Ain't No Sunshine
+# artist: Bill Withers
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+3.050045351	A, chorus, | A:min7 . E:min7 G:7 | A:min7 | A:min7 . E:min7 G:7 | A:min7 |, (voice
+15.825079365	| E:min7 | D:min7 | A:min7 . E:min7 G:7 | A:min7 |
+28.543061224	A, chorus, | A:min7 . E:min7 G:7 | A:min7 | A:min7 . E:min7 G:7 | A:min7 |
+40.885328798	| E:min7 | D:min7 | A:min7 . E:min7 G:7 | A:min7 |
+53.238730158	B, interlude, | N | N | N | N |
+65.129818594	| N | N | A:min7 . E:min7 G:7 | A:min7 |
+77.158707482	A, chorus, | A:min7 . E:min7 G:7 | A:min7 | A:min7 . E:min7 G:7 | A:min7 |
+89.180702947	| E:min7 | D:min7 | A:min7 . E:min7 G:7 | A:min7 |
+101.271065759	A, outro, | A:min7 . E:min7 G:7 | A:min7 | A:min7 . E:min7 G:7 | A:min7 |
+113.126689342	| A:min7 . E:min7 G:7 | A:min7 | A:min7 . E:min7 G:7 | A:min9 |, voice)
+123.528163265	silence
+126.380408163	end

@@ -1,0 +1,30 @@
+# title: The Look
+# artist: Roxette
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+1.198730158	C, intro, | A:maj | (2/4) A:maj |
+5.079795918	| A:5 | A:5 | A:5 | A:5 |
+15.07371882	| A:5 | A:5 |
+20.185306122	A, verse, | A:5 | G:1 | D:1 | A:1 |, (voice
+30.285963718	| A:1 | G:1 | D:1 | A:1 |
+40.307346938	B, chorus, | A:5 | A:5 | C:maj G:maj | A:maj | C:maj G:maj | A:maj | F:maj G:maj |, voice) 
+58.011020408	C, interlude, | A:maj | A:maj |
+63.103673469	A, verse, | A:5 | G:1 | D:1 | A:1 |, (voice
+73.19526077	| A:1 | G:1 | D:1 | A:1 |
+83.227052154	B, chorus, | A:5 | A:5 | C:maj G:maj | A:maj | C:maj G:maj | A:maj | F:maj G:maj |, voice) 
+100.944739229	C, interlude, | A:maj | A:maj |
+106.060068027	D, bridge, | E:5 | A:5 | E:5 | A:5 |
+116.128208616	| E:5 | A:5 | E:5 | A:5 |
+126.26324263	| G:5 D:5 | A:5 | G:5 D:5 | A:5 | A:5 |
+138.866553287	E, verse, | A:5 | G:5 D:5 | A:5 | G:5 D:5 |, (voice
+149.001292517	| A:5 | G:5 | D:5 | A:5 |
+159.068458049	B, chorus, | A:5 | A:5 | C:maj G:maj | A:maj | C:maj G:maj | A:maj | F:maj G:maj |
+176.805578231	| A:5 | C:maj G:maj | A:5 | C:maj G:maj | A:5 | F:maj G:maj | (2/4) N |
+193.310884353	| A:5 | G:5 | D:5 | A:5 |
+203.285011337	| A:5 | G:5 | D:5 | A:5 |
+213.450861678	fadeout, | A:5 | G:5 | D:5 | A:5 |
+223.505170068	| A:5 | G:5 | D:5 | A:5 |, voice)
+236.848979591	silence
+237.975510204	end

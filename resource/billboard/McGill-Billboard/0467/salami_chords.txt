@@ -1,0 +1,28 @@
+# title: Little Bit O' Soul
+# artist: The Music Explosion
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.510839002	A, intro, | F#:1 B:1 | C#:1 F#:1 | F#:1 B:1 | C#:1 F#:1 |, (guitar)
+8.04292517	B, verse, | F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |, (voice
+15.515668934	| F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+22.756462585	C, chorus, | F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+29.924512471	| F#:maj B:maj | C#:maj F#:maj |, voice)
+33.547074829	A, trans, | F#:1 B:1 | C#:1 F#:1 | F#:1 B:1 | C#:1 F#:1 |, (guitar)
+41.090657596	B, verse, | F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |, (voice
+48.577142857	| F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+55.827845804	C, chorus, | F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+63.074739229	| F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+70.398049886	D, bridge, | C#:maj F#:maj | G#:maj C#:maj | C#:maj F#:maj | G#:maj C#:maj |
+77.71585034	| C#:maj F#:maj | G#:maj C#:maj | C#:maj | C#:maj |, voice)
+85.02494331	A, trans, | F#:1 B:1 | C#:1 F#:1 | F#:1 B:1 | C#:1 F#:1 |, (guitar)
+92.575056689	B, verse, | F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |, (voice
+100.000294784	| F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+107.238072562	C, chorus, | F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+114.504195011	| F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+121.681882086	C', outro, | F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+128.96446712	fadeout, | F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |
+136.288639455	| F#:maj B:maj | C#:maj F#:maj | F#:maj B:maj | C#:maj F#:maj |, voice)
+138.994648526	silence
+142.57632653	end

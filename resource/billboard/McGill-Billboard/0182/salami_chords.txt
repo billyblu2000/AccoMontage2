@@ -1,0 +1,43 @@
+# title: Annie's Song
+# artist: John Denver
+# metre: 3/4
+# tonic: D
+
+0.0	silence
+0.371519274	A, intro, | D:maj | D:sus4 | D:maj | D:sus4 | x2, (guitar)
+10.023106575	B, verse, | G:maj | A:maj | B:min | G:maj |, (voice
+14.883265306	| D:maj | F#:min/5 | B:min | A:maj |
+19.79786848	| G:maj | F#:min | E:min | G:maj |
+24.730362811	| A:maj | A:maj | A:maj | A:maj |
+29.756054421	| G:maj | A:maj | B:min | G:maj |
+34.626099773	| D:maj | F#:min/5 | B:min | A:maj |
+39.546961451	| G:maj | F#:min | E:min | A:maj |
+44.515782312	| D:maj | D:sus4 | D:maj | D:sus4 |
+49.436530612	B, verse, | G:maj | A:maj | B:min | G:maj |
+54.395782312	| D:maj | F#:min/5 | B:min | A:maj |
+59.235442176	| G:maj | F#:min | E:min | G:maj |
+64.134126984	| A:maj | A:maj | A:maj | A:maj |
+69.081111111	| G:maj | A:maj | B:min | G:maj |
+73.995895691	| D:maj | F#:min/5 | B:min | A:maj |
+78.843310657	| G:maj | F#:min | E:min | A:maj |
+83.763582766	| D:maj | D:sus4 | D:maj | D:sus4 |, voice)
+88.649863945	B, instrumental, | G:maj | A:maj | B:min | G:maj |
+93.540680272	| D:maj | F#:min/5 | B:min | A:maj |
+98.349773242	| G:maj | F#:min | E:min | G:maj |
+103.248231292	| A:maj | A:maj | A:maj | A:maj |
+108.125011337	| G:maj | A:maj | B:min | G:maj |
+113.002834467	| D:maj | F#:min/5 | B:min | A:maj |
+117.788049886	| G:maj | F#:min | E:min | A:maj |
+122.635691609	| D:maj | D:sus4 | D:maj | D:sus4 |
+127.534399092	B', verse, | G:maj | A:maj | B:min | G:maj |, (voice
+132.390136054	| D:maj | F#:min/5 | B:min | A:maj |
+137.296961451	| G:maj | F#:min | E:min | G:maj |
+142.235351473	| A:maj | A:maj | A:maj | A:maj |
+147.148367346	| G:maj | A:maj | B:min | B:min |
+152.992063492	| D:maj | F#:min/5 | B:min | A:maj |
+157.777482993	| G:maj | F#:min | E:min | A:maj |
+162.775804988	| D:maj | D:sus4 | D:maj | D:sus4 |
+167.636213151	| D:maj | D:sus4 | D:maj | D:sus4 |, voice)
+170.184240362	| D:maj |
+177.878888888	silence
+181.514399092	end

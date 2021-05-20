@@ -1,0 +1,29 @@
+# title: Wonderful World, Beautiful People
+# artist: Jimmy Cliff
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.139319727	A, intro, | D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj G:maj |
+10.137687074	B, chorus, | D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj G:maj |, (voice
+19.12	| A:maj | A:maj | A:maj | (2/4) A:maj |, voice)
+26.922562358	C, trans, | D:maj C:maj | G:maj | D:maj C:maj | A:maj |, (cello)
+35.830907029	D, verse, | D:maj | F#:min | G:maj | D:maj |, (voice
+44.815532879	| D:maj | F#:min | G:maj | A:maj |
+53.730748299	| D:maj | F#:min | G:maj | A:maj |
+62.574081632	E, pre-chorus, | D:maj G:maj | D:maj G:maj | D:maj G:maj | A:maj | A:maj |
+73.773061224	B, chorus, | D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj G:maj |
+82.6430839	| A:maj | A:maj | A:maj | (2/4) A:maj |, voice)
+90.571791383	C, trans, | D:maj C:maj | G:maj | D:maj C:maj | A:maj |, (cello)
+99.529841269	D, verse, | D:maj | F#:min | G:maj | D:maj |, (voice
+108.512448979	| D:maj | F#:min | G:maj | A:maj |
+117.435192743	| D:maj | F#:min | G:maj | A:maj |
+126.376462585	E, pre-chorus, | D:maj G:maj | D:maj G:maj | D:maj G:maj | A:maj | A:maj |
+137.536938775	B, chorus, | D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj G:maj |
+146.428571428	| A:maj | A:maj | A:maj | (2/4) A:maj |, voice)
+154.300249433	C, trans, | D:maj C:maj | G:maj | D:maj C:maj | A:maj |, (cello)
+163.24723356	B', outro, | D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj G:maj |, (voice
+172.250113378	| D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj G:maj |
+181.291179138	fadeout, | D:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj G:maj |, voice)
+188.638911564	silence
+190.850612244	end

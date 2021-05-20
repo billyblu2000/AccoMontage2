@@ -1,0 +1,24 @@
+# title: Sara Smile
+# artist: Daryl Hall & John Oates
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | D:min7 A:min7 | G:min7 C:sus4(b7,9) | D:min7 A:min7 | G:min7 C:sus4(b7,9) |, (guitar)
+13.556394557	B, verse, | D:min7 | A:min/b3 | Bb:maj9 | A:sus4(b7,9) A:maj |, (voice
+26.517278911	| D:min7 | A:min/b3 | Bb:maj9 | A:sus4(b7,9) A:maj |
+39.421882086	C, pre-chorus, | Bb:maj C:maj | A:7(b9)/3 D:min7 | Bb:maj C:maj | Eb:7 D:min7 |
+52.340680272	| G:min7 | N |
+58.800136054	D, chorus, | D:min7 A:min7 | G:min7 . C:sus4(b7,9) C#:9 | D:min7 A:min7 | G:min7 C:sus4(b7,9) |
+71.625442176	B, verse, | D:min7 | A:min/b3 | Bb:maj9 | A:sus4(b7,9) A:maj |
+84.398140589	| D:min7 | A:min/b3 | Bb:maj9 | A:sus4(b7,9) A:maj |
+97.106145124	C, pre-chorus, | Bb:maj C:maj | A:7(b9)/3 D:min7 | Bb:maj C:maj | Eb:7 D:min7 |
+109.88909297	| G:min7 | N |
+116.296916099	D, chorus, | D:min7 A:min7 | G:min7 . C:sus4(b7,9) C#:9 | D:min7 A:min7 | G:min7 C:sus4(b7,9) |
+128.916077097	| D:min7 A:min7 | G:min7 . C:sus4(9) C#:9 | D:min7 A:min7 | G:min7 C:sus4(9) |, voice)
+141.503446712	E, bridge, | G:min7 . C:maj D:min9 | F:maj . Bb:maj C#:dim |, (strings)
+147.841451247	D, chorus, | D:min7 A:min7 | G:min7 . C:sus4(b7,9) C#:9 | D:min7 A:min7 | G:min7 C:sus4(b7,9) |, (voice
+160.42632653	| D:min7 A:min7 | G:min7 . C:sus4(b7,9) C#:9 | D:min7 A:min7 | G:min7 C:sus4(b7,9) |
+172.90600907	fadeout, | D:min7 A:min7 | G:min7 . C:sus4(b7,9) C#:9 | D:min7 A:min7 |, voice)
+182.392743764	silence
+186.174693877	end

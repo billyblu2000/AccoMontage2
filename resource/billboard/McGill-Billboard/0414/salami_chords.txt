@@ -1,0 +1,27 @@
+# title: Someone 
+# artist: The Rembrandts
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.394739229	A, verse, | B:5 F#:sus4 | E:sus2 | B:5 F#:sus4 | E:sus2 |, (voice
+13.630113378	| A:9 E:maj/3 | A:9 E:maj/3 | B:5 E:5 | F#:maj |
+25.750929705	A, verse, | B:maj F#:sus4 | E:9 | B:maj F#:sus4 | E:9 |
+37.802086167	| A:9 E:maj/3 | A:9 E:maj/3 | B:maj/5 E:9 | F#:maj |
+50.019750566	B, chorus, | E:maj | F#:maj . . C#:maj/b11 | E:maj | F#:maj C#:maj/b11 |
+62.22585034	| E:maj | F#:maj E:maj/3 | B:sus4/b7 | B:sus4/b7 . . . |
+74.443174603	| B:5 | B:5 |
+80.503582766	A, verse, | B:maj F#:sus4 | E:9 | B:maj F#:sus4 | E:9 |
+92.833378684	| A:9 E:maj/3 | A:9 E:maj/3 | B:maj/5 E:9 | F#:maj |
+105.100680272	B, chorus, | E:maj | F#:maj . . C#:maj/b11 | E:maj | F#:maj C#:maj/b11 |
+117.296417233	| E:maj | F#:maj E:maj/3 | B:sus4/b7 | B:sus4/b7 . . . |, voice)
+129.495646258	C, solo, | C#:min | G#:7 | A:maj | A:maj . . C#:min/5 |, (guitar
+141.548843537	| F#:min | C#:7 | D:maj | F#:min |, guitar)
+153.599727891	B, chorus, | E:maj | F#:maj . . C#:maj/b11 | E:maj | F#:maj C#:maj/b11 |, (voice
+165.624671201	| E:maj | F#:maj E:maj/3 | B:sus4/b7 | B:sus4/b7 . . . |
+177.572403628	B, chorus, | E:maj | F#:maj . . C#:maj/b11 | E:maj | F#:maj C#:maj/b11 |
+189.617505668	| E:maj | F#:maj E:maj/3 | B:sus4/b7 | B:sus4/b7 . . . |, voice)
+201.68893424	| B:maj | E:maj7 | C#:min7 | A:9 |, (guitar)
+213.812063492	| E:maj | E:maj | E:maj | E:maj | E:maj |, (strings)
+229.273832199	silence
+231.444897959	end

@@ -1,0 +1,37 @@
+# title: Dirty Water
+# artist: Rock And Hyde
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+1.323537414	A, intro, | D:sus4(b7,9) |
+20.452811791	B, instrumental, | G:maj | G:maj | D:min7 | C:maj |, (synthesizer
+29.101179138	| G:maj | G:maj | D:min7 | C:maj |
+37.652199546	| G:maj | G:maj | D:min7 | C:maj |
+46.262471655	| G:maj | G:maj | D:min7 | C:maj |, synthesizer)
+54.798458049	C, verse, | E:min | E:min | Eb:maj | Eb:maj |, (voice
+63.392879818	| E:min | E:min | Eb:maj | Eb:maj |
+72.029387755	| E:min | E:min | Eb:maj | Eb:maj |
+80.583151927	| E:min | E:min | Eb:maj | Eb:maj |
+89.190430839	B, chorus, | G:maj | G:maj | D:min7 | C:maj |
+97.854988662	| G:maj | G:maj | D:min7 | C:maj |
+106.413741496	| G:maj | G:maj | D:min7 | C:maj |
+115.018888888	| G:maj | G:maj | D:min7 | C:maj |
+123.600340136	C, verse, | E:min | E:min | Eb:maj | Eb:maj |
+132.242290249	| E:min | E:min | Eb:maj | Eb:maj |
+140.858752834	| E:min | E:min | Eb:maj | Eb:maj |
+149.438594104	| E:min | E:min | Eb:maj | Eb:maj |
+157.998412698	B, chorus, | G:maj | G:maj | D:min7 | C:maj |
+166.609523809	| G:maj | G:maj | D:min7 | C:maj |
+175.225510204	| G:maj | G:maj | D:min7 | C:maj |
+183.8161678	| G:maj | G:maj | D:min7 | C:maj |, voice)
+192.437505668	B, instrumental, | G:maj | G:maj | D:11 | C:maj |, (synthesizer
+200.940566893	| G:maj | G:maj | D:11 | C:maj |
+209.535963718	| G:maj | G:maj | D:11 | C:maj |
+218.152222222	| G:maj | G:maj | D:11 | C:maj |, synthesizer)
+226.741609977	B, chorus, | G:maj | G:maj | D:min7 | C:maj |, (voice
+235.385011337	fadeout, | G:maj | G:maj | D:min7 | C:maj |
+243.95430839	| G:maj | G:maj | D:min7 | C:maj |
+252.503786848	| G:maj | G:maj | D:min7 | C:maj |, voice)
+254.792562358	silence
+257.541224489	end

@@ -1,0 +1,28 @@
+# title: My Way 
+# artist: Elvis Presley
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.208979591	A, intro, | C:maj F:min/5 | C:maj |, (piano)
+7.476575963	B, verse, | C:maj | E:min | G:min6 | A:maj A:7 |, (voice
+21.521337868	| D:min | F:maj/5 | G:7/3 G:7 | C:maj |
+35.491768707	| C:maj | C:7/b7 | F:maj | F:min |
+49.534807256	| C:maj/5 | G:7 | F:maj6 | C:maj |
+63.689206349	B, verse, | C:maj | E:min | G:min6 | A:maj A:7 |
+77.8692517	| D:min | F:maj/5 | G:maj/3 G:maj | C:maj |
+91.974285714	| C:maj | C:7/b7 | F:maj | F:min |
+106.056870748	| C:maj/5 | G:7 | F:maj6 | C:maj |
+120.083197278	C, chorus, | C:maj | C:7/b7 | F:maj | F:maj |
+133.996281179	| D:min | G:7 | E:min | A:min |
+147.938344671	| D:min | G:7 | F:maj6 | C:maj |
+161.874353741	B, verse, | C:maj | E:min | G:min6 | A:maj A:7 |
+176.091451247	| D:min | F:maj/5 | G:maj/3 G:maj | C:maj |
+190.0861678	| C:maj | C:7/b7 | F:maj | F:min |
+204.175736961	| C:maj/5 | G:7 | F:maj6 | C:maj |
+217.895804988	C, chorus, | C:maj | C:7/b7 | F:maj | F:maj |
+231.85739229	| D:min | G:7 | E:min | A:min |
+245.862154195	| D:min7 | G:7 | F:maj6 | C:maj |
+260.012698412	A', coda, | Ab:maj6 G:sus4(b7) | C:maj |, voice)
+271.023310657	silence
+273.946122448	end

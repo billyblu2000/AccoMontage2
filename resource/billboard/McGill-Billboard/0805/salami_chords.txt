@@ -1,0 +1,20 @@
+# title: Just A Dream
+# artist: Jimmy Clanton
+# metre: 12/8
+# tonic: G
+
+0.0	silence
+0.441179138	A''', verse, | G:maj | G:7 | D:7 | D:7 |, (voice
+14.838276643	| D:7 | D:7 | G:maj C:maj | G:maj |
+26.387120181	| G:maj | G:7 | D:7 | D:7 |
+38.138458049	| D:7 | D:7 | G:maj C:maj | G:maj G:7 G:maj6 G:maj |
+49.68154195	B, chorus, | C:maj | C:min | G:maj | G:7 |
+61.058004535	| C:maj | C:min | A:7 | D:7 | D:7 |
+75.324399092	A, verse, | G:maj | G:7 | D:7 | D:7 |
+86.999319727	| D:7 | D:7 | G:maj C:maj | G:maj G:7 G:maj6 G:maj |
+98.573424036	B, chorus, | C:maj | C:min | G:maj | G:7 |
+109.914376417	| C:maj | C:min | A:7 | D:7 | D:7 |
+123.919047619	A', verse, | G:maj | G:7 | D:7 | D:7 |
+135.589909297	| D:7 | D:7 | G:maj D:7 | G:maj D:7 G:maj . |, voice)
+148.184693877	silence
+152.306099773	end

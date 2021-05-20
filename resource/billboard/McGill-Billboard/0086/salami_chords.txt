@@ -1,0 +1,33 @@
+# title: Space Oddity
+# artist: David Bowie
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+1.355102040	I, fadein, | F:maj/7 | E:min | F:maj/7 | E:min |
+14.956326530	| F:maj/7 | E:min | F:maj/7 | E:min |
+29.229251700	A, verse, | C:maj | E:min | C:maj | E:min |
+43.559183673	| A:min . A:min/b7 . | D:maj/3 |
+50.775510204	A, verse, | C:maj | E:min | C:maj | E:min |
+65.004081632	| A:min . A:min/b7 . | D:maj/3 | N | N | C:7 |
+83.148390022	B, chorus, | C:maj | E:7 | F:maj | F:min . C:maj . |
+97.363265306	| F:maj | F:min . C:maj . | F:maj |
+107.975510204	| C:maj | E:7 | F:maj | F:min . C:maj . |
+122.210181405	| F:maj | F:min . C:maj . | F:maj |
+132.693174603	| F:maj7 | E:min | F:maj/7 | E:min |
+146.870045351	| Bb:maj . A:min . | (2/4) G:maj | F:maj |
+155.648979591	D, instrumental, | C:maj F:maj G:maj A:maj | C:maj F:maj G:maj A:maj |
+162.282108843	| F:maj7 | E:min | A:maj |
+172.772607709	| C:maj | D:maj/9 | E:7 |
+183.072154195	B, chorus, | C:maj | E:7 | F:maj | F:min . C:maj . |
+197.086258503	| F:maj | F:min . C:maj . | F:maj |
+207.556303854	| G:maj | E:7 | A:min . A:min/b7 . | D:maj/3 | C:maj | G:maj |
+224.970022675	| F:maj7 | E:min | F:maj7 | E:min |
+238.825918367	| Bb:maj . A:min . | (2/4) G:maj | F:maj |
+247.442335600	D, instrumental, | C:maj F:maj G:maj A:maj | C:maj F:maj G:maj A:maj |
+254.126054421	| F:maj7 | E:min | A:maj |
+264.407823129	| C:maj | D:maj/9 |
+271.241859410	J, outro, | E:maj | E:maj | E:maj | E:maj |
+284.709478458	E, fadeout, | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj |
+311.608163265	silence
+315.142857142	end

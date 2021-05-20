@@ -1,0 +1,30 @@
+# title: I Found A Love
+# artist: The Falcons
+# metre: 12/8
+# tonic: G
+
+0.0	silence
+0.278639455	A, intro, | G:maj | C:maj |
+9.997301587	| G:maj | D:maj |
+18.110521541	| E:min | G:maj G:maj/5 |
+25.972131519	B, verse, | G:maj | C:maj |, (voice
+33.887029478	| G:maj | C:maj |
+41.908866213	| G:maj | D:maj |
+49.759841269	| E:min | G:maj G:maj/5 |
+57.77063492	B, verse, | G:maj | C:maj |
+65.73063492	| G:maj | C:maj |
+73.647573696	| G:maj | D:maj |
+81.674716553	| E:min | G:maj G:maj/5 |, voice)
+89.742154195	A, interlude, | G:maj | C:maj |
+97.495215419	| G:maj | D:maj |
+105.435623582	| E:min | G:maj G:maj/5 |
+113.362766439	B, verse, | G:maj | C:maj |, (voice
+121.503832199	| G:maj | C:maj |
+129.680045351	| G:maj | D:maj |
+137.650680272	| E:min | G:maj G:maj/5 |
+145.668185941	B, verse, | G:maj | C:maj |
+153.364716553	| G:maj | C:maj |
+161.536054421	| G:maj | D:maj |
+169.525759637	| G:maj | D:maj | E:min | G:maj |, voice)
+176.169795918	silence
+178.67755102	end

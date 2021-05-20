@@ -1,0 +1,29 @@
+# title: Little Sister
+# artist: Elvis Presley 
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.394739229	A, intro, | E:maj | x4, (guitar)
+7.4792517	B, chorus, | E:maj | x4, (voice
+14.450385487	| E:maj | A:maj | A:maj | E:maj | E:maj |
+23.120680272	| B:maj | C:maj B:maj | E:maj | E:maj |
+30.052222222	C, verse, | E:maj | x4
+36.923287981	| E:maj | E:maj | N | E:maj | N | ->
+45.743990929	B', chorus, | E:maj | x4
+52.636371882	| A:maj | A:maj | E:maj | E:maj |
+59.527074829	| B:maj | C:maj B:maj | E:maj | E:maj |
+66.386303854	C, verse, | E:maj | x4
+73.186802721	| E:maj | E:maj | N | E:maj | N | ->
+81.972358276	B', chorus, | E:maj | x4
+88.888095238	| A:maj | A:maj | E:maj | E:maj |
+95.762403628	| B:maj | C:maj B:maj | E:maj | E:maj |
+102.605464852	C, verse, | E:maj | x4
+109.426190476	| E:maj | E:maj | N | E:maj | N | ->
+118.259659863	| E:maj | x4
+125.157142857	| A:maj | A:maj | E:maj | E:maj |
+131.985374149	| B:maj | C:maj B:maj | E:maj | E:maj |
+138.794104308	D, outro, | B:maj | C:maj B:maj | E:maj | E:maj |
+145.668208616	fadeout, | B:maj | C:maj B:maj | E:maj | E:maj |, voice)
+149.629659863	silence
+152.028231292	end

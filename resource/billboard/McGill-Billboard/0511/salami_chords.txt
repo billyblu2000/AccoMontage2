@@ -1,0 +1,27 @@
+# title: Oh My Angel
+# artist: Bertha Tillman
+# metre: 6/8
+# tonic: C
+
+0.0	silence
+0.278639455	A, intro, | F:maj7/3 E:min7/b3 | D:min7/b3 |
+5.194535147	| C:maj7 | D:min7 | E:min7 | D:min7 |
+12.643696145	B, verse, | C:maj7 | D:min7 | E:min7 | D:min7 |, (voice
+20.255306122	| C:maj7 | D:min7 | E:min7 | D:min7 |
+27.859773242	| C:maj7 | D:min7 | E:min7 | D:min7 |
+35.398321995	| C:maj7 | D:min7 | E:min7 | D:min7 |
+42.889591836	B, verse, | C:maj7 | D:min7 | E:min7 | D:min7 |
+50.524081632	| C:maj7 | D:min7 | E:min7 | D:min7 |
+58.130498866	| C:maj7 | D:min7 | E:min7 | D:min7 |
+65.763469387	| C:maj7 | F:maj | C:maj7 | C:7 |
+73.346417233	C, chorus, | F:maj | G:maj | C:maj | A:min |
+80.798480725	| F:maj | G:maj | C:maj | C:7 |
+88.318367346	| F:maj | G:maj | C:maj | A:min |
+95.834195011	| F:maj | F:maj | G:7 | Ab:7 |
+# tonic: Db
+103.281020408	B, verse, | Db:maj7 | Eb:min7 | F:min7 | Eb:min7 |
+110.930340136	| Db:maj7 | Eb:min7 | F:min7 | Eb:min7 |
+118.658956916	| Db:maj7 | Eb:min7 | F:min7 | Eb:min7 |
+126.316462585	| Db:maj7 | Gb:maj | Db:maj | Db:maj |, voice)
+137.71755102	silence
+141.688163265	end

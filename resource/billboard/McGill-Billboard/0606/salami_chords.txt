@@ -1,0 +1,18 @@
+# title: I Love
+# artist: Tom D Hall
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.441179138	A, intro, | E:maj | E:maj |, (piano)
+5.723424036	B, verse, | E:maj | A:maj E:maj | A:maj E:maj | B:7 | E:maj |, (voice
+18.927460317	| E:maj | A:maj E:maj | A:maj E:maj | B:7 | E:maj | E:maj |
+34.625623582	C, chorus, | A:maj | B:7 | E:maj | E:maj |
+44.981156462	B, verse, | E:maj | A:maj E:maj | A:maj E:maj | B:7 | E:maj |
+58.000385487	| E:maj | A:maj E:maj | A:maj E:maj | B:7 | E:maj | E:maj |
+73.561995464	C, chorus, | A:maj | B:7 | E:maj | C:7 |
+83.961292517	B, verse, | F:maj | Bb:maj F:maj | Bb:maj F:maj | C:7 | F:maj |
+96.91723356	| F:maj | Bb:maj F:maj | Bb:maj F:maj | C:7 | F:maj | F:maj |
+112.372494331	C, chorus, | Bb:maj | C:7 | F:maj | F:maj |, voice)
+124.969795918	silence
+125.701224489	end

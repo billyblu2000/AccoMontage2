@@ -1,0 +1,29 @@
+# title: (Last Night) I Didn't Get To Sleep At All
+# artist: The 5th Dimension
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.232199546	A, intro, | Ab:maj | F:min7 | C:min7 | Gb:maj6(9) |, (synthesizer)
+9.619863945	B, verse, | Ab:maj7 | F:min7 | C:min7 | C:min7 |, (voice
+18.795011337	| F:min | C:min | Db:maj7 | Eb:maj | Eb:sus4 Eb:maj |
+30.254988662	| Ab:maj7 | F:min7 | C:min7 | C:min7 |
+39.466507936	| F:min | C:min | Db:maj7 | Eb:maj | Eb:sus4 Eb:maj |
+48.652426303	| F:min F:min/b7 | Db:maj7 Eb:sus4(b7) | Ab:maj Db:maj/5 | Ab:maj7 |
+57.77585034	C, bridge, | C:min7 | F:min7 | Db:maj Eb:maj | Ab:maj |
+66.919115646	| C:min7 | F:min7 | Gb:maj7 | Eb:sus4(b7,9) | Eb:7 |
+78.273922902	B, verse, | Ab:maj7 | F:min7 | C:min7 | C:min7 |
+87.40446712	| F:min | C:min | Db:maj7 | Eb:maj |
+96.491587301	| F:min F:min/b7 | Db:maj7 | (3/4) Db:maj7 | Bb:min7 Eb:sus4(b7) |
+105.03	| Ab:maj | Ab:maj |, voice)
+109.570181405	C, bridge, | C:min7 | F:min7 | Db:maj Eb:maj | Ab:maj |, (strings)
+118.713378684	| C:min7 | F:min7 | Gb:maj7 | Eb:sus4(b7,9) | Eb:7 |, (voice
+130.003469387	A, verse, | Ab:maj7 | F:min7 | C:min7 | C:min7 |
+139.071315192	| F:min | C:min | Db:maj7 | Eb:maj |
+148.132063492	| F:min F:min/b7 | Db:maj7 | (3/4) Db:maj7 | Bb:min7 Eb:sus4(b7) |
+156.675668934	A', outro, | Ab:maj | F:min7 | C:min7 | Eb:maj Eb:sus4(b7) |
+165.734739229	| Ab:maj | F:min7 | C:min7 | Eb:maj Eb:sus4(b7) |
+174.772675736	fadeout, | Ab:maj | F:min7 | C:min7 | Eb:maj Eb:sus4(b7) |
+183.855487528	| Ab:maj | F:min7 | C:min7 | Eb:maj Eb:sus4(b7) |, voice)
+188.081632653	silence
+192.391836734	end

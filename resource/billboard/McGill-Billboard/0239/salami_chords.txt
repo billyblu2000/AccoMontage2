@@ -1,0 +1,37 @@
+# title: Sail On Sailor
+# artist: The Beach Boys
+# metre: 4/4
+# tonic: G
+
+0.000000000	silence
+0.510839002	A, intro, | G:maj | G:maj |, (piano)
+7.103628117	B, verse, | G:maj | G:maj |, (voice
+13.811451247	| G:maj | G:maj |
+20.446780045	| Eb:maj9 D:sus4(b7,9) | Eb:maj9 D:sus4(b7,9) |
+27.030929705	C, chorus, | Eb:maj9 F:maj | G:maj |
+33.503061224	B, verse, | G:maj | G:maj |
+40.076145124	| G:maj | G:maj |
+46.613129251	| Eb:maj9 D:sus4(b7,9) | Eb:maj9 D:sus4(b7,9) |
+53.208027210	C, chorus, | Eb:maj9 F:maj | G:maj |
+59.772925170	D, trans, | D:maj . . D#:dim | E:min7 |
+66.291927437	| D:maj . . D#:dim | E:min7 |
+72.814965986	E, bridge, | A:min7 E:min7 A:min7 E:min7 | A:min7 E:min7 A:min7 E:min7 | (2/4) E:min7 |
+81.153741496	| G:maj A:min7 G:maj A:min7 | G:maj A:min7 G:maj C:maj | (2/4) C:maj |
+89.237619047	| A:min7 E:min7 A:min7 E:min7 | A:min7 E:min7 A:min7 . |
+95.781247165	C, chorus, | Eb:maj9 F:maj | G:maj |
+102.356281179	B, verse, | G:maj | G:maj |
+108.930317460	| G:maj | G:maj |
+115.509682539	| Eb:maj9 D:sus4(b7,9) | Eb:maj9 D:sus4(b7,9) |
+122.097233560	C, chorus, | Eb:maj9 F:maj | G:maj |
+128.631995464	E, bridge, | A:min7 E:min7 A:min7 E:min7 | A:min7 E:min7 A:min7 E:min7 | (2/4) E:min7 |
+136.847142857	| G:maj A:min7 G:maj A:min7 | G:maj A:min7 G:maj C:maj | (2/4) C:maj |
+145.010340136	| A:min7 E:min7 A:min7 E:min7 | A:min7 E:min7 A:min7 . |
+151.590498866	C, chorus, | Eb:maj9 F:maj | G:maj |
+158.038526077	C', outro, | Eb:maj9 F:maj | G:maj |
+164.605895691	| Eb:maj9 F:maj | G:maj |
+171.081836734	| Eb:maj9 F:maj | G:maj |
+177.521428571	| Eb:maj9 F:maj | G:maj |
+184.006439909	fadeout, | Eb:maj9 F:maj | G:maj |
+190.415034013	| Eb:maj9 F:maj | G:maj |, voice)
+195.326258503	silence
+199.235918367	end

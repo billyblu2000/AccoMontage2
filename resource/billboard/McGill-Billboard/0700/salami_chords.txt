@@ -1,0 +1,35 @@
+# title: Does Anybody Really Know What Time It Is
+# artist: Chicago
+# metre: 4/4
+# tonic: G
+
+0.000000000	silence
+0.301859410	A, intro, | G:maj13 D:min9 | G:maj13 Eb:maj13 | B:sus4(b7,9) |, (brass
+6.176507936	| Bb:maj13 Ab:13 | F:maj9/11 G:maj13 | F#:sus4(b7,9) |, brass)
+12.288117913	B, intro, | (5/8) F:maj | (5/8) G:maj | (5/8) F:maj | (5/8) G:maj |, (piano
+17.531065759	| (5/8) F:maj | (5/8) G:maj | (3/8) Eb:maj(b9) | (3/8) Eb:maj(b9) |, piano)
+21.896417233	| (3/8) Eb:maj7(#11) | (3/8) Eb:maj7(#11) | Eb:maj7(#11) |, (brass
+25.897619047	C, instrumental, | G:maj7 | C:maj13 | G:maj7 | C:maj13 |
+34.049659863	| G:maj7 | C:maj13 | G:maj7 | C:maj13 |
+42.089251700	D, bridge, | D:maj E:min7 | F:maj6 E:min7 |, brass)
+46.240045351	E, verse, | G:maj | F:maj | Bb:maj7 | Eb:maj13 |, (voice
+54.320997732	| Bb:maj7 | Eb:maj13 | Bb:maj7 | Eb:maj13 | Eb:maj13 | Eb:maj13 |, voice)
+66.393219954	D, bridge, | D:maj E:min7 | F:maj6 E:min7 |, (brass)
+70.612222222	C, chorus, | G:maj7 | C:maj13 | G:maj7 | C:maj13 |, (voice
+78.752358276	| G:maj7 | C:maj13 | G:maj7 | C:maj13 |
+86.817528344	E, verse, | G:maj | F:maj | Bb:maj7 | Eb:maj13 |
+94.737414965	| Bb:maj7 | Eb:maj13 | Bb:maj7 | Eb:maj13 | Eb:maj13 | Eb:maj13 |
+106.958843537	D, bridge, | D:maj E:min7 | F:maj6 E:min7 |, (brass)
+111.164625850	C, chorus, | G:maj7 | C:maj13 | G:maj7 | C:maj13 |, (voice
+119.324081632	| G:maj7 | C:maj13 | G:maj7 | C:maj13 |
+127.356371882	E, verse, | G:maj | F:maj | Bb:maj7 | Eb:maj13 |
+135.404580498	| Bb:maj7 | Eb:maj13 | Bb:maj7 | Eb:maj13 | Eb:maj13 | Eb:maj13 |, voice)
+147.660816326	D, bridge, | D:maj E:min7 | F:maj6 E:min7 |, (brass)
+151.780634920	C, chorus, | G:maj7 | C:maj13 | G:maj7 | C:maj13 |, (voice
+159.948730158	| G:maj7 | C:maj13 | G:maj7 | C:maj13 |, voice)
+168.019591836	D, bridge, | D:maj E:min7 | F:maj6 E:min7 |, (brass)
+172.052857142	C', chorus, | G:maj7 | C:maj13 | G:maj7 | C:maj13 |, (voice
+180.047528344	| G:maj7 | C:maj13 | G:maj7 | C:maj13 |, voice)
+188.237482993	F, outro, | F:maj Bb:maj7 | Eb:maj7 F:maj | G:maj7 |, (brass)
+197.989092970	silence
+200.021315192	end

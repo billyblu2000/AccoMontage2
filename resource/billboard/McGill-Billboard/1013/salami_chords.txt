@@ -1,0 +1,38 @@
+# title: Time Will Reveal
+# artist: Debarge
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.557278911	A, intro, | F:min/5 C:maj | F:min/5 C:maj |, (synthesizer)
+9.125736961	B', verse, | F:min6/5 C:maj7 | F:min6/5 C:maj7 |, (voice
+16.515873015	| F:min6/5 C:maj9 | F:min6/5 . B:min7 E:7(#11) |
+23.957959183	| A:min7 D:7 G:7 . | A:min7 D:7 B:min7/b9 . |
+31.327981859	B, verse, | F:min6/5 C:maj7 | F:min6/5 C:maj7 |
+38.687052154	| F:min6/5 C:maj9 | F:min6/5 . B:min7 E:7(#11) |
+46.09861678	| A:min7 D:7 G:sus4(b7) G:7 | A:min7 D:7 G:sus4(b7) G:7 | (2/4) A:min7 D:7 |
+55.315442176	C, pre-chorus, | G:maj7 C:sus4(b7) F:maj7 Bb:sus4(b7) | D:min7 E:min7 F:maj7 G:sus4(b7) |
+62.711655328	D, chorus, | C:sus4 C:maj E:min7 . | F:maj7 . F:maj/9 G#:dim |
+70.154126984	| A:min7 E:min7 | F#:min7 . B:7 B:aug(b7)/3 | E:min7 A:min7 D:min7 G:7 |, voice)
+81.231972789	A, interlude, | F:min/5 C:maj7 | F:min6/5 C:maj7 |, (synthesizer)
+88.628480725	B, verse, | F:min6/5 C:maj7 | F:min6/5 C:maj7 |, (voice
+96.007573696	| F:min6/5 C:maj9 | F:min6/5 . B:min7 E:7(#11) |
+103.417006802	| A:min7 D:7 G:sus4(b7) G:7 | A:min7 D:7 G:sus4(b7) G:7 | (2/4) A:min7 D:7 |
+112.61723356	C, pre-chorus, | G:maj7 C:sus4(b7) F:maj7 Bb:sus4(b7) | D:min7 E:min7 F:maj7 G:sus4(b7) |
+120.080113378	D, chorus, | C:sus4 C:maj E:min7 . | F:maj7 . F:maj/9 G#:dim |
+127.445464852	| A:min7 E:min7 | F#:min7 . B:7 B:aug(b7)/3 | E:min7 A:min7 D:min7 G:7 |
+138.552426303	D, chorus, | C:sus4 C:maj E:min7 . | F:maj7 . F:maj/9 G#:dim |
+145.889229024	| A:min7 E:min7 | F#:min7 . B:7 B:aug(b7)/3 | E:min7 A:min7 D:min7 G:7 |, voice)
+156.994376417	B, verse, | F:min/5 C:maj7 | F:min6/5 C:maj7 |, (horn
+164.414875283	| F:min6/5 . F:min/5 C:maj | F:min6/5 . F:min/5 C:maj |
+171.779750566	| F:min6/5 . F:min/5 C:maj | F:min/5 F:min6(9)/5 B:min7 E:min7 |, horn)
+179.249274376	| A:min7 D:7 G:sus4(b7) G:7 | A:min7 D:7 G:sus4(b7) G:7 | (2/4) A:min7 D:7 |, (voice
+188.449455782	C, pre-chorus, | G:maj7 C:sus4(b7) F:maj7 Bb:sus4(b7) | D:min7 E:min7 F:maj7 G:sus4(b7) |
+195.872086167	D, chorus, | C:sus4 C:maj E:min7 . | F:maj7 . F:maj/9 G#:dim |
+203.246825396	| A:min7 E:min7 | F#:min7 . B:7 B:aug(b7)/3 | E:min7 A:min7 D:min7 G:7 |
+214.27494331	D, chorus, | C:sus4 C:maj E:min7 . | F:maj7 . F:maj/9 G#:dim |
+221.691224489	fadeout, | A:min7 E:min7 | F#:min7 . B:7 B:aug(b7)/3 | E:min7 A:min7 D:min7 G:7 |
+232.75770975	D, chorus, | C:sus4 C:maj E:min7 . | F:maj7 . F:maj/9 G#:dim |
+240.2061678	| A:min7 E:min7 |, voice)
+242.06802721	silence
+247.79755102	end

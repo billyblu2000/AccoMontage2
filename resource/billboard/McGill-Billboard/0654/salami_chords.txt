@@ -1,0 +1,23 @@
+# title: Tainted Love
+# artist: Soft Cell
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.510839002	A, intro, | G:1 | G:1 |
+7.283673469	B, trans, | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 |
+13.918707482	C, verse, | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 G:min/b3 |, (voice
+27.192312925	| G:1 G:min/b3 | G:1 G:min/b3 | G:1 G:min/b3 | G:1 Bb:1 |
+40.424580498	D, chorus, | G:1 | Bb:1 | Eb:1 | C:min | C:min |
+57.087596371	B, trans, | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 |
+63.636984126	C, verse, | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 G:min/b3 |
+76.974240362	| G:1 G:min/b3 | G:1 G:min/b3 | G:1 G:min/b3 | G:1 Bb:1 |
+90.188458049	D, chorus, | G:1 | Bb:1 | Eb:1 | C:min | C:min |
+106.811972789	B, trans, | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 |
+113.4092517	C, verse, | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 G:min/b3 |
+126.672108843	B, trans, | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 |
+133.332448979	| G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 |
+139.949047619	| G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 |
+146.641678004	fadeout, | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 | G:1 Bb:1 Eb:1 C:1 |, voice)
+158.267210884	silence
+161.436734693	end

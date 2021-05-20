@@ -1,0 +1,30 @@
+# title: Baby I'm Burnin'
+# artist: Dolly Parton
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.208979591	A, intro, | B:maj | B:maj | B:maj | B:maj |, (guitar)
+7.483265306	| B:maj | B:maj | B:maj | B:maj |, (trumpet)
+14.624263038	B, verse, | B:maj | E:maj B:maj | E:maj E:maj/9 | B:maj |, (voice
+21.747324263	| B:maj | E:maj B:maj | E:maj E:maj/9 | B:maj |
+28.884058956	| B:maj | E:maj B:maj | E:maj E:maj/9 | B:maj |
+36.010680272	| B:maj | E:maj B:maj | E:maj E:maj/9 | B:maj E:maj |
+43.071768707	C, chorus, | B:maj F#:maj | B:maj E:maj | B:maj F#:maj | B:maj E:maj |
+50.26015873	| B:maj F#:maj | B:maj E:maj | B:maj F#:maj |, voice)
+55.627823129	A, trans, | B:maj | B:maj | B:maj | B:maj |, (trumpet)
+62.800680272	B, verse, | B:maj | E:maj B:maj | E:maj E:maj/9 | B:maj |, (voice
+69.965306122	| B:maj | E:maj B:maj | E:maj E:maj/9 | B:maj F#:maj |
+77.067029478	C, chorus, | B:maj F#:maj | B:maj E:maj | B:maj F#:maj | B:maj E:maj |
+83.918594104	| B:maj F#:maj | B:maj E:maj | B:maj F#:maj | B:maj |
+91.262539682	D, trans, | B:7 | B:7 | B:7 | B:7 |
+98.575918367	C, chorus, | C:maj | G:maj C:maj | F:maj C:maj | G:maj C:maj |
+105.69770975	| F:maj C:maj | G:maj C:maj | F:maj C:maj | G:maj C:maj |
+112.839319727	| G:maj C:maj | G:maj C:maj | F:maj C:maj | G:maj C:maj |
+119.975759637	| F:maj C:maj | G:maj C:maj | F:maj C:maj | G:maj C:maj |
+127.103174603	C, fadeout, | G:maj C:maj | G:maj C:maj | F:maj C:maj | G:maj C:maj |
+134.224126984	| F:maj C:maj | G:maj C:maj | F:maj C:maj | G:maj C:maj |
+141.343424036	| G:maj C:maj | G:maj C:maj | F:maj C:maj | G:maj C:maj |
+148.447346938	| F:maj C:maj | G:maj C:maj | F:maj C:maj | G:maj C:maj |, voice)
+154.366258503	silence
+158.484897959	end

@@ -1,0 +1,26 @@
+# title: Shape Of Things To Come
+# artist: Max Frost & The Troopers
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.580498866	A, intro, | F:min | F:min | F:min | F:min | &pause |
+8.870022675	| F:1 | Ab:1 | Bb:1 | C:1 |
+15.378163265	B, verse, | F:min | Ab:maj | Bb:maj | Db:maj |, (voice
+21.554081632	| F:min | Ab:maj | Bb:maj | C:maj |
+27.61632653	| F:min | C:min | F:min | Bb:maj |
+33.764058956	| F:min Ab:maj | Bb:maj/3 Db:maj | F:min | F:min C:maj . . |
+39.930907029	B, verse, | F:min | Ab:maj | Bb:maj | Db:maj |
+46.012562358	| F:min | Ab:maj | Bb:maj | C:maj |
+52.085600907	| F:min | C:min | F:min | Bb:maj |
+58.170929705	| F:min Ab:maj | Bb:maj/3 Db:maj | F:min | F:min |
+64.333310657	C, bridge, | Eb:maj | Eb:maj | Ab:maj | Ab:maj |
+70.450861678	| Bb:maj | Bb:maj | C:maj | C:maj |
+76.52585034	B, verse, | F:min | Ab:maj | Bb:maj | Db:maj |
+82.502290249	| F:min | Ab:maj | Bb:maj | C:maj |
+88.54648526	| F:min | C:min | F:min | Bb:maj |
+94.581564625	| F:min Ab:maj | Bb:maj/3 Db:maj | F:min Ab:maj | Bb:maj/3 Db:maj |
+100.68632653	| F:min Ab:maj | Bb:maj/3 Db:maj | F:min Ab:maj | Bb:maj/3 Db:maj |
+106.694285714	| F:min |, voice)
+112.431020408	silence
+114.15510204	end

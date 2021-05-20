@@ -1,0 +1,36 @@
+# title: Girl You Know It s True
+# artist: Milli Vanilli
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.255419501	Z, noise
+14.210612244	A', intro, | N |, (synthesizer
+15.464489795	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+25.285328798	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+35.156893424	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |, synthesizer)
+44.90739229	B, verse, | Bb:1 | Gb:1 | Ab:1 | Ab:1 |, (voice
+54.787482993	| Bb:1 | Gb:1 | Ab:1 | Ab:1 |
+64.608752834	| Bb:min | Gb:maj | Ab:sus4(b7,9) | Ab:sus4(b7,9) |
+74.420929705	C, pre-chorus, | Bb:min . . Gb:maj/3 | Gb:sus2 Gb:maj Gb:sus2 Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj Ab:maj6 Ab:maj Ab:maj6 |
+84.289387755	A, chorus, | Bb:min | Gb:maj | Ab:maj | Ab:maj |
+94.099319727	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+103.895419501	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+113.686190476	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+123.578979591	B, verse, | Bb:1 | Gb:1 | Ab:1 | Ab:1 |
+133.411269841	| Bb:1 | Gb:1 | Ab:1 | Ab:1 |
+143.244603174	| Bb:min | Gb:maj | Ab:sus4(b7,9) | Ab:sus4(b7,9) |
+153.061179138	C, pre-chorus, | Bb:min . . Gb:maj/3 | Gb:sus2 Gb:maj Gb:sus2 Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj Ab:maj6 Ab:maj Ab:maj6 |
+162.880975056	A, chorus, | Bb:min | Gb:maj | Ab:maj | Ab:maj |
+172.743492063	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+182.543537414	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |, voice)
+192.356712018	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+202.199365079	E, bridge, | N |, (synthesizer
+204.621247165	| Bb:1 | Bb:1 |, synthesizer)
+209.587823129	| N | N | N | (1/4) N |, (voice
+217.547755102	A, chorus, | Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+227.38340136	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |
+237.160929705	| Bb:min . . Gb:maj/3 | Gb:maj | Ab:maj . . Ab:maj6 | Ab:maj . . Ab:maj6 |, voice)
+247.0261678	| Bb:min |, (synthesizer)
+251.286349206	silence
+252.995918367	end

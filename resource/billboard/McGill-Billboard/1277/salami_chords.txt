@@ -1,0 +1,47 @@
+# title: American Storm
+# artist: Bob Seger
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+1.068117913	A, intro, | E:maj | E:maj | A:maj | B:sus4 B:maj |, (piano
+7.58510204	| E:maj | E:maj | A:maj | B:sus4 B:maj |, piano)
+13.863650793	B, trans, | E:maj | E:maj | E:maj | E:maj |, (guitar)
+20.244535147	A, verse, | E:maj | E:maj | A:maj | B:sus4 B:maj |, (voice
+26.655646258	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+32.958208616	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+39.318866213	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+45.718163265	D, pre-chorus, | A:maj | A:maj | E:maj | E:7 |
+52.01956916	| A:maj | A:maj | B:sus4 | B:maj | B:maj |
+59.947687074	E, chorus, | E:maj | E:maj | C#:min | C#:min |
+66.41478458	| A:maj | A:maj | B:sus4 | B:maj |
+72.758299319	| E:maj | E:maj | C#:min | C#:min |
+79.10956916	| A:maj | A:maj | B:sus4 | B:maj |, voice)
+85.517528344	A, interlude, | E:maj | E:maj | A:maj | B:sus4 B:maj |, (piano
+91.796961451	| E:maj | E:maj | A:maj | B:sus4 B:maj |, piano)
+98.146439909	A, verse, | E:maj | E:maj | A:maj | B:sus4 B:maj |, (voice
+104.534920634	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+110.91063492	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+117.313764172	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+123.71664399	D, pre-chorus, | A:maj | A:maj | E:maj | E:7 |
+130.145328798	| A:maj | A:maj | B:sus4 | B:maj | B:maj |
+138.145646258	E, chorus, | E:maj | E:maj | C#:min | C#:min |
+144.553968253	| A:maj | A:maj | B:sus4 | B:maj |
+150.946530612	| E:maj | E:maj | C#:min | C#:min |
+157.246303854	| A:maj | A:maj | B:sus4 | B:maj |
+163.654104308	E, chorus, | E:maj | E:maj | C#:min | C#:min |
+169.976099773	| A:maj | A:maj | B:sus4 | B:maj |
+176.303492063	| E:maj | E:maj | C#:min | C#:min |
+182.643333333	| A:maj | A:maj | B:sus4 | B:maj |, voice)
+188.966145124	F, bridge, | C:maj | C:maj | A:min | A:min |, (piano
+195.319682539	A, interlude, | E:maj | E:maj | A:maj | B:sus4 B:maj |
+201.566961451	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+207.831292517	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+214.089319727	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+220.433809523	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+226.7030839	fadeout, | E:maj | E:maj | A:maj | B:sus4 B:maj |
+232.977755102	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+239.331655328	| E:maj | E:maj | A:maj | B:sus4 B:maj |
+245.637437641	| E:maj | E:maj | A:maj | B:sus4 B:maj | E:maj |, piano)
+253.074285714	silence
+258.142040816	end

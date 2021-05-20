@@ -1,0 +1,47 @@
+# title: The Goonies `R Good Enough 
+# artist: Cyndi Lauper
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.208979591	A, intro, | C#:5(b7) | x4, (synthesizer
+7.074648526	B, instrumental, | C#:min7 | x4
+13.984489795	| C#:7 | x4
+20.878049886	| C#:min7 | x4
+27.729863945	| C#:7 | C#:7 | C#:min7 | C#:min7 |, synthesizer)
+34.655873015	C, verse, | E:maj | E:maj | C#:min(9) | C#:min(9) |, (voice
+41.503151927	| E:maj | E:maj | C#:min(9) | C#:min(9) |
+48.432970521	D, pre-chorus, | A:maj | B:maj | E:maj | F#:min6 G#:maj |
+55.266553287	| A:maj | B:maj |
+58.727006802	E, chorus, | E:maj | E:maj | C#:min | A:maj |
+65.593922902	| B:maj | B:maj |
+69.074081632	| E:maj/3 | A:maj B:maj |, voice)
+72.546916099	A, interlude, | C#:min7 | x4, (synthesizer)
+79.357823129	C, verse, | E:maj | E:maj | C#:min(9) | C#:min(9) |, (voice
+86.28292517	| E:maj | E:maj | C#:min(9) | C#:min(9) |
+93.131428571	D, pre-chorus, | A:maj | B:maj | E:maj | F#:min6 G#:maj |
+100.061632653	| A:maj | B:maj |
+103.499818594	E, chorus, | E:maj | E:maj | C#:min | A:maj |
+110.392902494	| B:maj | B:maj |
+113.792653061	| E:maj/3 | A:maj B:maj |
+117.263310657	E, chorus, | E:maj | E:maj | C#:min | A:maj |
+124.140929705	| B:maj | B:maj |
+127.580589569	| E:maj/3 | A:maj B:maj |, voice)
+131.05494331	A, interlude, | C#:min7 | x4, (synthesizer
+137.896213151	B, instrumental, | C#:min7 | x4
+144.778888888	| C#:7(#9) | C#:7(#9) | C#:7(#9) | C#:7(#9) |
+151.676145124	| C#:7(#9) | C#:7(#9) | C#:7(#9) | N |, synthesizer)
+158.524852607	D, pre-chorus, | A:maj | B:maj | E:maj | F#:min6 G#:maj |, (voice
+165.444535147	| A:maj | B:maj |
+168.8792517	E, chorus, | E:maj | E:maj | C#:min | A:maj |
+175.755555555	| B:maj | B:maj |
+179.189160997	| E:maj/3 | A:maj B:maj |
+182.620907029	E, chorus, | E:maj | E:maj | C#:min | A:maj |
+189.528639455	| B:maj | B:maj |
+192.984444444	| E:maj/3 | A:maj B:maj |
+196.379342403	E, chorus, | E:maj | E:maj | C#:min | A:maj |
+203.297800453	| B:maj | B:maj |
+206.762834467	| E:maj/3 | A:maj B:maj |, voice)
+210.192857142	A, coda, | C#:5(b7) | x3, (synthesizer)
+216.270657596	silence
+218.383673469	end

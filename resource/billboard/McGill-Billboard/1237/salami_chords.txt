@@ -1,0 +1,35 @@
+# title: Something About You
+# artist: Level 42
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.371519274	A, intro, | E:maj F#:min7 E:maj/3 . |
+2.692743764	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+11.867460317	| C:maj | D:maj |
+16.452834467	B, verse, | E:maj | C#:min7 | D:maj | B:min |, (voice
+25.529229024	| E:maj | C#:min7 | D:maj | B:min |
+34.722811791	| E:maj | C#:min7 | D:maj | B:min |
+43.847800453	| E:maj | C#:min7 | D:maj | B:min |
+53.010249433	| E:maj | E:maj F#:min7 E:maj/3 . |
+57.6161678	A, chorus, | C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+66.773446712	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+75.865895691	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+85.025442176	| C:maj | D:maj | ->
+89.63462585	B, verse, | E:maj | C#:min7 | D:maj | B:min |
+98.739546485	| E:maj | C#:min7 | D:maj | B:min |
+107.874761904	| E:maj | C#:min7 | D:maj | B:min |
+117.048730158	| E:maj | C#:min7 | D:maj | B:min |
+126.172562358	| E:maj | E:maj F#:min7 E:maj/3 . |
+130.779954648	C, chorus, | C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+139.967437641	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+149.063197278	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+158.223514739	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |, voice)
+167.3330839	A, solo, | C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |, (guitar
+176.542448979	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |, guitar)
+185.656394557	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+194.820748299	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+203.963129251	A, fadeout, | C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . |
+213.170430839	| C:maj | D:maj | E:maj | E:maj F#:min7 E:maj/3 . | C:maj |
+223.910022675	silence
+227.265306122	end

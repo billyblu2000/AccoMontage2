@@ -1,0 +1,55 @@
+# title: Lambada
+# artist: Kaoma
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.232199546	A, intro, | D:min | D:min | D:min | D:min |
+4.856099773	B, solo, | D:min | D:min | Bb:maj | C:maj | F:maj | F:maj |, (accordion
+10.885147392	| D:min | D:min | Bb:maj | C:maj | F:maj | F:maj |
+16.956689342	| G:min | G:min | G:min | G:min |
+20.991496598	| C:maj | C:maj | D:min | D:min |
+25.059206349	| G:min | G:min | G:min | G:min |
+29.10371882	| C:maj | C:maj | D:min | D:min |, accordion)
+33.112789115	B, verse, | D:min | D:min | Bb:maj | C:maj | F:maj | F:maj |, (voice
+39.147777777	| D:min | D:min | Bb:maj | C:maj | F:maj | F:maj |
+45.238503401	| G:min | G:min | G:min | G:min |
+49.307188208	| C:maj | C:maj | D:min | D:min |
+53.249297052	| G:min | G:min | G:min | G:min |
+57.319909297	| C:maj | C:maj | D:min | D:min |
+61.326984126	B, verse, | D:min | D:min | Bb:maj | C:maj | F:maj | F:maj |
+67.403446712	| D:min | D:min | Bb:maj | C:maj | F:maj | F:maj |
+73.496349206	| G:min | G:min | G:min | G:min |
+77.543922902	| C:maj | C:maj | D:min | D:min |
+81.590680272	| G:min | G:min | G:min | G:min |
+85.666553287	| C:maj | C:maj | D:min | D:min |, voice)
+89.648798185	C, instrumental, | D:min | D:min | F:maj | F:maj |, (accordion
+93.709637188	| D:min | D:min | F:maj | F:maj |
+97.725147392	| G:min | G:min | G:min | G:min |
+101.778503401	| C:maj | C:maj | D:min | D:min |
+105.771995464	| G:min | G:min | G:min | G:min |
+109.787755102	| C:maj | C:maj | D:min | D:min |, accordion)
+113.85494331	B, verse, | D:min | D:min | Bb:maj | C:maj | F:maj | F:maj |, (voice
+119.874013605	| D:min | D:min | Bb:maj | C:maj | F:maj | F:maj |
+125.97079365	| G:min | G:min | G:min | G:min |
+129.972743764	| C:maj | C:maj | D:min | D:min |
+134.000680272	| G:min | G:min | G:min | G:min |
+138.072380952	| C:maj | C:maj | D:min | D:min |, voice)
+142.090975056	C, instrumental, | D:min | D:min | F:maj | F:maj |, (accordion
+146.169614512	| D:min | D:min | F:maj | F:maj |
+150.231836734	| G:min | G:min | G:min | G:min |
+154.229863945	| C:maj | C:maj | D:min | D:min |
+158.28430839	| G:min | G:min | G:min | G:min |
+162.30324263	| C:maj | C:maj | D:min | D:min |
+166.352448979	C', outro, | D:min | D:min | F:maj | F:maj |
+170.38802721	| D:min | D:min | F:maj | F:maj |
+174.443628117	| D:min | D:min | F:maj | F:maj |
+178.504263038	| D:min | D:min | F:maj | F:maj |
+182.497596371	| D:min | D:min | F:maj | F:maj |
+186.532517006	fadeout, | D:min | D:min | F:maj | F:maj |
+190.550702947	| D:min | D:min | F:maj | F:maj |
+194.613990929	| D:min | D:min | F:maj | F:maj |
+198.675646258	| D:min | D:min | F:maj | F:maj |
+202.668684807	| D:min |, accordion)
+203.45324263	silence
+204.199183673	end

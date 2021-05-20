@@ -1,0 +1,27 @@
+# title: Be My Baby
+# artist: The Ronettes
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.549886621	A, intro, | N | N | E:maj | E:maj |
+8.108299319	B, verse, | E:maj | E:maj | F#:min | B:maj | x2, (voice
+22.821337868	C, bridge, | G#:7 | G#:7 | C#:7 | C#:7 |
+30.172970521	| F#:7 | F#:7 | B:maj | B:maj |
+37.491111111	D, chorus, | E:maj | E:maj | C#:min | C#:min |
+44.993378684	| A:maj | A:maj | B:7 | B:7 |
+52.407800453	B, verse, | E:maj | E:maj | F#:min | B:maj | x2
+67.397346938	C, bridge, | G#:7 | G#:7 | C#:7 | C#:7 |
+74.881972789	| F#:7 | F#:7 | B:maj | B:maj |
+82.227664399	D, chorus, | E:maj | E:maj | C#:min | C#:min |
+89.848004535	| A:maj | A:maj | B:7 | B:7 |, voice)
+97.347505668	B, solo, | E:maj | E:maj | F#:min | B:maj | x2, (strings)
+112.388367346	D, chorus, | E:maj | E:maj | C#:min | C#:min |, (voice
+119.997052154	| A:maj | A:maj | B:7 | B:7 |, voice)
+127.450181405	| N | N |
+131.221428571	D, chorus, | E:maj | E:maj | C#:min | C#:min |, (voice
+138.573673469	| A:maj | A:maj | B:7 | B:7 |
+145.987369614	D, chorus, | E:maj | E:maj | C#:min | C#:min |, fadeout
+153.324058956	| A:maj | A:maj | B:7 | B:7 |, voice)
+158.617687074	silence
+159.007346938	end

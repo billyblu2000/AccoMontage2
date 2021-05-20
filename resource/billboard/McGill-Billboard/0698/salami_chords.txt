@@ -1,0 +1,52 @@
+# title: People Get Ready
+# artist: Jeff Beck
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.255419501	A, intro, | D:maj . D:maj/3 F#:min | G:maj . D:sus2 D:maj |, (guitar
+6.591564625	| D:maj . D:maj/3 F#:min | A:sus4(b7,9) D:maj . . |
+13.351473922	B', solo, | D:maj B:min | G:maj D:maj |
+20.087800453	| D:maj B:min | G:maj D:maj |
+26.755759637	| D:maj B:min | G:maj D:maj |
+33.414920634	| B:min E:min | A:sus4(b7,9) D:maj |, guitar)
+40.075782312	B, verse, | D:maj B:min | G:maj . D:sus2 D:maj |, (voice
+46.8	| D:maj B:min | G:maj D:maj |
+53.450294784	| D:maj B:min | G:maj . D:sus2 D:maj |
+60.198503401	| B:min E:min | A:sus4(b7,9) D:maj |, voice)
+66.885714285	C, trans, | D:maj B:min | G:maj D:maj |, (guitar)
+73.578888888	B, verse, | D:maj B:min | G:maj . D:sus2 D:maj |, (voice
+80.28648526	| D:maj B:min | G:maj D:maj |
+86.937891156	| D:maj B:min | G:maj . D:sus2 D:maj |
+93.635170068	| B:min E:min | A:sus4(b7,9) D:maj |, voice)
+100.353106575	B, solo, | D:maj B:min | G:maj . D:sus2 D:maj |, (guitar
+107.037097505	| D:maj B:min | G:maj D:maj |
+113.744104308	| D:maj B:min | G:maj . D:sus2 D:maj |
+120.323151927	| B:min E:min | A:sus4(b7,9) D:maj |
+127.084172335	C, trans, | D:maj B:min | G:maj D:maj |
+133.846825396	| D:maj B:min | G:maj D:maj |, guitar)
+140.519342403	B, verse, | D:maj B:min | G:maj . D:sus2 D:maj |, (voice
+147.101927437	| D:maj B:min | G:maj D:maj |
+153.84723356	| D:maj B:min | G:maj . D:sus2 D:maj |
+160.502766439	| B:min E:min | A:sus4(b7,9) D:maj |
+167.203990929	B, verse, | D:maj B:min | G:maj . D:sus2 D:maj |
+173.85723356	| D:maj B:min | G:maj D:maj |
+180.577528344	| D:maj B:min | G:maj . D:sus2 D:maj |
+187.271519274	| B:min E:min | A:sus4(b7,9) D:maj |, voice)
+193.959387755	C, trans, | D:maj B:min | G:maj D:maj |, (guitar
+# tonic: Eb
+200.714104308	| Eb:maj C:min | Ab:maj Eb:maj |
+207.380657596	B, solo, | Eb:maj C:min | Ab:maj Eb:maj |
+214.058299319	| Eb:maj C:min | Ab:maj Eb:maj |
+220.725623582	| Eb:maj C:min | Ab:maj Eb:maj |
+227.412426303	| C:min F:min | Bb:sus4(b7,9) Eb:maj |
+234.103310657	B, solo, | Eb:maj C:min | Ab:maj Eb:maj |
+240.812630385	| Eb:maj C:min | Ab:maj Eb:maj |
+247.437460317	| Eb:maj C:min | Ab:maj Eb:maj |
+254.145941043	| C:min F:min | Bb:sus4(b7,9) Eb:maj |
+260.865759637	B, solo, | Eb:maj C:min | Ab:maj Eb:maj |
+267.535306122	| Eb:maj C:min | Ab:maj Eb:maj |
+274.161133786	| Eb:maj C:min | Ab:maj Eb:maj |
+280.919954648	| C:min F:min | Bb:sus4(b7,9) Eb:maj | Eb:maj |, guitar)
+292.548208616	silence
+296.071836734	end

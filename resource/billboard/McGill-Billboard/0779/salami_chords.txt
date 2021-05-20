@@ -1,0 +1,22 @@
+# title: A Very Special Love Song
+# artist: Charlie Rich
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.394739229	A, intro, | C:maj/3 G:maj/5 A:min/b3 G:maj/3 | F:maj/3 . C:maj/5 G:7 |, (piano)
+7.004648526	B, verse, | C:maj | F:min/5 | C:maj | D:7 |, (voice
+19.871904761	| D:min G:maj | E:min A:min | D:7 | C:maj/5 G:maj F:maj/9 E:min | D:min/11 . C:maj/5 G:7 |, voice)
+36.06956916	B', interlude, | C:maj | F:min/5 |, (whistle)
+42.356439909	B, verse, | C:maj | F:min/5 | C:maj | D:7 |, (voice
+54.774716553	| D:min G:maj | E:min A:min | D:7 | C:maj/5 G:maj F:maj/9 E:min | D:min/11 . C:maj/5 G:7 |, voice)
+70.498662131	C, interlude, | C:maj C:7 | C:maj |, (piano), (strings) 
+77.066712018	D, bridge, | Eb:maj F:maj | Bb:maj | Eb:maj F:maj | Bb:maj |, (voice
+88.912562358	| D:maj | G:min | Eb:maj | C:min/5 G:7 | C:maj/5 G:maj |
+104.196213151	B, verse, | C:maj | F:min/5 | C:maj | D:7 |
+116.781768707	| D:min G:maj | E:min A:min | D:7 | C:maj/5 G:maj F:maj/9 E:min | D:min/11 . C:maj/5 G:7 |, voice)
+132.142675736	B, outro, | C:maj | F:min/5 | C:maj | D:7 |, (piano, (strings
+144.720068027	| D:min G:maj | E:min A:min | D:7 | C:maj/5 G:maj F:maj/9 E:min | D:min/11 . C:maj/5 G:7 |, fadeout
+160.213741496	| C:maj | F:min/5 |, piano), strings)
+165.299297052	silence
+166.217142857	end

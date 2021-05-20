@@ -1,0 +1,35 @@
+# title: I Don't Blame You At All
+# artist: The Miracles
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.162539682	A, intro, | Ab:maj | Db:maj |
+4.040272108	B, chorus, | Ab:maj | Gb:maj | Ab:maj | Ab:maj |, (voice
+11.796439909	| Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+19.565782312	C, verse, | Ab:maj | Eb:min Db:maj | Ab:maj | Eb:min Db:maj |
+27.349977324	| Gb:maj | Db:maj | Db:maj7 | D:dim |
+35.066530612	| Ab:maj/5 Ab:maj | Ab:maj |
+38.996553287	| Ab:maj | Ab:maj | Db:maj/5 | Ab:maj |
+46.687755102	B, chorus, | Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+54.434739229	| Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+62.141292517	C, verse, | Ab:maj | Eb:min Db:maj | Ab:maj | Eb:min Db:maj |
+69.861269841	| Gb:maj | Db:maj | Db:maj | D:dim |
+77.594331065	| Ab:maj/5 Ab:maj | Ab:maj |
+81.436235827	| Ab:maj | Ab:maj | Db:maj/5 | Ab:maj |
+89.133605442	B, chorus, | Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+96.860181405	| Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+104.647074829	B, chorus, | Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+112.309365079	| Ab:maj | Gb:maj | Ab:maj | Ab:maj |, voice)
+119.912766439	C', verse, | Ab:maj | Eb:min Db:maj | Ab:maj | Eb:min Db:maj |, (strings
+127.674761904	| Ab:maj | Eb:min Db:maj | Ab:maj | Gb:maj |, strings)
+135.345215419	| Db:maj | Db:maj | Db:maj | D:dim |, (voice
+143.009160997	| Ab:maj/5 Ab:maj | Ab:maj |
+146.831791383	| Ab:maj | Ab:maj | Db:maj/5 Ab:maj | Ab:maj |
+154.444852607	B, chorus, | Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+162.118888888	| Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+169.853968253	B, chorus, | Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+177.503900226	fadeout, | Ab:maj | Gb:maj | Ab:maj | Ab:maj |
+185.132857142	| Ab:maj | Gb:maj | Ab:maj | Ab:maj |, voice)
+188.871111111	silence
+192.208979591	end

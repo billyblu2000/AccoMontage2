@@ -1,0 +1,28 @@
+# title: Love Came To Me
+# artist: Dion
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.461496598	A, intro, | G:maj | G:maj | E:min | E:min |
+8.55510204	| C:maj | C:maj | D:maj | D:maj |
+16.563265306	A, verse, | G:maj | G:maj | E:min | E:min |, (voice
+24.612403628	| C:maj | C:maj | D:maj | D:maj |
+32.620408163	| G:maj | G:maj | E:min | E:min |
+40.604081632	| C:maj | C:maj | D:maj | D:maj |
+48.644897959	A, interlude, | G:maj | G:maj | E:min | E:min |
+56.702040816	| C:maj | C:maj | D:maj | D:maj |
+64.676145124	B, chorus, | C:maj | C:min7 | G:maj | G:7 |
+72.702040816	| C:maj | C:min7 | A:maj | D:7 |
+80.808163265	| G:maj | G:maj | E:min | E:min |
+88.848979591	| C:maj | C:maj | D:maj | D:maj |
+96.917142857	A, interlude, | G:maj | G:maj | E:min | E:min |
+105.012244897	| C:maj | C:maj | D:maj | D:maj |
+112.946938775	B, chorus, | C:maj | C:min7 | G:maj | G:7 |
+121.053061224	| C:maj | C:min7 | A:maj | D:7 |
+129.137052154	| G:maj | G:maj | E:min | E:min |
+137.183673469	| C:maj | C:maj | D:maj | D:maj |
+145.197074829	A, interlude, | G:maj | G:maj | E:min | E:min |, fadeout
+153.17095238	| C:maj | C:maj | D:maj | D:maj |, voice)
+164.712290249	silence
+165.773061224	end

@@ -1,0 +1,38 @@
+# title: On And On And On
+# artist: Abba
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.232199546	A, intro, | C:maj | C:maj | C:maj | C:maj |, (synthesizer
+8.337324263	| F:7 | F:7 | C:7 | C:7 |
+15.997006802	| C:7 | C:7 | C:7 | C:7 |
+23.66079365	| F:7 | F:7 | C:7 | C:7 |, synthesizer)
+31.245215419	B, verse, | C:maj | Bb:maj C:maj | C:maj | Bb:maj C:maj |, (voice
+38.691519274	| C:maj . F:sus4 F:maj | F:sus4 F:maj C:maj . | Bb:maj . C:sus4 C:maj | Bb:maj F:maj |, voice)
+46.271473922	| C:maj(9) | C:maj(9) |, (synthesizer)
+49.896870748	| C:maj | Bb:maj C:maj | C:maj | Bb:maj C:maj |, (voice
+57.328911564	| C:maj . F:sus4 F:maj | F:sus4 F:maj C:maj . | Bb:maj . C:sus4 C:maj | Bb:maj F:maj |
+64.776848072	| C:maj . F:sus4 F:maj | F:sus4 F:maj C:maj . | Bb:maj . C:sus4 C:maj | Bb:maj F:maj | F:maj |
+74.214104308	A, chorus, | C:7 | C:7 | C:7 | C:7 |
+81.727981859	| F:7 | F:7 | C:7 | C:7 |
+89.24154195	| C:7 | C:7 | C:7 | C:7 |
+96.769319727	| F:7 | F:7 | C:7 | C:7 |
+104.283469387	B, verse, | C:maj | Bb:maj C:maj | C:maj | Bb:maj C:maj |
+111.738095238	| C:maj . F:sus4 F:maj | F:sus4 F:maj C:maj . | Bb:maj . C:sus4 C:maj | Bb:maj F:maj |, voice)
+119.268843537	| C:maj(9) | C:maj(9) |, (synthesizer)
+122.94079365	| C:maj | Bb:maj C:maj | C:maj | Bb:maj C:maj |, (voice
+130.367165532	| C:maj . F:sus4 F:maj | F:sus4 F:maj C:maj . | Bb:maj . C:sus4 C:maj | Bb:maj F:maj |
+137.789727891	| C:maj . F:sus4 F:maj | F:sus4 F:maj C:maj . | Bb:maj . C:sus4 C:maj | Bb:maj F:maj | F:maj |
+147.206802721	A, chorus, | C:7 | C:7 | C:7 | C:7 |
+154.794195011	| F:7 | F:7 | C:7 | C:7 |
+162.252698412	| C:7 | C:7 | C:7 | C:7 |
+169.782653061	| F:7 | F:7 | C:7 | C:7 |, voice)
+177.307437641	A, instrumental, | C:7 | C:7 | C:7 | C:7 |, (synthesizer
+184.884716553	| F:7 | F:7 | C:7 | C:7 |, synthesizer)
+192.388843537	A, chorus, | C:7 | C:7 | C:7 | C:7 |, (voice
+199.970748299	| F:7 | F:7 | C:7 | C:7 |
+207.46478458	| C:7 | C:7 | C:7 | C:7 |
+215.025691609	| F:7 | F:7 | C:7 | C:7 |, voice)
+218.314013605	silence
+222.354285714	end

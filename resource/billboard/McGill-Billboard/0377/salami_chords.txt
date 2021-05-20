@@ -1,0 +1,21 @@
+# title: I Can't Stand The Rain
+# artist: Ann Peebles
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.417959183	A, intro, | N | N |
+6.516031746	B', chorus, | N | N | N | N |, (voice
+18.524535147	| Ab:7 | Ab:7 | Db:7 | Ab:7 |
+30.558503401	C, bridge, | Gb:maj | Gb:maj | Ab:maj | Ab:maj |
+42.673764172	| Cb:7 | Cb:7 | Bb:min | Eb:7 |
+54.639727891	B, chorus, | Ab:7 | Ab:7 | Db:7 | Ab:7 |
+66.737732426	| Ab:7 | Ab:7 | Db:7 | Ab:7 |
+78.700113378	C, bridge, | Gb:maj | Gb:maj | Ab:maj | Ab:maj |
+90.765170068	| Cb:7 | Cb:7 | Bb:min | Eb:7 |, voice)
+102.912993197	D, interlude, | Ab:maj | Gb:maj | Ab:maj | Cb:maj |
+114.92739229	B, chorus, | Ab:7 | Ab:7 | Db:7 | Ab:7 |, (voice
+127.181972789	| Ab:7 | Ab:7 | Db:7 | Ab:7 |
+139.283582766	B, fadeout, | Ab:7 | Ab:7 | Db:7 | Ab:7 |, voice)
+150.024126984	silence
+153.913469387	end

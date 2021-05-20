@@ -1,0 +1,40 @@
+# title: The Bitch Is Back
+# artist: Elton John
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.208979591	A, intro, | Ab:1 |
+2.8	| Ab:maj | Ab:maj Db:maj/5 . . | Ab:maj | Ab:maj Db:maj/5 . . |, (guitar
+10.171428571	| Ab:maj | Ab:maj Db:maj/5 . . | Ab:maj | Ab:maj Db:maj/5 . . |, guitar)
+17.420408163	B, verse, | Ab:maj | Ab:maj | Ab:maj | Eb:maj Ab:maj . . |, (voice
+24.767346938	| Gb:maj | Db:maj | Ab:maj | Ab:maj/5 Ab:maj |, voice)
+32.473469387	A', interlude, | Ab:maj Db:maj/5 . Ab:maj | Db:maj/5 . . Ab:maj | Ab:maj Db:maj/5 . Ab:maj | Db:maj/5 . . Ab:maj |, (guitar) 
+39.297800453	B, verse, | Ab:maj | Ab:maj | Ab:maj | Eb:maj Ab:maj . . |, (voice
+46.514285714	| Gb:maj | Db:maj | Ab:maj | Ab:maj/5 Ab:maj |, voice)
+53.785351473	A'', interlude, | Ab:maj Db:maj/5 . Ab:maj | Db:maj/5 . . Ab:maj |, (guitar)
+57.322448979	C, chorus, | Eb:maj | Eb:maj | F:min | Db:maj |, (voice
+64.571428571	| Eb:maj | Eb:maj | Gb:maj | Eb:maj |, voice)
+71.722448979	A, interlude, | Ab:maj | Ab:maj Db:maj/5 . . | Ab:maj | Ab:maj Db:maj/5 . . |, (guitar
+78.987755102	| Ab:maj | Ab:maj Db:maj/5 . . | Ab:maj | Ab:maj Db:maj/5 . . |, guitar)
+86.222199546	B, verse, | Ab:maj | Ab:maj | Ab:maj | Eb:maj Ab:maj . . |, (voice
+93.436734693	| Gb:maj | Db:maj | Ab:maj | Ab:maj/5 Ab:maj |, voice)
+100.685714285	A'', interlude, | Ab:maj Db:maj/5 . Ab:maj | Db:maj/5 . . Ab:maj |, (guitar)
+104.261224489	C, chorus, | Eb:maj | Eb:maj | F:min | Db:maj |, (voice
+111.47755102	| Eb:maj | Eb:maj | Gb:maj | Eb:maj |, voice)
+118.714580498	A', interlude, | Ab:maj | Ab:maj Db:maj/5 . . | Ab:maj | Ab:maj Db:maj/5 . . |, (guitar)
+125.893877551	B, solo, | Ab:maj | Ab:maj | Ab:maj | Eb:maj Ab:maj . . |, (saxophone
+133.093877551	| Gb:maj | Db:maj | Ab:maj | Ab:maj/5 Ab:maj |
+140.293877551	A'', interlude, | Ab:maj Db:maj/5 . Ab:maj | Db:maj/5 . . Ab:maj |, saxophone)
+143.853061224	C, chorus, | Eb:maj | Eb:maj | F:min | Db:maj |, (voice
+151.053061224	| Eb:maj | Eb:maj | Gb:maj | Eb:maj |, voice)
+158.15510204	A', interlude, | Ab:maj | Ab:maj Db:maj/5 . . | Ab:maj | Ab:maj Db:maj/5 . . |, (guitar)
+165.289795918	D, outro, | Ab:maj | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj |, (voice
+172.457188208	| Ab:maj | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj |
+179.444897959	| Ab:maj | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj |
+186.432653061	| Ab:maj | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj |
+193.557165532	| Ab:maj | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj |
+200.610702947	| Ab:maj | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj |, fadeout
+207.65723356	| Ab:maj | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj |, voice)
+213.667165532	silence
+217.730612244	end

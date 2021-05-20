@@ -1,0 +1,31 @@
+# title: Sexy Eyes 
+# artist: Dr. Hook
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.232199546	A, intro, | F:maj7 | F:maj7 | C:maj7 | A:min7 |
+9.674263038	| F:maj7 | F:maj7 | C:maj7 | A:min7 |
+19.11340136	B, verse, | D:min7 | G:11 | C:maj7 | A:min7 |, (voice
+28.609478458	| D:min7 | G:11 | C:maj7 | G:min7 C:7 |
+37.972494331	C, pre-chorus, | F:maj7 | E:min7 | F:maj7 | G:sus4(b7) |
+47.377414965	D, chorus, | F:maj7 | F:maj7 | C:maj7 | A:min7 |
+56.897573696	| F:maj7 | F:maj7 | C:maj7 | E:min9 . A:sus4(b7) A:7 |, voice)
+66.217505668	E, interlude, | F:maj7 | E:min7 | F:maj7 | G:sus4(b7) |, (flute)
+75.683265306	B, verse, | D:min7 | G:11 | C:maj7 | A:min7 |, (voice
+85.015691609	| D:min7 | G:11 | C:maj7 | G:min7 C:7 |
+94.338684807	C, pre-chorus, | F:maj7 | E:min7 | F:maj7 | G:sus4(b7) |
+103.71494331	D, chorus, | F:maj7 | F:maj7 | C:maj7 | A:min7 |
+113.101950113	| F:maj7 | F:maj7 | C:maj7 | E:min9 . A:sus4(b7) A:7 |
+122.393854875	| F:maj7 | F:maj7 | C:maj7 | A:min7 |
+131.789342403	| F:maj7 | F:maj7 | C:maj7 | E:min9 . A:sus4(b7) A:7 |, voice)
+141.107346938	B, solo, | D:min7 | G:11 | C:maj7 | A:min7 |, (guitar
+150.496598639	| D:min7 | G:11 | C:maj7 | G:min7 C:7 |, guitar)
+159.762267573	C, pre-chorus, | F:maj7 | E:min7 | F:maj7 | G:sus4(b7) |, (voice
+169.215736961	D, chorus, | F:maj7 | F:maj7 | C:maj7 | A:min7 |
+178.583832199	| F:maj7 | F:maj7 | C:maj7 | E:min9 . A:sus4(b7) A:7 |
+187.929433106	fadeout, | F:maj7 | F:maj7 | C:maj7 | A:min7 |
+197.285827664	| F:maj7 | F:maj7 | C:maj7 | E:min9 . A:sus4(b7) A:7 |
+206.533151927	| F:maj7 | F:maj7 | C:maj7 | A:min7 |, voice)
+208.922131519	silence
+212.937777777	end

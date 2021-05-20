@@ -1,0 +1,34 @@
+# title: Wild Horses
+# artist: Rolling Stones
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.487619047	A, intro, | G:maj | A:min7(11) | G:maj | A:min7(11) | G:maj |, (guitar)
+20.338480725	B, verse, | B:min | G:maj | B:min | G:maj |, (voice
+35.016439909	| A:min | C:maj . . D:maj | G:maj | D:maj . . C:maj |
+49.534920634	| B:min | G:maj | B:min | G:maj |
+63.648185941	| A:min | C:maj . . D:maj | G:maj | D:maj |
+77.459501133	C, chorus, | A:min | C:maj . . D:maj | G:maj F:maj | C:maj . . B:min |
+91.348435374	| A:min | C:maj . . D:maj | G:maj F:maj | C:maj |
+104.960680272	B, verse, | B:min | G:maj | B:min | G:maj |
+118.663673469	| A:min | C:maj . . D:maj | G:maj | D:maj . . C:maj |
+132.098321995	| B:min | G:maj | B:min | G:maj |
+145.6123356	| A:min | C:maj . . D:maj | G:maj | D:maj |
+159.032131519	C, chorus, | A:min | C:maj . . D:maj | G:maj F:maj | C:maj . . B:min |
+172.494761904	| A:min | C:maj . . D:maj | G:maj F:maj | C:maj |, voice)
+185.562290249	D, solo, | F:maj | C:maj | F:maj | C:maj . . D:maj |, (guitar
+198.282630385	| G:maj . . A:min/b7 | G:maj |, guitar)
+204.948979591	B, verse, | B:min | G:maj | B:min | G:maj |, (voice
+218.318163265	| A:min | C:maj . . D:maj | G:maj | D:maj . . C:maj |
+231.309478458	| B:min | G:maj | B:min | G:maj |
+244.297142857	| A:min | C:maj . . D:maj | G:maj | D:maj |
+257.118321995	C, chorus, | A:min | C:maj . . D:maj | G:maj F:maj | C:maj . . B:min |
+269.93446712	| A:min | C:maj . . D:maj | G:maj F:maj | C:maj |, voice)
+282.911020408	B', solo, | B:min | G:maj | B:min | G:maj |, (guitar
+295.896349206	| A:min | C:maj . . D:maj | G:maj | D:maj |, guitar)
+308.69154195	C, chorus, | A:min | C:maj . . D:maj | G:maj F:maj | C:maj . . B:min |
+321.384240362	| A:min | C:maj . . D:maj | G:maj F:maj | C:maj |, voice)
+334.247256235	| G:maj |, (guitar)
+340.938594104	silence
+344.137142857	end

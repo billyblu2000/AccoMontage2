@@ -1,0 +1,28 @@
+# title: Soul Dance Number 3
+# artist: Wilson Pickett
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.232199546	A', intro, | E:7 | E:7 | E:7 | E:7 |, (guitar
+10.52462585	| E:7 | E:7 | E:7 | E:7 |
+19.486938775	| E:7 | E:7 |, guitar)
+23.900113378	A, verse, | E:7 | E:7 | E:7 | E:7 |, (voice
+32.755147392	| E:7 | E:7 | E:7 | E:7 |, voice)
+41.556825396	B, chorus, | G:maj | F:maj | B:maj | E:maj |, (saxophone)
+50.271451247	| E:7 | E:7 |, (guitar)
+54.649954648	A, verse, | E:7 | E:7 | E:7 | E:7 |, (voice
+63.4623356	| E:7 | E:7 | E:7 | E:7 |, voice)
+72.269024943	B, chorus, | G:maj | F:maj | B:maj | E:maj |, (saxophone
+80.756961451	A', solo, | E:7 | E:7 | E:7 | E:7 |, saxophone) 
+89.531269841	A', outro, | E:7 | E:7 | E:7 | E:7 |, (voice
+98.245873015	| E:7 | E:7 | E:7 | E:7 |
+106.91893424	| E:7 | E:7 | E:7 | E:7 |
+115.560725623	| E:7 | E:7 | E:7 | E:7 |
+124.255306122	| E:7 | E:7 | E:7 | E:7 |, voice)
+132.860816326	| N |, (drums)
+134.981746031	fadeout, | E:7 | E:7 | E:7 | E:7 |, (guitar
+143.60371882	| E:7 | E:7 | E:7 | E:7 |
+152.183673469	| E:7 | E:7 | E:7 | E:7 |, guitar)
+154.691337868	silence
+160.208979591	end

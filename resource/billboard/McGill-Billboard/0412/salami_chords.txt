@@ -1,0 +1,38 @@
+# title: Sunday Morning Sunshine
+# artist: Harry Chapin
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.441179138	A, intro, | E:maj | E:maj |, (guitar)
+4.969070294	B, verse, | E:maj6(9) | G#:min7 | F#:min7 | B:7 |, (voice
+12.838367346	| C#:min E:maj/5 | A:maj G#:min7 | F#:min7 | B:7 |
+20.673287981	| E:maj6(9) | G#:min7 | F#:min7 | B:7 |
+28.385986394	| C#:min E:maj/5 | A:maj G#:min7 | F#:min7 | B:7 |
+35.99802721	C, pre-chorus, | A:maj | B:maj | G#:min | C#:min |
+43.419319727	| F#:min | B:maj | A:maj | N | N |
+52.936190476	D, chorus, | E:maj | E:maj | F#:11 | F#:11 |
+60.792698412	| D:maj | A:maj | E:maj | E:maj |
+68.49893424	| E:maj | E:maj | F#:11 | F#:11 |
+76.328390022	| D:maj | A:maj | E:maj | E:maj |
+84.060340136	B, verse, | E:maj6(9) | G#:min7 | F#:min7 | B:7 |
+91.657369614	| C#:min E:maj/5 | A:maj G#:min7 | F#:min7 | B:7 |
+99.221269841	| E:maj6(9) | G#:min7 | F#:min7 | B:7 |
+106.77600907	| C#:min E:maj/5 | A:maj G#:min7 | F#:min7 | B:7 |
+114.201995464	C', pre-chorus, | A:maj | B:maj | G#:min | C#:min |
+121.725396825	| F#:min | B:maj | F#:min | B:maj |
+129.311927437	| N | N | N | N |
+136.695873015	D, chorus, | E:maj | E:maj | F#:11 | F#:11 |
+144.451519274	| D:maj | A:maj | E:maj | E:maj |
+152.148911564	| E:maj | E:maj | F#:11 | F#:11 |
+159.854920634	| D:maj | A:maj | E:maj | E:maj |
+167.555192743	D, chorus, | E:maj | E:maj | F#:11 | F#:11 |
+175.230294784	| D:maj | A:maj | E:maj | E:maj B:maj |
+182.848503401	| E:maj | E:maj | F#:11 | F#:11 |
+190.522471655	| D:maj | A:maj | E:maj | E:maj B:maj |
+198.135873015	D, chorus, | E:maj | E:maj | F#:11 | F#:11 |
+205.84185941	fadeout, | D:maj | A:maj | E:maj | E:maj B:maj |
+213.484263038	| E:maj | E:maj | F#:11 | F#:11 |
+221.108956916	| D:maj | A:maj | E:maj | E:maj |, voice)
+224.908480725	silence
+228.231836734	end

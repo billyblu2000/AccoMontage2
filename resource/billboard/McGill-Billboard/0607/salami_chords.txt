@@ -1,0 +1,28 @@
+# title: Everlasting Love
+# artist: Carl Carlton
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.400544217	C, intro, | A:1 . . . | A:1 . . . |
+4.353741496	| A:maj . . . | B:min/b7 . . . | B:dim/b7 . . . | A:maj . . . |
+12.300680272	A, verse, | A:maj . . . | B:min/b7 . . . | B:dim/b7 . . . | A:maj . . . |
+20.310498866	| A:maj . . . | B:min/b7 . . . | B:dim/b7 . . . | A:maj . . . |
+28.351564625	| A:maj . . . | B:min/b7 . . . | B:dim/b7 . . . | A:maj . . . |
+36.362448979	| A:maj . . . | B:min/b7 . . . | B:dim/b7 . . . | F#:min . . . | F#:min . B:maj . |
+46.29478458	B, chorus, | E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+54.160045351	| E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+62.04371882	| E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+69.903015873	| E:maj . . . | B:min . . . | C:maj/3 . . . | E:maj . . . |
+77.789024943	H, pre-verse, | A:maj . . . | B:min/b7 . . . | B:dim/b7 . . . | A:maj . . . |
+85.716462585	| A:maj . . . | B:min/b7 . . . | B:dim/b7 . . . | F#:min . . . | F#:min . B:maj . |
+95.555918367	B, chorus, | E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+103.400612244	| E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+111.246802721	| E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+119.083537414	| E:maj . . . | B:min7 . . . | C:maj . . . | E:maj . . . |
+126.963854875	| E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+134.926961451	| E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+142.878185941	E, fadeout, | E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+150.787074829	| E:maj . . . | E:maj/7 . . . | C#:min7 . . . | F#:min7 . A:maj B:maj |
+152.64217687	silence
+155.039637188	end

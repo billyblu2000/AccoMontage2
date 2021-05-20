@@ -1,0 +1,23 @@
+# title: Always Something There to Remind Me
+# artist: Naked Eyes
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.877460317	A, intro, | D:maj | D:maj/b7 | D:maj/13 | D:maj/5 | x2, (synthesiser)
+14.571723356	B, verse, | D:1 | C#:1 | C:1 | B:1 | Bb:1 | D:1 | C#:1 | C:1 | B:1 | B:1 |, (voice
+30.64	| G:maj/5 | D:maj | E:min |
+35.398843537	C, chorus, | D:maj | G:maj/5 | D:maj | D:maj | x2
+48.318231292	B, verse, | D:1 | C#:1 | C:1 | B:1 | Bb:1 | D:1 | C#:1 | C:1 | B:1 | B:1 |
+64.450929705	| G:maj/5 | D:maj | E:min |
+69.226145124	C, chorus, | D:maj | G:maj/5 | D:maj | D:maj | x2
+82.06324263	D, bridge, | F#:min | B:min | B:min | G:maj | A:maj | D:maj | D:maj | D:maj . . G:maj/5 | D:maj |, voice)
+96.589229024	| F#:min | B:min | B:min | G:maj | A:maj |, (synthesiser
+104.565396825	A, interlude, | D:maj | D:maj/b7 | D:maj/13 | D:maj/5 | x2, synthesiser)
+117.501995464	B, verse, | D:1 | C#:1 | C:1 | B:1 | Bb:1 | D:1 | C#:1 | C:1 | B:1 | B:1 |, (voice
+133.54739229	| G:maj/5 | D:maj | E:min |
+138.351156462	C, chorus, | D:maj | G:maj/5 | D:maj | D:maj | x2
+151.208866213	D, bridge, | F#:min | B:min | B:min | G:maj | A:maj | D:maj | D:maj |
+162.533287981	C, outro, | D:maj | G:maj/5 | D:maj | D:maj | x9, fadeout, voice)
+218.90031746	silence
+220.865306122	end

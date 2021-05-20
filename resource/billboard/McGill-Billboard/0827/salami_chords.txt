@@ -1,0 +1,30 @@
+# title: Just A Friend
+# artist: Biz Markie
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.208979591	A, verse, | C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |, (voice
+11.935079365	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+23.157369614	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+34.432789115	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+45.700997732	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+56.939818594	B, chorus, | C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+68.215941043	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+79.459478458	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+90.739297052	A, verse, | C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+101.972426303	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+113.247074829	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+124.491473922	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+135.745079365	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+146.983877551	B, chorus, | C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+158.242607709	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+169.506462585	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+180.778390022	A, verse, | C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+191.985918367	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+203.239387755	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+214.524444444	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |
+225.747188208	| C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |, voice)
+237.011179138	fadeout, | C:maj | F:maj | D:min/b3 | D:min/b3 G:7 |, (piano)
+238.956553287	silence
+241.371428571	end

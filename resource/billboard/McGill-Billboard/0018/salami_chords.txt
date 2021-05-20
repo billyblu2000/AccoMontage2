@@ -1,0 +1,23 @@
+# title: Kiss On My List
+# artist: Hall & Oates
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.442630385	A, intro, | C:maj G:maj/11 | A:min/b3 G:maj/11 | C:min7 | C:min7 | F:maj | F:maj | C:maj | C:maj |, (keyboard) 
+17.080816326	B, verse, | C:min | C:min | F:min | F:min | Ab:maj | Bb:maj | C:maj(9) | C:maj(9) |, (voice 
+32.769115646	| C:min | C:min | F:min | F:min | Ab:maj | Bb:maj | C:maj(9) | C:maj(9) |
+48.636258503	C, pre-chorus, | F:sus2 F:min | G:min7/5 | F:min9 | G:min7/5 | F:min9 | G:min7/5 | F:min9 | F:maj/9 G:maj |
+64.37	D, chorus, | C:maj G:maj/11 | A:min/b3 G:maj/11 | C:min7 | C:min7 | F:maj | F:maj | C:maj | C:maj |
+80.189183673	D, chorus, | C:maj G:maj/11 | A:min/b3 G:maj/11 | C:min7 | C:min7 | F:maj | F:maj | C:maj | C:maj |
+95.982879818	B, verse, | C:min | C:min | F:min | F:min | Ab:maj | Bb:maj | C:maj(9) | C:maj(9) |
+111.777687074	| C:min | C:min | F:min | F:min | Ab:maj | Bb:maj | C:maj(9) | C:maj(9) |
+127.535374149	C, pre-chorus, | F:sus2 F:min | G:min7/5 | F:min9 | G:min7/5 | F:min9 | G:min7/5 | F:min9 | F:maj/9 G:maj |
+143.333900226	D, chorus, | C:maj G:maj/11 | A:min/b3 G:maj/11 | C:min7 | C:min7 | F:maj | F:maj | C:maj | C:maj |, voice)
+159.120498866	E, solo, | G:maj/11 | G:maj/11 | F:maj | F:maj | A:hdim7/b5 | A:hdim7/b5 | D:min7 | G:11 |, (electric guitar)
+174.899841269	D, outro, | C:maj G:maj/11 | A:min/b3 G:maj/11 | C:min7 | C:min7 | F:maj | F:maj | C:maj | C:maj |, (voice
+190.648594104	| C:maj G:maj/11 | A:min/b3 G:maj/11 | C:min7 | C:min7 | F:maj | F:maj | C:maj | C:maj |
+206.405510204	| C:maj G:maj/11 | A:min/b3 G:maj/11 | C:min7 | C:min7 | F:maj | F:maj | C:maj | C:maj |, fadeout
+222.202517006	| C:maj G:maj/11 | A:min/b3 G:maj/11 | C:min7 | C:min7 | F:maj |, voice)
+228.391927437	silence
+231.340408163	end

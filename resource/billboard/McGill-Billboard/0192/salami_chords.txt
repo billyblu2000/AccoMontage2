@@ -1,0 +1,18 @@
+# title: Unforgettable
+# artist: Dinah Washington
+# metre: 12/8
+# tonic: F
+
+0.0	silence
+0.267029478	A, intro, | C:maj A:min | D:min7 G:7 | C:maj A:7 | D:min7 G:9 |
+15.743129251	B, verse, | C:maj7 . . B:aug | C:maj | Eb:dim | Eb:dim |, (voice
+31.161179138	| F:maj7 | F:maj7 | D:7 D:sus4(b7)/9 | D:hdim7/b3 D:7/3 |
+46.463129251	| Bb:maj | Bb:min | F:maj C:min6 | D:7 |
+61.697959183	| G:9 | G:9 . . F#:7 | G:7 | G:7 |
+77.113469387	B, verse, | C:maj7 . . B:aug | C:maj | Eb:dim | Eb:dim |
+92.554739229	| F:maj7 | F:maj7 | D:7 D:sus4(b7)/9 | D:hdim7/b3 D:7/3 |
+107.879909297	| Bb:maj | Bb:min | F:maj C:min6 | D:7 |
+123.265306122	| G:9 | C:sus4(b7,9) C:7 | F:maj7 | D:9 |
+139.528707482	| G:7 | C:7 | F:maj | F:maj |, voice)
+160.288140589	silence
+164.048979591	end

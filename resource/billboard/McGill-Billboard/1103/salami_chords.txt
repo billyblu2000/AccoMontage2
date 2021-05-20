@@ -1,0 +1,33 @@
+# title: The Twist
+# artist: Chubby Checker
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.208979591	A, intro, | B:maj | A:maj | E:maj | E:maj |, (saxophone)
+6.764353741	B, verse, | E:maj | E:maj | E:maj | E:maj |, (voice
+12.801451247	| A:maj | A:maj | E:maj | E:maj |
+18.885170068	| B:maj | A:maj | E:maj | E:maj |
+24.989478458	B, chorus, | E:maj | E:maj | E:maj | E:maj |
+31.072947845	| A:maj | A:maj | E:maj | E:maj |
+37.089705215	| B:maj | A:maj | E:maj | E:maj |
+43.207891156	B, verse, | E:maj | E:maj | E:maj | E:maj |
+49.319886621	| A:maj | A:maj | E:maj | E:maj |
+55.344399092	| B:maj | A:maj | E:maj | E:maj |
+61.456462585	B, chorus, | E:maj | E:maj | E:maj | E:maj |
+67.572199546	| A:maj | A:maj | E:maj | E:maj |
+73.659931972	| B:maj | A:maj | E:maj | E:maj |, voice)
+79.713287981	B, solo, | E:maj | E:maj | E:maj | E:maj |, (saxophone
+85.821179138	| A:maj | A:maj | E:maj | E:maj |
+91.941201814	| B:maj | A:maj | E:maj | E:maj |, saxophone)
+97.992857142	B, verse, | E:maj | E:maj | E:maj | E:maj |, (voice
+104.153832199	| A:maj | A:maj | E:maj | E:maj |
+110.190113378	| B:maj | A:maj | E:maj | E:maj |
+116.348458049	B, chorus, | E:maj | E:maj | E:maj | E:maj |
+122.466553287	| A:maj | A:maj | E:maj | E:maj |
+128.602630385	| B:maj | A:maj | E:maj | E:maj |
+134.738911564	B, chorus, | E:maj | E:maj | E:maj | E:maj |
+140.869002267	| A:maj | A:maj | E:maj | E:maj |
+146.97430839	| B:maj | A:maj | E:maj | E:1 |, voice)
+153.110566893	silence
+156.299455782	end

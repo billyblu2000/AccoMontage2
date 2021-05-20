@@ -1,0 +1,32 @@
+# title: Comin' Home Baby
+# artist: Mel Torme
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.626938775	A, intro, | G:5 | G:5 | G:5 | G:5 |, (guitar)
+7.345646258	B, verse, | G:min | G:min | G:min | G:min |, (voice
+13.977369614	| F:7 | F:7 | G:min | G:min |
+20.64802721	| Bb:maj | A:maj Ab:maj | G:min | G:min |
+27.387936507	B, verse, | G:min6 | G:min6 | G:min6 | G:min6 |
+34.09	| F:7 | F:7 | G:min6 | G:min6 |
+40.823990929	| Bb:maj | A:maj Ab:maj | G:min | G:min |
+47.52446712	B, verse, | G:maj6(7) | G:maj6(7) | G:maj6(7) | G:minmaj7 |
+54.196099773	| F:7 | F:7 | G:min | G:min |
+60.888208616	| Bb:maj | A:maj Ab:maj | G:min | G:min |
+67.640181405	B, verse, | G:min | G:min | G:min | G:min |
+74.316802721	| F:7 | F:7 | G:min | G:min |
+80.961111111	| Bb:maj | A:maj Ab:maj | G:min | G:min |, voice)
+87.646598639	C, solo, | G:min | G:min | G:min | G:min |, (organ
+94.349795918	| F:7 | F:7 | G:min | G:min |
+101.083628117	| Bb:maj | A:maj Ab:maj | G:min | G:min |, organ)
+107.841201814	B, verse, | G:min6 | G:min6 | G:min6 | G:min6 |, (voice
+114.603061224	| F:7 | F:7 | G:min6 | G:min6 |
+121.320430839	| Bb:maj | A:maj Ab:maj | G:min | G:min |
+128.059931972	B, verse, | G:min | G:min | G:min | G:min |
+134.857097505	| F:7 | F:7 | G:min | G:min |
+141.529433106	| Bb:maj | A:maj Ab:maj | G:min | G:min |
+148.210544217	D, outro, | G:min | G:min | G:min | G:min |, fadeout
+154.855918367	| G:min | G:min | G:min | G:min |, voice)
+160.874285714	silence
+164.310204081	end

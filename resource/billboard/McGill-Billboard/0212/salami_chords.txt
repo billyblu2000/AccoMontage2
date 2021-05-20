@@ -1,0 +1,29 @@
+# title: It's Gonna Work Out Fine
+# artist: Ike & Tina Turner
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.487619047	A, intro, | C:maj Eb:maj F:maj C:maj | F:maj G:maj | C:maj Eb:maj F:maj C:maj | F:maj G:maj |
+9.750068027	B, verse, | C:maj | F:maj | C:maj Eb:maj F:maj C:maj | F:maj G:maj |, (voice
+18.748752834	| C:maj | F:maj | G:maj | G:maj . . F#:maj |
+27.644399092	| F:maj | F:maj . . Eb:maj | C:maj | C:maj |
+36.670589569	| F:maj | G:maj | C:maj F:maj | C:maj |
+45.529478458	B, verse, | C:maj | F:maj | C:maj Eb:maj F:maj C:maj | F:maj G:maj |
+54.518662131	| C:maj | F:maj | G:maj | G:maj . . F#:maj |
+63.394285714	| F:maj | F:maj . . Eb:maj | C:maj | C:maj |
+72.312539682	| F:maj | G:maj | C:maj F:maj | C:maj/5 |
+81.13324263	C, chorus, | F:maj | F:maj | C:maj | C:maj |
+90.003129251	| F:maj | F:maj | G:maj | G:maj |
+99.07430839	B, verse, | C:maj | F:maj | C:maj Eb:maj F:maj C:maj | F:maj G:maj |
+107.96956916	| C:maj | F:maj | G:maj | G:maj . . F#:maj |
+116.798594104	| F:maj | F:maj . . Eb:maj | C:maj | C:maj |
+125.609523809	| F:maj | G:maj | C:maj F:maj | C:maj/5 |
+134.465374149	C, chorus, | F:maj | F:maj | C:maj | C:maj |
+143.015056689	| F:maj | F:maj | C:maj | C:maj |
+151.631224489	| F:maj | F:maj | C:maj | C:maj |
+160.181632653	fadeout, | F:maj | F:maj | C:maj | C:maj |
+168.766031746	| F:maj | F:maj | C:maj | C:maj |
+177.212585034	| F:maj | F:maj |, voice)
+179.884988662	silence
+183.79755102	end

@@ -1,0 +1,41 @@
+# title: Long Dark Road
+# artist: The Hollies
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.417959183	A, trans, | E:maj | A:maj | E:maj | A:maj |
+8.472585034	B, verse, | E:maj | B:maj | D:maj | E:maj |, (voice
+16.501791383	| E:maj | B:maj | D:maj | A:maj |, voice)
+24.433446712	A, trans, | E:maj | A:maj | E:maj | A:maj |
+32.263854875	B, verse, | E:maj | B:maj | D:maj | E:maj |, (voice
+40.304920634	| E:maj | B:maj | D:maj | A:maj |
+48.266439909	C, pre-chorus, | E:maj . . D:maj | A:maj | E:maj . . A:maj | B:maj |
+56.276938775	D, chorus, | E:maj | A:maj | B:maj | B:maj |
+64.169795918	| E:maj | A:maj | B:maj | B:maj |
+72.113265306	| E:maj | E:7/b7 | A:maj/3 | A:maj/3 |
+80.000068027	| E:maj | E:7/b7 | A:maj/3 | A:maj/3 |, voice)
+87.842403628	B, solo, | E:maj | B:maj | D:maj | E:maj |, (harmonica
+95.691360544	| E:maj | B:maj | D:maj | A:maj |
+103.582947845	C, pre-chorus, | E:maj . . D:maj | A:maj | E:maj . . A:maj | B:maj |, harmonica)
+111.346258503	D, chorus, | E:maj | A:maj | B:maj | B:maj |, (voice
+119.166371882	| E:maj | A:maj | B:maj | B:maj |
+126.99723356	| E:maj | E:7/b7 | A:maj/3 | A:maj/3 |
+134.816122448	| E:maj | E:7/b7 | A:maj/3 | A:maj/3 |
+142.600385487	B, verse, | E:maj | B:maj | D:maj | E:maj |
+150.469433106	| E:maj | B:maj | D:maj | A:maj |
+158.381791383	C, pre-chorus, | E:maj . . D:maj | A:maj | E:maj . . A:maj | B:maj |
+166.159183673	D, chorus, | E:maj | A:maj | B:maj | B:maj |
+173.927959183	| E:maj | A:maj | B:maj | B:maj |
+181.78340136	| E:maj | E:7/b7 | A:maj/3 | A:maj/3 |
+189.613628117	| E:maj | E:7/b7 | A:maj/3 | A:maj/3 |
+197.397959183	D', outro, | E:maj | A:maj | B:maj | B:maj |
+205.119909297	| E:maj | A:maj | B:maj | B:maj |
+213.04585034	| E:maj | A:maj | B:maj | B:maj |
+220.792131519	| E:maj | A:maj | B:maj | B:maj |
+228.543469387	| E:maj | A:maj | B:maj | B:maj |
+236.290997732	fadeout, | E:maj | A:maj | B:maj | B:maj |
+244.063537414	| E:maj | A:maj | B:maj | B:maj |
+251.764875283	| E:maj |, voice)
+253.422585034	silence
+260.59755102	end

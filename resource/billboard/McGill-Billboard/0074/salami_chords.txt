@@ -1,0 +1,32 @@
+# title: Nowhere To Run 
+# artist: Martha Reeves & The Vandellas
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.325079365	A', intro, | N | Ab:1 | Ab:1 |, (drums)
+6.038548752	B, chorus, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |, (voice
+13.576190476	| Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+20.98494331	B, verse, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+28.355759637	| Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+35.745873015	A, pre-chorus, | Ab:1 | Ab:1 | Ab:1 | Ab:1 |
+43.087346938	B, chorus, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+50.435578231	| Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+57.867120181	C, bridge, | Bb:7 | Bb:7 | Eb:7 | Eb:7 |
+65.21786848	B, verse, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+72.649297052	| Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+79.972698412	A, pre-chorus, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+87.409841269	B, chorus, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+94.801519274	| Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+102.231814058	C, bridge, | Bb:7 | Bb:7 | Eb:7 | Eb:7 |
+109.560136054	B, verse, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+117.029115646	| Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+124.373764172	A, pre-chorus, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+131.825918367	B, chorus, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+139.27861678	| Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+146.723605442	C, bridge, | Bb:7 | Bb:7 | Eb:7 | Eb:7 |
+154.127278911	B, chorus, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+161.613333333	| Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |
+169.115147392	fadeout, | Ab:maj | Gb:maj/5 Db:maj | Ab:maj | Gb:maj/5 Db:maj |, voice)
+175.124897959	silence
+178.782040816	end

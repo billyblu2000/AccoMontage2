@@ -1,0 +1,49 @@
+# title: Queen Of Hearts
+# artist: Juice Newton
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.394739229	A, intro, | A:maj G:maj | D:maj | A:maj D:maj | G:maj |, (guitar
+6.091678004	| G:maj A:maj | D:maj | G:maj A:maj |
+10.39941043	| D:maj | D:maj |, guitar)
+13.163038548	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+18.809387755	| D:maj | D:maj | G:maj | G:maj |
+24.467074829	| D:maj | D:maj | D:maj | D:maj |
+30.196258503	| D:maj | D:maj | G:maj | G:maj |
+35.837936507	A, chorus, | A:maj G:maj | D:maj | A:maj D:maj | G:maj |
+41.513832199	| G:maj A:maj | D:maj | G:maj A:maj | D:maj |
+47.167505668	| A:maj G:maj | D:maj | A:maj D:maj | G:maj |
+52.835124716	| G:maj A:maj | D:maj | G:maj A:maj |, voice)
+57.101927437	| D:maj | D:maj |, (guitar)
+59.947256235	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+65.625600907	| D:maj | D:maj | G:maj | G:maj |
+71.262607709	| D:maj | D:maj | D:maj | D:maj |
+76.948049886	| D:maj | D:maj | G:maj | G:maj |
+82.604421768	A, chorus, | A:maj G:maj | D:maj | A:maj D:maj | G:maj |
+88.231995464	| G:maj A:maj | D:maj | G:maj A:maj | D:maj |
+93.982675736	| A:maj G:maj | D:maj | A:maj D:maj | G:maj |
+99.622562358	| G:maj A:maj | D:maj | G:maj A:maj | D:maj |, voice)
+# tonic: E
+105.311269841	A', solo, | B:maj A:maj | E:maj | B:maj E:maj | A:maj |, (guitar
+110.923197278	| A:maj B:maj | E:maj | A:maj B:maj | E:maj |
+116.662879818	| A:maj B:maj | E:maj |, guitar)
+# tonic: D
+119.456213151	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+125.145578231	| D:maj | D:maj | G:maj | G:maj |
+130.782653061	| D:maj | D:maj | D:maj | D:maj |
+136.478095238	| D:maj | D:maj | G:maj | G:maj |
+142.124195011	A, chorus, | A:maj G:maj | D:maj | A:maj D:maj | G:maj |
+147.792789115	| G:maj A:maj | D:maj | G:maj A:maj | D:maj |
+# tonic: E
+153.466575963	A, chorus, | N | N | N | A:maj |
+159.150816326	| A:maj B:maj | E:maj | A:maj B:maj | E:maj |
+164.817505668	| B:maj A:maj | E:maj | B:maj E:maj | A:maj |
+170.472607709	| A:maj B:maj | E:maj | A:maj B:maj | E:maj |, voice)
+176.113786848	C, outro, | B:maj A:maj | E:maj | B:maj A:maj | E:maj |
+181.825147392	| B:maj A:maj | E:maj | B:maj A:maj | E:maj |
+187.443605442	fadeout, | B:maj A:maj | E:maj | B:maj A:maj | E:maj |
+193.1330839	| B:maj A:maj | E:maj | B:maj A:maj | E:maj |
+198.796077097	| B:maj A:maj | E:maj | B:maj A:maj | E:maj |
+204.567800453	silence
+209.867755102	end

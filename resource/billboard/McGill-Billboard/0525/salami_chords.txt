@@ -1,0 +1,66 @@
+# title: Trampled Under Foot
+# artist: Led Zeppelin
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.255419501	A, intro, | G:min | G:min |, (organ)
+4.616802721	B, verse, | G:min | G:min | G:min | G:min |, (voice
+13.295668934	| G:min | G:min |, voice)
+17.667278911	| Bb:7 C:7 |, (guitar
+19.80770975	C, trans, | G:min | G:min |, guitar)
+24.147006802	B, verse, | G:min | G:min | G:min | G:min |, (voice
+32.805056689	| G:min | G:min |, voice)
+37.179637188	| Bb:7 C:7 |, (guitar
+39.386598639	C, trans, | G:min | G:min |, guitar)
+43.726530612	B', verse, | G:min | G:min | G:min | G:min |, (voice
+52.35201814	| G:min | G:min |, voice)
+56.691247165	| Bb:7 C:7 | Eb:7 F:7 |, (guitar
+61.061405895	C, trans, | G:min | G:min |, guitar)
+65.421428571	B, verse, | G:min | G:min | G:min | G:min |, (voice
+74.06324263	| G:min | G:min |, voice)
+78.397891156	| Bb:7 C:7 |, (guitar
+80.676122448	C, trans, | G:min | G:min |, guitar)
+84.909886621	B, verse, | G:min | G:min | G:min | G:min |, (voice
+93.556099773	| G:min | G:min |, voice)
+97.9	| Bb:7 C:7 |, (guitar
+100.097823129	C, trans, | G:min | G:min |, guitar)
+104.365555555	B', verse, | G:min | G:min | G:min | G:min |, (voice
+112.986349206	| G:min | G:min |, voice)
+117.336054421	| Bb:7 C:7 | Eb:7 F:7 |, (guitar
+121.679909297	C, trans, | G:min | G:min |, guitar)
+126.044988662	D, bridge, | G:min C:maj/5 | G:min C:maj/5 | G:min C:maj/5 | G:min C:maj/5 |, (organ
+134.755079365	C', instrumental, | G:min | G:min | G:min | G:min |
+143.313628117	| G:min | G:min | G:min | G:min | G:min |
+153.834421768	| G:min | G:min | G:min | G:min |
+162.201882086	| G:min | G:min | G:min |, organ)
+168.49095238	| G:min | G:min | G:min |, (guitar
+174.708276643	| G:min | G:min | G:min |, guitar)
+181.100657596	D, bridge, | G:min C:maj/5 | G:min C:maj/5 | G:min C:maj/5 | G:min C:maj/5 |, (organ)
+189.52079365	C, trans, | G:min | G:min |, (guitar)
+193.853469387	B, verse, | G:min | G:min | G:min | G:min |, (voice
+202.500453514	| G:min | G:min |, voice)
+206.793628117	| Bb:7 C:7 |, (guitar
+208.996621315	C, trans, | G:min | G:min |, guitar)
+213.335510204	B, verse, | G:min | G:min | G:min | G:min |, (voice
+221.910249433	| G:min | G:min |, voice)
+226.193605442	| Bb:7 C:7 |, (guitar
+228.411814058	C, trans, | G:min | G:min |, guitar)
+232.720022675	B', verse, | G:min | G:min | G:min | G:min |, (voice
+241.316235827	| G:min | G:min |, voice)
+245.582811791	| Bb:7 C:7 | Eb:7 F:7 |, (guitar
+249.89600907	C, trans, | G:min | G:min |
+254.214421768	C', outro, | G:min | G:min | G:min | G:min |
+262.89723356	| G:min | G:min |
+267.19494331	| G:min | G:min | G:min | G:min |
+275.615714285	| G:min | G:min | G:min |
+281.945192743	| G:min | G:min | G:min | G:min |
+290.346394557	| G:min | G:min | G:min | G:min |
+298.790975056	| G:min | G:min | G:min |
+305.219160997	| G:min | G:min | G:min |
+311.40723356	| G:min | G:min | G:min |
+317.705283446	| G:min | G:min |
+321.98031746	| G:min | G:min | G:min |
+328.275079365	| G:min |, guitar)
+333.484988662	silence
+335.36	end

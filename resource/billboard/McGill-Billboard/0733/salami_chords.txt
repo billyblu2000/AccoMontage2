@@ -1,0 +1,32 @@
+# title: Bird Dog
+# artist: The Everly Brothers
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.278639455	A, intro, | B:maj . E:maj A:maj | F#:7 | B:maj . E:maj A:maj | F#:7 |, (guitar)
+7.000430839	B, verse, | B:maj | B:maj | B:maj | B:maj |, (voice
+13.654897959	| E:maj | E:maj | B:maj | B:maj |
+20.269478458	| F#:maj | E:7 |, voice)
+23.60185941	A, trans, | B:maj . E:maj A:maj | F#:7 |, (guitar)
+26.904535147	B, verse, | B:maj | B:maj | B:maj | B:maj |, (voice
+33.629773242	| E:maj | E:maj | B:maj | B:maj |
+40.305691609	| F#:maj | E:7 |, voice)
+43.643673469	A, trans, | B:maj . E:maj A:maj | F#:7 |, (guitar)
+46.966938775	C, chorus, | E:7 | E:7 | B:maj | B:maj |, (voice
+53.810045351	| F#:maj | E:7 | B:maj | B:7 |
+60.589319727	| E:7 | E:7 | B:maj | B:maj |
+67.392471655	| F#:7 | E:7 |, voice)
+70.867959183	A, trans, | B:maj . E:maj A:maj | F#:7 | B:maj . E:maj A:maj | F#:7 |, (guitar)
+77.601655328	B, verse, | B:maj | B:maj | B:maj | B:maj |, (voice
+84.347573696	| E:maj | E:maj | B:maj | B:maj |
+91.056802721	| F#:7 | E:7 |, voice)
+94.413764172	A, trans, | B:maj . E:maj A:maj | F#:7 |, (guitar)
+97.802063492	C, chorus, | E:7 | E:7 | B:maj | B:maj |, (voice
+104.596031746	| F#:7 | E:7 | B:maj | B:7 |
+111.330340136	| E:7 | E:7 | B:maj | B:maj |
+118.08909297	| F#:7 | E:7 |, voice)
+121.504761904	A, fadeout, | B:maj . E:maj A:maj | F#:7 | B:maj . E:maj A:maj | F#:7 |, (guitar
+128.31632653	| B:maj . E:maj A:maj | F#:7 | B:maj . E:maj A:maj |, guitar)
+132.562721088	silence
+137.45632653	end

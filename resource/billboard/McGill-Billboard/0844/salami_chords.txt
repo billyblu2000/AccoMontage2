@@ -1,0 +1,34 @@
+# title: Burning Down The House
+# artist: Talking Heads
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.208979591	A, intro, | D:min | D:min | D:min | D:min |, (guitar
+9.261360544	| D:min | D:min | D:min | D:min |, guitar)
+18.831383219	B, chorus, | G:maj | F:maj | G:maj | F:maj |, (voice
+28.1861678	| G:maj | F:maj | G:maj A:maj | F:maj |
+37.464829931	B, chorus, | G:maj | F:maj | G:maj | F:maj |
+46.769659863	| G:maj | F:maj | G:maj A:maj | F:maj |
+56.074081632	C, verse, | G:sus4 | F:sus4 | G:sus4 | F:sus4 |
+65.402902494	| G:sus4 | F:sus4 | G:sus4 | F:sus4 |
+74.712766439	B, chorus, | G:maj | F:maj | G:maj | F:maj |
+84.01201814	| G:maj | F:maj | G:maj A:maj | F:maj |
+93.228049886	C, verse, | G:sus4 | F:sus4 | G:sus4 | F:sus4 |
+102.486190476	| G:sus4 | F:sus4 | G:sus4 | F:sus4 |, voice)
+111.878117913	B, instrumental, | G:maj | F:maj | G:maj | F:maj |, (synthesizer
+121.209433106	| G:maj | F:maj | G:maj A:maj | F:maj |, synthesizer)
+130.488072562	B, chorus, | G:maj | F:maj | G:maj | F:maj |, (voice
+139.823106575	| G:maj | F:maj | G:maj A:maj | F:maj |
+149.145827664	C, verse, | G:sus4 | F:sus4 | G:sus4 | F:sus4 |
+158.446802721	| G:sus4 | F:sus4 | G:sus4 | F:sus4 |, voice)
+167.705034013	B, instrumental, | G:1 | F:1 | G:1 | F:1 |, (synthesizer
+176.983129251	| G:1 | F:1 | G:1 | F:1 |
+186.277641723	B, instrumental, | G:5 | F:5 | G:5 | F:5 |
+195.647301587	| G:5 | F:5 | G:5 A:5 | F:5 |
+204.921405895	C, instrumental, | G:sus4 | F:sus4 | G:sus4 | F:sus4 |
+214.199614512	| G:sus4 | F:sus4 | G:sus4 | F:sus4 |
+223.483922902	C, fadeout, | G:sus4 | F:sus4 | G:sus4 | F:sus4 |
+232.819115646	| G:sus4 | F:sus4 | G:sus4 | F:sus4 |, synthesizer)
+240.442630385	silence
+241.13632653	end

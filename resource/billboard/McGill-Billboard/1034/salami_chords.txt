@@ -1,0 +1,39 @@
+# title: Sugar Magnolia
+# artist: The Greatful Dead
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.339591836	A, intro, | A:maj | A:maj . D:maj/5 A:maj | A:maj | E:maj A:maj | x2, (guitar
+12.761269841	| A:maj | E:maj A:maj |, guitar)
+16.05632653	A, verse, | A:maj | A:maj . D:maj/5 A:maj | A:maj G:maj | E:maj A:maj |, (voice
+22.089841269	| A:maj | C#:min F#:min | E:maj | D:maj A:maj |, voice)
+28.293446712	| A:maj | E:maj A:maj |, (guitar)
+31.433582766	A, verse, | A:maj | A:maj . D:maj/5 A:maj | A:maj G:maj | E:maj A:maj |, (voice
+37.570204081	| A:maj | C#:min F#:min | E:maj | D:maj A:maj |, voice)
+43.809455782	| A:maj | E:maj A:maj |, (guitar)
+46.955623582	B, bridge, | D:maj | G:maj D:maj | D:maj | A:maj D:maj |, (voice
+53.158594104	| D:maj | G:maj D:maj | D:maj | E:maj A:maj |, voice)
+59.37047619	| A:maj | E:maj A:maj |, (guitar
+62.466553287	A, interlude, | A:maj | A:maj . D:maj/5 A:maj | A:maj | E:maj A:maj |
+68.740566893	| A:maj | A:maj . D:maj/5 A:maj | A:maj | E:maj A:maj |
+74.961269841	| A:maj | E:maj A:maj |, guitar)
+78.078571428	A, verse, | A:maj | A:maj . D:maj/5 A:maj | A:maj G:maj | E:maj A:maj |, (voice
+84.255532879	| A:maj | C#:min F#:min | E:maj | D:maj A:maj |, voice)
+90.590702947	| A:maj | E:maj A:maj |, (guitar)
+93.685487528	A, verse, | A:maj | A:maj . D:maj/5 A:maj | A:maj G:maj | E:maj A:maj |, (voice
+99.986371882	| A:maj | C#:min F#:min | E:maj | D:maj A:maj |, voice)
+106.135668934	| A:maj | E:maj A:maj |, (guitar)
+109.177097505	C, chorus, | A:maj G:maj | D:maj A:maj | x3, (voice
+118.53755102	| A:maj E:maj | G:maj D:maj | D:maj | (2/4) D:maj |, voice)
+124.015034013	| A:maj | E:maj A:maj |, (guitar)
+127.090884353	B, bridge, | D:maj | G:maj D:maj | D:maj | A:maj D:maj |, (voice
+133.289546485	| D:maj | G:maj D:maj | D:maj | E:maj A:maj |, voice)
+139.55	| A:maj | E:maj A:maj |, (guitar)
+142.677074829	A', verse, | A:maj | A:maj . D:maj/5 A:maj | x2, (voice
+148.840544217	| B:maj | B:maj . E:maj/5 B:maj | B:maj | (2/4) F#:maj | E:maj D:maj | A:maj E:maj |
+157.41356009	| B:maj A:maj | E:maj B:maj | B:maj | (2/4) N |
+162.98786848	outro, | B:maj | B:maj E:maj/5 | B:maj | F#:maj E:maj | x3
+181.510589569	| B:maj | B:maj E:maj/5 | B:maj | F#:maj E:maj | x3, fadeout, voice)
+197.342040816	silence
+199.131428571	end

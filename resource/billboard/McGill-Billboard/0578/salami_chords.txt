@@ -1,0 +1,36 @@
+# title: Giving You the Best That I Got 
+# artist: Anita Baker
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.232199546	A, intro, | D:maj(9) | A:maj(9)/3 | C:maj B:min7 A:min7 G:maj(9) | F#:min7 |
+10.066780045	| Bb:maj7 A:min7 G:min7 F:maj9 | D:maj/9 | D:maj/9 |
+17.051678004	B, verse, | E:maj/11 . A:maj . | E:maj/11 . A:maj . | C#:min7 | C#:min7 |, (voice
+26.369750566	| D:maj7 | D:maj7 | C:maj7 | B:min7 . D:maj/9 . |
+35.58786848	| E:maj/11 . A:maj . | E:maj/11 . A:maj . | C#:min7 | C#:min7 |
+44.864897959	| D:maj7 | D:maj9 | C:maj7 | B:min7 . D:maj/9 . |
+54.086371882	C, chorus, | D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+63.159342403	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . A:maj(9)/3 . |
+72.374557823	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+81.530022675	B, verse, | E:maj/11 . A:maj . | E:maj/11 . A:maj . | C#:min7 | C#:min7 |
+90.705124716	| D:maj7 | D:maj7 | C:maj7 | B:min7 . D:maj/9 . |
+99.896258503	C, chorus, | D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+108.998117913	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . A:maj(9)/3 . |
+118.192743764	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+127.294512471	D, bridge, | D:maj/9 | D:maj/9 | D:maj/9 | D:maj/9 . C:dim . |
+136.414263038	| B:min7 | C#:min7 | D:maj7 | D:maj/9 |
+145.609523809	B, verse, | E:maj/11 . A:maj . | E:maj/11 . A:maj . | C#:min7 | C#:min7 |
+154.782471655	| D:maj7 | D:maj7 | C:maj7 | B:min7 . D:maj/9 . |
+163.922448979	C, chorus, | D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+173.088594104	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . A:maj(9)/3 . |
+182.232380952	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |, voice)
+191.387619047	C, outro, | D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+200.525192743	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |, (piano
+209.591564625	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+218.647052154	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+227.627460317	fadeout, | D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+236.660997732	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |
+245.670068027	| D:maj7 | A:maj(9)/3 | C:maj7 | B:min7 . D:maj/9 . |, piano)
+254.606802721	silence
+260.545306122	end

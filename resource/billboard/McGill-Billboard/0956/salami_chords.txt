@@ -1,0 +1,37 @@
+# title: Eye In The Sky
+# artist: The Allan Parsons Project
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.255419501	A, intro, | B:min | B:min | G:maj | G:maj |
+9.184489795	| B:min | B:min | G:maj | G:maj |
+17.748208616	B, verse, | A:maj/11 D:maj | A:maj/11 D:maj | B:min9 | B:min9 |, (voice
+26.335464852	| A:maj/11 D:maj | A:maj/11 D:maj | B:min9 | B:min9 |
+34.9061678	| G:maj6 | G:min6 | B:min7 | E:9 |
+43.449047619	| D:maj | G:maj7 | D:maj | D:maj |
+52.079931972	B, verse, | A:maj/11 D:maj | A:maj/11 D:maj | B:min9 | B:min9 |
+60.674444444	| A:maj/11 D:maj | A:maj/11 D:maj | B:min9 | B:min9 |
+69.288866213	| G:maj6 | G:min6 | B:min7 | E:9 |
+77.817301587	| D:maj | G:maj7 | D:maj | D:maj |
+86.451451247	C, chorus, | A:maj/11 D:maj | A:maj/11 D:maj | F#:min | F#:min |
+95.055759637	| A:maj/11 D:maj | A:maj/11 D:maj | F#:min | F#:min |
+103.57877551	| G:maj6 | G:min6 |
+107.907029478	| B:min7 | B:min7 | G:maj(9) | G:maj(9) |
+116.535827664	| B:min7 | B:min7 | G:maj(9) | G:maj(9) |
+125.18340136	B, verse, | A:maj/11 D:maj | A:maj/11 D:maj | B:min9 | B:min9 |
+133.866780045	| A:maj/11 D:maj | A:maj/11 D:maj | B:min9 | B:min9 |
+142.544965986	| G:maj6 | G:min6 | B:min7 | E:9 |
+151.200997732	| D:maj | G:maj7 | D:maj | D:maj |
+159.7792517	C, chorus, | A:maj/11 D:maj | A:maj/11 D:maj | F#:min | F#:min |
+168.410612244	| A:maj/11 D:maj | A:maj/11 D:maj | F#:min | F#:min |
+176.964421768	| G:maj6 | G:min6 |
+181.354580498	| B:min7 | B:min7 | G:maj(9) | G:maj(9) |
+190.034489795	| B:min7 | B:min7 | G:maj(9) | G:maj(9) |
+198.622698412	C, chorus, | A:maj/11 D:maj | A:maj/11 D:maj | F#:min | F#:min |
+207.199024943	| A:maj/11 D:maj | A:maj/11 D:maj | F#:min | F#:min |
+215.814648526	| G:maj6 | G:min6 |
+220.062743764	fadeout, | B:min7 | B:min7 | G:maj(9) | G:maj(9) |
+228.761451247	| B:min7 | B:min7 | G:maj(9) | G:maj(9) |, voice)
+233.778503401	silence
+239.229387755	end

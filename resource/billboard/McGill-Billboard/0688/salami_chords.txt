@@ -1,0 +1,20 @@
+# title: On The Road Again
+# artist: Canned Heat
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.462471655	B, intro, | E:1 |, (tambura)
+11.284897959	| E:maj(11) |, (guitar)
+18.989047619	A, intro, | E:7(#9) | E:7(#9) | E:7(#9) . G:1 A:1 | E:7(#9) | x3, (harmonica)
+41.304058956	A, verse, | E:7(#9) | E:7(#9) | E:maj(#9) . G:maj A:maj | E:7(#9) | x3, (voice
+63.528163265	A, verse, | E:7(#9) | E:7(#9) | E:maj(#9) . G:maj A:maj | E:7(#9) | x3
+85.811950113	A, verse, | E:7(#9) | E:7(#9) | E:maj(#9) . G:maj A:maj | E:7(#9) | x3, voice)
+108.248730158	A, solo, | E:7(#9) | E:7(#9) | E:maj(#9) . G:maj A:maj | E:7(#9) | x3, (harmonica)
+130.613061224	A, verse, | E:7(#9) | E:7(#9) | E:maj(#9) . G:maj A:maj | E:7(#9) | x3, (voice
+153.011360544	A, verse, | E:7(#9) | E:7(#9) | E:maj(#9) . G:maj A:maj | E:7(#9) | x3, voice)
+175.235124716	A, solo, | E:7(#9) | E:7(#9) | E:maj(#9) . G:maj A:maj | E:7(#9) | x14, (harmonica)
+277.787369614	B', outro, | E:1 |, (tambura)
+287.254058956	| E:maj(11) |, (guitar)
+298.678276643	silence
+302.889795918	end

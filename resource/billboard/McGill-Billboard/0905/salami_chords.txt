@@ -1,0 +1,34 @@
+# title: Teach Your Children
+# artist: Crosby, Stills & Nash
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.232199546	A, intro, | D:maj | D:maj | G:maj | G:maj |, (guitar
+6.499909297	| D:maj | D:maj | A:maj | A:maj |, guitar)
+12.53877551	A, verse, | D:maj | D:maj | G:maj | G:maj |, (voice
+18.64494331	| D:maj | D:maj | A:maj | A:maj |
+24.814965986	| D:maj | D:maj | G:maj | G:maj |
+30.901904761	| D:maj | D:maj | A:maj | A:maj |
+37.171020408	B, chorus, | D:maj | D:maj | G:maj | G:maj |
+43.31	| D:maj | D:maj | A:maj | A:maj |
+49.460385487	| D:maj | D:maj | G:maj | G:maj |
+55.616349206	| D:maj | D:maj | A:maj | A:maj |
+61.827573696	| D:maj | D:maj | G:maj | G:maj |
+67.995170068	| D:maj | D:maj | B:min | B:min | G:maj | A:maj |, voice)
+77.315374149	A, trans, | D:maj | D:maj | G:maj | G:maj |, (guitar
+83.448820861	| D:maj | D:maj | A:maj | A:maj |, guitar)
+89.768344671	A, verse, | D:maj | D:maj | G:maj | G:maj |, (voice
+95.979705215	| D:maj | D:maj | A:maj | A:maj |
+102.194353741	| D:maj | D:maj | G:maj | G:maj |
+108.268662131	| D:maj | D:maj | A:maj | A:maj |
+114.361746031	B, chorus, | D:maj | D:maj | G:maj | G:maj |
+120.50600907	| D:maj | D:maj | A:maj | A:maj |
+126.747346938	| D:maj | D:maj | G:maj | G:maj |
+132.902721088	| D:maj | D:maj | A:maj | A:maj |
+139.12510204	| D:maj | D:maj | G:maj | G:maj |
+145.348571428	| D:maj | D:maj | B:min | B:min | G:maj | A:maj |, voice)
+154.805215419	A, solo, | D:maj | D:maj | G:maj | G:maj |, (guitar
+161.095941043	| D:maj | A:maj | D:maj | D:maj |, guitar)
+170.759546485	silence
+174.341224489	end

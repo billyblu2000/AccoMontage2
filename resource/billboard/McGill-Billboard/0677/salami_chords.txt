@@ -1,0 +1,25 @@
+# title: Don't Knock My Love - Pt. 1
+# artist: Wilson Pickett
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+1.905510204	B, intro, | N |, (bongos)
+5.456235827	A, intro, | D:min7 | D:min7 | D:min7 | D:min7 |, (horns)
+14.488049886	A, verse, | D:min7 | D:min7 | D:min7 | D:min7 |, (voice
+23.483151927	| D:min7 | D:min7 | D:min7 | D:min7 |
+32.406371882	B, chorus, | F:maj | D:min | Bb:maj | G:min7 |
+41.377074829	| F:maj | D:min | Bb:maj | G:min7 |
+50.377324263	A, pre-verse, | D:min7 | D:min7 |
+54.745238095	A, verse, | D:min7 | D:min7 | D:min7 | D:min7 |
+63.70941043	| D:min7 | D:min7 | D:min7 | D:min7 |
+72.530680272	B, chorus, | F:maj | D:min | Bb:maj | G:min7 |
+81.473673469	| F:maj | D:min | Bb:maj | G:min7 |
+90.431836734	C, bridge, | F:7 | F:7 | F:7 | F:7 |
+99.536598639	A, outro, | D:min7 | D:min7 | D:min7 | D:min7 |
+108.408888888	| D:min7 | D:min7 | D:min7 | D:min7 |
+117.240045351	| D:min7 | D:min7 | D:min7 | D:min7 |
+126.119795918	| D:min7 | D:min7 | D:min7 | D:min7 |, fadeout
+135.035646258	| D:min7 | D:min7 | D:min7 | D:min7 |, voice)
+140.063106575	silence
+144.615895691	end

@@ -1,0 +1,34 @@
+# title: The Way You Do The Things You Do
+# artist: Rita Coolidge
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.464399092	A, intro, | E:maj/5 | E:maj/5 . Eb:maj/5 D:maj/5 |, (guitar
+5.009365079	| E:7 | E:7 | E:7 | E:7 |, guitar)
+13.909183673	B, verse, | E:7 | E:7 | E:7 | E:7 |, (voice
+22.851836734	| E:7 | E:7 | E:7 | E:7 |
+31.62478458	| A:7 | A:7 | E:7 | E:7 |
+40.489727891	| E:7 | E:7 | E:7 | E:7 B:maj . . |
+49.372947845	| B:7 | A:7 | B:7 | A:7 |
+58.210521541	| E:7 | E:7 | E:7 | E:7 |
+67.044399092	B, verse, | E:7 | E:7 | E:7 | E:7 |
+76.071995464	| E:7 | E:7 | E:7 | E:7 |
+84.899659863	| A:7 | A:7 | E:7 | E:7 |
+93.7492517	| E:7 | E:7 | E:7 | E:7 B:7 . . |
+102.589319727	| B:7 | A:7 | B:7 | A:7 |
+111.449319727	| E:7 | E:7 | E:7 | E:7 |, voice)
+120.291065759	C, solo, | E:7 | E:7 | E:7 | E:7 |, (guitar
+129.148435374	| E:7 | E:7 | E:7 | E:7 B:7 . . |
+138.057188208	| B:7 | A:7 | B:7 | A:7 |
+146.852607709	| E:7 | E:7 | F:7 | F:7 |, guitar)
+# tonic: F
+155.702154195	C', verse, | F:7 | F:7 | F:7 | F:7 |, (voice
+164.493197278	| F:7 | F:7 | F:7 | F:7 C:7 . . |
+173.341360544	| C:7 | Bb:7 | C:7 | Bb:7 |
+182.15095238	| F:7 | F:7 | F:7 | F:7 |
+190.867097505	D, outro, | F:7 | F:7 . Ab:maj Bb:maj | F:7 | F:7 . Ab:maj Bb:maj |
+199.699070294	fadeout, | F:7 | F:7 . Ab:maj Bb:maj | F:7 | F:7 . Ab:maj Bb:maj |
+208.512448979	| F:7 | F:7 . Ab:maj Bb:maj | F:7 | F:7 . Ab:maj Bb:maj |, voice)
+215.574716553	silence
+218.81648526	end

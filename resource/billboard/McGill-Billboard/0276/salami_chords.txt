@@ -1,0 +1,21 @@
+# title: Patches
+# artist: Clarence Carter
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.255419501	A, verse, | B:maj | B:maj/7 | B:7/b7 | E:maj | G#:7 C#:min |, (voice
+14.96324263	| F#:maj | E:maj | F#:maj | E:maj | F#:maj | E:maj |
+32.691292517	| B:maj B:min/b3 | E:maj B:maj | B:maj B:min/b3 | E:maj B:maj |
+44.450498866	B, chorus, | B:maj | D#:min | B:7/b7 | E:maj | G#:7 C#:min |
+59.251156462	A', verse, | F#:maj | E:maj | F#:maj | E:maj | F#:maj | E:maj |
+77.106507936	| B:maj B:min/b3 | E:maj B:maj | B:maj B:min/b3 | E:maj B:maj |
+89.01723356	B, chorus, | B:maj | D#:min | B:7/b7 | E:maj | G#:7 C#:min |
+103.896281179	A, verse, | B:maj | B:maj/7 | B:7/b7 | E:maj C#:maj | G#:7 C#:min |
+118.805578231	| F#:maj | E:maj | F#:maj | E:maj | F#:maj | E:maj |
+136.659387755	| B:maj B:min/b3 | E:maj B:maj | B:maj B:min/b3 | E:maj B:maj |
+148.642063492	B, chorus, | B:maj | D#:min | B:7/b7 | E:maj | G#:7 C#:min |
+163.662358276	B', outro, | B:maj | D#:min | B:7/b7 | E:maj | G#:7 C#:min |
+178.587732426	fadeout, | B:maj | D#:min | B:7/b7 | E:maj | G#:7 C#:min |, voice)
+189.279818594	silence
+192.976394557	end

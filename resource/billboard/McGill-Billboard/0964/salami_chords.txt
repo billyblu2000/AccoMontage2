@@ -1,0 +1,28 @@
+# title: Hello Hello
+# artist: The Sopwith Camel
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.30185941	A, intro, | (2/4) B:maj |, (piano
+1.272222222	| C:maj | C:maj | A:min | A:min |
+8.170816326	| F:maj | G:maj | C:maj | C:1 G:7 |, piano)
+15.126893424	B, chorus, | C:maj | F:maj | C:maj | F:maj |, (voice
+22.301519274	| C:maj | F:maj | C:maj | F:maj |
+29.283061224	| G:maj | A:min A:min/b7 | D:maj/3 | F:maj D:7/3 |
+36.147959183	| C:maj | G:maj | C:maj | C:maj G:1 A:1 Bb:1 |
+43.05154195	C, pre-chorus, | B:7 | E:min | B:7 | A:min |
+50.002879818	| G:maj | C:maj | F:maj | D:7 G:7 |
+56.802131519	B', chorus, | C:maj C:maj/5 . . | F:maj(9) | C:maj C:maj/5 . . | F:maj(9) |, voice)
+63.810068027	| C:maj | F:maj(9) | C:maj | F:maj(9) |, (bass
+70.836666666	| G:maj | A:min A:min/b7 | D:maj/3 | F:maj D:7/3 |
+77.683287981	| C:maj | G:maj | C:maj | C:maj G:1 A:1 Bb:1 |, bass)
+84.524535147	C, pre-chorus, | B:7 | E:min | B:7 | A:min |, (voice
+91.534852607	| G:maj | C:maj | F:maj | D:7 G:7 |
+98.411337868	B'', chorus, | C:maj | F:maj(9) | C:maj | F:maj(9) |
+105.329637188	| C:maj | F:maj(9) | C:maj | F:maj(9) |
+112.174172335	| G:maj | A:min A:min/b7 | D:maj/3 | F:maj D:7/3 |
+118.942630385	| C:maj | G:7 | C:maj . B:maj Bb:maj | A:7 |
+125.853990929	fadeout, | D:7 | G:7 | C:maj . C:dim B:dim | Bb:dim A:dim Ab:dim G:dim | (2/4) Gb:dim F:dim | N | N C:7/b7 |, voice)
+143.151473922	silence
+145.137959183	end

@@ -1,0 +1,24 @@
+# title: Johnny Reb
+# artist: Johnny Horton
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.394739229	A, intro, | E:maj | A:maj E:maj | E:maj | A:maj E:maj |
+8.743129251	B, chorus, | E:maj | E:maj | E:maj . . B:7 | E:maj | E:maj |, (voice
+19.148548752	C, verse, | E:maj | A:maj E:maj | E:maj | B:7 |
+27.605328798	| A:maj | E:maj | E:maj | B:7 E:maj |
+35.972040816	B, chorus, | E:maj | E:maj | E:maj . . B:7 | E:maj | E:maj |
+46.320362811	C, verse, | E:maj | A:maj E:maj | E:maj | B:7 |
+54.679297052	| A:maj | E:maj | E:maj | B:7 E:maj |
+63.054535147	B, chorus, | E:maj | E:maj | E:maj . . B:7 | E:maj | E:maj |
+73.493605442	C, verse, | E:maj | A:maj E:maj | E:maj | B:7 |
+81.860839002	| A:maj | E:maj | E:maj | B:7 E:maj |
+90.290272108	B, chorus, | E:maj | E:maj | E:maj . . B:7 | E:maj | E:maj |
+100.745510204	C, verse, | E:maj | A:maj E:maj | E:maj | B:7 |
+109.132970521	| A:maj | E:maj | E:maj | B:7 E:maj |
+117.49217687	B', chorus, | E:maj | E:maj | E:maj . . B:7 | E:maj |
+125.905827664	fadeout, | E:maj | E:maj | E:maj . . B:7 | E:maj |
+134.228730158	| E:maj | E:maj | E:maj . . B:7 |, voice)
+140.15494331	silence
+141.440612244	end

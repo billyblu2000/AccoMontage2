@@ -1,0 +1,25 @@
+# title: Disco Inferno
+# artist: The Trammps
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+8.9863945e-2	D, intro, | N | N |, (guitar
+4.525918367	B, verse, instrumental, | C:min7 | x16
+34.25185941	A, chorus, | F:maj | Bb:maj G:min | C:maj | C:maj |, (voice
+41.659886621	| F:maj | Bb:maj G:min | C:maj | C:maj . G:min/b3 F:maj7/3 |
+49.087664399	B, verse, | C:min7 | x16
+78.657573696	A, chorus, | F:maj | Bb:maj G:min | C:maj | C:maj |
+86.09723356	| F:maj | Bb:maj G:min | C:maj | C:maj . G:min/b3 F:maj7/3 |
+93.503809523	B, verse, | C:min7 | x16
+123.026235827	A, chorus, | F:maj | Bb:maj G:min | C:maj | C:maj |
+130.453106575	| F:maj | Bb:maj G:min | C:maj | C:maj . G:min/b3 F:maj7/3 |
+137.856802721	C, bridge, | Bb:maj7 | Bb:maj7 | C:maj | C:maj |
+145.396303854	| Bb:maj7 | Bb:maj7 | C:maj | G:min | G:min |
+154.789319727	B, verse, | C:min7 | x16
+184.532063492	A, chorus, | F:maj | Bb:maj G:min | C:maj | C:maj |
+192.127301587	| F:maj | Bb:maj G:min | C:maj | C:maj |
+199.763174603	A, chorus, fadeout, | F:maj | Bb:maj G:min | C:maj | C:maj |
+207.328820861	| F:maj | Bb:maj G:min | C:maj | C:maj |, guitar), voice)
+213.845646258	silence
+217.372199546	end

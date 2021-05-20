@@ -1,0 +1,52 @@
+# title: Simon & Garfunkel
+# artist: Mrs. Robinson
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.673378684	A, intro, | F#:5 | F#:5 | F#:5 | F#:5 |, (guitar
+5.99770975	| F#:5 | F#:5 | F#:5 | F#:5 |, guitar)
+11.165192743	B, verse, | F#:5 | F#:5 | F#:5 | F#:5 | F#:5 |
+17.588526077	| B:7 | B:7 | B:7 | B:7 |
+22.778231292	| E:maj | A:maj | D:maj D:maj/7 | B:min | B:min |
+29.276258503	| F#:7 | F#:7 | E:7 | E:7 |
+34.509138321	C, chorus, | A:maj | F#:min | A:maj | F#:min |, (voice
+39.756598639	| D:maj | D:maj | E:maj | E:maj |
+45.043424036	| A:maj | F#:min | A:maj | F#:min |
+50.30526077	| D:maj | D:maj | B:min | B:min |, voice)
+55.551814058	A, trans, | F#:5 | F#:5 | F#:5 | F#:5 |, (guitar)
+60.814058956	B, verse, | F#:5 | F#:5 | F#:5 | F#:5 | F#:5 |, (voice
+67.226938775	| B:7 | B:7 | B:7 | B:7 |
+72.445623582	| E:maj | A:maj | D:maj D:maj/7 | B:min | B:min |
+78.977188208	| F#:7 | F#:7 | E:7 | E:7 |
+84.196145124	C, chorus, | A:maj | F#:min | A:maj | F#:min |
+89.481564625	| D:maj | D:maj | E:maj | E:maj |
+94.736938775	| A:maj | F#:min | A:maj | F#:min |
+100.011179138	| D:maj | D:maj | B:min | B:min |, voice)
+105.20861678	A, trans, | F#:5 | F#:5 | F#:5 | F#:5 |, (guitar)
+110.513900226	B, verse, | F#:5 | F#:5 | F#:5 | F#:5 | F#:5 |, (voice
+117.000362811	| B:7 | B:7 | B:7 | B:7 |
+122.141473922	| E:maj | A:maj | D:maj D:maj/7 | B:min | B:min |
+128.762403628	| F#:7 | F#:7 | E:7 | E:7 |
+133.9223356	C, chorus, | A:maj | F#:min | A:maj | F#:min |
+139.212380952	| D:maj | D:maj | E:maj | E:maj |
+144.454331065	| A:maj | F#:min | A:maj | F#:min |
+149.706870748	| D:maj | D:maj | B:min | B:min |, voice)
+155.038458049	A, trans, | F#:5 | F#:5 | F#:5 | F#:5 |, (guitar)
+160.303424036	B, verse, | F#:5 | F#:5 | F#:5 | F#:5 | F#:5 |, (voice
+166.805011337	| B:7 | B:7 | B:7 | B:7 |
+171.992811791	| E:maj | A:maj | D:maj D:maj/7 | B:min | B:min |
+178.545941043	| F#:7 | F#:7 | E:7 | E:7 |
+183.765895691	C, chorus, | A:maj | F#:min | A:maj | F#:min |
+189.123492063	| D:maj | D:maj | E:maj | E:maj |
+194.330725623	| A:maj | F#:min | A:maj | F#:min |
+199.585555555	| D:maj | D:maj | B:min | B:min |, voice)
+204.93893424	A, outro, | F#:5 | F#:5 | F#:5 | F#:5 |, (guitar
+210.125442176	| F#:5 | F#:5 | F#:5 | F#:5 |
+215.359523809	| F#:5 | F#:5 | F#:5 | F#:5 |
+220.599637188	fadeout, | C#:7/11 | C#:7/11 |
+223.266145124	| F#:5 | F#:5 | F#:5 | F#:5 |
+228.499773242	| F#:5 | F#:5 | F#:5 | F#:5 |
+233.799909297	| F#:5 | F#:5 | F#:5 | F#:5 | F#:5 | F#:5 |, guitar)
+240.698049886	silence
+245.002448979	end

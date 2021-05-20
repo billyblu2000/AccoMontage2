@@ -1,0 +1,35 @@
+# title: There She Goes
+# artist: The Las
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.325079365	A, intro, | G:maj D:maj/3 | C:maj(9)/3 | G:maj D:maj/3 | C:maj(9)/3 . . D:maj/3 |, (guitar
+8.637823129	| G:maj D:maj/3 | C:maj(9)/3 . . D:maj/3 | G:maj D:maj/3 | C:maj(9)/3 . . D:maj/3 |
+16.611791383	B, chorus, | G:maj D:maj | C:maj(9) . . D:maj | G:maj D:maj | C:maj(9) . . D:maj |
+24.447120181	| G:maj D:maj | C:maj(9) |
+28.294557823	C', verse, | A:min7 G:maj | C:maj(9) | D:maj |, guitar)
+34.15909297	B, chorus, | G:maj D:maj | C:maj(9) . . D:maj | G:maj D:maj | C:maj(9) . . D:maj |, (voice
+41.974172335	| G:maj D:maj | C:maj(9) |
+45.899954648	C, verse, | A:min7 G:maj | C:maj(9) |
+49.805283446	| A:min7 G:maj | C:maj(9) | D:maj |
+55.647913832	B, chorus, | G:maj D:maj | C:maj(9) . . D:maj | G:maj D:maj | C:maj(9) . . D:maj |
+63.485487528	| G:maj D:maj | C:maj(9) |
+67.314648526	C, verse, | A:min7 G:maj | C:maj(9) |
+71.226507936	| A:min7 G:maj | C:maj(9) | D:maj |, voice)
+77.113038548	B, chorus, | G:maj D:maj | C:maj(9) . . D:maj | G:maj D:maj | C:maj(9) . . D:maj |, (guitar
+84.946054421	| G:maj D:maj | C:maj(9) |
+88.81632653	C, verse, | A:min7 G:maj | C:maj(9) |
+92.694058956	| A:min7 G:maj | C:maj(9) | D:maj |, guitar)
+98.601632653	D, bridge, | E:min | C:maj | E:min | C:maj . D:maj D:7 |, (voice
+106.433356009	| G:maj . D:maj(9) D:7 | C:maj7 . D:maj(9) D:7 | G:maj . D:maj(9) D:7 | C:maj7 . D:maj(9) D:7 |
+114.176734693	| A:min7 | E:min7 |
+118.058571428	| C:maj6 | D:maj |
+122.03526077	B, chorus, | G:maj D:maj | C:maj(9) . . D:maj | G:maj D:maj | C:maj(9) . . D:maj |
+129.834965986	| G:maj D:maj | C:maj(9) |
+133.745918367	C, verse, | A:min7 G:maj | C:maj(9) |
+137.608321995	| A:min7 G:maj | C:maj(9) | D:maj |
+143.493741496	B, chorus, | G:maj D:maj | C:maj(9) . . D:maj | G:maj D:maj | C:maj(9) . . D:maj |
+151.347664399	| G:maj D:maj | C:maj(9) | G:maj |, voice)
+160.542766439	silence
+162.56	end

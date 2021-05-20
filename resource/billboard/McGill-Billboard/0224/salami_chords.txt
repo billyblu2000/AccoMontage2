@@ -1,0 +1,31 @@
+# title: Galveston
+# artist: Glen Campbell
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.417959183	A, intro, | F:maj | F:maj | F:maj | F:maj . Bb:maj C:maj |, (guitar)
+9.869047619	B, verse, | F:maj | (2/4) Bb:maj C:maj | F:maj |, (voice
+14.886825396	| F:maj | (2/4) F:7 | Bb:maj . . Bb:maj/7 | G:min C:7 |
+21.949886621	| F:maj | Bb:maj . . Bb:maj/7 | G:min C:7 |
+27.987981859	| D:min | Bb:maj | C:11 | F:maj . Bb:maj C:maj |
+36.051904761	B, verse, | F:maj | (2/4) Bb:maj C:maj | F:maj |
+41.135668934	| F:maj | (2/4) F:7 | Bb:maj . . Bb:maj/7 | G:min C:7 |
+48.230748299	| F:maj | Bb:maj . . Bb:maj/7 | G:min C:7 |
+54.246371882	| D:min | Bb:maj | C:11 | F:maj . Bb:maj C:maj |
+62.373265306	C, bridge, | Ab:maj | Ab:maj Bb:maj | Ab:maj | Ab:maj Bb:maj |
+70.538117913	| C:min | C:min | Ab:maj | F:min D:hdim7 |
+78.612222222	| Eb:maj | Bb:maj | F:min | F:min . Bb:maj C:maj |
+86.726938775	B, verse, | F:maj | (2/4) Bb:maj C:maj | F:maj |
+91.722539682	| F:maj | (2/4) F:7 | Bb:maj . . Bb:maj/7 | G:min C:7 |
+98.870589569	| F:maj | Bb:maj . . Bb:maj/7 | G:min C:7 |
+104.982539682	| D:min D:min/b7 | Bb:maj Bb:maj/7 | G:min | G:min | D:maj | C:maj6 |, voice)
+117.190249433	A', trans, | F:maj | F:maj | F:maj | F:maj |
+125.189841269	B, instrumental, | F:maj | (2/4) Bb:maj C:maj | F:maj |
+130.181269841	| F:maj | (2/4) F:7 | Bb:maj . . Bb:maj/7 | G:min C:7 |
+137.369954648	| F:maj | Bb:maj . . Bb:maj/7 | G:min C:7 |
+143.410680272	| D:min | Bb:maj | C:11 | F:maj . Bb:maj C:maj |
+151.405464852	B, fadeout, | F:maj | (2/4) Bb:maj C:maj | F:maj |
+156.510430839	| F:maj | (2/4) F:7 |
+158.336870748	silence
+162.03755102	end

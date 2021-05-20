@@ -1,0 +1,26 @@
+# title: It Keeps Right On A-Hurtin'
+# artist: Johnny Tillotson
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.208979591	A', intro, | E:7 | E:7 | A:maj D:maj | A:maj E:maj |
+10.480272108	B, verse, | A:maj | A:7 | D:maj | D:maj |, (voice
+20.084149659	| A:maj | A:maj | E:7 | E:7 |
+29.498004535	| A:maj | A:7 | D:maj | D:maj |
+38.998095238	| E:7 | E:7 | A:maj D:maj | A:maj |
+48.555918367	A, chorus, | E:7 | E:7 | D:maj | D:maj |
+57.984195011	| E:7 | E:7 | D:maj | A:maj |
+67.443605442	| A:maj | A:7 | D:maj | D:maj |
+76.405736961	| E:7 | E:7 | A:maj D:maj | A:maj E:maj |
+85.689863945	B, verse, | A:maj | A:7 | D:maj | D:maj |
+95.066507936	| A:maj | A:maj | E:7 | E:7 |
+104.409591836	| A:maj | A:7 | D:maj | D:maj |
+113.873174603	| E:7 | E:7 | A:maj D:maj | A:maj |
+123.266077097	A, chorus, | E:7 | E:7 | D:maj | D:maj |
+132.606213151	| E:7 | E:7 | D:maj | A:maj |
+141.976916099	| A:maj | A:7 | D:maj | D:maj |
+150.929750566	| E:7 | E:7 | A:maj D:maj | D:maj . A:maj/3 B:min7 |, voice)
+160.776530612	| A:maj |
+166.696054421	silence
+169.613061224	end

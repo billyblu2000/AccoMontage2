@@ -1,0 +1,38 @@
+# title: Shadow Dancing
+# artist: Andy Gibb
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.441179138	A, intro, | (2/4) F:maj Eb:maj | D:maj(9) | (2/4) Eb:maj D:maj | C:min7 | (2/4) C:min7 Bb:maj/3 |, (strings
+8.874149659	| Eb:maj | F:maj |, strings)
+13.589659863	| G:min7 | G:min7 | G:min7 | G:min7 |, (guitar)
+23.135238095	B, verse, | G:min7 | F:maj | Eb:maj7 | D:7 |, (voice
+32.581746031	| Eb:maj7 | F:maj | G:min7 | G:min7 |
+42.081224489	C, pre-chorus, | C:min7 F:7 | Bb:maj7 G:min7 | C:min7 D:7 | G:min |
+51.690861678	| C:min7 F:7 | Bb:maj7 G:min7 | C:min7 | D:7 |
+61.1461678	D, chorus, | G:min7 | G:min7 | G:min7 | G:min7 |
+70.615759637	| G:min7 | G:min7 | G:min7 | (2/4) G:min7 |, voice)
+78.684648526	A, interlude, | (2/4) F:maj Eb:maj | D:maj(9) | (2/4) Eb:maj D:maj | C:min7 | (2/4) C:min7 Bb:maj/3 |, (strings
+87.192630385	| Eb:maj | F:maj |, strings)
+91.944829931	| G:min7 | G:min7 | G:min7 | G:min7 |, (guitar)
+101.440113378	B, verse, | G:min7 | F:maj | Eb:maj7 | D:7 |, (voice
+110.855759637	| Eb:maj7 | F:maj | G:min7 | G:min7 |
+120.34956916	C, pre-chorus, | C:min7 F:7 | Bb:maj7 G:min7 | C:min7 D:7 | G:min |
+129.905668934	| C:min7 F:7 | Bb:maj7 G:min7 | C:min7 | D:7 |
+139.433106575	D, chorus, | G:min7 | G:min7 | G:min7 | G:min7 |
+148.933922902	| G:min7 | G:min7 | G:min7 | G:min7 |
+158.321904761	C, pre-chorus, | C:min7 F:7 | Bb:maj7 G:min7 | C:min7 D:7 | G:min |
+167.733786848	| C:min7 F:7 | Bb:maj7 G:min7 | C:min7 | D:7 | D:7 |
+179.407029478	D', chorus, | G:1 | G:1 | G:1 | G:1 |
+188.809591836	| G:1 | G:1 | G:1 | G:1 |
+198.159909297	D, chorus, | G:min7 | G:min7 | G:min7 | G:min7 |
+207.5092517	| G:min7 | G:min7 | G:min7 | G:min7 |
+216.855374149	D, chorus, | G:min7 | G:min7 | G:min7 | G:min7 |
+226.215238095	| G:min7 | G:min7 | G:min7 | G:min7 |
+235.501768707	D, chorus, | G:min7 | G:min7 | G:min7 | G:min7 |
+244.837097505	| G:min7 | G:min7 | G:min7 | G:min7 |
+254.235283446	D, fadeout, | G:min7 | G:min7 | G:min7 | G:min7 |
+263.641564625	| G:min7 | G:min7 | G:min7 | G:min7 |, voice)
+271.928888888	silence
+273.711020408	end

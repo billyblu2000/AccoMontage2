@@ -1,0 +1,35 @@
+# title: Me Myself And I
+# artist: De La Soul
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.208979591	A, intro, | N |
+2.29877551	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |, (synthesizer)
+10.723219954	B, verse, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+19.072789115	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |
+27.508367346	C, chorus, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+35.851609977	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |
+44.25723356	B, verse, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+52.625079365	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |
+61.059387755	C, chorus, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+69.396825396	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |, voice)
+77.763628117	C, solo, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |, (synthesizer
+86.179342403	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |, synthesizer)
+94.539433106	B', verse, | N | N | N | N |, (voice
+102.9430839	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+111.316417233	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |
+119.740181405	C, chorus, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+128.092154195	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |
+136.486893424	B, verse, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+144.877460317	| N | N | N | N |
+153.242517006	B, verse, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+161.620090702	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |
+170.022630385	C, chorus, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+178.329024943	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |, voice)
+186.763582766	C, instrumental, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+195.14786848	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |
+203.468866213	fadeout, | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 |
+211.90893424	| A:min7/b7 A:min7/13 E:aug(b7) . | E:aug(b7) A:min9 | A:min7/b7 A:min7/13 E:aug(b7) . | N |
+218.731972789	silence
+221.44	end

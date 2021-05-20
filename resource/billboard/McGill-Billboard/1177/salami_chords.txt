@@ -1,0 +1,47 @@
+# title: Against The Wind
+# artist: Bob Seger
+# metre: 4/4
+# tonic: G
+
+0.000000000	silence
+0.301859410	A, intro, | G:maj | G:maj | G:maj | G:maj |, (piano)
+9.386825396	B, verse, | G:maj | G:maj | B:min | B:min |, (voice
+18.207006802	| C:maj | G:maj | D:maj | C:maj |
+27.063832199	| G:maj | G:maj | B:min | B:min |
+35.949659863	| C:maj | G:maj | C:maj | D:maj | D:maj |
+46.925056689	C, chorus, | E:min D:maj | G:maj | E:min C:maj | G:maj |
+55.716349206	| E:min D:maj | C:maj | C:maj | D:maj |
+64.546870748	| G:maj | B:min | C:maj | G:maj |
+73.252040816	| C:maj B:min | A:min C:maj | ->, voice)
+77.632698412	A, trans, | G:maj | G:maj | G:maj | G:maj |, (piano)
+86.367278911	B, verse, | G:maj | G:maj | B:min | B:min |, (voice
+95.237460317	| C:maj | G:maj | D:maj | C:maj |
+104.071383219	| G:maj | G:maj | B:min | B:min |
+112.908888888	| C:maj | G:maj | C:maj | D:maj | D:maj |
+123.883219954	C, chorus, | E:min D:maj | G:maj | E:min C:maj | G:maj |
+132.701564625	| E:min D:maj | C:maj | C:maj | D:maj |
+141.439206349	| G:maj | B:min | C:maj | G:maj |
+150.198140589	| C:maj B:min | A:min C:maj | ->, voice)
+154.639909297	A, trans, | G:maj | G:maj | G:maj | G:maj |, (piano
+163.262199546	B, solo, | G:maj | G:maj | B:min | B:min |
+172.049569160	| C:maj | G:maj | D:maj | C:maj |
+180.790566893	| G:maj | G:maj | B:min | B:min |
+189.628253968	| C:maj | G:maj | C:maj | D:maj | D:maj |, piano)
+200.563469387	C, chorus, | E:min D:maj | G:maj | E:min C:maj | G:maj |, (voice
+209.260544217	| E:min D:maj | C:maj | C:maj | D:maj |
+218.014897959	| G:maj | B:min | C:maj | G:maj |
+226.714036281	| C:maj B:min | A:min C:maj |, voice)
+231.155147392	A, trans, | G:maj | G:maj |, (piano)
+235.417029478	| C:maj B:min | D:maj | D:maj |, (voice
+241.927959183	D, outro, | C:maj | C:maj | G:maj | G:maj |
+250.709546485	| C:maj | C:maj | G:maj | G:maj |
+259.294580498	| C:maj | C:maj | G:maj | G:maj |
+267.925510204	| C:maj | C:maj | G:maj | G:maj |
+276.480929705	| C:maj | C:maj | G:maj | G:maj |
+285.181882086	| C:maj | C:maj | G:maj | G:maj |
+293.776938775	| C:maj | C:maj | G:maj | G:maj |
+302.377142857	fadeout, | C:maj | C:maj | G:maj | G:maj |
+311.008752834	| C:maj | C:maj | G:maj | G:maj |
+319.703015873	| C:maj | C:maj | G:maj | G:maj |, voice)
+328.864217687	silence
+333.871020408	end

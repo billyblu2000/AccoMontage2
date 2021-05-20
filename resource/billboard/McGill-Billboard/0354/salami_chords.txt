@@ -1,0 +1,52 @@
+# title: Philadelphia Freedom
+# artist: Elton John
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.30185941	A, intro, | Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+8.005691609	| Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+15.681337868	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+23.453764172	| C:7 | Db:maj Ab:maj/3 | Bb:maj | F:maj |
+31.06585034	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+38.716417233	| C:7 | Db:maj Ab:maj/3 | Bb:maj | Bb:maj |
+46.381043083	C, pre-chorus, | Eb:maj | Eb:sus4 Eb:maj | Bb:maj | Bb:maj |
+54.015623582	| Eb:maj | Eb:sus4 Eb:maj | Bb:maj | Bb:maj |
+61.570975056	| Ab:7 | G:7 | C:min9 | Ab:7 |
+69.21340136	| G:7 | Gb:7 | Eb:maj | Eb:maj |
+76.797074829	D, chorus, | Bb:maj | Bb:maj | Eb:maj | Bb:maj/3 |
+84.380498866	| C:min7 | Bb:maj/3 Eb:maj | F:maj | D:sus4(b7) D:7 |
+92.000839002	| G:min | C:min7 | Bb:maj/3 | Eb:sus4 | Eb:maj |
+101.47292517	| C:min7 Bb:maj/3 Eb:maj C:maj/3 | F:7 |
+105.31909297	| Eb:maj . D:min C:min7 | C:min7 | C:min7 |, voice)
+111.061768707	A, trans, | Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+118.712267573	| Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+126.447324263	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+134.142312925	| C:7 | Db:maj Ab:maj/3 | Bb:maj | Bb:maj |
+141.829115646	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+149.491383219	| C:7 | Db:maj Ab:maj/3 | Bb:maj | Bb:maj |
+157.110068027	C, pre-chorus, | Eb:maj | Eb:sus4 Eb:maj | Bb:maj | Bb:maj |
+164.762448979	| Eb:maj | Eb:sus4 Eb:maj | Bb:maj | Bb:maj |
+172.350136054	| Ab:7 | G:7 | C:min9 | Ab:7 |
+179.909954648	| G:7 | Gb:7 | Eb:maj | Eb:maj |
+187.49371882	D, chorus, | Bb:maj | Bb:maj | Eb:maj | Bb:maj/3 |
+195.152380952	| C:min7 | Bb:maj/3 Eb:maj | F:maj | D:sus4(b7) D:7 |
+202.766689342	| G:min | C:min7 | Bb:maj/3 | Eb:sus4 | Eb:maj |
+212.227823129	| C:min7 Bb:maj/3 Eb:maj C:maj/3 | F:7 |
+216.12478458	| Eb:maj . D:min C:min7 | C:min7 | C:min7 |, voice)
+221.847414965	A, trans, | Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+229.434965986	| Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+237.10956916	D', chorus, | Bb:maj | Bb:maj | Eb:maj | Bb:maj/3 |, (voice
+244.739682539	| C:min7 | Bb:maj/3 Eb:maj | F:maj | D:sus4(b7) D:7 |
+252.320136054	| G:min | C:min7 | Bb:maj/3 | Eb:sus4 | Eb:maj |
+261.757210884	| C:min7 Bb:maj/3 Eb:maj C:maj/3 | F:7 |
+265.579274376	| Eb:maj . D:min C:min7 | C:min7 | C:min7 |
+271.331950113	| Eb:maj . D:min C:min7 | C:min7 | C:min7 |
+277.06015873	| Eb:maj . D:min C:min7 | C:min7 | C:min7 |
+282.788321995	E, outro, | Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+290.448639455	| Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+298.083174603	| Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+305.658888888	fadeout, | Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |
+313.234444444	| Bb:maj | Bb:maj | Eb:maj . Db:maj Ab:maj/3 | Bb:maj |, voice)
+318.563174603	silence
+323.352312925	end

@@ -1,0 +1,52 @@
+# title: Pressure
+# artist: Billy Joel
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+9.2879818e-2	A, intro, | G:5 | G:5 | D:5 | C:maj/9 D:maj C:1 D:1 |, (synthesizer
+6.963469387	| G:5 | G:5 | D:5 | C:maj/9 D:maj C:1 D:1 |
+13.500022675	B, chorus, | D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |
+20.093650793	| D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |, synthesizer)
+26.656507936	A, verse, | G:5 | G:5 | D:5 | C:maj/9 D:maj C:maj D:maj |, (voice
+33.25063492	| G:5 | G:5 | D:5 | C:maj/9 D:maj C:maj D:maj |
+39.773265306	C, pre-chorus, | G:min | C:maj C#:dim | D:min | D:min C:maj |
+46.288730158	| Bb:maj | F:maj/3 | G:7 | A:7/5 A:7/3 |
+52.66600907	| D:min C:maj | Bb:maj | G:min | A:sus4/5 A:maj/3 |, voice)
+58.93446712	B, chorus, | D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |, (synthesizer
+65.457301587	| D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |, synthesizer)
+72.035306122	A, verse, | G:5 | G:5 | D:5 | C:maj/9 D:maj C:maj D:maj |, (voice
+78.513514739	| G:5 | G:5 | D:5 | C:maj/9 D:maj C:maj D:maj |
+84.986213151	C, pre-chorus, | G:min | C:maj C#:dim | D:min | D:min C:maj |
+91.48664399	| Bb:maj | F:maj/3 | G:7 | A:7/5 A:7/3 |
+97.92941043	| D:min C:maj | Bb:maj | G:min | A:sus4/5 A:maj/3 |, voice)
+104.188435374	B, chorus, | D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |, (synthesizer
+110.631927437	| D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |, synthesizer)
+117.086621315	D, bridge, | G:maj(9) | G:maj(9) | D:maj7/3 | D:maj7/3 |, (voice
+123.639750566	| G:maj(9) | G:maj(9) | D:maj7/3 | D:maj7/3 |
+130.12526077	| F:maj | F:maj | E:min | E:min |
+136.606417233	| Eb:aug | Eb:aug | D:maj | D:maj |, voice)
+143.028662131	A, interlude, | G:5 | G:5 | D:5 | C:maj/9 D:maj C:1 D:1 |, (synthesizer
+149.472970521	| G:5 | G:5 | D:5 | C:maj/9 D:maj C:1 D:1 |, synthesizer)
+155.871995464	A, verse, | G:5 | G:5 | D:5 | C:maj/9 D:maj C:maj D:maj |, (voice
+162.366848072	| G:5 | G:5 | D:5 | C:maj/9 D:maj C:maj D:maj |
+168.707278911	C, pre-chorus, | G:min | C:maj C#:dim | D:min | D:min C:maj |
+175.142108843	| Bb:maj | F:maj/3 | G:7 | A:7/5 A:7/3 |
+181.399546485	| D:min C:maj | Bb:maj | G:min | A:sus4/5 A:maj/3 |, voice)
+187.603900226	B, chorus, | D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |, (synthesizer
+194.031927437	| D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |
+200.395941043	D, bridge, | G:maj(9) | G:maj(9) | D:maj7/3 | D:maj7/3 |
+206.918163265	| G:maj(9) | G:maj(9) | D:maj7/3 | D:maj7/3 |, synthesizer)
+213.361269841	| F:maj | F:maj | E:min | E:min |
+219.698730158	| Eb:aug | Eb:aug | D:maj | D:maj |, voice)
+225.860498866	A', solo, | G:1 | G:1 | D:1 | D:1 |, (synthesizer
+232.278458049	| G:1 | G:1 | D:1 | D:1 |, synthesizer)
+238.56723356	C, pre-chorus, | G:min | C:maj C#:dim | D:min | D:min C:maj |, (voice
+244.870702947	| Bb:maj | F:maj/3 | G:7 | A:7/5 A:7/3 |
+251.015419501	| D:min C:maj | Bb:maj | G:min | A:sus4/5 A:maj/3 |, voice)
+257.153990929	B', chorus, | D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |, (synthesizer
+263.453446712	| D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |
+269.777823129	| D:min G:min/5 | A:7/11 D:min | B:dim/b3 G:sus4/5 | A:7/11 D:maj |
+276.09356009	| D:min |, synthesizer)
+277.919637188	silence
+280.868571428	end

@@ -1,0 +1,52 @@
+# title: Unskinny Bop
+# artist: Poison
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.255419501	A, intro, | N | N |, (drums)
+3.018594104	| Ab:1 | Ab:1 | Ab:1 | Ab:1 |, (bass
+8.215351473	| Ab:1 | Ab:1 | Ab:1 | Ab:1 |, bass)
+13.397913832	B', instrumental, | Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |, (guitar
+18.642947845	| Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |, guitar)
+23.846303854	B, verse, | Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |, (voice
+29.02494331	| Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |
+34.242312925	| Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |
+39.450702947	| Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |
+44.628752834	C, pre-chorus, | Eb:maj | Eb:maj Gb:1 | Eb:maj | Eb:maj Gb:1 |
+49.830022675	| Eb:maj | Eb:maj Gb:1 | Eb:maj | Eb:maj Gb:1 |
+55.054512471	D, chorus, | Ab:maj | Ab:maj | Gb:maj | Db:maj |
+60.232562358	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+65.437052154	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+70.63510204	| Eb:maj | Eb:maj | N | N |
+75.836371882	B, verse, | Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |
+81.037641723	| Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |
+86.238911564	| Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj/5 |
+91.486621315	| Ab:maj | Ab:maj | Ab:maj | Gb:maj/9 Db:maj |
+96.641451247	C, pre-chorus, | Eb:maj | Eb:maj Gb:1 | Eb:maj | Eb:maj Gb:1 |
+101.842721088	| Eb:maj | Eb:maj Gb:1 | Eb:maj | Eb:maj Gb:1 |
+107.067210884	D, chorus, | Ab:maj | Ab:maj | Gb:maj | Db:maj |
+112.255056689	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+117.469750566	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+122.671020408	| Eb:maj | Eb:maj | Gb:5 | Gb:5 G:5 |
+127.872290249	E, bridge, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+133.07356009	| Db:maj | Db:maj | Ab:maj Db:maj/5 | Ab:maj |
+138.274829931	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+143.429659863	| Eb:maj | Eb:maj | N | N |, voice)
+148.60770975	D, solo, | Ab:maj | Ab:maj | Gb:maj | Db:maj |, (guitar
+153.855419501	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+159.056689342	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+164.257959183	| Eb:maj | Eb:maj | Gb:5 | Gb:5 G:5 |, guitar)
+169.459229024	F, interlude, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |, (voice
+174.660498866	| Ab:maj | Ab:maj | Db:maj | Db:maj |, voice)
+179.861768707	| Gb:maj | Gb:maj |, (guitar)
+182.439183673	D, chorus, | Ab:maj | Ab:maj | Gb:maj | Db:maj |, (voice
+187.663673469	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+192.841723356	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+198.042993197	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+203.267482993	D, chorus, | Ab:maj | Ab:maj | Gb:maj | Db:maj |
+208.468752834	fadeout, | Ab:maj | Ab:maj | Gb:maj | Db:maj |
+213.670022675	| Ab:maj | Ab:maj | Gb:maj | Db:maj |
+218.871292517	| Ab:maj | Ab:maj | Gb:maj | Db:maj | Ab:maj |, voice)
+225.047800453	silence
+229.459591836	end

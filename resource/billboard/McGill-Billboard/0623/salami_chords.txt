@@ -1,0 +1,22 @@
+# title: It's Only Make Believe
+# artist: Glen Campbell
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.441179138	A, intro, | C:maj | A:min | F:maj | G:maj |, (voice)
+13.987414965	| C:maj | G:sus4 G:maj |, (strings)
+20.395419501	B, verse, | C:maj | A:min | F:maj | G:maj |, (voice
+33.345011337	| F:maj | G:maj | C:maj | F:maj |
+46.067687074	| G:maj | F:maj | C:maj F:maj | C:maj Ab:7 |
+# tonic: Db
+58.70600907	B, verse, | Db:maj | Bb:min | Gb:maj | Ab:maj |
+71.515238095	| Gb:maj | Ab:maj | Db:maj | Gb:maj |
+84.206802721	| Ab:maj | Gb:maj | Db:maj Gb:maj | Db:maj A:7 |
+# tonic: D
+96.87723356	B', verse, | D:maj | B:min | G:maj | A:maj |
+109.636190476	| G:maj | A:maj | D:maj | G:maj |
+122.369433106	| A:maj | G:maj | D:maj G:maj | D:maj G:maj |, voice)
+135.008911564	| D:maj | D:maj |, (strings)
+144.404897959	silence
+147.382857142	end

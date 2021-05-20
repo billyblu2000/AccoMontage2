@@ -1,0 +1,37 @@
+# title: See See Rider
+# artist: LaVern Baker
+# metre: 4/4
+# tonic: Db
+
+0.000000000	silence
+0.301859410	A, intro, | Db:7 | Db:7 | Gb:7 | Gb:7 |, (saxophone
+6.789319727	| Db:7 | Ab:7 | N | N |, saxophone)
+11.930770975	B, verse, | Db:7 | Db:7 | Db:7 | Db:7 |, (voice
+17.043628117	| Db:7 | Db:7 | Db:7 | Db:7 |
+22.169614512	| Gb:7/5 | Gb:7/5 | Gb:7/5 | Gb:7/5 |
+27.184285714	| Db:7 | Db:7 | Db:7 | Db:7 |
+32.231405895	| Ab:7 | Ab:7 | Gb:7 | N |
+37.404716553	| Db:7 | Gb:7 | Db:7 | Ab:7 |
+42.481020408	B, verse, | Db:7 | Db:7 | Db:7 | Db:7 |
+47.591428571	| Db:7 | Db:7 | Db:7 | Db:7 |
+52.691564625	| Gb:7/5 | Gb:7/5 | Gb:7/5 | Gb:7/5 |
+57.745283446	| Db:7 | Db:7 | Db:7 | Db:7 |
+62.828662131	| Ab:7 | Ab:7 | Gb:7 | N |
+67.998072562	| Db:7 | Gb:7 | Db:7 | Ab:7 |, voice)
+73.108571428	B', solo, | Db:maj Gb:maj | Db:maj | Db:maj Gb:maj | Db:maj |, (saxophone
+78.200113378	| Db:maj Gb:maj | Db:maj | Db:maj Gb:maj | Db:maj |
+83.285714285	| Gb:7 Gb:maj6 | Gb:7 | Gb:7 Gb:maj6 | Gb:7 |
+88.397823129	| Db:maj Gb:maj | Db:maj | Db:maj Gb:maj | Db:maj |
+93.497732426	| Ab:7 | Ab:7 | Gb:7 | Gb:7 |
+98.637641723	| Db:maj Gb:maj | Db:maj | Db:maj Gb:maj | Db:maj |, saxophone)
+103.757029478	B, verse, | Db:7 | Db:7 | Db:7 | Db:7 |, (voice
+108.913696145	| Db:7 | Db:7 | Db:7 | Db:7 |
+114.049433106	| Gb:7/5 | Gb:7/5 | Gb:7/5 | Gb:7/5 |
+119.137029478	| Db:7 | Db:7 | Db:7 | Db:7 |
+124.267596371	| Ab:7 | Ab:7 | Gb:7 | N |
+129.437573696	| Db:7 | Gb:7 | Db:7 | Ab:7 |
+134.592403628	B, verse, | Db:7 | Db:7 | Db:7 | Db:7 |
+139.726122448	fadeout, | Db:7 | Db:7 | Db:7 | Db:7 |
+144.800294784	| Gb:7/5 |, voice)
+147.712290249	silence
+148.640408163	end

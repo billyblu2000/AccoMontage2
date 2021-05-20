@@ -1,0 +1,28 @@
+# title: She Thinks I Still Care
+# artist: Elvis Presley
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.232199546	A, intro, | Bb:maj . . G:min | F:7 | Bb:maj | Bb:maj |, (guitar)
+12.555759637	B, verse, | Bb:maj | Eb:maj | Bb:maj | Bb:maj |, (voice
+24.21015873	| Bb:maj | F:7 | Bb:maj | Bb:maj |
+35.779433106	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+47.351247165	| Bb:maj | F:7 | Bb:maj | Bb:maj |
+58.922607709	B', verse, | Bb:maj | Eb:maj | Bb:maj | Bb:maj |
+70.468299319	| Bb:maj | F:7 | Bb:maj | Bb:maj |
+82.023786848	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+93.528253968	| Bb:maj | F:7 | Bb:maj | Bb:maj Bb:7 |
+105.18095238	C, chorus, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+116.704353741	| C:7 | C:7 | F:7 | F:7 |
+128.216870748	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+139.726145124	| C:maj | C:7 | F:7 | F:7 |
+151.162471655	B'', verse, | Bb:maj | Eb:maj | Bb:maj | Bb:maj |
+162.770272108	| Bb:maj | F:7 | Bb:maj | Bb:maj |
+174.31585034	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+185.752312925	| Bb:maj | F:7 | Bb:maj | Bb:7 |
+197.396462585	D, outro, | Bb:maj | F:7 | Bb:maj | Bb:7 |
+208.853151927	fadeout, | Bb:maj | F:7 | Bb:maj | Bb:7 |
+220.235192743	| Bb:maj | F:7 | Bb:maj | Bb:7 |, voice)
+229.197777777	silence
+232.211519274	end

@@ -1,0 +1,29 @@
+# title: Carrie-Anne
+# artist: The Hollies
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.325079365	A, intro, | C:maj | G:7 | C:maj | G:7 |, (voice
+8.397777777	| C:maj | G:7 | C:maj | G:7 |
+16.288571428	B, verse, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+24.181201814	| C:maj F:maj | C:maj F:maj | C:maj F:maj | G:maj |
+32.102471655	C, chorus, | C:maj F:maj | G:7 | C:maj F:maj | G:7 |
+40.16079365	| C:maj F:maj | G:7 | C:maj F:maj | G:7 |
+48.225124716	B, verse, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+56.200884353	| C:maj F:maj | C:maj F:maj | C:maj F:maj | G:maj |
+64.214399092	C, chorus, | C:maj F:maj | G:7 | C:maj F:maj | G:7 |
+72.347460317	| C:maj F:maj | G:7 | C:maj F:maj | G:7 |
+80.448390022	D, bridge, | F:maj | F:maj | Bb:maj | F:maj |
+88.545056689	| F:maj | F:maj | Bb:maj | G:maj | G:maj |, voice)
+98.517482993	B, solo, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |, (steel pans
+106.507256235	| C:maj F:maj | C:maj F:maj | C:maj F:maj | G:maj |, steel pans)
+114.587777777	C, chorus, | C:maj F:maj | G:7 | C:maj F:maj | G:7 |, (voice
+122.811609977	| C:maj F:maj | G:7 | C:maj F:maj | G:7 |
+130.9830839	B, verse, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+138.996780045	| C:maj F:maj | C:maj F:maj | C:maj F:maj | G:maj |
+146.962244897	C, chorus, | C:maj F:maj | G:7 | C:maj F:maj | G:7 |
+155.035124716	| C:maj F:maj | G:7 | C:maj F:maj | G:7 |
+163.107505668	E, outro, fadeout, | F:maj | C:maj/3 | G:7/5 | C:maj |, voice)
+172.455941043	silence
+175.383673469	end

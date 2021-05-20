@@ -1,0 +1,54 @@
+# title: Situation
+# artist: Yaz
+# metre: 4/4
+# tonic: C#
+
+0.0	silence
+0.232199546	A, intro, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, (synthesizer
+8.409478458	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |
+16.448163265	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |
+24.544716553	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |
+32.620294784	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, synthesizer)
+40.72430839	B, verse, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 |, (voice
+48.814081632	| F#:1 | G#:1 |
+52.918979591	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, voice)
+60.951882086	A, trans, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, (synthesizer)
+69.055668934	B, verse, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 |, (voice
+77.15063492	| F#:1 | G#:1 |
+81.195827664	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, voice)
+89.322199546	A, solo, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, (synthesizer
+97.38956916	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |
+105.508571428	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, synthesizer)
+113.530816326	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, (voice
+121.650612244	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, voice)
+129.733786848	A, trans, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, (synthesizer)
+137.813061224	B, verse, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 |, (voice
+145.907823129	| F#:1 | G#:1 |
+149.972131519	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |
+158.060861678	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, voice)
+166.072675736	A', trans, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, (synthesizer
+174.182244897	| N |
+176.304535147	D, interlude, | C#:5 B:5 | C#:5 B:5 | C#:5 B:5 | C#:5 B:5 |
+184.387641723	| C#:5 B:5 | C#:5 B:5 | C#:5 B:5 | C#:5 B:5 |
+192.47170068	| C#:5 B:5 | C#:5 B:5 | C#:5 B:5 | C#:5 B:5 |
+200.503673469	| C#:5 B:5 | C#:5 B:5 | C#:5 B:5 | C#:5 B:5 |
+208.578344671	B, solo, | C#:5 B:5 | C#:5 B:5 | C#:5 B:5 | C#:5 B:5 |
+216.697482993	| F#:1 | G#:1 |
+220.782879818	C, solo, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, synthesizer)
+228.841746031	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, (voice)
+236.896825396	A, solo, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, (synthesizer
+244.965941043	| N | N | C#:1 B:1 | C#:1 B:1 |
+253.065192743	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |
+261.174263038	B, solo, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 |
+269.21430839	| F#:1 | G#:1 |, synthesizer)
+273.278344671	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, (voice)
+281.372789115	A, solo, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, (synthesizer
+289.400272108	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |
+297.488662131	| C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 |, synthesizer)
+305.597755102	B, verse, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 |, (voice
+313.702562358	| F#:1 | G#:1 |
+317.738004535	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |
+325.821451247	C, chorus, | C#:1 F#:1 | C#:1 F#:1 | C#:1 F#:1 | D#:maj G#:maj |, voice)
+333.874648526	A', coda, | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 B:1 | C#:1 |, (synthesizer)
+343.121269841	silence
+346.827755102	end

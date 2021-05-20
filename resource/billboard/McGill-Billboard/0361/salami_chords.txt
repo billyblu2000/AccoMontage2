@@ -1,0 +1,32 @@
+# title: This Song
+# artist: George Harrison
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.232199546	A, intro, | E:maj | x10, (piano
+19.098344671	| E:maj A:maj | A:maj . . B:sus4(b7,9) |, piano)
+22.72154195	B, verse, | E:maj | D:maj A:maj | B:7 | B:7 . . F#:min7 | A:maj | D:maj | F#:min7 | C#:min7 |, (voice
+37.233945578	| F#:7 | F#:7 | F#:7 . . B:sus4(b7,9) |
+42.788548752	C, chorus, | E:maj | D:maj | G#:min7 | C#:7 | F#:min7 | F#:min7 |
+53.733106575	| E:maj | E:maj | E:maj A:maj | A:maj . . B:sus4(b7,9) |
+60.969591836	B, verse, | E:maj | D:maj A:maj | B:7 | B:7 . . F#:min7 | A:maj | D:maj | F#:min7 | C#:min7 |
+75.53154195	| F#:7 | F#:7 | F#:7 . . B:sus4(b7,9) |
+81.027528344	C, chorus, | E:maj | D:maj | G#:min7 | C#:7 | F#:min7 | F#:min7 |
+91.917006802	| E:maj | E:maj | E:maj A:maj | A:maj . . B:sus4(b7,9) |, voice)
+99.190907029	B, solo, | E:maj | D:maj A:maj | B:7 | B:7 . . F#:min7 | A:maj | D:maj | F#:min7 | C#:min7 |, (saxophone
+113.799047619	| F#:7 | F#:7 | F#:7 . . B:sus4(b7,9) |
+119.310907029	C', solo, | E:maj | D:maj | G#:min7 | C#:7 | F#:min7 | F#:min7 |
+130.163990929	A, solo, | E:maj | x10
+148.280612244	| E:maj A:maj | A:maj . . B:sus4(b7,9) |, saxophone)
+151.915396825	B, verse, | E:maj | D:maj A:maj | B:7 | B:7 . . F#:min7 | A:maj | D:maj | F#:min7 | C#:min7 |, (voice
+166.394580498	| F#:7 | F#:7 | F#:7 . . B:sus4(b7,9) |
+171.972789115	C', chorus, | E:maj | D:maj | G#:min7 | C#:7 | F#:min7 | F#:min7 |, voice)
+182.904036281	A', instrumental, | E:maj | x6
+193.701972789	| E:maj A:maj | A:maj . . B:sus4(b7,9) |
+197.281020408	B, solo, | E:maj | D:maj A:maj | B:7 | B:7 . . F#:min7 | A:maj | D:maj | F#:min7 | C#:min7 |, (guitar
+211.741814058	| F#:7 | F#:7 | F#:7 . . B:sus4(b7,9) |, guitar)
+217.220544217	C', chorus, | E:maj | D:maj | G#:min7 | C#:7 | F#:min7 | F#:min7 |, (voice)
+228.069160997	D, outro, fadeout, | E:maj | x13
+250.609342403	silence
+254.115963718	end

@@ -1,0 +1,35 @@
+# title: Tumbling Dice
+# artist: The Rolling Stones
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.276780045	A, intro, | E:maj |, (guitar
+2.715827664	| B:maj | B:maj | B:maj | B:maj |, guitar)
+11.950430839	B, verse, | B:maj | B:maj | B:maj | B:maj . B:maj/3 B:maj/11 |, (voice
+20.446031746	| F#:maj B:maj | F#:maj B:maj | E:maj | F#:maj |
+29.135238095	B, verse, | B:maj | B:maj | B:maj | B:maj |
+37.815328798	| F#:maj B:maj | F#:maj B:maj | E:maj | F#:maj |
+46.496439909	B, verse, | B:maj | B:maj | B:maj | B:maj . B:maj/3 B:maj/11 |
+55.220272108	| F#:maj B:maj | F#:maj B:maj | E:maj | B:maj |
+63.855600907	| B:maj | B:maj |
+68.154489795	B, verse, | B:maj | B:maj | B:maj | B:maj |
+76.842358276	| F#:maj B:maj | F#:maj B:maj | E:maj | F#:maj |
+85.40340136	B, verse, | B:maj | B:maj | B:maj | B:maj |
+94.021791383	| F#:maj B:maj | F#:maj B:maj | E:maj | B:maj | E:maj | B:maj |
+106.991836734	| B:maj | B:maj |, voice)
+111.276780045	B, solo, | B:maj | B:maj | B:maj | B:maj |, (guitar
+119.967981859	| F#:maj B:maj | F#:maj B:maj | E:maj | F#:maj |, guitar)
+128.501043083	B, verse, | B:maj | B:maj | B:maj | B:maj |, (voice
+137.007256235	| F#:maj B:maj | F#:maj B:maj | E:maj | B:maj | E:maj | B:maj |
+149.885464852	C, outro, | E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |
+158.800521541	| E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |
+167.237074829	| E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |
+175.82877551	| E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |
+184.325147392	| E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |
+193.200748299	| E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |
+201.500884353	| E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |, fadeout
+210.040907029	| E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |
+218.472380952	| E:maj | B:maj F#:maj | E:maj | B:maj F#:maj |, voice)
+223.654603174	silence
+227.572743764	end

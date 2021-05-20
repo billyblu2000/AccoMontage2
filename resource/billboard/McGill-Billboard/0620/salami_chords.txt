@@ -1,0 +1,36 @@
+# title: Twisting the Night Away
+# artist: Rod Stewart
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.266802721	A, intro, fade in, | D:maj | x7, (electric guitar
+13.570861678	B, verse, | D:maj | D:maj | B:min | B:min |, (voice, electric guitar)
+20.712199546	| G:maj | G:maj | A:maj | A:maj |
+27.836394557	B, verse, | D:maj | D:maj | B:min | B:min |
+34.914376417	| G:maj | G:maj | A:maj | D:maj |
+41.933446712	B, verse, | D:maj | D:maj | B:min | B:min |
+49.033673469	| G:maj | G:maj | A:maj | A:maj |
+56.046734693	B, verse, | D:maj | D:maj | B:min | B:min |
+63.160136054	| G:maj | G:maj | A:maj | D:maj |, voice)
+70.183854875	B, solo, | D:maj | D:maj | B:min | B:min |, (electric guitar
+77.284603174	| G:maj | G:maj | A:maj | A:maj |
+84.332675736	B, | D:maj | D:maj | B:min | B:min |, (voice
+91.350272108	| G:maj | G:maj | A:maj | A:maj |
+98.288571428	B, verse, | D:maj | D:maj | B:min | B:min |
+105.305442176	| G:maj | G:maj | A:maj | A:maj |
+112.239705215	B, verse, | D:maj | D:maj | B:min | B:min |
+119.279002267	| G:maj | G:maj | A:maj | A:maj |
+126.239909297	C, chorus, | D:maj | D:maj | D:maj | D:maj |
+133.184489795	| G:maj | G:maj | A:maj | D:maj |
+140.218820861	C, chorus, | D:maj | D:maj | D:maj | D:maj |
+147.309183673	| G:maj | G:maj | A:maj | D:maj |, voice)
+154.357029478	D, bridge, | D:maj | B:min | A:maj | A:maj |, electric guitar)
+161.333015873	E, solo, | N | N |, (drums
+164.748571428	B, verse, | D:maj | D:maj | B:min | B:min |, (voice, (electric guitar
+171.832653061	| G:maj | G:maj | A:maj | A:maj |
+178.8023356	B, verse, fade out, | D:maj | D:maj | B:min | B:min |
+185.796689342	| G:maj | G:maj | A:maj | A:maj |
+192.877460317	B, verse, | D:maj |, drums), voice), electric guitar)
+194.652879818	silence
+198.542154195	end

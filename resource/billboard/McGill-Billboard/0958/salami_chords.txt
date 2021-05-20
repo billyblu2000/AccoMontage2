@@ -1,0 +1,40 @@
+# title: Miss You
+# artist: The Rolling Stones
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.60371882	A, intro, | A:min7 | A:min7 | D:min7 | D:min7 |
+10.149614512	| A:min7 | A:min7 | D:min7 | D:min7 |
+18.781201814	| A:min7 | A:min7 | D:min7 | D:min7 |
+27.51802721	A', verse, | A:min7 | A:min7 | D:min7 | D:min7 |, (voice
+36.231791383	| A:min7 | A:min7 | D:min7 | D:min7 |
+44.959342403	A', chorus, | A:min7 | A:min7 | D:min7 | D:min7 |
+53.764195011	| A:min7 | A:min7 | D:min7 | D:min7 |
+62.501315192	A', verse, | A:min7 | A:min7 | D:min7 | D:min7 |
+71.260181405	| A:min7 | A:min7 | D:min7 | D:min7 |
+79.98095238	| A:min7 | A:min7 | D:min7 | D:min7 |
+88.715782312	| A:min7 | A:min7 | D:min7 | D:min7 |
+97.506870748	A', chorus, | A:min7 | A:min7 | D:min7 | D:min7 |
+106.308367346	| A:min7 | A:min7 | D:min7 | D:min7 |
+115.052993197	B, bridge, | F:maj | E:min7 | D:min7 | D:min7 |
+123.708798185	| F:maj | E:min7 | D:min7 | E:7 |
+132.399229024	A'', interlude, | A:min7 | A:min7 | D:min7 | D:min7 |
+141.291564625	A, verse, | A:min7 | A:min7 | D:min7 | D:min7 |
+150.028594104	| A:min7 | A:min7 | D:min7 | D:min7 |
+158.855827664	| A:min7 | A:min7 | D:min7 | D:min7 |
+167.637188208	A', chorus, | A:min7 | A:min7 | D:min7 | D:min7 |
+176.276802721	| A:min7 | A:min7 | D:min7 | D:min7 |, voice)
+185.066190476	A', solo, | A:min7 | A:min7 | D:min7 | D:min7 |, (saxophone
+193.851519274	| A:min7 | A:min7 | D:min7 | D:min7 |, saxophone)
+202.644535147	A, verse, | A:min7 | A:min7 | D:min7 | D:min7 |, (voice
+211.355555555	| A:min7 | A:min7 | D:min7 | D:min7 |
+220.121632653	| A:min7 | A:min7 | D:min7 | D:min7 |
+228.762380952	A, chorus, | A:min7 | A:min7 | D:min7 | D:min7 |
+237.495034013	| A:min7 | A:min7 | D:min7 | D:min7 |
+246.227346938	| A:min7 | A:min7 | D:min7 | D:min7 |, voice)
+255.000748299	A', solo, | A:min7 | A:min7 | D:min7 | D:min7 |, (keyboard
+263.780113378	| A:min7 | A:min7 | D:min7 | D:min7 |
+272.470612244	fadeout, | A:min7 | A:min7 | D:min7 | D:min7 |
+281.187074829	| A:min7 | A:min7 | D:min7 | D:min7 |, keyboard)
+288.57861678	end

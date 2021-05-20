@@ -1,0 +1,31 @@
+# title: Hello Dolly
+# artist: Louis Armstrong
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.60371882	A, intro, | D:7 | G:7 | x3, (banjo), (piano
+9.749614512	| C:maj Eb:dim | D:min7 G:7 |, banjo), piano)
+12.706712018	B, verse, | C:maj7 | C:maj7 | A:min | A:min |, (voice
+18.944557823	| C:maj7 | F#:dim | D:min7 | A:7(b9) |
+25.065034013	| D:min | A:7 | D:min(b13) | D:min |
+31.238843537	| D:min7 | G:7 | C:maj Eb:dim | D:min7 G:7 |
+37.443287981	B', chorus, | C:maj7 | C:maj7 | A:min | A:min |
+43.587074829	| G:min7 | C:7 | F:maj7 | E:7 |
+49.642290249	| A:min | E:min7 | A:min | E:min7 |
+55.889863945	| D:7 | G:7 | C:maj Eb:dim | D:min7 G:7 |, voice)
+62.114149659	B, interlude, | C:maj7 | C:maj7 | A:min | A:min |, (trombone, (trumpet, (clarinet
+68.379024943	| C:maj7 | F#:dim | D:min7 | A:7(b9) |
+74.556757369	| D:min | A:7 | D:min(b13) | D:min |
+80.90170068	| D:min7 | G:7 | C:maj Eb:dim | D:min7 G:7 |
+87.094739229	B', interlude, | C:maj7 | C:maj7 | A:min | A:min |
+93.28201814	| G:min7 | C:7 | F:maj7 | E:7 |
+99.312947845	| A:min | E:min7 | A:min | E:min7 |, trumpet), clarinet)
+105.469931972	| D:7 | G:7 | C:maj Eb:dim | D:min7 G:7 |, trombone)
+111.789455782	B', chorus, | C:maj7 | C:maj7 | A:min | A:min |, (voice
+118.07340136	| G:min7 | C:7 | F:maj7 | E:7 |
+124.200680272	| A:min | E:min7 | A:min | E:min7 |
+130.347278911	A, outro, | D:7 | G:7 | x3
+139.504217687	| C:maj C:maj/3 F:maj F#:dim | G:sus4(b7) G:7/b5 C:maj . |, voice)
+143.699727891	silence
+147.774693877	end

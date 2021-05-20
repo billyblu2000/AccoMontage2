@@ -1,0 +1,24 @@
+# title: Double Shot (Of My Baby's Love)
+# artist: Swingin' Medallions
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.493424036	A, intro, | N |, (drums)
+2.002721088	B, intro, | Ab:maj | F:min | Ab:maj | F:min |, (organ 
+9.297278911	| Ab:maj | F:min | Ab:maj | Eb:maj |, organ) 
+16.590453514	C, verse, | Ab:maj | F:min | Db:maj | Eb:maj | x3, (voice
+38.573333333	| Ab:maj | F:min | Db:maj Eb:maj | Ab:maj . . Eb:maj |
+45.88877551	B', chorus, | Ab:maj | F:min | Ab:maj | F:min |
+53.169591836	| Ab:maj | F:min | Db:maj Eb:maj | Ab:maj . . Eb:maj |, voice)
+60.384988662	B, interlude, | Ab:maj | F:min | Ab:maj | F:min |, (organ
+67.725941043	| Ab:maj | F:min | Ab:maj | Ab:maj Eb:maj . . |, organ) 
+75.117891156	C, verse, | Ab:maj | F:min | Db:maj | Eb:maj | x3, (voice
+97.102063492	| Ab:maj | F:min | Db:maj Eb:maj | Ab:maj . . Eb:maj |
+104.43723356	B', chorus, | Ab:maj | F:min | Ab:maj | F:min |
+111.724852607	| Ab:maj | F:min | Db:maj Eb:maj | Ab:maj . . Eb:maj |
+119.092857142	B, outro, | Ab:maj | F:min | Ab:maj | F:min |
+126.442993197	| Ab:maj | F:min | Ab:maj | F:min |, fadeout
+133.71324263	| Ab:maj | F:min | Ab:maj | F:min |, voice) 
+135.952834467	silence
+137.952653061	end

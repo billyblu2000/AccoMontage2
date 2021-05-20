@@ -1,0 +1,38 @@
+# title: Knowing Me, Knowing You
+# artist: ABBA
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.208979591	A, intro, | G:maj E:min | E:min B:min/b7 | G:maj A:maj | A:maj |, (synthesizer)
+9.436598639	B, verse, | D:maj E:min | E:min B:min7 | B:min7 F#:min7 | F#:min7 |, (voice
+18.489863945	| D:maj E:min | E:min B:min7 | B:min7 F#:min7 | F#:min7 |
+27.593922902	C, pre-chorus, | B:min | B:min | A:sus4 A:maj | A:sus4 A:maj |
+36.676031746	| G:maj | G:maj | B:min(9) | B:min . . G:maj |
+45.778820861	D, chorus, | A:maj | A:maj | D:maj . . G:maj | ->
+52.409977324	| A:maj | A:maj | D:maj G:maj | A:maj |
+61.355986394	| D:maj F#:min | G:maj A:maj | D:maj G:maj | A:maj |
+70.354761904	| D:maj G:maj | (2/4) A:maj | ->, voice)
+73.702290249	E, trans, | D:maj | F#:min | G:maj | A:maj |, (guitar
+82.618548752	| D:maj | F#:min | G:maj | A:maj |, guitar)
+91.456984126	B, verse, | D:maj E:min | E:min B:min7 | B:min7 F#:min7 | F#:min7 |, (voice
+100.482494331	| D:maj E:min | E:min B:min7 | B:min7 F#:min7 | F#:min7 |
+109.471814058	C, pre-chorus, | B:min | B:min | A:sus4 A:maj | A:sus4 A:maj |
+118.37371882	| G:maj | G:maj | B:min(9) | B:min . . G:maj |
+127.37217687	D, chorus, | A:maj | A:maj | D:maj . . G:maj | ->
+134.0030839	| A:maj | A:maj | D:maj G:maj | A:maj |
+142.85371882	| D:maj F#:min | G:maj A:maj | D:maj G:maj | A:maj |
+151.680521541	| D:maj G:maj | (2/4) A:maj | ->, voice)
+154.980430839	E, trans, | D:maj | F#:min | G:maj | A:maj |, (guitar
+163.783786848	| D:maj | F#:min | G:maj | A:maj |, guitar)
+172.53956916	F, bridge, | A:maj B:min | B:min | A:maj B:min | B:min . . G:maj |, (piano)
+181.561111111	D, chorus, | A:maj | A:maj | D:maj . . G:maj | ->
+188.166371882	| A:maj | A:maj | D:maj G:maj | A:maj |
+196.960725623	| D:maj F#:min | G:maj A:maj | D:maj G:maj | A:maj |
+205.702108843	| D:maj G:maj | (2/4) A:maj | ->, voice)
+209.022811791	E, outro, | D:maj | F#:min | G:maj | A:maj |, (guitar
+217.876938775	| D:maj | F#:min | G:maj | A:maj |
+226.571814058	fadeout, | D:maj | F#:min | G:maj | A:maj |
+235.295941043	| D:maj | F#:min | G:maj |, guitar)
+239.676371882	silence
+243.670204081	end

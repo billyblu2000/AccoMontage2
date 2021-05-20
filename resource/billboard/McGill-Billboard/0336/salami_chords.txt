@@ -1,0 +1,37 @@
+# title: Your Love Has Lifted Me Higher
+# artist: Rita Coolidge
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.417959183	A', intro, | Db:maj | Db:7 | Eb:maj/b7 | Eb:maj/b7 |, (voice
+9.938140589	| Eb:min/b7 | Eb:hdim7/b7 | Db:maj | Db:maj |, voice)
+18.967437641	B, trans, | Db:maj | Db:maj | Db:maj | Db:maj |, (guitar)
+27.308594104	A, verse, | Db:maj | Db:maj | Eb:min/b7 | Eb:min/b7 |, (voice
+35.526689342	| Eb:min/b7 | Eb:hdim7/b7 | Db:maj | Db:maj |
+43.699954648	| Db:maj | Db:maj | Eb:min/b7 | Eb:min/b7 |
+51.957482993	| Eb:min/b7 | Eb:hdim7/b7 | Db:maj | Db:maj |
+60.118231292	A, verse, | Db:maj | Db:maj | Eb:min/b7 | Eb:min/b7 |
+68.334172335	| Eb:min/b7 | Eb:hdim7/b7 | Db:maj | Db:maj |
+76.46755102	| Db:maj | Db:maj | Eb:min/b7 | Eb:min/b7 |
+84.659954648	| Eb:min/b7 | Eb:hdim7/b7 | Db:maj | Db:maj |, voice)
+92.850136054	A, solo, | Db:maj | Db:maj | Eb:min/b7 | Eb:min/b7 |, (organ
+101.047142857	| Eb:min/b7 | Eb:hdim7/b7 | Db:maj | Db:maj |
+109.167029478	| Db:maj | Db:maj | Eb:min/b7 | Eb:min/b7 |
+117.308004535	| Eb:min/b7 | Eb:min/b7 | A:7 | A:7 |, organ)
+125.342403628	A, verse, | D:maj | D:maj | E:maj/b7 | E:maj/b7 |, (voice
+133.458571428	| E:min/b7 | E:hdim7/b7 | D:maj | D:maj |
+141.568231292	| D:maj | D:maj | E:maj/b7 | E:maj/b7 |
+149.637437641	| E:min/b7 | E:hdim7/b7 | D:maj | D:maj |
+157.715600907	A, verse, | D:maj | D:maj | E:maj/b7 | E:maj/b7 |
+165.839909297	| E:min/b7 | E:hdim7/b7 | D:maj | D:maj |
+173.939160997	| D:maj | D:maj | E:maj/b7 | E:maj/b7 |
+182.101746031	| E:min/b7 | E:hdim7/b7 | D:maj | D:maj |
+190.215736961	A, verse, | Eb:maj | Eb:maj | F:min/b7 | F:min/b7 |
+198.325124716	| F:min/b7 | F:hdim7/b7 | Eb:maj | Eb:maj |
+206.368208616	| Eb:maj | Eb:maj | F:min/b7 | F:min/b7 |
+214.509070294	| F:min/b7 | F:hdim7/b7 | Eb:maj | Eb:maj |
+222.571768707	A, fadeout, | Eb:maj | Eb:maj | F:min/b7 | F:min/b7 |
+230.691564625	| F:min/b7 | F:hdim7/b7 | Eb:maj | Eb:maj |, voice)
+239.095873015	silence
+242.912653061	end

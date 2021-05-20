@@ -1,0 +1,43 @@
+# title: Running Up That Hill
+# artist: Kate Bush
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+2.902494331	A, intro, | C:min | &pause | C:min | C:min |, (synthesizer
+10.982834467	| Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+19.86786848	| Ab:maj/3 | Bb:maj/9 | C:min |, synthesizer)
+26.490204081	B, verse, | Ab:maj/3 Bb:maj/9 | C:min C:min9 | Ab:maj/3 Bb:maj/9 | C:min C:min9 |, (voice
+35.361972789	| Ab:maj/3 Bb:maj/9 | C:min C:min9 | Ab:maj/3 Bb:maj/9 |
+42.053356009	C, prechorus, | F:min7/5 C:min9 | F:min7/5 | F:min7/5 C:min9 | F:min7/5 |
+50.801247165	D, chorus, | Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+59.627619047	| Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+68.653424036	| Ab:maj/3 | Bb:maj/9 | C:min | Ab:maj/3 |
+77.445736961	| Ab:maj/3 | Bb:maj/9 | C:min |
+84.147845804	B, verse, | Ab:maj/3 Bb:maj/9 | C:min C:min9 | Ab:maj/3 Bb:maj/9 | C:min C:min9 |
+93.060770975	| Ab:maj/3 Bb:maj/9 | C:min C:min9 | Ab:maj/3 Bb:maj/9 | C:min C:min9 |
+101.913106575	| Ab:maj/3 Bb:maj/9 | C:min C:min9 | Ab:maj/3 Bb:maj/9 |
+108.59340136	C, prechorus, | F:min7/5 C:min9 | F:min7/5 | F:min7/5 C:min9 | F:min7/5 |
+117.378707482	| F:min7/5 C:min9 | F:min7/5 |
+121.849342403	D, chorus, | Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+130.686122448	| Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+139.633106575	| Ab:maj/3 | Bb:maj/9 | C:min | Ab:maj/3 |
+148.508276643	| Ab:maj/3 | Bb:maj/9 | C:min |
+155.147823129	C, prechorus, | F:min7/5 C:min9 | F:min7/5 | F:min7/5 C:min9 | F:min7/5 |
+164.042471655	| F:min7/5 C:min9 | F:min7/5 |
+168.473151927	E, bridge, | Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+177.360498866	| Ab:maj/3 | Bb:maj/9 | C:min | C:min |, voice)
+186.240453514	F, interlude, | Ab:maj/3 | Bb:maj/9 | C:min | Ab:maj/3 |, (synthesizer
+195.30095238	| Ab:maj/3 | Bb:maj/9 | C:min | C:min |, synthesizer)
+204.000090702	D, chorus, | Ab:maj/3 | Bb:maj/9 | C:min | C:min |, (voice
+212.802199546	| Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+221.631405895	D, chorus, | Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+230.622108843	| Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+239.46047619	D, chorus, | Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+248.381088435	| Ab:maj/3 | Bb:maj/9 | C:min | C:min |
+257.220680272	G, outro, | Ab:maj/3 | Ab:maj/3 | Bb:maj/9 | Bb:maj/9 |
+266.035215419	| C:min | C:min | C:min | C:min |, voice)
+274.99585034	| C:min | C:min | C:min | C:min |, fadeout
+281.783786848	| C:min | C:min | C:min | C:min |
+294.045714285	silence
+301.008979591	end

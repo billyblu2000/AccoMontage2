@@ -1,0 +1,41 @@
+# title: Two Hearts
+# artist: Phil Collins
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.371519274	A, intro, | C:maj | C:maj | D:maj | G:maj |, (synthesizer
+7.105306122	| C:maj | C:maj | D:maj | G:maj |
+13.235374149	B, interlude, | G:maj | A:maj/b7 | G:maj | A:maj/b7 |
+19.411882086	| G:maj | A:maj/b7 | G:maj | A:maj/b7 |, synthesizer)
+25.589750566	C, verse, | G:maj | A:maj/b7 | G:maj | A:maj/b7 |, (voice
+31.763990929	| G:maj | A:maj/b7 | G:maj | A:maj/b7 |
+37.918185941	| A:min | B:min7 | A:min/b3 | D:sus2(b7) |
+44.117913832	| A:min | B:min7 | A:min/b3 | D:sus2(b7) |
+50.265532879	A, chorus, | C:maj | C:maj | D:maj | G:maj |
+56.440385487	| C:maj | C:maj | D:maj | G:maj |, voice)
+62.583922902	B, interlude, | G:maj | A:maj/b7 | G:maj | A:maj/b7 |, (synthesizer
+68.777505668	| G:maj | A:maj/b7 | G:maj | A:maj/b7 |, synthesizer)
+74.907573696	C, verse, | G:maj | A:maj/b7 | G:maj | A:maj/b7 |, (voice
+81.107301587	| G:maj | A:maj/b7 | G:maj | A:maj/b7 |
+87.280725623	| A:min | B:min7 | A:min/b3 | D:sus2(b7) |
+93.437097505	| A:min | B:min7 | A:min/b3 | D:sus2(b7) |
+99.616462585	A, chorus, | C:maj | C:maj | D:maj | G:maj |
+105.791405895	| C:maj | C:maj | D:maj | G:maj |
+111.919206349	A, chorus, | C:maj | C:maj | D:maj | G:maj |
+118.107346938	| C:maj | C:maj | D:maj | G:maj |, voice)
+124.281043083	D, trans, | Eb:maj/3 Ab:maj | F:maj/3 . Bb:maj * |, (synthesizer)
+127.347755102	E, bridge, | B:maj7 | Ab:min7 | Bb:min7 | Db:maj/9 |, (voice
+133.522766439	| Ab:min7 | Ab:min7 | Bb:min7 | Bb:sus4(b7) |
+139.682902494	| B:maj7 | Ab:min7 | Bb:min7 | Db:maj/9 |
+145.852811791	| Ab:min7 | Ab:min7 | A:min7 | D:sus2(b7) |
+152.02154195	A, chorus, | C:maj | C:maj | D:maj | G:maj |
+158.171655328	| C:maj | C:maj | D:maj | G:maj |
+164.398662131	A, chorus, | C:maj | C:maj | D:maj | G:maj |
+170.568004535	| C:maj | C:maj | D:maj | G:maj |
+176.717414965	A, chorus, | C:maj | C:maj | D:maj | G:maj |
+182.870657596	| C:maj | C:maj | D:maj | G:maj |
+189.033514739	A, fadeout, | C:maj | C:maj | D:maj | G:maj |
+195.188095238	| C:maj | C:maj | D:maj | G:maj | C:maj |, voice)
+201.827845804	silence
+204.747755102	end

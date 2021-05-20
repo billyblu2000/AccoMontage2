@@ -1,0 +1,26 @@
+# title: Loving Her Was Easier
+# artist: Kris Kristofferson
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.208979591	A', intro, | C:maj | F:maj | C:maj | C:maj |
+13.131088435	A, verse, | C:maj | F:maj | C:maj | C:maj |, (voice
+25.169387755	| C:maj | F:maj | C:maj | C:maj |
+37.272312925	B, chorus, | F:maj | F:maj | C:maj | C:maj |
+49.435396825	| C:maj | F:maj | C:maj | C:maj |
+61.561700680	A, verse, | C:maj | F:maj | C:maj | C:maj |
+73.497256235	| C:maj | F:maj | C:maj | C:maj |
+85.661383219	B, chorus, | F:maj | F:maj | C:maj | C:maj |
+97.630725623	| C:maj | F:maj | C:maj | C:maj |
+109.783424036	C, refrain, | C:maj | G:maj | C:maj | C:maj |
+121.849546485	B', chorus, | F:maj | F:maj | C:maj | C:maj |
+133.666712018	| G:maj | F:maj | C:maj | C:maj |
+145.421904761	| F:maj | F:maj | C:maj | C:maj |
+157.188843537	| C:maj | F:maj | C:maj | C:maj |
+169.006439909	C, refrain, | C:maj | G:maj | C:maj | C:maj |, voice)
+180.818140589	A, outro, instrumental, | C:maj | F:maj | C:maj | C:maj |, (flute
+192.927800453	| C:maj | F:maj | C:maj | C:maj |
+204.964263038	fadeout, flute), B, outro, | F:maj | F:maj | C:maj | C:maj |
+221.982766439	silence
+226.716734693	end

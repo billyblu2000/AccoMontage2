@@ -1,0 +1,22 @@
+# title: I Love You So
+# artist: Bobbi Martin
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+2.168185941	A, intro, | N |, (voice
+4.784716553	B, main theme, | F:7 | F:7 | Bb:maj D:hdim7 | G:7 |
+17.305147392	| C:min7 | F:7 | Bb:maj B:dim | C:min . F:sus4(b7) F:7 |
+29.795419501	B', main theme, | F:7 | F:7 | Bb:maj D:hdim7 | G:7 |
+42.331519274	| C:min7 | F:7 | Bb:maj Eb:maj | Bb:7 |
+54.939750566	C, (secondary) theme, | Eb:maj | Eb:maj | Bb:maj F:7 | Bb:maj |
+67.35526077	| Eb:maj | Eb:maj | C:9 | F:7 | F:7 |
+83.111179138	B', main theme, | F:7 | F:7 | Bb:maj D:hdim7 | G:7 |
+95.577074829	| C:min7 | F:7 | Bb:maj Eb:maj | Bb:maj |
+108.119682539	C', (secondary) theme, | Eb:maj | Eb:maj | Bb:maj F:7 | Bb:maj |
+120.579659863	| Eb:maj | Eb:maj | C:7 | F:7 | F:7 F:sus4(b7) . F:7 |
+136.227732426	B'', main theme, | F:7 | F:7 | Bb:maj D:hdim7 | G:7 |
+148.824875283	| C:min7 | C:min7 |
+156.18095238	| C:min7 F:7 | Bb:maj . Eb:maj Eb:min | Bb:maj |, voice)
+174.08	silence
+176.099954648	end

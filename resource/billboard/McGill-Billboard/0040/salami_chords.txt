@@ -1,0 +1,36 @@
+# title: The Power
+# artist: Snap
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.255419501	A, intro, | F#:1 | F#:1 |, (synthesizer)
+4.690045351	B, trans, | B:min | B:min | B:min | B:min |, (voice
+13.467097505	C, pre-chorus, | B:min | B:min | B:min | B:min |
+22.253061224	| F#:min/11 | F#:min/11 | F#:min/11 | F#:min/11 |
+31.040884353	D, pre-verse, | B:min | B:min | B:min | B:min |
+39.837687074	E, verse, | B:min | B:min | B:min | B:min |
+48.650770975	| B:min | B:min | B:min | B:min |, voice)
+57.449614512	| B:min | B:min |, (saxophone)
+61.801496598	C, chorus, | B:min | B:min | B:min | B:min |, (voice
+70.607346938	| F#:min/11 | F#:min/11 | F#:min/11 | F#:min/11 |
+79.416938775	D, pre-verse, | B:min | B:min | B:min | B:min |, voice)
+88.204285714	A, intro, | F#:1 | F#:1 |, (synthesizer)
+92.587981859	F, chorus, | B:min | B:min | B:min | B:min |, (voice
+101.429229024	| F#:min/11 | F#:min/11 | F#:min/11 | F#:min/11 |
+110.207120181	| B:min | B:min | B:min | B:min |
+119.009659863	| F#:min/11 | F#:min/11 | F#:min/11 | F#:min/11 |, voice)
+127.770204081	G, interlude, | B:min | B:min | B:min | B:min |, (synthesizer)
+136.602154195	D, pre-verse, | B:min | B:min | B:min | B:min |, (voice
+145.363356009	D, pre-verse, | B:min | B:min | B:min | B:min |, voice)
+154.178231292	G, interlude, | B:min | B:min |, (synthesizer)
+158.551111111	E, verse, | B:min | B:min | B:min | B:min |, (voice
+167.389705215	| B:min7 | B:min7 | B:min | B:min |, voice)
+176.155147392	A, interlude, | F#:1 | F#:1 |, (synthesizer)
+180.604058956	F, chorus, | B:min | B:min | B:min | B:min |, (voice
+189.378888888	| F#:min/11 | F#:min/11 | F#:min/11 | F#:min/11 |
+198.161428571	| B:min | B:min | B:min | B:min |
+206.937981859	| F#:min/11 | F#:min/11 | F#:min/11 | F#:min/11 |
+215.771088435	| B:min |, voice)
+217.826394557	silence
+220.891428571	end

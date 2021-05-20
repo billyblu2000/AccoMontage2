@@ -1,0 +1,26 @@
+# title: Handy Man
+# artist: Jimmy Jones
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.255419501	A, intro, | Bb:maj | G:min | Bb:maj | G:min |
+7.973310657	B, chorus, | Bb:maj | Bb:maj | G:min | G:min |, (voice
+14.331269841	| Eb:maj | F:maj | Bb:maj | F:7 |
+20.773673469	B, chorus, | Bb:maj | Bb:maj | G:min | G:min |
+27.171587301	| Eb:maj | F:maj | Bb:maj | Bb:7 |
+33.635464852	C, bridge, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+40.100340136	| Eb:maj | Eb:maj | F:maj | F:maj |
+46.704807256	B, chorus, | Bb:maj | Bb:maj | G:min | G:min |
+53.232789115	| Eb:maj | F:maj | Bb:maj | F:7 |, voice)
+59.676190476	D, solo, | Bb:maj | Bb:maj | G:min | G:min |, (guitar
+66.229319727	| Eb:maj | F:maj | Bb:maj | Bb:7 |, guitar)
+72.766780045	C, bridge, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |, (voice
+79.333514739	| Eb:maj | Eb:maj | F:maj | F:maj |
+86.124648526	B, chorus, | Bb:maj | Bb:maj | G:min | G:min |
+92.823287981	| Eb:maj | F:maj | Bb:maj | F:7 |, voice)
+99.468594104	A, outro, | Bb:maj | G:min | Bb:maj | G:min |
+106.073446712	fadeout, | Bb:maj | G:min | Bb:maj | G:min |
+112.746916099	| Bb:maj | G:min | Bb:maj |
+117.260770975	silence
+122.435918367	end

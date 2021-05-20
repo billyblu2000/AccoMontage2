@@ -1,0 +1,39 @@
+# title: World In My Eyes
+# artist: Depeche Mode
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.464399092	A, intro, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (synthesizer
+8.314671201	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, synthesizer)
+16.24446712	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (voice
+24.067687074	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |
+31.953786848	| Eb:min7 | Eb:min7 | Ab:min7 | Ab:min7 |
+39.806893424	| Eb:min7 | Eb:min7 | Eb:min7(b13) | Eb:min7(b13) |, voice)
+47.616213151	A, interlude, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (synthesizer
+55.554557823	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, synthesizer)
+63.374603174	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (voice
+71.240929705	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |
+79.09154195	| Eb:min7 | Eb:min7 | Ab:min7 | Ab:min7 |
+86.911360544	| Eb:min7 | Eb:min7 | Eb:min7(b13) | Eb:min7(b13) |
+94.847097505	C, chorus, | C:min | Cb:maj | Ab:min | Bb:maj |
+102.688185941	| Eb:min | Ab:min | Bb:maj | ->, voice)
+108.602789115	A, interlude, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (synthesizer
+116.438095238	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, synthesizer)
+124.340113378	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (voice
+132.142698412	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |
+140.036462585	| Eb:min7 | Eb:min7 | Ab:7 | Ab:7 |
+147.880045351	| Eb:min7 | Eb:min7 | Eb:min7(b13) | Eb:min7(b13) |
+155.763832199	C, chorus, | C:min | Cb:maj | Ab:min | Bb:maj |
+163.583219954	| Eb:min | Ab:min | Bb:maj | ->, voice)
+169.485238095	A, interlude, | Eb:min7 | Eb:min7 | Ab:maj | Ab:min |, (synthesizer
+177.39739229	| Eb:min7 | Eb:min7 | Ab:maj | Ab:min |, synthesizer)
+185.252947845	B', outro, | Eb:min7 | Eb:min7 | Ab:maj | Ab:min |, (voice
+193.083038548	| Eb:min7 | Eb:min7 | Ab:maj | Ab:min |
+200.979523809	| Eb:min7 | Eb:min7 | Ab:maj | Ab:min |
+208.818253968	| Eb:min7 | Eb:min7 | Ab:maj | Ab:min |
+216.69802721	fadeout, | Eb:min7 | Eb:min7 | Ab:maj | Ab:min |
+224.542653061	| Eb:min7 | Eb:min7 | Ab:maj | Ab:min |
+232.380657596	| Eb:min7 | Eb:min7 | Ab:maj | Ab:min |, voice)
+235.891519274	silence
+239.85632653	end

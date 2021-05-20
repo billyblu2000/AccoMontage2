@@ -1,0 +1,38 @@
+# title: Higher Ground
+# artist: Stevie Wonder
+# metre: 12/8
+# tonic: Eb
+
+0.0	silence
+1.091337868	A, intro, | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (guitar
+9.183628117	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+16.831451247	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, guitar)
+24.617074829	B, verse, | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (voice
+32.363786848	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+40.091020408	| F:7 | F:7 | Ab:7 | Db:7 |, voice)
+47.869773242	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (guitar)
+55.519478458	B, verse, | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (voice
+63.243310657	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+70.920294784	| F:7 | F:7 | Ab:7 | Db:7 |, voice)
+78.680929705	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (guitar)
+86.308911564	C, chorus, | Ab:7 | Eb:7(#9) | Ab:7 | Eb:7(#9) |, (voice
+93.947936507	| Ab:7 | Eb:7(#9) | F:7 | Bb:7(#9) |, voice)
+101.660226757	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (guitar)
+109.278979591	B, verse, | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (voice
+116.993287981	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+124.69510204	| F:7 | F:7 | Ab:7 | Db:7 |, voice)
+132.456281179	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (guitar)
+140.066870748	B, verse, | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (voice
+147.783333333	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+155.473741496	| F:7 | F:7 | Ab:7 | Db:7 |, voice)
+163.109297052	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (guitar)
+170.77063492	C, chorus, | Ab:7 | Eb:7(#9) | Ab:7 | Eb:7(#9) |, (voice
+178.53015873	| Ab:7 | Eb:7(#9) | F:7 | Bb:7(#9) |, voice)
+186.190884353	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, (guitar
+193.793605442	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+201.411133786	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+209.004013605	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+216.584897959	fadeout, | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) | Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |
+224.151655328	| Eb:7(#9) . Gb:maj Ab:maj | Eb:7(#9) |, guitar)
+227.73877551	silence
+227.813877551	end

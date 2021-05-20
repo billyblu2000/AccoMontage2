@@ -1,0 +1,43 @@
+# title: Don't stand so close to me
+# artist: Police
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.789478458	A, intro, | Eb:maj | Eb:maj |, (synthesizer
+3.25079365	| Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+9.356984126	| Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+16.016621315	| Eb:maj | Eb:maj | Eb:maj | Eb:maj |, synthesizer)
+22.825215419	| Eb:maj | Eb:maj | G:min | G:min |, (guitar
+29.651882086	| Eb:maj | Eb:maj | G:min | G:min |, guitar)
+36.501768707	B, verse, | Eb:maj | Eb:maj | G:min | G:min |, (voice
+43.325170068	| Eb:maj | Eb:maj | G:min | G:min |
+50.142675736	| Eb:maj | Eb:maj | G:min | G:min |
+56.935328798	| Eb:maj | Eb:maj | G:min | G:min |
+63.773106575	C, chorus, | D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj |
+70.610702947	| D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj | D:maj/5 A:maj |
+79.156825396	B, verse, | Eb:maj | Eb:maj | G:min | G:min |
+85.98585034	| Eb:maj | Eb:maj | G:min | G:min |
+92.76371882	| Eb:maj | Eb:maj | G:min | G:min |
+99.611814058	| Eb:maj | Eb:maj | G:min | G:min |
+106.422222222	C, chorus, | D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj |
+113.276462585	| D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj | D:maj/5 A:maj |
+121.812244897	B, verse, | Eb:maj | Eb:maj | G:min | G:min |
+128.65494331	| Eb:maj | Eb:maj | G:min | G:min |
+135.459773242	| Eb:maj | Eb:maj | G:min | G:min |
+142.282199546	| Eb:maj | Eb:maj | G:min | G:min |
+149.100748299	C, chorus, | D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj |
+155.95755102	| D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj | D:maj/5 A:maj |, voice)
+164.480385487	| D:maj/5 A:maj | D:maj/5 A:maj |, (guitar)
+167.879229024	B, instrumental, | Eb:maj | Eb:maj | G:min | G:min |, (synthesizer
+174.67170068	| Eb:maj | Eb:maj | G:min | G:min |
+181.526190476	| Eb:maj | Eb:maj | G:min | G:min |
+188.324331065	| Eb:maj | Eb:maj | G:min | G:min |, synthesizer)
+195.12063492	C, chorus, | D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj |, (voice
+201.968049886	| D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj |
+208.764172335	| D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj |
+215.624489795	fadeout, | D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj |
+222.447913832	| D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj |
+229.239138321	| D:maj A:maj | D:maj A:maj | B:min7 B:min7/b7 | D:maj/5 A:maj | D:maj A:maj |, voice)
+237.377596371	silence
+243.095510204	end

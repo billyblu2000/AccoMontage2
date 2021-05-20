@@ -1,0 +1,28 @@
+# title: September
+# artist: Earth, Wind & Fire
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+4.063492e-2	Z
+0.255419501	A, intro, | D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 | D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 |
+8.564603174	| D:maj7 . C#:min7 B:min7/b7 | C#:7 F#:min7 | A:11 | A:11 |
+16.286825396	| A:11 | A:11 |
+20.181428571	A, verse, | D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 | D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 |, (voice
+27.914081632	| D:maj7 . C#:min7 B:min7/b7 | C#:7 F#:min7 | A:11 | A:11 |
+35.61941043	| D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 | D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 |
+43.386802721	| D:maj7 . C#:min7 B:min7/b7 | C#:7 F#:min7 | A:11 | A:11 |
+51.12371882	C, chorus, | B:min7 E:9 | C#:min7 F#:min7 | B:min7 E:9 | A:maj9/3 F#:min7 |
+58.845124716	| B:min7 E:9 | C#:min7 F#:min7 | A:sus4(b7,9) | A:sus4(b7,9) |
+66.571609977	A, verse, | D:maj7 . C#:min7 A:maj6 | C#:min7 F#:min11 | D:maj7 . C#:min7 A:maj6 | C#:min7 F#:min11 |
+74.303854875	| B:min7 E:9 | C#:min7 F#:min7 | A:11 | A:11 |
+82.120725623	| D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 | D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 |
+89.840113378	| D:maj7 . C#:min7 B:min7/b7 | C#:7 F#:min7 | A:11 | A:11 |
+97.582789115	C, chorus, | D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 | D:maj7 . C#:min7 B:min7/b7 | C#:min7 F#:min7 |
+105.30446712	| D:maj7 . C#:min7 B:min7/b7 | C#:7 F#:min7 | A:11 | A:11 |
+113.034739229	C, chorus, | B:min7 E:9 | C#:min7 F#:min7 | B:min7 E:9 | A:maj9/3 F#:min7 |
+120.784013605	| B:min7 E:9 | C#:min7 F#:min7 | A:11 | A:11 |
+128.535419501	C, chorus, | B:min7 E:9 | C#:min7 F#:min7 | B:min7 E:9 | A:maj9/3 F#:min7 |
+136.308571428	| B:min7 E:9 | C#:min7 F#:min7 | A:11 | A:11 |, voice)
+144.031383219	D, coda, | B:11 | B:11 |, (trumpet)
+147.670204081	end

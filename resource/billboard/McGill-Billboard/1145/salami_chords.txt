@@ -1,0 +1,28 @@
+# title: Tell Me What You Want Me To Do
+# artist: Tevin Campbell
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.417959183	A, intro, | Db:maj(9) . . Ab:maj/3 | Bb:min11 | Gb:maj6(9) | Ab:sus4(b7) |, (synthesizer
+16.665714285	| Db:maj(9) | Db:maj(9) |, synthesizer)
+24.119455782	B, verse, | Db:maj(9) . . Ab:maj/3 | Bb:min11 | Gb:maj13 . . F:min7 | Eb:sus4(b7) Ab:sus4(b7) |, (voice
+39.102879818	| Db:maj(9) . . Ab:maj/3 | Bb:min11 | Gb:maj13 . . F:min7 | Eb:min7 |
+54.101065759	C, pre-chorus, | F:min11 | Bb:min9 | Eb:min9 | Ab:sus4(b7,9) |
+69.127641723	A, chorus, | Db:maj(9) . . Ab:maj/3 | Bb:min11 . . Bb:min11/b7 | Gb:maj6(9) | Ab:sus4(b7) |
+84.148458049	| Db:maj(9) | Db:maj(9) |
+91.618480725	B, verse, | Db:maj(9) . . Ab:maj/3 | Bb:min11 | Gb:maj13 . . F:min7 | Eb:sus4(b7) Ab:sus4(b7,9) |
+106.634399092	| Db:maj(9) . . Ab:maj/3 | Bb:min11 | Gb:maj13 . . F:min7 | Eb:min7 |
+121.575328798	C, pre-chorus, | F:min11 | Bb:min9 | Eb:min9 | Ab:sus4(b7,9) |
+136.635941043	A', chorus, | Db:maj(9) . . Ab:maj/3 | Bb:min11 . . Bb:min11/b7 | Gb:maj6(9) | Ab:sus4(b7) |
+151.58340136	| Db:maj(9) . . Ab:maj/3 | Bb:min11 . . Bb:min11/b7 | Gb:maj6(9) | Ab:sus4(b7) |
+166.672585034	| Db:maj(9) | Db:maj/b7 |
+174.146757369	D, bridge, | Gb:maj13 | F:min7 . Bb:min7 Ab:maj | Gb:maj13 | F:min7 Bb:min7 |
+189.149546485	| Gb:maj13 | F:min7 Bb:min7 | Ab:sus4(b7,9) Ab:maj | Ab:sus4(b7,9) Ab:maj |
+204.160498866	| A:sus4(b7) A:maj | A:sus4(b7) |
+# tonic: D
+211.617664399	A, chorus, | D:maj(9) . . A:maj/3 | B:min11 . . B:min11/b7 | G:maj6(9) | E:min7 A:sus4(b7) |
+226.596371882	| D:maj(9) . . A:maj/3 | B:min11 . . B:min11/b7 | G:maj6(9) | E:min7 A:sus4(b7,9) |
+243.937845804	| D:maj(9) |, voice)
+254.049523809	silence
+257.593469387	end

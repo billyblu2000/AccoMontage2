@@ -1,0 +1,22 @@
+# title: Where Or When
+# artist: Dion
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.441179138	A, intro, | Ab:maj | F:min | Db:maj | Eb:maj Db:maj |, (saxophone)
+13.364013605	B, verse, | Ab:maj | Ab:maj6 | Ab:maj7 | Ab:maj7 |, (voice
+26.427755102	| Db:maj | Db:maj | Db:maj | Db:maj |
+39.487913832	| Ab:maj F:min | Db:maj Eb:maj |
+45.926621315	B', verse, | Ab:maj | Ab:maj6 | Ab:maj7 | Ab:maj7 |
+59.010770975	| Db:maj | Db:maj | Db:maj | Db:maj |
+72.081088435	| Ab:maj7 F:min | Db:maj C:7 |
+78.602426303	C, bridge, | F:min | Bb:min | G:hdim7 | C:7 |
+91.738911564	| F:min | Bb:min | Bb:min7 | Eb:7 |
+104.856712018	D, verse, | Ab:maj7 | Ab:maj6 | Ab:maj7 | Ab:7(b13) |
+117.987482993	| Bb:min | F:7 | Bb:min7 | C:min7 |
+131.050907029	| Db:maj7 | Eb:7 |
+137.502199546	| Ab:maj7 | F:min | Bb:min | Eb:maj Db:maj |
+150.783877551	| Ab:maj | &pause |, voice)
+156.757913832	silence
+159.525759637	end

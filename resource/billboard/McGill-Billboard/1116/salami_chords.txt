@@ -1,0 +1,33 @@
+# title: Ebony Eyes
+# artist: The Everly Brothers
+# metre: 3/4
+# tonic: E
+
+0.0	silence
+0.255419501	A, intro, | A:maj/9 | E:maj7/5 | B:9 |, (voice
+4.718390022	| E:maj | E:maj |
+8.243106575	B, verse, | E:maj | E:maj/5 | E:maj | E:maj/5 |
+15.288979591	| B:7 | B:7 | B:7 | B:7 |
+22.364013605	| E:maj | E:maj | A:maj | A:maj |
+29.339024943	| E:maj | B:7 | E:maj | E:7 |
+36.397664399	| A:maj | A:maj | E:maj | E:maj/5 |
+43.601972789	| A:maj | A:maj | E:maj | B:7 | B:7 |
+52.68770975	| E:maj | E:maj/5 | A:maj | A:maj |
+59.931587301	| E:maj | B:7 | E:maj | E:maj |
+66.945328798	B', verse, | E:maj | E:maj/5 | E:maj | E:maj/5 |
+74.197120181	| B:7 | B:7 | B:7 | B:7 |
+81.497437641	| E:maj | E:maj/5 | A:maj | A:maj |
+88.800702947	| E:maj | B:7 | E:maj | E:maj | E:maj | E:maj |
+99.714807256	| B:7 | B:7 | E:maj | E:maj |
+106.894195011	| A:maj | A:maj | E:maj | E:maj |
+114.166689342	| A:maj | A:maj | E:maj | B:7 |
+121.593786848	B'', verse, | E:maj | E:maj/5 | E:maj | E:maj/5 |
+128.663151927	| B:7 | B:7 | B:7 | B:7 |
+135.722743764	| E:maj | E:7 | A:maj | A:maj |
+142.691995464	| E:maj | B:7 | E:maj | E:7 |
+149.634557823	| A:maj | A:maj | E:maj | E:maj |
+156.707165532	| A:maj | A:maj | E:maj | E:7 |
+163.830136054	| A:maj | A:maj | E:maj | E:maj |
+171.060090702	| B:7 | B:7 | E:maj . E:sus4(9) | E:maj |, voice)
+183.851791383	silence
+186.266213151	end

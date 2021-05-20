@@ -1,0 +1,25 @@
+# title: I Won't Stand In Your Way
+# artist: Stray Cats
+# metre: 12/8
+# tonic: Eb
+
+0.0	silence
+0.417959183	A, intro, | Eb:maj C:min7 | B:7 Bb:7 | &pause |
+13.003174603	B, verse, | Eb:maj Eb:maj7 | Eb:7 | Ab:maj | Ab:min Db:7 |, (voice
+26.844603174	| Eb:maj Eb:maj/7 | C:min7 Eb:maj/5 | Ab:maj F:min | B:7 Bb:7 |
+40.751020408	B, chorus, | Eb:maj Eb:maj7 | Eb:7 | Ab:maj | Ab:min Db:7 |
+54.590113378	| Eb:maj Eb:maj/7 | C:min7 Eb:maj/5 | F:min7 Bb:13 | Eb:maj Eb:7 |
+68.266666666	C, bridge, | Ab:maj | Db:7 | Eb:maj Ab:maj | Eb:maj Eb:7 |
+81.92	| F:7 | F:7 | F:min7 | Bb:7 |
+95.72755102	B, chorus, | Eb:maj Eb:maj7 | Eb:7 | Ab:maj | Ab:min Db:7 |
+109.398253968	| Eb:maj Eb:maj/7 | C:min7 Eb:maj/5 | F:min7 Bb:13 | Eb:maj |, voice)
+122.949659863	B', solo, | Eb:maj Eb:maj7 | Eb:7 | Ab:maj | Ab:min Db:7 |, (guitar
+136.691927437	| Eb:maj Eb:maj/7 | C:min7 Eb:maj/5 | F:min7 Bb:13 | Eb:maj Ab:min | Eb:maj Eb:7 |, guitar)
+153.63217687	C, bridge, | Ab:maj | Ab:min | Eb:maj Ab:maj | Eb:maj Eb:7 |, (voice
+167.352675736	| F:7 | F:7 | F:min7 | B:7 Bb:7 | &pause |
+186.032970521	B', chorus, | Eb:maj Eb:maj7 | Eb:7 | Ab:maj | Ab:min Db:7 |
+199.971043083	| Eb:maj Eb:maj/7 | C:min7 Eb:maj/5 |
+206.704036281	| Ab:maj | Db:7 | F:min7 | Bb:13 | &pause |
+219.93941043	| Eb:maj | Ab:min | Eb:maj9 |, voice)
+232.547845804	silence
+235.049795918	end

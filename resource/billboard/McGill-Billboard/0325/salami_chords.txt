@@ -1,0 +1,35 @@
+# title: Let Me Get To Know You
+# artist: Paul Anka
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.487619047	A, intro, | E:min | A:min7 | B:sus4 | B:maj |, (guitar)
+9.793356009	B, verse, | E:min | A:min7 | B:sus4 B:maj | E:min |, (voice
+19.077845804	| E:min | A:min7 | B:sus4 B:maj |, voice)
+25.955532879	| E:min | E:min |, (guitar)
+30.415736961	| E:min | A:min7 | B:sus4 B:maj | E:min |, (voice
+39.522607709	| E:min | A:min7 | B:sus4 B:maj |, voice)
+46.31861678	| E:min | E:min |, (guitar)
+50.786938775	C, chorus, | C:maj D:maj | G:maj | C:maj D:maj | G:maj G:7 |, (voice
+59.676258503	| B:7 | E:min E:min/b7 | C:maj |, voice)
+66.364126984	| B:sus4 | B:maj |, (strings)
+70.848367346	B, verse, | E:min | A:min7 | B:sus4 B:maj | E:min |, (voice
+80.004852607	| E:min | A:min7 | B:sus4 B:maj | E:min |
+89.072199546	| E:min | A:min7 | B:sus4 B:maj | E:min |
+98.105170068	| E:min | A:min7 | B:sus4 B:maj |, voice)
+104.804512471	| E:min | E:min |, (strings)
+109.24154195	C, chorus, | C:maj D:maj | G:maj | C:maj D:maj | G:7 |, (voice
+118.271904761	| B:7 | E:min E:min/b7 | C:maj |, voice)
+124.969637188	| B:sus4 | B:maj |, (strings)
+129.46371882	C, chorus, | C:maj D:maj | G:maj | C:maj D:maj | G:7 |, (guitar)
+138.38956916	| B:7 | E:min E:min/b7 | C:maj |, (voice)
+145.160907029	| B:sus4 | B:maj |, (strings)
+149.598571428	B, verse, | E:min | A:min7 | B:sus4 B:maj | E:min |, (voice
+158.675056689	| E:min | A:min7 | B:sus4 B:maj |, voice)
+165.430022675	| E:min | E:min |, (strings)
+169.798956916	C, chorus, | C:maj D:maj | G:maj | C:maj D:maj | G:7 |, (voice
+178.772766439	| B:7 | E:min E:min/b7 | C:maj | B:sus4 B:maj |, voice)
+187.648412698	C, fadeout, | C:maj D:maj | G:maj | C:maj D:maj | G:7 | B:sus4 |, voice)
+197.485714285	silence
+201.45632653	end

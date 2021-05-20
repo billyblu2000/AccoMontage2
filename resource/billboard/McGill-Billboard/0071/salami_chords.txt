@@ -1,0 +1,69 @@
+# title: Paradise by the Dashboard Light
+# artist: Meatloaf
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+4.8843537e-2	A, intro, | C:7(#9) | C:7(#9) |, (guitar)
+3.761995464	| C:maj | C:maj | C:maj | C:maj |, (piano
+9.000430839	| C:maj | C:maj | C:maj | C:maj |, piano)
+14.342426303	B, verse one, | C:maj | C:maj | F:maj | F:maj | Bb:maj | F:maj | C:maj | C:maj |, (voice
+25.034489795	| C:maj | C:maj | F:maj | F:maj | E:maj | F:maj G:maj | C:maj | C:maj |
+35.792766439	| Ab:maj Eb:maj | (2/4) Bb:maj | (4/4) C:maj | C:maj |
+40.580975056	| Ab:maj Eb:maj | (2/4) Bb:maj | (4/4) C:maj | C:maj |
+45.325351473	C, chorus, | F:maj/5 C:maj | G:sus4/11 C:maj | F:maj/5 C:maj | G:sus4/11 C:maj |
+50.853764172	| F:maj | C:maj | F:maj | Eb:maj | Eb:maj | G:maj | G:maj |
+60.790045351	| F:maj | G:maj | C:maj G:maj | F:maj | F:maj | C:maj | A:min | F:maj D:min7 | C:maj | C:maj |
+75.223197278	B, verse two, | F:maj G:maj | C:maj | F:maj | F:maj | D:min | D:min | C:maj | C:maj |
+86.231791383	| F:maj G:maj | C:maj | F:maj G:maj | C:maj | F:maj G:maj | C:maj | F:maj | F:maj | D:min | D:min | C:maj | C:maj | C:maj | C:maj |
+105.413877551	| C:maj | C:maj | F:maj | F:maj | Bb:maj | F:maj | C:maj | C:maj |
+116.326462585	| C:maj | C:maj | F:maj | F:maj | E:maj | F:maj | D:maj | G:maj | C:maj | C:maj |
+129.979365079	| Ab:maj Eb:maj | (2/4) Bb:maj | (4/4) C:maj | C:maj |
+134.798344671	| Ab:maj Eb:maj | (2/4) Bb:maj | (4/4) C:maj | C:maj |
+139.606848072	C, chorus, | F:maj/5 C:maj | G:sus4/11 C:maj | F:maj/5 C:maj | G:sus4/11 C:maj |
+145.200907029	| F:maj | C:maj | F:maj | Eb:maj | Eb:maj | G:maj | G:maj |
+155.053514739	| F:maj | G:maj | C:maj G:maj | F:maj | F:maj | F:maj | C:maj | E:7 | F:maj | F:maj | D:min | C:maj | A:min | G:maj | E:min | E:7/3 | E:7 |
+179.899478458	| F:maj | C:maj | C:maj/5 G:7 | C:maj | C:maj |
+191.03340136	B, verse three, | F:maj G:maj | C:maj | F:maj G:maj | C:maj | F:maj G:maj | C:maj | F:maj | F:maj | D:min | D:min |
+205.132630385	D, interlude, | G:maj | G:maj | G:maj | G:maj |
+212.655396825	| G:maj | G:maj | G:maj | G:maj |
+220.090816326	| D:min7 D:min/13 | D:min7 | D:min7 D:min/13 | D:min7 |
+227.305056689	| D:min7 D:min/13 | D:min7 | D:min7 D:min/13 | D:min7 |
+234.403219954	| D:min7 D:min/13 | D:min7 | D:min7 D:min/13 | D:min7 |
+241.494580498	| D:min7 D:min/13 | D:min7 | D:min7 D:min/13 | D:min7 |
+248.545691609	| D:min7 D:min/13 | D:min7 | D:min7 D:min/13 | D:min7 |
+255.676031746	| D:min7 D:min/13 | D:min7 | D:min7 D:min/13 | D:min7 |
+262.764897959	| D:min7 D:min/13 | D:min7 | D:min7 D:min/13 | D:min7 |
+269.795147392	| D:min7 D:min/13 | D:min7 | D:min7 | D:min7 |
+277.118639455	| D:7(#9) | D:7(#9) | D:min7 | D:min7 |
+284.592312925	E, verse four, | G:maj | G:maj F:maj . C:maj | G:maj |
+289.642108843	| G:5 | G:5 | F:5 | F:5 | C:5 | C:5 | Bb:5 | F:5 | G:maj | G:maj |
+304.671972789	| F:maj | F:maj | C:maj | C:maj | F:maj | C:maj | G:maj | G:maj |
+316.1723356	| F:maj | F:maj | G:maj | F:maj | C:maj | G:maj | G:maj |
+326.486031746	F, verse five, | F:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj |
+338.294421768	| F:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj |
+349.94292517	| F:maj | F:maj | G:maj | G:maj | Bb:maj | C:maj | Bb:maj . F:maj/3 G:min | F:maj . C:maj/3 Bb:maj/3 | C:maj | C:maj |
+364.484376417	| F:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj | G:maj | G:maj |
+375.803809523	| F:maj | F:maj | G:maj | F:maj | C:maj | G:maj | G:maj | G:maj | G:maj | G:maj | G:maj | G:maj | G:maj | G:maj | G:maj | G:maj |
+399.193741496	| F:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj |
+410.820997732	| F:maj | F:maj | C:maj | C:maj | Bb:maj | F:maj | C:maj | C:maj |
+422.077165532	| F:maj | F:maj | G:maj | F:maj | C:maj | C:maj | C:maj | C#:maj | C#:maj | D:maj | D:maj |
+# tonic: Bb
+437.987188208	G, key change, | Eb:maj | Eb:maj | Bb:maj | Eb:maj | Bb:maj | F:maj | Eb:maj F:maj | Bb:maj | Eb:maj F:maj | Bb:maj | F:maj | F:maj |
+454.79648526	| Bb:maj F:maj | Bb:maj | Eb:maj F:maj | Bb:maj | Bb:maj F:maj/3 | G:min | F:maj | F:maj |
+465.86585034	| Eb:maj | Eb:maj | Bb:maj | F:maj |
+471.522562358	| Bb:maj F:maj | Bb:maj . . F:maj/3 | G:min | G:min | Bb:maj F:maj | Bb:maj | Eb:maj | F:maj | Bb:maj | Bb:maj |, voice)
+485.472902494	H, outro, | Eb:maj Bb:maj | F:maj Bb:maj | Eb:maj Bb:maj | F:maj Bb:maj |
+491.245215419	| Eb:maj Bb:maj | F:maj Bb:maj | Eb:maj Bb:maj | F:maj Bb:maj |
+496.985283446	H, vocal, | Eb:maj Bb:maj | F:maj Bb:maj | Eb:maj Bb:maj | F:maj Bb:maj |, (voice
+502.66664399	| Eb:maj Bb:maj | F:maj Bb:maj | Eb:maj Bb:maj | F:maj Bb:maj |
+508.41154195	| Eb:maj Bb:maj | F:maj Bb:maj | Eb:maj Bb:maj | F:maj Bb:maj |
+513.985691609	| Eb:maj Bb:maj | F:maj Bb:maj | Eb:maj Bb:maj | F:maj Bb:maj |
+519.605555555	| Eb:maj Bb:maj | F:maj Bb:maj | Eb:maj Bb:maj | F:maj Bb:maj |
+525.195351473	| Eb:maj Bb:maj | F:maj Bb:maj | Eb:maj Bb:maj | F:maj Bb:maj |
+530.766417233	| Eb:maj Bb:maj | F:maj Bb:maj |
+533.521678004	| Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj | F:maj/11 Bb:maj |
+539.053310657	| Eb:maj/5 Bb:maj | F:maj/11 Bb:maj | Eb:maj/5 Bb:maj | F:maj/11 Bb:maj |
+544.520045351	| Eb:maj Bb:maj/3 | F:maj/5 Bb:maj | Eb:maj Bb:maj/5 | C:maj/11 Bb:maj | Bb:maj |
+561.702312925	Z
+570.801632653	end

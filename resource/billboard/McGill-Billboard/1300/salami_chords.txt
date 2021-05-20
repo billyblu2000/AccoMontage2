@@ -1,0 +1,43 @@
+# title: Where The Streets Have No Names
+# artist: Pet Shop Boys
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.487619047	Z
+11.730294784	A, intro, | C:min7 | Bb:maj | C:min7 | Bb:maj |, (synth)
+26.584920634	B, verse, | Bb:maj | Bb:7 | Bb:maj | Bb:7 |, (voice
+34.092108843	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+41.548571428	| G:min | G:min | F:maj | F:maj |
+49.009319727	| Ab:maj(9) | Ab:maj(9) | Ab:maj(9) | Ab:maj(9) |
+56.504285714	B, verse, | Bb:maj | Bb:7 | Bb:maj | Bb:7 |
+63.973038548	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+71.442222222	| G:min | G:min | F:maj | F:maj |
+78.92201814	| Ab:maj(9) | Ab:maj(9) | Ab:maj(9) | Ab:maj(9) |
+86.39770975	B', chorus, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+93.853764172	| Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+101.322789115	| G:min | G:min | F:maj | F:maj |
+108.809455782	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |, voice)
+116.254285714	C, interlude, | Gb:maj | Gb:maj | Db:maj6 | Db:maj6 |, (synth
+123.719977324	| Gb:maj | Gb:maj | Db:maj6 | Bb:7(#9) | Bb:7(#9) |, synth)
+133.044263038	D, bridge, | Eb:min7 | Ab:7 | F:min7 | Bb:min7 |, (voice
+140.529070294	| Eb:min7 | Eb:min7 | Ab:sus4(b7) | Ab:sus4(b7) |
+147.99015873	B, verse, | Bb:maj | Bb:7 | Bb:maj | Bb:7 |
+155.452902494	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+162.917210884	| G:min | G:min | F:maj | F:maj |
+170.386689342	| Ab:maj(9) | Ab:maj(9) | Ab:maj(9) | Ab:maj(9) |
+177.87095238	B', chorus, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+185.342834467	| Eb:maj | Eb:maj | Eb:maj | Eb:maj |
+192.750181405	| G:min | G:min | F:maj | F:maj |
+200.25095238	| Ab:maj(9) | Ab:maj(9) | Ab:maj(9) | Ab:maj(9) |, voice)
+207.719705215	C', interlude, | Gb:maj | Gb:maj | Db:maj6 | Bb:7(#9) | Bb:7(#9) |, (synth
+217.061451247	D, bridge, | Eb:min7 | Ab:7 | F:min7 | Bb:min7 |, synth)
+224.513061224	| Eb:min7 | Eb:min7 | Ab:sus4(b7) | Ab:sus4(b7) |, (voice
+# tonic: Cb
+231.969365079	E, outro, | Cb:maj(9) | Cb:maj(9) | Cb:maj(9) | Cb:maj(9) |
+239.451564625	| Cb:maj(9) | Cb:maj(9) | Cb:maj(9) | Cb:maj(9) |
+246.930453514	fadeout, | Cb:maj(9) | Cb:maj(9) | Cb:maj(9) | Cb:maj(9) |
+254.415215419	| Cb:maj(9) | Cb:maj(9) | Cb:maj(9) | Cb:maj(9) |
+261.871496598	| Cb:maj(9) | Cb:maj(9) | Cb:maj(9) | Cb:maj(9) |, voice)
+268.62371882	silence
+272.538503401	end

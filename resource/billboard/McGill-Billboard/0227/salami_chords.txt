@@ -1,0 +1,51 @@
+# title: Promises In The Dark
+# artist: Pat Benatar
+# metre: 4/4
+# tonic: F
+
+0.000000000	silence
+0.487619047	A, intro, | F:maj | F:maj | F:maj | F:maj |, (guitar)
+9.222721088	B, verse, | F:maj | F:maj | Bb:maj | Bb:maj |, (voice
+17.829183673	| F:maj | F:maj | Bb:maj | Bb:maj |
+26.486281179	| Bb:maj | Bb:maj | D:min7 | D:min7 |
+35.045623582	| Bb:maj | Bb:maj | C:maj | C:maj |
+43.475918367	C, chorus, | D:min7 C:maj | Bb:maj | Bb:maj | Bb:maj |
+51.595532879	| F:maj | F:maj | Bb:maj | Bb:maj |
+59.483537414	| G:min | G:min | A:min7 | A:min7 |, voice)
+66.943129251	D, trans, | D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |, (guitar
+73.081496598	| D:min | A:min7 Bb:maj | Bb:maj | Bb:maj |, guitar)
+79.211541950	B, verse, | F:maj | F:maj | Bb:maj | Bb:maj |, (voice
+85.271451247	| F:maj | F:maj | Bb:maj | Bb:maj |
+91.327006802	| Bb:maj | Bb:maj | D:min7 | D:min7 |
+97.455646258	| Bb:maj | Bb:maj | C:maj | C:maj |
+103.562335600	C, chorus, | D:min7 C:maj | Bb:maj | Bb:maj | Bb:maj |
+109.682471655	| F:maj | F:maj | Bb:maj | Bb:maj |
+115.759070294	| G:min | G:min | A:min7 | A:min7 |, voice)
+121.750770975	D, trans, | D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |, (guitar
+127.838117913	| D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |, guitar)
+133.909229024	E, bridge, | Bb:maj7 | C:maj | G:maj | G:maj |, (voice
+140.218866213	| Bb:maj | Bb:maj | C:maj | C:maj |
+146.488004535	| Bb:maj7 | C:maj | D:min | D:min |
+152.673242630	| D:min | D:min | C:maj | Bb:maj | C:maj |, voice)
+160.296530612	D', solo, | D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |, (guitar
+166.424965986	| D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |
+172.466439909	| D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |
+178.513832199	| D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |
+184.585374149	E, solo, | Bb:maj7 | C:maj | D:min | D:min |
+190.619138321	| D:min | D:min | C:maj | Bb:maj | C:maj |
+198.186734693	D, trans, | D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |
+204.211428571	| D:min | A:min7 Bb:maj | Bb:maj | Bb:maj |, guitar)
+210.221587301	B, verse, | F:maj | F:maj | Bb:maj | Bb:maj |, (voice
+216.242358276	| F:maj | F:maj | Bb:maj | Bb:maj |
+222.245079365	| Bb:maj | Bb:maj | D:min7 | D:min7 |
+228.270997732	| Bb:maj | Bb:maj | C:maj | C:maj |
+234.193514739	C, chorus, | D:min7 C:maj | Bb:maj | Bb:maj | Bb:maj |
+240.214013605	| F:maj | F:maj | Bb:maj | Bb:maj |
+246.228344671	| G:min | G:min | A:min7 | A:min7 | A:min7 | (2/4) A:min7 | A:min7 |, voice)
+256.660839002	D, coda, | D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |, (guitar
+262.669750566	| D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |
+268.623492063	| D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |
+274.566485260	| D:min | A:min7 Bb:maj | D:min | A:min7 Bb:maj |
+280.597641723	| D:min | D:min |, guitar)
+286.046621315	silence
+288.104489795	end

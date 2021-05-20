@@ -1,0 +1,67 @@
+# title: Tonight, Tonight, Tonight
+# artist: Genesis
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+6.9659863e-2	A, intro, | N | N | N | N |, (synthesizer
+9.90861678	B, instrumental, | Bb:maj | Bb:maj | A:1(11) | A:1(11) D:5 |
+19.668299319	| Bb:maj | Bb:maj | A:1(11) | A:1(11) D:5 |, synthesizer)
+29.44893424	B, verse, | Bb:maj | Bb:maj | A:1(11) | A:1(11) D:5 |, (voice
+39.291383219	| Bb:maj | Bb:maj | A:1(11) | A:1(11) D:5 |
+49.069818594	| Bb:maj | Bb:maj | C:maj | C:maj |
+58.876235827	| D:7 | D:7 |
+63.690816326	C, chorus, | G:sus4(b7) | G:sus4(b7) | A:min/b7 | A:min/b7 |
+73.493310657	| G:sus4(b7) | G:sus4(b7) | A:min/b7 | A:min/b7 |, voice)
+83.312517006	B, instrumental, | Bb:maj | Bb:maj | A:1(11) | A:1(11) D:5 |, (synthesizer)
+93.113356009	B, verse, | Bb:maj | Bb:maj | A:1(11) | A:1(11) D:5 |, (voice
+102.872698412	| Bb:maj | Bb:maj | A:1(11) | A:1(11) D:5 |
+112.676122448	| Bb:maj | Bb:maj | C:maj | C:maj |
+122.464421768	| D:7 | D:7 |
+127.365759637	C, chorus, | G:sus4(b7) | G:sus4(b7) | A:min/b7 | A:min/b7 |
+137.117777777	| G:sus4(b7) | G:sus4(b7) | A:min/b7 | A:min/b7 |
+146.916099773	D, pre-chorus, | G:min7 | C:maj | G:min7 | C:maj |
+156.683446712	| F:maj | F:maj |
+161.643287981	| G:min7 | C:maj | G:min7 | C:maj |
+171.387755102	| D:maj | D:maj |
+176.304172335	C, chorus, | G:sus4(b7) | G:sus4(b7) | A:min/b7 | A:min/b7 |
+186.085442176	| G:sus4(b7) | G:sus4(b7) | A:min/b7 | A:min/b7 |, voice)
+196.04877551	A, interlude, | D:1 | D:1 | D:1 | D:1 |, (synthesizer
+205.707913832	| D:1 | D:1 | D:1 | D:1 |
+215.427165532	| D:1 | D:min | Bb:1(3) | C:maj |
+225.315419501	| G:min | D:min | Bb:maj | C:maj |
+235.104535147	| A:sus4 | G:min | G:min | D:1 |
+244.860362811	| D:1 | D:min7 | D:min7 | D:min7 |
+254.620022675	| D:min7 | D:min7 | D:min7 | Bb:maj/3 |
+264.441678004	| G:maj/5 | C:maj/9 | D:min7 | Bb:maj(9)/3 |
+274.282811791	| C:maj/9 | D:min7 | D:min7 |
+281.669841269	| G:min7/5 | G:7 |
+286.457732426	| C:maj | D:min | G:min7 |
+293.851292517	| C:maj | D:sus4(b7) | D:5 D:sus4(b7) |
+301.14585034	| D:1(#5) D:5 | D:5 |, synthesizer)
+306.032902494	E, bridge, | Bb:maj A:min | F:maj D:min | G:sus4 | G:maj |, (voice
+315.843922902	| Bb:maj A:min | F:maj D:min | G:sus4 | G:maj |
+325.563129251	| Bb:maj A:min F:maj D:min | G:maj | Bb:maj A:min F:maj D:min | G:sus4(b7)/11 |
+335.390544217	| A:min7/b3 | G:sus4(b7)/11 | A:min7/b3 | G:sus4(b7)/11 |
+345.228049886	| A:min7/b3 | G:sus4(b7)/11 | A:min7/b3 |
+352.542290249	| D:7 | D:7 | D:7 | D:7 |, voice)
+362.317823129	B, instrumental, | Bb:maj | Bb:maj | A:1(11) | A:1(11) D:maj |, (synthesizer)
+372.101950113	B, verse, | Bb:maj | Bb:maj | A:1(11) | A:1(11) D:maj |, (voice
+381.974444444	| Bb:maj | Bb:maj | A:1(11) | A:1(11) D:maj |
+391.753968253	| Bb:maj | Bb:maj | C:maj | C:maj |
+401.518752834	| D:7 | D:7 |
+406.391496598	C, chorus, | G:sus4(b7) | G:sus4(b7) | G:maj6 | G:maj6 |
+416.201360544	| G:sus4(b7) | G:sus4(b7) | G:maj6 | G:maj6 |
+425.981473922	E', bridge, | C:sus4(b7) | C:maj6 | C:sus4(b7) | C:maj6 |
+435.745374149	| C:sus4(b7) | C:maj6 | C:sus4(b7) | C:maj6 |
+445.593696145	C, chorus, | D:min7 | D:min7 | E:min/b7 | E:min/b7 |
+455.342562358	| D:min7 | D:min7 | E:min/b7 | E:min/b7 |
+465.1792517	C, chorus, | D:min7 | D:min7 | E:min/b7 | E:min/b7 |
+474.96478458	| D:min7 | D:min7 | E:min/b7 | E:min/b7 |
+484.742607709	C, fadeout, | D:min7 | D:min7 | E:min/b7 | E:min/b7 |
+494.537120181	| D:min7 | D:min7 | E:min/b7 | E:min/b7 |
+504.336439909	| D:min7 | D:min7 | E:min/b7 | E:min/b7 |
+514.091564625	| D:min7 | D:min7 | E:min/b7 | E:min/b7 |
+523.870748299	| D:min7 | D:min7 | E:min/b7 | E:min/b7 |, voice)
+525.746213151	silence
+533.603265306	end

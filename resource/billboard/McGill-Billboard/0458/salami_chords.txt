@@ -1,0 +1,39 @@
+# title: Addicted to Love
+# artist: Robert Palmer
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.510839002	A, intro, | N | N | N | N |
+10.400090702	| N | N | N | N | N |
+19.086802721	B, instrumental, | A:maj | A:maj | G:maj | G:maj |
+27.783650793	| D:maj/5 | D:maj/5 | A:maj | A:maj |
+36.377188208	| A:maj | A:maj | G:maj | G:maj |
+44.911043083	| D:maj | D:maj | A:maj | A:maj |
+53.48446712	B, verse, | A:maj | A:maj | G:maj | G:maj |, (voice
+62.100453514	| D:maj/5 | D:maj/5 | A:maj | A:maj |
+70.650929705	| A:maj | A:maj | G:maj | G:maj |
+79.225827664	| D:maj | D:maj | A:maj | A:maj |
+87.826190476	C, chorus, | F#:min11 | D:maj | A:maj | A:maj |
+96.411632653	| F#:min11 | D:maj | D:maj | D:maj D:sus4(b7) |
+104.941179138	B, verse, | A:maj | A:maj | G:maj | G:maj |
+113.61526077	| D:maj/5 | D:maj/5 | A:maj | A:maj |
+122.230907029	| A:maj | A:maj | G:maj | G:maj |
+130.811156462	| D:maj/5 | D:maj/5 | A:maj | A:maj |
+139.365328798	C, chorus, | F#:min11 | D:maj | A:maj | A:maj |
+148.023650793	| F#:min11 | D:maj | D:maj | D:maj D:sus4(b7) |
+156.594263038	B, interlude, | A:maj | A:maj | G:maj | G:maj |
+165.205034013	| D:maj/5 | D:maj/5 | A:maj | A:maj |
+173.820498866	| N | N |, voice)
+178.060272108	B, solo, | A:maj | A:maj | G:maj | G:maj |, (guitar
+186.848820861	| D:maj/5 | D:maj/5 | A:maj | A:maj |, guitar)
+195.400113378	B, verse, | A:maj | A:maj | G:maj | G:maj |, (voice
+204.034603174	| D:maj/5 | D:maj/5 | A:maj | A:maj |
+212.645192743	C, chorus, | F#:min11 | D:maj | A:maj | A:maj |
+221.259637188	| F#:min11 | D:maj | D:maj | D:maj D:sus4(b7) |
+229.717142857	B, interlude, | A:maj | A:maj | G:maj | G:maj |
+238.329795918	| D:maj/5 | D:maj/5 | A:maj | A:maj |
+246.94095238	fadeout, | A:maj | A:maj | G:maj | G:maj |
+255.464353741	| D:maj/5 | D:maj/5 | A:maj | A:maj |, voice)
+261.456689342	silence
+264.933877551	end

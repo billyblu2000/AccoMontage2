@@ -1,0 +1,38 @@
+# title: Rock And Roll Never Forgets
+# artist: Bob Seger
+# metre: 4/4
+# tonic: E
+
+0.000000000	A, intro, | E:maj | E:maj | A:maj | N E:min/b3 E:maj . |, (guitar
+6.942766439	| E:maj | E:maj | A:maj | N E:min/b3 E:maj . |, guitar)
+13.309297052	B, verse, | F#:7 | F#:7 | E:maj | E:maj |, (voice 
+19.377823129	| F#:7 | F#:7 | E:maj | E:maj |
+25.414988662	| A:maj | E:maj | A:maj | E:maj |
+31.363356009	| A:maj | E:maj | B:7 | B:7 |
+37.459546485	| F#:7 | F#:7 | F#:maj | B:maj | E:maj | E:maj |
+46.785918367	B, verse, | F#:7 | F#:7 | E:maj | E:maj |
+52.782517006	| F#:7 | F#:7 | E:maj | E:maj |
+58.770975056	| A:maj | E:maj | A:maj | E:maj |
+64.822585034	| A:maj | E:maj | B:7 | B:7 |
+70.928208616	| F#:7 | F#:7 | F#:maj | B:maj | E:maj | E:maj |
+80.199183673	C, chorus, | A:maj | E:maj | A:maj | E:maj |
+86.109977324	| A:maj | E:maj | B:7 | B:7 | B:7 | B:7 |, voice)
+95.079047619	B', solo, | F#:7 | F#:7 | E:maj | E:maj |, (guitar
+100.996485260	| F#:7 | F#:7 | E:maj | E:maj |, guitar)
+107.024376417	| A:maj | E:maj | A:maj | E:maj |, (voice
+112.971882086	| A:maj | E:maj | B:7 | B:7 |
+119.012562358	| F#:7 | F#:7 | F#:maj | B:maj | E:maj | E:maj |
+128.254240362	| F#:maj | B:maj | E:maj | E:maj |
+134.323151927	| F#:maj | B:maj | E:maj | E:maj |, voice)
+140.479977324	A, interlude, | E:maj | E:maj | A:maj | N E:min/b3 E:maj . |, (guitar
+146.748526077	| E:maj | E:maj | A:maj | N E:min/b3 E:maj . |, guitar)
+152.975578231	A, chorus, | E:maj | E:maj | A:maj | E:maj |, (voice
+158.928594104	| E:maj | E:maj | A:maj | E:maj |, voice)
+164.830136054	A, solo, | E:maj | E:maj | A:maj | E:maj |, (guitar
+170.715895691	| E:maj | E:maj | A:maj | E:maj |
+176.617800453	| E:maj | E:maj | A:maj | E:maj |
+182.491451247	| E:maj | E:maj | A:maj | E:maj |
+188.483832199	| E:maj | E:maj | A:maj | E:maj |
+194.377868480	| E:maj | E:maj | A:maj | A:maj E:maj | E:maj | E:maj | E:maj | E:maj |
+207.865034013	D, outro, | C:maj |, guitar)
+215.693990929	end

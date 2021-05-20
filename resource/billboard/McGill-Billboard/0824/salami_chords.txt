@@ -1,0 +1,30 @@
+# title: 50 Ways To Leave Your Lover
+# artist: Paul Simon
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.417959183	A, intro, | N | N | N | N |, (drums)
+10.126235827	B, verse, | E:min/b3 B:min | C:maj7 B:7(b9) | E:min B:7/3 | B:7/5 B:7(b9) |, (voice
+19.559115646	| E:min B:min/b3 | C:maj7 B:7(b9) | E:min A:min7 | E:min |
+28.981156462	| E:min/b3 B:min/b3 | C:maj7 B:7(b9) | E:min B:7/3 | B:7/5 B:7(b9) |
+38.456371882	| E:min B:min/b3 | C:maj7 B:7(b9) | E:min A:min7 | E:min |
+47.874875283	| E:min A:min7 | E:min |
+52.535464852	C, chorus, | G:maj | Bb:maj6 | C:maj | G:maj |
+61.921133786	| G:maj | Bb:maj6 | C:maj | G:maj |
+71.225691609	| G:maj | Bb:maj6 | C:maj | G:maj |
+80.529795918	| G:maj | Bb:maj6 | C:maj |, voice)
+87.602290249	A', trans, | G:maj | G:maj |, (drums)
+92.332222222	B, verse, | E:min/b3 B:min | C:maj7 B:7(b9) | E:min B:7/3 | B:7/5 B:7(b9) |, (voice
+101.930068027	| E:min B:min/b3 | C:maj7 B:7(b9) | E:min A:min7 | E:min |
+111.385827664	| E:min/b3 B:min/b3 | C:maj7 B:7(b9) | E:min B:7/3 | B:7/5 B:7(b9) |
+120.86478458	| E:min B:min/b3 | C:maj7 B:7(b9) | E:min A:min7 | E:min |
+130.372290249	| E:min A:min7 | E:min |
+135.162108843	C, chorus, | G:maj | Bb:maj6 | C:maj | G:maj |
+144.573287981	| G:maj | Bb:maj6 | C:maj | G:maj |
+153.923673469	| G:maj | Bb:maj6 | C:maj | G:maj |
+163.370566893	| G:maj | Bb:maj6 | C:maj |, voice)
+170.365215419	A, fadeout, | N | N | N | N |, (drums
+179.933424036	| N | N | N | N | N |, drums)
+190.728707482	silence
+195.030204081	end

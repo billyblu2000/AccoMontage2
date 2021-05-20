@@ -1,0 +1,26 @@
+# title: It's Only Rock and Roll (But I Like It) 
+# artist: Rolling Stones
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.41632653	A, intro, | E:maj | E:maj | E:maj | E:maj |, (electric guitar)
+8.252154195	B, verse, | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | A:maj G:maj E:maj . |, (voice
+25.233310657	| E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | A:maj G:maj E:maj . | E:maj |
+43.970566893	C, chorus, | A:maj | A:maj | E:maj | E:maj | A:maj | A:maj | E:maj D:maj | A:maj E:maj |
+58.861247165	| A:maj | A:maj | E:maj | E:maj | A:maj | A:maj | D:maj A:maj | D:maj A:maj | E:maj | E:maj |
+77.569297052	B, verse, | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | A:maj G:maj E:maj . |
+94.27802721	| E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | A:maj G:maj E:maj . | E:maj |
+112.881950113	C, chorus, | A:maj | A:maj | E:maj | E:maj | A:maj | A:maj | E:maj D:maj | A:maj E:maj |
+127.758979591	| A:maj | A:maj | E:maj | E:maj | A:maj | A:maj | D:maj A:maj | D:maj A:maj | E:maj | E:maj |
+146.483151927	D, bridge, | B:maj | B:maj | A:maj | A:maj |
+153.923696145	| B:maj | B:maj | A:maj | A:maj |, voice)
+161.404421768	E, solo, | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | E:maj | A:maj G:maj E:maj . | E:maj |, (electric guitar)
+180.031882086	C, chorus, | A:maj | A:maj | E:maj | E:maj |, (voice
+187.473650793	| A:maj | A:maj | E:maj | E:maj |
+194.837074829	| A:maj | A:maj | E:maj | E:maj |
+202.251451247	| A:maj | A:maj | E:maj D:maj | A:maj E:maj |
+209.892244897	| A:maj | A:maj | E:maj | E:maj | x12
+298.711587301	| A:maj | A:maj | E:maj | E:maj |, fadeout, voice)
+304.871428571	silence
+307.173877551	end

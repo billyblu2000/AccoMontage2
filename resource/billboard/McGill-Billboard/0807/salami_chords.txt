@@ -1,0 +1,33 @@
+# title: You Took The Words Right Out Of My Mouth
+# artist: Meat Loaf
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+4.7165532e-2	A, intro, | G:maj | C:maj | C:maj | D:maj | x2, (piano
+15.697596371	| G:maj | G:maj | G:maj | G:maj |, piano)
+23.311179138	B, verse, | G:maj | C:maj | G:maj | C:maj |, (voice
+31.15510204	| G:maj | C:maj | F:maj | A:min B:min C:maj D:maj |
+39.024240362	| G:maj | G:maj |
+42.86154195	B, verse, | G:maj | C:maj | G:maj | C:maj |
+50.760997732	| G:maj | C:maj | F:maj | A:min B:min C:maj D:maj | A:min B:min C:maj D:maj | A:min B:min C:maj D:maj |
+62.857596371	| G:maj | G:maj |
+66.732630385	C, pre-chorus, | A:min E:min | F:maj G:maj | A:min | C:maj G:maj |
+74.8092517	| A:min E:min | F:maj G:maj | E:min | E:min D:maj |, voice)
+82.885646258	D, interlude, | N | N |, (drums)
+86.824535147	E, chorus, | C:maj | G:maj | F:maj | G:maj |, (voice
+94.967006802	| C:maj | G:maj | A:min B:min C:maj D:maj | E:min D:maj/3 G:maj G:maj/3 |
+102.73292517	| C:maj | E:min D:maj |
+106.786553287	E, chorus, | C:maj | G:maj | F:maj | G:maj |
+114.716258503	| C:maj | G:maj | A:min B:min C:maj D:maj | E:min D:maj/3 G:maj G:maj/3 |
+122.713469387	| C:maj | E:min D:maj |
+126.689319727	B', outro, | G:maj | C:maj | G:maj | C:maj | x8
+190.412834467	| G:maj | C:maj | D:maj | C:maj |
+197.863333333	| G:maj | C:maj | G:maj | C:maj |
+205.224149659	E', outro, | C:maj | N | N | N |
+213.099863945	| N | N | N | N | x4
+243.785442176	| N | N | N | G:maj |
+251.297369614	| C:maj | G:maj | F:maj | G:maj | x3
+273.389682539	| C:maj | G:maj | F:maj |, voice)
+278.752653061	Z
+290.115918367	end

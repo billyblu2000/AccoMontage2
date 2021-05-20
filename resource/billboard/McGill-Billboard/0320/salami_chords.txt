@@ -1,0 +1,29 @@
+# title: Floy Joy
+# artist: The Supremes
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.534058956	A', intro, | N | N | N | N |, (voice
+8.939682539	| N | N | N | N |, voice)
+15.952108843	B, interlude, | F:maj(9) | F:maj(9) | F:maj(9) | F:maj(9) |, (vibraphone)
+23.045056689	A, chorus, | F:maj | F:maj | G:min | G:min |, (voice
+30.155827664	C, verse, | F:maj F:maj/b7 | D:maj | Bb:maj | G:min7 G:min7/11 |
+37.206303854	| F:maj F:maj/b7 | D:maj | Bb:maj | G:min7 G:min7/11 |
+44.234013605	A, chorus, | F:maj | F:maj | G:min | G:min |
+51.292879818	C, verse, | F:maj F:maj/b7 | D:maj | Bb:maj | G:min7 G:min7/11 |
+58.328526077	| F:maj F:maj/b7 | D:maj | Bb:maj | G:min7 G:min7/11 |
+65.389637188	A, chorus, | F:maj | F:maj | G:min | G:min |
+72.423151927	| F:maj | F:maj | G:min | G:min |
+79.435464852	| F:maj | F:maj | G:min | G:min |
+86.44446712	D, bridge, | Bb:maj | A:min | Ab:maj Eb:maj | F:maj |
+93.513854875	| Bb:maj | A:min | G:min7 | C:maj |
+100.587052154	A, chorus, | F:maj | F:maj | G:min | G:min |
+107.712063492	C, verse, | F:maj F:maj/b7 | D:maj | Bb:maj | G:min7 G:min7/11 |
+114.683356009	| F:maj F:maj/b7 | D:maj | Bb:maj | G:min7 G:min7/11 |
+121.717346938	A, chorus, | F:maj | F:maj | G:min | G:min |
+128.718798185	| F:maj | F:maj | G:min | G:min |
+135.627755102	| F:maj | F:maj | G:min | G:min |
+142.643287981	fadeout, | F:maj | F:maj | G:min | G:min | F:maj |, voice)
+150.883265306	silence
+155.11510204	end

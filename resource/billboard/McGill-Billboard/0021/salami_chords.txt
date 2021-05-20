@@ -1,0 +1,39 @@
+# title: Just Can't Wait
+# artist: The J. Geils Band
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.30185941	A, intro, | G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+6.665238095	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+12.933151927	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |, (organ
+19.281927437	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |, organ)
+25.584920634	B, verse, | G:maj | D:maj | C:maj | E:min |, (voice
+31.881655328	| G:maj | D:maj | C:maj | E:min |
+38.176077097	| A:min | B:min | E:min | E:min |
+44.515328798	| A:min | B:min | C:maj | D:maj |
+50.840385487	A, chorus, | G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+57.109795918	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+63.438820861	B, verse, | G:maj | D:maj | C:maj | E:min |
+69.753764172	| G:maj | D:maj | C:maj | E:min |
+76.022040816	| A:min | B:min | E:min | E:min |
+82.379115646	| A:min | B:min | C:maj | D:maj |
+88.683832199	A, chorus, | G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+94.967460317	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D#:dim |
+101.28786848	C, bridge, | E:min | D:maj | E:min D:maj | C:maj |
+107.649047619	| E:min | D:maj | E:min D:maj | C:maj | C:maj |, voice)
+115.566734693	A, solo, | G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |, (guitar
+121.87755102	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+128.146757369	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+134.495963718	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |, guitar)
+140.824897959	B', verse, | A:min | B:min | E:min | E:min |, (voice
+147.208140589	| A:min | B:min | C:maj | D:maj | D:maj |
+155.029365079	A, chorus, | G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+161.327845804	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+167.647596371	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+173.983582766	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+180.349160997	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |
+186.648503401	| G:maj | D:maj . G:maj/5 D:maj | C:maj | D:maj . G:maj/5 D:maj |, voice)
+192.958798185	A', coda, | G:maj C:maj | G:maj C:maj | G:maj C:maj | G:maj |, (guitar)
+204.056961451	silence
+207.986938775	end

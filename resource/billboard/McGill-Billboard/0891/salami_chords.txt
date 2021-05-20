@@ -1,0 +1,51 @@
+# title: Happy Jack
+# artist: The Who
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.185759637	A, intro, | N | D:maj | D:maj | D:maj | D:maj |, (guitar)
+5.852834467	B, verse, | D:maj | D:maj | (2/4) A:maj |, (voice)
+8.203582766	| D:maj | D:maj | D:maj | D:maj |, (guitar)
+11.944444444	| D:maj | D:maj | (2/4) A:maj |, (voice)
+14.316598639	| D:maj | D:maj |, (guitar
+16.222834467	A, trans, | N | N | D:maj | D:maj |, guitar)
+19.876281179	B, verse, | D:maj | D:maj | (2/4) A:maj |, (voice)
+22.231587301	| D:maj | D:maj | D:maj | D:maj |, (guitar)
+25.898458049	| D:maj | D:maj | (2/4) A:maj |, (voice)
+28.212244897	| D:maj | D:maj |, (guitar
+30.101746031	C, trans, | D:maj | D:maj | D:maj | D:maj |
+33.755056689	| D:maj | D:maj | D:maj | D:maj |, guitar)
+37.370929705	D, pre-chorus, | G:maj | G:maj | A:maj | A:maj |, (voice
+41.02371882	| G:maj | G:maj | A:maj | A:maj |, voice)
+44.698412698	| A:maj | A:maj | A:maj | A:maj |, (guitar)
+48.227845804	B, chorus, | D:maj | D:maj | (2/4) A:maj |, (voice)
+50.548843537	| D:maj | D:maj | D:maj | D:maj |, (guitar)
+54.355578231	| D:maj | D:maj | (2/4) A:maj |, (voice)
+56.703129251	| D:maj | D:maj |, (guitar
+58.587573696	E', interlude, | A:maj | A:maj | D:maj | D:maj |
+62.135646258	| A:maj | A:maj | D:maj | D:maj |
+65.694920634	| A:maj | A:maj | D:maj | D:maj |
+69.20802721	| A:maj | A:maj |
+70.932721088	C, trans, | D:maj | D:maj | D:maj | D:maj |, guitar)
+74.583582766	B, chorus, | D:maj | D:maj | (2/4) A:maj |, (voice)
+76.95723356	| D:maj | D:maj | D:maj | D:maj |, (guitar)
+80.691632653	| D:maj | D:maj | (2/4) A:maj |, (voice)
+82.987278911	| D:maj | D:maj |, (guitar
+84.85526077	E, interlude, | A:maj | A:maj | D:maj | D:maj |
+88.401088435	| A:maj | A:maj | D:maj | D:maj |
+91.955351473	| G:maj | G:maj | A:maj | D:maj |
+95.518594104	| G:maj | G:maj |
+97.310748299	| A:maj | A:maj | A:maj | A:maj |
+100.888548752	| A:maj | A:maj | A:maj | A:maj |, guitar)
+104.550181405	D, pre-chorus, | G:maj | G:maj | A:maj | A:maj |, (voice
+108.250022675	| G:maj | G:maj | A:maj | A:maj |, voice)
+111.86861678	| A:maj | A:maj | A:maj | A:maj |, (guitar)
+115.447256235	B, chorus, | D:maj | D:maj | (2/4) A:maj |, (voice)
+117.75941043	| D:maj | D:maj | D:maj | D:maj |, (guitar)
+121.478367346	| D:maj | D:maj | (2/4) A:maj |, (voice)
+123.788843537	| D:maj | D:maj |, (guitar
+125.66877551	A, coda, | N | N | D:maj |, (guitar)
+129.059274376	Z
+131.703582766	silence
+132.101224489	end

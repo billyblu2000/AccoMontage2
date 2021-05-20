@@ -1,0 +1,31 @@
+# title: Life Is A Carnival
+# artist: The Band
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.394739229	A, intro, | E:maj | E:maj | E:maj | E:maj |
+12.389501133	| E:maj | E:maj | E:maj | E:maj |
+22.964535147	B, verse, | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 |, (voice
+33.683333333	| E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 |
+44.068095238	C, pre-chorus, | A:maj | A:7 | E:7 | E:7 |
+54.67446712	| F#:min7 E:maj/3 | A:maj B:maj | E:maj E:sus4 E:maj E:sus2 |
+62.684172335	D, chorus, | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 |, voice)
+73.744058956	A, trans, | E:maj/5 E:maj . D:maj | D:maj D:maj/9 | E:maj/5 E:maj . D:maj | E:maj |
+84.349047619	B, verse, | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 |, (voice
+94.961179138	| E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 |
+105.331632653	C, pre-chorus, | A:maj | A:7 | E:7 | E:7 |
+115.928435374	| F#:min7 E:maj/3 | A:maj B:sus4 | E:maj E:sus4 E:maj E:sus2 |
+123.939002267	D, chorus, | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 |, voice)
+134.915578231	A, instrumental, | E:maj | E:maj | E:maj | E:maj |, (trumpet
+145.595328798	| E:maj | E:maj | E:maj | E:maj |
+156.20770975	| E:maj | E:maj | E:maj | E:maj |, trumpet)
+166.629909297	C, pre-chorus, | A:maj | A:7 | E:7 | E:7 |, (voice
+177.174897959	| F#:min7 E:maj/3 | A:maj B:sus4 | E:maj E:sus4 E:maj E:sus2 |
+185.27430839	D, chorus, | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj . . A:maj/5 |
+196.119523809	A', outro, | E:maj . . A:maj/5 | E:maj . . A:maj/5 | E:maj | E:maj |, voice)
+206.84600907	| E:maj | E:maj | E:maj | E:maj |
+217.297936507	fadeout, | E:maj | E:maj | E:maj | E:maj |
+227.702834467	| E:maj | E:maj |
+232.756825396	silence
+235.075918367	end

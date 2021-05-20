@@ -1,0 +1,17 @@
+# title: If you need me
+# artist: Solomon Burke 
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.301859410	A', intro, | A:maj | E:7 | F#:min | A:maj E:7 |, (guitar)
+17.486303854	A, chorus, | A:maj | E:7 | A:maj | D:maj |, (voice
+33.672471655	| A:maj | E:7 | F#:min | A:maj E:7 |
+49.805600907	B, chorus, | A:maj | E:7 | A:maj | D:maj |
+66.112562358	| A:maj | E:7 | F#:min | A:maj E:7 |
+82.429501133	B, chorus, | A:maj | E:7 | A:maj | D:maj |
+98.988934240	| A:maj | E:7 | F#:min | A:maj E:7 |
+115.172154195	B, chorus, | A:maj | E:7 | A:maj | D:maj |
+131.486258503	| A:maj | E:7 | F#:min | A:maj |, voice)
+150.140226757	silence
+153.077551020	end

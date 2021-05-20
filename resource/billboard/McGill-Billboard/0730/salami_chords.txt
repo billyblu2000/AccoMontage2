@@ -1,0 +1,33 @@
+# title: His Latest Flame
+# artist: Elvis Presley
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.394739229	A, intro, | G:maj | E:min | G:maj | E:min | G:maj | E:min |, (guitar)
+7.296281179	B, verse, | G:maj | E:min | G:maj | E:min |, (voice
+11.903310657	| G:maj | E:min | G:maj | E:min | E:min |
+17.614285714	| C:maj | D:maj |
+19.945147392	A, trans, | G:maj | E:min | G:maj | E:min |, (guitar)
+24.560430839	B, verse, | G:maj | E:min | G:maj | E:min |, (voice
+29.148072562	| G:maj | E:min | G:maj | E:min | E:min |
+34.853015873	| C:maj | D:maj |
+37.211065759	A, trans, | G:maj | E:min | G:maj | E:min |, (guitar)
+41.81478458	C, bridge, | D:maj | C:maj | D:maj | C:maj | D:maj | C:maj | D:maj | C:maj |, (voice
+50.797346938	| D:maj | C:maj | D:maj | C:maj | D:maj | C:maj |, voice)
+57.531723356	A, trans, | G:maj | E:min | G:maj | E:min |, (guitar)
+62.230136054	B, verse, | G:maj | E:min | G:maj | E:min |, (voice
+66.771836734	| G:maj | E:min | G:maj | E:min | E:min |
+72.558639455	| C:maj | D:maj |
+74.855804988	A, trans, | G:maj | E:min | G:maj | E:min |, (guitar)
+79.431882086	C, bridge, | D:maj | C:maj | D:maj | C:maj | D:maj | C:maj | D:maj | C:maj |, (voice
+88.550068027	| D:maj | C:maj | D:maj | C:maj | D:maj | C:maj |, voice)
+95.30941043	A, trans, | G:maj | E:min | G:maj | E:min |, (guitar)
+99.913106575	B', verse, | G:maj | E:min | G:maj | E:min |, (voice
+104.532403628	| G:maj | E:min | G:maj | E:min | E:min |
+110.314058956	| C:maj | D:maj | G:maj | E:min |
+114.91739229	fadeout, | C:maj | D:maj | G:maj | E:min |
+119.458480725	| C:maj | D:maj | G:maj | E:min |
+124.045306122	| C:maj | D:maj |, voice)
+126.13079365	silence
+128.809795918	end

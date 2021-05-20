@@ -1,0 +1,22 @@
+# title: The Rose
+# artist: Bette Midler
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+4.5351473e-2	C, intro, | C:5 | x4
+15.368707482	A, verse, | C:maj | G:maj/3 | F:maj/3 . . G:maj/3 | C:maj |
+30.566757369	| C:maj | G:maj/3 | F:maj/3 . . G:maj/3 | C:maj |
+45.951428571	| C:maj/7 | F:sus2/3 | F:maj/3 | F:maj/9 G:7 |
+61.910204081	| C:maj | G:maj/3 | F:maj/3 . . G:maj | C:maj(9) | C:maj(9) |
+80.91632653	A, verse, | C:maj(9) | G:maj(9) | F:maj(9) . . G:maj | C:maj(9) |
+95.512380952	| C:maj(9) | G:maj(9) | F:maj(9) . . G:maj | C:maj(9) |
+110.08	| E:min/5 | A:min(11) . . A:maj(11)/b7 | F:maj(9) | G:maj |
+124.987210884	| C:maj(9) | G:maj(9) | F:maj(9) . . G:maj | C:maj | C:maj |
+143.151020408	A, verse, | C:maj | G:maj | F:maj . . G:maj | C:maj |
+157.314285714	| C:maj | G:maj | F:maj . . G:maj | C:maj |
+171.469387755	| E:min | A:min(11) | F:maj(9) | G:maj(9) |
+186.81632653	| C:maj(9) | G:maj(9) | F:maj(9) . . G:maj | C:maj(9) | C:maj(9) |
+206.171428571	| C:maj(9) | C:maj |
+219.72648526	silence
+220.691156462	end

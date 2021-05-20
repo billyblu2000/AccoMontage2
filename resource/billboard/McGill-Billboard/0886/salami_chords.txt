@@ -1,0 +1,32 @@
+# title: Dance Hall Days
+# artist: Wang Chung
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.371519274	A, intro, | F:maj(9) C:maj | G:maj | F:maj(9) C:maj | G:maj |
+9.900113378	| F:maj(9) C:maj | G:maj | F:maj(9) C:maj | G:maj |
+19.21909297	B, verse, | F:maj C:maj | G:maj | F:maj C:maj | G:maj |, (voice
+28.59079365	| F:maj C:maj | G:maj | F:maj C:maj | G:maj |
+37.951315192	C, chorus, | F:maj C:maj/3 | G:maj | F:maj C:maj/3 | G:maj | F:maj C:maj/3 | G:maj |
+51.992312925	| F:maj C:maj/3 | C:min/b3 G:maj/5 | F:maj E:maj | A:min G:maj/3 C:maj . |, voice)
+61.353061224	A, trans, | F:maj C:maj | G:maj | F:maj C:maj | G:7 |
+70.699455782	B, verse, | F:maj C:maj | G:maj | F:maj C:maj | G:maj |, (voice
+80.006281179	| F:maj C:maj | G:maj | F:maj C:maj | G:maj |
+89.37201814	C, chorus, | F:maj C:maj/3 | G:maj | F:maj C:maj/3 | G:maj | F:maj C:maj/3 | G:maj |
+103.454104308	| F:maj C:maj/3 | C:min/b3 G:maj/5 | F:maj E:maj | A:min G:maj/3 C:maj . |, voice)
+112.711723356	A, trans, | F:maj(9) C:maj | G:maj | F:maj(9) C:maj | G:maj |
+122.094149659	| F:maj(9) C:maj | G:maj | F:maj(9) C:maj | G:7 |
+131.486122448	B, verse, | F:maj C:maj | G:sus4(b7) | F:maj C:maj | G:maj |, (voice
+140.821156462	| F:maj C:maj | G:sus4(b7) | F:maj C:maj | G:sus4(b7) |
+150.147029478	| F:maj C:maj | G:7 | F:maj C:maj | G:7 |
+159.435578231	| F:maj C:maj | G:7 | F:maj C:maj | G:7 |
+168.893424036	C, chorus, | F:maj C:maj/3 | G:maj | F:maj C:maj/3 | G:maj | F:maj C:maj/3 | G:maj |
+182.91632653	| F:maj C:maj/3 | C:min/b3 G:maj/5 | F:maj E:maj | A:min G:maj/3 C:maj . |, voice)
+192.307664399	A, trans, | F:maj(9) C:maj | G:maj | F:maj(9) C:maj | G:maj |
+201.622607709	| F:maj C:maj | G:7 | F:maj C:maj | G:7 |, (saxophone
+210.952517006	fadeout, | F:maj C:maj | G:7 | F:maj C:maj | G:7 |
+220.318639455	| F:maj C:maj | G:7 | F:maj C:maj | G:7 |
+229.649614512	| F:maj C:maj | G:7 | F:maj C:maj | G:7 |, saxophone)
+236.030839002	silence
+240.300408163	end

@@ -1,0 +1,24 @@
+# title: Don Gibson
+# artist: Sea of Heartbreak 
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.49632653	C, intro, | G:maj . . . | G:maj . . . |
+3.300136054	| G:maj . . . | G:maj . . . | D:7 . . . | D:7 . . . |
+8.589682539	A, verse, | G:maj . . . | G:maj . . . | E:min . . . | E:min . . . | C:maj . . . | C:maj . . . | D:7 . . . | D:7 . . . |
+19.061496598	| G:maj . . . | G:maj . . . | E:min . . . | E:min . . . | C:maj . . . | C:maj . . . | D:7 . . . | D:7 . . . |
+29.640272108	B, chorus, | G:maj . . . | G:maj . . . | D:7 . . . | D:7 . . . | G:7 . . . | G:7 . . . | C:maj . . . | C:maj . . . |
+40.158911564	| G:maj . . . | G:maj . . . | D:7 . . . | D:7 . . . | G:maj . . . | G:maj . . . | C:maj . . . | D:7 . . . |
+50.639773242	A, verse, | G:maj . . . | G:maj . . . | E:min . . . | E:min . . . | C:maj . . . | C:maj . . . | D:7 . . . | D:7 . . . |
+61.149750566	| G:maj . . . | G:maj . . . | E:min . . . | E:min . . . | C:maj . . . | C:maj . . . | D:7 . . . | D:7 . . . |
+71.704512471	B, chorus, | G:maj . . . | G:maj . . . | D:7 . . . | D:7 . . . | G:7 . . . | G:7 . . . | C:maj . . . | C:maj . . . |
+82.22185941	| G:maj . . . | G:maj . . . | D:7 . . . | D:7 . . . | G:maj . . . | G:maj . . . | G:7 . . . | G:7 . . . |
+92.832267573	F, bridge, | C:maj . . . | C:maj . . . | G:maj . . . | G:7 . . . | C:maj . . . | C:maj . . . | B:7 . . . | B:7 . . . |
+103.375238095	A, verse, | G:maj . . . | G:maj . . . | E:min . . . | E:min . . . | C:maj . . . | C:maj . . . | D:7 . . . | D:7 . . . |
+113.911292517	| G:maj . . . | G:maj . . . | E:min . . . | E:min . . . | C:maj . . . | C:maj . . . | D:7 . . . | D:7 . . . |
+124.505147392	B, chorus, | G:maj . . . | G:maj . . . | D:7 . . . | D:7 . . . | G:7 . . . | G:7 . . . | C:maj . . . | C:maj . . . |
+135.079138321	| G:maj . . . | G:maj . . . | D:7 . . . | D:7 . . . | G:maj . . . | G:maj . . . | C:maj . . . | D:7 . . . |
+145.618140589	E, fadeout, | G:maj . . . | G:maj . . . | C:maj . . . | D:7 . . . |
+151.074829931	silence
+154.453333333	end

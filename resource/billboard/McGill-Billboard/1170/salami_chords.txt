@@ -1,0 +1,55 @@
+# title: Summertime Blues
+# artist: Blue Cheer
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.278639455	A, intro, | D:5 Bb:maj G:5 Bb:maj | F:5 Ab:maj C:5 Ab:9 | D:5 Bb:maj G:5 Bb:maj | F:5 Ab:maj C:5 Ab:9 | Ab:9 | (2/4) Ab:9 |, (guitar
+12.560498866	B, verse, | C:5 | C:5 |, guitar)
+16.077029478	| C:5 | C:5 |, (voice)
+19.495374149	| C:1 F:1 | G:1 C:1 |, (guitar
+22.968979591	| C:5 | C:5 |, guitar)
+26.563628117	| C:5 | C:5 |, (voice)
+30.039047619	| C:1 F:1 | G:1 C:1 |, (guitar)
+33.555011337	C, chorus, | F:5 | F:5 |, (voice)
+37.097959183	| C:5 | N |, (guitar)
+40.630521541	| F:5 | F:5 | C:5 | (2/4) N |, (voice)
+46.725328798	B, verse, | C:5 | C:5 |, (guitar)
+50.383197278	| C:5 | C:5 |, (voice)
+53.830839002	| C:1 F:1 | G:1 C:1 |, (guitar
+57.348390022	| C:5 | C:5 |, guitar)
+60.865283446	| C:5 | N |, (voice)
+64.387482993	| C:1 F:1 | G:1 C:1 |, (guitar)
+67.889047619	C, chorus, | F:7 | F:7 |, (voice)
+71.483106575	| C:min7 | C:min7 |, (bass)
+74.870136054	| F:5 | F:5 | C:5 | (2/4) N |, (voice)
+80.990294784	B, verse, | C:5 | C:5 |, (guitar)
+84.553492063	| C:5 | C:5 |, (voice)
+88.007482993	| C:1 F:1 | G:1 C:1 |, (guitar
+91.527278911	| C:5 | C:5 |, guitar)
+95.046757369	| C:5 | C:5 |, (voice)
+98.5161678	| C:1 F:1 | G:1 C:1 |, (guitar)
+101.910589569	C, chorus, | F:5 | F:5 |, (voice)
+105.468435374	| C:5 | N |, (drums)
+108.834875283	| F:5 | F:5 | C:5 | (2/4) N |, (voice)
+114.909591836	D, solo, | Bb:1 | Bb:1 | Bb:1 | Bb:1 |, (guitar
+121.992108843	| Eb:1 | Eb:1 | Eb:1 | Eb:1 |
+128.705056689	| F:1 | F:1 | F:1 | F:1 |
+135.325895691	A, interlude, | D:5 Bb:maj G:5 Bb:maj | F:5 Ab:maj C:5 Ab:9 | D:5 Bb:maj G:5 Bb:maj | (3/4) F:5 Ab:maj C:5 |
+143.417256235	D, solo, | Eb:5 | Eb:5 | E:5 | E:5 |
+150.490997732	| F:5 | F:5 | Gb:5 | Gb:5 |
+157.327936507	| G:5 | G:5 | Ab:5 | Ab:5 |
+164.106054421	| A:5 | A:5 | Bb:5 | Bb:5 |
+170.900204081	| B:5 | B:5 | B:5 | B:5 |
+177.49478458	B, verse, | C:5 | C:5 |, guitar)
+180.968979591	| C:5 | C:5 |, (voice)
+184.387981859	| C:1 F:1 | G:1 C:1 |, (guitar
+187.902653061	| C:5 | C:5 |, guitar)
+191.376122448	| C:5 | C:5 |, (voice)
+194.826689342	| C:1 F:1 | G:1 C:1 |, (guitar)
+198.359977324	C, chorus, | F:5 | F:5 |, (voice)
+201.849750566	| C:5 | N |, (guitar)
+204.837097505	| F:5 | F:5 | C:5 | (2/4) N |, (voice)
+211.058548752	A, outro, | D:5 Bb:maj G:5 Bb:maj | F:5 Ab:maj C:5 Ab:9 | D:5 Bb:maj G:5 Bb:maj | F:5 Ab:maj C:5 Ab:9 | Ab:9 |, (guitar)
+224.327981859	silence
+226.194285714	end

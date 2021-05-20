@@ -1,0 +1,37 @@
+# title: Worried Guy
+# artist: Johnny Tillotson
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.255419501	A, intro, | G:maj | E:min | C:maj | D:7 |, (guitar)
+5.874648526	B, verse, | G:maj | G:maj | E:min7 | E:min7 |, (voice
+11.450702947	| C:maj | C:maj | Eb:maj | D:7 |
+16.957800453	| N | N | C:maj | A:7 |
+22.398140589	| G:maj | Eb:maj . . D:7 | G:maj . Bb:maj C:maj | C:maj D:7 . . |
+28.097414965	B, verse, | G:maj | G:maj | E:min7 | E:min7 |
+33.627165532	| C:maj | C:maj | Eb:maj | D:7 |
+39.176598639	| N | N | C:maj | A:7 |
+44.767823129	| G:maj | Eb:maj . . D:7 | G:maj | G:maj |
+50.483628117	C, bridge, | C:maj | C:maj | G:maj | G:maj |
+56.12941043	| E:min | E:min | C:min | D:maj |
+61.834739229	B, verse, | G:maj | G:maj | E:min7 | E:min7 |
+67.419387755	| C:maj | C:maj | Eb:maj | D:7 |
+72.914421768	| N | N | C:maj | A:7 |
+78.532970521	| G:maj | Eb:maj . . D:7 | ->, voice)
+81.375011337	B, verse, | G:maj | G:maj | E:min7 | E:min7 |, (strings
+87.050294784	| C:maj | C:maj | D:7 | D:7 |, strings)
+92.641133786	| N | N | C:maj | A:7 |, (voice
+98.240249433	| G:maj | Eb:maj . . D:7 | G:maj | G:maj |
+103.946394557	C, bridge, | C:maj | C:maj | G:maj | G:maj |
+109.629931972	| E:min | E:min | C:min | D:maj |
+# tonic: Ab
+115.267800453	B, verse, | Ab:maj | Ab:maj | F:min7 | F:min7 |
+120.926916099	| Db:maj | Db:maj | E:maj | Eb:7 |
+126.507074829	| N | N | Db:maj | Bb:7 |
+132.138979591	| Ab:maj | E:maj . . Eb:7 |
+135.00664399	| Ab:maj | E:maj . . Eb:7 | Ab:maj | E:maj . . Eb:7 |
+140.641882086	fadeout, | Ab:maj | E:maj . . Eb:7 | Ab:maj | E:maj Eb:7 |
+146.274399092	| Ab:maj | E:maj . . Eb:7 |, voice)
+147.95755102	silence
+150.230204081	end

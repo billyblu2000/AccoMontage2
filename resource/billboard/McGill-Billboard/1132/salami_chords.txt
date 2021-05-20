@@ -1,0 +1,36 @@
+# title: Those Lazy-Hazy-Crazy Days Of Summer
+# artist: Nat King Cole
+# metre: 4/4
+# tonic: Bb
+
+0.000000000	silence
+0.278639455	A', intro, | N Bb:maj/3 | Db:dim F:7/5 |, (voice
+4.342131519	A, chorus, | Bb:maj | Bb:maj | C:7 | C:7 |
+9.566621315	| F:7 F:maj6 | F:7 | Bb:maj Bb:maj/3 | Db:dim F:7/5 |
+15.054965986	| Bb:maj | Bb:maj | C:7 | C:7 |
+20.269229024	| F:7 | F:7 | Bb:maj | Bb:maj |
+25.524761904	B, verse, | D:7 | D:7 | D:7 | D:7 |
+30.764399092	| D:7 | D:7 | G:maj | G:maj |
+35.946870748	| C:7 | C:sus4(b7) B:7(b9)/3 | C:7 | C:7 |
+41.154716553	| C:7 | C:7 | F:7 Bb:maj/3 | Db:dim F:7/5 |
+46.469092970	A, chorus, | Bb:maj | Bb:maj | C:7 | C:7 |
+51.610884353	| F:7 F:maj6 | F:7 | Bb:maj Bb:maj/3 | Db:dim F:7/5 |
+56.971065759	| Bb:maj | Bb:maj | C:7 | C:7 |
+62.248526077	| F:7 | F:7 | Bb:maj F#:7 | C#:7 F#:7 |
+# tonic: B
+67.562834467	A, chorus, | B:maj | B:maj | C#:7 | C#:7 |
+72.826734693	| F#:7 | F#:7 | B:maj F#:7 | D:dim F#:7/5 |
+78.135419501	| B:maj | B:maj | C#:7 | C#:7 |
+83.387120181	| F#:7 | F#:7 | B:maj | B:maj |
+88.701224489	B, verse, | D#:7 | D#:7 | D#:7 | D#:7 |
+94.011292517	| D#:7 | D#:7 | G#:min | G#:min |
+99.267142857	| C#:7 | C#:sus4(b7) C:7(b9)/3 | C#:7 | C#:7 |
+104.508390022	| C#:7 | C#:7 | F#:maj | D:dim F#:7/5 |
+109.859274376	A, chorus, | B:maj | B:maj | C#:7 | C#:7 |
+115.123083900	| F#:7 | F#:7 | B:maj F#:maj | D:dim F#:7/5 |
+120.348253968	| B:maj | B:maj | C#:7 | C#:7 |
+125.570884353	A'', outro, | C#:7 | F#:7 | B:maj | B:maj |
+130.846485260	| C#:7 | F#:7 | B:maj | B:maj |
+135.946984126	| C#:7 | F#:7 | B:maj | B:maj |, voice)
+141.962857142	silence
+145.037233560	end

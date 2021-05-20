@@ -1,0 +1,45 @@
+# title: Schoool's out
+# artist: Alice Cooper
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.394739229	Z
+6.008163265	A, intro, | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |, (guitar
+13.175510204	| D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |
+20.048979591	| D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |
+26.612244897	| D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |, guitar)
+33.159183673	A, intro, | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |, (voice
+39.797573696	| D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |
+46.383673469	C, pre-chorus, | B:maj | B:maj . . C#:maj | D:maj | D:maj |
+53.159183673	B, chorus, | F#:min | F#:min7 B:maj/5 | F#:min | F#:min7 B:maj/5 |
+59.885714285	| F#:min | F#:min7 B:maj/5 | F#:min | F#:min7 B:maj/5 |
+66.497959183	| F#:min | F#:min7 B:maj/5 | F#:min | F#:min7 B:maj/5 |
+72.963265306	D, interlude, | G#:maj | G#:maj | E:maj | E:maj |
+79.918367346	E, bridge, | B:maj | B:maj | B:maj | B:maj |
+86.644897959	| C#:maj | C#:maj | C#:maj | C#:maj |, voice)
+93.387755102	A, solo, | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |, (guitar
+99.853061224	| D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |, guitar)
+106.4	A, verse, | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |, (voice
+112.930612244	| D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |
+119.475714285	B, chorus, | F#:min | F#:min7 B:maj/5 | F#:min | F#:min |
+126.024489795	| F#:min | F#:min7 B:maj/5 | F#:min | F#:min |
+132.587755102	| F#:min | F#:min7 B:maj/5 | F#:min | F#:min |, voice)
+139.036734693	D, interlude, | F#:min | E:maj | B:maj | B:maj |
+145.910204081	E, bridge, | B:maj | B:maj | B:maj | B:maj |, (voice
+152.55510204	| C#:maj | C#:maj | C#:maj | C#:maj |
+159.21632653	E, bridge, | B:maj | B:maj | B:maj | B:maj |
+165.811315192	| C#:maj | C#:maj | C#:maj | C#:maj |, voice)
+172.375510204	A, solo, | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |, (guitar
+178.889795918	| D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |
+185.289795918	A', solo, | F:min Bb:min/5 . F:min | F:min Bb:min/5 F:min . | F:min Bb:min/5 . F:min | F:min Bb:min/5 F:min . |
+191.844920634	| F:min Bb:min/5 . F:min | F:min Bb:min/5 F:min . | F:min Bb:min/5 . F:min | F:min Bb:min/5 F:min . |
+198.334693877	A, solo, | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |
+204.767346938	| D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . | D#:min G#:maj/5 . D#:min | D#:min G#:maj/5 D#:min . |, guitar)
+211.21632653	B, chorus, | F#:min | F#:min7 B:maj/5 | F#:min | F#:min |, (voice
+217.828571428	| F#:min | F#:min7 B:maj/5 | F#:min | F#:min |, (guitar
+224.391836734	| F#:min | F#:min7 B:maj/5 | F#:min | F#:min |
+230.873469387	D, outro, | F#:min | E:maj | B:maj | B:maj | &pause |, voice)
+242.432653061	| A:maj | F#:maj | &pause |, guitar)
+259.608163265	Z
+261.276734693	end

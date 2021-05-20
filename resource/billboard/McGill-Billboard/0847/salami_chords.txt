@@ -1,0 +1,21 @@
+# title: Sweet Surrender
+# artist: Bread
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.487619047	A', intro, | A:maj B:min(11)/b7 | A:maj B:min(11)/b7 | A:maj B:min(11)/11 | A:maj B:min(11)/11 |, (guitar)
+12.147120181	A, verse, | A:maj E:11 | A:maj E:11 | A:maj E:11 | A:maj7 A:7 |, (voice
+23.61324263	| D:maj E:maj | D:maj E:maj | A:maj E:11 | A:maj E:11 |
+34.874603174	A, verse, | A:maj E:11 | A:maj E:11 | A:maj E:11 | A:maj7 A:7 |
+46.505986394	| D:maj E:maj | D:maj E:maj | F#:min | F#:min . . E:maj |
+58.001655328	B, bridge, | D:maj E:maj/b7 | A:maj/3 A:maj/b7 | D:maj/3 E:maj | F#:min |
+69.39664399	| D:maj E:maj/b7 | A:maj/3 A:7 | D:maj E:maj | D:maj E:maj |
+81.003287981	A, verse, | A:maj E:11 | A:maj E:11 | A:maj E:11 | A:maj7 A:7 |
+92.520113378	| D:maj E:maj | D:maj E:maj | F#:min | F#:min D:maj |, voice)
+103.962607709	A, outro, | A:maj E:11 | A:maj E:11 | A:maj E:11 | A:maj7 A:7 |, (guitar)
+115.410226757	| D:maj E:maj | D:maj E:maj | F#:min | F#:min D:maj |, (voice
+126.858888888	| F#:min | F#:min B:7 | D:maj | E:maj |, voice) 
+138.33047619	A', outro, | A:maj E:11 | A:maj E:11 | A:maj D:min/5 | A:maj |, (guitar)
+153.843537414	silence
+156.708571428	end

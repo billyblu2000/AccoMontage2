@@ -1,0 +1,32 @@
+# title: The Ways Of A Woman In Love
+# artist: Johnny Cash
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.464399092	A, intro, | * | F:7 | F:7 | Bb:maj | Bb:maj |, (guitar)
+6.840975056	A, verse, | Bb:maj | Bb:maj | F:7 | F:7 |, (voice
+12.120385487	| F:7 | F:7 | Bb:maj | Bb:maj |
+17.344671201	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+22.626666666	| Bb:maj | F:7 | Bb:maj | Bb:maj |
+27.938276643	A, verse, | Bb:maj | Bb:maj | F:7 | F:7 |
+33.25031746	| F:7 | F:7 | Bb:maj | Bb:maj |
+38.522947845	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+43.852471655	| Bb:maj | F:7 | Bb:maj | Bb:maj |
+49.127029478	B, bridge, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+54.36941043	| Eb:maj | Eb:maj | Bb:maj | F:7 | F:7 |
+60.982380952	A, verse, | Bb:maj | Bb:maj | F:7 | F:7 |
+66.298548752	| F:7 | F:7 | Bb:maj | Bb:maj |
+71.571496598	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+76.864807256	| Bb:maj | F:7 | Bb:maj | Bb:maj |, voice)
+82.170136054	A', solo, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |, (piano
+87.404716553	| Bb:maj | F:7 | Bb:maj | Bb:maj |, piano)
+92.69063492	B, bridge, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |, (voice
+98.037913832	| Eb:maj | Eb:maj | Bb:maj | F:7 | F:7 |
+104.646757369	A, verse, | Bb:maj | Bb:maj | F:7 | F:7 |
+109.921428571	| F:7 | F:7 | Bb:maj | Bb:maj |
+115.284965986	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+120.55941043	| Bb:maj | F:7 | Bb:maj | Bb:maj |
+125.863696145	| Bb:maj | F:7 | Bb:maj | Bb:maj |, voice)
+133.909478458	silence
+136.724897959	end

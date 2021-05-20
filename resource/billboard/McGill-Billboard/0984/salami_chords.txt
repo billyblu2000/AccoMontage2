@@ -1,0 +1,25 @@
+# title: Hello Stranger
+# artist: Barbara Lewis
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.371519274	B, intro, | C:maj | C:maj | D:min7 | G:7 |
+9.773492063	A, verse, | C:maj9 | C:maj9 | D:min7 | D:min7 |, (voice
+18.996598639	| E:min7 | E:min7 | D:min7 | D:min7 G:maj |
+28.29031746	| C:maj9 | C:maj9 | D:min7 | D:min7 G:maj |
+37.624875283	| C:maj9 | C:maj9 | D:min7 | G:7 |
+46.941179138	A, verse, | C:maj9 | C:maj9 | D:min7 | D:min7 |
+56.110430839	| E:min7 | E:min7 | D:min7 | D:min7 G:maj |
+65.415464852	| C:maj9 | C:maj9 | D:min7 | D:min7 G:maj |
+74.640385487	| C:maj7 | C:maj7 | D:min7 | G:7 |
+83.789591836	A, verse, | C:maj9 | C:maj9 | D:min7 | D:min7 |
+93.153650793	| E:min7 | E:min7 | D:min7 | D:min7 G:maj |
+102.270566893	| C:maj9 | C:maj9 | D:min7 | D:min7 |
+111.519795918	| C:maj7 | C:maj7 | D:min7 | G:7 |
+120.79941043	A, verse, | C:maj9 | C:maj9 | D:min7 | D:min7 |
+130.037891156	| E:min7 | E:min7 | D:min7 | D:min7 G:maj |
+139.239002267	| C:maj9 | C:maj9 | D:min7 | D:min7 |
+148.628730158	fadeout, | E:min7 | E:min7 | D:min7 | D:min7 G:maj |, voice)
+157.985668934	silence
+161.384489795	end

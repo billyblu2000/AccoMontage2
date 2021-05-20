@@ -1,0 +1,35 @@
+# title: Old Days
+# artist: Chicago
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.371519274	A, intro, | E:min D:min | F:maj E:min | G:maj | G:maj/9 |, (guitar
+9.176575963	| E:min D:min | F:maj E:min | G:maj | G:maj |, guitar)
+16.966870748	B, verse, | C:maj E:min7 | F:maj6(9) | C:maj D:min7 | F:maj G:7 |, (voice
+24.768185941	| C:maj E:min7 | F:maj6(9) | C:maj D:min7 | F:maj G:7 |
+32.455668934	| D:min7 | G:7 | D:min7 | G:7 |
+40.308208616	| D:min7 | G:7 | D:min7 | E:sus4(b7) E:7 |
+48.054376417	| A:min | E:7/3 | G:maj6 | D:7/3 |
+56.01430839	| A:min | E:7/3 | G:maj6 | D:7/3 |, voice)
+63.961587301	C, interlude, | F:maj | F:maj | A:min7 | A:min7 |, (trumpet
+71.805056689	| F:maj | F:maj | A:min7 | A:min7 |
+79.521564625	| D:min7 | E:min7 | F:maj | G:sus4(b7) | G:maj6 |, trumpet)
+89.088548752	A, intro, | E:min D:min | F:maj E:min | G:maj | G:maj/9 |, (guitar
+96.70170068	| E:min D:min | F:maj E:min | G:maj | G:maj |, guitar)
+104.314376417	B, verse, | C:maj E:min7 | F:maj6(9) | C:maj D:min7 | F:maj G:7 |, (voice
+112.05201814	| C:maj E:min7 | F:maj6(9) | C:maj D:min7 | F:maj G:7 |
+119.696145124	| D:min7 | G:7 | D:min7 | G:7 |
+127.437142857	| D:min7 | G:7 | D:min7 | E:sus4(b7) E:7 |
+135.124580498	| A:min | E:7/3 | G:maj6 | D:7/3 |
+142.955487528	| A:min | E:7/3 | G:maj6 | D:7/3 |
+150.764104308	D, chorus, | F:maj E:min | G:maj | F:maj E:min | G:maj |
+158.460226757	| F:maj E:min | G:maj | F:maj E:min | G:maj |
+166.073287981	| F:maj E:min | G:maj | F:maj E:min | G:maj |
+173.608571428	| F:maj E:min | G:maj | F:maj E:min | G:maj |
+181.019115646	| F:maj E:min | G:maj | F:maj E:min | G:maj |
+188.405487528	fadeout, | F:maj E:min | G:maj | F:maj E:min | G:maj |
+195.88909297	| F:maj E:min | G:maj | F:maj E:min | G:maj |
+203.237959183	| F:maj E:min | G:maj | F:maj E:min | G:maj |, voice)
+207.957913832	silence
+210.782040816	end

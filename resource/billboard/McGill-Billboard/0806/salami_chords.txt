@@ -1,0 +1,24 @@
+# title: We're All Alone
+# artist: Rita Coolidge
+# metre: 4/4
+# tonic: G
+
+0.000000000	silence
+0.394739229	B', intro, | G:maj A:min | B:min A:min7 |, (guitar)
+8.011405895	A, verse, | G:maj . F#:min7 B:7 | E:min . G:7/5 G:7 | C:maj G:maj6/3 | Bb:dim A:min(9) | (2/4) D:7 D:7/b7 |, (voice
+25.322562358	| B:min7 E:min | A:min7 | G:maj(9)/5 |
+36.641088435	A, verse, | G:maj . F#:min7 B:7 | E:min . G:7/5 G:7 | C:maj G:maj6/3 | Bb:dim A:min(9) | (2/4) D:7 D:7/b7 |
+53.832879818	| B:min7 E:min | A:min7 | D:sus4(b7,9) |
+65.168752834	B, chorus, | G:maj A:min | B:min B:7 | E:min . D:min7 G:7 | C:maj G:maj6/3 | Bb:dim A:min(9) | (2/4) D:sus4(b7,9) |, voice)
+86.020340136	B', interlude, | G:maj A:min | B:min A:min7 |, (strings)
+93.395283446	A, verse, | G:maj . F#:min7 B:7 | E:min . G:7/5 G:7 | C:maj G:maj6/3 | Bb:dim A:min(9) | (2/4) D:7 D:7/b7 |, (voice
+110.294784580	| B:min7 E:min | A:min7 | D:sus4(b7,9) |
+121.484671201	B, chorus, | G:maj A:min | B:min B:7 | E:min . D:min7 G:7 | C:maj G:maj6/3 | Bb:dim A:min(9) | (2/4) D:7 D:7/b7 |
+141.796145124	| B:min7 E:min | A:min7 | D:sus4(b7,9) |
+152.828072562	B, chorus, | G:maj A:min | B:min B:7 | E:min . D:min7 G:7 | C:maj G:maj6/3 | Bb:dim A:min(9) | (2/4) D:7 D:7/b7 |
+172.963197278	| B:min7 E:min | A:min7 | D:sus4(b7,9) |, voice), (guitar
+180.259138321	B, solo, | G:maj A:min | B:min B:7 | E:min . D:min7 G:7 | C:maj G:maj6/3 | Bb:dim A:min(9) | (2/4) D:7 D:7/b7 |, guitar)
+200.248888888	fadeout, | B:min7 E:min | A:min7 | D:sus4(b7,9) |, (strings
+207.590181405	| G:maj A:min | B:min B:7 | E:min . D:min7 G:7 |, strings)
+216.739229024	silence
+220.491247165	end

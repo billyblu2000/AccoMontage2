@@ -1,0 +1,30 @@
+# title: Hard Days Night
+# artist: The Beatles
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.571428571	A, intro, | D:sus4(b7) | &pause |
+3.820408163	B, chorus, | G:maj C:maj | G:maj | F:maj | G:maj |, (voice
+10.628412698	| G:maj C:maj | G:maj | F:maj | G:maj |
+17.483900226	| C:maj | D:maj | G:maj C:maj | G:maj |
+24.387936507	B, verse, | G:maj C:maj | G:maj | F:maj | G:maj |
+31.237301587	| G:maj C:maj | G:maj | F:maj | G:maj |
+38.127165532	| C:maj | D:maj | G:maj C:maj | G:maj |
+45.061224489	C, bridge, | B:min | E:min | B:min | B:min |
+52.059138321	| G:maj | E:min | C:maj | D:maj |
+58.95510204	B, chorus, | G:maj C:maj | G:maj | F:maj | G:maj |
+65.926530612	| G:maj C:maj | G:maj | F:maj | G:maj |
+72.897959183	| C:maj | D:maj | G:maj C:maj | G:maj |, voice)
+79.885714285	B, solo, | G:maj C:maj | G:maj | F:maj | G:maj |, (guitar
+86.840816326	| G:maj C:maj | G:maj | F:maj | G:maj |, guitar)
+93.861224489	| C:maj | D:maj | G:maj C:maj | G:maj |, (voice
+100.84292517	C, bridge, | B:min | E:min | B:min | B:min |
+107.75510204	| G:maj | E:min | C:maj | D:maj |
+114.707029478	B', chorus, | G:maj C:maj | G:maj | F:maj | G:maj |
+121.714897959	| G:maj C:maj | G:maj | F:maj | G:maj |
+128.685714285	| C:maj | D:maj | G:maj C:maj | G:maj |
+135.755895691	| G:maj C:maj | G:maj | G:maj C:maj |, voice) 
+141.036666666	D, outro, | D:min11 | x6, (guitar)
+151.548888888	silence
+153.469387755	end

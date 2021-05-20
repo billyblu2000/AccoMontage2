@@ -1,0 +1,28 @@
+# title: Honey Honey
+# artist: ABBA
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.255419501	A, intro, | F:maj | F:maj | Bb:maj | Bb:maj . . C:maj |, (strings)
+7.308049886	A, verse, | F:maj | F:maj | Bb:maj | Bb:maj | x2, (voice
+21.056349206	B, verse, | F:maj | D:min | F:maj | D:min |
+27.921383219	| F:maj | D:min | Bb:maj | Bb:maj . . C:maj |
+34.809750566	A, verse, | F:maj | F:maj | Bb:maj | Bb:maj | x2
+48.482993197	| F:maj | D:min | F:maj | D:min |
+55.342811791	B, verse, | F:maj | D:min | Bb:maj | C:sus4(b7) | C:7 |
+63.841972789	C, bridge, | C:min | F:maj | Bb:maj F:maj/3 | G:min |
+70.705918367	| C:min | F:maj | Bb:maj | Bb:maj |
+77.478979591	| F:min | Bb:maj | Eb:maj Bb:maj/3 | Ab:maj |
+84.287278911	| Ab:maj | Db:maj | G:min7 | C:maj |
+91.118095238	A, verse, | F:maj | F:maj | Bb:maj | Bb:maj | x2
+104.757959183	B, verse, | F:maj | D:min | F:maj | D:min |
+111.53723356	| F:maj | D:min | Bb:maj | C:sus4(b7) | C:7 |, voice)
+120.075873015	C, bridge, | C:min | F:maj | Bb:maj F:maj/3 | G:min |, (strings)
+126.77893424	| C:min | F:maj | Bb:maj | Bb:maj |, (voice)
+133.640340136	| F:min | Bb:maj | Eb:maj Bb:maj/3 | Ab:maj |, (strings)
+140.396666666	| Ab:maj | Db:maj | G:min7 | C:maj |, (voice
+147.15526077	A, verse, | F:maj | F:maj | Bb:maj | Bb:maj | x2
+160.797619047	B, verse, | F:maj | D:min | F:maj | D:min |, fadeout
+167.528888888	| F:maj | D:min | Bb:maj | Bb:maj |, voice)
+173.871020408	end

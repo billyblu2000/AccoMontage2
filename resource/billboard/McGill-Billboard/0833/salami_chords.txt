@@ -1,0 +1,46 @@
+# title: You Can Call Me Al
+# artist: Paul Simon
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.348299319	A, intro, | F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |, (synthesizer
+7.510839002	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |, synthesizer)
+15.053741496	B, verse, | F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |, (voice
+22.501451247	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+29.85371882	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+37.302040816	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+44.698730158	A, chorus, | F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+52.250725623	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+59.77478458	B, verse, | F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+67.208276643	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+74.659070294	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+82.097256235	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+89.606780045	A, chorus, | F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+97.157256235	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |, voice)
+104.698866213	B, solo, | F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |, (pennywhistle
+112.110045351	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+119.588208616	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+126.943945578	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |, pennywhistle)
+134.417414965	A, interlude, | F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |, (trumpet
+142.069319727	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |, trumpet)
+149.52786848	B, verse, | F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |, (voice
+157.057913832	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+164.526848072	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+171.95861678	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+179.480975056	A, chorus, | F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+186.998208616	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |, voice)
+194.472721088	B', instrumental, | F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+202.018095238	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+209.444285714	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+216.84770975	| F:maj C:sus4 | Bb:maj C:sus4 | F:maj C:sus4 | Bb:maj C:sus4 |
+224.361882086	| N | N |, (bass)
+228.028571428	A, outro, | F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |, (trumpet
+235.600725623	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+243.125646258	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+250.635782312	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+258.197210884	A, fadeout, | F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+265.701473922	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj | Bb:maj C:maj |
+273.189160997	| F:maj C:maj | Bb:maj C:maj | F:maj C:maj |, trumpet)
+277.640997732	silence
+280.607346938	end

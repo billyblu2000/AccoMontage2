@@ -1,0 +1,40 @@
+# title: Getaway
+# artist: Earth Wind and Fire
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+6.9659863e-2	A, intro, | F:min | F:min | F:min | F:min |, (voice
+8.697959183	B, chorus, | F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |
+17.335555555	| F:7(#9) | F:7(#9) . Bb:min C:min | Db:maj7 | F:min |, voice)
+25.994557823	C, verse, | F:7(#9) | F:7(#9) | F:7(#9) | F:7(#9) |, (trumpet)
+34.557619047	| F:7(#9) | F:7(#9) | F:7(#9) | F:7(#9) |, (voice
+43.15510204	| F:7(#9) | F:7(#9) | F:7(#9) | F:7(#9) |
+51.753174603	D, bridge, | Bb:min7 Ab:maj | Db:maj9 C:7(#9) |
+55.981156462	| (2/4) Bb:min7 | Bb:min7 C:min7 . D:min7 | C:min7 D:min7 . E:min7 |
+61.296054421	B, chorus, | F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |
+69.767619047	| F:7(#9) | F:7(#9) . Bb:min C:min | Db:maj7 | F:min |, voice)
+78.295646258	C, verse, | F:7(#9) | F:7(#9) | F:7(#9) | F:7(#9) |, (trumpet)
+86.859659863	| F:7(#9) | F:7(#9) | F:7(#9) | F:7(#9) |, (voice
+95.469160997	| F:7(#9) | F:7(#9) | F:7(#9) | F:7(#9) |
+103.885600907	D, bridge, | Bb:min7 Ab:maj | Db:maj9 C:7(#9) |
+108.172789115	| Bb:min7 C:min7 |, voice)
+110.365328798	| F:min7 | F:min7 |, (guitar)
+114.57047619	C', verse, | F:7(#9) | F:7(#9) | F:7(#9) | F:7(#9) |, (voice
+123.160136054	| F:7(#9) | F:7(#9) | F:7(#9) | F:7(#9) |
+131.657891156	D, bridge, | Bb:min7 Ab:maj | Db:maj9 C:7(#9) |
+135.898979591	| (2/4) Bb:min7 | Bb:min7 C:min7 . D:min7 | C:min7 D:min7 . E:min7 |, voice)
+141.122267573	| F:min7 | F:min7 |, (synthesizer)
+145.078752834	B, chorus, | F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |, (voice
+153.462426303	| F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |
+161.960294784	| F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |
+170.474965986	| F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |
+178.92956916	| F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |
+187.43430839	B', outro, | F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |
+195.854671201	| F:7(#9) | F:7(#9) . Bb:min C:min |
+200.099750566	| F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |
+208.520657596	| F:7(#9) | F:7(#9) . Bb:min C:min |, voice)
+212.79739229	fadeout, | F:7(#9) | F:7(#9) . Bb:min C:min | F:7(#9) | F:7(#9) . Bb:min C:min |, (trumpet
+221.257142857	| F:7(#9) | F:7(#9) . Bb:min C:min |, trumpet)
+224.444081632	silence
+225.985306122	end

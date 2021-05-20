@@ -1,0 +1,34 @@
+# title: Heaven's Just A Sin Away
+# artist: The Kendalls
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.371519274	A, intro, | F#:maj | F#:maj | F#:maj | F#:maj |, (guitar)
+6.734557823	B, chorus, | F#:maj | F#:maj | B:maj | B:maj |, (voice
+12.971632653	| F#:maj | F#:maj | G#:maj | C#:maj |
+19.1523356	| F#:maj | F#:maj | B:maj | B:maj |
+25.405328798	| F#:maj | F#:maj | C#:maj |, voice)
+30.097437641	A, trans, | F#:maj | F#:maj |, (guitar)
+33.280884353	C, bridge, | B:maj | B:maj | F#:maj | F#:maj |, (voice
+39.570430839	| B:maj | B:maj | C#:maj | C#:maj |
+45.788072562	B, chorus, | F#:maj | F#:maj | B:maj | B:maj |
+51.967823129	| F#:maj | F#:maj | G#:maj | C#:maj |
+58.169977324	| F#:maj | F#:maj | B:maj | B:maj |
+64.473537414	| F#:maj | F#:maj | C#:maj |, voice)
+69.157596371	B', solo, | F#:maj | F#:maj | B:maj | B:maj |, (guitar)
+75.376190476	| F#:maj | F#:maj | C#:maj |
+80.089682539	A, trans, | F#:maj | F#:maj |, guitar)
+83.267324263	C, bridge, | B:maj | B:maj | F#:maj | F#:maj |, (voice
+89.529478458	| B:maj | B:maj | C#:maj | C#:maj |
+95.767006802	B, chorus, | F#:maj | F#:maj | B:maj | B:maj |
+101.913900226	| F#:maj | F#:maj | G#:maj | C#:maj |
+108.150453514	| F#:maj | F#:maj | B:maj | B:maj |
+114.357936507	| F#:maj | F#:maj | C#:maj |, voice)
+119.012222222	A, trans, | F#:maj | D:maj |, (guitar)
+# tonic: G
+122.109546485	B, chorus, | G:maj | G:maj | C:maj | C:maj |, (voice
+128.34600907	fadeout, | G:maj | G:maj | A:maj | D:maj |
+134.541451247	| G:maj | G:maj | C:maj | C:maj |, voice)
+141.757823129	silence
+145.162448979	end

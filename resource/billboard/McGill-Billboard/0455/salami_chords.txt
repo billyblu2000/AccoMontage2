@@ -1,0 +1,34 @@
+# title: Walk On The Wild Side (Part 1)
+# artist: Jimmy Smith
+# metre: 12/8
+# tonic: F
+
+0.000000000	silence
+0.348299319	A, intro, | N | N |, (percussion)
+7.296394557	| F:1 | F:1 | F:1 | F:1 |, (bass)
+20.591564625	B, verse, | F:7 | F:7 |, (clarinet)
+27.424693877	| F:7 | F:7 |, (trumpet)
+34.418367346	B, verse, | F:7 | F:7 | F:7 | F:7 |, (saxophone)
+48.092086167	C, chorus, | C:7 | F:7 | C:7 | F:7 |, (trumpet)
+62.117392290	D, interlude, | F:7 F:maj/3 | Bb:maj9 Bb:maj6 | F:7 F:maj/3 | Bb:maj9 Bb:maj6 |, (saxophone)
+75.957006802	C, chorus, | C:7 | F:7 | C:7 | F:7 |, (trumpet)
+89.988140589	E, bridge, | Bb:7 | F:7 | Bb:7 | F:7 |, (saxophone
+103.807120181	| Bb:7 | F:7 | Bb:7 | F:7 |, saxophone)
+117.742675736	C', chorus, | C:7 | F:7 |, (trumpet)
+124.764535147	D, interlude, | F:7 F:maj/3 | Bb:maj9 Bb:maj6 | F:7 F:maj/3 | Bb:maj9 Bb:maj6 |, (saxophone)
+138.659274376	C, chorus, | C:7 | F:7 | C:7 | F:7 |, (trumpet)
+152.672471655	A, trans, | N | N |, (percussion)
+159.540544217	F, solo, | F:7 | F:7 | Bb:7 | F:7 | C:7 Bb:7 | F:7 |, (organ
+178.595510204	| F:7 | F:7 | Bb:7 | F:7 | C:7 Bb:7 | F:7 |
+197.190748299	| F:7 | F:7 | Bb:7 | F:7 | C:7 Bb:7 | F:7 |
+215.661224489	| F:7 | F:7 | Bb:7 | F:7 | C:7 Bb:7 | F:7 |
+233.824467120	| F:7 | F:7 | Bb:7 | F:7 | C:7 Bb:7 | F:7 |
+251.482539682	| F:7 | C:7 | Bb:7 | F:7 | C:7 Bb:7 | F:7 |, (trombone)
+270.437800453	| F:7 | F:7 | Bb:7 | F:7 | C:7 Bb:7 | F:7 |, (organ)
+288.823310657	| F:7 | F:7 | Bb:7 | F:7 | C:7 Bb:7 | F:7 |, (trumpet)
+307.846553287	D, interlude, | F:7 F:maj/3 | Bb:maj9 Bb:maj6 | F:7 F:maj/3 | Bb:maj9 Bb:maj6 |, (saxophone)
+321.211587301	C', chorus, | C:7 | F:7 | C:7 |, (trumpet)
+331.337619047	B, verse, | F:7 | F:7 | F:7 | F:7 |, (saxophone)
+344.923854875	| F:7 | F:7 | F:7 |, (organ)
+352.850430839	silence
+357.381224489	end

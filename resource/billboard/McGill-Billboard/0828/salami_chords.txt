@@ -1,0 +1,42 @@
+# title: Journey To The Center Of The Mind
+# artist: The Amboy Dukes
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.510839002	A, intro, | A:maj | A:maj | C:maj | C:maj |, (guitar
+6.698480725	| A:maj | A:maj | C:maj | C:maj |
+12.792086167	| A:maj | A:maj | C:maj | C:maj |
+19.147845804	| A:maj | A:maj | C:maj | C:maj |
+25.549501133	A, solo, | A:maj | A:maj | C:maj | C:maj |
+31.858684807	| A:maj | A:maj | C:maj | C:maj |
+38.106507936	| A:maj | A:maj | C:maj | C:maj |
+44.299002267	| A:maj | E:maj |, guitar)
+47.420408163	B, verse, | E:maj | E:maj | E:maj | E:maj |, (voice
+53.73340136	| D:maj | D:maj | E:maj | E:maj |
+60.079886621	C, chorus, | A:maj | C:maj . B:maj Bb:maj | A:maj | C:maj . B:maj Bb:maj |
+66.838798185	| A:maj | C:maj . B:maj Bb:maj | B:maj |
+72.014761904	B, verse, | E:maj | E:maj | E:maj | E:maj |
+78.428095238	| D:maj | D:maj | E:maj | E:maj |
+84.748072562	C, chorus, | A:maj | C:maj . B:maj Bb:maj | A:maj | C:maj . B:maj Bb:maj |
+91.575782312	| A:maj | C:maj . B:maj Bb:maj | B:maj |
+96.772222222	D, bridge, | E:maj | E:maj | E:maj | E:maj |
+103.165396825	| C#:min | A:maj | F#:maj | E:maj |
+109.691836734	| C#:min | A:maj | F#:maj | ->
+114.542154195	| B:sus4 | B:maj | B:maj | B:maj |, voice)
+120.949115646	A, solo, | A:maj | A:maj | C:maj | C:maj |, (guitar
+127.329274376	| A:maj | A:maj | C:maj | C:maj |
+133.656712018	| A:maj | A:maj | C:maj | C:maj |
+139.919818594	| A:maj | E:maj |
+143.079546485	E, interlude, | A:1 | E:1 | A:1 | E:1 |
+150.140226757	| A:1 | E:1 | A:1 | E:maj |, guitar)
+156.790907029	C, chorus, | A:maj | C:maj . B:maj Bb:maj | A:maj | C:maj . B:maj Bb:maj |, (voice
+163.603378684	| A:maj | C:maj . B:maj Bb:maj | B:maj |
+168.753945578	B', verse, | E:maj | E:maj | E:maj | E:maj |
+175.162471655	| D:maj | D:maj | E:maj | E:maj |
+181.607755102	| D:maj | D:maj | E:maj | E:maj | E:maj | E:maj |, voice)
+191.288979591	| A:maj | A:maj | C:maj | C:maj |, (guitar
+197.730702947	| A:maj | A:maj | C:maj | C:maj |
+204.232108843	fadeout, | A:maj | A:maj | B:maj | B:maj | B:maj | B:maj | B:maj | B:maj |, guitar)
+213.089523809	silence
+214.543673469	end

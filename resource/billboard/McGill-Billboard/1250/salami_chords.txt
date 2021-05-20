@@ -1,0 +1,32 @@
+# title: Baby Don't Change Your Mind
+# artist: Gladys Knight & The Pips
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.255419501	A, intro, | F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj |
+10.149909297	| F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj |
+18.553809523	| D:min/5 A:maj . . | A:maj |
+22.839795918	B, verse, | D:min9 | E:min7 | D:min9 | E:min7 |, (voice
+31.263922902	| C:sus4(b7) C:7 | F:maj9 D:hdim7 | C:7/3 C:sus4(b7) | F:maj9 D:hdim7 |
+39.742721088	| C:7/3 C:sus4(b7) | D:sus4(b7) D:7 | G:sus4(b7) | G:7 |
+48.322630385	A, chorus, | F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+56.985873015	| F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+65.428208616	| D:min/5 A:maj . . | A:maj |
+69.627619047	B, verse, | D:min9 | E:min7 | D:min9 | E:min7 |
+78.103310657	| C:sus4(b7) C:7 | F:maj9 D:hdim7 | C:7/3 C:sus4(b7) | F:maj9 D:hdim7 |
+86.460884353	| C:7/3 C:sus4(b7) | D:sus4(b7) D:7 | G:sus4(b7) | G:7 |
+95.07861678	A, chorus, | F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+103.725691609	| F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+112.109546485	| D:min/5 A:maj . . | A:maj |, voice)
+116.345147392	B, verse, | D:min9 | E:min7 | D:min9 | E:min7 |
+124.832244897	| C:sus4(b7) C:7 | F:maj9 D:hdim7 | C:7/3 C:sus4(b7) | F:maj9 D:hdim7 |, (voice
+133.240430839	| C:7/3 C:sus4(b7) | D:sus4(b7) D:7 | G:sus4(b7) | G:7 |
+141.779977324	A, chorus, | F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+150.352380952	| F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+158.828820861	A, chorus, | F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+167.382494331	| F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+175.859206349	A, fadeout, | F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |
+184.324920634	| F:maj/5 C:maj A:min7 . | F:maj7 G:7 F:maj7 . | C:maj/3 | C:maj/5 G:maj . . |, voice)
+191.21632653	silence
+195.31755102	end

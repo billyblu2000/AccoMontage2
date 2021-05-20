@@ -1,0 +1,34 @@
+# title: Better Things
+# artist: The Kinks
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+6.9659863e-2	A, intro, | D:maj | D:7/3 | G:maj | A:maj |, (guitar
+8.209455782	| D:maj | D:7/3 | G:maj | A:maj |, guitar)
+15.83600907	A, verse, | D:maj | D:maj/3 | G:maj | A:maj |, (voice
+23.461791383	| D:maj | D:maj/3 | G:maj | A:maj |
+30.92941043	B, pre-chorus, | D:maj | F#:7 | G:maj | A:maj |
+38.518503401	| D:maj | F#:7 | G:maj | A:maj |
+46.047505668	| B:min | B:min(11)/7 | B:min/b7 | E:7 |
+53.730975056	| A:maj | G:maj |
+57.43201814	B, pre-chorus, | D:maj | F#:7 | G:maj | A:maj |
+65.069977324	| D:maj | F#:7 | G:maj | A:maj |
+72.688185941	| B:min | B:min(11)/7 | B:min/b7 | E:7 |
+80.316780045	| A:maj | G:maj |
+84.024081632	C, chorus, | D:maj | G:maj A:maj | D:maj | G:maj A:maj |
+91.528911564	| D:maj | G:maj A:maj | D:maj | G:maj A:maj |, voice)
+98.930816326	A, trans, | D:maj | D:maj/3 | G:maj | A:maj |, (guitar
+106.497278911	| D:maj | D:maj/3 | G:maj | A:maj |, guitar)
+113.9561678	B, pre-chorus, | D:maj | F#:7 | G:maj | A:maj |, (voice
+121.546734693	| D:maj | F#:7 | G:maj | A:maj |
+129.071179138	| B:min | B:min(11)/7 | B:min/b7 | E:7 |
+136.659047619	| A:maj | G:maj |
+140.344988662	C, chorus, | D:maj | G:maj A:maj | D:maj | G:maj A:maj |
+147.809138321	| D:maj | G:maj A:maj | D:maj | G:maj A:maj |, voice)
+155.169773242	A, outro, | D:maj | D:maj/3 | G:maj | A:maj |, (guitar
+162.626213151	| D:maj | D:maj/3 | G:maj | A:maj |
+170.121383219	| D:maj | D:maj/3 | G:maj | A:maj | A:maj |
+179.352290249	| A:maj |, guitar)
+184.180680272	silence
+186.09632653	end

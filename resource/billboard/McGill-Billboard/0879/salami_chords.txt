@@ -1,0 +1,48 @@
+# title: Walk This Way
+# artist: Run-D.M.C.
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.232199546	A, intro, | N | N | N | N |, (drums
+9.454195011	| N | N | N | N |, drums)
+18.4830839	B, interlude, | E:1 | E:1 | E:1 | E:1 . . A:maj |, (guitar)
+# tonic: C
+27.611564625	C, verse, | C:7 | C:7 | C:7 | C:7 |, (voice
+36.736938775	| C:7 | C:7 | C:7 | C:7 . . A:maj |, voice)
+# tonic: E
+45.833673469	B, interlude, | E:1 | E:1 | E:1 | E:1 . . A:maj |, (guitar)
+# tonic: C
+54.891972789	C, verse, | C:7 | C:7 | C:7 | C:7 |, (voice
+64.017052154	| C:7 | C:7 | C:7 | C:7 |
+73.099319727	D, chorus, | C:7 | F:7 | C:7 | F:7 |
+82.207369614	| C:7 | F:7 | C:7 | F:7 |, voice)
+91.269795918	C', solo, | C:7 | C:7 | C:7 | C:7 . . A:maj |, (guitar
+# tonic: E
+100.397460317	B, interlude, | E:1 | E:1 | E:1 | E:1 . . A:maj |, guitar)
+109.489886621	C, verse, | N | N | N | N |, (voice
+118.544920634	| N | N | N | N |, voice)
+127.616870748	B, interlude, | E:1 | E:1 | E:1 | E:1 . . A:maj |, (guitar)
+# tonic: C
+136.764965986	C, verse, | C:7 | C:7 | C:7 | C:7 |, (voice
+145.844535147	| C:7 | C:7 | C:7 | C:7 |
+154.907188208	D, chorus, | C:7 | F:7 | C:7 | F:7 |
+163.99877551	| C:7 | F:7 | C:7 | F:7 |, voice)
+173.104761904	C', solo, | C:1 | C:1 | C:1 | C:1 . . A:maj |, (guitar
+# tonic: E
+182.206984126	B, interlude, | E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+191.309206349	B, solo, | E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+200.384580498	| E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+209.4561678	| E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+218.569433106	| E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+227.683605442	| E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+236.76600907	| E:maj | E:maj . . A:maj | E:maj | E:maj . . A:maj |
+245.829659863	| E:maj | E:maj . . A:maj | E:maj | E:maj . . A:maj |
+254.926099773	| E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+264.014557823	| E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+273.113106575	| E:1 . . E:maj | E:1 A:maj | E:1 . . E:maj | E:1 A:maj |
+282.168888888	| N . . E:maj | N . . A:maj | N . . E:maj | N . . A:maj |
+291.271111111	| N | N | N | N | N |, guitar)
+300.350113378	| N | N | N | N |
+309.730975056	silence
+312.032653061	end

@@ -1,0 +1,36 @@
+# title: Crystal Blue Persuasion
+# artist: Tommy James
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.185759637	A, intro, | N | N |, (drums)
+5.528888888	B', instrumental, | A:maj9 | B:min7 | A:maj9 | B:min7 |, (guitar
+15.485056689	| A:maj9 | B:min7 D:maj | A:maj | ->, guitar)
+22.93786848	B, verse, | A:maj9 | B:min7 | A:maj9 | B:min7 |, (voice
+32.778163265	| A:maj9 | B:min7 | A:maj9 | B:min7 |
+42.506099773	| A:maj9 | B:min7 | A:maj9 | B:min7 |
+52.246054421	| A:maj9 | B:min7 | A:maj9 | B:min7 D:maj |, voice)
+61.844852607	| A:maj | A:maj |, (guitar)
+66.773809523	B, verse, | A:maj9 | B:min7 | A:maj9 | B:min7 |, (voice
+76.536507936	| A:maj9 | B:min7 | A:maj9 | B:min7 |
+86.152902494	| A:maj9 | B:min7 | A:maj9 | B:min7 |
+95.779954648	| A:maj9 | B:min7 | A:maj9 | B:min7 D:maj |, voice)
+105.378730158	C, bridge, | A:maj | G:maj | D:maj | A:maj |, (guitar
+115.086235827	| A:maj | G:maj | B:min7 | B:min7/11 |
+124.902743764	| A:maj9 | B:min7 | A:maj9 | B:min7 |, (voice
+134.547687074	| A:maj9 | B:min7 | D:maj | A:maj |, voice)
+# tonic: Bb
+143.824399092	A, trans, | Bb:1 | Bb:1 |, (drums)
+148.451972789	B, verse, | Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |, (voice
+158.161587301	| Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |
+167.823764172	| Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |
+177.355555555	| Bb:maj9 | Eb:maj/11 | C:min | C:min |
+187.229501133	B, verse, | Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |
+196.993197278	| Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |
+206.653129251	| Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |
+216.1223356	| Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |, voice)
+225.317845804	B, fadeout, | Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |, (guitar
+234.270748299	| Bb:maj9 | C:min7 | Bb:maj9 | C:min7 |, guitar)
+240.581950113	silence
+244.950204081	end

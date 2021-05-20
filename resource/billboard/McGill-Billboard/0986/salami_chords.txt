@@ -1,0 +1,33 @@
+# title: You Make Me Feel Like Dancing
+# artist: Leo Sayer
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.789478458	A, intro, | E:maj C#:min7 | F#:min9 B:maj6(b7) |, (guitar
+5.88185941	| E:maj C#:min7 | F#:min9 B:maj6(b7) | E:maj C#:min7 | F#:min9 B:maj6(b7) |, guitar)
+15.905668934	B, verse, | E:maj C#:min7 | F#:min9 B:maj6(b7) | E:maj C#:min7 | F#:min9 B:maj6(b7) |, (voice
+25.903356009	| E:maj C#:min7 | F#:min9 B:maj6(b7) | E:maj C#:min7 | F#:min9 B:maj6(b7) |
+35.848390022	C, pre-chorus, | D:maj | E:maj |
+# tonic: Gb
+40.843900226	D, chorus, | Gb:maj Eb:min7 | Ab:min7 Db:7 | Gb:maj Eb:min7 | Ab:min7 Db:7 |
+50.782040816	| Gb:maj Eb:min7 | Ab:min7 Db:7 |
+# tonic: E
+55.751111111	| F#:min7 | F#:min7 | B:sus4(b7,9) | B:sus4(b7,9) |
+65.526712018	B, verse, | E:maj C#:min7 | F#:min9 B:maj6(b7) | E:maj C#:min7 | F#:min9 B:maj6(b7) |
+75.557732426	| E:maj C#:min7 | F#:min9 B:maj6(b7) | E:maj C#:min7 | F#:min9 B:maj6(b7) |
+85.588752834	C, pre-chorus, | D:maj | E:maj |
+# tonic: Gb
+90.557823129	D, chorus, | Gb:maj Eb:min7 | Ab:min7 Db:7 | Gb:maj Eb:min7 | Ab:min7 Db:7 |
+100.658503401	| Gb:maj Eb:min7 | Ab:min7 Db:7 |
+105.591179138	| F#:min7 | F#:min7 | B:sus4(b7,9) | B:sus4(b7,9) |
+115.320113378	| F#:min7 | F#:min7 | B:sus4(b7,9) | B:sus4(b7,9) |, voice)
+125.028072562	B, instrumental, | E:maj C#:min7 | F#:min9 B:maj6(b7) | E:maj C#:min7 | F#:min9 B:maj6(b7) |
+135.024036281	| E:maj C#:min7 | F#:min9 B:maj6(b7) |
+139.946666666	C, pre-chorus, | D:maj | E:maj |, (voice
+# tonic: Gb
+144.99956916	D, chorus, | Gb:maj Eb:min7 | Ab:min7 Db:7 | Gb:maj Eb:min7 | Ab:min7 Db:7 |
+154.925351473	fadeout, | Gb:maj Eb:min7 | Ab:min7 Db:7 | Gb:maj Eb:min7 | Ab:min7 Db:7 |
+164.905623582	| Gb:maj Eb:min7 | Ab:min7 Db:7 | Gb:maj Eb:min7 | Ab:min7 Db:7 |, voice)
+170.480907029	silence
+174.341224489	end

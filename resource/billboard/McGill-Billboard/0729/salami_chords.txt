@@ -1,0 +1,46 @@
+# title: Pretty In Pink
+# artist: Psychedelic Furs
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.371519274	A, intro, | D:maj | D:maj | G:maj | A:maj |, (saxophone, (guitar
+8.033673469	| D:maj | D:maj | G:maj | A:maj |
+15.326598639	| D:maj | D:maj | G:maj | A:maj |
+22.571179138	| D:maj | D:maj | G:maj | A:maj |, saxophone), guitar)
+29.802244897	B, verse, | D:maj | D:maj/b7 | E:min | A:maj |, (voice
+37.090136054	| D:maj | D:maj/b7 | E:min | A:maj |
+44.309070294	| D:maj | D:maj/b7 | E:min | A:maj |
+51.59786848	| D:maj | D:maj/b7 | E:min | A:maj |
+58.803900226	C, chorus, | E:min | F#:min | G:maj | F#:min |
+66.085034013	| E:min | F#:min | G:maj | F#:min |
+73.354058956	B, verse, | D:maj | D:maj/b7 | E:min | A:maj |
+80.596462585	| D:maj | D:maj/b7 | E:min | A:maj |
+87.83324263	| D:maj | D:maj/b7 | E:min | A:maj |
+95.101995464	| D:maj | D:maj/b7 | E:min | A:maj |
+102.352199546	C, chorus, | E:min | F#:min | G:maj | F#:min |
+109.645646258	| E:min | F#:min | G:maj | F#:min |, voice)
+116.868117913	A, interlude, | D:maj | D:maj | G:maj | A:maj |, (keyboard
+124.120907029	| D:maj | D:maj | G:maj | A:maj |
+131.381065759	| D:maj | D:maj | G:maj | A:maj |
+138.607800453	| D:maj | D:maj | G:maj | A:maj |, keyboard)
+145.86095238	B, verse, | D:maj | D:maj/b7 | E:min | A:maj |, (voice
+153.163492063	| D:maj | D:maj/b7 | E:min | A:maj |
+160.404444444	| D:maj | D:maj/b7 | E:min | A:maj |
+167.645124716	| D:maj | D:maj/b7 | E:min | A:maj |
+174.855510204	C, chorus, | E:min | F#:min | G:maj | F#:min |
+182.16063492	| E:min | F#:min | G:maj | F#:min |, voice)
+189.36664399	A, solo, | D:maj | D:maj | G:maj | A:maj |, (saxophone, (guitar
+196.639909297	| D:maj | D:maj | G:maj | A:maj |
+203.884444444	| D:maj | D:maj | G:maj | A:maj |
+211.118979591	| D:maj | D:maj | G:maj | A:maj |, saxophone), guitar)
+218.371655328	A, outro, | D:maj | D:maj | G:maj | A:maj |, (voice
+225.662448979	| D:maj | D:maj | G:maj | A:maj |, voice)
+232.927256235	| D:maj | D:maj | G:maj | A:maj |, (saxophone
+240.171995464	| D:maj | D:maj | G:maj | A:maj |, saxophone)
+247.406802721	| D:maj | D:maj | G:maj | A:maj |, (voice
+254.651337868	| D:maj | D:maj | G:maj | A:maj |, voice)
+261.940430839	| D:maj | D:maj | G:maj | A:maj |, (saxophone
+269.253265306	fadeout, | D:maj | D:maj | G:maj | A:maj |, saxophone)
+277.444149659	silence
+279.992630385	end

@@ -1,0 +1,39 @@
+# title: Somebody s Watching Me
+# artist: Rockwell
+# metre: 4/4
+# tonic: C#
+
+0.0	silence
+0.417959183	C, intro, | N | N |, (drums)
+3.320453514	| C#:5(b13) | C#:5(b13) | C#:5(b13) | C#:5(b13) |, (synthesizer
+11.10632653	| C#:5(b13) | C#:5(b13) | C#:5(b13) | C#:5(b13) |
+18.865532879	| C#:min | A:maj7 B:maj6 | C#:min | A:maj B:7 |
+26.560226757	| C#:min | A:maj7 B:maj6 | C#:min | A:maj B:7 |, synthesizer)
+34.308390022	A, verse, | C#:min | A:maj | C#:min | A:maj B:maj |, (voice
+42.009478458	| C#:min | A:maj | C#:min | A:maj B:maj |
+49.78861678	B, chorus, | C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+57.530770975	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+65.214920634	A, verse, | C#:min | A:maj | C#:min | A:maj B:maj |
+72.964013605	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+80.701632653	A, verse, | C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+88.423333333	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+96.194512471	B, chorus, | C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+103.903605442	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |, voice)
+111.661678004	D, solo, | C#:min | A:maj B:maj | C#:min | A:maj B:maj |, (synthesizer
+119.363945578	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+127.110861678	| C#:min(b13) | C#:min(b13) | C#:min(b13) | C#:min(b13) |
+134.838163265	| C#:min(b13) | C#:min(b13) | C#:min(b13) | A:maj B:maj |, synthesizer)
+142.631179138	E, bridge, | C#:min | C#:min(11) | C#:min | A:maj |, (voice
+150.331791383	| C#:min | A:maj7 | C#:min | A:maj B:maj |
+158.076099773	B, chorus, | C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+165.82170068	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+173.512698412	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+181.26079365	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+188.977120181	B, chorus, | C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+196.703922902	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+204.50170068	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+212.213786848	fadeout, | C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+219.960748299	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |
+227.687437641	| C#:min | A:maj B:maj | C#:min | A:maj B:maj |, voice)
+235.450340136	silence
+241.65877551	end

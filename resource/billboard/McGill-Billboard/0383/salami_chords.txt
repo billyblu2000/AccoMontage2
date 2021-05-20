@@ -1,0 +1,40 @@
+# title: Sunshine Superman 
+# artist: Donovan
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.998458049	A, intro, | Db:1 | Db:1 | Db:1 | Db:1 | x2, (guitar)
+15.908344671	B, verse, | Db:7 | Db:7 | Db:7 | Db:7 | x2, (voice
+30.496077097	| Gb:7 | Gb:7 | Gb:7 | Gb:7 |
+37.641882086	| Db:7 | Db:7 | Db:7 | Db:7 |
+44.908321995	C, chorus, | Ab:7 | Ab:7 | Gb:7 | Gb:7 |
+52.127097505	| Db:7 | Db:7 | Db:7 | Db:7 |
+59.443219954	B, verse, | Db:7 | Db:7 | Db:7 | Db:7 | x2
+73.872562358	| Gb:7 | Gb:7 | Gb:7 | Gb:7 |
+81.174195011	| Db:7 | Db:7 | Db:7 | Db:7 |
+88.234535147	C, chorus, | Ab:7 | Ab:7 | Gb:7 | Gb:7 |
+95.622517006	| Db:7 | Db:7 | Db:7 | Db:7 |
+102.838208616	B, verse, | Db:7 | Db:7 | Db:7 | Db:7 | x2
+117.170725623	| Gb:7 | Gb:7 | Gb:7 | Gb:7 |
+124.483015873	| Db:7 | Db:7 | Db:7 | Db:7 |
+131.644217687	C, chorus, | Ab:7 | Ab:7 | Gb:7 | Gb:7 |
+138.923129251	| Db:7 | Db:7 | Db:7 | Db:7 |
+146.138049886	C, chorus, | Ab:7 | Ab:7 | Gb:7 | Gb:7 |
+153.29585034	| Db:7 | Db:7 | Db:7 | Db:7 |, voice)
+160.439319727	B, solo, | Db:7 | Db:7 | Db:7 | Db:7 | x2, (guitar
+174.887369614	| Gb:7 | Gb:7 | Gb:7 | Gb:7 |
+182.167936507	| Db:7 | Db:7 | Db:7 | Db:7 |
+189.298843537	C, solo, | Ab:7 | Ab:7 | Gb:7 | Gb:7 |
+196.39201814	| Db:7 | Db:7 | Db:7 | Db:7 |, guitar)
+203.604013605	B, verse, | Db:7 | Db:7 | Db:7 | Db:7 | x2, (voice
+218.006870748	| Gb:7 | Gb:7 | Gb:7 | Gb:7 |
+225.238117913	| Db:7 | Db:7 | Db:7 | Db:7 |
+232.42861678	C, chorus, | Ab:7 | Ab:7 | Gb:7 | Gb:7 |
+239.450997732	| Db:7 | Db:7 | Db:7 | Db:7 |
+246.597460317	C, chorus, | Ab:7 | Ab:7 | Gb:7 | Gb:7 |
+253.917732426	| Db:7 | Db:7 | Db:7 | Db:7 |, voice)
+261.187641723	B, outro, | Db:7 | Db:7 | Db:7 | Db:7 |, (guitar
+268.414716553	| Db:7 | Db:7 | Db:7 | Db:7 |, fadeout, guitar)
+275.495124716	silence
+279.849795918	end

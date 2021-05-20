@@ -1,0 +1,26 @@
+# title: Walk Right Back
+# artist: The Everly Brothers
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.457959183	B, intro, | Db:maj Db:maj6 | Db:maj7 Db:maj6 | Db:maj Db:maj6 | Db:maj7 Db:maj6 |
+7.541292517	A, verse, | Db:maj Db:maj6 | Db:maj7 Db:maj6 | Db:maj Db:maj6 | Db:maj7 Db:maj6 |, (voice
+14.713514739	| Db:maj Db:maj6 | Db:maj7 Db:maj6 | Ab:7 Ab:9 | Ab:7 Ab:9 |
+21.895442176	| Ab:7 Ab:9 | Ab:7 Ab:9 | Ab:7 Ab:9 | Ab:7 Ab:9 |
+29.077913832	| Ab:7 Ab:9 | Ab:7 Ab:9 | Db:maj Db:maj6 | Db:maj7 Db:maj6 |
+36.163922902	| Db:maj Db:maj6 | Db:maj7 Db:maj6 | Db:maj Db:maj6 | Db:maj7 Db:maj6 |
+43.362426303	| Db:maj Db:maj6 | Db:maj7 Db:maj6 | Gb:maj Db:maj/3 | Eb:min |
+50.485691609	| Gb:maj6 | Gb:maj6 | Db:maj | Db:maj | Ab:7 Ab:9 | Ab:7 Ab:9 |
+61.306031746	| Db:maj Db:maj6 | Db:maj7 Db:maj6 | Db:maj Db:maj6 | Db:maj7 Db:maj6 |
+68.501247165	A, verse, | Db:maj Db:maj6 | Db:maj7 Db:maj6 | Db:maj Db:maj6 | Db:maj7 Db:maj6 |
+75.635895691	| Db:maj Db:maj6 | Db:maj7 Db:maj6 | Ab:7 Ab:9 | Ab:7 Ab:9 |
+82.707664399	| Ab:7 Ab:9 | Ab:7 Ab:9 | Ab:7 Ab:9 | Ab:7 Ab:9 |
+89.810090702	| Ab:7 Ab:9 | Ab:7 Ab:9 | Db:maj Db:maj6 | Db:maj7 Db:maj6 |
+96.943809523	| Db:maj Db:maj6 | Db:maj7 Db:maj6 | Db:maj Db:maj6 | Db:maj7 Db:maj6 |
+103.988049886	| Db:maj Db:maj6 | Db:maj7 Db:maj6 | Gb:maj Db:maj/3 | Eb:min |
+111.052743764	| Gb:maj6 | Gb:maj6 | Db:maj | Db:maj | Ab:7 Ab:9 | Ab:7 Ab:9 |
+121.828163265	| Db:maj Db:maj6 | Db:maj7 Db:maj6 | Ab:7 Ab:9 | Ab:7 Ab:9 |
+128.999319727	fadeout, | Db:maj Db:maj6 | Db:maj7 Db:maj6 |, voice)
+136.940816326	silence
+138.945306122	end

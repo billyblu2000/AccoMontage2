@@ -1,0 +1,41 @@
+# title: Alive Again
+# artist: Chicago
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.371519274	A, intro, | Bb:5 | Bb:5 | Bb:5 | Bb:5 |, (guitar)
+8.220045351	| Bb:maj | Ab:maj | Eb:maj/3 | Ab:maj |
+15.978820861	| Bb:maj | Ab:maj | Eb:maj/3 | Eb:maj |
+23.641723356	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+31.348435374	| Bb:maj | Bb:maj | (2/4) Bb:maj | F:maj | F:maj |
+39.925782312	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+47.621111111	| Bb:maj | Bb:maj | (2/4) Bb:maj | F:maj | F:maj6 | F:9 | F:9 |
+59.981791383	C, chorus, | Bb:maj | Bb:maj | D:min7 | D:min7 Db:min7 |
+67.525578231	| C:min7 | Eb:maj | F:7 | F:7 |
+75.127074829	| Bb:maj | Bb:maj | G:min7 | G:min7 F:maj |
+82.747369614	| Eb:maj | Eb:maj | F:maj | F:maj |
+90.434421768	D, interlude, | Ab:maj Eb:maj/3 | (2/4) Bb:maj |
+93.337959183	| Ab:maj Eb:maj/3 | (2/4) Bb:maj |
+96.23861678	| Ab:maj Eb:maj/3 | F:sus4(b7) | F:sus4(b7) |
+101.931133786	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+109.589614512	| Bb:maj | Bb:maj | (2/4) Bb:maj | F:maj | F:maj6 | F:9 | F:9 |
+121.997301587	C, chorus, | Bb:maj | Bb:maj | D:min7 | D:min7 Db:min7 |
+129.532902494	| C:min7 | Eb:maj | F:7 | F:7 |
+137.070022675	| Bb:maj | Bb:maj | G:min7 | G:min7 F:maj |
+144.548866213	| Eb:maj | Eb:maj | F:maj | F:maj |
+152.025714285	D, interlude, | Ab:maj Eb:maj/3 | (2/4) Bb:maj |
+154.896961451	| Ab:maj Eb:maj/3 | (2/4) Bb:maj |
+157.755782312	| Ab:maj Eb:maj/3 | F:sus4(b7) | F:sus4(b7) |, voice)
+163.41585034	B', solo, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (guitar
+171.110702947	| Bb:maj | Bb:maj | (2/4) G:min7 | F:maj | F:maj |, guitar)
+179.667573696	B', verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+187.24356009	| Bb:maj | Bb:maj | (2/4) G:min7 | F:maj | F:maj |
+195.738049886	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+203.333741496	| Bb:maj | Bb:maj | (2/4) G:min7 | F:maj | F:maj |
+211.767777777	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+219.254671201	fadeout, | Bb:maj | Bb:maj | (2/4) G:min7 | F:maj | F:maj |
+227.55664399	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+235.099024943	| Bb:maj | Bb:maj | (2/4) G:min7 | F:maj | F:maj |, voice)
+243.593469387	silence
+245.773129251	end

@@ -1,0 +1,42 @@
+# title: Press
+# artist: Paul McCartney
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.493424036	A, intro, | C:maj | C:maj | x2, (guitar)
+8.752199546	| N | N |, (voice) 
+12.945124716	B', intro, | C:maj | E:min7 | A:min | F:maj |, (guitar
+21.462131519	| D:min | C:maj | C:maj |, guitar)
+28.009773242	B, verse, | C:maj | E:min7 | A:min | F:maj |, (voice
+36.375192743	| C:maj | C:maj |
+40.58356009	C, transition, | E:min | F:maj | D:min | G:maj |
+49.01802721	D, pre-chorus, | C:maj | F:maj | C:maj | F:maj |
+57.386575963	| D:min | G:maj |
+61.755374149	B', chorus, | C:maj | E:min7 | A:min | F:maj |
+70.182743764	| D:min | C:maj | C:maj |
+76.583469387	E, bridge, | F:maj | Eb:maj | F:maj | Eb:maj |
+84.973492063	| Eb:maj | E:min | E:min |
+91.536598639	F, bridge, | G:maj | E:min | G:maj | E:min |
+99.836598639	| Eb:maj | Eb:maj | Ab:maj | Ab:maj |, voice)
+108.50340136	B', solo, | G:maj | G:maj | A:min | F:maj |, (guitar
+117.104081632	| D:min | C:maj | C:maj |, guitar)
+123.442721088	B, verse, | C:maj | E:min7 | A:min | F:maj |, (voice
+131.952743764	| C:maj | C:maj |
+136.183809523	C, transition, | E:min | F:maj | D:min | G:maj |
+144.635804988	D, pre-chorus, | C:maj | F:maj | C:maj | F:maj |
+153.194965986	| D:min | G:maj |
+157.425306122	B', chorus, | C:maj | E:min7 | A:min | F:maj |
+165.96861678	| D:min | C:maj | C:maj |
+172.25201814	E, interlude, | F:maj | Eb:maj | F:maj | Eb:maj |
+180.706281179	| Eb:maj | E:min | E:min |, voice)
+187.07739229	F, solo, | G:maj | E:min | G:maj | E:min |, (guitar
+195.628979591	| Eb:maj | Eb:maj | Ab:maj | Ab:maj |, guitar)
+204.085623582	B', outro, | C:maj | E:min | A:min | F:maj | D:min | x2, (voice
+225.274240362	| N |, voice)
+227.392086167	G, interlude, | N | N | N | N |, (drums)
+235.946575963	| N | N | N | N | N |, (voice
+246.49739229	B', outro, | C:maj | E:min7 | A:min | F:maj | D:min | x2, (voice
+267.716938775	| C:maj | E:min7 | A:min | F:maj | D:min | x2, fadeout, voice)
+282.608458049	silence
+283.167346938	end

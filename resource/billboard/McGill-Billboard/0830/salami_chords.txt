@@ -1,0 +1,33 @@
+# title: Trying To Live My Life Without You
+# artist: Bob Seger & The Silver Bullet Band
+# metre: 4/4
+# tonic: D
+
+0.0	A, intro, | D:7 | D:7 | G:maj | G:maj |, (brass
+10.612222222	| D:7 | D:7 | G:maj | G:maj |, brass)
+19.860975056	| D:7 | D:7 | G:maj | G:maj |
+29.298299319	| D:7 | D:7 | G:maj | G:maj |, (voice
+38.766122448	| D:7 | D:7 | G:maj | G:maj |
+48.188095238	B', verse, | D:7 | D:7 | G:maj | G:maj |
+57.548752834	| D:7 | D:7 | G:maj | G:maj |
+66.814013605	| B:min | B:min | G:maj | A:maj |
+76.000975056	C, chorus, | D:maj | D:maj | G:maj | G:maj |
+85.190272108	| D:maj | D:maj | G:maj | G:maj |
+94.421746031	D, trans, | B:min | B:min A:maj G:maj . | B:min | B:min G:maj A:maj . |
+103.702970521	B, verse, | D:maj | D:maj | G:maj | G:maj |
+112.943038548	| D:maj | D:maj | G:maj | G:maj |
+122.109909297	| B:min | B:min | G:maj | A:maj |
+131.320884353	C, chorus, | D:maj | D:maj | G:maj | G:maj |
+140.427120181	| D:maj | D:maj | G:maj | G:maj |
+149.561814058	D, trans, | B:min | B:min A:maj G:maj . | B:min | B:min G:maj A:maj . |
+158.704353741	C, chorus, | D:maj | D:maj | G:maj | G:maj |
+167.761020408	| D:maj | D:maj | G:maj | G:maj |
+176.903877551	| D:maj | D:maj | G:maj | G:maj |
+185.977823129	| D:maj | D:maj | G:maj | G:maj |
+195.076122448	D, trans, | B:min | B:min A:maj G:maj . | B:min | B:min G:maj A:maj . |
+204.135759637	C, chorus, | D:maj | D:maj | G:maj | G:maj |
+213.195532879	| D:maj | D:maj | G:maj | G:maj |, voice)
+222.285782312	D', outro, | B:min | B:min A:maj G:maj . | B:min | B:min G:maj A:maj . |, (brass
+231.432131519	| D:maj |, brass)
+232.236938775	Z
+243.891632653	end

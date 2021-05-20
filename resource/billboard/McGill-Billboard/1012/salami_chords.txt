@@ -1,0 +1,42 @@
+# title: All This Time
+# artist: Sting
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.30185941	A, intro, | G:maj E:min11 | G:maj/5 C:maj | x3, (synthesiser
+13.160589569	| D:maj G:maj/3 | D:maj G:maj/3 |, synthesiser)
+16.964217687	A, verse, | G:maj E:min | G:maj(9)/5 C:maj | x7, (voice
+43.351791383	| G:maj E:min | D:maj C:maj/9 |
+47.16755102	B, chorus, | E:min | E:min | A:7 | C:maj |
+54.732380952	| D:sus4 D:maj | D:sus4 D:maj |
+58.501723356	| G:maj E:min | G:maj(9)/5 C:maj |
+62.346893424	A, verse, | G:maj E:min | G:maj(9)/5 C:maj | x7
+88.791292517	| G:maj E:min | D:maj C:maj/9 |
+92.53031746	B, chorus, | E:min | E:min | A:7 | C:maj |
+100.096077097	| D:sus4 D:maj | D:sus4 D:maj |
+103.884126984	| G:maj E:min | G:maj |
+107.654353741	B, chorus, | E:min | E:min | A:7 | C:maj |
+115.361247165	| D:sus4 D:maj | D:sus4 D:maj |
+119.161269841	| G:maj E:min | G:maj(9)/5 C:maj |
+122.976099773	A, verse, | G:maj E:min | G:maj(9)/5 C:maj | x7
+149.311383219	| G:maj E:min | D:maj C:maj/9 |
+153.113129251	B, chorus, | E:min | E:min | A:7 | C:maj |
+160.619115646	| D:sus4 D:maj | D:sus4 D:maj |
+164.461587301	| G:maj E:min | G:maj |
+168.273197278	B, chorus, | E:min | E:min | A:7 | C:maj |
+175.961269841	| D:sus4 D:maj | D:sus4 D:maj |
+179.812199546	A, interlude, | G:maj E:min | G:maj/5 C:maj | x3
+191.122040816	| D:maj G:maj/3 | D:maj G:maj/3 |
+# tonic: A
+194.885215419	A', verse, | A:maj A:maj/13 | A:maj/5 A:maj/11 | x7
+221.502811791	| A:maj | A:maj |
+225.281927437	B', chorus, | F#:min | F#:min | B:maj | D:maj |
+232.929024943	| E:sus4 E:maj | E:sus4 E:maj |
+236.632789115	| A:maj F#:min | A:maj |
+240.381405895	B', chorus, | F#:min | F#:min | B:maj | D:maj |
+248.068253968	| E:sus4 E:maj | E:sus4 E:maj |
+251.901133786	A', outro, | A:maj A:maj/13 | A:maj/5 A:maj/11 | x4
+266.964149659	| A:maj A:maj/13 | A:maj/5 A:maj/11 | x7, fadeout, voice)
+294.420997732	silence
+295.523265306	end

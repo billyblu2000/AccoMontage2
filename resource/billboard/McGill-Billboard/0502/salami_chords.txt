@@ -1,0 +1,28 @@
+# title: I've Been Loving You Too Long (To Stop Now)
+# artist: Otis Redding
+# metre: 6/8
+# tonic: A
+
+0.0	silence
+0.278639455	A, chorus, | A:maj | A:maj | E:maj | E:maj |, (voice
+12.399455782	| A:maj | A:maj | E:maj | E:maj |
+22.43047619	B, verse, | A:maj | A:maj | C#:maj | C#:maj |
+32.646916099	| D:maj | D:maj | F:maj | F:maj |
+42.799750566	A, chorus, | A:maj | A:maj | E:maj | E:maj |
+53.057596371	| A:maj | A:maj | E:maj | E:maj |
+63.302902494	A, verse, | A:maj | A:maj | E:maj | E:maj |
+73.524852607	| A:maj | A:maj | E:maj | E:maj |
+83.596530612	B, verse, | A:maj | A:maj | C#:maj | C#:maj |
+94.017596371	| D:maj | D:maj | F:maj | F:maj |
+104.350907029	A', chorus, | A:maj | A:maj | E:maj | E:maj |
+114.917936507	| A:maj | A:maj | F:maj | F:maj |
+# tonic: Bb
+125.357074829	A'', chorus, | Bb:maj | Bb:maj | F:maj | F:maj |
+135.906394557	| Bb:maj | Bb:maj | Gb:maj | Gb:maj |
+146.420725623	C, outro, | Bb:maj | Bb:maj | Gb:maj | Gb:maj |
+157.059773242	| Bb:maj | Bb:maj | Gb:maj | Gb:maj |
+167.623900226	| Bb:maj | Bb:maj | Gb:maj | Gb:maj |, fadeout 
+178.281904761	| Bb:maj | Bb:maj | Gb:maj | Gb:maj |
+188.904104308	| Bb:maj | Bb:maj | Gb:maj | Gb:maj |, voice)
+192.024217687	silence
+195.932517006	end

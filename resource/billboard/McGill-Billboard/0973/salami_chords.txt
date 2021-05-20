@@ -1,0 +1,42 @@
+# title: Little Too Late
+# artist: Pat Benatar
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.162539682	A', intro, | N | N | N | N |
+7.21170068	| B:maj | E:maj/3 A:maj | B:maj | E:maj/3 A:maj |
+14.416916099	| B:maj | E:maj/3 A:maj | B:maj | E:maj/3 A:maj |
+21.471247165	B, verse, | E:maj | A:maj C#:min | D:maj | A:maj |, (voice
+28.608979591	| E:maj | A:maj C#:min | D:maj | A:maj |
+35.674807256	| B:maj | E:maj/3 A:maj(9) | B:maj | E:maj/3 A:maj(9) |
+42.761814058	| E:maj/3 A:maj | E:maj/3 A:maj | E:maj/3 A:maj | B:maj B:sus4 B:maj B:sus4 | B:maj |
+51.641678004	C, chorus, | E:maj(11) E:maj | E:maj(11) E:maj | A:maj/5 A:maj6/5 | A:maj/5 . A:maj G#:min |
+58.787301587	| F#:min7 G#:min7 | B:maj | E:maj | B:maj |
+65.818321995	| E:maj(11) E:maj | E:maj(11) E:maj | A:maj/5 A:maj6/5 | A:maj/5 . A:maj G#:min |
+72.882267573	| F#:min7 G#:min7 | B:maj | E:maj . . B:maj | E:maj |
+80.026825396	B, verse, | E:maj | A:maj C#:min | D:maj | A:maj |
+87.150272108	| E:maj | A:maj C#:min | D:maj | A:maj |
+94.267755102	| B:maj | E:maj/3 A:maj(9) | B:maj | E:maj/3 A:maj(9) |
+101.306893424	| E:maj/3 A:maj | E:maj/3 A:maj | E:maj/3 A:maj | B:maj B:sus4 B:maj B:sus4 | B:maj |
+110.214716553	C, chorus, | E:maj(11) E:maj | E:maj(11) E:maj | A:maj/5 A:maj6/5 | A:maj/5 . A:maj G#:min |
+117.308480725	| F#:min7 G#:min7 | B:maj | E:maj | B:maj |
+124.415555555	| E:maj(11) E:maj | E:maj(11) E:maj | A:maj/5 A:maj6/5 | A:maj/5 . A:maj G#:min |
+131.510385487	| F#:min7 G#:min7 | B:maj | E:maj . . B:maj | E:maj |, voice)
+138.595487528	A, interlude, | B:maj | E:maj/3 A:maj | B:maj | E:maj/3 A:maj |
+145.702879818	| B:maj | E:maj/3 A:maj | B:maj | E:maj/3 A:maj |
+152.848571428	C, chorus, | E:maj(11) E:maj | E:maj(11) E:maj | A:maj/5 A:maj6/5 | A:maj/5 . A:maj G#:min |, (voice
+159.935328798	| F#:min7 G#:min7 | B:maj | E:maj | B:maj |
+167.012743764	| E:maj(11) E:maj | E:maj(11) E:maj | A:maj/5 A:maj6/5 | A:maj/5 . A:maj G#:min |
+174.112154195	| F#:min7 G#:min7 | B:maj | E:maj . . B:maj | E:maj |
+181.227256235	C', chorus, | E:1 | N | N | N |
+188.315986394	| N | N | N | N |
+195.428367346	| E:1 | N | N | N . A:maj G#:min |
+202.462380952	| F#:min7 G#:min7 | B:maj | N |
+207.762380952	C'', chorus, | E:maj(11) E:maj | E:maj(11) E:maj | A:maj/5 A:maj6/5 | A:maj/5 . A:maj G#:min |
+214.916371882	| F#:min7 G#:min7 | B:maj | E:maj | B:maj |
+222.051995464	| E:maj(11) E:maj | E:maj(11) E:maj | A:maj/5 A:maj6/5 | A:maj/5 . A:maj G#:min |
+229.12494331	| F#:min7 G#:min7 | B:maj | F#:min7 G#:min7 | B:maj |
+236.240272108	| F#:min7 G#:min7 | B:maj | E:maj | E:maj |, voice)
+246.445011337	silence
+247.879727891	end

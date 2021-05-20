@@ -1,0 +1,26 @@
+# title: Daydream Believer
+# artist: Anne Murray
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.417959183	A, intro, | Bb:maj | F:sus4(b7) | Bb:maj | F:sus4(b7) |, (piano)
+8.111814058	B, verse, | Bb:maj | C:min7 | Bb:maj/3 | Eb:maj |, (voice
+15.781746031	| Bb:maj | G:min7 | C:7 | F:maj |
+23.336054421	| Bb:maj | C:min7 | Bb:maj/3 | Eb:maj |
+30.993537414	| Bb:maj G:min7 | C:7 F:maj | Bb:maj . F:maj/3 Bb:maj | C:min Bb:maj F:maj/3 G:min7 |
+38.475918367	C, chorus, | Eb:maj F:maj | D:min | Eb:maj F:maj | G:min Eb:maj |
+45.975510204	| Bb:maj | Eb:maj | Bb:maj | C:7 | F:7 |
+55.47877551	B, verse, | Bb:maj | C:min7 | Bb:maj/3 | Eb:maj |
+63.111836734	| Bb:maj | G:min7 | C:7 | F:maj |
+70.698707482	| Bb:maj | C:min7 | Bb:maj/3 | Eb:maj |
+78.31585034	| Bb:maj G:min7 | C:7 F:maj | Bb:maj . F:maj/3 Bb:maj | C:min Bb:maj F:maj/3 G:min7 |
+85.83185941	C, chorus, | Eb:maj F:maj | D:min | Eb:maj F:maj | G:min Eb:maj |
+93.382879818	| Bb:maj | Eb:maj | Bb:maj | C:7 | F:7 |, voice)
+102.862743764	A, interlude, | Bb:maj | F:sus4(b7) | Bb:maj | F:sus4(b7) |, (guitar)
+110.485374149	C, chorus, | Eb:maj F:maj | D:min | Eb:maj F:maj | G:min Eb:maj |, (voice
+117.957369614	| Bb:maj | Eb:maj | Bb:maj | C:7 | F:7 |
+127.357460317	C, fadeout, | Eb:maj F:maj | D:min | Eb:maj F:maj | G:min Eb:maj |
+134.784172335	| Bb:maj | Eb:maj | Bb:maj | C:7 | F:7 |, voice)
+143.476099773	silence
+147.173877551	end

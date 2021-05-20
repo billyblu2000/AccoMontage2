@@ -1,0 +1,36 @@
+# title: Harden My Heart
+# artist: Quarterflash
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.30185941	A, intro, | B:min7 | G:maj(9) | A:maj | G:maj(9) A:maj |, (saxophone
+8.777528344	| B:min7 | G:maj(9) | A:maj | G:maj(9) A:maj |, saxophone)
+16.600204081	B, verse, | B:min | B:min | A:maj | A:maj |, (voice
+24.34478458	| B:min | B:min | A:maj | A:maj |
+32.186802721	C, prechorus, | G:maj(9) | A:maj | B:min7 A:maj | G:maj(9) | G:maj(9) |
+41.905238095	| B:min7 A:maj | G:maj(9) | A:maj | ->
+47.706031746	D, chorus, | B:min | B:min | A:maj | A:maj |
+55.502267573	| G:maj(9) A:maj | B:min7 A:maj | G:maj(9) | G:maj(9) |
+63.261496598	B, verse, | B:min | B:min | A:maj | A:maj |
+71.049637188	| B:min | B:min | A:maj | A:maj |
+78.814376417	C, prechorus, | G:maj(9) | A:maj | B:min7 A:maj | G:maj(9) | G:maj(9) |
+88.579795918	| B:min7 A:maj | G:maj(9) | A:maj | ->
+94.460839002	D, chorus, | B:min | B:min | A:maj | A:maj |
+102.216984126	| G:maj(9) A:maj | B:min7 A:maj | G:maj(9) | G:maj(9) |, voice)
+110.004557823	E, solo, | B:min7 | G:maj(9) | A:maj | G:maj(9) A:maj |, (saxophone
+117.839931972	| B:min7 | G:maj(9) | A:maj | G:maj(9) A:maj |, saxophone)
+125.564512471	F, solo, | B:min | B:min | A:maj | A:maj |, (guitar
+133.31770975	| B:min | B:min | A:maj | A:maj |, guitar)
+141.066780045	C, prechorus, | G:maj(9) | A:maj | B:min7 A:maj | G:maj(9) | G:maj(9) |, (voice
+150.748662131	| B:min7 A:maj | G:maj(9) | A:maj | ->
+156.615668934	D, chorus, | B:min | B:min | A:maj | A:maj |
+164.380498866	| G:maj(9) A:maj | B:min7 A:maj | G:maj(9) | G:maj(9) |
+172.103764172	D, chorus, | B:min | B:min | A:maj | A:maj |
+179.831269841	| B:min | B:min | A:maj | A:maj |
+187.483356009	D, chorus, | B:min | B:min | A:maj | A:maj |
+195.100272108	| B:min | B:min | A:maj | A:maj |
+202.626031746	D, chorus, | B:min | B:min | A:maj | A:maj |, fadeout
+210.250272108	| B:min | B:min | A:maj | A:maj |, voice)
+214.157573696	silence
+217.808979591	end

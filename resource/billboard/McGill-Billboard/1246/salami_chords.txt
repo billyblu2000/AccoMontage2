@@ -1,0 +1,32 @@
+# title: Happy Man 
+# artist: Greg Kihn Band
+# metre: 4/4
+# tonic: G
+
+0.000000000	A, intro, | C:maj | C:maj | E:min | E:min |, (guitar
+6.844036281	| C:maj | C:maj | E:min | E:min |, guitar)
+13.303083900	B, verse, | C:maj | C:maj | E:min | E:min |, (voice
+19.824875283	| C:maj | C:maj | D:maj | D:maj |
+26.421133786	| C:maj | C:maj | G:maj | D:maj |
+32.976621315	C, chorus, | E:maj | G:maj D:maj | E:maj | G:maj D:maj |
+39.671882086	| A:maj | G:maj D:maj | B:7 | D:maj |
+46.267256235	| D:maj A:maj | E:maj | E:maj D:maj/9 |
+51.234195011	B, verse, | C:maj | C:maj | E:min | E:min |
+57.713990929	| C:maj | C:maj | D:maj | D:maj |
+64.219659863	| C:maj | C:maj | G:maj | D:maj |
+70.844489795	C', chorus, | E:maj | G:maj D:maj | E:maj | G:maj D:maj |
+77.410680272	| A:maj | G:maj D:maj | B:7 | D:maj |
+84.027324263	| D:maj A:maj | E:maj | E:maj A:maj | E:maj | E:maj |, voice)
+92.151020408	B, solo, | C:maj | C:maj | E:min | E:min |, (guitar
+98.776235827	| C:maj | C:maj | D:maj | D:maj |
+105.348594104	| C:maj | C:maj | G:maj | D:maj |, guitar)
+111.779523809	C'', chorus, | E:maj | G:maj D:maj | E:maj | G:maj D:maj |, (voice
+118.357596371	| A:maj | G:maj D:maj | B:7 | D:maj |
+124.990340136	| D:maj A:maj | E:maj | G:maj D:maj | E:maj | G:maj D:maj |
+133.173061224	| A:maj | G:maj D:maj | B:7 | D:maj | D:maj A:maj |
+141.305124716	D, outro, | E:maj | E:maj A:maj | E:maj | E:maj A:maj | E:maj | E:maj A:maj |
+151.084489795	| E:maj | E:maj A:maj | E:maj | E:maj A:maj |
+157.594467120	| E:maj | E:maj A:maj | E:maj | E:maj A:maj |
+164.184535147	| E:maj | E:maj A:maj | E:maj | E:maj A:maj |
+167.413945578	| E:maj |, voice)
+175.125124716	end

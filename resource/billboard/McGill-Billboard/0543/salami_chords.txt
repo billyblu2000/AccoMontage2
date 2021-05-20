@@ -1,0 +1,27 @@
+# title: If I Can Dream
+# artist: Elvis Presley
+# metre: 12/8
+# tonic: C
+
+0.0	silence
+0.278639455	A, intro, | C:maj A:min | C:maj A:min | C:maj A:min | C:maj A:min |, (tenor horn)
+15.475464852	B, verse, | C:maj A:min | F:maj . C:maj/5 G:maj | C:maj A:min | F:maj G:maj |, (voice
+30.570680272	| C:maj . Bb:maj/9 C:7 | F:maj . E:7 A:min |
+38.103764172	| C:maj/5 A:min | F:maj F:maj/13 C:maj/3 A:min |
+45.695668934	| D:min7 G:7 | G:11 G:7 |
+53.289523809	B, verse, | C:maj A:min | F:maj . C:maj/5 G:maj | C:maj A:min | F:maj G:maj |
+68.721065759	| C:maj . Bb:maj/9 C:7 | F:maj . E:7 A:min |
+76.600022675	| C:maj/5 A:min | F:maj F:maj/13 C:maj/3 G:maj |
+84.495079365	| C:maj F:maj | C:maj C:7 |
+92.107936507	C, bridge, | F:maj F#:dim | C:maj C:7 | F:maj F#:dim | C:maj C:7 |
+107.717142857	| F:maj F#:dim | G:maj E:7 A:min . | C:maj/9 D:7 | F:maj/9 G:7 |
+123.301746031	| A:7 |
+# tonic: D
+127.220907029	B', verse, | D:maj B:min | G:maj A:sus4 | D:maj B:min | G:maj A:maj |
+142.979433106	| D:maj D:7 | G:maj G#:dim |
+150.874897959	| D:maj/5 B:min | D:maj/5 B:min |
+158.547029478	| G:maj | E:min | A:11 | A:11 |
+173.85031746	| D:maj D:maj/5 B:min . | D:maj D:maj/5 B:min . |
+181.665283446	| D:maj G:maj | D:maj |, voice)
+190.728707482	silence
+192.313469387	end

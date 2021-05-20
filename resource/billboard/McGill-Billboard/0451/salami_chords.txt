@@ -1,0 +1,47 @@
+# title: Got It Made
+# artist: Crosby Stills and Nash
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.185759637	A, intro, | F:maj(9) A:min7 | G:maj(9) | F:maj(9) A:min7 | G:maj(9) |, (piano
+7.868163265	| F:maj(9) A:min7 | G:maj(9) | F:maj(9) A:min7 | G:maj(9) |, piano)
+15.41494331	B, verse, | C:maj . F:maj/5 C:maj | G:maj . C:maj/5 G:maj | F:maj . Bb:maj F:maj | G:maj . C:maj/5 G:maj |, (voice
+22.966122448	| C:maj . F:maj/5 C:maj | G:maj . C:maj/5 G:maj | F:maj | G:maj |
+30.43585034	C, chorus, | F:maj(9) A:min7 | G:maj(9) C:maj/5 | F:maj(9) A:min7 | G:maj(9) C:maj/5 |
+38.038367346	| F:maj(9) A:min7 | G:maj(9) C:maj/5 |
+41.678594104	| Bb:maj/5 F:maj | C:maj/5 G:maj | Bb:maj/5 F:maj | C:maj/5 G:maj |
+49.088684807	| Bb:maj/5 F:maj | G:maj |
+52.756349206	| F:maj(9) A:min7 | G:maj(9) | F:maj(9) A:min7 | G:maj(9) |, voice)
+60.049841269	A, solo, | F:maj(9) A:min7 | G:maj(9) | F:maj(9) A:min7 | G:maj(9) |, (piano
+67.502086167	| F:maj(9) A:min7 | G:maj(9) | F:maj(9) A:min7 | G:maj(9) |, piano)
+74.861133786	B, verse, | C:maj . F:maj/5 C:maj | G:maj . C:maj/5 G:maj | F:maj . Bb:maj/5 F:maj | G:maj N |, (voice
+82.295170068	| C:maj . F:maj/5 C:maj | G:maj . C:maj/5 G:maj | F:maj | G:maj |
+89.671043083	C, chorus, | F:maj(9) A:min7 | G:maj C:maj/5 | F:maj(9) A:min7 | G:maj C:maj/5 |
+97.258571428	| F:maj(9) A:min7 | G:maj C:maj/5 |
+100.929750566	| Bb:maj/5 F:maj | C:maj/5 G:maj | Bb:maj/5 F:maj | C:maj/5 G:maj |
+108.289115646	| Bb:maj/5 F:maj | G:maj |
+112.012811791	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |, voice)
+119.367641723	A, solo, | F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |, (piano
+126.815170068	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |, piano)
+134.117346938	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |, (voice
+141.60585034	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |
+148.919727891	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |
+156.273582766	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |
+163.587142857	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |
+170.885941043	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |
+178.276031746	B, verse, | C:maj . F:maj/5 C:maj | G:maj . C:maj/5 G:maj | F:maj . Bb:maj F:maj | G:maj |
+185.610498866	| C:maj . F:maj/5 C:maj | G:maj . C:maj/5 G:maj | F:maj | G:maj |
+192.927981859	C, chorus, | F:maj(9) A:min7 | G:maj C:maj/5 | F:maj(9) A:min7 | G:maj C:maj/5 |
+200.369863945	| F:maj(9) A:min7 | G:maj C:maj/5 |
+203.979614512	| Bb:maj/5 F:maj | C:maj/5 G:maj | Bb:maj/5 F:maj | C:maj/5 G:maj |
+211.220861678	| Bb:maj/5 F:maj | G:maj |
+214.861995464	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |, voice)
+222.215691609	A, solo, | F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |, (piano
+229.498412698	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |, piano)
+236.739546485	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |, (voice
+244.046780045	| F:maj(9) A:min7 | G:maj | F:maj(9) A:min7 | G:maj |
+251.31292517	| F:maj(9) A:min7 | C:maj/5 |, voice)
+257.710181405	Z
+271.418049886	silence
+274.311836734	end

@@ -1,0 +1,37 @@
+# title: These Boots Are Made For Walkin'
+# artist: Nancy Sinatra
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.510839002	A, intro, | F:maj | F:maj |, (guitar
+6.027664399	| F:maj | F:maj |, guitar)
+11.543832199	B, verse, | F:maj | F:maj |, (voice
+16.913900226	| F:maj | F:maj |
+22.293287981	| Bb:maj | Bb:maj |
+27.629591836	| F:maj | F:maj |
+32.972517006	C, chorus, | Ab:maj F:maj | Ab:maj F:maj |
+38.253650793	| Ab:maj F:maj | (2/4) N |, voice)
+42.256825396	A, interlude, | F:maj | F:maj |, (guitar
+47.676666666	| F:maj | F:maj |, guitar)
+53.174036281	B, verse, | F:maj | F:maj |, (voice
+58.468911564	| F:maj | F:maj |
+63.895578231	| Bb:maj | Bb:maj |
+69.238299319	| F:maj | F:maj |
+74.534761904	C, chorus, | Ab:maj F:maj | Ab:maj F:maj |
+79.828730158	| Ab:maj F:maj | (2/4) N |, voice)
+83.873038548	A, interlude, | F:maj | F:maj |, (guitar
+89.339886621	| F:maj | F:maj |, guitar)
+94.697845804	B, verse, | F:maj | F:maj |, (voice
+99.939455782	| F:maj | F:maj |
+105.320408163	| Bb:maj | Bb:maj |
+110.673945578	| F:maj | F:maj |
+115.943151927	C, chorus, | Ab:maj F:maj | Ab:maj F:maj |
+121.22154195	| Ab:maj F:maj | (2/4) N |, voice)
+125.29664399	A', outro, | F:maj | F:maj |, (guitar
+130.708390022	| F:maj | F:maj |, guitar)
+136.180725623	| F:maj | F:maj |, (organ
+141.413537414	fadeout, | F:maj | F:maj |
+146.650294784	| F:maj | F:maj |, organ)
+148.654149659	silence
+154.174693877	end

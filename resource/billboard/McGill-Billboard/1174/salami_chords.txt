@@ -1,0 +1,40 @@
+# title: Happy Anniversary
+# artist: Little River Band
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.232199546	A, chorus, | E:min7 | A:13 | E:min7 | A:13 |, (voice
+8.041224489	| E:min7 | A:13 | E:min7 | A:13 |, voice)
+15.882448979	A, interlude, | E:min7 | A:13 | E:min7 | A:13 |, (guitar
+23.386213151	| E:min7 | A:13 | E:min7 | A:13 |, guitar)
+30.848866213	A, verse, | E:min7 | A:13 | E:min7 | A:13 |, (voice
+38.30600907	| E:min7 | A:13 | E:min7 | A:13 |
+45.651519274	| E:min7 | A:13 | E:min7 | A:13 |
+52.986371882	| E:min7 | A:13 | E:min7 | A:13 |
+60.432902494	A, chorus, | E:min7 | A:13 | E:min7 | A:13 |
+67.911292517	| E:min7 | A:13 | E:min7 | A:13 |
+75.29446712	B, bridge, | D:maj7 | G:maj7 | D:maj7 | E:min7/b3 |
+82.632675736	| D:maj7 | G:maj7 | D:maj7 | C#:min7 F#:7 |
+90.07356009	| B:min7 | E:7 | E:min/11 | A:7 |, voice)
+97.433990929	A, solo, | E:min7 | A:13 | E:min7 | A:13 |, (guitar
+104.959433106	| E:min7 | A:13 | E:min7 | A:13 |
+112.273310657	| E:min7 | A:13 | E:min7 | A:13 |
+119.755238095	| E:min7 | A:13 | E:min7 | A:13 |, guitar)
+127.093764172	A, chorus, | E:min7 | A:13 | E:min7 | A:13 |, (voice
+134.66632653	| E:min7 | A:13 | E:min7 | A:13 |
+142.279342403	A, verse, | E:min7 | A:13 | E:min7 | A:13 |
+149.74739229	| E:min7 | A:13 | E:min7 | A:13 |
+157.076848072	| E:min7 | A:13 | E:min7 | A:13 |
+164.455623582	| E:min7 | A:13 | E:min7 | A:13 |
+171.732539682	A, chorus, | E:min7 | A:13 | E:min7 | A:13 |
+179.113628117	| E:min7 | A:13 | E:min7 | A:13 |
+186.515986394	A, chorus, | E:min7 | A:13 | E:min7 | A:13 |
+193.885011337	| E:min7 | A:13 | E:min7 | A:13 |, voice)
+201.316371882	A, outro, | E:min7 | A:13 | E:min7 | A:13 |, (guitar
+208.647505668	| E:min7 | A:13 | E:min7 | A:13 |
+215.964693877	| E:min7 | A:13 | E:min7 | A:13 |
+223.380136054	fadeout, | E:min7 | A:13 | E:min7 | A:13 |
+230.687936507	| E:min7 | A:13 | E:min7 | A:13 |, guitar)
+238.050975056	silence
+240.64	end

@@ -1,0 +1,42 @@
+# title: With Or Without You 
+# artist: U2
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+4.063492e-2	A, intro, | D:maj | D:maj | D:maj | D:maj |, (synthesizer
+8.75941043	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+17.493446712	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |, synthesizer)
+26.202993197	B, verse, | D:maj | A:sus4(b7) | B:min7 | G:maj9 |, (voice
+34.981882086	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+43.737414965	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+52.441746031	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+61.135374149	C', chorus, | D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+69.913356009	B', verse, | D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+78.641111111	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+87.386712018	C, chorus, | D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+96.087755102	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |, voice)
+104.848503401	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |, (guitar)
+113.536621315	D, bridge, | D:maj | G:maj9 | D:maj | G:maj9 |, (voice
+122.230566893	| D:maj | G:maj9 | B:min7 | G:maj9 |
+130.976054421	| D:maj | G:maj9 | D:maj | G:maj9 |
+139.712811791	| D:maj | G:maj9 | B:min7 | G:maj9 |
+148.494217687	| D:maj | G:maj9 | D:maj | G:maj9 |
+157.203741496	| D:maj | G:maj9 | B:min7 | G:maj9 |
+165.963310657	C, chorus, | D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+174.680022675	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+183.368435374	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+192.139931972	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+200.855918367	C, chorus, | D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+209.584489795	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |, voice)
+218.289274376	A, interlude, | D:maj | D:maj | D:maj | D:maj |, (synthesizer
+227.060725623	| D:maj | D:maj | D:maj | D:maj |
+235.77478458	| D:maj | D:maj | D:maj | D:maj |, synthesizer)
+244.560136054	C, solo, | D:maj | A:sus4(b7) | B:min7 | G:maj9 |, (guitar
+253.284149659	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+261.975782312	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+270.731269841	fadeout, | D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+279.420045351	| D:maj | A:sus4(b7) | B:min7 | G:maj9 |
+288.171609977	| D:maj | A:sus4(b7) | B:min7 |, guitar)
+293.291247165	silence
+296.17632653	end

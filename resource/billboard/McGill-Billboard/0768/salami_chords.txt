@@ -1,0 +1,45 @@
+# title: That Girl
+# artist: Stevie Wonder
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+9.2879818e-2	A, intro, | N | N | N | Ab:min Eb:7(#9) |, (synthesizer
+9.152222222	B, instrumental, | Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |
+18.117369614	| Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |
+27.073945578	B, verse, | Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |, (voice
+36.069433106	| Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |
+45.008503401	C, pre-chorus, | Gb:maj | Db:min7 | Bb:min7 Eb:7(b13) | Ab:min9 |
+53.984240362	| G:maj7/9 | D:maj9 | G:maj9 C:maj/#11 | C:maj/#11 D:maj/3 . E:maj/3 |
+62.943582766	B, verse, | Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |
+71.967301587	| Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |
+80.945668934	C, pre-chorus, | Gb:maj | Db:min7 | Bb:min7 Eb:7(b13) | Ab:min9 |
+89.908707482	| G:maj7/9 | D:maj9 | G:maj9 C:maj/#11 | C:maj/#11 D:maj/3 . E:maj/3 |
+98.883061224	D, chorus, | Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |
+107.831315192	| Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |, voice)
+116.839931972	E, bridge, | Db:min9 | Bb:hdim7 Eb:7(b13,#9) |, (synthesizer)
+121.335419501	| Db:hdim7 | E:min7/5 | Db:hdim7 | E:min7/5 |, (voice
+130.282494331	| Ab:sus4(b7) | Ab:sus4(b7) |
+134.796507936	| Db:hdim7 | E:min7/5 | Db:hdim7 | E:min7/5 |
+143.802063492	| Ab:sus4(b7) | Ab:sus4(b7) |, voice)
+148.249682539	| Bb:sus4(b7) | A:9(13) |, (synthesizer)
+152.713628117	B, verse, | Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |, (harmonica
+161.753015873	| Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |
+170.648684807	C, pre-chorus, | Gb:maj | Db:min7 | Bb:min7 Eb:7(b13) | Ab:min9 |
+179.658820861	| G:maj7/9 | D:maj9 | G:maj9 C:maj/#11 | C:maj/#11 D:maj/3 . E:maj/3 |, harmonica)
+188.581020408	B, verse, | Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |, (voice
+197.610521541	| Ab:min9 | Ab:min6 | Ab:min(b13) | Db:min9 Ab:min7 |
+206.589342403	C, pre-chorus, | Gb:maj | Db:min7 | Bb:min7 Eb:7(b13) | Ab:min9 |
+215.536507936	| G:maj7/9 | D:maj9 | G:maj9 C:maj/#11 | C:maj/#11 D:maj/3 . E:maj/3 |
+224.519614512	D, chorus, | Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |
+233.459705215	| Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |
+242.436507936	D, chorus, | Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |
+251.383741496	| Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |
+260.400566893	D, chorus, | Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |
+269.407029478	| Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |
+278.318662131	D, chorus, | Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |
+287.334535147	| Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |, voice)
+296.269705215	D, fadeout, | Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) | Gb:maj7/9 . . A:min6 |, (synthesizer
+305.270294784	| Eb:min/b7 | Db:maj6/5 | Db:sus4(b7) |, synthesizer)
+312.006530612	silence
+313.991836734	end

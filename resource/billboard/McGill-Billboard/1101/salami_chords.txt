@@ -1,0 +1,26 @@
+# title: (I was) Born To Cry
+# artist: Dion
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.438276643	C, intro, | A:min | D:min | A:min | E:7 |
+9.334739229	A, verse, | A:min | A:min | D:min | D:min |, (voice
+17.434036281	| A:min | A:min | N | N |
+25.324263038	A, verse, | A:min | A:min | D:min | D:min |
+33.396938775	| A:min | A:min | N | N |
+41.342902494	B, chorus, | A:min | D:min | A:min | D:min |
+49.466961451	| A:min | D:min | E:7 | E:7 |
+57.50600907	A, verse, | A:min | A:min | D:min | D:min |
+65.514897959	| A:min | A:min | N | N |
+73.360907029	A, verse, | A:min | A:min | D:min | D:min |
+81.374920634	| A:min | A:min | N | N |
+89.318004535	B, chorus, | A:min | D:min | A:min | D:min |
+97.289750566	| A:min | D:min | E:7 | E:7 |, voice)
+105.321950113	A, solo, | A:min | A:min | D:min | D:min |, (trumpet
+113.296099773	| A:min | A:min | N | N |, trumpet)
+121.276031746	A, outro, | A:min | A:min | D:min | D:min |, (voice
+129.39632653	| A:min | A:min | N | N | N |
+139.816054421	| A:min |, voice)
+143.766349206	silence
+146.67755102	end

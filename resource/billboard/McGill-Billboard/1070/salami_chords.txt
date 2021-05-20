@@ -1,0 +1,39 @@
+# title: Every Time I Think Of You
+# artist: The Babys
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.255419501	A, intro, | G:maj | G:maj |, (piano)
+4.634988662	B, verse, | G:maj | C:min | C:maj | G:maj D:maj/3 |, (voice
+13.507482993	| E:min | B:min | D:min7 | Eb:maj |
+22.294648526	| G:maj | C:min | C:maj | G:maj D:maj/3 |
+30.94031746	| E:min | B:min | D:min7 | Eb:maj |
+39.565623582	C, chorus, | Bb:maj | D:min7 | Eb:maj | Eb:maj |
+47.789637188	| Db:maj | F:min7 | Gb:maj | Gb:maj |
+55.838276643	| Bb:maj | Eb:min | Bb:maj | Eb:min |
+63.827800453	| Bb:maj | Eb:min | G:maj | G:maj |
+71.706122448	B, verse, | G:maj | C:min | C:maj | G:maj D:maj/3 |
+80.176530612	| E:min | B:min | C:maj | D:maj |
+88.527732426	| G:maj | C:min | C:maj | G:maj D:maj/3 |
+96.707165532	| E:min | B:min | C:maj | D:maj |
+104.78786848	C, chorus, | Bb:maj | D:min7 | Eb:maj | Eb:maj |
+112.801405895	| Db:maj | F:min7 | Gb:maj | Gb:maj |
+120.631768707	| Bb:maj | Eb:min | Bb:maj | Eb:min |
+128.449637188	| Bb:maj | Eb:min | G:maj | G:maj |, voice)
+136.415396825	B, solo, | G:maj | C:min | C:maj | G:maj D:maj/3 |, (guitar
+144.31632653	| E:min | B:min | C:maj | D:maj |, guitar)
+152.261156462	| G:maj | C:min | C:maj | G:maj D:maj/3 |, (voice
+160.174444444	| E:min | B:min | C:maj | D:maj |
+167.998435374	C', chorus, | Bb:maj | D:min7 | Eb:maj | Eb:maj |
+175.89941043	| Db:maj | F:min7 | Gb:maj | Gb:maj |
+183.638888888	D, outro, | G:maj | C:min | G:maj | C:min |
+191.478866213	| G:maj | C:min | G:maj | C:min |
+199.213832199	| G:maj | C:min | G:maj | C:min |
+206.937210884	| G:maj | C:min | G:maj | C:min |
+214.581428571	| G:maj | C:min | G:maj | C:min |
+222.171791383	| G:maj | C:min | G:maj | C:min |
+229.807959183	fadeout, | G:maj | C:min | G:maj | C:min |
+237.466598639	| G:maj | C:min | G:maj | C:min |, voice)
+240.679024943	silence
+243.30462585	end

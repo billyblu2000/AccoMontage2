@@ -1,0 +1,28 @@
+# title: Kicks
+# artist: Paul Revere & The Raiders
+# metre: 4/4
+# tonic: F
+
+0.000000000	silence
+0.417959183	A, intro, | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 |, (guitar)
+7.716848072	B, verse, | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 |, (voice
+14.952539682	| F:min7 | F:min7/11 . F:min7/b3 F:min7/9 | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 |
+22.270249433	| Db:maj | Db:maj | F:min | F:minmaj7 F:min7 |
+29.485147392	| Db:maj | Db:maj | C:7 | C:7 |
+36.678820861	C, chorus, | Ab:maj | Db:maj | Ab:maj | Db:maj |
+43.919841269	| Ab:maj | Ab:maj | C:7 | C:7 |, voice)
+51.191519274	A, trans, | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 |, (guitar)
+58.498412698	B, verse, | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 |, (voice
+65.776145124	| F:min7 | F:min7/11 . F:min7/b3 F:min7/9 | F:min7 | F:min7/11 . F:min7/b3 F:min7/9 |
+73.064739229	| Db:maj | Db:maj | F:min | F:minmaj7 F:min7 |
+80.278752834	| Db:maj | Db:maj | C:7 | C:7 |
+87.504535147	C, chorus, | Ab:maj | Db:maj | Ab:maj | Db:maj |
+94.786054421	| Ab:maj | Ab:maj | C:7 | C:7 |
+102.146077097	D, bridge, | F:maj | F:maj | D:min | D:min |
+109.811451247	| Bb:maj | Bb:maj | C:maj | C:maj |
+117.356031746	C, chorus, | Ab:maj | Db:maj | Ab:maj | Db:maj |
+124.704852607	| Ab:maj | Ab:maj | C:7 | C:7 |
+132.043877551	C, fadeout, | Ab:maj | Db:maj | Ab:maj | Db:maj |
+139.326099773	| Ab:maj | Ab:maj | C:7 | C:7 |, voice)
+145.565895691	silence
+149.315918367	end

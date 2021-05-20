@@ -1,0 +1,46 @@
+# title: Already Gone
+# artist: The Eagles
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.208979591	A, intro, | G:maj | D:maj | C:maj | C:maj |, (guitar
+8.452653061	| G:maj | D:maj | C:maj | C:maj |, guitar)
+15.170136054	A, verse, | G:maj | D:maj | C:maj | C:7 |, (voice
+21.712380952	| G:maj | D:maj | C:maj | C:maj |
+28.285804988	| G:maj | D:maj | C:maj | C:7 |
+34.859297052	| G:maj | D:maj | C:maj | C:maj |
+41.409455782	B, chorus, | G:maj | D:maj | C:maj | C:maj |
+48.021904761	| G:maj | D:maj | C:maj | C:maj |
+54.546258503	| G:maj | D:maj | C:maj | C:maj |
+61.072698412	| G:maj | D:maj | C:maj | C:maj |
+67.660521541	A, verse, | G:maj | D:maj | C:maj | C:7 |
+74.255079365	| G:maj | D:maj | C:maj | C:maj |
+80.776439909	| G:maj | D:maj | C:maj | C:maj |
+87.396621315	| G:maj | D:maj | C:maj | C:maj |
+93.903764172	B, chorus, | G:maj | D:maj | C:maj | C:maj |
+100.467959183	| G:maj | D:maj | C:maj | C:maj |
+107.008866213	| G:maj | D:maj | C:maj | C:maj |
+113.551791383	| G:maj | D:maj | C:maj | C:maj |, voice)
+120.0823356	A, solo, | G:maj | D:maj | C:maj | C:maj |, (guitar
+126.629750566	| G:maj | D:maj | C:maj | C:maj |
+133.183786848	| G:maj | D:maj | C:maj | C:maj |
+139.746666666	| G:maj | D:maj | C:maj | C:maj |, guitar)
+146.303922902	A, verse, | G:maj | D:maj | C:maj | C:7 |, (voice
+152.861927437	| G:maj | D:maj | C:maj | C:maj |
+159.435124716	| G:maj | D:maj | C:maj | C:maj |
+165.968390022	| G:maj | D:maj | C:maj | C:maj |
+172.599229024	B, chorus, | G:maj | D:maj | C:maj | C:maj |
+179.142063492	| G:maj | D:maj | C:maj | C:maj |
+185.687324263	| G:maj | D:maj | C:maj | C:maj |
+192.229909297	| G:maj | D:maj | C:maj | C:maj |
+198.799115646	B, chorus, | G:maj | D:maj | C:maj | C:maj |
+205.543945578	| G:maj | D:maj | C:maj | C:maj |
+212.023900226	| G:maj | D:maj | C:maj | C:maj |
+218.553650793	| G:maj | D:maj | C:maj | C:maj |, voice)
+225.051972789	B, solo, | G:maj | D:maj | C:maj | C:maj |, (guitar
+231.636439909	| G:maj | D:maj | C:maj | C:maj |
+238.162698412	fadeout, | G:maj | D:maj | C:maj | C:maj |
+244.714920634	| G:maj | D:maj | C:maj | C:maj |, guitar)
+252.911746031	silence
+255.503673469	end

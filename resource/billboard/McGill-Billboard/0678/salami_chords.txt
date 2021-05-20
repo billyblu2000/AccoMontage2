@@ -1,0 +1,25 @@
+# title: Chained And Bound
+# artist: Otis Redding
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.208979591	A, verse, | N | Bb:maj | Eb:maj |, (voice
+10.727619047	| Bb:maj F:maj | Bb:maj F:maj |
+19.600702947	A, verse, | Bb:maj | Eb:maj |
+28.580113378	| Bb:maj F:maj | Bb:maj F:maj |
+37.31446712	A, verse, | Bb:maj . . Bb:7 | Eb:maj |
+46.251587301	| Bb:maj F:7 | Bb:maj F:maj |
+55.054512471	B, bridge, | G:min | Bb:maj |
+63.970975056	| G:min | Bb:maj F:7 |
+72.866553287	A, verse, | Bb:maj | Eb:maj |
+81.838367346	| Bb:maj F:maj | Bb:maj F:maj |
+90.667981859	A, verse, | Bb:maj Bb:7 | Eb:maj |
+99.739138321	| Bb:maj F:maj | Bb:maj F:maj |
+108.536077097	A, verse, | Bb:maj | Eb:maj |
+117.659546485	| Bb:maj | Eb:maj |
+126.602312925	A, verse, | Bb:maj | Eb:maj |
+135.600566893	| Bb:maj | Eb:maj |
+144.687641723	A, fadeout, | Bb:maj | Eb:maj |, voice)
+153.646439909	silence
+161.01877551	end

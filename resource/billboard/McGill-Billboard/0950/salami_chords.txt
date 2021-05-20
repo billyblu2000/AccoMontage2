@@ -1,0 +1,22 @@
+# title: All I Ever Need Is You
+# artist: Sonny & Cher
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.325079365	A, intro, | Bb:maj | Bb:maj |, (guitar)
+6.767528344	B, verse, | Bb:maj | D:7 | G:min | Bb:7 |, (voice
+19.108458049	| Eb:maj | Bb:maj G:min | C:7 | F:7 . F:sus4(b7) F:7 |
+31.381451247	| Bb:maj | D:7 | G:min | Bb:7 |
+43.607845804	| Eb:maj | Bb:maj G:min | C:7 F:7 | Bb:maj |
+55.729863945	C, bridge, | Eb:maj | F:maj | Eb:maj | D:min7 |
+67.817528344	| Eb:maj | Bb:maj F:maj/3 G:min F:maj | Eb:maj Eb:maj/7 C:sus4(b7) . | F:maj |
+83.312040816	B, verse, | Bb:maj | D:7 | G:min | Bb:7 |
+95.482607709	| Eb:maj | Bb:maj G:min | C:7 | F:7 . F:sus4(b7) F:7 |
+107.534353741	| Bb:maj | D:7 | G:min | Bb:7 |
+119.657324263	| Eb:maj | Bb:maj G:min | C:7 F:7 | ->, voice)
+128.796462585	A, trans, | Bb:maj | Bb:maj |, (guitar)
+135.130975056	B, fadeout, | Bb:maj | D:7 | G:min | Bb:7 |, (voice
+147.305873015	| Eb:maj | Bb:maj G:min | C:7 | F:7 . F:sus4(b7) F:7 |, voice)
+157.524172335	silence
+159.634285714	end

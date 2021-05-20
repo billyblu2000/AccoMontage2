@@ -1,0 +1,42 @@
+# title: Feelin' Satisfied
+# artist: Boston
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.394739229	D, intro, | B:maj | E:maj | B:maj | E:maj |, (guitar)
+7.871564625	| B:maj | E:maj/5 | B:maj | A:maj | A:maj |
+16.952380952	A, verse, | E:maj | E:maj | D:maj/5 A:maj . . | D:maj/5 A:maj |, (voice
+24.199115646	| E:maj | E:maj | D:maj/5 A:maj . . | E:maj/5 B:maj . . |
+31.464421768	B, prechorus, | C#:min | G#:min | A:maj | D:maj A:maj |
+38.713990929	| E:maj | A:maj | E:maj | A:maj |
+45.935442176	| E:maj | B:maj | A:maj | A:maj(9) |, voice)
+53.278208616	C, chorus, | C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, (guitar)
+60.51585034	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, (voice
+67.854058956	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+75.168843537	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, voice)
+82.432312925	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, (guitar
+89.679342403	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+96.921360544	D, interlude, | B:maj | E:maj/5 | B:maj | E:maj/5 |
+104.262244897	| B:maj | E:maj/5 | B:maj | A:maj | A:maj |, guitar)
+113.336598639	A, verse, | E:maj | E:maj | D:maj/5 A:maj . . | D:maj/5 A:maj |, (voice
+120.592131519	| E:maj | E:maj | D:maj/5 A:maj . . | E:maj/5 B:maj . . |
+127.868367346	B, prechorus, | C#:min | G#:min | A:maj | D:maj A:maj |
+135.111020408	| E:maj | A:maj | E:maj | A:maj |
+142.343854875	| E:maj | B:maj | A:maj | A:maj(9) |, voice)
+149.716530612	C, chorus, | C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, (guitar)
+157.101337868	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, (voice
+164.453469387	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+171.730090702	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, voice)
+178.922834467	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, (guitar
+186.237006802	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+193.443900226	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+200.734013605	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+207.95170068	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+215.248299319	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, fadeout
+222.509002267	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+229.743219954	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+236.976893424	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |
+244.250498866	| C#:min B:maj | A:maj E:maj . . | B:maj . A:maj G#:min | F#:min A:maj E:maj . |, guitar)
+251.379229024	silence
+251.506938775	end

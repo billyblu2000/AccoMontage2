@@ -1,0 +1,18 @@
+# title: Evil Ways
+# artist: Santana
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.371519274	A, verse, | G:min C:7 | x20, (voice
+42.939727891	| D:7 | D:7 |
+46.935124716	A, verse, | G:min C:7 | x16
+79.658253968	| D:7 | D:7 |, voice)
+83.734557823	A', solo, | G:min C:7 | x12, (organ
+108.411020408	| G:min C:7 | x14
+137.113900226	| G:min C:7 | C:7 | x2, organ)
+145.363038548	A, verse, | G:min C:7 | x12, (voice
+170.084965986	| D:7 | D:7 |, voice)
+174.131564625	A'', solo, fadeout, | G:min C:7 | x32, (guitar)
+235.481292517	silence
+238.282267573	end

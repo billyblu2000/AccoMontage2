@@ -1,0 +1,34 @@
+# title: Fakin it
+# artist: Simon & Garfunkel
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+0.301859410	A', intro, | E:maj | E:maj |, (strings)
+4.852834467	| E:maj | E:maj | E:maj |, (guitar)
+12.047959183	B, verse, | E:maj | E:maj | A:maj G#:min | A:maj G#:maj |, (voice
+21.509387755	| C#:maj | C#:maj |, (guitar)
+26.237482993	C, chorus, | F#:maj C#:maj | C#:maj F#:7 | A:maj . E:maj/3 F#:min |
+33.249954648	| E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min |, voice)
+37.966961451	A, interlude, | E:maj | E:maj | E:maj |, (guitar)
+45.092290249	B, verse, | E:maj | E:maj | A:maj G#:min | A:maj G#:maj |, (voice
+54.752721088	| C#:maj | C#:maj |
+59.485646258	C, chorus, | F#:maj C#:maj | C#:maj F#:7 | A:maj . E:maj/3 F#:min |
+66.524943310	| E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min |, voice)
+71.258321995	A, interlude, | E:maj | E:maj | E:maj |, (guitar)
+78.508503401	B, verse, | E:maj | E:maj | A:maj G#:min | A:maj G#:maj |, (voice
+88.055736961	| C#:maj | C#:maj |, (guitar)
+92.776870748	C', chorus, | F#:maj C#:maj | C#:maj F#:7 | A:maj . E:maj/3 F#:min |
+99.794489795	| E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min | E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min |
+109.209160997	| E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min |, voice)
+113.843764172	A, interlude, | E:maj | E:maj | E:maj |, (guitar)
+118.637301587	B', verse, | E:maj | E:maj | A:maj G#:min | A:maj G#:maj |, (voice)
+129.555736961	| C#:maj | C#:maj | &pause |, (harmonica)
+141.467210884	C, chorus, | F#:maj C#:maj | C#:maj F#:7 | (6/4) A:maj . E:maj/3 F#:min A:maj F#:min |, (voice
+149.733197278	| E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min | E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min |
+158.959002267	| E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min | E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min |
+168.317959183	| E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min | E:maj . F#:min E:maj/3 | A:maj . E:maj/3 F#:min |, voice)
+177.351269841	A', outro, | E:maj | E:maj | E:maj | E:maj |, (strings
+186.410498866	fadeout, | E:maj | E:maj | E:maj | E:maj |, strings)
+195.813877551	silence
+199.340408163	end

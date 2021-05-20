@@ -1,0 +1,46 @@
+# title: Magic Man
+# artist: Heart
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+7.5464852e-2	A, intro, | G:5 | G:5 | G:5 | G:5 |, (guitar)
+10.429659863	B, verse, | G:5 | G:5 | F:maj | F:maj |, (voice
+20.035328798	| G:5 | G:5 | F:maj | F:maj |, voice)
+29.633537414	A, trans, | G:5 | G:5 |, (guitar)
+34.279659863	C, chorus, | Bb:maj F:maj | G:5 | Bb:maj F:maj | G:5 |, (voice
+43.801111111	| F:maj | G:maj | Bb:maj | C:maj |, voice)
+53.229342403	A, trans, | G:5 | G:5 |, (guitar)
+58.007097505	B, verse, | G:5 | G:5 | F:maj | F:maj |, (voice
+67.508208616	| G:5 | G:5 | F:maj | F:maj |, voice)
+77.029773242	A, trans, | G:5 | G:5 |, (guitar)
+81.73632653	C, chorus, | Bb:maj F:maj | G:5 | Bb:maj F:maj | G:5 |, (voice
+91.21585034	| F:maj | G:maj | Bb:maj | C:maj |, voice)
+100.511269841	A, interlude, | G:5 | G:5 | G:5 | G:5 |, (guitar
+109.881836734	| G:5 | G:5 | G:5 | G:5 |, guitar)
+119.320090702	C, chorus, | Bb:maj F:maj | G:5 | Bb:maj F:maj | G:5 |, (voice
+128.623854875	| F:maj | G:maj | Eb:maj | E:min |
+137.918480725	| F:maj | G:maj | Bb:maj | C:maj |
+147.215328798	D, solo, | G:5 | G:5 F:5 | G:5 | G:5 F:5 |, voice)
+156.272993197	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |, (guitar
+165.313287981	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+174.385600907	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+183.488185941	| G:5 | G:5 F:5 | (2/4) G:5 |
+189.104603174	D, solo, | G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+198.143310657	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+207.143809523	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+216.112131519	| G:5 | G:5 F:5 | G:5 | N |
+225.153378684	| (2/4) F:5 F#:5 | G:5 | G:5 |
+230.801632653	D, solo, | G:5 | N . F:5 F#:5 | G:5 | N |, guitar)
+239.880113378	| G:5 | N . F:5 F#:5 | G:5 | N |, (synthesizer
+248.945918367	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+257.84154195	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+266.768163265	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+275.705124716	| G:5 | G:5 F:5 | G:5 | G:5 F:5 |
+284.683968253	| G:5 | G:5 F:5 | (2/4) G:5 |
+290.274036281	| F:maj | F:maj | F:maj | F:maj |, synthesizer)
+299.449115646	C', chorus, | Bb:maj F:maj | G:5 | Bb:maj F:maj | G:5 |, (voice
+308.670408163	| F:maj | G:maj | Bb:maj | C:maj |
+317.550861678	| Bb:maj F:maj | Bb:maj F:maj | Bb:maj F:maj |, voice)
+327.053061224	silence
+328.542040816	end

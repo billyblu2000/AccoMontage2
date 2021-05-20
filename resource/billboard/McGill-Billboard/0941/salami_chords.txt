@@ -1,0 +1,38 @@
+# title: Like A Rock
+# artist: Bob Seger
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.522448979	A, intro, | Ab:maj . . Db:maj/5 | Ab:maj | x2, (guitar)
+12.749886621	B, verse, | Ab:maj | Ab:maj | Db:maj/5 | Db:maj/5 |, (voice
+24.661360544	| Gb:maj/9 | Db:maj/5 | Ab:maj . . Db:maj/5 | Ab:maj |
+36.65430839	B, verse, | Ab:maj | Ab:maj | Db:maj | Db:maj |
+48.527777777	| Gb:sus2 | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+60.485283446	B, verse, | Ab:maj | Ab:maj | Db:maj | Db:maj |
+72.276621315	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+84.064761904	B, chorus, | Ab:maj | Ab:maj | Db:maj | Db:maj |
+95.819206349	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+107.536712018	C, bridge, | F:min | F:min | Ab:maj | Ab:maj |
+119.253673469	| Db:maj | Db:maj | Bb:min | Eb:maj |, voice)
+130.804739229	B, solo, | Ab:maj | Ab:maj | Db:maj | Db:maj |, (guitar
+142.471496598	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+154.154489795	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+165.62494331	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+177.079818594	A, interlude, | Ab:maj . . Db:maj/5 | Ab:maj | x2, guitar)
+188.96031746	B, verse, | Ab:maj | Ab:maj | Db:maj | Db:maj |, (voice
+200.962562358	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+212.727346938	B, verse, | Ab:maj | Ab:maj | Db:maj | Db:maj |
+224.422562358	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+235.90526077	B, chorus, | Ab:maj | Ab:maj | Db:maj | Db:maj |
+247.368526077	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+258.897324263	B, chorus, | Ab:maj | Ab:maj | Db:maj | Db:maj |
+270.267324263	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |, voice)
+281.513265306	B, outro, | Ab:maj | Ab:maj | Db:maj | Db:maj |, (guitar
+292.779115646	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+303.989682539	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+315.176099773	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |
+326.224671201	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+337.309909297	| Gb:maj | Db:maj | Ab:maj . . Db:maj/5 | Ab:maj |, voice)
+353.804195011	silence
+355.004081632	end

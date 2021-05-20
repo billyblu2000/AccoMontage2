@@ -1,0 +1,33 @@
+# title: Time Is On My Side
+# artist: Rolling Stones
+# metre: 12/8
+# tonic: F
+
+0.0	silence
+0.431746031	A, intro, | Bb:maj7 | D:min |, (guitar
+7.916553287	| G:7 | C:7 |, guitar)
+14.394739229	B, chorus, | F:maj | Bb:maj C:maj |, (voice 
+21.572789115	| F:maj | Bb:maj C:maj |
+28.843537414	C, verse, | D:min C:maj | D:min G:7 |
+36.179591836	| C:maj Bb:maj | C:maj Bb:maj |
+43.464852607	| C:maj Bb:maj | C:maj C:7 |
+50.597732426	B, chorus, | F:maj | Bb:maj C:maj |
+57.914195011	| F:maj | Bb:maj C:maj |
+65.123015873	C, verse, | D:min C:maj | D:min G:7 |
+72.437936507	| C:maj Bb:maj | C:maj Bb:maj |
+79.636235827	| C:maj Bb:maj | C:maj C:7 |
+86.788208616	A, bridge, | Bb:maj | F:maj |, (guitar
+94.289002267	| Bb:maj | F:maj |
+101.705623582	| Bb:maj | D:min |
+109.24095238	| G:7 | C:7 |, guitar) 
+116.330136054	B, chorus, | F:maj | Bb:maj C:maj |
+123.607437641	| F:maj | Bb:maj C:maj |
+130.916122448	C, verse, | D:min C:maj | D:min G:7 |
+138.416893424	| C:maj Bb:maj | C:maj Bb:maj |
+145.720022675	| C:maj Bb:maj | C:maj C:7 |
+153.082358276	B, outro, | F:maj | Bb:maj C:maj |
+160.211043083	| F:maj | Bb:maj C:maj |
+167.361224489	| F:maj | Bb:maj C:maj |
+174.570521541	| F:maj |, voice)
+177.988208616	silence
+178.782040816	end

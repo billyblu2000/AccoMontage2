@@ -1,0 +1,52 @@
+# title: Just The Way You Are
+# artist: Billy Joel
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.422267573	A, intro, | D:1 E:hdim7/b7 | D:1 . G:maj/5 D:maj | D:1 E:hdim7/b7 | D:1 . G:maj/5 D:maj |, (keyboard)
+7.842154195	B, verse, | D:maj | B:min7 | G:maj7 | B:min7 D:7 |, (vocal
+14.962585034	| G:maj7 | G:min7 | D:maj | A:min D:7 |
+21.949160997	| G:maj7 | G:min7 | D:maj | B:min7 |
+28.992108843	| E:sus4(b7) | E:7 | A:sus4(b7,9) | A:sus4(b7,9) |
+35.887301587	| D:maj | B:min7 | G:maj7 | B:min7 D:7 |
+42.892721088	| G:maj7 | G:min7 | D:maj/3 | A:min D:7 |
+49.795396825	| G:maj7 | G:min7 | D:maj/3 | B:min7 |
+56.62478458	| E:min | A:sus4(b7,9) |, voice)
+60.129523809	A, interlude, | D:1 E:hdim7/b7 | D:1 . G:maj/5 D:maj | D:maj E:hdim7/b7 | D:1 . G:maj/5 D:maj |, (saxophone)
+67.106031746	B, verse, | D:maj | B:min7 | G:maj7 | B:min7 D:7 |, (voice
+74.243582766	| G:maj7 | G:min7 | D:maj/3 | A:min D:7 |
+81.054217687	| G:maj7 | G:min7 | D:maj/3 | B:min7 |
+87.926553287	| E:sus4(b7) | E:7 | A:sus4(b7,9) | A:sus4(b7,9) |
+94.748526077	| D:maj | B:min7 | G:maj7 | B:min7 D:7 |
+101.543832199	| G:maj7 | G:min7 | D:maj/3 | A:min D:7 |
+108.513106575	| G:maj7 | G:min7 | D:maj/3 | B:min7 |
+115.351179138	| E:min | A:sus4(b7,9) |, voice)
+118.809206349	A, interlude, | D:1 E:hdim7/b7 | D:1 . G:maj/5 D:maj | D:1 E:hdim7/b7 | A:min7 D:7 |, (saxophone)
+125.901043083	C, bridge, | G:maj7 | A:7 | F#:min7 | B:sus4(b7) |, (voice
+132.871791383	| E:min7 | A:7 | D:maj | D:maj D:7/b7 |
+139.776303854	| Bb:maj7 | C:7 | A:min7 | D:7 |
+146.563129251	| G:min7 | G:min7/11 | G:maj/9 | G:maj/9 |
+153.481836734	B, verse, | D:maj | B:min7 | G:maj7 | B:min7 D:7 |
+160.4992517	| G:maj7 | G:min7 | D:maj/3 | A:min D:7 |
+167.353605442	| G:maj7 | G:min7 | D:maj/3 | B:min7 |
+174.242607709	| E:min | A:sus4(b7,9) |, voice)
+177.600181405	A, interlude, | D:1 E:hdim7/b7 | D:1 . G:maj/5 D:maj | D:1 E:hdim7/b7 | A:min7 D:7 |, (saxophone
+184.734058956	B, solo, | D:maj | B:min7 | G:maj7 | B:min7 D:7 |
+191.658276643	| G:maj7 | G:min7 | D:maj/3 | A:min D:7 |
+198.634195011	| G:maj7 | G:min7 | D:maj/3 | B:min7 |
+205.497528344	| E:sus4(b7) | E:7 | A:sus4(b7,9) | A:sus4(b7,9) |, saxophone)
+212.331269841	B, verse, | D:maj | B:min7 | G:maj7 | B:min7 D:7 |, (voice
+219.259229024	| G:maj7 | G:min7 | D:maj/3 | A:min D:7 |
+226.146145124	| G:maj7 | G:min7 | D:maj/3 | B:min7 |
+233.337800453	| E:min | A:sus4(b7,9) |
+236.922675736	C', outro, | Bb:maj | C:maj | A:min7 | D:7 |, voice)
+243.918526077	| G:min7 | A:7 |, (saxophone
+247.366848072	B, outro, | D:maj | B:min7 | G:maj7 | B:min7 D:7 |
+254.31893424	| G:maj7 | G:min7 | D:maj/3 | A:min D:7 |
+261.134852607	| G:maj7 | G:min7 | D:maj/3 | B:min7 |
+268.044013605	| E:sus4(b7) | E:7 | A:sus4(b7,9) | A:sus4(b7,9) |, fadeout
+274.881247165	| D:maj | B:min7 | G:maj7 | B:min7 D:7 |
+281.660566893	| G:maj7 | G:min7 | D:maj/3 | A:min D:7 |, saxophone)
+289.208888888	silence
+290.79510204	end

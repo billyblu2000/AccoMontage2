@@ -1,0 +1,28 @@
+# title: I'll Tumble 4 Ya
+# artist: Culture Club
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.592108843	A', intro, | * | * | * | * |, (horns)
+9.246417233	A, verse, | E:min D:min . C:maj/3 | C:maj | E:min D:min . C:maj/3 | C:maj |, (voice
+17.714739229	B, pre-chorus, | D:min | D:min | D:min | G:maj |
+26.257936507	C, chorus, | C:maj | C:maj | C:maj | C:maj |
+34.824353741	| C:maj | C:maj | C:maj | ->
+41.203219954	A, verse, | E:min D:min . C:maj/3 | C:maj | E:min D:min . C:maj/3 | C:maj |
+49.68356009	B, pre-chorus, | D:min | D:min | D:min | G:maj |
+58.325124716	C, chorus, | C:maj | C:maj | C:maj | C:maj |
+66.817052154	| C:maj | C:maj | C:maj | ->, voice)
+73.170770975	D, interlude, | A:min | A:min |
+77.488594104	D, bridge, | A:min | A:min | A:min | A:min |, (voice
+85.987210884	| A:min | A:min |
+90.244421768	B, pre-chorus, | D:min | D:min | D:min | G:maj |
+98.792086167	C', chorus, | N | N | N | N |
+107.347687074	| N | N | N | ->
+113.695555555	A, verse, | E:min D:min . C:maj/3 | C:maj | E:min D:min . C:maj/3 | C:maj |
+122.27095238	B, pre-chorus, | D:min | D:min | D:min | G:maj |
+130.805147392	C, chorus, | C:maj | C:maj | C:maj | C:maj |
+139.343832199	| C:maj | C:maj | C:maj | ->, voice)
+145.704285714	E, outro, | C:maj Bb:maj | C:maj . Eb:maj Bb:maj/3 | C:maj Bb:maj | C:maj |, (horns) 
+155.223741496	silence
+156.003265306	end

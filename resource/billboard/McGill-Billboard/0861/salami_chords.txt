@@ -1,0 +1,52 @@
+# title: You've Got Another Thing Comin'
+# artist: Judas Priest
+# metre: 4/4
+# tonic: F#
+
+0.000000000	silence
+0.306213151	D, intro, | F#:5 | F#:5 | F#:5 | F#:5 |
+7.356848072	| E:maj/9 | B:maj/5 | F#:5 | F#:5 |
+14.403718820	| E:maj/9 | B:maj/5 | F#:5 | F#:5 |
+21.369138321	A, verse, | F#:5 | F#:5 | F#:5 | F#:5 |, (voice
+28.339297052	| F#:5 | F#:5 | F#:5 | F#:5 |
+35.409297052	| F#:5 | F#:5 | F#:5 | F#:5 |
+42.391927437	| F#:5 | F#:5 | F#:5 | F#:5 |
+49.401519274	B, prechorus, | F#:maj | D:maj/3 | B:maj/5 | F#:maj |
+56.396553287	| F#:maj | D:maj/3 | B:maj/5 | C#:5 |
+63.391678004	C, chorus, | F#:min | F#:min . A:5/13 B:5/5 | F#:min | F#:min . A:5 B:5 |
+70.300544217	A, verse, | F#:5 | F#:5 | F#:5 | F#:5 |
+77.269727891	| F#:5 | F#:5 | F#:5 | F#:5 |
+84.225646258	| F#:5 | F#:5 | F#:5 | F#:5 |
+91.240816326	| F#:5 | F#:5 | F#:5 | F#:5 |
+98.178956916	B, prechorus, | F#:maj | D:maj/3 | B:maj/5 | F#:maj |
+105.132993197	| F#:maj | D:maj/3 | B:maj/5 | C#:5 |
+112.094126984	C, chorus, | F#:min | F#:min . A:5/13 B:5/5 | F#:min | F#:min . A:5 B:5 |
+119.017029478	| F#:min | F#:min . A:5/13 B:5/5 | F#:min | F#:min . A:5 B:5 |
+125.997505668	E, bridge, | B:min7 | D:maj/5 | A:maj | F#:maj |
+132.871428571	| B:min7 | D:maj/5 | A:maj | C#:5 |, voice)
+139.809523809	C, solo, | F#:min | F#:min . A:5/13 B:5/5 | F#:min | F#:min . A:5 B:5 |, (guitar
+146.662290249	| F#:min | F#:min . A:5/13 B:5/5 | F#:min | F#:min . A:5 B:5 |
+153.632018140	B, solo, | F#:maj | D:maj/3 | B:maj/5 | F#:maj |
+160.508888888	| F#:maj | D:maj/3 | B:maj/5 | C#:5 | A:5 |, guitar)
+169.192335600	A, verse, | F#:5 | F#:5 | F#:5 | F#:5 |, (voice
+176.062834467	| F#:5 | F#:5 | F#:5 | F#:5 |
+182.961201814	| F#:5 | F#:5 | F#:5 | F#:5 |
+189.890294784	| F#:5 | F#:5 | F#:5 | F#:5 |
+196.770362811	B, prechorus, | F#:maj | D:maj/3 | B:maj/5 | F#:maj |
+203.636349206	| F#:maj | D:maj/3 | B:maj/5 | C#:5 |
+210.609705215	C, chorus, | F#:min | F#:min . A:5/13 B:5/5 | F#:min | F#:min . A:5 B:5 |
+217.505306122	| F#:min | F#:min . A:5/13 B:5/5 | F#:min | F#:min . A:5 B:5 |
+224.397346938	C, instrumental, | F#:min | F#:min . A:5 B:5 | F#:min | F#:min . A:5 B:5 |
+231.347505668	| F#:min | F#:min . A:5 B:5 | F#:min | F#:min . A:5 B:5 |
+238.292448979	E, outro, | F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+245.290861678	| F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+252.207959183	| F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+259.165510204	| F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+266.095102040	| F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+273.016916099	| F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+279.935963718	fadeout, | F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+286.880136054	| F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+293.750952380	| F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |
+300.656757369	| F#:sus4(b7) | B:maj/5 | F#:5 | F#:maj . A:maj B:5 |, voice)
+304.604081632	silence
+310.752653061	end

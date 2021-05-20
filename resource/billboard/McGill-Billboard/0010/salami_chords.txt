@@ -1,0 +1,40 @@
+# title: An Innocent Man
+# artist: Billy Joel
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.301859410	A, intro, | C:maj | x4, (bass)
+9.694671201	A, verse, | C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | C:maj |, (voice
+28.156213151	| C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | C:maj |
+46.537891156	B, bridge, | G:min7 | C:maj/5 | Bb:maj/5 | F:maj | G:maj |
+57.708888888	A, verse, | C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | C:maj |
+76.054240362	| C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | ->
+92.174285714	C, chorus, | C:maj . F:maj/5 C:maj | C:maj F:maj/3 . G:maj/3 |
+96.736938775	| C:maj . F:maj/5 C:maj | C:maj D:min7 . C:maj/3 |
+100.934920634	| Bb:maj/5 F:maj | F:maj Bb:maj/5 . F:maj | Bb:maj/5 F:maj | F:maj G:maj . G:maj/3 |, voice)
+109.651315192	A, instrumental, | C:maj | x4, (bass)
+118.795374149	A, verse, | C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | C:maj |, (voice
+136.867301587	| C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | C:maj |
+155.051315192	B, bridge, | G:min7 | C:maj/5 | Bb:maj/5 | F:maj | G:maj |
+166.083197278	A, verse, | C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | C:maj |
+184.200181405	| C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | ->
+199.891428571	C, chorus, | C:maj . F:maj/5 C:maj | C:maj F:maj/3 . G:maj/3 |
+204.288458049	| C:maj . F:maj/5 C:maj | C:maj D:min7 . C:maj/3 |
+208.651836734	| Bb:maj/5 F:maj | F:maj Bb:maj/5 . F:maj |
+212.982040816	| Bb:maj/5 F:maj | F:maj G:maj . G:maj/3 |
+217.307301587	| C:maj . F:maj/5 C:maj | C:maj F:maj/3 . G:maj/3 |
+221.683265306	| C:maj . F:maj/5 C:maj | C:maj D:min7 . C:maj/3 |
+225.883265306	D, trans, | G:min7 | C:maj/5 | Bb:maj/5 | F:maj | G:maj | N |
+238.991904761	A, verse, | C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | C:maj |
+256.964716553	| C:maj | C:maj | D:min | D:min | F:maj | G:maj | G:maj | ->
+272.477029478	C, chorus, | C:maj . F:maj/5 C:maj | C:maj F:maj/3 . G:maj/3 |
+276.852993197	| C:maj . F:maj/5 C:maj | C:maj D:min7 . C:maj/3 |
+281.093129251	| Bb:maj/5 F:maj | F:maj Bb:maj/5 . F:maj |
+285.277641723	| Bb:maj/5 F:maj | F:maj G:maj . G:maj/3 |
+289.524988662	| C:maj . F:maj/5 C:maj | C:maj F:maj/3 . G:maj/3 |
+293.765034013	| C:maj . F:maj/5 C:maj | C:maj D:min7 . C:maj/3 |
+297.868752834	| G:maj | G:maj |, voice)
+302.263877551	A, outro, | C:maj | x4, (bass) 
+318.003083900	silence
+318.159251700	end

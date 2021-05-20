@@ -1,0 +1,31 @@
+# title: If You really love me
+# artist: Stevie Wonder
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.278639455	A', intro, | A:min7 D:min7 | G:min7 G:min7/11 | A:min7 D:min7 | G:min7 G:min7/11 |
+8.776462585	| A:min7 D:min7 | G:min7 . G:min F:maj | Eb:maj | G:min7/11 |
+16.44185941	A, chorus, | A:min7 D:min7 | G:min7 G:min7/11 | A:min7 D:min7 | G:min7 G:min7/11 |, (voice
+24.349591836	| A:min7 D:min7 | G:min7 G:min7/11 | A:min7 D:min7 | G:min7 G:min7/11 |
+31.952562358	| Bb:maj7 A:min7 . G:min7 | F:maj7 | E:hdim7/b3 | A:7(b9) |
+40.185827664	B, verse, | D:maj7 | A:7(b9,b13) | D:maj7 | A:7(b9,b13) |
+48.576145124	| D:min | D:min/b7 | B:dim(b13) | Bb:min9 Eb:9 |
+56.577006802	| F:maj7 | F:maj7 | A:min7 | D:7(b9,#11) |
+64.833764172	| G:13 . . G:7(b13) | G:9 | C:1 | C:1 |
+72.75786848	A, chorus, | A:min7 D:min7 | G:min7 G:min7/11 | A:min7 D:min7 | G:min7 G:min7/11 |
+80.562607709	| A:min7 D:min7 | G:min7 G:min7/11 | A:min7 D:min7 | G:min7 G:min7/11 |
+88.423582766	| Bb:maj7 A:min7 . G:min7 | F:maj7 | E:hdim7/b3 | A:7(b9) |
+97.021292517	B, verse, | D:maj7 | A:7(b9,b13) | D:maj7 | A:7(b9,b13) |
+105.404058956	| D:min | D:min/b7 | B:dim(b13) | Bb:min9 Eb:9 |
+113.357755102	| F:maj7 | F:maj7 | A:min7 | D:7(b9,#11) |
+121.153106575	| G:13 . . G:7(b13) | G:9 | C:1 | C:1 Db:1 |
+129.147414965	A, chorus, | Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 | Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 |
+136.900362811	| Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 | Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 |
+144.668639455	| Cb:maj7 Bb:min7 . Ab:min7 | Db:sus4(b7) |
+148.459954648	A, chorus, | Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 | Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 |
+156.093900226	| Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 | Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 |
+163.670748299	fadeout, | Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 | Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 |
+171.283673469	| Bb:min7 Eb:min7 | Ab:min7 Ab:min7/11 | Bb:min7 Eb:min7 |, voice)
+175.914376417	silence
+179.644081632	end

@@ -1,0 +1,47 @@
+# title: Drivin' Wheel
+# artist: Foghat
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.232199546	A, intro, | D:maj | D:maj | C:maj | G:maj D:maj |, (guitar
+11.257664399	| D:maj | D:maj | C:maj | G:maj D:maj |
+18.048004535	| D:maj | D:maj | C:maj | G:maj D:maj |, guitar)
+24.881496598	A, verse, | D:maj | D:maj | C:maj | G:maj D:maj |, (voice
+31.785442176	| D:maj | D:maj | C:maj | G:maj D:maj |
+38.643628117	B, pre-chorus, | A:maj | G:maj | A:maj | G:maj |
+45.526802721	| A:maj | G:maj | A:maj | G:maj |
+52.334058956	C, chorus, | D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+59.237528344	| D:maj C:maj | G:maj | D:maj . C:maj G:maj | G:maj | &pause |, voice)
+66.919909297	A, trans, | D:maj | D:maj | C:maj | G:maj D:maj |, (guitar)
+73.840725623	A, verse, | D:maj | D:maj | C:maj | G:maj D:maj |, (voice
+80.694353741	| D:maj | D:maj | C:maj | G:maj D:maj |
+87.551791383	B, pre-chorus, | A:maj | G:maj | A:maj | G:maj |
+94.435374149	| A:maj | G:maj | A:maj | G:maj |
+101.273401360	C, chorus, | D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+108.166598639	| D:maj C:maj | G:maj | D:maj . C:maj G:maj | G:maj |, voice)
+114.985215419	A', trans, | D:maj | D:maj |, (guitar)
+118.476122448	D, bridge, | G:maj | G:maj | G:maj | G:maj |, (voice
+125.304557823	| A:maj | A:maj | A:maj | A:maj |, voice)
+132.173378684	E, solo, | D:maj C:maj | G:maj | D:maj C:maj | G:maj |, (guitar
+139.059410430	| D:maj C:maj | G:maj | D:maj C:maj |
+144.217324263	| G:maj | G:maj | G:maj | G:maj |
+151.075079365	| A:maj | A:maj | A:maj | A:maj |
+156.231247165	| A:maj | A:maj | A:maj | A:maj |, guitar)
+163.156848072	C, chorus, | D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+169.953106575	| D:maj C:maj | G:maj | D:maj . C:maj G:maj | G:maj | &pause |
+177.702312925	| G:1 | D:1 |, voice)
+184.190929705	A, verse, | D:maj | D:maj | C:maj | G:maj D:maj |, (guitar
+191.039160997	| D:maj | D:maj | C:maj | G:maj D:maj |
+197.890907029	| D:maj | D:maj | C:maj | G:maj D:maj |
+204.762743764	| A:min | A:min | C:maj | G:maj D:maj | C:maj | C:maj |
+215.077687074	C, chorus, | D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+221.911995464	| D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+228.836893424	| D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+235.702018140	| D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+242.518253968	| D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+249.467029478	fadeout, | D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+256.289637188	| D:maj C:maj | G:maj | D:maj C:maj | G:maj |
+263.209455782	| D:maj C:maj | G:maj | D:maj C:maj | G:maj |, guitar)
+267.563537414	silence
+271.360000000	end

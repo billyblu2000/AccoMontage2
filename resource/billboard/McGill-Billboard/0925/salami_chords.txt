@@ -1,0 +1,33 @@
+# title: The Best Disco In Town
+# artist: The Ritchie Family
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.185759637	A, intro, | Ab:maj | Db:maj(9)/5 | Ab:maj | Db:maj(9)/5 |, (synthesizer)
+8.402086167	B, chorus, | Ab:maj F:min7 | Db:maj Ab:maj/3 | Bb:min7 Ab:maj/3 | Db:maj Eb:maj |, (voice
+16.165736961	| Ab:maj F:min7 | Db:maj Ab:maj/3 | Bb:min7 Ab:maj/3 | Db:maj Eb:maj |
+24.072902494	| Bb:min7 | Eb:7 | Bb:min7 | Eb:7 | Bb:min7 | Eb:7 |
+35.718798185	| Bb:min7 . Ab:maj/3 Db:maj | Bb:7/3 | Eb:sus4(b7) | Eb:7 |
+43.587029478	B, chorus, | Ab:maj F:min7 | Db:maj Ab:maj/3 | Bb:min7 Ab:maj/3 | Db:maj Eb:maj |
+51.493945578	| Ab:maj F:min7 | Db:maj Ab:maj/3 | Bb:min7 Ab:maj/3 | Db:maj Eb:maj |
+59.47	| Bb:min7 | Eb:7 | Bb:min7 | Eb:7 | Bb:min7 | Eb:7 |
+71.288344671	| Bb:min7 . Ab:maj/3 Db:maj | Bb:7/3 | Eb:sus4(b7) | Eb:7 |, voice)
+79.168548752	C, bridge, | Ab:maj | Db:maj(9)/5 | Ab:maj | Db:maj(9)/5 |
+87.089160997	| Ab:maj | Db:maj(9)/5 | Ab:maj | N |
+94.909274376	| Ab:maj | Db:min/5 | Ab:maj Ab:maj(9) | F:min7 |, (voice
+102.800226757	| Bb:sus4(b7) Bb:maj |
+104.803650793	| F:min7 G:min7 | F:min7 G:min7 | F:min7 G:min7 | F:min7 G:min7 |
+112.561519274	| C:min7 |, voice)
+114.526848072	| C:min7 | F:sus4(b7) | F:maj | F:sus4(b7) | Bb:maj6 |, (bass)
+122.321564625	| Eb:maj | C:min7 | F:min7 | Eb:maj/5 Bb:7 |, (strings)
+130.175827664	| F:sus4(b7) | Bb:maj6 |, (voice)
+134.121224489	| Eb:maj | Eb:maj | C:min7 | C:min7 |, (strings)
+142.070702947	| F:sus4(b7,9) F:sus4(b7,9)/9 | F:sus4(b7,9)/9 Ab:maj | A:min7 | D:7 |, (voice
+149.989909297	| G:maj7 | G:maj7 . Gb:maj F:maj | E:maj Eb:maj D:maj Db:maj | C:maj B:maj Bb:maj A:maj |, voice)
+157.893265306	A, interlude, | Ab:maj | Db:maj(9)/5 | Ab:maj | Db:maj(9)/5 |, (synthesizer)
+165.685079365	B, chorus, | Ab:maj | Db:maj Ab:maj/3 | Bb:min Ab:maj/3 | Db:maj Eb:maj |, (voice
+173.685532879	| Ab:maj | Db:maj Ab:maj/3 | Bb:min Ab:maj/3 | Db:maj Eb:maj |
+181.686938775	fadeout, | Bb:min | Eb:maj | Bb:min | Eb:maj | Bb:min | Eb:maj |, voice)
+191.56462585	silence
+193.645714285	end

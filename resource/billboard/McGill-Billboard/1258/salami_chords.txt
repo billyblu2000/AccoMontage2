@@ -1,0 +1,33 @@
+# title: Lady
+# artist: Kenny Rogers
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.557278911	A, intro, | Eb:min | Eb:min |
+7.570340136	B, verse, | Eb:min | Ab:min/5 Db:maj/9 | Eb:min |, (voice
+18.255827664	| Ab:min/5 Db:maj/9 | (2/4) Db:maj/9 | Eb:min | Eb:min |
+30.61723356	| Eb:min | Ab:min/5 Db:maj/9 | Eb:min |
+41.255578231	| Ab:min/5 Db:maj/9 | (2/4) Db:maj/9 | Eb:min | Eb:min |
+53.663514739	C, chorus, | Ab:min | Bb:min Eb:min |
+60.774965986	| Cb:maj Bb:min | Eb:sus4 Eb:maj |
+67.84292517	| Ab:min | Bb:min Eb:min |
+74.934965986	| Cb:maj Bb:min | Eb:sus4 | Eb:maj |
+85.609614512	B, verse, | Eb:min | Ab:min/5 Db:maj/9 | Eb:min |
+96.047210884	| Ab:min/5 Db:maj/9 | (2/4) Db:maj/9 | Eb:min | Eb:min |
+108.552290249	| Eb:min | Ab:min/5 Db:maj/9 | Eb:min |
+119.215056689	| Ab:min/5 Db:maj/9 | (2/4) Db:maj/9 | Eb:min | Eb:min |
+131.520430839	C, chorus, | Ab:min | Bb:min Eb:min |
+138.637845804	| Cb:maj Bb:min | Eb:sus4 Eb:maj |
+145.752426303	| Ab:min | Bb:min Eb:min |
+152.753219954	| Cb:maj Bb:min | Eb:sus4 | Eb:maj |
+163.396077097	D, bridge, | Cb:maj | Db:7/b7 |
+170.449387755	| Gb:maj Db:maj/3 | Eb:min Eb:min/b7 |
+177.540816326	| Cb:maj | Db:7/b7 |
+184.606938775	| Gb:maj Db:maj/3 | Eb:min Eb:min/b7 |
+191.721224489	| Cb:maj | Db:7/b7 |
+198.740045351	| Gb:maj Db:maj/3 | Eb:min Eb:min/b7 |
+205.820816326	| Cb:maj Bb:min Ab:min . | Db:sus4(b7) | &pause |
+212.973424036	A', coda, | Eb:min | Ab:maj/5 Db:maj/9 | Eb:min |, voice)
+230.713469387	silence
+235.363265306	end

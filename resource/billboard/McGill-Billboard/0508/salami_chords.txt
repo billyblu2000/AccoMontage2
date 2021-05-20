@@ -1,0 +1,25 @@
+# title: For Ol' Times Sake
+# artist: Elvis Presley
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.232199546	A, intro, | Bb:maj | Bb:maj |
+7.163061224	B, verse, | Bb:maj | Bb:maj7/7 | F:sus4(b7,9) Bb:7 | Eb:maj |, (voice
+20.976870748	| Bb:maj | Bb:maj7/7 | F:sus4(b7,9) Bb:7 | Eb:maj |
+34.816780045	| Eb:maj F:sus4(b7) | Bb:maj | C:min7 F:7 | Bb:maj |
+48.832993197	B, verse, | Bb:maj | Bb:maj7/7 | F:sus4(b7,9) Bb:7 | Eb:maj |
+62.83861678	| Bb:maj | Bb:maj7/7 | F:sus4(b7,9) Bb:7 | Eb:maj |
+76.782040816	| Eb:maj F:sus4(b7) | Bb:maj | C:min7 F:7 | Bb:maj |
+90.72585034	C, bridge, | Eb:maj F:7 | Bb:maj | Eb:maj F:7 | Bb:maj |
+104.799931972	| Eb:maj F:maj | Bb:maj | F:maj/3 G:min7 | (2/4) Eb:maj |, voice)
+117.011609977	| F:sus4(b7) | F:maj F:7 |, (guitar)
+124.074897959	B, solo, | Bb:maj | Bb:maj7/7 | F:sus4(b7,9) Bb:7 | Eb:maj |, (guitar)
+137.987528344	B, verse, | Bb:maj | Bb:maj7/7 | F:sus4(b7,9) Bb:7 | Eb:maj |, (voice
+151.864399092	| Bb:maj | Bb:maj7/7 | F:sus4(b7,9) Bb:7 | Eb:maj |
+165.780680272	| Eb:maj F:sus4(b7) | Bb:maj F:maj/3 | C:min7 F:7 | ->, voice)
+176.369024943	B, solo, | Bb:maj | Bb:maj7/7 | F:sus4(b7,9) Bb:7 | Eb:maj |, (guitar)
+190.116303854	| Eb:maj F:sus4(b7) | Bb:maj F:maj/3 | C:min7 F:7 |, (voice)
+200.619773242	D, solo, | Bb:maj | Bb:maj7/7 | Bb:maj | Bb:maj |, (guitar)
+215.34185941	silence
+218.435918367	end

@@ -1,0 +1,28 @@
+# title: Island Of Lost Souls
+# artist: Blondie
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.673378684	A, intro, | D:maj | D:maj | D:maj | D:maj |, (trumpet)
+12.517256235	B, verse, | D:maj B:maj G:maj A:maj | D:maj B:maj G:maj A:maj | D:maj B:maj G:maj A:maj | D:maj A:7 |, (voice
+24.365034013	| D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |
+36.190657596	C, prechorus, | D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |
+47.949909297	| D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj |
+59.814875283	D, chorus, | E:min G:maj | D:maj | E:min G:maj | D:maj |
+71.632494331	| E:min G:maj | D:maj | E:min G:maj | A:maj |
+83.420861678	B, verse, | D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |
+95.276281179	| D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj |, voice)
+107.066099773	E, bridge, | D:maj G:maj/5 | D:maj | (2/4) D:maj |, (drums
+114.479002267	| G:maj/5 G:maj | G:maj D:maj | D:maj G:maj | D:maj |
+126.224852607	| D:maj | D:maj | G:maj | D:maj |, drums)
+138.076213151	D, chorus, | E:min G:maj | D:maj | E:min G:maj | D:maj |, (voice
+149.894217687	| E:min G:maj | D:maj | E:min G:maj | A:maj |, voice)
+161.705442176	F, interlude, | D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |, (trumpets)
+173.499931972	B, verse, | D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |, (voice
+185.355873015	| D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |
+197.112743764	G, outro, | D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |
+209.026848072	| D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |, fadeout
+220.82430839	| D:maj B:maj G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj A:7 |, voice)
+227.137573696	silence
+229.773061224	end

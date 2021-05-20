@@ -1,0 +1,33 @@
+# title: Back in the High Life Again
+# artist: Steve Winwood
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.30185941	A, intro, | D:maj D:sus4 | D:sus4 | D:maj D:sus4 | D:sus4 |
+12.0461678	| D:maj G:maj/5 | D:maj A:sus4 | D:maj G:maj/5 | D:maj A:sus4 |
+23.446031746	B, verse, | D:maj G:maj/5 | D:maj A:sus4 | D:maj G:maj/5 | D:maj A:sus4 |, (voice
+34.828072562	| D:maj G:maj/5 | D:maj A:sus4 | D:maj G:maj/5 | D:maj A:sus4 |
+46.231882086	C, chorus, | D:maj A:7/5 | D:maj/3 G:maj | D:maj/5 A:sus4(b7) | D:maj A:sus4(b7) |
+57.642585034	| D:maj A:7/5 | D:maj/b3 G:maj | D:maj/5 A:sus4(b7) | ->
+66.173446712	A', interlude, | D:maj D:sus4 | D:sus4 | D:maj D:sus4 | D:sus4 |, voice)
+77.576145124	| D:maj G:maj/5 | D:maj A:sus4 |
+83.281791383	B, verse, | D:maj G:maj/5 | D:maj A:sus4 | D:maj G:maj/5 | D:maj A:sus4 |, (voice
+94.635374149	| D:maj G:maj/5 | D:maj A:sus4 | D:maj G:maj/5 | D:maj A:sus4 |
+106.00877551	C', chorus, | D:maj A:7/5 | D:maj/3 G:maj | D:maj/5 A:sus4(b7) | D:maj A:sus4(b7) |
+117.437188208	| D:maj A:7/5 | D:maj/3 G:maj | D:maj/5 A:sus4(b7) | D:maj |
+128.834671201	D, bridge, | G:maj D:maj | A:maj D:maj | G:maj D:maj | (2/4) D:maj/3 G:maj |
+138.791655328	| D:maj/5 | A:sus4(b7) |
+144.513197278	E, interlude, | D:maj D:maj/3 G:maj . | G:maj F:maj/3 Bb:maj . | F:maj F:maj/3 Bb:maj . | Bb:maj Eb:maj/5 C:maj . |
+155.878911564	| D:maj D:maj/3 G:maj . | G:maj F:maj/3 Bb:maj . | F:maj F:maj/3 Bb:maj . | Bb:maj Eb:maj/5 C:maj . |, voice)
+167.232607709	B, solo, | D:maj G:maj/5 | D:maj A:sus4 | D:maj G:maj/5 | D:maj A:sus4 |, (synthesiser
+178.629229024	| D:maj G:maj/5 | D:maj A:sus4 | D:maj G:maj/5 | D:maj A:sus4 |, synthesiser)
+190.02648526	C', chorus, | D:maj A:7/5 | D:maj/3 G:maj | D:maj/5 A:sus4(b7) | D:maj A:sus4(b7) |, (voice
+201.400181405	| D:maj A:7/5 | D:maj/3 G:maj | D:maj/5 A:sus4(b7) | D:maj |
+212.864807256	D, bridge, | G:maj D:maj | A:maj D:maj | G:maj D:maj | (2/4) D:maj/3 G:maj |
+222.783650793	| D:maj/5 | A:sus4(b7) |
+228.468979591	A', outro, | D:maj D:sus4 | D:sus4 | D:maj D:sus4 | D:sus4 |, voice)
+239.866417233	| D:maj . . G:maj/5 | D:maj . . G:maj/5 | D:maj . . G:maj/5 | D:maj . . G:maj/5 |
+251.270816326	fadeout, | D:maj . . G:maj/5 | D:maj . . G:maj/5 | D:maj . . G:maj/5 | D:maj . . G:maj/5 |
+262.176031746	silence
+262.6961678	end

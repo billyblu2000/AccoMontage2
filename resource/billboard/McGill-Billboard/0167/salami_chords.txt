@@ -1,0 +1,46 @@
+# title: No Charge
+# artist: Melba Montgomery
+# metre: 3/4
+# tonic: G
+
+0.0	silence
+0.225351473	A, intro, | G:maj | G:maj | G:maj | G:maj |, (guitar)
+7.019705215	A, verse, | G:maj | G:maj | G:maj | G:maj |, (voice
+13.434376417	| D:7 | D:7 |
+16.90430839	| D:7 | D:7 | D:7 | D:7 |
+23.452131519	| G:maj | G:maj |
+26.749455782	B, verse, | C:maj | C:maj | C:maj | C:maj |
+33.318140589	| D:7 | D:7 |
+36.601655328	| D:7 | D:7 | D:7 | D:7 |
+43.180249433	| G:maj | G:maj |
+46.39031746	| C:maj | C:maj | G:maj | G:maj |
+52.890612244	| D:7 | D:7 |
+56.336802721	| D:7 | D:7 | D:7 | D:7 |
+62.724739229	| G:maj | G:maj |
+66.144761904	| G:maj | G:maj | G:maj |
+70.995215419	| D:maj | D:maj | D:maj | D:maj |
+77.533741496	| G:maj | G:maj |
+80.979909297	B, chorus, | C:maj | C:maj | C:maj | C:maj |
+87.606507936	| D:7 | D:7 |
+90.935759637	| D:7 | D:7 | D:7 | D:7 |
+97.398548752	| G:maj | G:maj |
+100.624761904	| C:maj | C:maj | G:maj | G:maj |
+107.216553287	| D:7 | D:7 |
+110.516961451	| D:7 | D:7 | D:7 | D:7 |
+117.021836734	| G:maj | G:maj |
+120.33201814	B, chorus, | C:maj | C:maj | C:maj | C:maj |
+126.928843537	| D:7 | D:7 |
+130.183015873	| D:7 | D:7 | D:7 | D:7 |
+136.637188208	| G:maj | G:maj |
+140.002811791	| C:maj | C:maj | G:maj | G:maj |
+146.583469387	| D:7 | D:7 |
+149.778367346	| D:7 | D:7 | D:7 | D:7 |
+156.368072562	| G:maj | G:maj |
+159.584263038	A, verse, | G:maj | G:maj | G:maj | G:maj |
+166.097596371	| D:7 | D:7 |
+169.484399092	| D:7 | D:7 | D:7 | D:7 |
+175.856462585	| G:maj | G:maj |
+179.188571428	B, outro, | D:7 | D:7 | D:7 | D:7 |
+185.886281179	| G:maj | G:maj |, voice)
+191.579863945	silence
+194.115918367	end

@@ -1,0 +1,24 @@
+# title: Cry Softly Lonely One
+# artist: Roy Orbison
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.342494331	C, intro, | G:maj | G:maj | G:maj | &pause |, (voice
+8.452063492	A, verse, | G:maj | G:maj | G:maj |
+13.706122448	| A:min | A:min | A:min |
+18.930612244	| D:maj | D:maj | D:maj |
+24.15510204	| G:maj | G:maj |
+27.681632653	| G:maj | G:maj | C:maj | C:maj | A:7 | A:7 | D:maj A:min7 | D:maj |
+41.771428571	B, chorus, | G:maj | G:maj | F:maj | F:maj | G:maj | G:maj | B:min | B:min | C:maj | G:maj | B:7 | C:maj | C:maj | D:maj | D:maj | G:maj | (2/4) G:maj |
+70.824489795	C, interlude, | G:maj | G:maj | A:min | A:min | C:maj | C:maj | D:maj | D:maj | G:maj C:maj | G:maj | (2/4) G:maj |
+89.551020408	A, verse, | G:maj | G:maj | G:maj |
+94.81632653	| A:min | A:min | A:min |
+100.065306122	| D:maj | D:maj | D:maj |
+105.428571428	| G:maj | G:maj |
+108.979591836	| G:maj | G:maj | C:maj | C:maj | A:7 | A:7 | D:maj A:min7 | D:maj |
+123.265306122	B, chorus, | G:maj | G:maj | F:maj | F:maj | G:maj | G:maj | C:maj6 | C:maj6 | C:maj | D:maj | C:maj | D:maj | C:maj D:maj | D:maj C:maj | D:maj | D:maj |
+151.583673469	| G:maj | C:maj | C:maj | C:maj | N | N |
+162.857142857	C, outro, | G:maj | (2/4) G:maj | G:maj | G:maj |, voice)
+169.885714285	silence
+173.348571428	end

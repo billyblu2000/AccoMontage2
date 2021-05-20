@@ -1,0 +1,35 @@
+# title: The Night Chicago Died
+# artist: Paper Lace
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.371519274	A, intro, | N | N | N | N |
+9.153900226	| C:maj | C:maj | C:maj | C:maj |, (piano)
+17.702721088	| C:1 |
+19.88063492	| C:1 | C:1 | C:1 | N |, (voice
+28.491451247	B, verse, | D:min | G:maj | C:maj | C:maj |
+37.200657596	| D:min | G:maj | C:maj |
+43.68648526	| D:1 G:1 | C:1 | D:1 G:1 | (2/4) C:1 |
+51.334693877	C, chorus, | C:maj | C:maj | D:min | D:min |
+59.983151927	| G:maj | G:maj | C:maj | (2/4) C:maj |
+67.587641723	| C:maj | C:maj | D:min | D:min |
+76.240136054	| G:maj | G:maj | C:maj | C:maj |
+85.068390022	B, verse, | D:min | G:maj | C:maj | C:maj |
+93.75371882	| D:min | G:maj | C:maj |
+100.301405895	| D:min G:maj | C:maj | D:min G:maj | (2/4) C:maj |
+107.95510204	C, chorus, | C:maj | C:maj | D:min | D:min |
+116.695419501	| G:maj | G:maj | C:maj | (2/4) C:maj |
+124.360340136	| C:maj | C:maj | D:min | D:min |
+133.055396825	| G:maj | G:maj | C:maj | C:maj |
+141.805351473	B', verse, | D:min | G:maj | C:maj | N |
+150.711746031	| D:min G:maj | C:maj | D:min G:maj | (2/4) C:maj |
+158.288253968	C, chorus, | C:maj | C:maj | D:min | D:min |
+166.962562358	| G:maj | G:maj | C:maj | (2/4) C:maj |
+174.580884353	| C:maj | C:maj | D:min | D:min |
+183.243832199	| G:maj | G:maj | C:maj | (2/4) C:maj |
+190.789365079	C, chorus, | C:maj | C:maj | D:min | D:min |
+199.565736961	fadeout, | G:maj | G:maj | C:maj | (2/4) C:maj |
+207.15802721	| C:maj | C:maj | D:min |, voice)
+213.228843537	silence
+217.417142857	end

@@ -1,0 +1,25 @@
+# title: Starting Over Again
+# artist: Dolly Parton
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.278639455	A, intro, | C:min11 | F:maj . F:sus4 F:maj | x2, (piano)
+14.638049886	B, verse, | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) |, (voice
+28.578208616	| Bb:maj D:min7 | Eb:maj D:min7 | Bb:maj F:maj/11 | F:sus4(b7,9) | (2/4) F:sus4(b7,9) |
+44.4023356	C, chorus, | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) |
+58.221133786	| Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) | Bb:maj F:maj/11 | F:sus4(b7,9) | F:sus4(b7,9) |, voice)
+73.807959183	B', interlude, | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) |, (piano)
+80.916712018	B, verse, | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) |, (voice
+94.882267573	| Bb:maj D:min7 | Eb:maj D:min7 | Bb:maj F:maj/11 | F:sus4(b7,9) | (2/4) F:sus4(b7,9) |
+110.423378684	C, chorus, | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) |
+124.480929705	| Bb:maj F:maj/11 | C:min7 D:min7 | F:sus4(b7,9) |
+135.038344671	D, bridge, | F:sus4(b7,9) | F:sus4(b7,9) | F:sus4(b7,9) | F:sus4(b7,9) . . D:7/3 |
+148.872993197	| G:min7 F:maj(9) | Eb:maj F:sus2 | G:min7 F:maj(9) | Eb:maj | C:7/3 |
+166.13877551	| F:sus4(9) | F:maj |
+173.159138321	C, chorus, | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) |
+187.303696145	| Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) | Bb:maj F:maj/11 | C:min7 F:sus4(b7,9) | F:sus4(b7,9) |
+203.145170068	B', verse, | Bb:maj F:maj/11 | C:min7 D:min7 | Bb:maj F:maj/11 | C:min7 D:min7 | Eb:maj F:sus4(b7,9) |, voice)
+222.192993197	| Bb:maj | Bb:maj |, (piano)
+235.032380952	silence
+238.236734693	end

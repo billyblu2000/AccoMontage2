@@ -1,0 +1,32 @@
+# title: The Thrill Is Gone
+# artist: B.B. King
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.457142857	G, pre-intro, | N |
+2.057142857	C, intro, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+12.811927437	| E:min . . . | E:min . . . | B:min . . . | B:min . . . |
+23.485170068	| G:maj7 . . . | F#:sus4(b7) . F#:7 . | B:min . . . | B:min . . . |
+34.168163265	A, verse, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+44.953832199	| E:min . . . | E:min . . . | B:min . . . | B:min . . . |
+55.751587301	| G:maj7 . . . | F#:sus4 . F#:7 . | B:min . . . | B:min . . . |
+66.397460317	A, verse, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+77.078639455	| E:min6 . . . | E:min6 . . . | B:min . . . | B:min . . . |
+87.666938775	| G:maj7 . . . | F#:7 . . . | B:min . . . | B:min . . . |
+98.255238095	D, instrumental, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+108.901587301	| E:min . . . | E:min . . . | B:min . . . | B:min . . . |
+119.440068027	| G:maj7 . . . | F#:sus4(b7) . F#:7 . | B:min . . . | B:min . . . |
+129.985306122	A, verse, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+140.654875283	| E:min . . . | E:min . . . | B:min . . . | B:min . . . |
+151.359274376	| G:maj7 . . . | F#:7 . . . | B:min . . . | B:min . . . |
+162.000725623	A, verse, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+172.593922902	| E:min . . . | E:min . . . | B:min . . . | B:min . . . |
+183.190680272	| G:maj7 . . . | F#:7 . . . | B:min . . . | B:min . . . |
+193.863809523	D, instrumental, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+204.479523809	| E:min . . . | E:min . . . | B:min . . . | B:min . . . |
+215.090657596	| G:maj7 . . . | F#:sus4(b7) . F#:7 . | B:min . . . | B:min . . . |
+225.684716553	E, fadeout, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+236.312517006	| E:min | E:min |
+239.966621315	silence
+243.510204081	end

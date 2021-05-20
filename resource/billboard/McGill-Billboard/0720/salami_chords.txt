@@ -1,0 +1,33 @@
+# title: Rocky Mountain High
+# artist: John Denver
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.394739229	A', intro, | E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |, (guitar)
+12.374965986	A, verse, | E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |, (voice
+24.435464852	| E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+36.321587301	| E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+48.27526077	| E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+60.17	B, chorus, | A:maj B:maj | E:maj | A:maj B:maj | E:maj |
+71.900884353	| A:maj B:maj | (2/4) E:maj | A:maj | A:maj . . B:sus4(b7) |
+82.355600907	A', interlude, | E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+94.107006802	A, verse, | E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+105.795759637	| E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+117.458140589	| E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+129.238367346	| E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+140.968820861	B, chorus, | A:maj B:maj | E:maj | A:maj B:maj | E:maj |
+152.607301587	| A:maj B:maj | (2/4) E:maj | A:maj | A:maj . . B:sus4(b7) |
+162.891678004	A', interlude, | E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+174.606190476	A, verse, | E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+186.411904761	| E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+198.199750566	B', chorus, | A:maj B:maj | E:maj | A:maj B:maj | E:maj |
+209.951088435	| A:maj B:maj | (2/4) E:maj | A:maj | A:maj . . B:sus4(b7) |
+220.489002267	| E:maj |
+223.193537414	| A:maj B:maj | E:maj | A:maj B:maj | E:maj |
+234.820453514	| A:maj B:maj | (2/4) E:maj | A:maj | A:maj . . B:sus4(b7) |
+245.121179138	A', outro, | E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+256.79154195	| E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |
+268.428004535	fadeout, | E:maj | F#:min7 . A:maj B:sus4(b7) | E:maj | F#:min7 . A:maj B:sus4(b7) |, voice)
+281.147210884	silence
+286.188299319	end

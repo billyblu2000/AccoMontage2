@@ -1,0 +1,22 @@
+# title: Indiana Wants Me
+# artist: R Dean Tayloy
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.138367346	D, intro, | Ab:maj | Db:maj | Ab:maj | Db:maj | Ab:maj | Db:maj |, (guitar
+16.95755102	A, chorus, | Ab:maj | Db:maj Eb:maj | Ab:maj | Db:maj Eb:maj | Db:maj Ab:maj Eb:maj . | Ab:maj |, (voice
+33.515396825	B, verse, | F:min F:maj | Bb:maj | Ab:maj | (2/4) Db:maj | Eb:maj |
+45.842607709	| Gb:maj | Db:maj | Bb:min | Eb:maj |
+56.893287981	A, chorus, | Ab:maj | Db:maj Eb:maj | Ab:maj | Db:maj Eb:maj | Db:maj Ab:maj Eb:maj . | Ab:maj |
+73.65478458	B, verse, | F:min F:maj | Bb:maj | Ab:maj | (2/4) Db:maj | Eb:maj |
+86.106507936	| Gb:maj | Db:maj | Bb:min | Eb:maj |
+97.278140589	C, pre chorus, | Ab:maj | Db:maj Eb:maj | Ab:maj | Db:maj Eb:maj |, voice)
+108.397029478	A, chorus, | Ab:maj | Db:maj Eb:maj | Ab:maj | Db:maj Eb:maj | Db:maj Ab:maj Eb:maj . | Ab:maj |, (voice
+125.10664399	B, verse, | F:min F:maj | Bb:maj | Ab:maj | (2/4) Db:maj | Eb:maj |
+137.700249433	| Gb:maj | Db:maj | Bb:min | Eb:maj |
+148.872879818	A, chorus, | Ab:maj | Db:maj Eb:maj | Ab:maj | Db:maj Eb:maj | Db:maj Ab:maj Eb:maj . | Ab:maj |
+165.609365079	C, pre chorus, | Ab:maj | Db:maj Eb:maj | Ab:maj | Db:maj Eb:maj |
+176.707256235	C, pre chorus, fade out, | Ab:maj | Db:maj Eb:maj | Ab:maj | Db:maj Eb:maj |, guitar), voice)
+187.809886621	silence
+190.515555555	end

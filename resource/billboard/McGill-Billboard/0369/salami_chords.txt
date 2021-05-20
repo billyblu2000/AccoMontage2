@@ -1,0 +1,27 @@
+# title: Kind Of A Drag
+# artist: The Buckinghams
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.510839002	A, intro, | G:maj | G:aug | G:maj6 | D:7 |, (trumpet)
+7.630702947	B, verse, | A:min D:maj | A:min D:maj | G:maj | G:maj |, (voice
+14.431156462	| A:min D:maj | A:min D:maj | G:maj | G:maj |
+21.159229024	C, chorus, | C:maj | C:aug | C:maj6 | C:7 |
+28.130839002	| F:maj | F:maj | F:min | F:min |
+35.083356009	| C:maj | Bb:maj | C:maj | Bb:maj |
+41.795691609	| C:maj | C:maj G:maj . . |
+45.241020408	B, verse, | A:min D:maj | A:min D:maj | G:maj | G:maj |
+51.989863945	| A:min D:maj | A:min D:maj | G:maj | G:maj |
+58.786870748	C, chorus, | C:maj | C:aug | C:maj6 | C:7 |
+65.783061224	| F:maj | F:maj | F:min | F:min |
+72.640907029	| C:maj | Bb:maj | C:maj | Bb:maj |
+79.408004535	| C:maj | C:maj G:maj . . |, voice)
+82.795895691	B, solo, | A:min D:maj | A:min D:maj | G:maj | G:maj |, (organ
+89.708730158	| A:min D:maj | A:min D:maj | G:maj | G:maj |, organ)
+96.552607709	C, chorus, | C:maj | C:aug | C:maj6 | C:7 |, (voice
+103.654716553	| F:maj | F:maj | F:min | F:min |
+110.702244897	| C:maj | Bb:maj | C:maj | Bb:maj |
+117.447052154	fadeout, | C:maj | Bb:maj | C:maj | Bb:maj |, voice)
+125.364535147	silence
+130.246530612	end

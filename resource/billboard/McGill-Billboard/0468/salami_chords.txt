@@ -1,0 +1,27 @@
+# title: Ain't Too Proud To Beg
+# artist: The Temptations
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.464399092	A, intro, | N | N F:maj | C:maj | C:maj F:maj |, (voice
+9.322131519	| C:maj | C:maj F:maj | C:maj | C:maj F:maj |
+17.214852607	B, chorus, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+25.250861678	| C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+33.232585034	C, verse, | C:maj | N | C:maj | N |
+41.250612244	| C:maj | N | C:maj | G:maj |
+49.234671201	B, chorus, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+57.262494331	| C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+65.350975056	C, verse, | C:maj | N | C:maj | N |
+73.391451247	| C:maj | N | C:maj | G:maj |
+81.389138321	B', chorus, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+89.506122448	| C:maj F:maj | C:maj F:maj | C:maj F:maj | G:maj |, voice)
+97.602562358	B', solo, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |, (saxophone
+105.654716553	| C:maj F:maj | C:maj F:maj | C:maj F:maj | G:maj |, saxophone)
+113.816712018	C, verse, | C:maj | N | C:maj | N |, (voice
+121.82802721	| C:maj | N | C:maj | G:maj |
+129.88031746	B, chorus, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+138.013287981	| C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |
+146.085804988	fadeout, | C:maj F:maj | C:maj F:maj | C:maj F:maj | C:maj F:maj |, voice)
+151.779614512	silence
+154.335668934	end

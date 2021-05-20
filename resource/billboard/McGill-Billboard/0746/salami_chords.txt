@@ -1,0 +1,53 @@
+# title: That Old Black Magic
+# artist: Louis Prima & Keely Smith
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.441179138	A, intro, | N | N | C:maj | C:maj |
+4.261746031	| C:maj | C:maj | C:maj | C:maj |
+8.083786848	B, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+11.905963718	| C:maj | C:maj | D:min7 | D:min7 |
+15.766757369	| D:min7 | D:min7 | D:min7 | D:min7 |
+19.699818594	| D:min7 | D:min7 | C:maj | C:maj |
+23.617414965	C, verse, | C:maj | C:maj | C:maj | C:maj |
+27.522358276	| C:maj | C:maj | F:maj | F:maj |
+31.427029478	| F:maj | F:maj F:min/b3 | C:maj6/5 | C:dim |
+35.357800453	| D:min7 | G:7 | C:maj | C:maj |
+39.257596371	D, bridge, | A:min | A:min | B:7 | B:7 |
+43.140612244	| E:7 | E:7 | A:7 | A:7 |
+47.048072562	| D:min7 | D:min7 | F:min6 | F:min6 |
+50.971088435	| N | D:hdim7 | N | N |, voice)
+54.729433106	A', interlude, | N | N | C:maj | C:maj |
+58.602312925	| C:maj | C:maj | C:maj | C:maj |
+62.438888888	E, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+66.265011337	| C:7 | C:7 | C:7 | C:7 |
+70.177959183	| F:maj | F:maj | D:min | D:min |
+74.030680272	| D:min7/5 | D:min7/5 F:min6/b3 | E:min7/b3 | E:min7/b3 F#:dim |
+77.919637188	| D:min7 | D:min7 | D:hdim7 | D:hdim7 |
+81.786031746	| D:hdim7 | D:hdim7 | C:maj | C:maj |
+85.699070294	| D:min7 | D:min7 | D:hdim7 | D:hdim7 |
+89.543446712	| D:min7 | G:sus4(b7) | C:maj | C:maj |
+93.500929705	| D:min7 | D:min7 | D:hdim7 | D:hdim7 |
+97.365759637	| D:min7 | D:min7 | C:maj | C:maj |
+101.27095238	D, bridge, | A:min | A:min | B:7 | B:7 |
+105.109160997	| E:7 | E:7 | A:7 | A:7 |
+108.944829931	| D:min7 | D:min7 | F:min6 | F:min6 |
+112.865034013	| N | D:hdim7 | N | N |, voice)
+116.564172335	A', interlude, | N | N | C:maj | C:maj |
+120.330226757	| C:maj | C:maj | C:maj | C:maj |
+124.109297052	E', verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+128.02095238	| C:7 | C:7 | C:7 | C:7 |
+131.893990929	| F:maj | F:maj | D:min | D:min |
+135.75446712	| F:maj6/3 | F:maj6/3 F:min6/b3 | E:min7/b3 | E:min7/b3 F#:dim |
+139.794739229	| D:min7 | D:min7 | D:dim | D:dim |
+143.691836734	| D:dim | G:7 | C:maj | C:maj |
+147.641247165	| D:min7 | D:min7 | D:hdim7 | D:hdim7 |
+151.455124716	| D:min7 | D:min7 | C:maj | C:maj |
+155.307619047	| D:min7 | D:min7 | D:hdim7 | D:hdim7 |
+159.129705215	| D:min7 | D:min7 | C:maj | C:maj |
+163.026417233	| D:min7 | D:min7 | D:hdim7 | D:hdim7 |
+166.959682539	| C:maj | C:maj | C:maj | C:maj |, voice)
+170.782063492	| C:maj | C:maj |
+174.033219954	silence
+176.616281179	end

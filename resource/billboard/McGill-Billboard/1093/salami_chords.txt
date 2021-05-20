@@ -1,0 +1,32 @@
+# title: I Can Help
+# artist: Billy Swan
+# metre: 12/8
+# tonic: C
+
+0.000000000	silence
+0.278639455	A, intro, | * |, (guitar
+2.155873015	| G:aug(b7) |
+3.993832199	B, intro, | C:maj | C:maj | C:maj | C:maj |
+11.564308390	| G:maj | G:maj | C:maj | C:maj |, guitar)
+19.204081632	C, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+26.756122448	| F:maj | F:maj | C:maj | C:maj |
+34.420181405	D, refrain, | G:maj | Bb:maj F:maj G:maj . | C:maj | C:maj |
+42.011541950	C, verse, | C:maj | C:maj | C:maj | C:maj |
+49.499682539	| F:maj | F:maj | C:maj | C:maj |
+57.115736961	D, refrain, | G:maj | Bb:maj F:maj G:maj . | C:maj | C:maj |
+64.665986394	E, bridge, | F:maj | G:maj | C:maj | C:7 |
+72.355963718	| F:maj | D:7 | G:7 | G:aug(b7) |
+79.932086167	C, verse, | C:maj | C:maj | C:maj | C:maj |
+87.508412698	| F:maj | F:maj | C:maj | C:maj |
+95.191315192	D, refrain, | G:maj | Bb:maj F:maj G:maj . | C:maj | C:maj |, voice)
+102.779931972	B, solo, | C:maj | C:maj | C:maj | C:maj |, (guitar
+110.491972789	| G:maj | G:maj | C:maj | C:maj |, guitar)
+118.091541950	E, bridge, | F:maj | G:maj | C:maj | C:7 |, (voice
+125.731587301	| F:maj | D:7 | G:7 | G:aug(b7) |
+133.352199546	C, verse, | C:maj | C:maj | C:maj | C:maj |
+141.087097505	| F:maj | F:maj | C:maj | C:maj |
+148.726916099	D, refrain, | G:maj | Bb:maj F:maj G:maj . | C:maj | C:maj |, voice)
+156.399365079	F, outro, | C:maj | C:maj | C:maj | C:maj |, (guitar
+164.038616780	| G:maj | G:maj | C:maj C:maj/3 F:maj D:maj/3 | G:maj C:maj |, guitar)
+174.451519274	silence
+178.353537414	end

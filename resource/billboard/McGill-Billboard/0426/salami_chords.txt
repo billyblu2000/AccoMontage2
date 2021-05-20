@@ -1,0 +1,37 @@
+# title: I m Goin Down
+# artist: Bruce Springsteen
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.394739229	A, intro, | A:maj | E:maj | F#:min | D:maj |, (guitar
+7.851972789	| A:maj | E:maj | F#:min | D:maj |, guitar)
+15.311882086	A, verse, | A:maj | E:maj | F#:min | D:maj |, (voice
+22.546575963	| A:maj | E:maj | F#:min | D:maj |
+29.833197278	| A:maj | E:maj | F#:min | D:maj |
+37.063265306	B, chorus, | A:maj | E:maj | F#:min | D:maj |
+44.354852607	| A:maj | E:maj | F#:min | D:maj |
+51.596961451	A, verse, | A:maj | E:maj | F#:min | D:maj |
+58.861609977	| A:maj | E:maj | F#:min | D:maj |
+66.108503401	| A:maj | E:maj | F#:min | D:maj |
+73.323514739	B, chorus, | A:maj | E:maj | F#:min | D:maj |
+80.537528344	| A:maj | E:maj | F#:min | D:maj |, voice)
+87.808730158	B, solo, | A:maj | E:maj | F#:min | D:maj |, (saxophone
+95.083492063	| A:maj | E:maj | F#:min | D:maj |, saxophone)
+102.379297052	A, verse, | A:5 | E:5 | F#:5 | D:5 |, (voice
+109.620657596	| A:5 | E:5 | F#:5 | D:5 |
+116.825147392	| A:5 | E:5 | F#:5 | D:5 |
+124.06648526	| A:5 | E:5 | F#:5 | D:5 |
+131.218866213	B, chorus, | A:maj | E:maj | F#:min | D:maj |
+138.438344671	| A:maj | E:maj | F#:min | D:maj |
+145.72723356	B, chorus, | A:5 | E:5 | F#:5 | D:5 |
+152.925623582	| A:5 | E:5 | F#:5 | D:5 |
+160.104875283	B, chorus, | A:maj | E:maj | F#:min | D:maj |
+167.375464852	| A:maj | E:maj | F#:min | D:maj |, voice)
+174.586213151	B, solo, | A:maj | E:maj | F#:min | D:maj |, (piano
+181.796689342	| A:maj | E:maj | F#:min | D:maj |
+188.847891156	fadeout, | A:maj | E:maj | F#:min | D:maj |, piano)
+196.013492063	| A:maj | E:maj | F#:min | D:maj |, (guitar
+203.17510204	| A:maj | E:maj | F#:min | D:maj |, guitar)
+205.380498866	silence
+211.983673469	end

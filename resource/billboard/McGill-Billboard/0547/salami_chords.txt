@@ -1,0 +1,25 @@
+# title: Almost by Being In Love
+# artist: Michael Johnson
+# tonic: Eb
+# metre: 4/4
+
+0.0	silence
+0.518390022	A, intro, | Eb:min11 | Eb:min11 | Eb:min11 | Eb:min11 . B:maj Db:maj |, (guitar
+11.715668934	| Eb:min11 | Eb:min11 | Eb:min11 | Eb:min11 . B:maj Db:maj |, guitar)
+22.84371882	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 . B:maj7 Bb:min7 |, (voice
+33.933605442	| Ab:min7 Bb:min7 | B:maj7 . B:maj Db:maj | Eb:min11 | Eb:min11 |
+45.045986394	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 . B:maj7 Bb:min7 |
+55.948684807	| Ab:min7 Bb:min7 | B:maj7 Db:maj | Eb:min11 | Eb:min11 |
+67.065918367	C, chorus, | F:hdim7 | Bb:sus4(b7) Bb:7 | Eb:maj9 | Eb:sus4 Eb:maj |
+78.333673469	| Eb:min7 | B:9 | F:hdim7 | Bb:7 . B:maj Db:maj |
+89.104761904	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 . B:maj7 Bb:min7 |
+100.089863945	| Ab:min7 Bb:min7 | B:maj7 . B:maj Db:maj |, voice)
+105.590430839	D, interlude, | Eb:min11 | Eb:min11 | Eb:min11 | Eb:min11 . B:maj Db:maj |, (guitar
+116.6361678	| Eb:min9 | Eb:min9 | Eb:min9 | Eb:min9 . B:maj7 Bb:min7 |
+127.594263038	| Ab:min7 | (6/4) Db:maj | Eb:min11 | Eb:min11 |, guitar)
+139.967664399	C, chorus, | F:hdim7 | Bb:sus4(b7) Bb:7 | Eb:maj9 | Eb:maj |, (voice
+150.850181405	| Eb:min7 | B:9 | F:hdim7 | Bb:7 . Ab:min7 Db:maj |
+161.90739229	B, verse, | Eb:min9 | Eb:min9 | Eb:min9 | Eb:min9 . B:maj Bb:min |
+172.789773242	| Ab:min7 Bb:min7 | B:maj7 . B:maj Db:maj | Eb:min11 | Eb:min11 |
+183.810680272	A, outro, | Eb:min11 | Eb:min11 | Eb:min11 | Eb:min11 . B:maj Db:maj | x4, fadeout, voice)
+234.396734693	end

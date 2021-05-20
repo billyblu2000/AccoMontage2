@@ -1,0 +1,29 @@
+# title: She's A Lady
+# artist: Tom Jones
+# metre: 4/4
+# tonic: D
+
+0.0	Z
+0.372244897	A, intro, | E:min | E:min | E:min | E:min |, (guitar)
+8.640453514	B, verse, | E:min | E:min | D:maj7 | D:maj7 |, (voice
+16.40648526	| E:min | E:min | D:maj7 | D:maj7 |
+24.05648526	C, chorus, | E:min | A:sus4(b7,9) | D:maj7 | D:maj7 |
+31.870045351	| E:min | A:sus4(b7,9) | B:min | B:min |
+39.684739229	B, verse, | E:min | E:min | D:maj7 | D:maj7 |
+47.456802721	| E:min | E:min | D:maj7 | D:maj7 |
+55.240521541	C, chorus, | E:min | A:sus4(b7,9) | D:maj7 | D:maj7 |
+63.098798185	| E:min | A:sus4(b7,9) | B:min | B:min |
+# tonic: Bb
+70.946575963	D, bridge, | Bb:maj F:maj/3 | Eb:maj Bb:maj | Bb:maj F:maj/3 | Eb:maj Bb:maj |
+78.7323356	| Bb:maj F:maj/3 | Eb:maj Bb:maj | Bb:maj F:maj/3 | (2/4) Eb:maj |
+85.55063492	| G:maj | A:maj | A:maj |
+# tonic: D
+91.292222222	B, verse, | E:min | A:sus4(b7,9) | D:maj7 | D:maj7 |
+99.167414965	| E:min | A:sus4(b7,9) | B:min | B:min |
+106.951133786	C, chorus, | E:min | A:sus4(b7,9) | D:maj7 | D:maj7 |
+114.804852607	| E:min | A:sus4(b7,9) | B:min | B:min |
+122.560498866	C, outro, | E:min | A:sus4(b7,9) | D:maj7 | D:maj7 |
+130.508117913	| E:min | A:sus4(b7,9) | D:maj7 | D:maj7 |
+138.328888888	| E:min | A:sus4(b7,9) | B:min | B:min |, voice)
+145.449795918	Z
+149.603265306	end

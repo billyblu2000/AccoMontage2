@@ -1,0 +1,23 @@
+# title: Bongo Stomp
+# artist: Little Joey & The Flips
+# metre: 4/4
+# tonic: Eb
+
+0.000000000	silence
+0.208979591	A, intro, | Eb:maj . C:min . | Ab:maj . Bb:maj . | Eb:maj . C:min . | Ab:maj . Bb:maj . |
+10.233038548	| Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . |, (voice
+19.153582766	B, verse, | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . |
+28.334988662	| Ab:maj . . . | Ab:maj . . . | Eb:maj . . . | Eb:maj . . . |
+37.548888888	| Bb:maj . Ab:maj . | Eb:maj . . . | Bb:maj . Ab:maj . | Eb:maj . . . |
+46.923265306	B, verse, | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . |
+56.072244897	| Ab:maj . . . | Ab:maj . . . | Eb:maj . . . | Eb:maj . . . |
+65.319387755	| Bb:maj . Ab:maj . | Eb:maj . . . | Bb:maj . Ab:maj . | Eb:maj . . . |
+74.038548752	C, bridge, | Ab:maj . . . | Ab:maj . . . | Eb:maj . . . | Eb:maj . . . |
+83.251292517	| Ab:maj . . . | Ab:maj . . . | Bb:maj . A:maj . | Bb:maj . . . |
+92.398072562	B, verse, | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . |
+101.402630385	| Ab:maj . . . | Ab:maj . . . | Eb:maj . . . | Eb:maj . . . |
+110.553015873	| Bb:maj . Ab:maj . | Eb:maj . . . | Bb:maj . Ab:maj . | Eb:maj . . . |
+119.737528344	D, coda, | Ab:maj . . . | Bb:maj . . . |
+124.180317460	fadeout, | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . | Eb:maj . . . |, voice)
+133.328979591	silence
+137.247346938	end

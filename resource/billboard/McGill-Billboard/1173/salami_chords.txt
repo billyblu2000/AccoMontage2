@@ -1,0 +1,48 @@
+# title: Live To Tell
+# artist: Madonna
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.278639455	A, intro, | D:1 |, (synth
+6.780226757	| D:5 D:min(9) D:min9 D:min11/5 | &pause |
+19.122675736	| D:min11 | D:min11 | A:min Bb:maj | C:maj Bb:maj |
+27.898707482	| D:min11 | D:min11 | A:min Bb:maj | C:maj Bb:maj |
+36.666848072	| D:min11 | D:min11 | A:min Bb:maj | C:maj Bb:maj |
+45.314580498	| D:min11 | D:min11 | A:min Bb:maj | C:maj . . D:min |, synth)
+54.138526077	B, verse, | C:maj | G:min | C:maj | C:maj . . D:min |, (voice
+62.808684807	| C:maj | G:min | C:maj | C:maj . . D:min |
+71.562176870	| C:maj | G:min | C:maj | C:maj . . D:min |
+80.338458049	| C:maj | G:min | C:maj | C:maj |
+89.129501133	C, chorus, | F:sus2 F:sus4 | F:maj | F:sus2 F:sus4 | A:min Bb:maj |
+97.763673469	| F:sus2 F:sus4 | F:maj D:min | D:min C:maj/3 | D:min C:maj | Bb:maj C:maj |, voice)
+108.674399092	A, trans, | D:min11 | D:min11 | A:min Bb:maj | C:maj Bb:maj |, (synth
+117.401746031	| D:min11 | D:min11 | A:min Bb:maj | C:maj . . D:min |, synth)
+126.161836734	B, verse, | C:maj | G:min | C:maj | C:maj . . D:min |, (voice
+134.874444444	| C:maj | G:min | C:maj | C:maj . . D:min |
+143.633832199	| C:maj | G:min | C:maj | C:maj . . D:min |
+152.370226757	| C:maj | G:min | C:maj | C:maj |
+161.082426303	C, chorus, | F:sus2 F:sus4 | F:maj | F:sus2 F:sus4 | A:min Bb:maj |
+169.810204081	| F:sus2 F:sus4 | F:maj D:min | D:min C:maj/3 | D:min C:maj | Bb:maj C:maj |, voice)
+180.778276643	A, interlude, | D:min11 | D:min11 |, (synth)
+185.116643990	C, chorus, | F:sus2 F:sus4 | F:maj | F:sus2 F:sus4 | A:min Bb:maj |, (voice
+193.842335600	| F:sus2 F:sus4 | F:maj D:min | D:min C:maj/3 | D:min C:maj | Bb:maj C:maj |
+204.842403628	A, interlude, | D:1 | &pause |, (synth
+217.013696145	| D:1 |
+222.772244897	| D:5 D:min(9) D:min9 D:min11 | D:min11 | &pause |, synth)
+234.222471655	D, bridge, | Bb:maj | C:maj | D:min7 | A:min |, (voice
+243.006870748	| Bb:maj | C:maj | A:min(9) | Bb:maj |
+251.742448979	| Bb:maj | C:maj | D:min7 | A:min |
+260.422086167	| Bb:maj | C:maj | D:min7 | D:min7 |, voice)
+269.206054421	B, bridge, | C:maj | G:min | C:maj | C:maj |, (synth)
+277.886417233	C, chorus, | F:sus2 F:sus4 | F:maj | F:sus2 F:sus4 | A:min Bb:maj |, (voice
+286.710453514	| F:sus2 F:sus4 | F:maj D:min | D:min C:maj/3 | D:min C:maj | Bb:maj C:maj |, voice)
+297.630317460	A, interlude, | D:min11 | D:min11 |, (synth)
+301.901972789	C, chorus, | F:sus2 F:sus4 | F:maj | F:sus2 F:sus4 | A:min Bb:maj |, (voice
+310.701995464	| F:sus2 F:sus4 | F:maj D:min | D:min C:maj/3 | D:min C:maj | Bb:maj C:maj |, voice)
+321.669546485	A, interlude, | D:min11 | D:min11 |, (synth)
+326.034172335	C, chorus, outro, fadeout, | F:sus2 F:sus4 | F:maj | F:sus2 F:sus4 | A:min Bb:maj |, (voice
+334.761927437	| F:sus2 F:sus4 | F:maj D:min | D:min C:maj/3 | D:min C:maj | Bb:maj C:maj |
+345.631564625	| D:min11 | D:min11 |, voice)
+349.019138321	silence
+352.121292517	end

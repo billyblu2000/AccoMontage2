@@ -1,0 +1,28 @@
+# title: Do You Want To Know A Secret
+# artist: The Beatles
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.510839002	A, intro, | E:min | F#:hdim7 E:min | E:min | E:min | A:maj B:maj | B:13 |, (voice
+14.989206349	B, verse, | E:maj . G#:min G:min | F#:min B:7 | E:maj . G#:min G:min | F#:min B:7 |
+22.710340136	| E:maj . G#:min G:min | F#:min B:7(b9)/b9 |
+26.594058956	| E:maj . G#:min G:min | F#:min B:7 | E:maj . G#:min G:min | F#:min B:7 |
+34.350997732	| A:maj | B:maj |
+38.184058956	C, chorus, | C#:min | A:maj B:maj |
+42.051723356	B, verse, | E:maj . G#:min G:min | F#:min B:7 | E:maj . G#:min G:min | F#:min B:7 |
+49.73802721	| E:maj . G#:min G:min | F#:min B:7(b9)/b9 |
+53.543832199	| E:maj . G#:min G:min | F#:min B:7 | E:maj . G#:min G:min | F#:min B:7 |
+61.27648526	| A:maj | B:maj |
+65.190453514	C, chorus, | C#:min | A:maj B:maj |
+69.102585034	D, bridge, | A:maj F#:min | C#:min B:min | A:maj F#:min | C#:min B:min |
+76.758185941	| F#:min | B:7 |
+80.513038548	B, verse, | E:maj . G#:min G:min | F#:min B:7 | E:maj . G#:min G:min | F#:min B:7 |
+88.178390022	| E:maj . G#:min G:min | F#:min B:7(b9)/b9 |
+92.04510204	| E:maj . G#:min G:min | F#:min B:7 | E:maj . G#:min G:min | F#:min B:7 |
+99.767437641	| A:maj | B:maj |
+103.655555555	C, chorus, | C#:min | A:maj B:maj |
+107.504671201	fadeout, | C#:min | A:maj B:maj |
+111.408480725	| C#:min | A:maj B:maj |, voice)
+114.869115646	silence
+119.379591836	end

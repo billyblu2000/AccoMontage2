@@ -1,0 +1,29 @@
+# title: Living Doll
+# artist: Cliff Richard
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.301859410	A, intro, | N | A:1 |, (bass), (voice
+3.935986394	B, chorus, | A:maj | A:maj | A:maj | A:maj |
+11.494195011	| A:maj | A:maj | B:7 | E:7 |
+19.054081632	| A:maj | A:maj | F#:7 | F#:7 |
+26.673015873	| A:maj | E:maj | A:maj | A:maj N . . |
+34.118299319	C, bridge, | D:maj | D:maj | A:maj | A:maj |
+41.694217687	| D:maj | D:maj | E:maj N . . | N |
+49.017324263	B, chorus, | A:maj | A:maj | A:maj | A:maj |
+56.588594104	| A:maj | A:maj | B:7 | E:7 |
+64.212131519	| A:maj | A:maj | F#:7 | F#:7 |
+71.748253968	| A:maj | E:maj | A:maj | A:maj N . . |, voice)
+79.258934240	B, solo, | A:maj | A:maj | A:maj | A:maj |, (guitar
+86.851043083	| A:maj | A:maj | B:7 | E:7 |
+94.339092970	| A:maj | A:maj | F#:7 | F#:7 |
+101.867233560	| A:maj | E:maj | A:maj | A:maj N . . |, guitar)
+109.419297052	C, bridge, | D:maj | D:maj | A:maj | A:maj |, (voice
+117.015192743	| D:maj | D:maj | E:maj N . . | N |
+124.418843537	B', chorus, | A:maj | A:maj | A:maj | A:maj |
+132.036235827	| A:maj | A:maj | B:7 | E:7 |
+139.620816326	| A:maj | A:maj | F#:7 | F#:7 |
+147.137845804	| A:maj | E:maj N . . | N | A:maj6(9) |, voice)
+155.906734693	silence
+158.832630385	end

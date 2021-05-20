@@ -1,0 +1,37 @@
+# title: Sunflower
+# artist: Glen Campbell
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.441179138	A, intro, | G:maj | G:maj . . C:maj/5 | G:maj | G:maj . . C:maj/5 |
+8.176802721	| G:maj | G:maj . . C:maj/5 | G:maj | G:maj . . C:maj/5 |, (guitar)
+15.684444444	B, chorus, | G:maj | C:maj | G:maj | C:maj |, (voice
+23.100657596	| G:maj | G:maj . . D:maj |
+26.854376417	| G:maj | C:maj | G:maj | C:maj D:maj |
+34.274444444	| G:maj | G:maj |
+37.988231292	C, verse, | C:maj | C:maj | C:maj | C:maj |
+45.361383219	| G:maj | G:maj |
+49.040657596	| C:maj | C:maj | C:maj | C:maj |
+56.426734693	| G:maj | G:maj | D:maj | D:maj |
+63.879183673	B', chorus, | G:maj | C:maj | G:maj | C:maj |
+71.234852607	| G:maj | G:maj . . D:maj |
+74.978639455	| G:maj | C:maj | G:maj | C:maj D:maj |
+82.471315192	| G:maj | G:maj |
+86.059455782	C, verse, | C:maj | C:maj | C:maj | C:maj |
+93.410657596	| G:maj | G:maj |
+97.08585034	| C:maj | C:maj | C:maj | C:maj |
+104.414897959	| G:maj | G:maj | D:maj | D:maj |
+111.823310657	B', chorus, | G:maj | C:maj | G:maj | C:maj |
+119.213378684	| G:maj | G:maj . . D:maj |
+122.952789115	| G:maj | C:maj | G:maj | C:maj D:maj |
+130.370975056	| G:maj | G:maj |, voice)
+134.039682539	B', instrumental, | G:maj | C:maj | G:maj | C:maj |
+141.367346938	| G:maj | G:maj . . D:maj |
+145.106303854	| G:maj | C:maj | G:maj | C:maj D:maj |
+152.478276643	| G:maj | G:maj . . D:maj |
+156.14909297	fadeout, | G:maj | C:maj | G:maj | C:maj |
+163.535056689	| G:maj | G:maj . . D:maj |
+167.28095238	| G:maj | C:maj | G:maj | C:maj D:maj |
+168.59170068	silence
+172.044489795	end

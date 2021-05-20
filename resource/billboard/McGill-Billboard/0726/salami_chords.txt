@@ -1,0 +1,19 @@
+# title: Would It Make Any Difference To You
+# artist: Etta James
+# metre: 12/8
+# tonic: Ab
+
+0.0	silence
+0.394739229	A', intro, | Ab:maj | Eb:maj | Ab:maj | Ab:maj |
+14.055374149	A, verse, | Ab:maj | Ab:maj | Db:maj | Db:maj |, (voice
+27.662993197	| Eb:maj | Eb:maj | Ab:maj | Eb:maj |
+41.079115646	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+54.722154195	| Eb:maj | Eb:7 | Ab:maj | Ab:maj . Bb:min C:min |
+68.484104308	B, chorus, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+82.313673469	| Db:maj | Db:maj | Ab:maj | Eb:7 |
+96.197074829	A, verse, | Ab:maj | Ab:maj | Db:maj | Db:maj |
+110.048163265	| Eb:7 | Eb:7 | Ab:maj | Ab:maj |
+123.80494331	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+137.696553287	| Eb:maj | Eb:maj | Ab:maj Db:maj C:min Bb:min | Ab:maj |, voice)
+156.618594104	silence
+158.798367346	end

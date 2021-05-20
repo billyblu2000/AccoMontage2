@@ -1,0 +1,35 @@
+# title: Because I Love You
+# artist: Stevie B
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.232199546	A, intro, | Gb:maj F:maj | Bb:min Ab:maj/3 Ab:7/11 Db:maj7 |, (piano
+7.725374149	| Gb:maj F:maj | Bb:min Ab:maj/3 . . |
+15.214126984	| Gb:maj F:maj | Bb:min Ab:maj/3 Db:maj7 . |
+22.743922902	| Gb:maj F:maj | Bb:maj |, piano)
+30.119501133	A, verse, | Gb:maj F:maj | Bb:min Ab:maj/3 Ab:7/11 Db:maj7 |, (voice
+37.654716553	| Gb:maj F:maj | Bb:min Ab:maj/3 . . |
+45.123900226	| Gb:maj F:maj | Bb:min Ab:maj/3 Db:maj7 . |
+52.592993197	| Gb:maj F:maj | Bb:maj |
+60.11185941	B, chorus, | Eb:min7 Ab:maj | Db:maj | Eb:min7 Ab:maj | Bb:min Ab:maj |
+75.002312925	| Eb:min7 Ab:maj | Db:maj | Eb:min7 Ab:7 | Bb:maj |
+90.004580498	A, verse, | Gb:maj F:maj | Bb:min Ab:maj/3 Ab:7/11 Db:maj7 |
+97.498798185	| Gb:maj F:maj | Bb:min Ab:maj/3 . . |
+104.936734693	| Gb:maj F:maj | Bb:min Ab:maj/3 Db:maj7 . |
+112.399614512	| Gb:maj F:maj | Bb:maj |
+119.928526077	B, chorus, | Eb:min7 Ab:maj | Db:maj | Eb:min7 Ab:maj | Bb:min Ab:maj |
+134.840612244	| Eb:min7 Ab:maj | Db:maj | Eb:min7 Ab:7 | Bb:maj |, voice)
+149.853356009	A, solo, | Gb:maj F:maj | Bb:min Ab:maj/3 Ab:7/11 Db:maj7 |, (synthesizer
+157.307324263	| Gb:maj F:maj | Bb:min Ab:maj/3 . . |
+164.796099773	| Gb:maj F:maj | Bb:min Ab:maj/3 Db:maj7 . |
+172.240657596	| Gb:maj F:maj | Bb:maj |, synthesizer)
+179.715895691	A, verse, | Gb:maj F:maj | Bb:min Ab:maj/3 Ab:7/11 Db:maj7 |, (voice
+187.154603174	| Gb:maj F:maj | Bb:min Ab:maj/3 . . |
+194.674512471	| Gb:maj F:maj | Bb:min Ab:maj/3 Db:maj7 . |
+202.173854875	| Gb:maj F:maj | Bb:maj |
+209.615464852	B, chorus, | Eb:min7 Ab:maj | Db:maj | Eb:min7 Ab:maj | Bb:min Ab:maj |
+224.53723356	| Eb:min7 Ab:maj | Db:maj | Eb:min7 Ab:7 | Bb:maj |, voice)
+239.539387755	B', fadeout, | Eb:min7 Ab:maj | Db:maj | Eb:min7 Ab:maj | Bb:min Ab:maj | Eb:min |, (piano)
+258.530975056	silence
+262.269387755	end

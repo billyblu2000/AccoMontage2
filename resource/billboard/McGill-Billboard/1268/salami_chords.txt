@@ -1,0 +1,30 @@
+# title: Frankenstein
+# artist: Edgar Winter
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.278639455	A, main theme, | G:5 . . Bb:maj | G:5 | G:5 . . Bb:maj | G:5 |
+11.115170068	B, secondary theme, | G:min7 | G:min7 | Bb:7(#9) Eb:7 | D:min(11) G:7(#9) |, (guitar
+21.127142857	| C:7(#9) F:maj/5 | C:7(#9) F:maj/5 |
+26.196394557	| G:min7/5 D:min7 | G:min7/5 D:min9 |
+31.203151927	C, transition, | G:min7 | G:min7 C:7 |
+36.325374149	| Eb:maj/b7 G:min/5 | Eb:maj(9,#11) C:7/3 |, guitar)
+41.319501133	A, main theme, | G:5 . . Bb:maj | G:5 | G:5 . . Bb:maj | G:5 |
+51.42585034	D, solo, | G:min7 C:maj | G:min9 C:7 | G:min7 C:7 | G:min7 C:7 |, (guitar), (synth)
+61.49462585	E, interlude, | G:min7 C:7 | G:min7 C:7 | G:min7 C:7 | G:min7 C:7 |, (guitar, (saxophone
+71.582698412	| G:min7 A:min7 Bb:maj B:dim | C:maj6 C:9 |
+76.693786848	| (9/4) G:sus4(b7) A:min7 Bb:maj6 C:7(#9) D:min7 C:maj6/3 F:maj G:sus4(b7,9) C:maj6 | &pause |, guitar), saxophone)
+81.745714285	F, transition, | G:min7 | G:min7 | G:min7 | G:min7 |, (guitar
+91.864421768	| G:min7 | G:min7 | G:min7 C:maj/5 | G:min C:maj/5 |, guitar)
+101.960408163	G, solo, | G:min7 C:maj/5 | G:min C:maj/5 | G:min7 C:maj/5 | G:min C:maj/5 | G:min7 |, (drums)
+115.310294784	H, solo, | N | N | N | N |, (guitar
+124.987596371	| N G:1 | N G:1 | N G:1 | N G:1 | N . G:1 Bb:1 |
+134.775714285	| N . G:1 F:1 | N . G:1 Bb:1 | N . G:1 F:1 |, guitar)
+142.143650793	I, transition, | G:min7 | N | N | N |, (synth
+152.128390022	| N | N | N | N |, synth)
+163.462448979	A, main theme, | G:5 . . Bb:maj | G:5 | G:5 . . Bb:maj | G:5 |
+173.528458049	B, secondary theme, | G:min7 | G:min7 |, (guitar
+178.597210884	outro, | G:min7 | G:min7 | Bb:7 | G:min7 |, guitar)
+204.456099773	silence
+208.143673469	end

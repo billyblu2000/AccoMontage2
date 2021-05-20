@@ -1,0 +1,30 @@
+# title: Gloria
+# artist: Laura Branigan
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.255419501	A, intro, | A:maj | A:maj | A:maj | A:maj |
+7.569682539	| A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj |, (synthesiser
+14.930702947	| D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |, synthesiser)
+22.264444444	B, verse, | A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj | x4, (voice
+51.546303854	C, pre-chorus, | F#:min | B:maj | E:maj | A:maj9 |
+58.904829931	| D:maj | E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |
+66.235804988	D, chorus, | E:maj | E:maj | A:maj | A:maj | x2
+80.871224489	| E:maj | G:maj | D:maj | E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |
+91.798639455	D, chorus, | A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj | x2
+106.43632653	| F#:min | B:maj | E:maj | A:maj9 |
+113.681088435	| D:maj | E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |, voice) 
+121.087573696	A, interlude, | A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj |, (synthesiser
+128.323741496	| D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |, synthesiser)
+135.674195011	B, verse, | A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj | x4, (voice
+164.982653061	C, pre-chorus, | F#:min | B:maj | E:maj | A:maj9 |
+172.260294784	| D:maj | E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |
+179.621519274	D, chorus, | A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj | x2
+194.2461678	| F#:min | B:maj | E:maj | A:maj9 |
+201.536530612	| D:maj | E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |
+208.911088435	D, outro, | A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |
+216.164852607	| A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |
+223.587029478	| A:maj/5 E:maj . A:maj/5 | E:maj . A:maj/5 E:maj | D:maj/5 A:maj . D:maj/5 | A:maj . D:maj/5 A:maj |, fadeout, voice)
+230.016870748	silence
+233.71755102	end

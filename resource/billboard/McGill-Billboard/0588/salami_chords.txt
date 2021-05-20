@@ -1,0 +1,29 @@
+# title: We Are The Champions
+# artist: Queen
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.417959183	A, verse, | C:min G:sus4(b7)/11 | C:min G:sus4(b7)/11 |, (voice
+9.135215419	| C:min G:sus4(b7)/11 | C:min G:sus4(b7)/11 |
+16.871723356	| Eb:maj Bb:sus4(b7)/11 | Eb:maj Bb:sus4(b7)/11 |
+24.598435374	| Eb:maj Bb:maj/3 C:min F:7 | (2/4) Bb:maj | Bb:sus4(b7) Bb:7(#11) Bb:7 C:7 |
+34.135510204	B, chorus, | F:maj A:min7 | D:maj . Bb:5 C:5 |
+41.733061224	| F:maj A:min7 | Bb:maj D:7/3 |
+49.351269841	| G:min | Bb:min . A:7(b9)/5 A:7(b9)/b7 |
+56.994580498	| F:maj Eb:maj7(#11)/3 | Ab:maj6 Bb:maj | (2/4) C:min7(11) |, voice)
+66.474489795	C, trans, | F:min G:min7 | F:min G:min7 | F:min C:sus4(b7) |, (piano)
+77.890294784	A, verse, | C:min G:sus4(b7)/11 | C:min G:sus4(b7)/11 |, (voice
+85.575646258	| C:min G:sus4(b7)/11 | C:min G:sus4(b7)/11 |
+93.209659863	| Eb:maj Bb:sus4(b7)/11 | Eb:maj Bb:sus4(b7)/11 |
+100.796553287	| Eb:maj Bb:maj/3 C:min F:7 | (2/4) Bb:maj | Bb:sus4(b7) Bb:7(#11) Bb:7 C:7 |
+110.291927437	B, chorus, | F:maj A:min7 | D:min . Bb:5 C:5 |
+117.910929705	| F:maj A:min7 | Bb:maj D:7/3 |
+125.457414965	| G:min | Bb:min . A:7(b9)/5 A:7(b9)/b7 |
+133.070929705	| F:maj Eb:maj7(#11)/3 | Ab:maj6 Bb:maj | (2/4) C:min7(11) |
+142.503786848	B, chorus, | F:maj A:min7 | D:min . Bb:5 C:5 |
+149.935351473	| F:maj A:min7 | Bb:maj D:7/3 |
+157.296507936	| G:min | Bb:min . A:7(b9)/5 A:7(b9)/b7 |
+164.845691609	| F:maj Eb:maj7(#11)/3 | Ab:maj6 Bb:maj | C:min7(11) |, voice)
+178.654331065	silence
+183.170612244	end

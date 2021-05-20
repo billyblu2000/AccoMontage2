@@ -1,0 +1,34 @@
+# title: Hot In The City
+# artist: Billy Idol
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+1.30031746	Z, noise
+7.091632653	A, intro, | C:maj | C:maj | C:maj | C:maj |, (synthesizer
+15.692448979	| C:maj | C:maj | C:maj | C:maj |, synthesizer)
+24.354897959	B, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+32.956780045	| C:maj | C:maj | C:maj | C:maj |
+41.551995464	C, pre-chorus, | G:maj G:maj/b7 | G:maj | G:maj | G:maj |
+50.194353741	D, chorus, | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |
+58.82648526	| C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |, voice)
+67.477188208	| G:maj | G:maj |, (piano)
+71.832993197	A, interlude, | C:maj | C:maj | C:maj | C:maj |, (synthesizer)
+80.426916099	B, verse, | C:maj | C:maj | C:maj | C:maj |, (voice
+89.058866213	| C:maj | C:maj | C:maj | C:maj |
+97.695736961	C, pre-chorus, | G:maj G:maj/b7 | G:maj | G:maj | G:maj |
+106.276553287	D, chorus, | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |
+114.909433106	| C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |, voice)
+123.520566893	E, bridge, | G:maj G:maj6 | G:7 G:maj6 | G:maj G:maj6 | G:7 G:maj |, (guitar)
+132.20585034	| G:maj G:maj6 | G:7 G:maj6 | G:maj G:maj6 | G:7 G:maj |, (voice
+140.847596371	| G:maj G:maj6 | G:7 G:maj6 | G:maj G:maj6 | G:7 G:maj |
+149.442539682	| G:maj G:maj6 | G:7 G:maj6 | G:maj G:maj6 | G:7 G:maj |
+158.0792517	| G:maj G:maj6 | G:7 G:maj6 | F:maj | F:maj |
+166.700997732	D, chorus, | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |
+175.301882086	| C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |
+183.843922902	D, chorus, | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |
+192.463265306	| C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |
+201.022244897	D, fadeout, | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |
+209.577437641	| C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) | C:maj A:min(11) |, voice)
+214.505941043	silence
+218.09632653	end

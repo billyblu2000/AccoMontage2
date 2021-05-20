@@ -1,0 +1,38 @@
+# title: All she wants is
+# artist: Duran Duran
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.432653061	A, intro, | N | N | N | N | N | N |, (spoken)
+12.518843537	| N | N | N | N |, (drums)
+20.534988662	A, refrain, | N | N | N | N | N | N |, (spoken)
+32.481632653	A, intro, | D:min | D:min | D:min/5 | D:min/5 |, (synth
+40.481632653	| D:min | D:min | D:min/5 | D:min/5 |, synth)
+48.516031746	A, verse, | D:min | D:min | D:min/5 | D:min/5 |, (voice
+56.481632653	| D:min | D:min | D:min/5 | D:min/5 |
+64.494240362	| D:min | D:min | D:min/5 | D:min/5 |
+72.499523809	| D:min | D:min | D:min/5 | D:min/5 |, voice)
+80.501700680	A, refrain, | N | N | N | N | N | N |, (spoken)
+92.497959183	A, solo, | D:min | D:min | D:min/5 | D:min/5 |, (guitar)
+100.487188208	A, verse, | D:min | D:min | D:min/5 | D:min/5 |, (voice
+108.500000000	| D:min | D:min | D:min/5 | D:min/5 |
+116.499002267	| D:min | D:min | D:min/5 | D:min/5 |
+124.487346938	| D:min | D:min | D:min/5 | D:min/5 |, voice)
+132.493877551	A, refrain, | D:min7 | D:min7 | D:min7 | D:min7 |, (spoken)
+140.526553287	| D:min7 | D:min7 | D:min7 | D:min7 |, spoken)
+148.470634920	A, interlude, | D:1 | D:1 | D:1 | D:1 |, (synth
+156.502040816	| D:1 | D:1 | D:1 | D:1 |
+164.496009070	| D:1 | D:1 | D:1 | D:1 |
+172.488276643	| D:1 | D:1 | D:1 | D:1 |, synth)
+180.479501133	| D:min7 | D:min7 | D:min7 | D:min7 |, (guitar)
+188.516281179	A, outro, | D:min | D:min | D:min/5 | D:min/5 |, (spoken
+196.520181405	| D:min | D:min | D:min/5 | D:min/5 |
+204.525034013	| D:min | D:min | D:min/5 | D:min/5 |
+212.495873015	| D:min | D:min | D:min/5 | D:min/5 |
+220.520816326	| D:min | D:min | D:min/5 | D:min/5 |
+228.495941043	| D:min | D:min | D:min/5 | D:min/5 |
+236.511678004	| D:min | D:min | D:min/5 | D:min/5 |
+244.493083900	fadeout, | D:min | D:min | D:min/5 | D:min/5 |, spoken)
+264.057142857	silence
+266.866938775	end

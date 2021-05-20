@@ -1,0 +1,43 @@
+# title: One Way or Another
+# artist: Blondie
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.394739229	A, intro, | D:maj | D:maj | D:maj | D:maj |, (guitar
+6.363424036	| B:maj | B:maj | B:maj | B:maj |
+12.307528344	| D:maj | D:maj | D:maj | D:maj |
+18.141360544	| B:maj | B:maj | B:maj | B:maj |, guitar)
+23.974421768	A, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+29.825374149	| B:maj | B:maj | B:maj | B:maj |
+35.812131519	| D:maj | D:maj | D:maj | D:maj |
+41.639297052	| B:maj | B:maj | B:maj | B:maj |
+47.683854875	B, chorus, | G:maj | B:min | A:maj | F#:min |
+53.73430839	| G:maj | B:min | A:maj | F#:min |
+59.759024943	| G:maj . A:maj B:min | E:min | F#:maj | F#:maj |
+65.730816326	A, verse, | D:maj | D:maj | D:maj | D:maj |
+71.712675736	| B:maj | B:maj | B:maj | B:maj |
+77.670045351	| D:maj | D:maj | D:maj | D:maj |
+83.623696145	| B:maj | B:maj | B:maj | B:maj |
+89.59739229	B, chorus, | G:maj | B:min | A:maj | F#:min |
+95.606349206	| G:maj | B:min | A:maj | F#:min |
+101.621020408	| G:maj . A:maj B:min | E:min | F#:maj | F#:maj |, voice)
+107.487959183	| F#:maj | F#:maj |, (drums)
+110.304149659	C, solo, | F#:maj | F#:maj | A:maj | C#:min |, (guitar
+116.140090702	| F#:maj | F#:maj | A:maj | C#:min |
+121.891609977	| B:maj | E:maj | F#:maj | F#:maj |
+127.850725623	| A:maj | A:maj | B:maj | B:maj |, guitar)
+133.710204081	A, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+139.687913832	| B:maj | B:maj | B:maj | B:maj |
+145.621111111	| D:maj | D:maj | D:maj | D:maj |
+151.536598639	| B:maj | B:maj | B:maj | B:maj |, voice)
+157.447732426	A', outro, | D:maj | D:maj | B:maj | B:maj |, (synthesizer)
+163.328072562	| D:maj | D:maj | B:maj | B:maj |, (voice
+169.269818594	| D:maj | D:maj | B:maj | B:maj |
+175.176916099	| D:maj | D:maj | B:maj | B:maj |
+181.145578231	| D:maj | D:maj | B:maj | B:maj |
+187.030997732	| D:maj | D:maj | B:maj | B:maj |
+192.854875283	fadeout, | D:maj | D:maj | B:maj | B:maj |
+198.657074829	| D:maj | D:maj | B:maj | B:maj | D:maj |, voice)
+205.125079365	silence
+208.091428571	end

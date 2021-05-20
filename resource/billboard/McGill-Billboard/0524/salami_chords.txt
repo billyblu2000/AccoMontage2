@@ -1,0 +1,59 @@
+# title: Private Dancer
+# artist: Tina Turner
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.325079365	A, intro, | E:min9 | D:maj7 | C:maj9 | D:maj7 |, (synthesizer
+9.520181405	| E:min9 | D:maj7 | C:maj9 | D:maj7 |, synthesizer)
+18.14786848	| E:min9 | D:maj7 | C:maj9 | D:maj7 |, (saxophone)
+26.772607709	| E:min9 | D:maj7 | C:maj9 | D:maj7 |, (guitar)
+35.247891156	| E:min9 | D:maj7 | C:maj9 | D:maj7 |, (synthesizer)
+43.792834467	| E:min9 | D:maj7 | C:maj9 | D:maj7 |, (saxophone)
+52.198458049	B, verse, | E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |, (voice
+60.673741496	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+69.079365079	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+77.415328798	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+85.588752834	C, chorus, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |
+93.855056689	| D:maj | F:maj9 | F#:hdim7 | A:7/b7 C:9 | E:min7 |
+104.187936507	B, verse, | E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+112.477460317	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+120.813424036	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+129.056507936	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+137.229931972	C', chorus, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |
+145.449795918	| D:maj | F:maj9 | F#:hdim7 B:7 | E:min7 D:sus4(b7,9) |
+153.623219954	C, chorus, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |
+161.866303854	| D:maj | F:maj9 | F#:hdim7 | A:7/b7 C:9 | E:min7(11) |
+172.129523809	D, bridge, | A:9 | A:9 | A:9 | A:9 |
+180.372607709	| A:9 | A:9 | C#:dim . . C:7 | B:7(b13) |, voice)
+188.615691609	A, solo, | E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |, (piano)
+197.114195011	| E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |, (synthesizer)
+205.659138321	| E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |, (saxophone
+214.204081632	| E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |
+222.679365079	A, solo, | E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |
+231.201088435	| E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |
+239.699591836	| E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |
+248.128435374	| E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |, saxophone)
+256.487619047	A, solo, | E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |, (guitar
+264.846802721	| E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |
+273.13632653	| E:min9 | D:maj7/9 | C:maj9/3 | D:maj7 |
+281.402630385	| E:min9 | D:maj7/9 | C:maj9/3 | D:sus4(b7) D:maj |, guitar)
+289.576054421	C, chorus, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |, (voice
+297.888798185	| D:maj | F:maj9 | F#:hdim7 | A:7/b7 C:9 | E:min7(11) |
+308.732517006	B, verse, | E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+316.673741496	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+325.03292517	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+333.27600907	| E:min7 | B:min C:maj7 | E:min7 B:min7 | A:min7 D:sus4(b7) |
+341.495873015	C', chorus, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |
+349.738956916	| D:maj | F:maj9 | F#:hdim7 B:7 | E:min7 D:sus4(b7,9) |
+357.865941043	C', chorus, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |
+366.178684807	| D:maj | F:maj9 | F#:hdim7 B:7 | E:min7 D:sus4(b7,9) |
+374.305668934	C', chorus, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |
+382.595192743	| D:maj | F:maj9 | F#:hdim7 B:7 | E:min7 D:sus4(b7,9) |
+390.76861678	C', chorus, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |
+398.96526077	| D:maj | F:maj9 | F#:hdim7 B:7 | E:min7 D:sus4(b7,9) |, voice)
+407.138684807	C', fadeout, | G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) | D:sus4 D:maj |, (piano
+415.428208616	| D:maj | F:maj9 | F#:hdim7 B:7 | E:min7 D:sus4(b7,9) |
+423.624852607	| G:sus4(9) G:maj | G:maj(9) | G:maj(9) E:min7(11) |, piano)
+429.313741496	silence
+433.606530612	end

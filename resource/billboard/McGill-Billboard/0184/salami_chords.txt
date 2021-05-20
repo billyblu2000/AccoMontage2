@@ -1,0 +1,39 @@
+# title: Always on My Mind
+# artist: Pet Shop Boys
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.487619047	A, intro, | N | N |
+6.334603174	B', solo, | G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, (synthesizer
+14.035895691	| G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |
+21.719387755	| G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |
+29.431179138	| C:maj . . D:maj | C:maj . . D:maj |, synthesizer)
+33.250975056	B, verse, | G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, (voice
+40.961224489	| G:maj | D:maj | E:min D:maj6 | A:maj |
+48.620362811	C, chorus, | C:maj | G:maj | C:maj G:maj/3 | A:min G:maj |
+56.37430839	| D:maj | G:maj | C:maj D:maj | Bb:maj C:maj |
+64.043854875	B, verse, | G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |
+71.70585034	| G:maj | D:maj | E:min D:maj6 | A:maj |
+79.391587301	C, chorus, | C:maj | G:maj | C:maj G:maj/3 | A:min G:maj |
+87.092834467	| D:maj | G:maj | C:maj D:maj | Bb:maj C:maj |
+94.814512471	D, bridge, | G:maj D:maj/3 | E:min D:maj | C:maj G:maj/3 | A:min D:maj |
+102.464058956	| G:maj D:maj/3 | E:min D:maj | C:maj G:maj/3 | A:min D:maj |, voice)
+110.1592517	B, solo, | G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, (synthesizer
+117.80802721	| G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, synthesizer)
+125.524739229	C, chorus, | C:maj | G:maj | C:maj G:maj/3 | A:min G:maj |, (voice
+133.202358276	| D:maj | G:maj | C:maj D:maj | Bb:maj C:maj |
+140.916848072	D, bridge, | G:maj D:maj/3 | E:min D:maj | C:maj G:maj/3 | A:min D:maj |
+148.547097505	| G:maj D:maj/3 | E:min D:maj | C:maj G:maj/3 | A:min D:maj |
+156.323900226	C', chorus, | D:maj | G:maj | C:maj D:maj | G:maj |
+163.941496598	| D:maj | G:maj | C:maj D:maj | G:maj |
+171.637823129	| D:maj | G:maj | C:maj D:maj | Bb:maj C:maj |, voice)
+179.370657596	B', outro, | G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, (synthesizer)
+187.039297052	| G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, (voice
+194.721655328	| G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |
+202.407414965	| G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |
+210.087641723	| G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, voice)
+217.767732426	fadeout, | G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, (synthesizer
+225.478752834	| G:maj | D:maj | E:min D:maj6 | C:maj . . D:maj |, synthesizer)
+230.759909297	silence
+235.180408163	end

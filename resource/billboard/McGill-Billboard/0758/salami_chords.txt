@@ -1,0 +1,32 @@
+# title: Come Monday
+# artist: Jimmy Buffett
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.487619047	A, intro, | A:maj . . D:maj/5 | A:maj | A:maj . . D:maj/5 | A:maj |, (guitar)
+9.23201814	B, verse, | A:maj | D:maj | E:maj | A:maj |, (voice
+17.855895691	| A:maj | D:maj | E:maj | A:maj |
+26.538004535	| B:min7 | D:maj | E:maj | E:maj |
+35.139206349	C, chorus, | D:maj | A:maj | D:maj | E:maj |
+43.777936507	| A:maj . C#:min7 . | D:maj . E:maj . | D:maj . E:maj . |
+50.206371882	| A:maj . . D:maj/5 | A:maj |
+54.541292517	B, verse, | A:maj | D:maj | E:maj | A:maj |
+63.118662131	| A:maj | D:maj | E:maj | A:maj |
+71.772585034	| B:min7 | D:maj | E:maj | E:maj |
+80.319501133	C, chorus, | D:maj | A:maj | D:maj | E:maj |
+88.954376417	| A:maj . C#:min7 . | D:maj . E:maj . | D:maj . E:maj . |
+95.454965986	| A:maj . . D:maj/5 | A:maj |
+99.745646258	D, bridge, | B:maj7 | E:maj | B:maj7 | E:maj |
+108.351133786	| B:maj7 | E:maj | D:maj | E:maj | E:maj |
+119.01185941	E, trans, | G:maj | D:maj | A:maj | A:maj |
+127.446780045	B, verse, | A:maj | D:maj | E:maj | A:maj |
+136.009455782	| A:maj | D:maj | E:maj | A:maj |
+144.565941043	| B:min7 | D:maj | E:maj | E:maj |
+153.052902494	C', chorus, | D:maj | A:maj | D:maj | E:maj |
+161.674240362	| A:maj . C#:min7 . | D:maj . E:maj . | D:maj . E:maj . |
+168.15956916	| A:maj |
+170.291564625	| A:maj . C#:min7 . | D:maj . E:maj . | D:maj . E:maj . |
+176.802675736	| G:maj | D:maj | A:maj |, voice)
+187.204172335	silence
+188.809841269	end

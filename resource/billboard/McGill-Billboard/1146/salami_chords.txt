@@ -1,0 +1,39 @@
+# title: Abraham, Martin And John
+# artist: Dion
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.557278911	A, intro, | E:maj G#:min | F#:min7 A:maj E:maj . |
+10.018117913	| E:maj . B:sus4(b7,9) B:maj | A:maj/5 |
+18.204444444	| E:maj | E:maj |
+21.548979591	B, verse, | E:maj | G#:min7 | F#:min7 A:maj | E:maj |, (voice
+28.113582766	| E:maj | F#:min7 | G#:min7 | B:7 |
+34.675827664	| C#:min | G#:min7 | F#:sus4 A:maj | G#:min7 |
+41.246371882	| F#:min | B:maj | E:maj | E:maj |, voice)
+47.765532879	A', trans, | E:maj | B:9 | A:maj | E:maj |
+54.395011337	B, verse, | E:maj | G#:min7 | F#:min7 A:maj | E:maj |, (voice
+60.947142857	| E:maj | F#:min7 | G#:min7 | B:7 |
+67.489886621	| C#:min | G#:min7 | F#:sus4 A:maj | G#:min7 |
+74.017006802	| F#:min | B:maj | A:maj | A:maj |, voice)
+80.563900226	C, solo, | E:maj | E:maj | E:maj | E:maj |, (organ
+87.267800453	| E:maj | E:maj | A:maj | A:maj |
+93.84526077	| E:maj | E:maj |, organ)
+97.210997732	B, verse, | E:maj | G#:min7 | F#:min7 A:maj | E:maj |, (voice
+103.693469387	| E:maj | F#:min7 | G#:min7 | B:7 |
+110.204829931	| C#:min | G#:min7 | F#:sus4 A:maj | G#:min7 |
+116.691473922	| F#:min | B:maj | A:maj | E:maj |
+123.118798185	D, bridge, | A:maj | G#:min7 | F#:sus4 A:maj | G#:min7 |
+129.604557823	| A:maj | G#:min7 | F#:sus4 A:maj | F#:sus4 A:maj |
+136.0792517	| E:maj | E:maj | B:min7 | D:maj |
+142.513038548	| A:maj | G#:min7 | F#:sus4(b7,9) | B:sus4 B:maj |
+148.952380952	B, verse, | E:maj | G#:min7 | F#:min7 A:maj | E:maj |
+155.494353741	| E:maj | F#:min7 | G#:min7 | B:7 |
+161.874421768	| C#:min | G#:min7 | F#:sus4 A:maj | G#:min7 |
+168.377460317	| F#:min | B:maj | C#:min | A:maj |, voice)
+174.801088435	| A:maj | E:maj | E:maj | E:maj |
+178.085442176	A', outro, fadeout, | E:maj | E:maj | E:maj | E:maj |
+184.611836734	| E:maj | E:maj | E:maj | E:maj |
+191.114353741	| E:maj | E:maj |
+196.371156462	silence
+199.862857142	end

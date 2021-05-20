@@ -1,0 +1,41 @@
+# title: Crazy On You
+# artist: Heart
+# metre: 4/4
+# tonic: A
+
+0.0	A, intro, | * | x15
+25.420770975	| C:maj/5 | F#:hdim7 | E:maj | &pause | D:min | E:maj | &pause |, (acoustic guitar
+37.296757369	B, intro, | A:min | F:maj | A:min | F:maj . . G:maj |, acoustic guitar)
+44.93217687	| A:min | F:maj | A:min | F:maj . . G:maj |, (electric guitar
+52.500975056	| A:min | G:maj | F:maj |, electric guitar)
+58.086099773	C, verse, | A:min | C:maj | D:min | E:maj | x2, (voice)
+73.19632653	E, transition, | A:min . . D:maj/5 | D:maj/5 | A:min . . D:maj/5 | D:maj/5 |, (electric guitar)
+80.756417233	D, pre-chorus, | D:min E:min | C:maj F:maj | D:min | E:maj |, (voice
+88.169274376	B, chorus, | A:min | F:maj . . G:maj | A:min | F:maj . . G:maj |
+95.527913832	| A:min | G:maj | F:maj |
+101.034988662	C, verse, | A:min | C:maj | D:min | E:maj | x2, voice)
+115.844081632	E, transition, | A:min . . D:maj/5 | D:maj/5 | A:min . . D:maj/5 | D:maj/5 |, (electric guitar)
+123.314761904	D, pre-chorus, | D:min E:min | C:maj F:maj | D:min | E:maj |, (voice
+130.679160997	B, chorus, | A:min | F:maj . . G:maj | A:min | F:maj . . G:maj |
+137.94170068	| A:min | G:maj | F:maj | A:min |
+145.365532879	F, bridge, | F#:min7 | D:maj | C#:min | D:maj |
+152.626507936	| C#:min | D:maj | C#:min | B:min7/5 |
+159.958163265	| B:min7 | A:maj | A:maj |
+165.524172335	| E:maj | E:maj | E:maj | E:7 |
+172.879591836	B, chorus, | A:min | F:maj . . G:maj | A:min | F:maj . . G:maj |
+180.157959183	| A:min | G:maj | F:maj |
+185.540589569	C, verse, | A:min | C:maj | D:min | E:maj | x2
+200.247845804	B, chorus, | A:min | F:maj . . G:maj | A:min | F:maj . . G:maj |
+207.557074829	| A:min | G:maj | F:maj |
+213.068979591	B, chorus, | A:min | F:maj . . G:maj | A:min | F:maj . . G:maj |
+220.266870748	| A:min | G:maj | F:maj |, voice)
+225.713310657	B, solo, | A:min | F:maj . . G:maj | A:min | F:maj . . G:maj |, (electric guitar
+232.952766439	| A:min | G:maj | F:maj | A:min |
+240.141020408	F, solo, | F#:min7 | D:maj | C#:min | D:maj |
+247.504693877	| C#:min | D:maj | C#:min | B:min7/5 |
+254.786122448	| B:min7 | A:maj | A:maj |, electric guitar)
+260.35585034	| E:maj | E:maj | E:maj | E:7 |
+267.584444444	B, chorus, | A:min | F:maj . . G:maj | A:min | F:maj . . G:maj |, (voice
+274.851269841	| A:min | G:maj | F:maj | A:min |, voice)
+290.293174603	silence
+291.510498866	end

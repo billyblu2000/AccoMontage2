@@ -1,0 +1,34 @@
+# title: Another Brick In The Wall (Part II)
+# artist: Pink Floyd
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+4.4897959e-2	Z, noise
+1.49478458	A, verse, | D:min | D:min | D:min | D:min |, (voice
+10.682244897	| D:min | D:min | D:min | D:min |
+19.914580498	| D:min | D:min | D:min | D:min |
+29.111609977	| D:min | D:min | G:maj | G:maj |
+38.360702947	| G:maj | G:maj | D:min | D:min |
+47.640816326	B, chorus, | F:maj | C:maj | D:min | D:min |
+56.912539682	| F:maj | C:maj | D:min | N |
+66.226938775	A, verse, | N | N | D:min | D:min |
+75.454920634	| D:min | D:min | D:min | D:min |
+84.682222222	| D:min | D:min | D:min | D:min |
+93.918752834	| D:min | D:min | G:maj | G:maj |
+103.164058956	| G:maj | G:maj | D:min | D:min |
+112.38154195	B, chorus, | F:maj | C:maj | D:min | D:min |
+121.722857142	| F:maj | C:maj | D:min | D:min |, voice)
+131.100929705	C, solo, | D:min | D:min | D:min | D:min |, (guitar
+140.395328798	| D:min | D:min | D:min | D:min |
+149.63723356	| C:maj/9 | C:maj/9 | D:min | D:min |
+159.003877551	| C:maj/9 | C:maj/9 |
+163.652879818	| D:min | D:min | G:7/5 | G:7/5 |
+172.936734693	| D:min | D:min | G:7/5 | G:7/5 |
+182.225941043	| D:min | D:min | D:sus4(b7,9) | D:sus4(b7,9) |
+191.596349206	| Bb:maj/3 | Bb:maj/3 | D:sus4(b7,9) | D:sus4(b7,9) |, guitar)
+200.917052154	fadeout, | D:1 | N | N | N |, (drums
+210.14371882	| N | N | N | N |
+219.472675736	| N | N |, drums)
+224.091609977	Z
+239.960816326	end

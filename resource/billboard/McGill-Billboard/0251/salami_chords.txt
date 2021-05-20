@@ -1,0 +1,27 @@
+# title: Theme From Electric Surfboard
+# artist: Brother Jack McDuff
+# metre: 4/4
+# tonic: Bb
+
+0.000000000	silence
+0.464399092	A, intro, | Bb:min7 | Bb:min7 | Bb:min7 | Bb:min7 |, (organ
+11.054852607	| Bb:min7 | Bb:min7 | Bb:min7 | Bb:min7 |, (saxophone
+20.706530612	| Bb:min7 | Bb:min7 | Bb:min7 | Bb:min7 | Bb:1 Db:1 Eb:1 E:1 | ->, saxophone), organ)
+33.094897959	B, main theme, | F:hdim7 Bb:7(b9) | Eb:min7 Eb:min7/b7 | C:9(#11) | Cb:maj7 F:7 |, (organ
+43.014172335	| Gb:maj9 | Cb:7(#11) |
+47.905827664	| Gb:maj9 | Cb:7(#11) |
+52.807709750	| F:hdim7 | F:hdim7 | Bb:7(#9) | Bb:7(#9) |
+62.680317460	B', secondary theme, | F:hdim7 Bb:7(b9) | Eb:min7 Eb:min7/b7 | C:9(#11) | Cb:maj7 F:7 |
+72.472448979	| Gb:maj9 | Cb:7(#11) |
+77.401541950	| Gb:maj9 | Cb:7(#11) |
+82.339478458	| F:hdim7 | Bb:7(#9) | Bb:min7 | Bb:min7 | Bb:min7 | Bb:min7 |, organ)
+96.976643990	| Eb:7 D:7 | Db:7 C:hdim7 | F:9 |, (saxophone
+104.287573696	| Bb:7 Bb:sus4(b7,9) | Eb:maj Bb:sus4(b7,9) | Eb:maj Bb:sus4(b7,9) | Eb:maj Bb:sus4(b7,9) | Eb:maj |
+116.529977324	B'', main theme, | F:hdim7 Bb:7(b9) | Eb:min7 Eb:min7/b7 | C:9(#11) | Cb:maj7 F:7 |
+126.488344671	| Gb:maj9 | Cb:7(#11) |
+131.380136054	| Gb:maj9 | Cb:7(#11) |
+136.331088435	| F:hdim7 | Bb:7(#9) | Bb:min7 | Bb:min7 |, saxophone)
+146.161791383	C, solo, | Bb:min7 | Bb:min7 | Bb:min7 | Bb:min7 |, (organ
+155.892607709	fadeout, | Bb:min7 | x23, (saxophone), organ)
+210.493378684	silence
+214.272335600	end

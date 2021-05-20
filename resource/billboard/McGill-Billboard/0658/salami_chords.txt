@@ -1,0 +1,20 @@
+# title: Ask Me
+# artist: Elvis Presley
+# metre: 12/8
+# tonic: D
+
+0.0	silence
+0.417959183	A, intro, | A:maj |
+3.426961451	B, verse, | D:maj D:maj/7 | C:maj B:7 | E:min E:minmaj7/5 | E:min7 A:7 |, (voice
+15.571632653	| E:min E:minmaj7/5 | E:min7 A:7 | D:maj | D:maj |
+27.688480725	C, pre-chorus, | B:min | F#:min | D#:dim | E:min |
+39.739818594	| G:min7 C:7 | F:maj . E:min7 A:7 |
+45.796031746	D, chorus, | D:maj D:maj/7 | C:maj B:7 | E:min E:minmaj7/5 | E:min7 A:7 |, voice)
+58.053197278	B, interlude, | D:maj D:maj/7 | C:maj B:7 | E:min E:minmaj7/5 | E:min7 A:7 |
+70.247913832	| E:min E:minmaj7/5 | E:min7 A:7 | D:maj | D:maj |
+82.337959183	C, pre-chorus, | B:min | F#:min | D#:dim | E:min |, (voice
+94.547641723	| G:min7 C:7 | F:maj . E:min7 A:7 |
+100.645804988	D, chorus, | D:maj D:maj/7 | C:maj B:7 | E:min E:minmaj7/5 | E:min7 A:7 |
+112.902743764	| D:maj D:maj7 | E:min7 A:7 | D:maj D:maj/5 | D:maj |, voice)
+126.084353741	silence
+127.869387755	end

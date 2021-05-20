@@ -1,0 +1,33 @@
+# title: Six Days On The Road
+# artist: Dave Dudley
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.510839002	A, intro, | G:maj6 | G:maj6 | G:maj6 | G:maj6 |, (guitar)
+6.920045351	B, verse, | G:maj | D:7 | G:maj | G:maj |, (voice
+12.40786848	| G:maj | G:maj | D:7 | D:7 |
+17.895668934	| C:maj | D:7 | G:maj | C:maj |
+23.458707482	| G:maj | D:7 | G:maj | G:maj |
+29.02292517	B, verse, | G:maj | D:7 | G:maj | G:maj |
+34.569659863	| G:maj | G:maj | D:7 | D:7 |
+40.033378684	| C:maj | D:7 | G:maj | C:maj |
+45.566077097	| G:maj | D:7 | G:maj | G:maj |
+51.085895691	B, verse, | G:maj | D:7 | G:maj | G:maj |
+56.579002267	| G:maj | G:maj | D:7 | D:7 |
+62.005600907	| C:maj | D:7 | G:maj | C:maj |
+67.477460317	| G:maj | D:7 | G:maj | G:maj |, voice)
+72.981451247	C, solo, | G:maj | D:7 | G:maj | G:maj |, (guitar)
+78.469070294	B, verse, | G:maj | D:7 | G:maj | G:maj |, (voice
+83.949229024	| G:maj | G:maj | D:7 | D:7 |
+89.397142857	| C:maj | D:7 | G:maj | C:maj |
+94.785963718	| G:maj | D:7 | G:maj | G:maj |
+100.266099773	B', verse, | G:maj | D:7 | G:maj | G:maj |
+105.725736961	| G:maj | G:maj | D:7 | D:7 |
+111.176303854	| C:maj | D:7 | G:maj | C:maj |
+116.648866213	| G:maj | D:7 | G:maj | G:maj |
+122.142789115	| G:maj | D:7 | G:maj | G:maj |
+127.629206349	| G:maj | D:7 | G:maj | G:maj |, voice)
+133.064557823	fadeout, | G:maj | x6, (guitar)
+140.664353741	silence
+144.052244897	end

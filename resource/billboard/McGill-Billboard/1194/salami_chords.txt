@@ -1,0 +1,30 @@
+# title: The Year That Clayton Delaney Died
+# artist: Tom T. Hall
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.208979591	A, intro, | Db:maj | Ab:7/5 | Db:maj | Ab:7 |, (guitar)
+7.896870748	B, verse, | Db:maj | Ab:7 | Db:maj | Db:7 |, (voice
+15.145215419	| Gb:maj | Gb:maj | Db:maj | Db:7 |
+22.359297052	| Gb:maj | Gb:maj | Gb:maj | Db:maj |
+29.532743764	| Db:maj | Ab:7 | Db:maj | Db:maj |
+36.75371882	B, verse, | Db:maj | Ab:7 | Db:maj | Db:7 |
+43.952358276	| Gb:maj | Gb:maj | Db:maj | Db:7 |
+51.125782312	| Gb:maj | Gb:maj | Gb:maj | Db:maj |
+58.312970521	| Db:maj | Ab:7 | Db:maj | Db:maj |
+65.539455782	B, verse, | Db:maj | Ab:7 | Db:maj | Db:7 |
+72.774897959	| Gb:maj | Gb:maj | Db:maj | Db:7 |
+79.97446712	| Gb:maj | Gb:maj | Gb:maj | Db:maj |
+87.144195011	| Db:maj | Ab:7 | Db:maj | Db:maj |
+94.305442176	B, verse, | Db:maj | Ab:7 | Db:maj | Db:7 |
+101.511315192	| Gb:maj | Gb:maj | Db:maj | Db:7 |
+108.648956916	| Gb:maj | Gb:maj | Gb:maj | Db:maj |
+115.780430839	| Db:maj | Ab:7 | Db:maj | Db:maj |
+123.006689342	B, verse, | Db:maj | Ab:7 | Db:maj | Db:7 |
+130.216371882	| Gb:maj | Gb:maj | Db:maj | Db:7 |
+137.384285714	| Gb:maj | Gb:maj | Gb:maj | Db:maj |
+144.537301587	| Db:maj | Ab:7 | Db:maj | Db:maj |
+151.778458049	| Db:maj | Ab:maj | Db:maj | Db:maj |, voice)
+161.982403628	silence
+165.093877551	end

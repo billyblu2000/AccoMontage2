@@ -1,0 +1,34 @@
+# title: I Don t Want Your Love
+# artist: Duran Duran
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.394739229	A, intro, | D:5(b7) | D:5(b7) | D:5(b7) | D:5(b7) |
+9.298526077	B, verse, | D:1 | D:1 | D:1 | D:1 |, (voice
+18.088321995	| D:1 | D:1 | D:1 | D:1 |
+26.86063492	| D:min7 | D:min6 | Bb:maj/3 | D:min6 |
+35.679886621	| D:min7 | D:min6 | Bb:maj/3 | D:min |
+44.500385487	C, chorus, | D:min | C:sus4 | G:7 | G:7 |
+53.295895691	| D:min | C:sus4 | G:7 | G:7 |, voice)
+62.116190476	A, interlude, | D:5(b7) | D:5(b7) | D:5(b7) | D:5(b7) |
+70.925759637	B', verse, | D:min7 | D:min6 | Bb:maj/3 | D:min6 |, (voice
+79.753469387	| D:min7 | D:min6 | Bb:maj/3 | D:min |
+88.526394557	C, chorus, | D:min | C:sus4 | G:7 | G:7 |
+97.354081632	| D:min | C:sus4 | G:7 | G:7 |
+106.171723356	| D:min | C:sus4 | G:7 | G:7 |
+114.999297052	| D:min | C:sus4 | G:7 | G:7 |, voice)
+123.781995464	D, interlude, | D:min | D:min | D:min | D:min |, (guitar
+132.616462585	| D:min | D:min | D:min | D:min |, guitar)
+141.443628117	B', verse, | D:min7 | D:min6 | Bb:maj/3 | D:min |, (voice
+150.22494331	| D:min7 | D:min6 | Bb:maj/3 | D:min |, voice)
+159.064807256	C, interlude, | D:min | C:sus4 | G:7 | G:7 |
+167.845873015	| D:min | C:sus4 | G:7 | G:7 |
+176.665419501	C', pre-chorus, | D:min | C:sus4 | G:7 | G:7 |, (voice
+185.501111111	C, chorus, | D:min | C:sus4 | G:7 | G:7 |
+194.335328798	| D:min | C:sus4 | G:7 | G:7 |
+203.130226757	| D:min | C:sus4 | G:7 | G:7 |
+211.899115646	fadeout, | D:min | C:sus4 | G:7 | G:7 |
+220.730997732	| D:min | C:sus4 | G:7 | G:7 |, voice)
+226.422471655	silence
+228.126802721	end

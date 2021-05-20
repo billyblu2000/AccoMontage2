@@ -1,0 +1,51 @@
+# title: Who Wears These Shoes
+# artist: Elton John
+# metre: 4/4
+# tonic: B
+
+0.000000000	silence
+0.232199546	A, intro, | G:maj | G:maj | D:maj | D:7 |, (guitar
+6.901995464	| G:maj | G:maj | ->
+9.733922902	| B:min | B:min | G:maj | G:maj |
+15.437959183	| D:maj | D:maj | G:maj | G:maj |, guitar)
+21.117981859	B, verse, | B:min | B:min | E:min | E:min |, (voice
+26.806077097	| D:maj | A:maj | E:min | E:min |
+32.509909297	| B:min | B:min | E:min | E:min |
+38.205986394	| B:min/5 | G:7 | F#:7 | F#:7 |
+43.918979591	B, refrain, | B:min | B:min | E:min | E:min |
+49.637823129	| B:min | B:min | E:min | E:min |
+55.334104308	B, verse, | B:min | B:min | E:min | E:min |
+61.037845804	| D:maj | A:maj | E:min | E:min |
+66.694058956	| B:min | B:min | E:min | E:min |
+72.381882086	| B:min/5 | G:7 | F#:7 | F#:7 |
+78.157687074	B, refrain, | B:min | B:min |
+80.947777777	C, verse, | D:maj | D:maj | A:maj/3 | A:maj/3 |
+86.684013605	| E:min | E:min | E:min | F#:maj |
+92.357823129	| D:maj | D:maj | A:maj/3 | A:maj/3 |
+98.046009070	| B:min | G:maj | E:min7 D:maj/3 | G:maj A:maj |
+103.790000000	B, refrain, | B:min | B:min | E:min | E:min |
+109.501904761	| B:min | B:min | E:min | E:min |
+115.149886621	D, chorus, | G:maj | G:maj | A:maj | A:maj |
+120.837936507	| D:maj G:maj/5 D:maj . | G:maj/5 D:maj | D:maj E:min7 | D:7/3 |
+126.517981859	| G:maj | G:sus4 G:maj | A:maj | A:sus4 A:maj |
+132.262244897	| E:min | E:min | F#:7 | F#:7 |
+137.965986394	C, verse, | D:maj | D:maj | A:maj/3 | A:maj/3 |
+143.629931972	| E:min | E:min | E:min | F#:maj |
+149.314036281	| D:maj | D:maj | A:maj/3 | A:maj/3 |
+155.021972789	| B:min | G:maj | E:min7 D:maj/3 | G:maj A:maj |
+160.733968253	B, refrain, | B:min | B:min | E:min | E:min |
+166.461927437	| B:min | B:min | E:min | E:min |
+172.189909297	A, chorus, | G:maj | G:maj | D:maj | D:maj |
+177.878321995	| G:maj | G:maj | B:min | B:min |
+183.542063492	| G:maj | G:maj | D:maj | D:maj |
+189.197800453	| G:maj | G:maj | B:min | B:min |
+194.901972789	| G:maj | G:maj | D:maj | D:maj |
+200.595804988	| G:maj | G:maj | B:min | B:min |
+206.276190476	| G:maj | G:maj | D:maj | D:maj |
+211.967823129	fadeout, | G:maj | G:maj | B:min | B:min |
+217.709863945	| G:maj | G:maj | D:maj | D:maj |
+223.369206349	| G:maj | G:maj | B:min | B:min |, voice)
+229.052721088	| G:maj | G:maj | D:maj | D:maj |
+234.733424036	| G:maj | G:maj | B:min | B:min |
+240.907029478	silence
+242.834285714	end

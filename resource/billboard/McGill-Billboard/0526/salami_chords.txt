@@ -1,0 +1,37 @@
+# title: Love Comes Quickly
+# artist: Pet Shop Boys
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.743038548	A, intro, | B:5 | B:5 | B:5(b7) | B:5 |, (synthesizer
+11.193129251	B, instrumental, | G:maj/3 | G:maj/3 | F#:min/b3 | B:min |
+20.140702947	| G:maj/3 | G:maj/3 | F#:min/b3 | B:min |
+29.032562358	| G:maj/3 | G:maj/3 | F#:min/b3 | B:min |
+37.901224489	| G:maj/3 | G:maj/3 | F#:min/b3 | B:min |, synthesizer)
+46.791428571	B, verse, | G:maj/3 | G:maj/3 | F#:min/b3 | B:min |, (voice
+55.712721088	| G:maj/3 | G:maj/3 | F#:min/b3 | B:min |
+64.603945578	| G:maj/3 | G:maj/3 | F#:min/b3 | B:min B:min7 |
+73.473786848	| G:maj/3 | G:maj/3 | F#:min/b3 | F#:min/11 |
+82.363287981	C, chorus, | G:maj7 | G:maj7 | F#:min/b3 | B:min B:min7 |
+91.254353741	| G:maj7 | G:maj7 | F#:min | B:min B:min7 |
+100.174852607	B, verse, | G:maj/3 | G:maj/3 | F#:min/b3 | B:min B:min7 |
+109.056916099	| G:maj7/3 | G:maj7/3 | F#:min/b3 | B:min B:min7 |
+117.869977324	| G:maj/3 | E:min7 | F#:min/b3 | B:min B:min7 |
+126.861201814	| G:maj/3 | G:maj/3 | F#:min/b3 | B:min |
+135.708163265	C, chorus, | G:maj7 | G:maj7 | F#:min/b3 | B:min B:min7 |
+144.640204081	| G:maj7 | G:maj7 | F#:min | B:min B:min7 |, voice)
+153.499591836	D, bridge, | G:maj/3 | G:maj/3 B:min7 |, (synthesizer)
+157.972108843	| E:min7 | F#:sus4(b7) | B:min B:min7 |, (voice
+164.663174603	| E:min7 | F#:sus4(b7) | B:min B:min7 |, voice)
+171.334013605	| G:maj7 | E:min7 | F#:min7 | B:min B:min7 |, (synthesizer
+180.213492063	| G:maj7 | E:min7 | F#:min7 | B:min B:min7 |, synthesizer)
+189.089138321	B, verse, | G:maj/3 | G:maj/3 | F#:min/b3 | B:min B:min7 |, (voice
+197.986213151	C, chorus, | G:maj7 | G:maj7 | F#:min/b3 | B:min B:min7 |
+206.854036281	| G:maj7 | G:maj7 | F#:min7 | B:min B:min7 |
+215.796281179	C, chorus, | G:maj7 | G:maj7 | F#:min/b3 | B:min B:min7 |, voice)
+224.668548752	| G:maj7 | G:maj7 | F#:min7 | B:min B:min7 |, (synthesizer
+233.574263038	fadeout, | G:maj/3 | E:min7/5 | F#:min/b3 | B:min B:min7 |, synthesizer)
+242.479342403	| G:maj/3 | E:min7/5 | F#:min/b3 | B:min B:min7 | G:maj/3 |, (voice)
+253.747664399	silence
+258.873469387	end

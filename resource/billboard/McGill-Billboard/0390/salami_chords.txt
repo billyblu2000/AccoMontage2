@@ -1,0 +1,35 @@
+# title: Young Hearts Run Free
+# artist: Candi Staton
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+9.2879818e-2	A, intro, | N |
+0.348299319	| Bb:sus4(9)/7 | Bb:sus4(9)/7 | Bb:sus4(9)/7 | Bb:sus4(9)/7 |, (saxophone)
+9.127528344	B, verse, | Eb:maj Ab:maj/5 | Eb:maj7 Ab:maj/5 | Eb:maj Ab:maj/5 | Eb:maj7 Ab:maj/5 |, (voice
+17.141043083	| Ab:maj Ab:maj6 | Ab:maj7 Ab:maj6 | Eb:maj/5 C:min7 | Eb:maj/5 C:min7 |
+25.094104308	| Eb:maj Ab:maj/5 | Eb:maj7 Ab:maj/5 | Eb:maj Ab:maj/5 | Eb:maj7 Ab:maj/5 |
+33.129115646	| Ab:maj Ab:maj6 | Ab:maj7 Ab:maj6 | Eb:maj/5 C:min7 | Eb:maj/5 C:min7 |
+41.103333333	C, prechorus, | Bb:sus4(9) | Bb:sus4(9) | Bb:sus4(9) | Bb:sus4(9) | Bb:sus4(9) |
+51.091904761	D, chorus, | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 |
+59.118458049	| Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . | Ab:maj7 Eb:maj | Eb:maj |
+67.128956916	| Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 |
+75.15877551	| Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . | Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . |
+83.139229024	B, verse, | Eb:maj Ab:maj/5 | Eb:maj7 Ab:maj/5 | Eb:maj Ab:maj/5 | Eb:maj7 Ab:maj/5 |
+91.059773242	| Ab:maj Ab:maj6 | Ab:maj7 Ab:maj6 | Eb:maj/5 C:min7 | Eb:maj/5 C:min7 |
+99.09430839	| Eb:maj Ab:maj/5 | Eb:maj7 Ab:maj/5 | Eb:maj Ab:maj/5 | Eb:maj7 Ab:maj/5 |
+107.103219954	| Ab:maj Ab:maj6 | Ab:maj7 Ab:maj6 | Eb:maj/5 C:min7 | Eb:maj/5 C:min7 |
+115.116190476	C, prechorus, | Bb:sus4(9) | Bb:sus4(9) | Bb:sus4(9) | Bb:sus4(9) | Bb:sus4(9) |
+125.143265306	D, chorus, | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj |
+133.156077097	| Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . | Ab:maj7 Eb:maj | Eb:maj |
+141.104988662	| Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj |
+149.096099773	| Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . | Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . |, voice)
+157.16170068	E, interlude, | Bb:sus4(9) | Bb:sus4(9) | Bb:sus4(9) | Bb:sus4(9) |, (synthesizer)
+165.132471655	D, chorus, | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj |, (voice
+173.145714285	| Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . | Ab:maj7 Eb:maj | Eb:maj |
+181.121791383	| Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj |
+189.151292517	| Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . | Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . |
+197.102902494	D, chorus, | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj F:min7 | Ab:maj |
+205.114965986	| Ab:maj7 Eb:maj | Eb:maj/5 C:min7 . . | Ab:maj7 Eb:maj | Eb:maj |, fadeout, voice)
+218.964399092	silence
+221.93632653	end

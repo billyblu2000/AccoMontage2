@@ -1,0 +1,29 @@
+# title: Mighty Good Lovin'
+# artist: The Miracles
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.417959183	A, intro, | Eb:1 Bb:1 Db:1 Eb:1 | Eb:1 Bb:1 Db:1 Eb:1 |, (piano)
+4.192426303	| Eb:7 | Eb:7 | Eb:7 | Eb:7 Bb:7 . . |, (saxophone)
+11.648163265	B, verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |, (voice
+19.177687074	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+26.734512471	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+34.259841269	| Bb:7 | Ab:7 | Eb:7 | N |
+41.832471655	C, chorus, | Eb:7 | Ab:7 | Eb:7 | Ab:7 |
+49.305374149	| Eb:7 | Ab:7 | Eb:7 | Ab:7 |
+56.75324263	| Bb:7 | Ab:7 | Eb:7 | N |, voice)
+64.375532879	B', solo, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |, (saxophone
+71.88095238	| Bb:7 | Ab:7 | F:7 | Bb:7 |, saxophone)
+79.411020408	B, verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |, (voice
+86.895532879	| Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+94.517845804	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+102.100204081	| Bb:7 | Ab:7 | Eb:7 | N |
+109.66154195	C, chorus, | Eb:7 | Ab:7 | Eb:7 | Ab:7 |
+117.161473922	| Eb:7 | Ab:7 | Eb:7 | Ab:7 |
+124.629478458	| Bb:7 | Ab:7 | Eb:7 | N |, voice)
+132.194920634	C', chorus, | Eb:7 | Ab:7 | Eb:7 | Ab:7 |
+139.698730158	| Eb:7 | Ab:7 | Eb:7 | Ab:7 |
+147.157777777	fadeout, | Eb:7 | Ab:7 | Eb:7 | Ab:7 | Eb:7 | Ab:7 | Eb:7 | Ab:7 |, voice)
+155.620136054	silence
+158.040816326	end

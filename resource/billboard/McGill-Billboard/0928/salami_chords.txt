@@ -1,0 +1,29 @@
+# title: Mony Mony
+# artist: Tommy James
+# metre: 4/4
+# tonic: A
+
+0.0	A, intro, | N | N | N | N |
+7.571723356	B, verse, | A:maj | N | A:maj . . D:maj | A:maj |, (voice
+14.92154195	| A:maj | N | A:maj . . D:maj | A:maj |
+22.197959183	| A:maj | N | A:maj . . D:maj | A:maj |
+29.507278911	| A:maj | N | D:maj | E:maj | E:maj | E:maj | E:maj |
+42.427641723	C, chorus, | A:maj . G:maj A:maj | x4
+49.805532879	| D:maj . C:maj D:maj | x4
+57.201564625	| E:maj | E:maj | E:maj | E:maj |, voice)
+64.647052154	A', interlude, | N | N |
+68.319387755	B, verse, | A:maj | N | A:maj . . D:maj | A:maj |, (voice
+75.58430839	| A:maj | N | A:maj . . D:maj | A:maj |
+82.85755102	| A:maj | N | A:maj . . D:maj | A:maj |
+90.154331065	| A:maj | N | D:maj | E:maj | E:maj | E:maj | E:maj |
+103.014399092	C, chorus, | A:maj . G:maj A:maj | x4
+110.483424036	| D:maj . C:maj D:maj | x4
+117.812267573	| E:maj | E:maj | E:maj | E:maj |
+125.288956916	D, bridge, | A:maj | D:1 | N | N |
+132.689523809	| N | N | N | N |
+140.07723356	| N | N | E:maj | E:maj | E:maj | E:maj |
+151.104875283	C, chorus, | A:maj . G:maj A:maj | x4
+158.566031746	fadeout, | D:maj . C:maj D:maj | x4
+165.909750566	| E:maj | E:maj | E:maj | E:maj |, voice)
+170.769478458	silence
+174.817800453	end

@@ -1,0 +1,32 @@
+# title: People Got To Be Free
+# artist: The Rascals
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.255419501	A, chorus, | Bb:maj F:maj | C:maj F:maj | Bb:maj F:maj | C:maj F:maj |, (voice
+7.998185941	| Bb:maj F:maj | C:maj F:maj | Bb:maj F:maj | (2/4) C:maj |, voice)
+14.526054421	B, trans, | (4/4) F:maj | C:maj | F:maj | C:maj |, (trumpet)
+22.210884353	C, verse, | F:maj | C:maj | D:min | A:min |, (voice
+29.75770975	| Bb:maj | F:maj | N | N |
+37.215963718	| F:maj | C:maj | D:min | A:min |
+44.86802721	| Bb:maj | F:maj | N | N |
+52.204557823	A, chorus, | Bb:maj F:maj | C:maj F:maj | Bb:maj F:maj | C:maj F:maj |
+59.872766439	| Bb:maj F:maj | C:maj F:maj | Bb:maj F:maj | (2/4) C:maj |, voice)
+66.571609977	B, trans, | (4/4) F:maj | C:maj | F:maj | C:maj |, (trumpet)
+74.179387755	C, verse, | F:maj | C:maj | D:min | A:min |, (voice
+81.755419501	| Bb:maj | F:maj | N | N |
+89.147142857	| F:maj | C:maj | D:min | A:min |
+96.743877551	| Bb:maj | F:maj | N | N |
+104.073197278	A, chorus, | Bb:maj F:maj | C:maj F:maj | Bb:maj F:maj | C:maj F:maj |
+111.73292517	| Bb:maj F:maj | C:maj F:maj | Bb:maj F:maj | (2/4) C:maj |, voice)
+118.450340136	B, trans, | (4/4) F:maj | C:maj | F:maj | C:maj |, (trumpet
+126.013106575	D, bridge, | F:maj | Ab:maj | Db:maj | C:maj |, trumpet)
+133.543151927	A, chorus, | Bb:maj F:maj | C:maj F:maj | Bb:maj F:maj | C:maj F:maj |, (voice
+141.217120181	| Bb:maj F:maj | C:maj F:maj | Bb:maj F:maj | (2/4) C:maj |, voice)
+147.814580498	B, trans, | (4/4) F:maj | C:maj | F:maj | C:maj |, (trumpet)
+155.498344671	B', outro, | F:maj | C:maj | F:maj | C:maj |, (guitar
+163.106417233	| F:maj | C:maj | F:maj | C:maj |
+170.642131519	fadeout, | F:maj | C:maj | F:maj | C:maj | F:maj | C:maj |, guitar)
+177.609433106	silence
+181.681632653	end

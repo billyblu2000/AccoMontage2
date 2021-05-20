@@ -1,0 +1,33 @@
+# title: Come Together
+# artist: The Beatles
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.391836734	A, intro, | D:min | D:min | D:min | D:min |, (guitar)
+11.934217687	B, verse, | D:min | D:min | D:min | D:min |, (voice
+23.752607709	| A:min | A:min | G:1 | G:1 |, voice)
+35.387210884	A, interlude, | D:min | D:min | D:min | D:min |, (guitar)
+46.767619047	B, verse, | D:min | D:min | D:min | D:min |, (voice
+58.537505668	| A:min | A:min | G:1 | N |
+70.14510204	C, chorus, | B:5 . . A:5 | G:5 A:5 |, voice)
+75.906031746	A, interlude, | D:min | D:min | D:min | D:min |, (guitar)
+87.252199546	B, verse, | D:min | D:min | D:min | D:min |, (voice
+98.929954648	| A:min | A:min | G:1 | G:1 |
+110.643922902	C, chorus, | B:5 . . A:5 | G:5 A:5 |, voice)
+116.424852607	A, interlude, | D:min7 | D:min7 |, (guitar
+122.023333333	B', solo, | D:min | D:min | D:min | D:min |
+133.602539682	| A:min | A:min | A:min | A:min |
+145.145170068	A', interlude, | D:min7 | D:min7 |, guitar)
+150.880929705	B, verse, | D:min | D:min | D:min | D:min |, (voice
+162.704195011	| A:min | A:min | G:1 | G:1 |
+174.405079365	C, chorus, | B:5 . . A:5 | G:5 A:5 |, voice)
+180.256507936	A, interlude, | D:min | D:min | D:min | D:min |, (guitar
+191.589206349	A', outro, | D:min13 | D:min13 | D:min13 | D:min13 |
+203.081723356	| D:min13 | D:min13 | D:min13 | D:min13 |
+214.389841269	| D:min13 | D:min13 | D:min13 | D:min13 |
+225.739682539	| D:min13 | D:min13 | D:min13 | D:min13 |
+237.02446712	fadeout, | D:min13 | D:min13 | D:min13 | D:min13 |
+248.221315192	| D:min13 | D:min13 | D:min13 | D:min13 | D:min13 |, guitar)
+254.513922902	silence
+259.996734693	end

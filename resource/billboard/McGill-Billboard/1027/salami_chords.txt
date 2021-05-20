@@ -1,0 +1,42 @@
+# title: Lucky
+# artist: Greg Kihn
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.040816326	Z
+0.375510204	A, intro, | A:min | A:min | A:min | A:min |
+8.421564625	| A:min | A:min | A:min | A:min |
+16.204965986	| A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |
+24.076190476	| A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |
+31.880907029	| A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |
+39.773832199	| A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |
+47.500453514	B, verse, | F:maj7 | G:min7/9 C:7/13 | F:maj7 | G:min7/9 C:7/13 |, (voice
+55.343832199	| F:maj7 | G:min7/9 C:7/13 | F:maj7 | E:maj | E:7 |
+65.053718820	C, chorus, | D:min E:min/b7 | D:min7 | D:min7 |
+70.998820861	| D:min E:min/b7 | D:min7 | D:min7 |
+76.807165532	B, verse, | A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |
+84.629682539	| F:maj7 | G:min7/9 C:7/13 | F:maj7 | E:maj | E:7 |
+94.332902494	C, chorus, | D:min E:min/b7 | D:min7 | D:min7 |
+100.239138321	| D:min E:min/b7 | D:min7 | D:min7 |
+106.083628117	| D:min E:min/b7 | D:min7 | D:min7 |
+111.942086167	| D:min E:min/b7 | D:min7 | D:min7 |, voice)
+117.661564625	B, solo, | A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |, (guitar
+125.342312925	| F:maj7 | G:min7/9 C:7/13 | F:maj7 | E:maj | E:7 |
+134.801859410	C, chorus, | D:min E:min/b7 | D:min7 | D:min7 |
+140.660702947	| D:min E:min/b7 | D:min7 | D:min7 |
+146.417120181	| D:min E:min/b7 | D:min7 | D:min7 |
+152.184693877	| D:min E:min/b7 | D:min7 | D:min7 |, guitar)
+157.835827664	B, verse, | A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |, (voice
+165.702698412	| F:maj7 | G:min7/9 C:7/13 | F:maj7 | E:maj | E:7 |
+175.365782312	C, chorus, | D:min E:min/b7 | D:min7 | D:min7 |
+181.153605442	| D:min E:min/b7 | D:min7 | D:min7 |
+186.945396825	| D:min E:min/b7 | D:min7 | D:min7 |
+192.820544217	| D:min E:min/b7 | D:min7 | D:min7 |, voice)
+198.530702947	B', solo, | A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |, (guitar
+206.174852607	| A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |
+213.647891156	| A:min | G:min7/9 C:7/13 | F:maj7/3 | G:min7/9 C:7/13 |
+221.255555555	| A:min | G:min7/9 C:7/13 | F:maj7 | E:maj | E:7 |
+230.724240362	C, chorus, | D:min E:min/b7 | D:min7/b3 |, guitar)
+243.415034013	Z
+266.710204081	end

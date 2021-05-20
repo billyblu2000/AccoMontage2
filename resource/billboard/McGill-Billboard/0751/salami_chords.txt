@@ -1,0 +1,36 @@
+# title: I'd Love To Change The World
+# artist: Ten Years After
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.859138321	A, intro, | E:min | G:maj | A:min | C:maj B:7 |, (guitar
+9.055782312	| E:min | G:maj | A:min | C:maj B:7 |, guitar)
+17.433786848	B, verse, | E:min | G:maj | A:min | C:maj B:maj |, (voice)
+25.315215419	| E:min | G:maj | A:min | C:maj B:maj |, (guitar)
+33.53095238	| E:min | G:maj | A:min | C:maj B:maj |, (voice)
+41.280181405	| E:min | G:maj | A:min | C:maj B:maj |, (guitar)
+49.431768707	C, chorus, | E:min | G:maj | A:min | C:maj B:7 |, (voice
+57.686462585	| E:min | G:maj | A:min | C:maj B:7 |, voice)
+66.065238095	| E:min | G:maj | A:min | C:maj B:7 |, (guitar)
+74.210975056	B, verse, | E:min | G:maj | A:min | C:maj B:maj |, (voice)
+81.942267573	| E:min | G:maj | A:min | C:maj B:maj |, (guitar)
+90.109115646	| E:min | G:maj | A:min | C:maj B:maj |, (voice)
+97.825442176	| E:min | G:maj | A:min | C:maj B:maj |, (guitar)
+106.058730158	C, chorus, | E:min | G:maj | A:min | C:maj B:7 |, (voice
+114.256916099	| E:min | G:maj | A:min | C:maj B:7 |, voice)
+122.639954648	| E:min | G:maj | A:min | C:maj B:7 |, (guitar
+130.764988662	B', solo, | E:min | G:maj | A:min | C:maj B:7 |
+138.318956916	| E:min | G:maj | A:min | C:maj B:7 |
+145.824965986	| E:min | G:maj | A:min | C:maj B:7 |
+153.474421768	| E:min | G:maj | A:min | C:maj B:7 |, guitar)
+161.047165532	| E:min | G:maj | A:min | C:maj B:7 |, (voice
+168.737596371	| E:min | G:maj | A:min | C:maj B:7 |, voice)
+176.350680272	A, interlude, | E:min | G:maj | A:min | C:maj B:7 |, (guitar
+184.573832199	| E:min | G:maj | A:min | C:maj B:7 |, guitar)
+192.906394557	C', chorus, | E:min | G:maj | A:min | C:maj B:7 |, (voice
+201.103605442	| E:min | G:maj | A:min | C:maj B:7 |, voice)
+209.240385487	| E:min | G:maj | A:min | C:maj B:7 |, (guitar
+217.478095238	| E:min |, guitar)
+222.772244897	silence
+224.914285714	end

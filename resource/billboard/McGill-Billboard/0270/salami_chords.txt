@@ -1,0 +1,18 @@
+# title: In My Room
+# artist: The Beach Boys
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.557278911	A, intro, | B:maj G#:min7 | C#:min7 F#:7 |, (guitar)
+8.909387755	B, verse, | B:maj | B:maj | B:maj A:maj | B:maj G#:min7 |, (voice
+22.477641723	C, chorus, | C#:min7 A:maj | F#:maj | B:maj A:maj | B:maj |
+36.18585034	B, verse, | B:maj | B:maj | B:maj A:maj | B:maj G#:min7 |
+49.944195011	C, chorus, | C#:min7 A:maj | F#:maj | B:maj A:maj | B:maj |
+63.738888888	D, bridge, | G#:min7 | F#:maj | G#:min F#:maj G#:min F#:maj | B:maj |
+77.511179138	| G#:min7 | F#:maj | C#:min7 | E:sus4 F#:maj |
+91.461519274	B, verse, | B:maj | B:maj | B:maj A:maj | B:maj G#:min7 |
+105.38340136	C', chorus, | C#:min7 A:maj | F#:maj | B:maj A:maj | B:maj A:maj |
+119.434172335	fadeout, | B:maj A:maj | B:maj A:maj | B:maj A:maj | B:maj A:maj |, voice)
+131.538979591	silence
+134.879614512	end

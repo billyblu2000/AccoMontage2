@@ -1,0 +1,28 @@
+# title: Perfidia
+# artist: The Ventures
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.719818594	A, intro, | N G:1 A:1 B:1 | C:maj E:min/5 | F:maj/3 G:maj | C:maj E:min/5 | F:maj/3 G:maj |, (banjo)
+8.100839002	B, verse, | C:maj A:min | D:min G:maj | C:maj A:min | D:min G:maj |, (guitar
+14.383174603	| C:maj A:min | D:min G:maj | E:7 | G:maj |
+20.66664399	C, chorus, | C:maj A:min | D:min G:maj | C:maj A:min | D:min G:maj |
+27.006258503	| C:maj A:min | D:min G:maj | C:maj F:maj | C:maj |
+33.283378684	D, bridge, | F:maj | F:maj | E:7 | E:7 |
+39.556575963	| F:maj | F:maj | E:7 | G:maj |
+45.819750566	C, chorus, | C:maj A:min | D:min G:maj | C:maj A:min | D:min G:maj |
+52.108548752	| C:maj A:min | D:min G:maj | C:maj F:maj | C:maj G:maj |, guitar)
+58.454535147	E, interlude, | C:maj | N | N | N |, (drums)
+64.556802721	A, intro, | C:maj E:min/5 | F:maj/3 G:maj | D:maj F#:min/5 | G:maj/3 A:maj |, (banjo)
+# tonic: D
+70.851337868	B, verse, | D:maj B:min | E:min A:maj | D:maj B:min | E:min A:maj |, (guitar
+77.172222222	| D:maj B:min | E:min A:maj | F#:7 | A:maj |
+83.567823129	C, chorus, | D:maj B:min | E:min A:maj | D:maj B:min | E:min A:maj |
+89.920408163	| D:maj B:min | E:min A:maj | D:maj G:min | D:maj |
+96.302993197	D, bridge, | G:maj | G:maj | F#:maj | F#:maj |
+102.539954648	| G:maj | G:maj | F#:maj | A:maj |
+108.901428571	C, chorus, | D:maj B:min | E:min A:maj | D:maj B:min | E:min A:maj |
+115.260453514	| D:maj B:min | E:min A:maj | D:maj G:min | D:maj |, guitar)
+122.810340136	silence
+125.518367346	end

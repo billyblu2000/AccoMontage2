@@ -1,0 +1,38 @@
+# title: Torn Between Two Lovers
+# artist: Mary MacGregor
+# metre: 4/4
+# tonic: Bb
+
+0.000000000	silence
+0.325079365	A, intro, | F:7/3 A:maj |
+2.225487528	| C:min . C:min/13 C:min/5 | F:7 . F:7/9 F:7/3 | Bb:maj | Bb:maj |
+9.636281179	B, verse, | C:min | F:9 | Bb:maj | Bb:maj |
+16.973786848	| C:min | F:7 | Bb:maj | Bb:maj7 . Bb:maj6 Bb:maj |
+24.311292517	| C:min | F:9 | Bb:maj | G:min |
+31.602358276	| C:min | Eb:maj | C:min | F:7 | F:7 |
+40.751020408	B, verse, | C:min | F:9 | Bb:maj | Bb:maj |
+48.042086167	| Eb:maj | F:7 | Bb:maj | Bb:maj7 . Bb:maj6 Bb:maj |
+55.309931972	| C:min | F:9 | Bb:maj | G:min |
+62.647437641	| C:min | Eb:maj | C:min | F:7 | F:7 |
+71.796099773	C, chorus, | C:min | F:7 | D:min | G:7 |
+79.133605442	| C:min | F:7 | Bb:maj | G:7 |
+86.401451247	| C:min | F:7 | D:min | G:7 |
+93.692517006	| C:min | F:7 | Bb:maj | Bb:maj |
+100.960362811	B, verse, | C:min | F:9 | Bb:maj | Bb:maj |
+108.181768707	| C:min | F:7 | Bb:maj | Bb:maj7 . Bb:maj6 Bb:maj |
+115.519274376	| C:min | F:9 | Bb:maj | G:min |
+122.810340136	| C:min | Eb:maj | C:min | F:7 | F:7 |
+131.982222222	C, chorus, | C:min | F:7 | D:min | G:7 |
+139.296507936	| C:min | F:7 | Bb:maj | G:7 |
+146.564353741	| C:min | F:7 | D:min | G:7 |
+153.785759637	| C:min | F:7 | Bb:maj | Bb:maj |
+161.053605442	B', verse, | C:min | F:9 | Bb:maj | G:min |
+168.391111111	| C:min | Eb:maj | C:min | F:7 | F:7 |
+177.493333333	C, chorus, | C:min | F:7 | D:min | G:7 |
+184.784399092	| C:min | F:7 | Bb:maj | G:7 |
+191.982585034	| C:min | F:7 | D:min | G:7 |
+199.250430839	| C:min | F:7 | Bb:maj | G:7 |
+206.495056689	C, fadeout, | C:min | F:7 | D:min | G:7 |
+213.786122448	| C:min | F:7 | Bb:maj | G:7 |, voice)
+219.405351473	silence
+222.537142857	end

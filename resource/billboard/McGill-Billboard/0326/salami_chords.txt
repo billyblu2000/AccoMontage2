@@ -1,0 +1,30 @@
+# title: My Boy
+# artist: Elvis Presley
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.278639455	A, intro, | D:maj |, (guitar)
+3.336122448	B, verse, | D:maj | A:maj/3 | B:min | F#:min |, (voice)
+13.885532879	| B:min | B:min |, (oboe)
+19.228004535	| G:maj7 | F#:min7 | E:min7 | F#:sus4(b7) | F#:7 |, (voice
+32.343242630	C, chorus, | B:min | E:min7 | A:7 | D:maj7 |
+42.635215419	| G#:hdim7 | C#:7 | F#:sus4(b7) | F#:7 |, voice)
+53.057596371	A, trans, | D:maj |, (strings)
+55.788027210	B, verse, | D:maj | A:maj/3 | B:min | F#:min |, (voice)
+66.246530612	| B:min | B:min |, (oboe)
+71.474852607	| G:maj7 | F#:min7 | E:min7 | F#:sus4(b7) | F#:7 |, (voice
+84.311519274	C, chorus, | B:min | E:min7 | A:7 | D:maj7 |
+94.551655328	| G#:hdim7 | C#:7 | F#:sus4(b7) | F#:7 |, voice)
+105.000634920	A, trans, | D:maj |, (strings)
+107.729977324	B, verse, | D:maj | A:maj/3 | B:min | F#:min |, (voice)
+118.254557823	| B:min | B:min |, (oboe)
+123.524353741	| G:maj7 | F#:min7 | E:min7 | F#:sus4(b7) | F#:7 |, (voice
+136.257528344	C, chorus, | B:min | E:min7 | A:7 | D:maj7 |
+146.327097505	| G#:hdim7 | C#:7 | F#:sus4(b7) | F#:7 |
+156.412040816	C, chorus, | B:min | E:min7 | A:7 | D:maj7 |
+166.510294784	| G#:hdim7 | C#:7 | F#:sus4(b7) | F#:7 |
+176.587755102	C, chorus, | B:min | E:min7 | A:7 | D:maj7 |
+186.837573696	fadeout, | G#:hdim7 | C#:7 | F#:sus4(b7) | F#:7 | B:min |, voice)
+197.880453514	silence
+200.594285714	end

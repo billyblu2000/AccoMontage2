@@ -1,0 +1,51 @@
+# title: Rock This Town
+# artist: Stray Cats
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.394739229	A, intro, | D:maj | D:maj | D:maj | D:maj |, (guitar
+5.354444444	| D:maj | D:maj | D:maj | D:maj |
+10.2123356	| D:maj | D:maj | D:maj | D:maj |, guitar)
+14.883990929	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+19.602834467	| D:maj | D:maj | A:maj | A:maj |
+24.295918367	| D:maj | D:7 | G:maj | E:7 |
+28.915986394	| D:maj | A:maj | ->, voice)
+31.287959183	A, pre-verse, | G:maj | D:maj | D:maj | D:maj |, (guitar
+36.059614512	| D:maj | D:maj | D:maj | D:maj |, guitar)
+40.783514739	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+45.551746031	| D:maj | D:maj | A:maj | A:maj |
+50.275215419	| D:maj | D:7 | G:7 | E:7 |
+55.000657596	| D:maj | A:7 | D:maj | D:maj |
+59.66356009	chorus, | D:maj | D:maj | D:maj | D:maj |
+64.508911564	| D:maj | D:maj | A:7 | A:7 |
+69.273151927	| D:maj | D:7 | G:maj | G:maj |
+74.047256235	| D:maj | A:maj | D:maj | D:maj |, voice)
+78.758117913	solo, | D:maj | D:maj | D:maj | D:maj |, (guitar
+83.454807256	| D:maj | D:maj | A:maj | A:maj |
+88.1292517	| D:maj | D:7 | G:maj | E:7 |
+92.915056689	| D:maj | A:7 |
+95.305759637	A, pre-verse, | D:maj | D:maj | D:maj | D:maj |
+100.069274376	| D:maj | D:maj | D:maj | D:maj |, guitar)
+104.852380952	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+109.64494331	| D:maj | D:maj | A:maj | A:maj |
+114.457210884	| D:maj | D:7 | G:7 | E:7 |
+119.281564625	| D:maj | A:7 | D:7 | D:7 |
+123.972222222	chorus, | D:maj | D:maj | D:maj | D:maj |
+128.815895691	| D:maj | D:maj | A:maj | A:maj |
+133.66893424	| D:maj | D:7 | G:maj | E:7 |
+138.425941043	| D:maj | A:7 | D:7 | D:7 |, voice)
+143.151609977	solo, | D:maj | D:maj | D:maj | D:maj |, (guitar
+147.959024943	| D:maj | D:maj | A:maj | A:maj |
+152.693151927	| D:maj | D:7 | G:maj | E:7 |
+157.507256235	| D:maj | A:7 | ->
+159.884240362	A, pre-chorus, | D:maj | D:maj | D:maj | D:maj |
+164.685759637	| D:maj | D:maj | D:maj | D:maj |, guitar)
+169.492222222	B, chorus, | D:maj | D:maj | D:maj | D:maj |, (voice
+174.358979591	| D:maj | D:maj | A:maj | A:maj |
+179.181746031	| D:maj | D:7 | G:maj | E:7 |
+184.042108843	| D:maj | A:7 | D:maj | D:maj |
+188.83015873	outro, | D:maj | A:7 | D:maj | D:maj |
+193.763424036	| D:maj | A:7 | D:maj | D:maj6(9) |, voice)
+202.380090702	silence
+204.564897959	end

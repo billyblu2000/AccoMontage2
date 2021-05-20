@@ -1,0 +1,43 @@
+# title: Surrender
+# artist: Cheap Trick
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+8.5714285e-2	G, pre-intro, | N |
+0.971428571	C, intro, | Bb:sus4(b7,9) . . . | Bb:sus4(b7,9) . . . | Bb:maj . . . | Bb:maj . . . |
+8.163265306	| Bb:sus4(b7,9) . . . | Bb:sus4(b7,9) . . . | Bb:maj . . . | Bb:maj . . . |
+15.236734693	A, verse, | B:maj . . . | F#:maj . . . | E:maj . . . | B:maj . . . |
+22.435623582	| B:maj . . . | F#:maj . . . | E:maj . . . | B:maj . . . |
+29.583673469	| E:maj . . . | F#:maj . . . | B:maj . . . | B:maj . . . |
+36.745736961	| E:maj . . . | F#:maj . . . | B:maj . . . | B:maj . . . |
+43.902040816	B, chorus, | B:maj . . . | G#:min7 . . . | F#:maj(11) . . . | E:maj . . . |
+51.114285714	| B:maj . . . | G#:min7 . . . | F#:maj(11) . . . | E:maj . . . | E:maj . . . | E:maj . . . | E:maj . . . |
+63.512607709	K, interlude, | B:sus4(b7,9) . . . | B:sus4(b7,9) . . . | B:maj . . . | B:maj . . . |
+70.688707482	| B:sus4(b7,9) . . . | B:sus4(b7,9) . . . | B:maj . . . | B:maj . . . |
+77.723424036	A, verse, | B:maj . . . | F#:maj . . . | E:maj . . . | B:maj . . . |
+84.920408163	| B:maj . . . | F#:maj . . . | E:maj . . . | B:maj . . . |
+92.067596371	| E:maj . . . | F#:maj . . . | B:maj . . . | B:maj . . . |
+99.181269841	| E:maj . . . | F#:maj . . . | B:maj . . . | B:maj . . . |
+106.302040816	B, chorus, | B:maj . . . | G#:min7 . . . | F#:maj(11) . . . | E:maj . . . |
+113.491224489	| B:maj . . . | G#:min7 . . . | F#:maj(11) . . . | E:maj . . . | E:maj . . . | E:maj . . . | E:maj . . . |
+125.942857142	K, interlude, | B:sus4(b7,9) . . . | B:sus4(b7,9) . . . | B:maj . . . | B:maj . . . |
+133.012244897	| B:sus4(b7,9) . . . | B:sus4(b7,9) . . . | B:maj . . . | B:maj . . . |
+# tonic: C
+140.108594104	A, verse, | C:maj . . . | G:maj . . . | F:maj . . . | C:maj . . . |
+147.31770975	| C:maj . . . | G:maj . . . | F:maj . . . | C:maj . . . |
+154.530612244	| F:maj . . . | G:maj . . . | C:maj . . . | C:maj . . . |
+161.695283446	| F:maj . . . | G:maj . . . | C:maj . . . | C:maj . . . |
+168.792244897	B, chorus, | C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . |
+176.010022675	| C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . | F:maj . . . | F:maj . . . | F:maj . . . |
+188.563446712	J, outro, | C:maj . . . | F:maj . . . | C:maj . . . | G:maj . . . |
+195.731405895	| C:maj . . . | F:maj . . . | C:maj . . . | G:maj . . . |
+202.84446712	B, chorus, | C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . |
+210.057142857	| C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . |
+217.257142857	| C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . |
+224.39802721	| C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . |
+231.561451247	| C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . |
+238.758276643	E, fadeout, | C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . |
+245.893877551	| C:maj . . . | A:min7 . . . | G:maj(11) . . . | F:maj . . . |
+253.590408163	silence
+256.0	end

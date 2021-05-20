@@ -1,0 +1,43 @@
+# title: When It's Love
+# artist: Van Halen
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+3.6734693e-2	Z
+0.365714285	A, intro, | D:maj | A:maj | D:maj/3 | G:maj |
+9.608231292	| D:maj | A:maj | D:maj/3 | G:maj |
+18.935873015	| D:maj | A:maj | D:maj/3 | G:maj |, (guitar
+28.210136054	| D:maj | A:maj | D:maj/3 | G:maj |
+37.404557823	| F:maj | C:maj | G:maj | G:maj |
+46.75446712	B, trans, | D:5 F:maj | G:5 A:min | D:5 F:maj | G:5 Bb:maj . C:maj |
+56.029614512	| D:5 F:maj | G:5 A:min | D:5 F:maj | G:5 |, guitar)
+65.266145124	C, verse, | D:5 F:maj | G:5 A:min | D:5 F:maj | G:5 Bb:maj . C:maj |, (voice
+74.550748299	| D:5 F:maj | G:5 A:min | D:5 F:maj | C:maj A:min |
+83.823696145	D, chorus, | D:maj | A:maj | B:min | E:sus4 A:maj |
+93.097823129	| D:maj | A:maj | B:min | E:sus4 A:maj |, voice)
+102.446870748	B, trans, | D:maj | A:maj | B:min | F:maj G:maj |, (guitar)
+111.715374149	C, verse, | D:5 F:maj | G:5 A:min | D:5 F:maj | G:5 Bb:maj . C:maj |, (voice
+120.95802721	| D:5 F:maj | G:maj A:min | D:5 F:maj | G:maj A:maj |
+130.267414965	D, chorus, | D:maj | A:maj | B:min | E:sus4 A:maj |
+139.537188208	| D:maj | A:maj | B:min | E:sus4 A:maj |
+148.869727891	E, bridge, | F:maj | G:maj | F:maj | G:maj |
+158.169501133	| F:maj | G:maj | A:min | A:min |, voice)
+167.427052154	C, solo, | D:5 F:maj | G:5 A:min | D:5 F:maj | G:5 Bb:maj . C:maj |, (guitar
+176.720589569	| D:5 F:maj | G:5 A:min | D:5 F:maj | C:maj A:min |, guitar)
+185.985056689	E, bridge, | F:maj | G:maj | F:maj | G:maj |, (voice
+195.199501133	| F:maj | G:maj | A:min | A:min |
+204.545986394	D, chorus, | D:maj | A:maj | B:min | E:sus4 A:maj |
+213.804081632	| D:maj | A:maj | B:min | E:sus4 A:maj |
+223.099297052	| D:maj | A:maj | B:min | E:sus4 A:maj |, voice)
+232.351179138	A, outro, | D:maj | A:maj | D:maj/3 | G:maj |, (guitar
+241.75356009	| D:maj | A:maj | D:maj/3 | A:maj |
+251.077959183	| D:maj | A:maj | D:maj/3 | G:maj |
+260.274195011	| D:maj | A:maj | D:maj/3 | G:maj |
+269.533968253	| D:maj | A:maj | D:maj/3 | G:maj |
+278.824285714	| D:maj | A:maj | D:maj/3 | G:maj |
+288.119773242	| D:maj | A:maj | D:maj/3 | G:maj |
+297.392267573	| F:maj | C:maj | F:maj | C:maj |
+307.19861678	| D:maj |, guitar)
+315.173968253	Z
+322.403265306	end

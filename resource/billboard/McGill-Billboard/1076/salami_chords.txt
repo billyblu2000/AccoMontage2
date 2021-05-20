@@ -1,0 +1,34 @@
+# title: Can We Still Be Friends
+# artist: Todd Rundgren
+# metre: 4/4
+# tonic: C#
+
+0.0	silence
+0.441179138	A, intro, | C#:min9 | C#:min9 | C#:min9 | C#:min9 |, (saxophone
+8.876689342	| C#:min9 | C#:min9 | C#:min9 | C#:min9 |, saxophone)
+16.927210884	B, chorus, | A:maj7(#11) | A:maj7(#11) | C#:min9 | C#:min9 C#:min9/b7 |, (voice
+25.208140589	| A:maj7(#11) | A:maj7(#11) | C#:min9 | C#:min9 C#:min9/b7 |
+33.441678004	C, verse, | A:maj7 | G#:7 | F#:min7 . B:sus4(b7) B:7 | E:maj7 E:7 |
+41.570748299	| A:maj7 | G#:min7 | F#:sus4(b7) F#:7 | B:sus4(b7) B:maj6 |
+49.791179138	B, chorus, | A:maj7(#11) | A:maj7(#11) | C#:min9 | C#:min9 C#:min9/b7 |
+58.054852607	| A:maj7(#11) | A:maj7(#11) | C#:min9 | C#:min9 C#:min9/b7 |
+66.226371882	C, verse, | A:maj7 | G#:7 | F#:min7 . B:sus4(b7) B:7 | E:maj7 E:7 |
+74.426258503	| A:maj7 | G#:min7 | F#:sus4(b7) F#:7 | B:sus4(b7) B:maj6 |
+82.68664399	D, solo, | C#:min9 | C#:min9 | G#:min7 | G#:min7 |, (saxophone
+90.751111111	| F#:min7 | F#:min7 | B:maj | B:maj B:sus4/b7 . B:maj/b7 |
+98.683922902	| C#:min9 | C#:min9 | G#:min9 | G#:min9 |
+106.635986394	| F#:min9 | F#:min9 | B:sus4(b7) | B:sus4(b7) . . B:maj |, saxophone)
+114.596893424	B, chorus, | A:maj7(#11) | A:maj7(#11) | C#:min9 | C#:min9 C#:min9/b7 |
+122.719591836	| A:maj7(#11) | A:maj7(#11) | C#:min9 | C#:min9 C#:min9/b7 |
+130.763764172	C', verse, | A:maj7 | G#:7 | F#:min7 . B:sus4(b7) B:7 | E:maj7 E:7 |
+138.917369614	| A:maj7 | G#:min7 | F#:sus4(b7) F#:7 | B:sus4(b7) | B:sus4(b7) | B:maj6(b9) | B:maj6(b9) |
+153.186190476	D', solo, | C#:min9 | C#:min9 | G#:min9 | G#:min9 |, (saxophone
+161.193968253	| F#:min7 | F#:min7 | B:maj | B:maj A:sus2 . B:maj/b7 |
+169.139206349	| C#:min9 | C#:min9 | G#:min9 | G#:min9 |
+177.066439909	| F#:min7 | F#:min7 | B:maj | B:maj A:sus2 . B:maj/b7 |
+184.979637188	| C#:min9 | C#:min9 | G#:min9 | G#:min9 |
+192.799160997	| F#:min7 | F#:min7 | B:maj | B:maj A:sus2 . B:maj/b7 |
+200.647210884	fadeout, | C#:min9 | C#:min9 | G#:min9 | G#:min9 |
+208.44600907	| F#:min7 | F#:min7 | B:maj | B:maj A:sus2 . B:maj/b7 |, saxophone), voice)
+212.736190476	silence
+216.482562358	end

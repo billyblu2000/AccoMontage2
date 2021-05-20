@@ -1,0 +1,37 @@
+# title: Silver Threads And Golden Needles
+# artist: The Cowsills
+# metre: 4/4
+# tonic: F
+
+0.000000000	silence
+0.603718820	A, intro, | F:maj C:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj | F:maj |, (guitar)
+8.132040816	B, verse, | F:maj | F:maj | Bb:maj | Bb:maj |, (voice
+13.961315192	| Bb:maj | F:maj | F:maj | Eb:maj | C:maj |
+21.332176870	| F:maj | F:maj | Bb:maj | Bb:maj |
+27.140453514	| Bb:maj | F:maj | C:maj | Eb:maj | F:maj |
+34.555328798	C, chorus, | Bb:maj | Bb:maj | F:maj | F:maj |
+40.555079365	| F:maj/5 C:maj | D:min/b7 F:maj/5 | Bb:maj/9 F:maj/5 | Eb:maj . . Eb:maj/7 | C:7 |
+48.218843537	B', verse two, | F:maj | F:maj | Bb:maj | Bb:7 |
+54.126984126	| Bb:maj | F:maj | C:maj | F:maj | F:maj |, voice)
+61.520340136	D, interlude, | F:maj | Bb:maj | Eb:maj Bb:maj/3 | C:7 |, (guitar), (organ)
+67.531088435	B'', verse three, | F:maj | F:maj | Bb:maj | Bb:7 |, (voice
+73.515374149	| Bb:maj | F:maj | F:maj | (5/4) Eb:maj6 |, voice)
+79.714104308	A, interlude, | F:maj C:maj | Bb:maj C:maj | Bb:maj C:maj | F:maj | F:maj |, (guitar
+87.144489795	E, interlude, | Bb:maj . . Bb:maj(9)/3 | Bb:maj(9)/3 C:maj | F:maj13 | F:maj13 | F:maj13 | F:maj13 |, (voice)
+95.944852607	| D:min | D:min | D:min | D:min |
+101.982040816	| D:min | D:min | A:maj/5 | A:7(#9) |
+108.383673469	F, solo, | D:min | D:min | D:min | D:min |
+114.362857142	| Ab:maj | Ab:maj | Ab:maj | Ab:maj |
+120.306462585	| D:min | D:min | D:min | D:min |
+126.409433106	| D:min | D:min | D:min | D:min |
+132.423401360	| D:min/5 | D:min/5 | Bb:maj7 | Bb:maj7 |
+138.588299319	| Eb:maj | Eb:sus4 | C:7 |, (voice, guitar)
+142.988480725	B, verse, | F:maj | F:maj | Bb:maj | Bb:maj |
+149.042086167	| Bb:maj | F:maj | C:maj | F:maj F:7 |
+154.979160997	| Bb:maj | F:maj | C:maj |
+159.451428571	C', outro, | F:maj | F:maj | Bb:maj | Bb:maj |
+165.291179138	| F:maj | F:maj | Bb:maj | Bb:maj |, voice)
+170.873083900	A, outro, | F:maj C:maj | Bb:maj C:maj | Bb:maj C:maj | (6/4) C:maj |, (guitar
+177.169705215	| F:maj |, guitar)
+178.549841269	silence
+181.369002267	end

@@ -1,0 +1,49 @@
+# title: Hocus Pocus
+# artist: Focus
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.278639455	A, verse, | A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |, (guitar
+5.727346938	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+10.895034013	| A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |
+16.139727891	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+21.478004535	A, verse, | A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |
+26.709614512	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+31.991247165	| A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |
+37.344897959	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+42.635192743	B, pre-chorus, | A:min . C:maj D:maj | D:maj | D:min . F:maj G:maj | G:maj |, guitar)
+47.745034013	| E:min7 | N | N | N |, (drums)
+52.714988662	C, chorus, | A:min7 E:min7 | F:maj C:maj | D:min A:min7 | B:maj E:maj |, (voice
+58.217482993	| A:min7 E:min7 | F:maj C:maj | D:min A:min7 | B:maj E:maj |
+63.710453514	| A:maj | Bb:maj/7 | C:maj/13 | D:min/5 |
+69.219863945	| E:min/11 | F:maj/3 G:maj/9 | A:maj | A:maj |, voice)
+74.396734693	A, verse, | A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |, (guitar
+79.585578231	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+84.779047619	| A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |
+89.981836734	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+95.122857142	B, pre-chorus, | A:min . C:maj D:maj | D:maj | D:min . F:maj G:maj | G:maj |, guitar)
+100.299705215	| E:min7 | N | N | N |, (drums)
+105.151133786	D, solo, | A:min | N | N | N |, (flute
+110.34340136	| N | N | N | N |
+113.109206349	| N | N | N | N |, flute)
+118.441723356	| N | N |, (drums)
+121.023287981	A, verse, | A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |, (guitar
+126.113696145	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+131.24170068	| A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |
+136.487981859	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+141.644421768	B, pre-chorus, | A:min . C:maj D:maj | D:maj | D:min . F:maj G:maj | G:maj |, guitar)
+146.826712018	| E:min7 | N | N | N |, (drums)
+151.58047619	C, chorus, | A:min7 E:min7 | F:maj C:maj | D:min A:min7 | B:maj E:maj |, (voice
+156.882040816	| A:min7 E:min7 | F:maj C:maj | D:min A:min7 | B:maj E:maj |
+162.205532879	| A:maj | Bb:maj/7 | C:maj/13 | D:min/5 |
+167.39340136	| E:min/11 | F:maj/3 G:maj/9 | A:maj | A:maj |, voice)
+172.560068027	A, verse, | A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |, (guitar
+177.638888888	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+182.825238095	| A:5 | A:5 | E:maj F:maj7 . C:maj | C:maj Bb:maj A:min7/5 . |
+187.997074829	| A:5 | A:5 | E:maj F:maj . D:maj | D:maj B:maj E:maj . |
+193.235736961	B, pre-chorus, | A:min . C:maj D:maj | D:maj | D:min . F:maj G:maj | G:maj |, guitar)
+198.325963718	| E:min7 | N | N | N |, (drums)
+203.438956916	| A:min |, (guitar)
+205.310839002	silence
+206.733061224	end

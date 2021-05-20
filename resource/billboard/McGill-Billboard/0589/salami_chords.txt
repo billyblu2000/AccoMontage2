@@ -1,0 +1,36 @@
+# title: Southern Cross
+# artist: Crosby, Stills & Nash
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.208979591	A, intro, | A:maj G:maj9 | D:maj | A:maj G:maj9 | D:maj A:maj |
+12.195034013	A, verse, | A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |, (voice
+24.060907029	| A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |
+35.903333333	| A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |
+47.680385487	| A:maj G:maj | D:maj | A:maj G:maj | D:maj B:min A:maj . | (2/4) A:maj |
+# tonic: D
+61.11063492	B, bridge, | G:maj D:maj | G:maj A:maj | G:maj D:maj | G:maj A:maj |
+72.783356009	| G:maj D:maj | (2/4) G:maj | A:maj | A:maj |
+83.124036281	C, chorus, | D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+94.811179138	| D:maj G:maj | A:maj | D:maj G:maj | A:maj |, voice)
+# tonic: A
+100.654195011	A, interlude, | A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |
+112.541111111	A, verse, | A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |, (voice
+124.301043083	| A:maj G:maj | D:maj | A:maj G:maj | (2/4) D:maj | A:maj |
+137.542131519	| A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |
+149.287641723	| A:maj G:maj | D:maj | A:maj G:maj | D:maj B:min A:maj . | (2/4) A:maj |
+# tonic: D
+162.615759637	B, bridge, | G:maj D:maj | G:maj A:maj | G:maj D:maj | G:maj A:maj |
+174.279863945	| G:maj D:maj | (2/4) G:maj | A:maj | A:maj |
+184.575306122	C, chorus, | D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+196.140294784	| D:maj G:maj | A:maj | D:maj G:maj | A:maj |
+# tonic: A
+202.161836734	A, interlude, | A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |, voice)
+213.834444444	A, solo, | A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |, (guitar
+225.612494331	| A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |, guitar)
+237.294285714	A, verse, | A:maj G:maj | D:maj | A:maj G:maj | D:maj A:maj |, (voice
+248.952993197	| A:maj G:maj | D:maj | A:maj G:maj | (2/4) D:maj | A:maj |, voice)
+262.168707482	A, outro, | A:maj G:maj | D:maj | A:maj G:maj | D:maj | &pause |
+279.119115646	silence
+280.569478458	end

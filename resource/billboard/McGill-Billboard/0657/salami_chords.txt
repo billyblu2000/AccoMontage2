@@ -1,0 +1,46 @@
+# title: In Your Soul
+# artist: Corey Hart
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.185759637	A, intro, | A:sus2 | A:maj | A:sus2 | A:maj |, (guitar)
+8.25632653	B, verse, | A:sus2 | A:maj | A:sus2 | A:maj |, (voice
+15.818231292	| D:sus2 | D:maj | ->
+19.598730158	| A:sus2 | A:maj | A:sus2 | A:maj |
+27.169546485	| D:sus2 | D:maj | D:sus2 | D:maj |
+34.714489795	C, chorus, | E:maj | E:maj | D:maj/3 | D:maj/3 |
+42.307528344	| B:min7 | B:min7 | ->, voice)
+46.025532879	A, trans, | A:sus2 | A:maj |, (guitar)
+49.797755102	B, verse, | A:sus2 | A:maj | A:sus2 | A:maj |, (voice
+57.389160997	| D:sus2 | D:maj | ->
+61.169954648	| A:sus2 | A:maj | A:sus2 | A:maj |
+68.713129251	| D:sus2 | D:maj | D:sus2 | D:maj |
+76.278072562	C, chorus, | E:maj | E:maj | D:maj/3 | D:maj/3 |
+83.884988662	| B:min7 | B:min7 | ->, voice)
+87.625918367	A, trans, | A:sus2 | A:maj |, (guitar)
+91.440861678	D, bridge, | D:maj | A:maj | E:maj | B:min | D:maj |, (voice
+98.966575963	| F#:min | E:maj |
+102.742585034	| D:maj | A:maj | E:maj | B:min |
+110.320362811	| F#:min | B:maj | E:maj | E:maj |, voice)
+117.891609977	B', solo, | A:sus2 | A:maj | A:sus2 | A:maj |, (saxophone
+125.425147392	| D:sus2 | D:maj |
+129.21802721	| B:min | B:min | D:maj | D:maj |
+136.779297052	| E:maj | E:maj |, saxophone)
+140.543424036	| N | N |, (synthesizer)
+144.289455782	B, verse, | A:maj | A:maj | A:sus4 | A:sus4 |, (voice
+151.891315192	| D:sus4 | D:sus4 |
+155.709909297	| F#:min | F#:min | F#:min | F#:min7 |
+163.214603174	| D:maj | D:maj | B:min7 | B:min7 |
+170.761179138	C, chorus, | E:maj | E:maj | D:maj/3 | D:maj/3 |
+178.373174603	| B:min7 | B:min7 |, voice)
+182.139523809	A, trans, | A:sus2 | A:maj |, (saxophone)
+185.919183673	C, chorus, | E:maj | E:maj | D:maj/3 | D:maj/3 |, (voice
+193.517006802	| B:min7 | B:min7 | ->
+197.243605442	A', outro, | A:sus2 | A:maj | A:sus2 | A:maj |
+204.827573696	| A:sus2 | A:maj | A:sus2 | A:maj |
+212.38356009	| A:sus2 | A:maj | A:sus2 | A:maj |
+219.950204081	fadeout, | A:sus2 | A:maj | A:sus2 | A:maj |
+227.465464852	| A:sus2 | A:maj | A:sus2 | A:maj |, voice)
+231.270748299	silence
+234.657959183	end

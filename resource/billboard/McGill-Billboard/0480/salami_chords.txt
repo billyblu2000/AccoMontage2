@@ -1,0 +1,37 @@
+# title: Give It To Me Baby
+# artist: Rick James
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.510839002	A, intro, | N | N | N | N |
+8.359183673	B, instrumental, | F:maj | F:maj | G:maj | G:maj |, (horns
+16.161088435	| F:maj | F:maj | G:maj | G:maj |, horns)
+23.939773242	B, verse, | F:maj | F:maj | G:maj | G:maj |, (voice
+31.741678004	| F:maj | F:maj | G:maj | G:maj |
+39.566802721	| F:maj | F:maj | G:maj | G:maj |
+47.415147392	| F:maj | F:maj | G:maj | G:maj |
+55.263492063	C, chorus, | F:maj | F:maj | G:maj | G:maj |
+63.135056689	| F:maj | F:maj | G:maj | G:maj |
+70.936961451	| F:maj | F:maj | G:maj | G:maj |
+78.762086167	| F:maj | F:maj | G:maj | G:maj |
+86.591451247	D, bridge, | G:maj F:maj . . | N | G:maj A:1 . . | N |
+94.435555555	| G:maj F:maj G:maj F:maj | G:maj F:maj G:maj F:maj | G:maj F:maj G:maj F:maj | G:maj |, voice)
+102.237460317	B, instrumental, | F:maj | F:maj | G:maj | G:maj |, (horns
+110.070702947	| F:maj | F:maj | G:maj | G:maj |, horns)
+117.957369614	B, verse, | F:maj | F:maj | G:maj | G:maj |, (voice
+125.809478458	| F:maj | F:maj | G:maj | G:maj |
+133.609478458	| F:maj | F:maj | G:maj | G:maj |
+141.454149659	| F:maj | F:maj | G:maj | G:maj |
+149.274852607	C, chorus, | F:maj | F:maj | G:maj | G:maj |
+157.092879818	| F:maj | F:maj | G:maj | G:maj |
+164.907687074	| F:maj | F:maj | G:maj | G:maj |
+172.682108843	| F:maj | F:maj | G:maj | G:maj |
+180.45632653	D, bridge, | G:maj F:maj . . | N | G:maj A:1 . . | N |
+188.406712018	| G:maj F:maj G:maj F:maj | G:maj F:maj G:maj F:maj | G:maj F:maj G:maj F:maj | G:maj |, voice)
+196.231836734	B', instrumental, | F:maj | F:maj | G:maj | G:maj |, (horns)
+204.018390022	B, verse, | F:maj | F:maj | G:maj | G:maj |, (voice
+211.789206349	fadeout, | F:maj | F:maj | G:maj | G:maj |
+219.614331065	| F:maj | F:maj | G:maj | G:maj | F:maj |, voice)
+228.902312925	silence
+234.318367346	end

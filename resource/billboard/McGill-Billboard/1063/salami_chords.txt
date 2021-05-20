@@ -1,0 +1,28 @@
+# title: This Little Girl
+# artist: Dion
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.417959183	A, intro, | Bb:maj | G:min | Eb:maj | F:maj |, (voice
+11.818956916	| Bb:maj | G:min | Eb:maj | F:maj |
+22.453696145	| Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+29.956371882	| Bb:maj | Eb:maj F:maj | Bb:maj Eb:maj | Bb:maj F:maj |
+37.54015873	B, verse, | Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+45.15648526	| Bb:maj | Eb:maj | Bb:maj | Bb:maj |
+52.743287981	| Eb:maj | Ab:maj | Eb:maj | Eb:min |
+60.408707482	| Bb:maj | F:7 | Bb:maj | Eb:maj |
+68.11956916	B, verse, | Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+75.836281179	| Bb:maj | Eb:maj | Bb:maj | Bb:maj |
+83.542902494	| Eb:maj | Ab:maj | Eb:maj | Eb:min |
+91.197482993	| Bb:maj | F:7 | Bb:maj | Eb:maj |
+98.79510204	C, bridge, | Eb:maj | Eb:maj6 | Bb:maj | Bb:maj |
+106.387278911	| C:7 | C:7 | F:maj Eb:maj | D:min C:min |
+114.16632653	B, verse, | Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+121.841428571	| Bb:maj | Eb:maj | Bb:maj | Bb:maj |
+129.490975056	| Eb:maj | Ab:maj | Eb:maj | Eb:min |
+137.140430839	| Bb:maj | F:7 | Bb:maj | Eb:maj |
+144.798049886	fadeout, | Bb:maj | Eb:maj | Bb:maj | Eb:maj |
+152.413038548	| Bb:maj | Eb:maj |, voice)
+155.364716553	silence
+158.432653061	end

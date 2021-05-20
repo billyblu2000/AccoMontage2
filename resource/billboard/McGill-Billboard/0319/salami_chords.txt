@@ -1,0 +1,35 @@
+# title: I Want You
+# artist: Marvin Gaye
+# metre: 4/4
+# tonic: C#
+
+0.0	silence
+0.582086167	A, intro, | C#:min9 | C#:min9 | C#:min9 | C#:min9 |
+10.534444444	| C#:min9 | C#:min9 | C#:min9 | C#:min9 |, (voice) 
+20.271156462	| C#:min9 | C#:min9 | C#:min9 | C#:min9 |, (guitar
+29.96063492	| C#:min9 | C#:min9 | C#:min9 | C#:min9 |, guitar) 
+39.540249433	B, chorus, | C#:min9 | C#:min9 | F#:min7 | G#:min7 |, (voice 
+49.267800453	| A:maj7 | G#:min7 C#:min7 | F#:min7 | E:maj/5 |
+58.822199546	| E:maj7 | G#:sus4(b7) G#:7 |
+63.681836734	C, verse, | C#:min9 | C#:min9 | F#:min7 | F#:min7 |
+73.198117913	| E:maj/5 | E:maj/5 | G#:7(#9) G#:7(b9) | G#:7 |
+82.790362811	| C#:min9 | C#:min9 | F#:min7 | F#:min7 |
+92.324263038	| E:maj/5 | E:maj/5 | G#:7(#9) G#:7(b9) | G#:7 |
+101.804195011	B, chorus, | C#:min9 | C#:min9 | F#:min7 | G#:min7 |
+111.429478458	| A:maj7 | G#:min7 C#:min7 | F#:min7 | E:maj/5 |
+120.914353741	| E:maj7 | G#:sus4(b7) G#:7 |
+125.651882086	C, verse, | C#:min9 | C#:min9 | F#:min7 | F#:min7 |
+135.206689342	| E:maj/5 | E:maj/5 | G#:7(#9) G#:7(b9) | G#:7 |
+144.675918367	| C#:min9 | C#:min9 | F#:min7 | F#:min7 |
+154.191043083	| E:maj/5 | E:maj/5 | G#:7(#9) | G#:7(b9) |
+163.686303854	B, chorus, | C#:min9 | C#:min9 | F#:min7 | G#:min7 |
+173.122517006	| A:maj7 | G#:min7 C#:min7 | F#:min7 | E:maj/5 |
+182.569297052	| E:maj7 | G#:7(#9) |
+187.296507936	B, chorus, | C#:min9 | C#:min9 | F#:min7 | G#:min7 |
+196.753900226	| A:maj7 | G#:min7 C#:min7 | F#:min7 | E:maj/5 |
+206.18739229	| E:maj7 | G#:7(#9) |
+210.940181405	B, chorus, | C#:min9 | C#:min9 | F#:min7 | G#:min7 |
+220.422562358	| A:maj7 | G#:min7 C#:min7 | F#:min7 | E:maj/5 |, fadeout
+229.897301587	| E:maj7 | G#:7(#9) |, voice)
+236.055419501	silence
+238.889795918	end

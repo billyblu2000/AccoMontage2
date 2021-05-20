@@ -1,0 +1,37 @@
+# title: Take A Chance On Me
+# artist: Abba
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.394739229	A''', intro, | N | N | N | N |, (voice
+9.764807256	| N | N | (2/4) N | B:maj | B:maj |
+18.788095238	| B:maj |
+21.102154195	A, chorus, | B:maj | B:maj | B:maj | F#:maj |
+30.147913832	| F#:maj | F#:maj | (2/4) F#:maj | B:maj |
+38.010272108	B, pre-verse, | C#:min7 | F#:maj | C#:min7 | F#:maj |
+47.07015873	C, verse, | C#:min7 | C#:min7 | B:maj | B:maj |
+55.980816326	| C#:min7 | C#:min7 | B:maj | B:maj |
+64.805691609	| G#:min | E:maj | G#:min . E:maj F#:maj(9) |
+71.56600907	| G#:min | E:maj | C#:min7 | F#:maj |
+80.581927437	| C#:min7 | F#:maj |
+85.171292517	A', chorus, | B:maj | B:maj | B:maj | F#:maj |
+94.29324263	| F#:maj | F#:maj | (2/4) F#:maj | B:maj | B:maj |
+104.423832199	A'', chorus, | B:maj | B:maj | B:maj | F#:maj |
+113.426371882	| F#:maj | F#:maj | (2/4) F#:maj | B:maj |
+121.264648526	B, pre-verse, | C#:min11 | F#:maj | C#:min11 | F#:maj |
+130.312426303	C, verse, | C#:min7 | C#:min7 | B:maj | B:maj |
+139.21861678	| C#:min7 | C#:min7 | B:maj | B:maj |
+147.955759637	| G#:min | E:maj | G#:min . E:maj F#:maj(9) |
+154.723945578	| G#:min | E:maj | C#:min7 | F#:maj |
+163.648253968	| C#:min7 | F#:maj |
+168.19324263	A', chorus, | B:maj | B:maj | B:maj | F#:maj |
+177.17217687	| F#:maj | F#:maj | (2/4) F#:maj | B:maj | B:maj |
+187.233265306	| B:maj | B:maj | B:maj | F#:maj |
+196.129841269	| F#:maj | F#:maj | (2/4) F#:maj | B:maj | B:maj |
+206.191224489	| B:maj | B:maj | B:maj | F#:maj |
+215.145918367	| F#:maj | F#:maj | (2/4) F#:maj | B:maj | B:maj |
+225.150816326	fadeout, | B:maj | B:maj | B:maj | F#:maj |
+234.022902494	| F#:maj | F#:maj | (2/4) F#:maj | B:maj | B:maj |, voice)
+237.84909297	silence
+241.880612244	end

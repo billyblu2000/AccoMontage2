@@ -1,0 +1,29 @@
+# title: Carry Me
+# artist: David Crosby,Graham Nash
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.232199546	A, intro, | E:maj | E:maj6 | B:min7/11 | E:maj |, (guitar
+10.450408163	| E:maj | E:maj6 | B:min7/11 | E:maj |, guitar)
+20.691292517	B, verse, | E:maj | B:maj | A:maj | C#:min7 C#:sus2(b7) |, (voice
+30.952471655	| E:maj | B:maj | A:maj | C#:min7 A:maj6 |
+41.159365079	| E:maj | B:maj | A:maj | C#:min7 A:maj6 |
+51.360544217	| E:maj | B:maj | A:maj | C#:min7 A:maj7 |
+61.633696145	C, chorus, | E:maj | E:maj6 | B:min7/11 | E:maj |
+71.744058956	| E:maj | E:maj6 | B:min7/11 | E:maj |
+81.921337868	B, verse, | E:maj | B:maj | A:maj | C#:min7 C#:sus2(b7) |
+92.017029478	| E:maj | B:maj | A:maj | C#:min7 A:maj6 |
+102.066870748	| E:maj | B:maj | A:maj | C#:min7 B:7 |
+112.246077097	| E:maj | B:maj | A:maj | C#:min7 A:maj7 |
+122.438526077	C, chorus, | E:maj | E:maj6 | B:min7/11 | E:maj |
+132.633197278	| E:maj | E:maj6 | B:min7/11 | E:maj |
+142.899478458	B, verse, | E:maj | B:maj | A:maj | C#:min7 C#:sus2(b7) |
+153.252766439	| E:maj | B:maj | A:maj | C#:min7 A:maj6(9) |
+163.607256235	| E:maj | B:maj | A:maj | C#:min7 A:maj |
+174.00877551	| E:maj | B:maj | A:maj | C#:min7 A:maj7 |
+184.258730158	C', chorus, | E:maj | E:maj6 | B:min7/11 | E:maj |
+194.458072562	| E:maj | E:maj6 | B:min7/11 A:maj6(9) | B:min7/11 A:maj6(9) |
+204.679387755	| B:min7/11 A:maj6(9) | E:maj |, voice)
+211.998185941	silence
+214.77877551	end

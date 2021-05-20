@@ -1,0 +1,30 @@
+# title: Swing Talkin' Guy
+# artist: Chiffons
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.202312925	A, intro, | B:maj | B:maj | B:sus4 | B:sus4 |
+7.175034013	| B:maj/5 | B:maj/5 | F#:sus4(b7) | F#:sus4(b7) |
+13.622698412	B, verse, | B:maj | B:maj | F#:maj/3 | F#:maj/3 |, (voice
+20.100544217	| D#:dim/b5 | D#:dim/b5 | E:maj/3 | E:maj/3 |
+26.593537414	| E:min/b3 | E:min/b3 | B:maj/5 | B:maj/5 |
+33.003287981	| F#:7 | F#:7 | F#:7 | F#:7 |
+39.473832199	B, verse, | B:maj | B:maj | F#:maj/3 | F#:maj/3 |
+45.916122448	| D#:dim/b5 | D#:dim/b5 | E:maj/3 | E:maj/3 |
+52.351950113	| E:min/b3 | E:min/b3 | B:maj/5 | B:maj/5 |
+58.793764172	| F#:7 | F#:7 | F#:7 | F#:7 |
+65.191224489	C, transition, | D:maj | G:maj | C:maj | F#:7 |
+71.666757369	B, instrumental break, | B:maj | B:maj | F#:maj/3 | F#:maj/3 |, voice), (cello, (oboe
+78.103174603	| D#:dim/b5 | D#:dim/b5 | E:maj/3 | E:maj/3 |
+84.609886621	| E:min/b3 | E:min/b3 | B:maj/5 | B:maj/5 |, (voice
+91.088730158	| F#:7 | F#:7 | F#:7 | F#:7 |, cello), oboe)
+97.497528344	B, chorus, | B:maj | B:maj | F#:maj/3 | F#:maj/3 |
+103.987482993	| D#:dim/b5 | D#:dim/b5 | E:maj/3 | E:maj/3 |
+110.464444444	| E:min/b3 | E:min/b3 | B:maj/5 | B:maj/5 |
+116.951678004	| F#:7 | F#:7 | F#:7 | F#:7 | F#:7 | F#:7 |
+126.478888888	B, chorus, fade out, | B:maj | B:maj | F#:maj/3 | F#:maj/3 |
+132.953469387	| D#:dim/b5 | D#:dim/b5 | E:maj/3 | E:maj/3 |
+139.523424036	| E:min/b3 | E:min/b3 | B:maj/5 | B:maj/5 |, voice)
+145.580498866	silence
+148.388526077	end

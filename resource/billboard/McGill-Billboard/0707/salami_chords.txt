@@ -1,0 +1,21 @@
+# title: This Should Go On Forever
+# artist: Rod Bernard
+# metre: 4/4
+# tonic: Gb
+
+0.0	silence
+0.394739229	A, intro, | Db:aug |
+5.131609977	B, chorus, | Gb:maj | Gb:maj | Db:maj | Db:maj |, (voice
+18.515351473	| Ab:maj . . Ab:maj/7 | Gb:maj | Db:maj Gb:maj | Db:maj |
+31.66956916	B, chorus, | Gb:maj | Gb:maj | Db:maj | Db:maj |
+44.83095238	| Ab:maj . . Ab:maj/7 | Gb:maj | Db:maj Gb:maj | Db:maj |
+57.918866213	C, bridge, | Gb:maj | Gb:maj | Db:maj | Db:maj |
+71.157800453	| Eb:maj | Eb:maj | Ab:maj Eb:7/3 | Ab:maj |
+84.279319727	B, chorus, | Gb:maj | Gb:maj | Db:maj | Db:maj |
+97.437891156	| Ab:maj . . Ab:maj/7 | Gb:maj | Db:maj Db:maj | Db:maj |
+110.601587301	C, bridge, | Gb:maj | Gb:maj | Db:maj | Db:maj |
+123.789773242	| Eb:maj | Eb:maj | Ab:maj Eb:7/3 | Ab:maj |
+136.645238095	B, chorus, | Gb:maj | Gb:maj | Db:maj | Db:maj |
+149.823764172	| Ab:maj . . Ab:maj/7 | Gb:maj | Db:maj Gb:maj | Db:9 |, voice)
+163.677460317	silence
+164.806530612	end

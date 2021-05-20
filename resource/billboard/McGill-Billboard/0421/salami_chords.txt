@@ -1,0 +1,31 @@
+# title: Pinball Wizard
+# artist: The Who
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+4.4897959e-2	D, intro, | B:min7/5 | B:min11/5 | C#:min7/11 | F#:7 |, (guitar
+7.945555555	| F#:min7 | C#:hdim7/11 | E:min/b3 | F#:7 | F#:7 |
+17.397732426	A, pre-verse, | B:sus4 | B:maj | B:sus4 | B:maj |
+24.887913832	| B:sus4 | B:maj | B:sus4 | B:maj |, guitar)
+32.461451247	B, verse, | B:sus4 | B:maj | A:sus4 | A:maj |, (voice
+39.995668934	| G:sus4 | G:maj | F#:sus4 | F#:sus4 |, voice)
+47.860997732	| B:maj . A:maj D:maj | E:maj | B:maj . A:maj D:maj | E:maj |, (guitar)
+55.600612244	B, verse, | B:sus4 | B:maj | A:sus4 | A:maj |, (voice
+63.268367346	| G:sus4 | G:maj | F#:sus4 | F#:sus4 |, voice)
+71.093764172	| B:maj . A:maj D:maj | E:maj | B:maj . A:maj D:maj | E:maj |, (guitar)
+78.987029478	C, chorus, | E:maj F#:maj B:maj . | E:maj F#:maj B:maj . | E:maj F#:maj B:maj . | G:maj | D:maj | D:maj |, (voice
+90.789954648	A, pre-verse, | D:sus4(b7) | D:7 | D:sus4(b7) | D:7 |, (guitar)
+98.610612244	B, verse, | B:sus4 | B:maj | A:sus4 | A:maj |, (voice
+106.440498866	| G:sus4 | G:maj | F#:sus4 | F#:sus4 |, voice)
+114.374149659	| B:maj . A:maj D:maj | E:maj | B:maj . A:maj D:maj | E:maj |, (guitar)
+122.177981859	C, chorus, | E:maj F#:maj B:maj . | E:maj F#:maj B:maj . | E:maj F#:maj B:maj . | G:maj | D:maj | D:maj |, (voice)
+134.120181405	A, pre-verse, | D:sus4(b7) | D:7 | D:sus4(b7) | D:7 |, (guitar
+141.531882086	| D:sus4(b7) | D:7 | D:sus4(b7) | D:7 |, guitar)
+149.067074829	B, verse, | D:sus4(b7) | D:7 | C:sus4(b7) | C:7 |, (voice
+156.805804988	| Bb:sus4(b7) | Bb:7 | A:sus4(b7) | A:7 |, voice)
+164.619637188	| D:maj . C:maj F:maj |, (guitar
+166.664557823	A, fadeout, | Bb:sus4(b7) | Bb:7 | Bb:sus4(b7) | Bb:7 |
+174.321315192	| Bb:7 | Bb:7 |, guitar)
+179.049070294	silence
+180.610612244	end

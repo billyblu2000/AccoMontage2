@@ -1,0 +1,40 @@
+# title: Promises
+# artist: Eric Clapton
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.325079365	A, intro, | G:maj | G:maj . . D:maj/11 | G:maj | G:maj . . D:maj/11 |, (organ)
+6.744693877	B, verse, | G:maj | G:maj . . D:maj | C:maj | C:maj |, (voice
+13.018866213	| G:maj | G:maj . . C:maj/5 | (6/4) D:maj . . . D:maj/3 . |, voice)
+18.458185941	| G:maj | G:maj |, (guitar)
+21.597800453	B, verse, | G:maj | G:maj | C:maj | C:maj |, (voice
+27.837596371	| G:maj | G:maj | (6/4) D:maj . . . D:maj/3 . |, voice)
+33.248866213	| G:maj | G:maj |, (guitar)
+36.348662131	C, chorus, | C:maj | B:min | D:maj | D:maj |, (voice
+42.581065759	| C:maj | B:min | (6/4) D:maj . . . D:maj/3 . |, voice)
+48.069705215	| G:maj | G:maj |, (guitar)
+51.160816326	B, verse, | G:maj | G:maj | C:maj | C:maj |, (voice
+57.341451247	| G:maj | G:maj | (6/4) D:maj . . . D:maj/3 . |, voice)
+62.715328798	| G:maj | G:maj |, (guitar)
+65.855147392	D, bridge, | C:maj | C:maj | G:maj/3 | G:maj/3 |, (voice
+71.989659863	| A:min7 | A:min7 | G:maj | G:maj |
+78.15446712	| C:maj | C:maj | G:maj/3 | G:maj/3 |
+84.320226757	| A:min7 | A:min7 | G:maj | G:maj |
+90.494013605	C, chorus, | C:maj | B:min | D:maj | D:maj |
+96.691337868	| C:maj | B:min | (6/4) D:maj . . . D:maj/3 . |, voice)
+102.204217687	| G:maj | G:maj |, (guitar)
+105.249886621	B, verse, | G:maj | G:maj | C:maj | C:maj |, (voice
+111.42600907	| G:maj | G:maj | (6/4) D:maj . . . D:maj/3 . |, voice)
+116.845736961	| G:maj | G:maj |, (guitar)
+119.897120181	D, bridge, | C:maj | C:maj | G:maj/3 | G:maj/3 |, (voice
+125.953900226	| A:min7 | A:min7 | G:maj | G:maj |
+132.097596371	| C:maj | C:maj | G:maj/3 | G:maj/3 |
+138.324557823	| A:min7 | A:min7 | G:maj | G:maj |
+144.509455782	C', chorus, | C:maj | B:min | D:maj | D:maj |
+150.658888888	| C:maj | B:min | D:maj | D:maj |
+156.845328798	C', chorus, | C:maj | B:min | D:maj | D:maj |
+163.020362811	fadeout, | C:maj | B:min | D:maj | D:maj |
+169.158752834	| C:maj | B:min | D:maj | D:maj | C:maj | B:min |, voice)
+177.307573696	silence
+181.185306122	end

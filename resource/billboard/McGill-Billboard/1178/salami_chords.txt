@@ -1,0 +1,46 @@
+# title: I Want You Back
+# artist: The Jacksons
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.255419501	A, intro, | Ab:maj | Db:maj |
+5.835306122	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+10.696122448	| Ab:maj | Db:maj |
+15.613469387	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+20.512675736	B, instrumental, | Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |
+25.466916099	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+30.303197278	A, verse, | Ab:maj | Db:maj |, (voice
+35.185419501	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+40.03095238	| Ab:maj | Db:maj |
+44.975714285	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+49.814875283	B, chorus, | Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |
+54.654965986	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+59.543854875	| Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |
+64.422970521	| F:min7 Ab:maj/3 Db:maj Ab:maj | (2/4) Bb:min7 Eb:7 | ->
+67.941587301	C, trans, | Ab:maj Db:maj/5 | Ab:maj Db:maj/5 |
+73.030181405	| Ab:maj Db:maj/5 | Ab:maj Db:maj/5 |
+77.81510204	A, verse, | Ab:maj | Db:maj |
+82.766802721	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+87.589115646	| Ab:maj | Db:maj |
+92.45632653	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+97.338049886	B, chorus, | Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |
+102.217301587	| F:min7 Ab:maj/3 Db:maj Ab:maj | Bb:min7 Eb:7 Ab:maj . |
+107.125011337	| Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |
+112.051201814	| F:min7 Ab:maj/3 Db:maj Ab:maj |, voice)
+114.481882086	D, bridge, | F:min7 C:min Db:maj6 Ab:maj | F:min7 C:min Db:maj6 Ab:maj |, (guitar
+119.374875283	| F:min7 C:min Db:maj6 Ab:maj | F:min7 C:min Db:maj6 Ab:maj |
+124.251587301	| F:min7 C:min Db:maj6 Ab:maj | F:min7 C:min Db:maj6 Ab:maj |
+129.133605442	| F:min7 C:min Db:maj6 Ab:maj | F:min7 C:min Db:maj6 Ab:maj |, guitar)
+134.010294784	B, instrumental, | Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |
+138.939931972	| F:min7 Ab:maj/3 Db:maj Ab:maj | (2/4) Bb:min7 Eb:7 | ->
+142.640181405	C, trans, | Ab:maj Db:maj/5 | Ab:maj Db:maj/5 |
+147.429886621	B, chorus, | Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |, (voice
+152.373968253	| F:min7 Ab:maj/3 Db:maj Ab:maj | (2/4) Bb:min7 Eb:7 | ->
+156.05478458	C, trans, | Ab:maj Db:maj/5 | Ab:maj Db:maj/5 |
+160.886054421	B, fadeout, | Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |
+165.926054421	| F:min7 Ab:maj/3 Db:maj Ab:maj | (2/4) Bb:min7 Eb:7 | ->
+169.604217687	C, trans, | Ab:maj Db:maj/5 | Ab:maj Db:maj/5 |
+174.397460317	B, chorus, | Ab:maj Eb:maj/3 F:min7 Eb:maj6 | Db:maj Db:maj/7 Bb:min7 Eb:7 |, voice)
+177.005714285	silence
+179.722448979	end

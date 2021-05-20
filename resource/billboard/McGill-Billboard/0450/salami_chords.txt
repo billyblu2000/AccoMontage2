@@ -1,0 +1,40 @@
+# title: Jessie's Girl
+# artist: Rick Springfield
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.417959183	A, intro, | D:5 A:5 B:5 . | G:5 A:5 D:5 . |, (guitar
+3.877732426	| D:5 A:5 B:5 . | G:5 A:5 D:5 . |, guitar)
+7.476825396	A', verse, | D:5 A:5 B:5 . | G:5 A:5 D:5 . | x4, (voice
+22.344852607	| D:5 A:5 B:5 . | G:5 A:5 D:5 . |
+25.962970521	| D:5 A:5 B:5 . | G:5 A:5 D:5 . |
+29.514444444	| D:5 A:5 B:5 . | G:5 A:5 D:5 . | A:maj |
+34.965986394	B, chorus, | D:maj/5 D:maj | B:min |
+38.596802721	| D:maj/5 D:maj | B:min |
+42.246916099	| G:maj A:maj D:maj . | B:min A:maj | (2/4) N |
+46.861746031	A', verse, | D:5 A:5 B:5 . | G:5 A:5 D:5 . | x4
+61.455827664	| D:5 A:5 B:5 . | G:5 A:5 D:5 . |
+65.119455782	| D:5 A:5 B:5 . | G:5 A:5 D:5 . |
+68.773265306	| D:5 A:5 B:5 . | G:5 A:5 D:5 . | A:maj |
+74.23292517	B', chorus, | D:maj/5 D:maj | B:min |
+77.866984126	| D:maj/5 D:maj | B:min |
+81.55941043	| G:maj A:maj D:maj . | B:min A:maj |
+85.168571428	| D:maj/5 D:maj | B:min |
+88.818843537	| D:maj/5 D:maj . . | B:min A:maj/9 B:min A:maj/9 |
+92.489705215	| G:maj A:maj D:maj . | G:maj A:maj D:maj . |
+96.164965986	| G:maj A:maj D:maj . | B:min A:maj |
+99.732312925	C, bridge, | G:5 | x10
+117.993514739	| G:5 | A:maj |, voice)
+121.648684807	B''', interlude, | B:maj/5 B:maj . . | G#:min F#:maj/9 G#:min F#:maj/9 | x4, (rhythm guitar)
+136.19526077	| G:maj A:maj D:maj . | B:min A:maj |, (voice)
+139.807188208	A'', solo, | D:5 A:5 B:5 . | G:5 A:5 D:5 . |, (guitar
+143.416961451	| D:5 A:5 B:5 . | G:5 A:5 D:5 . |
+147.043356009	| D:5 A:5 B:5 . | G:5 A:5 D:5 . |
+150.698072562	| D:5 A:5 B:5 . | G:5 A:5 D:5 . | A:maj |, guitar)
+156.170022675	B'', chorus, | D:maj/5 D:maj | B:min | x4, (voice
+167.083310657	| G:maj A:maj D:maj . | B:min A:maj |
+170.824897959	| D:maj/5 D:maj . . | B:min A:maj/9 B:min A:maj/9 | x3, voice)
+181.716077097	D, coda, | D:maj/5 D:maj . . | D:maj/5 D:maj G:maj D:maj | D:maj |
+192.501995464	silence
+196.503287981	end

@@ -1,0 +1,50 @@
+# title: Could I Have This Dance
+# artist: Anne Murray
+# metre: 3/4
+# tonic: B
+
+0.000000000	silence
+0.028571428	Z
+0.297959183	A, intro, | B:maj | B:maj7 | C#:min7 | F#:sus4(b7) |, (guitar)
+7.967029478	B, verse, | B:maj | B:7 | E:maj | F#:maj |, (voice
+15.740204081	| E:maj | F#:maj | B:maj | F#:maj |
+23.637278911	| B:maj | B:7 | E:maj | F#:maj |
+31.564444444	| E:maj | F#:maj | B:maj | F#:maj |
+39.644897959	C, chorus, | B:maj | B:7 | E:maj | E:maj |
+47.838480725	| F#:maj | F#:maj | E:maj | F#:maj |
+56.066757369	| B:maj | B:7 | E:maj | E:min |
+64.328231292	| B:maj | B:maj | F#:maj |, voice)
+70.562335600	D, trans, | B:maj | F#:maj |
+74.708140589	B, verse, | B:maj | B:7 | E:maj | F#:maj |, (voice
+82.713764172	| E:maj | F#:maj | B:maj | F#:maj |
+90.735102040	| B:maj | B:7 | E:maj | F#:maj |
+98.766666666	| E:maj | F#:maj | B:maj | F#:maj |
+106.855215419	C, chorus, | B:maj | B:7 | E:maj | E:maj |
+115.167664399	| F#:maj | F#:maj | E:maj | F#:maj |
+123.344331065	| B:maj | B:7 | E:maj | E:min |
+131.619342403	| B:maj | B:maj | F#:maj |, voice)
+137.846099773	D, trans, | B:maj | F#:maj |
+141.958775510	C, chorus, | B:maj | B:maj | E:maj | E:maj |
+150.006689342	| F#:maj | F#:maj | E:maj | F#:maj |
+158.033446712	| B:maj | B:7 | E:maj | E:min |
+166.091428571	| B:maj | B:maj | F#:maj |
+172.013174603	D, trans, | B:maj | G:maj |
+# tonic: C
+176.037165532	C, chorus, | C:maj | C:maj | F:maj | F:maj |, (voice
+184.343900226	| G:maj | G:maj | F:maj | G:maj |
+192.684829931	| C:maj | C:7 | F:maj | F:min |
+200.969682539	| C:maj | C:maj | G:maj | G:maj |, voice)
+209.308480725	D, coda, | C:maj | F:maj C:maj/3 D:min |
+213.827777777	| C:maj | C:maj | C:maj | C:maj |
+221.332222222	Z
+227.965374149	| N |
+230.024467120	C, chorus, | C:maj | C:maj | F:maj | F:maj |, (guitar
+237.964149659	| G:maj | G:maj | F:maj | G:maj |
+246.068004535	| C:maj | C:7 | F:maj | F:min |
+254.167256235	| C:maj | C:maj | G:maj |
+260.286031746	| C:maj | A:maj |
+264.248208616	C, chorus, | D:7 | D:7 | G:7 | G:7 |
+272.300634920	| A:7 | A:7 | G:maj | A:maj |
+280.286893424	| D:maj | D:maj |, guitar)
+284.141360544	Z
+303.333877551	end

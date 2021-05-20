@@ -1,0 +1,26 @@
+# title: Eight Miles High 
+# artist: The Byrds
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.400544217	A, intro, | E:min | x2, (bass guitar)
+4.090408163	| E:min | x4, (electric guitar
+11.313696145	| E:min | x10, electric guitar)
+29.326802721	B, verse, | E:min F#:min/b7 | E:min7 | D:maj | C:maj |, (voice
+36.951315192	| G:maj | D:maj | C:maj | C:maj |
+44.238367346	| E:min F#:min/b7 | E:min7 | D:maj | C:maj |
+51.792879818	| G:maj | D:maj | C:maj | C:maj |, voice) 
+59.153287981	C, transition, | E:min F#:min | G:maj F#:min |, (guitar) 
+62.863333333	B, verse, | E:min F#:min/b7 | E:min7 | D:maj | C:maj |, (voice
+70.346825396	| G:maj | D:maj | C:maj | C:maj |
+77.78755102	| E:min F#:min/b7 | E:min7 | D:maj | C:maj |
+85.394648526	| G:maj | D:maj | C:maj | C:maj |, voice) 
+92.731156462	A, interlude, | E:min | x28, (electric guitar)
+140.52371882	B, verse, | E:min F#:min/b7 | E:min7 | D:maj | C:maj |, (voice
+148.12585034	| G:maj | D:maj | C:maj | C:maj |
+155.572426303	| E:min F#:min/b7 | E:min7 | D:maj | C:maj |
+163.098707482	| G:maj | D:maj | C:maj | C:maj |, voice) 
+170.417913832	A, outro, | E:min | x20, (electric guitar)
+213.703764172	silence
+215.144489795	end

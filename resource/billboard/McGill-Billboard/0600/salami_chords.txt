@@ -1,0 +1,35 @@
+# title: Tarzan Boy (From "Teenage Mutant Ninja Turtles III")
+# artist: Baltimora
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.116825396	Z, pre-intro
+1.498412698	C, intro, | F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+10.433015873	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+19.382857142	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+28.317460317	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+37.257142857	A, verse, | D:min Bb:maj | C:maj | D:min Bb:maj | C:maj |
+46.186666666	| D:min Bb:maj | C:maj C#:dim7 | D:min C:maj/3 | F:maj |
+55.141587301	| D:min Bb:maj | C:maj | D:min Bb:maj | C:maj |
+64.08585034	| D:min Bb:maj | C:maj C#:dim7 | D:min C:maj/3 | F:maj |
+72.995555555	B, chorus, | F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+81.955555555	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+90.895238095	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+99.834920634	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+108.769523809	F, bridge, | Bb:maj | C:maj | Bb:maj | C:maj |
+117.704126984	| Bb:maj | C:maj | D:min | D:min |
+126.669206349	B, chorus, | F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+135.624126984	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+144.580453514	A, verse, | D:min Bb:maj | C:maj | D:min Bb:maj | C:maj |
+153.513650793	| D:min Bb:maj | C:maj C#:dim7 | D:min C:maj/3 | F:maj |
+162.463492063	| D:min Bb:maj | C:maj | D:min Bb:maj | C:maj |
+171.418412698	| D:min Bb:maj | C:maj C#:dim7 | D:min C:maj/3 | F:maj |
+180.359863945	F, bridge, | Bb:maj | C:maj | Bb:maj | C:maj |
+189.292698412	| Bb:maj | C:maj | D:min | D:min |
+198.242539682	B, chorus, | F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+207.203854875	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+216.151814058	| F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+225.092063492	E, fadeout, | F:maj . . C:maj | D:min | Bb:maj . . C:maj | F:maj |
+230.008888888	silence
+232.462222222	end

@@ -1,0 +1,45 @@
+# title: The Best
+# artist: Tina Turner
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.464399092	A, intro, | F:maj | F:maj | F:1 | F:1 |, (synthesizer)
+9.708730158	B, verse, | F:maj | F:maj | F:maj F:maj6 | F:maj7 F:maj |, (voice
+18.929977324	| F:maj | F:maj | F:maj F:maj6 | F:maj7 F:maj |
+28.17770975	| D:min9 | D:min9 | Bb:maj | Bb:maj(9) |
+37.445827664	B, verse, | F:maj | F:maj | F:maj F:maj6 | F:maj7 F:maj |
+46.6961678	| F:maj | F:maj | F:maj F:maj6 | F:maj7 F:maj |
+55.867210884	| D:min9 | D:min9 | Bb:maj | C:7 |
+65.152267573	C, chorus, | F:maj . . F:maj(9) | F:sus4 F:maj | F:maj . . F:maj(9) | F:sus4 F:maj |
+74.415918367	| D:min7 . . D:min11 | Bb:maj(9)/3 D:min7 | C:maj | C:maj |
+83.684716553	| F:maj . . F:maj(9) | F:sus4 F:maj | F:maj . . F:maj(9) | F:sus4 F:maj |
+92.879659863	| D:min7 . . D:min11 | Bb:maj(9)/3 D:min7 | C:maj | C:maj |
+102.098140589	B, verse, | F:maj | F:maj | F:maj F:maj6 | F:maj7 F:maj |
+111.386122448	| F:maj | F:maj | F:maj F:maj6 | F:maj7 F:maj |
+120.581224489	| D:min9 | D:min9 | Bb:maj | C:7 |
+129.829342403	C, chorus, | F:maj . . F:maj(9) | F:sus4 F:maj | F:maj . . F:maj(9) | F:sus4 F:maj |
+139.136666666	| D:min7 . . D:min11 | Bb:maj(9)/3 D:min7 | C:maj | C:maj |
+148.375510204	| F:maj . . F:maj(9) | F:sus4 F:maj | F:maj . . F:maj(9) | F:sus4 F:maj |
+157.570612244	| D:min7 . . D:min11 | Bb:maj(9)/3 D:min7 | C:maj | C:maj |
+166.815464852	D, bridge, | Bb:maj(9) | Bb:maj(9) | D:min7 | D:min7 |
+176.046439909	| Bb:maj | Bb:maj | C:maj | C:maj D:maj |
+# tonic: G
+185.344852607	C', solo, | G:maj . . G:maj(9) | G:sus4 G:maj | G:maj . . G:maj(9) | G:sus4 G:maj |, (saxophone
+194.557256235	| E:min7 . . E:min11 | C:maj(9)/3 E:min7 | D:maj | D:maj |, saxophone)
+203.77861678	C, chorus, | G:maj . . G:maj(9) | G:sus4 G:maj | G:maj . . G:maj(9) | G:sus4 G:maj |, (voice
+213.046780045	| E:min7 . . E:min11 | C:maj(9)/3 E:min7 | D:maj | D:maj |
+222.257120181	| G:maj . . G:maj(9) | G:sus4 G:maj | G:maj . . G:maj(9) | G:sus4 G:maj |
+231.464172335	| E:min7 . . E:min11 | C:maj(9)/3 E:min7 | D:maj | D:maj |, voice)
+240.711927437	A, interlude, | G:maj | G:maj(9) |, (synthesizer
+245.385532879	| G:maj . . G:maj(9) | G:sus4 G:maj | G:maj . . G:maj(9) | G:sus4 G:maj |
+254.664693877	| G:maj . . G:maj(9) | G:sus4 G:maj | D:maj | D:maj |, synthesizer)
+263.870657596	C, chorus, | G:maj . . G:maj(9) | G:sus4 G:maj | G:maj . . G:maj(9) | G:sus4 G:maj |, (voice
+273.155215419	| E:min7 . . E:min11 | C:maj(9)/3 E:min7 | D:maj | D:maj |
+282.351405895	| G:maj . . G:maj(9) | G:sus4 G:maj | G:maj . . G:maj(9) | G:sus4 G:maj |
+291.609024943	| E:min7 . . E:min11 | C:maj(9)/3 E:min7 | D:maj | D:maj |
+300.832766439	C, chorus, | G:maj . . G:maj(9) | G:sus4 G:maj | G:maj . . G:maj(9) | G:sus4 G:maj |
+310.095192743	| E:min7 . . E:min11 | C:maj(9)/3 E:min7 | D:maj | D:maj |, voice)
+319.290181405	| G:maj | G:maj(9) |, (synthesizer)
+327.006621315	silence
+329.299591836	end

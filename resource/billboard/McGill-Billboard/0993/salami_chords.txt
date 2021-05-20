@@ -1,0 +1,29 @@
+# title: There Goes My Everything
+# artist: Elvis Presley
+# metre: 3/4
+# tonic: Ab
+
+0.0	silence
+0.278639455	A, intro, | Eb:maj Db:maj/3 Eb:7/3 |
+2.577414965	C', intro, | Ab:maj | Ab:7 Bb:min Ab:7/3 | Db:maj | Db:maj C:min Bb:min |, (voice
+11.476303854	| Ab:maj | Eb:7 | Ab:maj | Ab:maj |
+20.254693877	B, verse, | Ab:maj | Db:maj | Ab:maj | Ab:maj |
+29.082290249	| Ab:maj | Eb:7 | Ab:maj | Ab:maj |
+37.802040816	| Ab:maj | Db:maj | Ab:maj | Ab:maj |
+46.638911564	| Ab:maj | Eb:7 | Ab:maj | Ab:maj |
+55.206848072	C, chorus, | Ab:maj | Eb:7 | Ab:maj | Ab:7 |
+63.88170068	| Db:maj | Eb:7 | Ab:maj | Ab:maj |
+72.543333333	| Ab:maj | Ab:7 Bb:min Ab:7/3 | Db:maj | Db:maj C:min Bb:min |
+81.229455782	| Ab:maj | Eb:7 | Ab:maj | Ab:maj |
+89.595419501	B, verse, | Ab:maj | Db:maj | Ab:maj | Ab:maj |
+98.270362811	| Ab:maj | Eb:7 | Ab:maj | Ab:maj |
+106.81340136	| Ab:maj | Db:maj | Ab:maj | Ab:maj |
+115.449614512	| Ab:maj | Eb:7 | Ab:maj | Ab:maj |
+123.813151927	C, chorus, | Ab:maj | Eb:7 | Ab:maj | Ab:7 |
+132.545396825	| Db:maj | Eb:7 | Ab:maj | Ab:maj |
+140.875464852	| Ab:maj | Ab:7 Bb:min Ab:7/3 | Db:maj | Db:maj C:min Bb:min |
+149.374353741	| Ab:maj | Eb:7 | Ab:maj | Ab:maj |
+157.733151927	C', outro, | Ab:maj | Ab:7 Bb:min Ab:7/3 | Db:maj | Db:maj C:min Bb:min |
+166.231655328	| Ab:maj | Eb:7 | Db:maj | Ab:maj |, voice) 
+177.191473922	silence
+179.853061224	end

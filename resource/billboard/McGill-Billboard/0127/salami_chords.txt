@@ -1,0 +1,19 @@
+# title: Stop the Wedding
+# artist: Etta James
+# metre: 12/8
+# tonic: Bb
+
+0.0	silence
+0.371519274	A, intro, | Bb:maj | Bb:maj | F:7 . Bb:maj . | Bb:maj | * |, (organ)
+20.224580498	B, verse, | Bb:maj | Bb:maj | Eb:maj | Eb:maj |, (voice
+37.139523809	| F:maj | Eb:maj | Bb:maj . Eb:maj . | Bb:maj |
+53.69047619	| Bb:maj | Bb:7 | Eb:maj | Eb:maj |
+70.312108843	| F:maj | Eb:maj | Bb:maj . Eb:maj . | Eb:maj/5 Bb:maj . . |
+86.91015873	C, chorus, | Bb:maj | D:maj | Eb:maj | E:dim |
+103.574444444	| Bb:maj/5 . G:min7 . | C:min7 . F:7 . | Bb:maj . Eb:maj . | Bb:maj . F:7 . |
+120.011768707	| Bb:maj . G:min7 . | C:min7 . F:7 . | Bb:maj . Eb:maj . | Bb:maj . F:7 . |
+136.244580498	C', outro, | Bb:maj . G:min7 . | C:min7 . F:7 . | Bb:maj . Eb:maj . | Bb:maj G:min F:7 . |
+152.30893424	fadeout, | Bb:maj . G:min7 . | C:min7 . F:7 . | Bb:maj . Eb:maj . | Bb:maj G:min F:7 . |
+168.64047619	| Bb:maj |, voice)
+170.527346938	silence
+173.714285714	end

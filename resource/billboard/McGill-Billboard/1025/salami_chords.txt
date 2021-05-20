@@ -1,0 +1,36 @@
+# title: Over The Hills and Far Away
+# artist: Led Zeppelin
+# metre: 4/4
+# tonic: G
+
+0.0	A, intro, | G:maj | D:maj | G:maj | D:maj |, (guitar
+11.744580498	| G:maj | D:maj | C:maj G:maj/3 | Bb:maj6 | C:maj |
+24.948072562	| G:maj | D:maj | G:maj | D:maj |
+35.239433106	| G:maj | D:maj | C:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj |, guitar)
+50.20755102	B, pre-verse, | G:maj | D:maj | G:maj | D:maj |, (voice
+60.949160997	| G:maj | D:maj | C:maj G:maj | D:maj G:maj | D:maj G:maj | D:maj A:maj | G:maj A:maj | G:maj A:maj | G:maj A:maj | G:maj . D:maj A:maj |
+86.02861678	C, verse, | G:maj A:maj | G:maj . D:maj A:maj | G:maj A:maj | G:maj A:maj |
+95.788956916	| G:maj A:maj | G:maj A:maj | G:maj A:maj | G:maj . D:maj A:maj |
+105.181995464	| G:maj A:maj | G:maj . D:maj A:maj | G:maj A:maj | G:maj A:maj |
+114.821496598	| G:maj A:maj | G:maj A:maj | G:maj A:maj | G:maj . D:maj A:maj |
+124.191904761	D, verse, | G:maj A:maj | G:maj . D:maj A:maj | G:maj A:maj | G:maj A:maj |
+133.675555555	| G:maj D:maj | A:maj E:maj . . | G:maj D:maj | A:maj E:maj . . | G:maj D:maj | A:maj E:maj |, voice)
+147.700861678	| F#:5 | F#:5 | F#:5 | F#:5 |, (guitar
+157.02648526	| F#:5 | F#:5 | F#:5 | F#:5 |
+166.078503401	E, solo, | F#:5 | F#:5 | F#:5 | F#:5 |
+175.13217687	| F#:5 | F#:5 | F#:5 | F#:5 |
+184.222448979	| F#:5 | F#:5 | F#:5 | F#:5 |
+193.289977324	| F#:5 | F#:5 | F#:5 |
+199.908526077	| F#:7 | x4
+209.05478458	F, bridge, | F#:maj | F#:maj |
+213.771111111	| A:1 D:1 | A:1 D:1 | A:1 D:1 | A:1 D:1 | (2/4) D:maj A:maj |, guitar)
+224.042358276	G, verse, | G:maj A:maj | G:maj . D:maj A:maj |, (voice
+228.631315192	| G:maj A:maj | G:maj . D:maj/5 A:maj |
+233.288185941	| G:maj/5 A:maj | G:maj/5 A:maj | G:maj/5 A:maj | G:maj/5 . D:maj A:maj |
+242.505306122	| G:maj A:maj | G:maj . D:maj A:maj | G:maj A:maj | (5/4) G:maj |
+252.733877551	| D:maj | G:maj | D:maj | G:maj |
+261.357120181	| D:maj | G:maj | D:maj | G:maj |, voice)
+270.958684807	A', outro, | G:maj | D:maj | G:maj | D:maj |, (guitar
+280.844149659	| G:maj | D:maj | C:maj G:maj/3 | Bb:maj6 | C:maj | G:maj |, guitar)
+300.568707482	Z
+307.644081632	end

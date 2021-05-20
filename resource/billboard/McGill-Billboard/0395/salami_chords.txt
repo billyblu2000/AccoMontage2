@@ -1,0 +1,35 @@
+# title: Here Come Those Tears Again
+# artist: Jackson Browne
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.232199546	A', intro, | Bb:maj | Bb:maj/b7 | G:min7 | Eb:sus4(b7,9,#11) Eb:maj(#11) |, (voice
+9.516145124	| Bb:maj/5 | F:sus4(b7,9) | Bb:maj/5 | F:sus4(b7,9) |
+18.318707482	B', verse, | G:min7 | G:min7 | Eb:sus4(b7,9,#11) Eb:maj(#11) | Eb:maj(#11) |
+26.797369614	| F:sus4 | F:sus4 | F:sus4 | F:sus4 |
+35.086598639	C, pre-chorus, | Bb:maj | Bb:maj/b7 | G:min | Eb:maj |
+43.563582766	| F:sus4 | F:sus4 | F:sus4 | D:7 |
+51.9692517	B, verse, | G:min | F:sus4 G:min . . | Eb:maj | C:min Bb:maj Eb:maj . |
+60.275011337	| F:sus4 | F:sus4 | F:sus4 | F:sus4 |
+68.554285714	A, chorus, | Bb:maj | Bb:maj/b7 | G:min | Eb:maj |
+76.906349206	| F:sus4 | F:sus4 | F:sus4 | F:sus4 |, voice)
+85.285895691	A, solo, | Bb:maj | Bb:maj/b7 | G:min | Eb:maj |, (guitar
+93.647959183	| F:sus4 | F:sus4 | D:7 | G:min F:7/3 |, guitar)
+101.871111111	A', verse, | Bb:maj | Bb:maj/b7 | G:min | Eb:maj |, (voice
+110.307346938	| F:sus4 | F:sus4 D:7 |
+114.512403628	B', verse, | G:min | G:min F:sus4(b7) G:min7 F:maj/3 | Eb:maj | Eb:maj |
+122.894535147	| F:sus4 | F:sus4 |
+127.034489795	C, pre-chorus, | Bb:maj | Bb:maj/b7 | G:min | Eb:maj |
+135.339886621	| F:sus4 | F:sus4 | F:sus4 | D:7 |
+143.704172335	B, verse, | G:min | F:sus4 G:min . . | Eb:maj | C:min Bb:maj Eb:maj . |
+151.925283446	| F:sus4 | F:sus4 | F:sus4 | F:sus4 |
+160.179818594	A, chorus, | Bb:maj | Bb:maj/b7 | G:min | Eb:maj |
+168.528866213	| F:sus4 | F:sus4 | F:sus4 | F:sus4 |
+176.733968253	A, chorus, | Bb:maj | Bb:maj/b7 | G:min | Eb:maj |
+184.928480725	| F:sus4 | F:sus4 | F:sus4 | F:sus4 |, voice)
+193.110204081	A, outro, | Bb:maj | Bb:maj/b7 | G:min | Eb:maj |, (organ
+201.318140589	fadeout, | F:sus4 | F:sus4 | F:sus4 | F:sus4 |
+209.520362811	| Bb:maj | Bb:maj/b7 |, organ)
+212.928276643	silence
+217.48	end

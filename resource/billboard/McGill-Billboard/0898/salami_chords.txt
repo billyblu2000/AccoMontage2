@@ -1,0 +1,39 @@
+# title: I Can't Stand It
+# artist: Eric Clapton
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.30185941	A, intro, | D:min | A:min | G:maj | G:maj |
+8.825351473	| D:min | A:min | G:maj | G:maj |
+17.061043083	B, verse, | D:min | A:min | G:maj | G:maj |, (voice
+25.080521541	| D:min | A:min | G:maj | G:maj |
+33.04941043	C, chorus, | A:min | F:maj G:maj | A:min | F:maj G:maj |
+40.984920634	| A:min | F:maj G:maj | A:min | A:min |
+48.90201814	B, verse, | D:min | A:min | G:maj | G:maj |
+56.842993197	| D:min | A:min | G:maj | G:maj |
+64.840725623	C, chorus, | A:min | F:maj G:maj | A:min | F:maj G:maj |
+72.77941043	| A:min | F:maj G:maj | A:min | A:min |, voice)
+80.715170068	B, solo, | D:min | A:min | G:maj | G:maj |, (guitar
+88.751247165	| D:min | A:min | G:maj | G:maj |, guitar)
+96.696825396	C, chorus, | A:min | F:maj G:maj | A:min | F:maj G:maj |, (voice
+104.657891156	| A:min | F:maj G:maj | A:min | A:min |
+112.576961451	B, verse, | D:min7 | A:min7 | G:7 | G:7 |
+120.538548752	| D:min7 | A:min7 | G:7 | G:7 |
+128.467437641	C', chorus, | A:min | F:maj G:maj | A:min | F:maj G:maj |
+136.465238095	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+144.432721088	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+152.295442176	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+160.24217687	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+168.145782312	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+176.008140589	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+184.088843537	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+192.185532879	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+200.134920634	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+207.98154195	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+215.91430839	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+223.788866213	| A:min | F:maj G:maj | A:min | F:maj G:maj |
+231.582834467	fadeout, | A:min | F:maj G:maj | A:min | F:maj G:maj |
+239.475827664	| A:min | F:maj G:maj | A:min | F:maj G:maj |, voice)
+247.57217687	silence
+250.118049886	end

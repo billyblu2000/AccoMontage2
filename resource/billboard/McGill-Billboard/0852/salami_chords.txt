@@ -1,0 +1,22 @@
+# title: Bad Moon Rising
+# artist: Creedence Clearwater Revival
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+4.6439909e-2	Z
+0.255419501	A', intro, | D:maj | A:maj G:maj | D:maj | D:maj |, (guitar)
+5.295056689	A, verse, | D:maj | A:maj G:maj | D:maj | D:maj | D:maj | A:maj G:maj | D:maj | D:maj |, (voice
+15.295283446	| D:maj | A:maj G:maj | D:maj | D:maj | D:maj | A:maj G:maj | D:maj | D:maj |
+25.26201814	B, chorus, | G:maj | G:maj | D:maj | D:maj | A:maj | G:maj | D:maj | D:maj |
+35.218140589	A, verse, | D:maj | A:maj G:maj | D:maj | D:maj | D:maj | A:maj G:maj | D:maj | D:maj |
+45.153877551	| D:maj | A:maj G:maj | D:maj | D:maj | D:maj | A:maj G:maj | D:maj | D:maj |
+55.046349206	B, chorus, | G:maj | G:maj | D:maj | D:maj | A:maj | G:maj | D:maj | D:maj |, voice)
+64.917641723	A', solo, | D:maj | A:maj G:maj | D:maj | D:maj | D:maj | A:maj G:maj | D:maj | D:maj |, (guitar
+74.652154195	B, chorus, | G:maj | G:maj | D:maj | D:maj | A:maj | G:maj | D:maj | D:maj |, guitar)
+84.683356009	A, verse, | D:maj | A:maj G:maj | D:maj | D:maj | D:maj | A:maj G:maj | D:maj | D:maj |, (voice
+94.711473922	| D:maj | A:maj G:maj | D:maj | D:maj | D:maj | A:maj G:maj | D:maj | D:maj |
+104.743809523	B, chorus, | G:maj | G:maj | D:maj | D:maj | A:maj | G:maj | D:maj | D:maj |
+114.617755102	| G:maj | G:maj | D:maj | D:maj | A:maj | G:maj | D:maj | D:maj | &pause |, voice)
+126.767800453	Z
+132.649795918	end

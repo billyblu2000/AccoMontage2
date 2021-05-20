@@ -1,0 +1,43 @@
+# title: Waiting On A Friend
+# artist: Rolling Stones
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.441179138	A, intro, | C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+8.7261678	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+17.161904761	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+25.430770975	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+33.708684807	B, verse, | A:min | F:maj | G:maj | C:maj |, (voice
+41.980521541	| G:7 | G:7 | C:maj | C:maj |
+50.188321995	| G:7 | G:7 | C:maj | C:maj |
+58.350770975	B, verse, | A:min | F:maj | G:maj | C:maj |
+66.558095238	| G:7 | G:7 | C:maj | C:maj |
+74.718730158	| G:7 | G:7 | C:maj | C:maj |
+82.908548752	B', verse, | A:min | F:maj | G:maj | C:maj |
+91.066394557	| G:7 | G:7 | C:maj | C:maj |
+99.210408163	| G:7 | G:7 |, voice)
+103.296757369	A, trans, | C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+111.509614512	| C:maj(9) | D:min/b3 F:maj . . |
+115.651088435	A, solo, | C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |, (saxophone
+123.791337868	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+132.003424036	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+140.139523809	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+148.311179138	| C:maj(9) | D:min/b3 F:maj . . |, saxophone)
+152.36185941	B, verse, | A:min | F:maj | G:maj | C:maj |, (voice
+160.55893424	| G:7 | G:7 | C:maj | C:maj |
+168.765034013	| G:7 | G:7 | C:maj | C:maj |
+176.98170068	B', verse, | A:min | F:maj | G:maj | C:maj |
+185.166575963	| G:7 | G:7 | C:maj | C:maj |
+193.366666666	| G:7 | G:7 |
+197.489183673	A, trans, | C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+205.619183673	A, solo, | C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |, (saxophone
+213.78446712	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+221.945442176	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+230.017845804	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+238.113628117	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+246.202086167	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+254.337959183	fadeout, | C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . |
+262.451179138	| C:maj(9) | D:min/b3 F:maj . . | C:maj(9) | D:min/b3 F:maj . . | C:maj(9) |
+272.439727891	silence
+274.076734693	end

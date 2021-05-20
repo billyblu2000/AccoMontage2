@@ -1,0 +1,25 @@
+# title: One Bad Apple
+# artist: The Osmonds
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.626938775	A, intro, | C:maj F:maj | G:maj | C:maj F:maj | C:maj | x2
+10.174875283	B, verse, | C:maj | C:maj | F:maj | F:maj | D:min7 | G:sus4(b7) | C:maj | C:maj |, (voice
+19.541609977	| C:maj | C:maj | F:maj | F:maj | D:min7 | G:sus4(b7) | C:maj | C:maj |
+28.889455782	C, chorus, | C:maj G:7/3 | A:min7 G:7 F:maj C:maj/3 | D:min E:min7 | F:maj7 . | F:maj | G:7 | C:maj | C:maj |
+38.39154195	| C:maj G:7/3 | A:min7 G:7 F:maj C:maj/3 | D:min E:min7 | F:maj7 . | F:maj | G:7 | C:maj | C:maj |, voice)
+47.816235827	A, trans, | C:maj F:maj | G:maj | C:maj F:maj | C:maj | x2
+57.496916099	B, verse, | C:maj | C:maj | F:maj | F:maj | D:min7 | G:sus4(b7) | C:maj | C:maj |, (voice
+67.01324263	| C:maj | C:maj | F:maj | F:maj | D:min7 | G:sus4(b7) | C:maj | C:maj |
+76.48770975	C, chorus, | C:maj G:7/3 | A:min7 G:7 F:maj C:maj/3 | D:min E:min7 | F:maj7 . | F:maj | G:7 | C:maj | C:maj |
+86.01015873	| C:maj G:7/3 | A:min7 G:7 F:maj C:maj/3 | D:min E:min7 | F:maj7 . | F:maj | G:7 | C:maj | C:maj |, voice)
+95.623786848	A, trans, | C:maj F:maj | G:maj | C:maj F:maj | C:maj | x2
+105.280612244	B, verse, | C:maj | C:maj | F:maj | F:maj | D:min7 | G:sus4(b7) | C:maj | C:maj |, (voice
+114.848888888	| C:maj | C:maj | F:maj | F:maj | D:min7 | G:sus4(b7) | C:maj | C:maj |
+124.348480725	C, chorus, | C:maj G:7/3 | A:min7 G:7 F:maj C:maj/3 | D:min E:min7 | F:maj7 . | F:maj | G:7 | C:maj | C:maj |
+133.904535147	| C:maj G:7/3 | A:min7 G:7 F:maj C:maj/3 | D:min E:min7 | F:maj7 . | F:maj | G:7 | C:maj | C:maj |
+143.525442176	C, chorus, | C:maj G:7/3 | A:min7 G:7 F:maj C:maj/3 | D:min E:min7 | F:maj7 . | F:maj | G:7 | C:maj | C:maj |
+153.013605442	fadeout, | C:maj G:7/3 | A:min7 G:7 F:maj C:maj/3 | D:min E:min7 | F:maj7 . | F:maj | G:7 | C:maj | C:maj |, voice)
+162.632562358	silence
+166.112653061	end

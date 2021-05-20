@@ -1,0 +1,24 @@
+# title: The Right Time
+# artist: Ray Charles
+# metre: 4/4
+# tonic: Eb
+
+0.000000000	silence
+0.185759637	A, intro, | Bb:7 | Ab:7 | Eb:7 Eb:7/3 Ab:7 A:dim7 | Eb:7/5 Bb:7 |, (saxophone)
+13.322403628	B, theme, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |, (voice
+25.718594104	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+38.032834467	| Bb:7 | Ab:7 | Eb:7 | Eb:7 |
+50.299365079	B, theme, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+62.740634920	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+75.040317460	| Bb:7 | Ab:7 | Eb:7 | Eb:7 |
+87.399206349	B, theme, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+99.796734693	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+112.131269841	| Bb:7 | Ab:7 | Eb:7 | Eb:7 |
+124.383582766	B, theme, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+136.727256235	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+149.107528344	| Bb:7 | Ab:7 | Eb:7 | Eb:7 |
+161.291496598	B, verse, | Eb:7 | Eb:7 | Eb:7 | Eb:7 |
+173.825895691	| Ab:7 | Ab:7 | Eb:7 | Eb:7 |
+186.131360544	| Bb:7 | Ab:7 | Eb:7 | Eb:7 |, voice)
+201.993832199	silence
+204.773877551	end

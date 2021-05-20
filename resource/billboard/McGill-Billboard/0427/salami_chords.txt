@@ -1,0 +1,34 @@
+# title: Bluebirds Over The Mountain
+# artist: The Beach Boys
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.441179138	A, intro, | A:maj | E:maj |, (guitar)
+4.946394557	B, chorus, | A:maj | A:maj | D:maj | E:maj |, (voice
+12.522947845	| A:maj | A:maj | D:maj E:maj | ->, voice)
+18.21786848	A, trans, | A:maj | E:maj |, (guitar)
+22.029546485	C, verse, | D:maj G:7 | A:7 | D:maj G:7 | A:7 |, (voice
+29.579455782	| D:maj G:7 | A:7 | B:sus4(b7) . B:min7 B:7 | E:min |
+37.037414965	B, chorus, | A:maj | A:maj | D:maj | E:maj |
+44.624353741	| A:maj | A:maj | D:maj E:maj | ->, voice)
+50.262448979	A, trans, | A:maj | E:maj |, (guitar)
+54.104512471	C, verse, | D:maj G:7 | A:7 | D:maj G:7 | A:7 |, (voice
+61.553061224	| D:maj G:7 | A:7 | B:sus4(b7) . B:min7 B:7 | E:min |
+69.127437641	B, chorus, | A:maj | A:maj | D:maj | E:maj |
+76.742811791	| A:maj | A:maj | D:maj E:maj | ->
+82.485895691	A', trans, | A:7 | A:7 |
+86.233786848	D, bridge, | A:7 | A:7 | A:7 | A:7 |
+93.748594104	| A:7 | A:7 | A:7 | A:7 |, voice)
+# tonic: Bb
+101.147823129	| F:7 | F:7 | F:7 | F:7 |, (guitar
+108.538843537	| F:7 | F:7 | F:7 | A:1 C:1 G:1 . |, guitar)
+115.926712018	C', verse, | Eb:maj Ab:7 | Bb:7 | Eb:maj Bb:7 | Ab:7 |, (voice
+123.360770975	| Eb:maj Ab:7 | Eb:maj D:7 | G:sus4 G:maj7 | A:sus4(b7) . A:min7 A:7 | F:min7 |
+132.699229024	B, chorus, | Bb:maj | Bb:maj | Eb:maj | F:maj |
+140.276689342	| Bb:maj | Bb:maj | Eb:maj F:maj |
+145.901655328	A', trans, | Bb:maj | Eb:maj F:maj |
+149.689954648	E, outro, | Eb:sus4(b7,9) | Eb:sus4(b7,9) | Bb:maj6 | Bb:maj6 |
+157.266916099	| Eb:min6/5 | Eb:min/5 | Bb:maj | Bb:maj |, voice)
+168.878730158	silence
+171.337142857	end

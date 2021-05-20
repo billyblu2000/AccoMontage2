@@ -1,0 +1,36 @@
+# title: Crackerbox Palace
+# artist: George Harrison
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.139319727	A, intro, | Bb:maj F:maj | F:9/5 Eb:maj | Bb:maj F:maj | F:9/5 Eb:maj |, (guitar
+9.082426303	| Bb:maj F:maj | F:9/5 Eb:maj | Bb:maj F:maj | F:9/5 Eb:maj |, guitar)
+16.855804988	A, verse, | Bb:maj F:maj | F:9/5 Eb:maj | Bb:maj F:maj | F:9/5 Eb:maj |, (voice
+24.59526077	| Bb:maj F:maj | F:9/5 Eb:maj | Bb:maj F:maj | F:9/5 Eb:maj |
+32.334739229	B, chorus, | Bb:maj F:maj | G:min F:maj Eb:maj . | Bb:maj F:maj | D:min |
+40.227460317	| Eb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 |, voice)
+48.18909297	C, interlude, | Bb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 |, (guitar)
+56.051088435	A, verse, | Bb:maj F:maj | F:9/5 Eb:maj | Bb:maj F:maj | F:9/5 Eb:maj |, (voice
+63.976417233	| Bb:maj F:maj | F:9/5 Eb:maj | Bb:maj F:maj | F:9/5 Eb:maj |
+71.719750566	B, chorus, | Bb:maj F:maj | G:min F:maj Eb:maj . | Bb:maj F:maj | D:min |
+79.604149659	| Eb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 |, voice)
+87.482902494	C, interlude, | Bb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 |, (guitar)
+95.375623582	D, solo, | Bb:maj F:maj | C:min11 Eb:maj | Bb:maj F:maj | C:min11 Eb:maj |, (synth
+103.094829931	| Bb:maj F:maj | C:min11 Eb:maj | Bb:maj F:maj | C:min11 Eb:maj |, synth)
+110.818231292	B, chorus, | Bb:maj F:maj | G:min F:maj Eb:maj . | Bb:maj F:maj | D:min |, (voice
+118.656621315	| Eb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 |, voice)
+126.589455782	D', interlude, | Bb:maj F:maj | C:min11 | Bb:maj F:maj | C:min11 |, (guitar
+134.403514739	| Bb:maj F:maj | C:min11 | Bb:maj F:maj | C:min11 |, guitar)
+142.130589569	A, verse, | Bb:maj F:maj | F:9/5 Eb:maj | Bb:maj F:maj | F:9/5 Eb:maj |, (voice
+149.813333333	| Bb:maj F:maj | F:9/5 Eb:maj | Bb:maj F:maj | F:9/5 Eb:maj |
+157.516303854	B, chorus, | Bb:maj F:maj | G:min F:maj Eb:maj . | Bb:maj F:maj | D:min |
+165.37079365	| Eb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 |, voice)
+173.23956916	C, interlude, | Bb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 |, (guitar)
+180.9423356	B, chorus, | Bb:maj F:maj | G:min F:maj Eb:maj . | Bb:maj F:maj | D:min |, (voice
+188.677641723	| Eb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 |
+196.479546485	B', chorus, | Bb:maj F:maj | G:min F:maj Eb:maj . | Bb:maj F:maj | D:min |
+204.091269841	| Eb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, voice)
+215.70786848	C', outro, | Eb:maj F:maj | G:min F:maj Eb:maj . | Eb:min7 | Eb:min7 | Bb:maj |, (guitar)
+234.219682539	silence
+238.281360544	end

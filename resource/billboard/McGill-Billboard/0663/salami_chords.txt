@@ -1,0 +1,36 @@
+# title: He's so shy
+# artist: Pointer Sisters
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.441179138	A, intro, | F:min9 Ab:maj7 | Bb:maj Eb:maj/5 . Bb:maj | F:min9 Ab:maj7 | Bb:maj Eb:maj/5 . Bb:maj |, (synthesizer
+9.685510204	| F:min9 Ab:maj7 | Bb:maj Eb:maj/5 . Bb:maj |
+13.801133786	| C:min | C:min |, synthesizer)
+17.996734693	B, verse, | F:min9 | C:min | F:min9 | Bb:maj |, (voice
+26.379841269	| F:min9 | Bb:maj | G:maj | C:min |
+34.709591836	| F:min9 | C:min | F:min9 | Bb:maj |
+43.013832199	| F:min9 | Bb:maj | G:maj | C:min | C:min |
+53.522426303	A, chorus, | F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj |
+61.812811791	| F:min/11 Ab:maj7/3 | Bb:maj | Bb:maj |
+68.023356009	| F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj |
+76.4330839	| F:min9/11 Ab:maj7 | Bb:maj | Bb:maj |, voice)
+82.619274376	| C:min | C:min | C:min |, (synthesizer)
+88.922902494	B, verse, | F:min9 | C:min | F:min9 | Bb:maj |, (voice
+97.398594104	| F:min9 | Bb:maj | G:maj | C:min |
+105.819002267	| F:min9 | C:min | F:min9 | Bb:maj |
+114.217165532	| F:min9 | Bb:maj | G:maj | C:min | C:min |
+124.654739229	A, chorus, | F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj |
+133.054421768	| F:min/11 Ab:maj7/3 | Bb:maj | Bb:maj |
+139.322607709	| F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj |
+147.59170068	| F:min9/11 Ab:maj7 | Bb:maj | Bb:maj |, voice)
+153.77739229	C, solo, | F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj |, (synthesizer
+162.177301587	| F:min9 Ab:maj7 | Bb:maj | Ab:maj Eb:maj Ab:maj Eb:maj | Bb:maj |, synthesizer)
+170.48861678	A, chorus, | F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj |, (voice
+178.846099773	| F:min/11 Ab:maj7/3 | Bb:maj | Bb:maj |
+185.038140589	| F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj |
+193.441723356	| F:min/11 Ab:maj7/3 | Bb:maj | Bb:maj |
+199.642471655	A, fadeout, | F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj |
+207.984285714	| F:min9 Ab:maj7 | Bb:maj | F:min9 Ab:maj7 | Bb:maj | Bb:maj |, voice)
+215.295419501	silence
+220.342857142	end

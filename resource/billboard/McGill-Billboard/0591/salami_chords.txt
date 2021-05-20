@@ -1,0 +1,31 @@
+# title: The Long Run
+# artist: Eagles
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.232199546	A, intro, | N | C:maj | C:maj | F:maj | F:maj |
+12.049546485	| C:maj | C:maj | F:maj | F:maj |
+21.669274376	A, verse, | C:maj | C:maj | F:maj | F:maj |, (voice
+31.337074829	| C:maj | C:maj | F:maj | F:maj |
+40.942154195	| A:min7 | A:min7 | F:maj | F:maj |
+50.587097505	| C:maj | C:maj | F:maj | F:maj |
+60.28478458	| C:maj | C:maj | F:maj | F:maj |
+69.870521541	| A:min7 | A:min7 | F:maj | F:maj |
+79.631609977	B, chorus, | C:maj | F:maj | C:maj | G:maj |
+89.217981859	A, verse, | C:maj | C:maj | F:maj | F:maj |
+98.898798185	| C:maj | C:maj | F:maj | F:maj |
+108.513605442	| A:min7 | A:min7 | F:maj | F:maj |
+118.153287981	| C:maj | C:maj | F:maj | F:maj |
+127.851179138	| C:maj | C:maj | F:maj | F:maj |
+137.492494331	| A:min7 | A:min7 | F:maj | F:maj |
+147.142653061	B, chorus, | C:maj | F:maj | C:maj | G:maj |
+156.716870748	| C:maj | F:maj | C:maj | G:maj |, voice)
+166.413628117	A', outro, | C:maj | C:maj | F:maj | F:maj |, (guitar
+176.123265306	| C:maj | C:maj | F:maj | F:maj |
+185.745578231	| C:maj | C:maj | F:maj | F:maj |
+195.355941043	| C:maj | C:maj | F:maj | F:maj |
+204.93893424	fadeout, | C:maj | C:maj | F:maj | F:maj |
+214.490612244	| C:maj | C:maj | F:maj | F:maj |, guitar)
+219.335691609	silence
+221.648979591	end

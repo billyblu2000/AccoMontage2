@@ -1,0 +1,38 @@
+# title: Fever
+# artist: Peggy Lee
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.299682539	C, intro, | A:min . . . | A:min . . . | E:7 . . . | A:min . . . |
+7.476349206	| A:min . . . | A:min . . . | E:7 . . . | A:min . . . |
+14.545941043	A, verse, | A:min . . . | A:min . . . | A:min . . . | A:min . . . |, (voice
+21.581972789	| A:min . . . | A:min . . . | E:7 . . . | A:min . . . |
+28.642539682	B, chorus, | A:min . . . | A:min . . . | A:min . . . | A:min . . . |
+35.70185941	| A:min . . . | A:min . . . | E:7 . . . | A:min . . . |
+42.749954648	A, verse, | A:min . . . | A:min . . . | A:min . . . | A:min . . . |
+49.732063492	| A:min . . . | A:min . . . | E:7 . . . | A:min . . . |
+56.837369614	B, chorus, | A:min . . . | A:min . . . | A:min . . . | A:min . . . |
+63.893922902	| A:min . . . | A:min . . . | E:7 . . . | A:min . . . |
+70.924965986	F, bridge, | A:min . . . | A:min . . . | A:min . . . | A:min . . . |
+77.926825396	| A:min . . . | A:min . . . | E:7 . . . | A:min . . . |, voice)
+# tonic: Bb
+84.932947845	K, interlude, | Bb:min . . . | Bb:min . . . | F:7 . . . | Bb:min . . . |
+91.980748299	A, verse, | Bb:min . . . | Bb:min . . . | Bb:min . . . | Bb:min . . . |, (voice
+98.95941043	| Bb:min . . . | Bb:min . . . | F:7 . . . | Bb:min . . . |
+105.995079365	B, chorus, | Bb:min . . . | Bb:min . . . | Bb:min . . . | Bb:min . . . |
+113.026031746	| Bb:min . . . | Bb:min . . . | F:7 . . . | Bb:min . . . |, voice)
+# tonic: B
+120.035555555	K, interlude, | B:min . . . | B:min . . . | B:min . F#:7 . | B:min . . . |
+127.050929705	A, verse, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |, (voice
+134.036961451	| B:min . . . | B:min . . . | F#:7 . . . | B:min . . . |
+141.043469387	B, chorus, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+147.962494331	| B:min . . . | B:min . . . | F#:7 . . . | B:min . . . |
+155.014965986	A, verse, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+161.986031746	| B:min . . . | B:min . . . | F#:7 . . . | B:min . . . |
+169.018231292	B, chorus, | B:min . . . | B:min . . . | B:min . . . | B:min . . . |
+176.049342403	| B:min . . . | B:min . . . | F#:7 . . . | B:min . . . |
+183.068458049	| F#:7 . . . | B:min . . . | F#:7 . . . | B:min . . . |
+190.058730158	| F#:7 . . . | B:min . . . | F#:7 . . . | B:min . . . |, voice)
+198.553287981	silence
+202.773333333	end

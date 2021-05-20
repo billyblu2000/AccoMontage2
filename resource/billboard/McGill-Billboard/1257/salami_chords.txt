@@ -1,0 +1,21 @@
+# title: Lovin' You
+# artist: Minnie Riperton
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.255419501	A, intro, | D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |, (keyboard)
+16.100521541	C, chorus, | D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |, (voice
+31.53371882	| D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |
+47.186122448	| D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |
+62.632448979	B, verse, | B:min7 C#:min7 | B:min7 . E:sus4(b7) A:maj9(#11) | B:min7 C#:min7 | B:min7 C#:min7 D:maj E:maj |
+78.493219954	C, chorus, | D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |
+93.839886621	| D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |
+109.375963718	| D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |
+124.522630385	B, verse, | B:min7 C#:min7 | B:min7 . E:sus4(b7) A:maj9(#11) | B:min7 C#:min7 | B:min7 C#:min7 D:maj E:maj |
+140.163945578	C, chorus, | D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |
+155.723310657	| D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |
+171.114036281	| D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |
+186.246122448	fadeout, | D:maj7 C#:min7 | B:min7 A:maj7 | D:maj7 C#:min7 | B:min7 A:maj7 |, voice)
+202.115442176	silence
+203.781224489	end

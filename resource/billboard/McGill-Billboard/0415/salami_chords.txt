@@ -1,0 +1,37 @@
+# title: Golden Years
+# artist: David Bowie
+# metre: 4/4
+# tonic: Gb
+
+0.0	silence
+7.1836734e-2	A, intro, | Gb:maj Fb:5(b7) | Gb:maj | Gb:maj Fb:5(b7) | Gb:maj |, (guitar)
+9.334421768	A, chorus, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |, (voice
+16.254716553	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+22.961768707	| Gb:maj Fb:maj | Gb:maj Fb:maj |
+27.336507936	A, verse, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+36.217301587	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+44.978140589	B, chorus, | D:maj B:min(11) | D:maj B:min(11) |
+49.411133786	A, chorus, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+58.321269841	A, verse, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+67.20494331	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+76.056961451	B, chorus, | D:maj B:min(11) | D:maj B:min(11) |
+80.518956916	| G:maj C:maj | A:maj C#:dim | B:min E:min7 | (2/4) N |
+88.16723356	A, chorus, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+97.033922902	A, verse, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+105.824081632	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+114.651995464	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+123.483038548	B, chorus, | D:maj B:min(11) | D:maj B:min(11) |
+127.886530612	A, chorus, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+136.732267573	A, verse, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+145.562448979	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+154.372698412	B, chorus, | D:maj B:min(11) | D:maj B:min(11) |
+158.839659863	| G:maj C:maj | A:maj C#:dim | B:min E:min7 | (2/4) N |
+166.412494331	A, outro, | Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+173.01462585	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+179.535306122	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+186.000045351	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |, fadeout
+192.558095238	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+199.072562358	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |
+201.248956916	| Gb:maj Fb:maj | Gb:maj Fb:maj | Gb:maj Fb:maj |, voice)
+208.166893424	silence
+209.423673469	end

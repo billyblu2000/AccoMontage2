@@ -1,0 +1,27 @@
+# title: If Not You
+# artist: Dr. Hook
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.300408163	A, intro, | D:maj | D:maj | D:maj | D:maj |, (guitar)
+10.671836734	B, verse, | D:maj | D:maj | E:min | A:7 |, (voice
+20.985215419	| D:maj | G:maj | A:7 | A:7 |
+31.270884353	| D:maj | D:maj | E:min | A:7 |
+41.559206349	| D:maj | G:maj | A:7 | A:7 |
+51.789160997	C, chorus, | G:maj | A:7 | D:maj | B:min |
+62.210839002	| G:maj | A:7 | D:maj | D:maj |, voice)
+72.265351473	C, solo, | D:maj | D:maj | E:min | A:7 |, (steel guitar
+82.455691609	| D:maj | G:maj | A:sus4(b7) | A:7 |, steel guitar)
+92.651156462	C, chorus, | G:maj | A:7 | D:maj | B:min |, (voice
+102.70648526	| G:maj | A:7 | D:maj | D:maj |
+113.009523809	B, verse, | D:maj | D:maj | E:min | A:7 |
+123.441315192	| D:maj | G:maj | A:maj | A:maj |
+133.594353741	| D:maj | D:maj | E:min | A:maj |
+143.999365079	| D:maj | G:maj | A:maj | A:7 |
+154.309501133	C, chorus, | G:maj | A:7 | D:maj | B:min |
+164.739183673	| G:maj | A:7 | D:maj | D:7 |
+174.812675736	C, outro, | G:maj | A:7 | D:maj | B:min |, fadeout
+184.961995464	| G:maj | A:7 | D:maj | D:maj |, voice)
+193.615646258	silence
+196.33632653	end

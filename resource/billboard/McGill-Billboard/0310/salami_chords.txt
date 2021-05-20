@@ -1,0 +1,27 @@
+# title: The Other Guy
+# artist: Little River Band
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.30185941	A', intro, | F:maj D:min | F:maj D:min | F:maj D:min | F:maj D:min |, (guitar)
+9.212879818	A, verse, | F:maj D:min | F:maj D:min | F:maj D:min | F:maj D:min |, (voice
+18.088866213	| Bb:maj | Bb:maj | F:maj D:min | F:maj D:min |
+26.911927437	| C:maj | Bb:maj | F:maj D:min | F:maj D:min |
+35.75462585	B, chorus, | Bb:maj | Bb:maj | F:maj | F:maj |
+44.564013605	| Bb:maj | Bb:maj | C:maj | C:maj |
+53.345192743	A, verse, | F:maj D:min | F:maj D:min | F:maj D:min | F:maj D:min |
+62.23494331	| Bb:maj | Bb:maj | F:maj D:min | F:maj D:min |
+71.060975056	| C:maj | Bb:maj | F:maj D:min | F:maj D:min |
+79.844875283	B, chorus, | Bb:maj | Bb:maj | F:maj | F:maj |
+88.637936507	| Bb:maj | Bb:maj | C:maj | C:maj |
+97.38770975	C, bridge, | Bb:maj | Bb:maj | F:maj | F:maj |
+106.02786848	| G:7 | G:7 | C:7 | C:7 |
+114.706575963	B, chorus, | Bb:maj | Bb:maj | F:maj | F:maj |
+123.460498866	| Bb:maj | Bb:maj | C:maj | C:maj |
+132.232698412	B, chorus, | Bb:maj | Bb:maj | F:maj | F:maj |
+141.066122448	| Bb:maj | Bb:maj | C:maj | C:maj |
+149.828344671	B, fadeout, | Bb:maj | Bb:maj | F:maj | F:maj |
+158.594172335	| Bb:maj | Bb:maj | C:maj | C:maj |, voice)
+167.183673469	silence
+169.247346938	end

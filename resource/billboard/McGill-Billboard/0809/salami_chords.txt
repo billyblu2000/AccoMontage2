@@ -1,0 +1,29 @@
+# title: On The Wings Of A Nightingale
+# artist: The Everly Brothers
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.261224489	A, intro, | A:maj | A:maj . . E:maj | x2, (synthesizer)
+7.532879818	B, verse, | A:maj | E:maj | A:maj | D:maj |, (voice
+14.860566893	| D:maj | A:maj | A:maj | A:maj . . E:maj |
+20.312834467	| A:maj | E:maj | A:maj | D:maj |
+27.418526077	| D:maj | A:maj | E:maj | E:maj |
+34.756598639	C, chorus, | D:maj | E:maj | A:maj E:maj/3 | F#:min |
+41.939818594	| F#:min | F#:min | E:sus4 | E:maj |
+49.226961451	| F#:min | D:maj | x3
+60.159841269	| A:maj | A:maj . . E:maj |
+63.832040816	B, verse, | A:maj | E:maj | A:maj | D:maj |
+71.040997732	| D:maj | A:maj | A:maj | A:maj . . E:maj |
+76.501292517	| A:maj | E:maj | A:maj | D:maj |
+83.776938775	| D:maj | A:maj | E:maj | E:maj |
+91.039863945	C, chorus, | D:maj | E:maj | A:maj E:maj/3 | F#:min |
+98.274240362	| F#:min | F#:min | E:sus4 | E:maj |
+105.530272108	| F#:min | D:maj | x3
+116.394988662	| A:maj | A:maj . . E:maj |
+120.128684807	B, outro, | A:maj | E:maj | A:maj | D:maj |
+127.318117913	| D:maj | A:maj | x3
+138.262358276	| E:maj | A:7 | D:maj | D:maj |
+145.526916099	| A:maj E:maj | A:maj |, voice)
+152.934081632	silence
+156.238367346	end

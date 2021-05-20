@@ -1,0 +1,48 @@
+# title: Shake Your Groove Thing
+# artist: Peaches and Herb
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.432585034	A, intro, | D:maj | Db:maj | C:maj | B:maj | E:sus4(b7) | E:sus4(b7) | E:sus4(b7) | E:sus4(b7) |, (voice)
+14.92201814	B, instrumental, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+22.149773242	| A:maj | A:min7 | B:min/b7 | B:min/b7 |
+29.395963718	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |, (voice
+36.559795918	| A:maj | A:min7 | B:min/b7 | G:maj D:maj G:maj D:maj | G:maj D:maj G:maj D:maj |
+45.687596371	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+52.937732426	| A:maj | A:min7 | B:min/b7 | B:min/b7 |
+60.156961451	D, chorus, | F#:min | G:maj | E:sus4(b7) | E:sus4(b7) |
+67.455510204	| F#:min | G:maj | E:sus4(b7) | E:sus4(b7) |
+74.71877551	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+81.949024943	| A:maj | A:min7 | B:min/b7 | B:min/b7 |, voice)
+89.206190476	E, interlude, | * | x8
+103.744081632	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+110.950249433	| A:maj | A:min7 | B:min/b7 | B:min/b7 |
+118.194013605	D, chorus, | F#:min | G:maj | E:sus4(b7) | E:sus4(b7) |
+125.514126984	| F#:min | G:maj | E:sus4(b7) | E:sus4(b7) |
+132.736371882	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+139.984603174	| A:maj | A:min7 | B:min/b7 | B:min/b7 |
+147.223809523	F, bridge, | D:maj | Db:maj | C:maj | B:maj | E:sus4(b7) | E:sus4(b7) | E:sus4(b7) | E:sus4(b7) |, voice)
+161.705736961	B, instrumental, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+169.009909297	| A:maj | A:min7 | B:min/b7 | B:min/b7 |
+176.320521541	D, chorus, | F#:min | G:maj | E:sus4(b7) | E:sus4(b7) |, (voice
+183.521269841	| F#:min | G:maj | E:sus4(b7) | E:sus4(b7) |
+190.751451247	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+197.982630385	| A:maj | A:min7 | B:min/b7 | B:min/b7 |
+205.229818594	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+212.521451247	| A:maj | A:min7 | B:min/b7 | B:min/b7 |
+219.77786848	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+227.052403628	| A:maj | A:min7 | B:min/b7 | B:min/b7 |
+234.290680272	E, interlude, | * | x8
+248.773605442	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+256.026281179	| A:maj | A:min7 | B:min/b7 | G:maj D:maj G:maj D:maj | G:maj D:maj G:maj D:maj |
+265.159024943	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+272.357845804	| A:maj | A:min7 | B:min/b7 | G:maj D:maj G:maj D:maj | G:maj D:maj G:maj D:maj |
+281.462448979	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+288.69371882	| A:maj | A:min7 | B:min/b7 | G:maj D:maj G:maj D:maj | G:maj D:maj G:maj D:maj |
+297.779365079	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+305.009342403	| A:maj | A:min7 | B:min/b7 | G:maj D:maj G:maj D:maj | G:maj D:maj G:maj D:maj |
+314.093854875	C, verse, | A:maj | A:min7 | B:min/b7 | B:min/b7 |
+321.36770975	| A:maj | A:min7 | B:min/b7 | G:maj D:maj G:maj D:maj | G:maj D:maj G:maj D:maj |, voice)
+331.341043083	silence
+333.388707482	end

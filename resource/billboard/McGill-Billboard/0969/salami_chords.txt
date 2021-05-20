@@ -1,0 +1,26 @@
+# title: Don't Ask Me Why
+# artist: Billy Joel
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.348299319	A, intro, | Bb:maj Eb:7/5 Bb:maj Eb:7/5 | Bb:maj Eb:7/5 Bb:maj Eb:7/5 | Bb:maj Eb:7/5 Bb:maj Eb:7/5 |
+7.708072562	B, verse, | Bb:maj | C:7 | F:7 | Bb:maj Eb:maj/5 |, (voice
+17.371405895	| Bb:maj | C:7 | F:7 | Bb:maj D:7/5 |
+27.091678004	C, chorus, | G:min Bb:7/5 | E:hdim7 F:sus4(b7) | Bb:maj Eb:7/5 Bb:maj Eb:7/5 | Bb:maj Eb:7/5 Bb:maj Eb:7/5 |
+36.846371882	B, verse, | Bb:maj | C:7 | F:7 | Bb:maj Eb:maj/5 |
+46.525691609	| Bb:maj | C:7 | F:7 | Bb:maj D:7/5 |
+56.316371882	C, chorus, | G:min Bb:7/5 | E:hdim7 F:sus4(b7) | Bb:maj Eb:7/5 Bb:maj Eb:7/5 | Bb:maj Eb:7/5 Bb:maj Eb:7/5 |
+65.994399092	D, bridge, | F:maj | Eb:maj | F:maj | Bb:maj |
+75.703809523	| G:maj | C:maj | G:maj | C:7 F:7 |
+85.46478458	B, verse, | Bb:maj | C:7 | F:7 | Bb:maj Eb:maj/5 |
+95.243106575	| Bb:maj | C:7 | F:7 | Bb:maj D:7/5 |
+105.010045351	C, chorus, | G:min Bb:7/5 | E:hdim7 F:sus4(b7) | Bb:maj Eb:7/5 Bb:maj Eb:7/5 | Bb:maj Eb:7/5 Bb:maj Eb:7/5 |, voice)
+114.808662131	D, solo, | F:maj | Eb:maj | F:maj | Bb:maj |, (piano
+124.675986394	| G:maj | C:maj | G:maj | C:7 F:7 |, piano)
+134.414376417	B, verse, | Bb:maj | C:7 | F:7 | Bb:maj Eb:maj/5 |, (voice
+144.267687074	| Bb:maj | C:7 | F:7 | Bb:maj D:7/5 |
+154.020113378	C, chorus, | G:min Bb:7/5 | E:hdim7 F:sus4(b7) | Bb:maj Eb:7/5 Bb:maj Eb:7/5 | Bb:maj Eb:7/5 Bb:maj Eb:7/5 |
+163.796621315	A', outro, | Bb:maj Eb:7/5 Bb:maj Eb:7/5 | (2/4) Bb:maj Eb:7/5 | Bb:maj |, voice)
+175.93170068	silence
+179.085736961	end

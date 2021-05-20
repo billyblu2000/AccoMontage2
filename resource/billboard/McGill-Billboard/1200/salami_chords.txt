@@ -1,0 +1,33 @@
+# title: Echoes Of Love
+# artist: The Doobie Brothers
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.394739229	A'', intro, | (2/4) A:maj |, (synthesiser
+1.373922902	| D:maj(9) E:sus4(b7) | A:maj | D:maj(9) E:sus4(b7) | A:maj |
+8.963741496	| D:maj(9) F:dim | F#:min7 | D:maj(9) E:sus4 | A:maj |, synthesiser)
+16.525034013	A, verse, | D:maj E:sus4(b7) | A:maj | D:maj E:sus4(b7) | A:maj |, (voice
+23.777777777	| D:maj F:dim | F#:min7 A:maj | D:maj E:sus4(b7) | A:maj |
+31.079274376	A', chorus, | D:maj E:sus4(b7) | A:maj | D:maj E:sus4(b7) | A:maj |
+38.38430839	| D:maj7 . E:sus4(b7) F:dim | F#:min7 A:maj | D:maj E:sus4(b7) | A:maj |
+45.665396825	B, bridge, | C#:min7 | B:maj | G:maj7(#9) E:min(9)/7 | A:minmaj7 A:maj7/9 |
+53.06723356	| F#:min7 | C#:min7 | G:7 | F#:min7 |
+60.539614512	A', verse, | D:maj E:sus4(b7) | A:maj | D:maj E:sus4(b7) | A:maj |
+67.86356009	| D:maj7 . E:sus4(b7) F:dim | F#:min7 A:maj | D:maj E:sus4(b7) | A:maj |
+75.197142857	A', chorus, | D:maj E:sus4(b7) | A:maj | D:maj E:sus4(b7) | A:maj |
+82.473605442	| D:maj7 . E:sus4(b7) F:dim | F#:min7 A:maj | D:maj E:sus4(b7) | A:maj |, voice)
+89.771133786	C, solo, | C#:min7 | B:7 | G:maj7 G:maj7/3 | A:maj7 |, (guitar
+97.215691609	| F#:min7 | C#:min7 | G:7 | F#:min7 |, guitar)
+104.671836734	A''', transition, | D:maj(9) E:sus4(b7) | A:maj | D:maj(9) E:sus4(b7) | A:maj |
+112.419455782	| D:maj(9) F:dim | F#:min7 | D:maj(9) E:sus4 | A:maj |
+119.88217687	A'''', chorus, | D:maj/3 E:sus4(b7) | A:maj/3 | D:maj/3 E:sus4(b7) | A:maj/3 |, (voice
+127.088412698	| D:maj7/3 . E:sus4(b7) F:dim | F#:min7 A:maj | D:maj E:sus4(b7) | A:maj |
+134.309070294	| D:maj/3 E:sus4(b7) | A:maj/3 | D:maj/3 E:sus4(b7) | A:maj/3 |
+141.507165532	| D:maj7/3 . E:sus4(b7) F:dim | F#:min7 A:maj | D:maj E:sus4(b7) | A:maj |
+148.718299319	| D:maj/3 E:sus4(b7) | A:maj/3 | D:maj/3 E:sus4(b7) | A:maj/3 |
+155.940272108	fadeout, | D:maj7/3 . E:sus4(b7) F:dim | F#:min7 A:maj | D:maj E:sus4(b7) | A:maj |
+163.123854875	| D:maj/3 E:sus4(b7) | A:maj/3 | D:maj/3 E:sus4(b7) | A:maj/3 |
+170.337006802	| D:maj7/3 . E:sus4(b7) F:dim | F#:min7 A:maj | D:maj E:sus4(b7) | A:maj |, voice)
+177.27877551	silence
+179.115419501	end

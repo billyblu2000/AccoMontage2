@@ -1,0 +1,38 @@
+# title: Make A Little Magic
+# artist: Nitty Gritty Dirt Band
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.510839002	A, intro, | F:maj | F:sus4 F:sus2 | F:maj | F:maj Bb:maj |
+8.551836734	| F:maj | F:sus4 F:sus2 | F:maj | C:sus4(b7,9) | C:sus4(b7,9) |, (harmonica)
+18.601043083	B, verse, | F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |, (voice
+26.665351473	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+34.687006802	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+42.697301587	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+50.696893424	C, prechorus, | C:maj | Bb:maj | Bb:maj F:maj | Bb:maj F:maj |
+58.634036281	| A:min7 | D:min | G:min | C:sus4 C:maj |
+66.609365079	| G:min | C:maj | C:maj |
+72.541927437	B, verse, | F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+80.661383219	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+88.658707482	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+96.640589569	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |, voice)
+104.597959183	B', solo, | F:maj | Bb:sus2 C:sus4 | F:maj | Bb:sus2 C:sus4 |, (guitar
+112.632562358	| F:maj | Bb:sus2 C:sus4 | F:maj | Bb:sus2 C:sus4 |, guitar)
+120.546054421	C', prechorus, | C:maj | Bb:maj | Bb:maj F:maj | Bb:maj F:maj |, (voice
+128.61031746	| A:min7 | D:min | G:min | C:sus4 C:maj |
+136.517120181	| C:sus4(b7) | C:sus4(b7) | C:sus4(b7) | C:sus4(b7) |
+144.246054421	B, verse, | F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+152.469931972	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+160.368798185	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+168.364716553	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+176.430725623	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+184.352244897	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+192.30526077	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+200.234716553	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+208.163922902	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |
+216.07095238	| F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |, voice)
+223.911247165	fadeout, | F:maj F:maj/3 | Bb:sus2 C:sus4 | F:maj F:maj/3 | Bb:sus2 C:sus4 |, (harmonica
+231.892585034	| F:maj F:maj/3 |, harmonica)
+233.124920634	silence
+235.054965986	end

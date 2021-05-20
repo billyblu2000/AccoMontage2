@@ -1,0 +1,36 @@
+# title: Wild Horses
+# artist: Gino Vannelli
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+2.275555555	Z, noise
+7.801904761	A, intro, | F:maj(9) | F:maj(9) | Eb:min6(#11) | Eb:min6(#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (synthesizer
+19.583265306	| F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, synthesizer)
+30.836938775	B, verse, | Bb:maj | Bb:maj | Eb:sus4(b7,9) | Eb:sus4(b7,9) | Bb:maj | Bb:maj | G:min7 | Ab:maj(9) |, (voice
+42.043151927	| Bb:maj | Bb:maj | Eb:sus4(b7,9) | Eb:sus4(b7,9) | Bb:maj | Bb:maj | G:min7 | Ab:maj(9) |
+53.308752834	C, pre-chorus, | C:sus4(b7) | C:7 | Eb:maj6(9) | Eb:maj6(9) | Bb:maj | Ab:maj Bb:maj6 Bb:maj . | Bb:maj | Ab:maj Bb:maj6 Bb:maj . |
+64.557823129	| G:min7(11) | G:min7(11) | C:sus4(b7) | C:7 | Eb:maj6(9) | Eb:maj6(9) | F:sus4(9) | F:sus4(9) |
+75.791111111	A, chorus, | F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+87.050884353	| F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+98.299229024	B, verse, | Bb:maj | Bb:maj | Eb:sus4(b7,9) | Eb:sus4(b7,9) | Bb:maj | Bb:maj | G:min7 | Ab:maj(9) |
+109.54770975	| Bb:maj | Bb:maj | Eb:sus4(b7,9) | Eb:sus4(b7,9) | Bb:maj | Bb:maj | G:min7 | Ab:maj(9) |
+120.74802721	C, pre-chorus, | C:sus4(b7) | C:7 | Eb:maj6(9) | Eb:maj6(9) | Bb:maj | Ab:maj Bb:maj6 Bb:maj . | Bb:maj | Ab:maj Bb:maj6 Bb:maj . |
+132.061405895	| G:min7(11) | G:min7(11) | C:sus4(b7) | C:7 | Eb:maj6(9) | Eb:maj6(9) | F:sus4(9) | F:sus4(9) |
+143.259387755	A, chorus, | F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+154.569274376	| F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, voice)
+165.73079365	D, solo, | G:min7 | Ab:maj6(9) | Bb:maj | N |, (synthesizer
+171.42664399	| G:min7 | Ab:maj6(9) | Bb:maj | N |
+176.969070294	| G:min7 | Ab:maj6(9) |, synthesizer)
+179.870362811	B, verse, | Bb:maj | Bb:maj | Eb:sus4(b7,9) | Eb:sus4(b7,9) | Bb:maj | Bb:maj | G:min7 | Ab:maj(9) |, (voice)
+191.078367346	| Ab:maj(9) | Ab:maj(9) | Ab:maj(9) |
+195.267301587	A', chorus, | F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+206.521247165	| F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | G:min7(11) | G:min7(11) | C:sus4(b7) | C:7 |
+217.778185941	| Eb:maj9 | Eb:maj9 | F:sus4(9) | F:sus4(9) | Ab:maj(9) | Ab:maj(9)/3 | Ab:maj(9)/13 | Ab:maj(9)/13 |, voice)
+229.042426303	A, chorus, | F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (synthesizer
+240.269274376	| F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+251.539977324	| F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+262.752607709	fadeout, | F:maj(9) | F:maj(9) | Eb:maj9(13,#11) | Eb:maj9(13,#11) | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+274.022721088	| F:maj(9) |, synthesizer)
+276.526439909	silence
+280.476734693	end

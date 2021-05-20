@@ -1,0 +1,46 @@
+# title: Abacab
+# artist: Genesis
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+4.8979591e-2	Z
+2.167959183	A, intro, | C:1 | x4, (bass guitar)
+9.647641723	| C:min7 | C:min | x4, (guitar
+24.489795918	| Bb:5/9 | Bb:5/9 C:5 . . | x2
+31.960816326	| C:maj | x6
+43.190748299	| (3/4) C:maj |, guitar)
+44.564897959	B, intro, | C:sus4 | C:sus4 | C:sus4 | F:min7 | F:min7 |, (synthesiser 
+53.916734693	| G:sus4(b7) | G:sus4(b7) | G:sus4(b7) | G:sus4(b7) |
+61.55755102	C, intro, | Bb:maj/9 C:maj . . | C:sus4 C:maj . . | Bb:maj/9 C:maj . . | Bb:maj/9 F:sus4/5 . . |, (guitar), synthesiser)
+68.85877551	C, verse, | Bb:maj/9 C:maj . . | C:sus4 C:maj . . | Bb:maj/9 C:maj . . | Bb:maj/9 F:sus4/5 . . | x2, (voice
+83.957777777	| Bb:maj/9 C:maj . . | C:sus4 C:maj Bb:maj7/9 . | Bb:maj/9 C:maj . . | C:7 Bb:maj/9 F:maj/5 D:min/b7 |
+91.465941043	| Bb:maj/9 C:maj . Eb:maj/13 | C:min Bb:maj/9 . F:maj/5 | x2
+98.92063492	D, chorus, | F:maj/9 G:maj . . | G:maj | x4
+113.772471655	C, verse, | Bb:maj/9 C:maj . . | C:sus4 C:maj . . | Bb:maj/9 C:maj . . | Bb:maj/9 F:sus4/5 . . | x2
+128.764058956	| Bb:maj/9 C:maj . . | C:sus4 C:maj Bb:maj7/9 . | Bb:maj/9 C:maj . . | C:7 Bb:maj/9 F:maj/5 D:min/b7 |
+136.3130839	| Bb:maj/9 C:maj . Eb:maj/13 | C:min Bb:maj/9 . F:maj/5 | x2
+143.715918367	D, chorus, | F:maj/9 G:maj . . | G:maj | x4
+158.570113378	E, transition, | A:min | A:min |
+162.319954648	| A:min | A:min | A:min | A:min | x2, voice)
+177.180226757	F, interlude, | E:min . A:min G:maj | G:maj B:min G:maj A:5 |, (synthesiser)
+180.910068027	G, transition, | E:maj | E:maj | E:maj | E:maj |, (voice)
+188.326598639	H, interlude, | * | * | * | * |, (synthesiser)
+195.602471655	C, verse, | Bb:maj/9 C:maj . . | C:sus4 C:maj . . | Bb:maj/9 C:maj . . | Bb:maj/9 F:sus4/5 . . | x2, (voice
+210.638752834	| Bb:maj/9 C:maj . . | C:sus4 C:maj Bb:maj7/9 . | Bb:maj/9 C:maj . . | C:7 Bb:maj/9 F:maj/5 D:min/b7 |
+218.058820861	| Bb:maj/9 C:maj . Eb:maj/13 | C:min Bb:maj/9 . F:maj/5 | x4
+232.990612244	D, chorus, | F:maj/9 G:maj . . | G:maj | x4, voice)
+247.661201814	| (2/4) N |, (drums)
+248.687573696	A, outro, | C:min7 | x79, (synthesiser, (guitar
+391.802857142	I, outro, | C:min | C:min | F:min7/5 | F:min7/5 | x5
+427.436235827	| C:min | C:min | G:7/11 | G:7/11 |
+434.786507936	| F:min7/5 | F:min7/5 |
+438.017165532	| C:min7 | C:min7 | F:min7/5 | F:min7/5 | x3
+459.554512471	| C:min | C:min | G:7/11 | G:7/11 |
+466.555419501	| F:min7/5 | F:min7/5 |
+470.009682539	| C:min9 | C:min9 | F:9/5 | F:9/5 | x4, guitar)
+498.326507936	B, outro, | C:sus4 | C:sus4 | C:sus4 | C:sus4 | F:min7 | F:min7 |
+508.789750566	| G:sus4(b7) | G:sus4(b7) | G:sus4(b7) | G:sus4(b7) |
+515.839546485	| Bb:maj/9 C:maj . . |, synthesiser)
+517.305600907	Z
+526.83755102	end

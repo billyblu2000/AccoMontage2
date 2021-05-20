@@ -1,0 +1,38 @@
+# title: We Don't Talk Anymore
+# artist: Cliff Richard
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.310204081	A, intro, | C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |
+9.76664399	| C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |
+18.367346938	B, verse, | C:maj | C:maj | A:min | E:min |, (voice
+27.015056689	| F:maj | D:min | C:maj | F:maj/5 C:maj F:maj/5 C:maj |
+35.61632653	B, verse, | C:maj | C:maj | A:min | E:min |
+44.236734693	| F:maj | D:min | C:maj | F:maj/5 C:maj F:maj/5 C:maj |
+52.832653061	C, prechorus, | D:min | A:min . . E:min/b3 | F:maj6 F:maj | F:maj6 F:maj |
+61.453061224	| D:min | A:min . . E:min/b3 | F:maj6 F:maj | F:maj6 F:maj |
+70.097959183	| G:maj6 G:maj | G:maj6 G:maj |
+74.383673469	A, chorus, | C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |
+83.007165532	| C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |
+91.608163265	A', bridge, | C:maj C:11 | F:11 F:maj . . | G:11 . . G:maj | A:11 |
+100.223197278	| A:maj9 | A:maj9 | B:min/b7 | B:min/b7 |
+108.840816326	A, interlude, | C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |
+117.436734693	| C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |
+126.057142857	B, verse, | C:maj | C:maj | A:min | E:min |
+134.67755102	| F:maj | D:min | C:maj | F:maj/5 C:maj F:maj/5 C:maj |
+143.289795918	C, prechorus, | D:min | A:min . . E:min/b3 | F:maj6 F:maj | F:maj6 F:maj |
+151.885714285	| D:min | A:min . . E:min/b3 | F:maj6 F:maj | F:maj6 F:maj |
+160.497959183	| G:maj6 G:maj | G:maj6 G:maj |
+164.8	A, chorus, | C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |
+173.436734693	| C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |
+182.040816326	A'', bridge, | C:maj C:11 | F:11 F:maj . . | G:11 . . G:maj | A:11 |
+190.661224489	| A:maj9 | A:maj9 | B:min/b7 | B:min/b7 |
+199.281632653	A, interlude, | C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |, (guitar
+207.902698412	| C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |, guitar)
+216.497959183	A'', bridge, | C:maj C:11 | F:11 F:maj . . | G:11 . . G:maj | A:11 |
+225.134693877	| A:maj9 | A:maj9 | B:min/b7 | B:min/b7 |
+233.73877551	A, interlude, | C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |, (guitar, fadeout
+242.375192743	| C:maj9 | C:maj9 | D:min7/b7 | D:min7/b7 |, guitar), voice)
+249.502040816	silence
+253.648979591	end

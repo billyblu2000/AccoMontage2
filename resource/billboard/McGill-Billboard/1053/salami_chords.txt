@@ -1,0 +1,40 @@
+# title: Heartbreaker
+# artist: Pat Benatar
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.441179138	A, intro, | N | N . . Ab:maj | F:min | F:maj . . Ab:maj |
+6.609115646	| F:min | F:maj . . Ab:maj | F:min | F:min |
+12.608526077	B, verse, | F:5 | Eb:5 | Db:5 | Bb:5 . C:maj Eb:maj |, (voice
+18.744648526	| F:5 | Eb:5 | Db:5 | Bb:5 . C:maj Eb:maj |
+24.916848072	| F:min Eb:maj | Db:maj | Bb:maj | C:maj |
+31.11371882	| F:min Eb:maj | Db:maj | Bb:maj | C:5 | C:maj |
+38.94600907	C, chorus, | F:min . . G:min | Ab:maj | Bb:maj . . C:maj | Db:maj . . C:maj |
+44.98292517	| F:min . . G:min | Ab:maj | Bb:maj . . C:maj | Db:maj . . C:maj |
+51.020045351	| F:min | F:min . . Ab:maj | F:min | F:min . . Ab:maj |
+57.045238095	B, verse, | F:5 | Eb:5 | Db:5 | Bb:5 . C:maj Eb:maj |
+63.209478458	| F:5 | Eb:5 | Db:5 | Bb:5 . C:maj Eb:maj |
+69.396190476	| F:min Eb:maj | Db:maj | Bb:maj | C:maj |
+75.655283446	| F:min Eb:maj | Db:maj | Bb:maj | C:5 | C:maj |
+83.50170068	C', chorus, | F:min . . G:min | Ab:maj | Bb:maj . . C:maj | Db:maj . . C:maj |
+89.593650793	| F:min . . G:min | Ab:maj | Bb:maj . . C:maj | Db:maj . . C:maj |
+95.643174603	| F:min | F:min . . Ab:maj | F:min | F:min . . Ab:maj |, voice)
+101.742653061	D, bridge, | Eb:maj . . F:maj | C:maj . . Bb:maj | Ab:maj Gb:maj | F:min Eb:maj . D:maj |, (guitar
+107.816848072	| Eb:maj . . F:maj | C:maj . . Bb:maj | Ab:1 Eb:1 | C:1 . G:1 F:1 |
+113.809750566	| C:1 | C:1 | C:1 | C:maj |, guitar)
+120.0161678	B', verse, | F:1 | Db:1 | Bb:1 | C:1 Bb:1 Ab:1 Gb:1 |, (voice
+126.271587301	| F:1 | Db:1 | Bb:1 | C:5 | C:maj |
+133.92217687	C'', chorus, | N | N | N | N |
+140.353446712	| F:min . . G:min | Ab:maj | Bb:maj . . C:maj | Db:maj . . C:maj |
+146.426666666	| F:min | Ab:maj | Bb:maj | Db:maj . . C:maj |
+152.510272108	| F:min | Ab:maj | Bb:maj | Db:maj . . C:maj |, voice)
+158.569614512	C''', solo, | F:min | Ab:maj | Bb:maj | Db:maj . . C:maj |, (guitar
+164.61494331	| F:min | Ab:maj | Bb:maj | Db:maj . . C:maj |
+170.660136054	| F:min | Ab:maj | Bb:maj | Db:maj . . C:maj |
+176.759795918	| F:min | Ab:maj | Bb:maj | Db:maj . . C:maj |
+182.84941043	| F:min | Ab:maj | Bb:maj | Db:maj . . C:maj |
+188.8261678	| F:min | Ab:maj | Bb:maj | Db:maj . . C:maj |
+194.946213151	D, outro, | F:min | F:min |, guitar)
+205.952403628	silence
+207.27526077	end

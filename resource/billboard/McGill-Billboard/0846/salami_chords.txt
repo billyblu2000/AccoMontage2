@@ -1,0 +1,29 @@
+# title: Dance Away
+# artist: Roxy
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.325079365	C, intro, | N | N | N | N |
+8.175782312	| Bb:maj | Bb:maj/b7 | G:min | F:maj |
+15.928752834	A, verse, | Eb:maj | Eb:maj | C:maj | C:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj |, (voice
+31.449614512	| Eb:maj | Eb:maj | C:maj | C:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj |
+50.93079365	B, chorus, | F:maj | D:min | Bb:maj | C:maj |
+58.746417233	| F:maj | D:min | Bb:maj | C:maj |
+66.525555555	| Bb:maj | Bb:maj |
+70.444761904	A, verse, | Eb:maj | Eb:maj | C:maj | C:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj |
+85.961564625	| Eb:maj | Eb:maj | C:maj | C:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj |
+105.439977324	B, chorus, | F:maj | D:min | Bb:maj | C:maj |
+113.222131519	| F:maj | D:min | Bb:maj | C:maj |, voice)
+121.04664399	D, bridge, | F:maj | Db:maj | F:maj | Db:maj |
+128.820136054	| F#:maj | F#:sus4/b7 | F#:sus4/b7 | F#:sus4/b7 |
+136.58340136	| N | N | N | N |
+144.351337868	A, verse, | Eb:maj | Eb:maj | C:maj | C:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj |, (voice
+159.945555555	| Eb:maj | Eb:maj | C:maj | C:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj | Ab:maj | Bb:maj |
+179.401451247	B, chorus, | F:maj | D:min | Bb:maj | C:maj |
+187.197120181	| F:maj | D:min | Bb:maj | C:maj |
+194.959591836	B, chorus, | F:maj | D:min | Bb:maj | C:maj |
+202.768321995	| F:maj | D:min | Bb:maj | C:maj |
+210.562857142	fadeout, | F:maj | D:min | Bb:maj | C:maj | F:maj | D:min | Bb:maj |, voice)
+223.213424036	silence
+226.56	end

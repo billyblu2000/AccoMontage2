@@ -1,0 +1,40 @@
+# title: Straight From The Heart
+# artist: The Allman Brothers
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.30185941	A, intro, | A:maj . E:maj/11 A:maj | D:maj/5 | A:maj . E:maj/11 A:maj | D:maj/5 |, (guitar
+7.62770975	| A:maj . E:maj/11 A:maj | D:maj/5 | A:maj . E:maj/11 A:maj | D:maj/5 |, guitar)
+14.808095238	B, verse, | A:maj | D:min/5 | A:maj | D:min/5 |, (voice
+22.281088435	| A:maj | D:min/5 | A:maj | * |
+29.621337868	| A:maj | D:min/5 | A:maj | D:min/5 |
+37.016825396	| A:maj | D:min/5 | B:min7 | E:maj |
+44.26154195	C, chorus, | A:maj . E:maj/11 A:maj | D:maj/5 | A:maj . E:maj/11 A:maj | D:maj/5 |
+51.611360544	| C#:min7 | F#:min7 | B:min7 | E:maj |
+59.006825396	| C#:min7 | F#:min7 | B:min7 | D:maj E:maj |
+66.28430839	A, trans, | A:maj . E:maj/11 A:maj | D:maj/5 | A:maj . E:maj/11 A:maj | D:maj/5 |
+73.556530612	B, verse, | A:maj | D:min/5 | A:maj | D:min6/5 |
+80.967800453	| A:maj | * |
+84.629319727	| A:maj | D:min/5 | A:maj | D:min/5 |
+92.036054421	| A:maj | D:min/5 | B:min7 | E:maj |
+99.312380952	C, chorus, | A:maj . E:maj/11 A:maj | D:maj/5 | A:maj . E:maj/11 A:maj | D:maj/5 |
+106.552562358	| C#:min7 | F#:min7 | B:min7 | E:maj |
+113.876757369	| C#:min7 | F#:min7 | B:min7 | D:maj E:maj |, voice)
+121.153764172	B, solo, | A:maj | D:min/5 | A:maj | D:min/5 |, (guitar
+128.520022675	| A:maj | D:min/5 | A:maj | * |
+135.758367346	| A:maj | D:min/5 | A:maj | D:min/5 |
+143.019931972	| A:maj | D:min/5 | B:min7 | E:maj |, guitar)
+150.203265306	D, bridge, | C#:min7 | D:maj | C#:min7 | D:maj |, (voice
+157.584013605	| C#:min7 | D:maj | B:min7 | E:maj |
+164.876054421	C', chorus, | A:maj . E:maj/11 A:maj | D:maj/5 | A:maj . E:maj/11 A:maj | D:maj/5 |
+172.169750566	| A:maj . E:maj/11 A:maj | D:maj/5 | A:maj . E:maj/11 A:maj | D:maj/5 |, voice)
+179.327437641	B', outro, | A:maj A:maj/3 | D:maj E:maj | A:maj A:maj/3 | D:maj E:maj |, (guitar)
+186.5423356	| A:maj A:maj/3 | D:maj E:maj | A:maj A:maj/3 | D:maj E:maj |, (voice
+193.777619047	| A:maj A:maj/3 | D:maj E:maj | A:maj A:maj/3 | D:maj E:maj |
+200.967120181	| A:maj A:maj/3 | D:maj E:maj | A:maj A:maj/3 | D:maj E:maj |
+208.192517006	fadeout, | A:maj A:maj/3 | D:maj E:maj | A:maj A:maj/3 | D:maj E:maj |
+215.267891156	| A:maj A:maj/3 | D:maj E:maj | A:maj A:maj/3 | D:maj E:maj |
+222.362653061	| A:maj A:maj/3 | D:maj E:maj | A:maj A:maj/3 | D:maj E:maj |, voice)
+224.676281179	silence
+227.422040816	end

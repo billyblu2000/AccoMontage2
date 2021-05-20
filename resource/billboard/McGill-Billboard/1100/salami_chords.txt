@@ -1,0 +1,26 @@
+# title: If I Could Build My Whole World Around You
+# artist: Marvin Gaye & Tammy Terrell
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.255419501	A, intro, | Db:maj Gb:maj | Gb:maj Db:maj | Db:maj Gb:maj | Gb:maj Db:maj |, (guitar)
+8.795804988	A, verse, | Db:maj Gb:maj | Gb:maj Db:maj | Db:maj Gb:maj | Gb:maj Db:maj |, (voice
+16.599863945	| Db:maj Gb:maj | Gb:maj Db:maj | Db:maj Gb:maj | Gb:maj Db:maj |
+24.439478458	B, verse, | F:min | Bb:min | F:min | Bb:min |
+32.183741496	| Eb:min F:min | Ab:sus4 | Db:maj Gb:maj | Gb:maj . Db:maj Ab:maj |
+40.033764172	A, verse, | Db:maj Gb:maj | Db:maj Gb:maj | Db:maj Gb:maj | Db:maj Gb:maj |
+47.956848072	| Db:maj Gb:maj | Db:maj Gb:maj | Db:maj Gb:maj | Db:maj Gb:maj |
+55.793356009	B, verse, | F:min | Bb:min | F:min | Bb:min |
+63.5461678	| Eb:min F:min | Ab:sus4 | Db:maj Gb:maj | Gb:maj . Db:maj Ab:maj |
+71.366054421	A, interlude, | Db:maj Gb:maj | Db:maj Gb:maj | Db:maj Gb:maj | Gb:maj Db:maj |
+79.156757369	| Eb:min F:min | F:min7 Bb:maj |
+# tonic: Eb
+83.070975056	A', verse, | Eb:maj Ab:maj | Eb:maj Ab:maj | Eb:maj Ab:maj | Eb:maj Ab:maj |
+90.845215419	| Eb:maj Ab:maj | Eb:maj Ab:maj | Eb:maj Ab:maj | Eb:maj Ab:maj |
+98.709070294	B', verse, | G:min | C:min | G:min | C:min |
+106.503106575	| F:min G:min | Bb:11 | F:min G:min | Bb:11 | Eb:maj Ab:maj | Ab:maj Eb:maj |
+118.117460317	B', outro, | F:min G:min | Bb:11 | F:min G:min | Bb:11 | Eb:maj Ab:maj | Ab:maj Eb:maj |
+129.769773242	| F:min G:min | Bb:11 | F:min G:min | Bb:11 | Eb:maj Ab:maj | Ab:maj Eb:maj |, fadeout, voice)
+140.482993197	silence
+146.233469387	end

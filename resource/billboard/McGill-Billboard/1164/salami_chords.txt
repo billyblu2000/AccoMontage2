@@ -1,0 +1,33 @@
+# title: Ten Percent
+# artist: Double Exposure
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.394739229	A, intro, | N | N | N | N |
+8.561088435	B, instrumental, | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |, (strings
+16.267346938	| Ab:maj9 | Bb:maj | C:maj7 | C:maj7 |, strings)
+24.164172335	C, verse, | C:maj/5 | G:maj | C:maj7 | C:maj7 |, (voice
+32.005351473	| C:maj/5 | G:maj | C:maj7 | C:7 |
+39.70600907	| F:maj7 | E:min7 | F:maj7 | E:min7 |
+47.510839002	| F:maj7 | D:7 | G:sus4(b7,9) | G:sus4(b7,9) |
+55.298526077	B, chorus, | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |
+63.077959183	| Ab:maj9 | Bb:maj | C:maj7 | C:maj7 |
+70.90217687	| G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |
+78.717120181	| Ab:maj9 | Bb:maj | C:maj7 | C:maj7 |
+86.612539682	C, verse, | C:maj/5 | G:maj | C:maj7 | C:maj7 |
+94.476439909	| C:maj/5 | G:maj | C:maj7 | C:7 |
+102.33648526	| F:maj7 | E:min7 | F:maj7 | E:min7 |
+110.091746031	| F:maj7 | D:7 | G:sus4(b7,9) | G:sus4(b7,9) |
+117.870657596	B, chorus, | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |
+125.644149659	| Ab:maj9 | Bb:maj | C:maj7 | C:maj7 |
+133.525555555	| G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |
+141.314376417	| Ab:maj9 | Bb:maj | C:maj7 | C:maj7 |
+149.165555555	B, chorus, | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |
+157.047482993	| Ab:maj9 | Bb:maj | C:maj7 | C:maj7 |
+164.861156462	| G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |
+172.665895691	| Ab:maj9 | Bb:maj | C:maj7 | C:maj7 |
+180.510929705	B', fadeout, | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |
+188.310521541	| G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |, voice)
+194.025941043	silence
+196.388571428	end

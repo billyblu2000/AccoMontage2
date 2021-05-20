@@ -1,0 +1,30 @@
+# title: Rescue Me
+# artist: Fontella Bass
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.441179138	A, intro, | A:1 | A:1 | A:maj | D:maj/5 |, (bass)
+8.359183673	| A:maj | D:maj/5 | D:maj | E:sus4(b7,9) |, (trombone)
+16.144671201	B, verse, | A:maj | D:maj | G:maj | E:min7 |, (voice
+23.968956916	| A:maj | D:maj | G:maj | E:min7 |
+31.711201814	C, chorus, | A:maj | D:maj | A:maj | D:maj |
+39.533877551	| A:maj | D:maj | D:maj | E:sus4(b7,9) |
+47.315079365	B, verse, | A:maj | D:maj | G:maj | E:min7 |
+55.170975056	| A:maj | D:maj | G:maj | E:min7 |
+62.944331065	C, chorus, | A:maj | D:maj | A:maj | D:maj |
+70.785510204	| A:maj | D:maj | D:maj | E:sus4(b7,9) |, voice)
+78.614648526	A, interlude, | A:1 | A:1 | A:maj | D:maj/5 |, (bass)
+86.356303854	| A:maj | D:maj/5 | D:maj | E:sus4(b7,9) |, (trombone)
+94.058412698	B, verse, | A:maj | D:maj | G:maj | E:min7 |, (voice
+101.883741496	| A:maj | D:maj | G:maj | E:min7 |
+109.718208616	C, chorus, | A:maj | D:maj | A:maj | D:maj |
+117.584240362	| A:maj | D:maj | D:maj | E:sus4(b7,9) |
+125.30648526	C, chorus, | A:maj | D:maj | A:maj | D:maj |
+133.113310657	| A:maj | D:maj | D:maj | E:sus4(b7,9) |
+140.989002267	C', chorus, | A:1 | D:1 | A:1 | D:1 |
+148.840385487	| A:1 | D:1 | D:1 | E:1 |, voice)
+156.701451247	C', chorus, | A:1 | D:1 | A:1 | D:1 |, (bass
+164.305034013	fadeout, | A:1 | D:1 | D:1 | E:1 |, bass)
+170.922086167	silence
+173.244081632	end

@@ -1,0 +1,36 @@
+# title: Another Rainy Day in New York City
+# artist: Chicago
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.394739229	A, intro, | N |, (drums)
+2.083106575	| A:maj | A:maj | E:sus4(9) | E:sus4(9) |
+8.359750566	| A:maj | A:maj | E:sus4(9) | E:sus4(9) |, (horns)
+14.579750566	A, verse, | A:maj | A:maj | E:sus4(9) | E:sus4(9) |, (voice
+20.834988662	| E:sus4(9) | E:sus4(9) | C#:min7 | F#:9 | B:min7 | B:min7 |
+30.206666666	| A:maj | A:maj | E:sus4(9) | E:sus4(9) |
+36.525804988	| E:sus4(9) | E:sus4(9) | C#:min7 | F#:9 | B:min7 | B:min7 |, voice)
+45.766575963	B, transition, | F:maj7 | F:maj7 | C:maj7 | C:maj7 |, (horns)
+52.082517006	C, chorus, | F:maj7 | F:maj7 | C:maj7 | C:maj7 |, (voice
+58.288367346	| B:min7 | E:7 | A:maj | E:7 |, voice)
+64.527800453	A, interlude, | A:maj | A:maj | E:sus4 | E:sus4 |, (steel drum
+70.782108843	| E:sus4 | E:sus4 | A:maj | A:maj |
+77.005147392	| A:maj | A:maj | E:sus4 | E:sus4 |
+83.115963718	| E:sus4 | E:sus4 | A:maj | E:7 |, steel drum)
+89.285827664	A, verse, | A:maj | A:maj | E:sus4(9) | E:sus4(9) |, (voice
+95.452222222	| E:sus4(9) | E:sus4(9) | C#:min7 | F#:9 | B:min7 | B:min7 |
+104.783764172	| A:maj | A:maj | E:sus4(9) | E:sus4(9) |
+110.911632653	| E:sus4(9) | E:sus4(9) | C#:min7 | F#:9 | B:min7 | B:min7 |, voice)
+120.185782312	B, transition, | F:maj7 | F:maj7 | C:maj7 | C:maj7 |, (horns)
+126.515442176	C, chorus, | F:maj7 | F:maj7 | C:maj7 | C:maj7 |, (voice
+132.598208616	| B:min7 | E:7 | A:maj | E:7 |
+138.782018140	A, outro, | A:maj | A:maj | E:sus4 | E:sus4 |
+144.887006802	| A:maj | A:maj | E:maj | E:maj |
+151.119909297	| A:maj | A:maj | E:maj | E:maj |
+157.299206349	| A:maj | A:maj | E:maj | E:maj |
+163.390884353	| A:maj | A:maj | E:maj | E:maj |, fadeout
+169.551882086	| A:maj | A:maj | E:maj | E:maj |
+175.603378684	| A:maj | A:maj | E:maj | E:maj |, voice)
+178.894353741	silence
+181.551020408	end

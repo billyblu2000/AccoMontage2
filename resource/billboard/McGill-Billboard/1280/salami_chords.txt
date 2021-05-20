@@ -1,0 +1,29 @@
+# title: Treat Her Like A Lady
+# artist: Cornelius Brothers & Sister Rose
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.696598639	A', intro, | F#:maj | A:maj | B:maj | F#:maj |, (guitar
+8.054399092	| F#:maj | A:maj | B:maj | F#:maj |, guitar)
+15.246507936	B, verse, | F#:maj | F#:maj | F#:maj | F#:maj |, (voice
+22.513287981	| F#:maj | F#:maj | F#:maj | F#:maj |
+29.738095238	C, chorus, | A:maj | B:min | A:maj | B:min | A:maj | B:min |
+40.730362811	| F#:maj | F#:maj | F#:maj | F#:maj |
+47.930566893	B, verse, | F#:maj | F#:maj | F#:maj | F#:maj |
+55.196825396	| F#:maj | F#:maj | F#:maj | F#:maj |
+62.484058956	C, chorus, | A:maj | B:min | A:maj | B:min | A:maj | B:min |
+73.466371882	| F#:maj | F#:maj | F#:maj | F#:maj |
+80.699591836	A, bridge, | F#:maj | A:maj | B:maj | F#:maj |
+88.028843537	| F#:maj | A:maj | B:maj | F#:maj |
+95.408004535	| F#:maj | A:maj | B:maj | F#:maj |
+102.737142857	| F#:maj | A:maj | B:maj | F#:maj |
+110.071383219	B', verse, | F#:maj | F#:maj | F#:maj | F#:maj |
+117.429931972	| F#:maj | F#:maj | F#:maj | F#:maj |
+124.74324263	| F#:maj | F#:maj | F#:maj | F#:maj |
+132.056190476	C, chorus, | A:maj | B:min | A:maj | B:min | A:maj | B:min |
+143.065328798	| F#:maj | F#:maj | F#:maj | F#:maj |
+150.302267573	C, chorus, | A:maj | B:min | A:maj | B:min | A:maj | B:min |
+161.365283446	| F#:maj | F#:maj | F#:maj | F#:maj |, voice)
+163.189841269	silence
+166.191020408	end

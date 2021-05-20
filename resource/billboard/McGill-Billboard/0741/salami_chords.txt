@@ -1,0 +1,56 @@
+# title: Love Is A Battlefield
+# artist: Pat Benatar
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.696598639	A, intro, | N |, (drums)
+2.205895691	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (synth, (bass
+7.689931972	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, synth), bass)
+13.049886621	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (spoken
+18.305941043	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+23.641723356	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, spoken)
+28.898095238	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (voice
+34.202879818	chorus, | D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+39.538163265	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+44.802630385	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+50.098049886	refrain, | Bb:maj7 | Bb:maj7 | Bb:maj7 | Bb:maj7 |, voice)
+55.389750566	B, interlude, | D:min | D:min | C:maj/9 | C:maj/9 |, (synth
+60.622040816	| Bb:maj/3 | Bb:maj/3 | D:1 | D:1 |, synth)
+65.961428571	C, verse, | D:min | D:min | C:maj | C:maj |, (voice
+71.325215419	| Bb:maj | Bb:maj | G:min | G:min |
+76.577278911	| D:min | D:min | C:maj | C:maj |
+81.897210884	| Bb:maj | Bb:maj | G:min | G:min |
+87.170657596	| D:min | D:min | C:maj | C:maj |
+92.450839002	| Bb:maj | Bb:maj | G:min | G:min |, voice)
+97.753605442	| G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |, (guitar)
+103.097414965	A, chorus, | D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (voice
+108.369229024	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+113.706689342	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, voice)
+118.969342403	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (bass)
+124.257505668	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (voice
+129.595464852	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+134.819092970	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+140.121428571	refrain, | Bb:maj7 | Bb:maj7 | Bb:maj7 | Bb:maj7 |, voice)
+145.425487528	B, interlude, | D:min | D:min | C:maj/9 | C:maj/9 |, (synth)
+150.729160997	C, verse, | D:min | D:min | C:maj | C:maj |, (voice
+156.027936507	| Bb:maj | Bb:maj | G:min | G:min |
+161.358185941	| D:min | D:min | C:maj | C:maj |
+166.651859410	| Bb:maj | Bb:maj | G:min | G:min |
+171.892063492	| D:min | D:min | C:maj | C:maj |
+177.195714285	| Bb:maj | Bb:maj | G:min | G:min |, voice)
+182.564467120	| G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) | G:sus4(b7,9) |, (guitar)
+187.851927437	A, chorus, | D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (voice
+193.173310657	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+198.499931972	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, voice)
+203.788390022	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (bass)
+209.003605442	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |, (voice
+214.398140589	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+219.611519274	| D:min | D:min C:maj . . | A:min7 . . Bb:maj | Bb:maj |
+224.899863945	refrain, | Bb:maj7 | Bb:maj7 | Bb:maj7 | Bb:maj7 |, voice)
+230.203764172	B, outro, fadeout, | D:min | D:min | C:maj/9 | C:maj/9 |, (synth
+235.531882086	| Bb:maj/3 | Bb:maj/3 | D:1 | D:1 |
+240.793741496	| D:min | D:min | C:maj/9 | C:maj/9 |
+246.084852607	| Bb:maj/3 | Bb:maj/3 | D:1 | D:1 |, synth)
+248.653061224	silence
+251.409115646	end

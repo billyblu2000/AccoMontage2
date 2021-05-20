@@ -1,0 +1,19 @@
+# title: I Cried A Tear
+# artist: LaVern Baker
+# metre: 12/8
+# tonic: A
+
+0.0	silence
+0.464399092	A, intro, | E:7 | &pause |
+5.572789115	B, verse, | A:maj A:maj7 A:maj6 A:maj | E:7 | E:7 | A:maj A:sus4 A:maj A:maj |, (voice
+22.41430839	| A:maj A:7 | D:maj | A:maj E:7 | A:maj E:7 |
+38.995827664	B, verse, | A:maj A:maj7 A:maj6 A:maj | E:7 | E:7 | A:maj A:sus4 A:maj A:maj |
+55.434240362	| A:maj A:7 | D:maj | A:maj E:7 | A:maj A:maj/5 |, voice)
+72.254739229	B, solo, | A:maj A:maj7 A:maj6 A:maj | E:7 | E:7 | A:maj A:sus4 A:maj A:maj |, (saxophone
+89.062721088	| A:maj A:7 | D:maj | A:maj E:7 | A:maj E:7 |, saxophone)
+106.001768707	B, verse, | A:maj A:maj7 A:maj6 A:maj | E:7 | E:7 | A:maj A:sus4 A:maj A:maj |, (voice
+122.919977324	| A:maj A:7 | D:maj | A:maj E:7 | A:maj |
+139.846870748	| E:7 | &pause |
+147.096145124	| A:maj |, voice)
+153.762539682	silence
+156.238367346	end

@@ -1,0 +1,33 @@
+# title: The People In Me
+# artist: The Music Machine
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.255419501	A, verse, | Ab:min | Db:maj | Eb:7 | Eb:7 |, (guitar
+7.322947845	| Ab:min | Db:maj | Eb:7 | Eb:7 |
+14.305646258	| Ab:min | Db:maj | Eb:7 | Eb:7 |
+21.328435374	| Ab:min | Db:maj | Eb:7 | Eb:7 |, guitar)
+28.423990929	A, verse, | Ab:min | Db:maj | Eb:7 | Eb:7 |, (voice
+35.529365079	| Ab:min | Db:maj | Eb:7 | Eb:7 |
+42.563446712	| Ab:min | Db:maj | Eb:7 | Eb:7 |
+49.615600907	| Ab:min | Db:maj | Eb:7 | Eb:7 |
+56.616077097	B, chorus, | B:maj | Db:maj | Ab:min G:min | Ab:min G:min |
+63.659523809	| B:maj | Db:maj | Ab:min G:min | (2/4) Ab:min | Db:maj |
+71.601791383	| Eb:maj | Eb:maj |
+75.245374149	A, verse, | Ab:min | Db:maj | Eb:7 | Eb:7 |
+82.272675736	| Ab:min | Db:maj | Eb:7 | Eb:7 |
+89.260702947	| Ab:min | Db:maj | Eb:7 | Eb:7 |
+96.366054421	| Ab:min | Db:maj | Eb:7 | Eb:7 |, voice)
+103.399682539	A, verse, | Ab:min | Db:maj | Eb:7 | Eb:7 |, (guitar
+110.499682539	| Ab:min | Db:maj | Eb:7 | Eb:7 |, guitar)
+117.605668934	| Ab:min | Db:maj | Eb:7 | Eb:7 |, (voice
+124.645668934	| Ab:min | Db:maj | Eb:7 | Eb:7 |
+131.736530612	B, chorus, | B:maj | Db:maj | Ab:min G:min | Ab:min G:min |
+138.85802721	| B:maj | Db:maj | Ab:min G:min | (2/4) Ab:min | Db:maj |
+146.838412698	| Eb:maj | Eb:maj |, voice)
+150.469206349	A, verse, | Ab:min | Db:maj | Eb:7 | Eb:7 |, (guitar
+157.590294784	fadeout, | Ab:min | Db:maj | Eb:7 | Eb:7 |
+164.693605442	| Ab:min | Db:maj | Eb:7 | Eb:7 |, guitar)
+170.341587301	silence
+171.781224489	end

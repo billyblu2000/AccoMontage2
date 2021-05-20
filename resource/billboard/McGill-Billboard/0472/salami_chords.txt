@@ -1,0 +1,33 @@
+# title: Sweet Music Man
+# artist: Kenny Rogers
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.441179138	A, intro, | D:maj |, (synthesizer)
+4.527891156	| D:maj | E:min | A:sus4 A:maj | D:maj |, (voice
+17.027256235	| D:maj D:maj/3 | G:maj | A:sus4 A:7 | ->, voice)
+28.212244897	| D:maj | D:maj |, (guitar)
+34.381995464	B, verse, | (3/4) D:maj | D:maj | D:maj |, (voice
+42.771156462	| D:maj . . D:7 | G:maj | D:maj | D:maj |
+54.945804988	| A:7 | A:7 | D:maj | D:maj |
+67.041746031	B, verse, | (3/4) D:maj | D:maj | D:maj |
+75.384104308	| D:maj | G:maj | D:maj | D:maj |
+87.522630385	| A:7 | A:7 | D:maj | D:maj |
+99.644444444	C, chorus, | G:maj A:7 | D:maj | G:maj A:7 | D:maj |
+111.949138321	| G:maj A:7 | D:maj A:maj/3 B:min G:min/b3 | D:maj/5 A:7 |
+121.450952380	| D:maj | D:maj |
+127.547210884	B, verse, | (3/4) D:maj | D:maj | D:maj |
+136.049795918	| D:maj . . D:7 | G:maj | D:maj | D:maj |
+148.430566893	| A:7 | A:7 | D:maj | D:maj |
+160.693401360	B, verse, | (3/4) D:maj | D:maj | D:maj |
+169.097959183	| D:maj . . D:7 | G:maj | D:maj | D:maj |
+181.313582766	| A:7 | A:7 | D:maj | D:maj |
+193.519410430	C, chorus, | G:maj A:7 | D:maj | G:maj A:7 | D:maj |
+205.803764172	| G:maj A:7 | D:maj A:maj/3 B:min G:min/b3 | D:maj/5 A:7 |
+215.171519274	| D:maj | D:maj |
+221.237732426	B', verse, | (3/4) D:maj | D:maj | D:maj |
+229.822630385	| A:7 | A:7 |, voice)
+236.360793650	A', outro, | D:maj | C:maj6 | G:maj/3 A:7 | D:maj |, (guitar)
+255.187301587	silence
+259.944489795	end

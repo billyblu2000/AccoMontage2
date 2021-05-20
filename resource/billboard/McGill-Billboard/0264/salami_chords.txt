@@ -1,0 +1,38 @@
+# title: Dandelion
+# artist: Rolling Stones
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.232199546	A, chorus, | Bb:maj | Bb:maj | C:maj | C:maj |, (voice
+8.665328798	| Bb:maj | Bb:maj | C:maj | C:maj |
+16.942947845	| Bb:maj | G:min | Eb:maj | C:7/3 |
+25.274693877	| Bb:maj | G:min | Eb:maj | C:7/3 |
+33.591723356	A, chorus, | Bb:maj | Bb:maj | C:maj | C:maj |
+41.964376417	| Bb:maj | Bb:maj | C:maj | C:maj |
+50.188684807	| Bb:maj | G:min | Eb:maj | C:7/3 |
+58.560702947	| Bb:maj | G:min | Eb:maj | C:7/3 |
+66.96154195	| Eb:maj | G:maj |
+71.132040816	B, bridge, | C:maj | G:maj | C:maj | G:maj |
+79.218185941	| C:maj | F:maj | F:maj | ->
+85.397301587	A, chorus, | Bb:maj | Bb:maj | C:maj | C:maj |
+93.617437641	| Bb:maj | Bb:maj | C:maj | C:maj |
+101.896462585	| Bb:maj | G:min | Eb:maj | C:7/3 |
+110.227573696	| Bb:maj | G:min | Eb:maj | C:7/3 |
+118.652380952	| Eb:maj | G:maj |, voice)
+122.846916099	B, instrumental, | C:maj | G:maj | C:maj | G:maj |, (oboe
+131.040136054	| C:maj | F:maj | F:maj | ->, oboe)
+137.15632653	A, chorus, | Bb:maj | Bb:maj | C:maj | C:maj |, (voice
+145.432789115	| Bb:maj | Bb:maj | C:maj | C:maj |
+153.780816326	| Bb:maj | G:min | Eb:maj | C:7/3 |
+161.998956916	| Bb:maj | G:min | Eb:maj | C:7/3 |
+170.371201814	| Eb:maj | ->, voice)
+172.465668934	C, outro, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (harpsichord
+180.796235827	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+189.139954648	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+197.388888888	fadeout, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+205.529229024	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |, harpsichord)
+212.643265306	silence
+215.650362811	F, coda, | A:maj | A:maj | D:maj | D:maj |, (piano)
+225.651519274	silence
+228.022857142	end

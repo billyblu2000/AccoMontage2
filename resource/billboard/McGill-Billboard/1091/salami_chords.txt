@@ -1,0 +1,29 @@
+# title: He's A Rebel
+# artist: The Crystals
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+2.229115646	A, intro, | F:maj | F:maj | F:maj | F:maj |
+10.761496598	B, verse, | F:maj | F:maj | F:maj | F:maj |, (voice
+18.707256235	| D:min | Bb:maj | C:maj | C:maj |
+26.663968253	| F:maj | F:maj | F:maj | F:maj |
+34.60494331	| D:min | Bb:maj | G:maj | C:maj Db:maj |
+# tonic: Gb
+42.565147392	C, chorus, | Gb:maj | Eb:min | Gb:maj | Db:7 |
+50.58462585	| B:maj | Bb:maj | Eb:min | B:maj Ab:maj |
+58.51063492	| Gb:maj | Eb:min | B:maj | Db:7 |
+66.497619047	| Gb:maj | Db:maj |, voice)
+70.495351473	D, interlude, | Gb:maj | Eb:min | Gb:maj | Eb:min |, (saxophone
+78.493469387	| B:maj | Db:maj | B:maj | Db:maj |, saxophone)
+86.462902494	E, bridge, | Eb:min | B:maj | Ab:maj | Db:7 |, (voice
+94.433197278	C', chorus, | Gb:maj | Eb:min | Gb:maj | Db:7 |
+102.410702947	| B:maj | Bb:maj | Eb:min | B:maj Ab:maj |
+110.389024943	| Gb:maj | Eb:min | B:maj | Db:7 |
+118.342380952	| Gb:maj | Eb:min | Gb:maj | Eb:min |
+126.312448979	D', outro, | Gb:maj | Eb:min | Gb:maj | Eb:min |
+134.284240362	| Gb:maj | Eb:min | Gb:maj | Eb:min |
+142.262789115	fadeout, | Gb:maj | Eb:min | Gb:maj | Eb:min |
+150.235895691	| Gb:maj | Eb:min | Gb:maj | Eb:min |, voice)
+154.183492063	silence
+156.780249433	end

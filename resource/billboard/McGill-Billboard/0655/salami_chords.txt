@@ -1,0 +1,50 @@
+# title: Sunrise
+# artist: Eric Carmen
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+3.94739229	A, intro, | Ab:5 | x4, (strings)
+18.550680272	| Ab:5 | Ab:5 |, (piano
+25.868299319	| Ab:min/b3 | Db:sus2 | Fb:1(3,7) . . Ab:5/5 | Ab:5 |
+40.303174603	| Ab:min/b3 | Db:sus2 . . Ab:5/b7 | Fb:1(3,7) | Ab:5/b7 |, piano)
+55.741564625	| Bb:min7 | Eb:maj7 | Bb:min7 | Gb:maj/b7 |, (synthesizer
+69.974081632	| Eb:min7 | B:7(11) | E:maj7 | E:maj7 | G:7 | &pause |, synthesizer)
+# tonic: C
+89.996507936	B, trans, | C:maj | C:maj |, (guitar)
+93.774897959	C, verse, | C:maj | E:min7 | F:maj | D:min7 G:7 |, (voice
+101.341519274	| C:maj | E:min7 | F:maj | B:hdim7 E:7 |
+108.906689342	| A:min | G:min C:7 | F:maj7 | D:7 |
+116.37648526	| C:maj/5 A:7 | D:hdim7 G:7(b9) |, voice)
+120.224104308	B, trans, | C:maj | G:maj/11 F:maj/5 |, (piano)
+123.913514739	C, verse, | C:maj | E:min7 | F:maj | D:min7 G:7 |, (voice
+131.49430839	| C:maj | E:min7 | F:maj | B:hdim7 E:7 |
+139.00632653	| A:min | G:min C:7 | F:maj7 | D:7 |
+146.468594104	| C:maj/5 A:7 | D:hdim7 G:7(b9) |, voice)
+150.245328798	B', trans, | C:maj | Ab:maj |, (piano)
+153.94510204	D, bridge, | Bb:min | Eb:maj7 | Bb:min7 | Eb:maj/b7 |, (voice
+161.662199546	| C:min | F:min F:min/b7 | Db:maj Db:maj/b7 | Gb:maj/3 A:maj |
+169.440884353	| G:maj G:maj/b7 | G:maj/13 G:maj/5 | * | (3/4) * |
+176.634195011	C, verse, | C:maj | E:min7 | F:maj | D:min7 G:7 |, (voice
+184.29723356	| C:maj | E:min7 | F:maj | B:hdim7 E:7 |
+191.85861678	| A:min | G:min C:7 | F:maj7 | D:7 |
+199.359954648	| C:maj/5 A:7 | D:hdim7 G:7(b9) |, voice)
+203.119977324	B', trans, | Ab:maj Ab:maj/b7 | Ab:maj/13 Ab:maj/5 | Ab:maj Ab:maj/b7 | Ab:maj/13 Ab:maj/5 |, (guitar)
+210.629501133	D, outro, | C:maj | Eb:maj | Bb:maj | F:maj |, (piano
+217.709387755	| C:maj | Eb:maj | Bb:maj | F:maj |, piano)
+224.722970521	| C:maj | Eb:maj | Bb:maj | F:maj |, (guitar
+231.765215419	| C:maj | Eb:maj | Bb:maj | F:maj |
+238.748820861	| C:maj | Eb:maj | Bb:maj | F:maj |
+245.690997732	| C:maj | Eb:maj | Bb:maj | F:maj |, guitar)
+252.660340136	| C:maj | Eb:maj | Bb:maj | F:maj |, (trumpet)
+259.763514739	| C:maj | Eb:maj | Bb:maj | F:maj |, (guitar
+266.623673469	| N | Eb:maj | Bb:maj | F:maj |
+273.38446712	| C:maj | Eb:maj | Bb:maj | F:maj |
+280.1661678	| C:maj | Eb:maj | Bb:maj | F:maj |
+286.898231292	| C:maj | Eb:maj | Bb:maj | F:maj |
+293.72446712	fadeout, | C:maj | Eb:maj | Bb:maj | F:maj |
+300.480385487	| C:maj | Eb:maj | Bb:maj | F:maj |
+307.194149659	| C:maj | Eb:maj | Bb:maj | F:maj |
+314.034399092	| C:maj | Eb:maj | Bb:maj | F:maj |, guitar)
+319.622675736	silence
+321.149387755	end

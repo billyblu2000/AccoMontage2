@@ -1,0 +1,38 @@
+# title: Sweet Caroline (Good Times Never Seemed So Good)
+# artist: Bobby Womack
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.441179138	A, intro, | B:7 | B:7 | B:7 | B:7 |
+7.920589569	| B:7 | B:9 B:7 | B:13 B:7 |
+13.430566893	B, verse, | E:maj | E:7 | A:maj | A:maj |, (voice
+20.858639455	| E:maj | E:maj | B:maj | B:maj |
+28.094285714	| E:maj | E:maj E:7 | A:maj | A:maj |
+35.511088435	| E:maj | E:maj | B:maj | B:maj |
+42.901156462	| E:maj | E:maj | E:maj6 | E:maj6 |
+50.266893424	| B:maj | B:maj | A:maj | A:maj |
+57.690340136	| B:7 | B:13 B:7 |
+61.391995464	C, chorus, | E:maj | A:maj . . A:maj7 |
+65.077482993	| A:maj | A:maj | B:maj | B:maj |
+72.426870748	| E:maj | A:maj . . A:maj7 |
+76.120884353	| A:maj | A:maj | B:maj A:maj | G#:min F#:min |
+83.506893424	B, verse, | E:maj | E:7 | A:maj | A:maj |
+90.938594104	| E:maj | E:maj | B:maj | B:maj |
+98.232040816	| E:maj | E:maj E:7 | A:maj | A:maj |
+105.556417233	| E:maj | E:maj | B:maj | B:maj |
+112.909863945	| E:maj | E:maj | E:maj6 | E:maj6 |
+120.295170068	| B:maj | B:maj | A:maj | A:maj |
+127.647324263	| B:7 | B:13 B:7 |
+131.280975056	C, chorus, | E:maj | A:maj . . A:maj7 |
+134.891179138	| A:maj | A:maj | B:maj | B:maj |
+142.2030839	| E:maj | A:maj . . A:maj7 |
+145.921655328	| A:maj | A:maj | B:maj | B:maj |, voice)
+153.391020408	A, interlude, | B:7 | B:7 | B:7 | B:7 |
+160.840226757	| B:7 | B:9 B:7 | B:13 B:7 |
+166.375328798	C, chorus, | E:maj | A:maj . . A:maj7 |, (voice
+170.092653061	fadeout, | A:maj | A:maj | B:maj | B:maj |
+177.37356009	| E:maj | A:maj . . A:maj7 |
+181.062222222	| A:maj | A:maj | B:maj | B:maj |, voice)
+186.92063492	silence
+189.570612244	end

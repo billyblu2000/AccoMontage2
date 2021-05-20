@@ -1,0 +1,33 @@
+# title: Smokin' In The Boys Room
+# artist: Brownsville station
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.371519274	A', intro, | D:5 | D:5 | D:5 | D:5 |, (guitar
+8.176054421	| D:5 | D:5 | D:5 | D:5 |
+15.618866213	| D:5 | D:5 | D:5 | D:5 |, guitar)
+22.936099773	B, verse, | D:5 | D:5 | Bb:5 | Bb:5 |, (voice
+30.3161678	| D:5 | D:5 | Bb:5 | Bb:5 |
+37.640340136	C, chorus, | G:maj | G:maj | D:maj | D:maj |
+45.238072562	| A:maj | G:maj | A:maj | G:maj |, voice)
+52.812471655	A, trans, | D:5 | D:5 |, (guitar)
+56.615079365	B, verse, | D:5 | D:5 | Bb:5 | Bb:5 |, (voice
+64.032675736	| D:5 | D:5 | Bb:5 | Bb:5 |
+71.459546485	C, chorus, | G:maj | G:maj | D:maj | D:maj |
+79.098979591	| A:maj | G:maj | A:maj | G:maj |, voice)
+86.639750566	A, trans, | D:5 | D:5 |, (guitar)
+90.337619047	D, solo, | G:maj | G:maj | D:maj | D:maj |, (harmonica
+97.93079365	| G:maj | G:maj | A:maj | A:maj |, harmonica)
+105.459727891	| G:maj | G:maj | D:maj | D:maj |, (guitar
+113.038367346	| G:maj | G:maj | E:min | A:maj |, guitar)
+120.39600907	B, verse, | D:5 | D:5 | Bb:5 | Bb:5 |, (voice
+127.839591836	| D:5 | D:5 | Bb:5 | Bb:5 |
+135.142585034	C, chorus, | G:maj | G:maj | D:maj | D:maj |
+142.708095238	| A:maj | G:maj | A:maj | G:maj |, voice)
+150.217664399	A, trans, | D:5 | D:7(#9) |, (guitar)
+153.771564625	C, chorus, | G:maj | G:maj | D:maj | D:maj |, (voice
+161.234240362	| A:maj | G:maj | A:maj | G:maj |, voice)
+168.701768707	A, coda, | D:maj | D:maj |, (guitar)
+176.193015873	silence
+178.886530612	end

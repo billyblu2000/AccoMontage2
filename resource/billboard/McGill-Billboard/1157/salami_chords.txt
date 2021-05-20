@@ -1,0 +1,46 @@
+# title: Easy
+# artist: The Commodores
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.557278911	A', intro, | Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |, (piano
+7.769523809	| Ab:maj | C:min7 | Bb:min7 | Bb:min7 |, piano)
+14.933492063	A, verse, | Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |, (voice
+22.235782312	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 . . Ab:maj |
+29.496984126	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+36.697619047	| Ab:maj | C:min7 |
+40.428888888	| Bb:min7 | Bb:min7 | Db:maj/9 | Db:maj/9 |
+47.640045351	B, chorus, | Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+54.846870748	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+62.032471655	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+69.364126984	| Gb:maj . . Db:maj/3 | Db:maj/3 . Db:maj/9 . |
+73.000249433	| Ab:maj | Ab:maj |
+76.686893424	A, verse, | Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+83.999274376	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 . . Ab:maj |
+91.23510204	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+98.561428571	| Ab:maj | C:min7 |
+102.14430839	| Bb:min7 | Bb:min7 | Db:maj/9 | Db:maj/9 |
+109.631632653	B, chorus, | Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+116.991723356	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+124.270770975	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+131.536780045	| Gb:maj . . Db:maj/3 | Db:maj/3 . Db:maj/9 . |
+135.208117913	| Ab:maj | Ab:maj |
+138.875668934	C, bridge, | Gb:maj7 | Gb:maj7 . . F:min7 | Eb:min7 | Gb:maj/9 . . F:min7 |
+146.084739229	| Gb:maj7 | Gb:maj7 . . F:min7 | Eb:min7 | Gb:maj/9 . . F:min7 |
+153.207823129	| Gb:maj7 | Gb:maj7 . . F:min7 | Eb:min7 | Gb:maj/9 |, voice)
+160.311360544	| B:maj . . Gb:maj/3 | Gb:maj/3 | Eb:min7 . . Db:maj | Db:maj | Db:maj |
+169.313492063	A', solo, | Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |, (guitar
+176.429863945	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 . . Ab:maj |
+183.629183673	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+190.875510204	| Ab:maj | C:min7 | Bb:min7 | Bb:min7 . . Db:maj/9 |, guitar)
+198.109909297	B, chorus, | Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |, (voice
+205.316077097	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+212.619682539	| Ab:maj | C:min7 | Bb:min7 | Db:maj/9 |
+219.925895691	| Ab:maj | C:min7 | Bb:min7 . . B:min7 | B:min7 . . D:maj/9 |
+227.09600907	B, chorus, | A:maj | C#:min7 | B:min7 | D:maj/9 |
+234.271383219	| A:maj | C#:min7 | B:min7 | D:maj/9 . . A:maj |
+241.43585034	| A:maj | C#:min7 | B:min7 | D:maj/9 |
+248.692131519	fadeout, | A:maj | C#:min7 | B:min7 | D:maj/9 | A:maj |, voice)
+257.880816326	silence
+264.333061224	end

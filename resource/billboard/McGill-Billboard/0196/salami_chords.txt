@@ -1,0 +1,20 @@
+# title: Love Me Warm And Tender
+# artist: Paul Anka
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.30185941	A, intro, | D:maj | D:maj | D:maj | D:maj |
+9.182970521	B, verse, | D:maj | D:maj | D:maj | D:maj | E:min | E:min |, (voice
+22.087006802	| E:min | E:min | E:min | E:min | D:maj | D:maj |
+34.983492063	B, verse, | D:maj | D:maj | D:maj | D:maj | E:min | E:min |
+47.976439909	| E:min | E:min | E:min | E:min | D:maj | D:maj |
+61.04510204	C, bridge, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+69.610907029	| Bb:maj | Bb:maj | F:7 | F:7 |
+78.240430839	| F:7 | F:7 | Bb:maj | Bb:maj |
+86.93585034	B, verse, | D:maj | D:maj | D:maj | D:maj | E:min | E:min |
+100.16047619	| E:min | E:min | E:min | E:min | D:maj | D:maj |
+113.426780045	B, verse, | D:maj | D:maj | D:maj | D:maj | E:min | E:min |
+126.580294784	fadeout, | E:min | E:min | E:min | E:min | D:maj | D:maj |, voice)
+137.137052154	silence
+141.923265306	end

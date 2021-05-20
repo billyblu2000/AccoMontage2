@@ -1,0 +1,25 @@
+# title: Willie And The Hand Jive
+# artist: Eric Clapton
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+5.0068027e-2	A, intro, | A:maj | x16, (guitar)
+43.265714285	A, verse, | A:maj | A:maj | A:maj | A:maj |, (voice
+53.947641723	| D:maj | D:maj . . C:5 | A:maj | A:maj |
+64.739433106	A, verse, | A:maj | A:maj | A:maj | A:maj |, (voice)
+75.495963718	| D:maj | D:maj . . C:5 | A:maj | A:maj |
+86.253968253	B, chorus, | D:maj | A:maj | E:7 | ->, voice)
+94.420340136	A, interlude, | A:maj | A:maj | A:maj | A:maj | A:maj |
+107.722040816	A, verse, | A:maj | A:maj | A:maj | A:maj |, (voice
+118.521383219	| D:maj | D:maj . . C:5 | A:maj | A:maj |
+129.291428571	B, chorus, | D:maj | A:maj | E:7 | ->, voice)
+137.482630385	A, solo, | A:maj | x35, (guitar)
+230.524399092	A, verse, | A:maj | A:maj | A:maj | A:maj |, (voice)
+241.28154195	| D:maj | D:maj . . C:5 | A:maj | A:maj |
+252.10585034	B, chorus, | D:maj | A:maj | E:7 | ->, voice)
+260.263741496	A, outro, | A:maj | x60, (guitar)
+423.614693877	A, outro, | A:maj | x71, (voice)
+612.265623582	A, outro, | A:maj | x23, (guitar)
+689.988208616	Z
+702.275918367	end

@@ -1,0 +1,22 @@
+# title: I Walk Alone
+# artist: Marty Robbins
+# metre: 12/8
+# tonic: C
+
+0.0	silence
+0.487619047	A, intro, | C:maj | G:maj | C:maj | C:maj |
+14.179931972	B, verse, | C:maj | C:7 | F:maj | F:maj |, (voice
+27.035623582	| C:maj | C:maj | G:7 | G:7 |
+39.687052154	C, chorus, | C:maj | C:maj | F:maj | F:maj |
+52.688253968	| C:maj | G:7 | C:maj | C:7 |
+65.748866213	D, bridge, | F:maj | F:maj | C:maj | C:maj |
+78.740181405	| C:maj | C:maj | G:maj | G:maj |
+91.447324263	C, chorus, | C:maj | C:7 | F:maj | F:maj |
+104.444988662	| C:maj | G:7 | C:maj | C:maj |, voice)
+117.297573696	C', interlude, | C:maj | G:7 | C:maj | C:7 |, (organ)
+130.30941043	D, bridge, | F:maj | F:maj | C:maj | C:maj |, (voice
+143.093378684	| C:maj | C:maj | D:7 | G:7 |
+155.450657596	C, chorus, | C:maj | C:7 | F:maj | F:maj |
+168.344920634	| C:maj | G:maj | (9/8) G:maj | (9/8) G:maj | C:maj | C:maj | F:maj | C:7 |, voice)
+197.671473922	silence
+200.228571428	end

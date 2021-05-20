@@ -1,0 +1,53 @@
+# title: Oh Father
+# artist: Madonna
+# metre: 4/4
+# tonic: F
+
+0.000000000	silence
+0.057142857	A, intro, | F:maj | F:maj | F:maj | F:maj |, (strings
+9.779591836	| F:maj | F:maj | F:maj | F:7/b7 | &pause |, strings)
+19.983673469	B, intro, | Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |, (piano
+26.171428571	| Bb:maj C:maj/b7 | A:min | G:sus2 | G:maj |
+32.391836734	| Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |, (strings
+38.754852607	| Bb:maj C:maj/b7 | A:min | G:sus2 | G:maj |, piano)
+45.130657596	| F:maj | C:maj |, strings)
+48.063582766	C, verse, | Bb:maj | D:min7 | F:maj | C:maj |, (voice
+54.187755102	| Eb:maj | Bb:maj | F:maj | C:maj |
+60.501065759	| D:min | Bb:maj/3 | C:maj F:maj/5 . . | F:maj/5 |
+66.618095238	B, chorus, | Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+72.860498866	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |
+79.010476190	| Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+85.250476190	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |
+91.461224489	| F:maj | C:maj |
+94.546938775	C, verse, | Bb:maj | D:min7 | F:maj | C:maj |
+100.794829931	| Eb:maj | Bb:maj | F:maj | C:maj |
+106.955102040	| D:min | Bb:maj/3 | C:maj F:maj/5 . . | F:maj/5 |
+113.126530612	B, chorus, | Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+119.434489795	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |
+125.551020408	| Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+131.808049886	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |, voice)
+138.024489795	D, interlude, | A:min | A:min | G:maj | C:maj |, (synth
+144.244489795	| G:maj | E:min | F:maj | C:maj |
+150.423900226	| A:min | A:min | G:maj | C:maj |
+156.856054421	| G:maj | E:min | F:maj | C:maj |, synth)
+162.839795918	D, bridge, | A:min | A:min | G:maj | C:maj |, (voice
+168.995918367	| G:maj | E:min | F:maj | C:maj |
+175.265306122	| A:min | A:min | G:maj | C:maj |
+181.518367346	| G:maj | E:min | F:maj | C:maj |
+187.666099773	| F:maj | C:maj |
+190.746825396	C, verse, | Bb:maj | D:min7 | F:maj | C:maj |
+197.003061224	| Eb:maj | Bb:maj | F:maj | C:maj |
+203.202925170	| D:min | Bb:maj/3 | C:maj F:maj/5 . . | F:maj/5 |
+209.483492063	B, chorus, | Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+215.586825396	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |
+221.882743764	| Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+228.066553287	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |
+234.290748299	| Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+240.476371882	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |
+246.698435374	| Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+252.890498866	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |
+259.059274376	| Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |
+265.274421768	| Bb:maj C:maj/b7 | A:min | G:maj | G:maj |
+271.618956916	fadeout, | Eb:maj | Bb:maj/5 F:maj | C:maj | C:maj |, voice)
+292.783673469	silence
+298.816621315	end

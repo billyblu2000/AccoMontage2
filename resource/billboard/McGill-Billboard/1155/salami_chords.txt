@@ -1,0 +1,35 @@
+# title: Running On Empty 
+# artist: Jackson Browne
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+1.084081632	A, intro, | D:maj/5 | D:maj/5 A:maj . . | x3
+11.565646258	| F#:min | F#:min | D:maj | A:maj/3 | E:maj | E:maj |
+22.000680272	A, verse, | D:maj/5 | D:maj/5 A:maj . . | x6, (voice
+43.006077097	| D:maj | A:maj/3 | E:maj | E:maj |
+50.029206349	B, chorus, | D:maj/5 | D:maj/5 A:maj . . | x3
+60.551133786	| F#:min | F#:min |
+64.09095238	A, verse, | D:maj/5 | D:maj/5 A:maj . . | x6
+85.048503401	| D:maj | A:maj/3 | E:maj | E:maj |
+92.197505668	B, chorus, | D:maj/5 | D:maj/5 A:maj . . | x3
+102.82786848	| F#:min | F#:min |, voice)
+106.428004535	A, solo, | D:maj/5 | D:maj/5 A:maj . . | x3, (guitar
+116.944557823	| F#:min | F#:min | D:maj | A:maj/3 | E:maj | E:maj |, guitar) 
+127.468049886	C, bridge, | F#:min | D:maj | E:maj | A:maj |, (voice 
+134.476712018	| F#:min | E:maj | D:maj | A:maj |
+141.527959183	| F#:min | D:maj | E:maj | A:maj |
+148.604920634	D, bridge, | D:maj | E:maj | D:maj . A:maj/3 B:min | B:min A:maj F#:min F#:min/b7 |
+155.745419501	A, verse, | D:maj/5 | D:maj/5 A:maj . . | x6
+176.733605442	| D:maj | A:maj/3 | E:maj | E:maj |
+183.767891156	B, chorus, | D:maj/5 | D:maj/5 A:maj . . | x3
+194.413514739	| F#:min | F#:min |
+197.956893424	A, verse, | D:maj/5 | A:maj | D:maj/5 | A:maj |
+205.000770975	D, outro, | D:maj | E:maj | D:maj . A:maj/3 B:min | B:min A:maj F#:min F#:min/b7 |
+212.045941043	| D:maj | E:maj | D:maj . A:maj/3 B:min | B:min A:maj F#:min F#:min/b7 |
+219.236825396	| D:maj | E:maj | D:maj . A:maj/3 B:min | A:maj | A:maj |, voice)
+228.030181405	A, outro, | D:maj/5 | D:maj/5 A:maj . . | x14, (guitar
+270.223696145	| D:maj | E:maj | D:maj . A:maj/3 B:min | A:maj |, guitar)
+282.579591836	Z
+297.080090702	silence
+299.311020408	end

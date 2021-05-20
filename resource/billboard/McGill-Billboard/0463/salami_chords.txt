@@ -1,0 +1,24 @@
+# title: Seasons Of The Heart
+# artist: John Denver
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.394739229	A, intro, | C:maj | F:maj | C:maj | F:maj |, (piano)
+14.189863945	B, verse, | C:maj | F:maj | G:maj | C:maj |, (voice
+28.216870748	| C:maj | F:maj | G:7 | C:maj |
+42.289297052	| C:maj | F:maj | G:7 | C:maj |
+56.455079365	| C:maj | F:maj | G:7 | C:maj | (2/4) C:7 |
+72.438548752	C, chorus, | F:maj G:7 | C:maj | F:maj G:7 | C:maj |
+86.590430839	| F:maj G:7 | C:maj | F:maj G:7 | ->, voice)
+97.070090702	A, interlude, | C:maj | F:maj | C:maj | G:maj | &pause |, (saxophone)
+112.797845804	B, verse, | C:maj | F:maj | G:7 | C:maj |, (voice
+127.397687074	| C:maj | F:maj | G:7 | C:maj |
+141.851609977	| C:maj | F:maj | G:7 | C:maj |
+156.231428571	| C:maj | F:maj | G:7 | C:maj | (2/4) C:7 |
+172.222403628	C', chorus, | F:maj G:7 | C:maj | F:maj G:7 | C:maj |
+186.262585034	| F:maj G:7 | C:maj | F:maj G:7 | C:maj |
+200.074580498	| F:maj | G:7 |, voice)
+207.603809523	A, coda, | C:maj | F:maj | C:maj | C:maj |, (saxophone)
+225.163900226	silence
+231.209795918	end

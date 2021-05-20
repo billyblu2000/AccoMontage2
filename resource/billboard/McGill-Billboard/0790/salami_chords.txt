@@ -1,0 +1,19 @@
+# title: Everybody Loves Me but You
+# artist: Brenda Lee
+# metre: 12/8
+# tonic: G
+
+0.0	silence
+0.510839002	A, intro, | C:maj7 C:maj6 | F:7(#11) F:7 | G:maj7 | G:maj7 . . G#:dim |
+14.063038548	B, verse, | D:7/5 | D:7/5 | G:maj | G:maj |, (voice
+27.447369614	| D:7 D:7/5 | D:7 | G:maj | G:maj |
+40.950680272	C, chorus, | E:min | B:maj | E:min | C:maj7 C:maj6 |
+54.365510204	| D:7 | D:7 | G:maj C:maj | G:maj |
+67.831156462	C', bridge, | E:min | B:maj | E:min | C:maj7 C:maj6 |
+81.206213151	| D:7 | D:7 | G:maj C:maj | G:maj . . G#:dim |
+94.587324263	B, verse, | D:7 D:7/5 | D:7 D:7/5 | G:maj | G:maj |
+108.020929705	| D:7 D:7/5 | D:7 | G:maj | G:maj |
+121.436870748	C, chorus, | E:min | B:maj | E:min | C:maj7 C:maj6 |
+134.869863945	| D:7 | D:7 | G:maj G:maj/3 C:maj . | G:maj |, voice)
+149.714263038	silence
+153.919024943	end

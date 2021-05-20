@@ -1,0 +1,33 @@
+# title: What's Love Got To Do With It
+# artist: Tina Turner
+# metre: 4/4
+# tonic: G#
+
+0.000000000	silence
+0.325079365	A, intro, | G#:min7 | G#:min7 | F#:maj/9 | F#:maj/9 |, (synth
+10.257210884	| G#:min7 | G#:min7 | F#:maj/9 | F#:maj/9 |, synth)
+20.094399092	A, verse, | G#:min7 | G#:min7 | F#:maj/9 | F#:maj/9 |, (voice
+29.935918367	| G#:min7 | G#:min7 | F#:maj/9 |
+37.223015873	B, pre-chorus, | E:maj F#:maj | F#:maj | E:maj F#:maj | F#:maj |
+47.075623582	| E:maj | F#:maj |
+51.980090702	C, chorus, | B:maj F#:maj | E:maj F#:maj | B:maj F#:maj | E:maj F#:maj |
+61.772312925	| B:maj F#:maj | E:maj F#:maj | B:maj F#:maj | E:maj F#:maj |
+71.548140589	A, verse, | G#:min7 | G#:min7 | F#:maj/9 | F#:maj/9 |
+81.381700680	| G#:min7 | G#:min7 | F#:maj/9 | F#:maj/9 |
+88.779954648	B, pre-chorus, | E:maj F#:maj | F#:maj | E:maj F#:maj | F#:maj |
+98.543401360	| E:maj | F#:maj |
+103.484512471	C, chorus, | B:maj F#:maj | E:maj F#:maj | B:maj F#:maj | E:maj F#:maj |
+113.278639455	| B:maj F#:maj | E:maj F#:maj | B:maj F#:maj | E:maj F#:maj |, voice)
+123.076190476	D, solo, | C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | F#:maj G#:maj |, (harmonica
+132.892063492	| C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | (2/4) F#:maj |, harmonica)
+141.476394557	E, bridge, | B:maj/9 | C#:maj | B:maj/9 | C#:maj |, (voice
+151.277596371	| A:maj | B:maj/b7 | G#:min7 | C#:maj |
+161.095736961	C, chorus, | C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | F#:maj G#:maj |
+170.885691609	| C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | (2/4) F#:maj |
+179.511723356	| C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | F#:maj G#:maj |
+189.347959183	| C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | (2/4) F#:maj |
+197.880362811	| C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | F#:maj G#:maj |
+207.717482993	fadeout, | C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | (2/4) F#:maj |
+216.283378684	| C#:maj G#:maj | F#:maj G#:maj | C#:maj G#:maj | F#:maj G#:maj |, voice)
+226.873469387	silence
+229.052131519	end

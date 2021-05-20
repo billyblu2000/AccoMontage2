@@ -1,0 +1,37 @@
+# title: Do You Love Me
+# artist: The Contours
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.371519274	A, intro, | F:maj . . . | Bb:maj . . . | C:maj . . . | D:min . . . |, (voice
+9.812448979	| C:maj . . . | N . . . | C:maj . . . |
+16.509387755	B, chorus, | F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+22.913469387	| F:maj . F:maj/3 . | Bb:maj . C:maj . |
+26.074920634	| Bb:maj . . . | Bb:min . . . |
+29.299727891	| C:maj . . . | C:7 . . . | C:7 . . . | C:7 . . . |
+35.719229024	C, verse, | F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+42.144807256	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . . . | C:maj . . . |
+48.491383219	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+54.85292517	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+61.307596371	| C:maj . . . | C:7 . . . | C:7 . . . | C:7 . . . |
+67.68585034	B, chorus, | F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+74.07739229	| F:maj . F:maj/3 . | Bb:maj . C:maj . |
+77.296349206	| Bb:maj . . . | Bb:min . . . |
+80.505986394	| C:maj . . . | C:7 . . . | C:7 . . . | C:7 . . . |
+86.91430839	C, verse, | F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+93.347981859	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . . . | C:maj . . . |
+99.719954648	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+106.175736961	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . . . | C:maj . . . |
+112.458639455	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+118.854852607	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+125.227256235	| C:maj . . . | C:7 . . . | C:7 . . . | C:7 . . . |
+131.665941043	B', chorus, | F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+138.013741496	| F:maj . F:maj/3 . | Bb:maj . C:maj . |
+141.18755102	| C:maj . . . | C:7 . . . | C:7 . . . | C:7 . . . |
+147.594535147	C, verse, | F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+154.02063492	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . . . | C:maj . . . |
+160.417074829	fadeout, | F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . F:maj/3 . | Bb:maj . C:maj . |
+166.829841269	| F:maj . F:maj/3 . | Bb:maj . C:maj . | F:maj . . . | C:maj . . . |, voice)
+171.316825396	silence
+174.367346938	end

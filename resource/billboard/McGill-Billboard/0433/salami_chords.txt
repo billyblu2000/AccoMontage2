@@ -1,0 +1,37 @@
+# title: If I Could Reach You
+# artist: The 5th Dimension
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.208979591	A, intro, | Bb:maj | Bb:maj7 | Ab:maj6/9 | Bb:maj7 |, (piano
+6.345623582	| Bb:maj | Bb:maj7 | Ab:maj6/9 | Bb:maj7 |, piano)
+12.542471655	B, verse, | G:min | G:min | D:min | D:min |, (voice
+18.62015873	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+24.851882086	| Eb:maj | Eb:maj | Bb:maj/3 | Bb:maj/3 Bb:maj |
+30.958163265	| C:min | C:min | Eb:maj/9 | F:maj |
+37.269002267	| G:min | G:min | D:min | D:min |
+43.583537414	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+49.88	| Eb:maj | Eb:maj | Bb:maj/3 | Bb:maj/3 |
+56.105192743	| C:min | C:min | Eb:maj/9 | F:maj |
+62.549614512	C, chorus, | Bb:maj7 | Bb:maj7 | Eb:maj7 | Eb:maj7 |
+69.049818594	| Bb:maj7 | Bb:maj7 | Eb:maj7 | Eb:maj7 |
+75.36585034	| D:min | D:min | G:min | G:min |
+81.618004535	| D:min | D:min | G:min | G:min |
+87.897097505	| C:min | C:min | Eb:maj/9 | F:maj |, voice)
+94.180770975	A, trans, | Bb:maj | Bb:maj7 | Ab:maj6/9 | Bb:maj7 |, (piano
+100.438798185	| Bb:maj | Bb:maj7 | Ab:maj6/9 | Bb:maj7 |, piano)
+106.583582766	B, verse, | G:min | G:min | D:min | D:min |, (voice
+112.906666666	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+119.279886621	| Eb:maj | Eb:maj | Bb:maj/3 | Bb:maj/3 |
+125.512902494	| C:min | C:min | Eb:maj/9 | F:maj |
+131.971564625	C, chorus, | Bb:maj7 | Bb:maj7 | Eb:maj7 | Eb:maj7 |
+138.528571428	| Bb:maj7 | Bb:maj7 | Eb:maj7 | Eb:maj7 |
+144.879931972	| D:min | D:min | G:min | G:min |
+151.287959183	| D:min | D:min | G:min | G:min |
+157.613106575	| C:min | C:minmaj7 | Eb:maj/9 | F:maj |, voice)
+163.982312925	A', outro, | Bb:maj7 | Bb:maj7 | Eb:maj7 | Eb:maj7 |
+170.305283446	| Bb:maj7 | Bb:maj7 | Eb:maj7 | Eb:maj7 |
+177.582290249	| Bb:maj |
+184.645079365	silence
+189.283265306	end

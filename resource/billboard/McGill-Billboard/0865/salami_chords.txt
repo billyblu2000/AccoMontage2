@@ -1,0 +1,37 @@
+# title: Don't Talk To Strangers
+# artist: Rick Springfield
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.208979591	A', intro, | (2/4) G:min |
+1.028072562	| C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) | C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) |
+8.764807256	A, verse, | C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) | C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) |, (voice
+16.484535147	| C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) | C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) |
+24.268911564	| (2/4) N |
+25.213492063	| C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) | C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) |
+32.987528344	| C#:1 C#:sus4(b7,9) C#:min7 . | (2/4) G#:min7 | B:sus4(b7,9) | B:sus4(b7,9) |
+39.72723356	B, chorus, | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 |
+47.647528344	| A:5 B:maj/b7 A:maj9 . | B:maj/b7 . A:maj9 B:maj6 | C#:5 C#:sus4(b7) C#:min7 . | C#:sus4(b7) . C#:min7 B:maj6 |
+55.498367346	| A:5 B:maj/b7 A:maj9 . | B:maj/b7 . A:maj9 B:maj6 |, voice)
+59.377596371	| C#:sus4(b7,9) | C#:sus4(b7,9) |
+63.262108843	A, verse, | C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) | C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) |, (voice
+71.096938775	| C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) | B:sus4(b7,9) | B:sus4(b7,9) G#:min7 . . |
+78.862040816	| (2/4) N |
+79.857596371	| C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) | C#:1 C#:sus4(b7,9) C#:min7 . | G#:min7 B:sus4(b7,9) |
+87.601791383	| C#:1 C#:sus4(b7,9) C#:min7 . | (2/4) G#:min7 | B:sus4(b7,9) | B:sus4(b7,9) |
+94.373265306	B, chorus, | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 |
+102.185918367	| A:5 B:maj/b7 A:maj9 . | B:maj/b7 . A:maj9 B:maj6 | C#:5 C#:sus4(b7) C#:min7 . | C#:sus4(b7) . C#:min7 B:maj6 |
+110.020181405	| A:5 B:maj/b7 A:maj9 . | B:maj/b7 . A:maj9 B:maj6 |, voice)
+113.921111111	| C#:sus4(b7,9) | C#:sus4(b7,9) |
+117.743129251	C, bridge, | B:maj B:maj/b7 | E:maj(9)/3 | B:maj B:maj/b7 | E:maj(9)/3 |, (voice
+125.531247165	| B:maj B:maj/b7 | E:maj(9)/3 . A:maj B:maj |
+129.364126984	B, chorus, | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 |
+137.23478458	| A:5 B:maj/b7 A:maj9 . | B:maj/b7 . A:maj9 B:maj6 | C#:5 C#:sus4(b7) C#:min7 . | C#:sus4(b7) . C#:min7 B:maj6 |
+145.039433106	| A:5 B:maj/b7 A:maj9 . | B:maj/b7 . A:maj9 B:maj6 |, voice)
+148.977414965	B', outro, | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 |
+156.77185941	fadeout, | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 |
+164.585827664	| E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 | E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 |
+172.375192743	| E:1 B:maj/11 E:maj . | C#:min9 . C#:min7 B:maj6 |
+174.892698412	silence
+181.368163265	end

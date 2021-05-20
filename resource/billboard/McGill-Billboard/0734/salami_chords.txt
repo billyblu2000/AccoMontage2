@@ -1,0 +1,23 @@
+# title: I Will
+# artist: Dean Martin
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | D:maj D:maj6 | D:maj7 D:maj6 | D:maj D:maj6 | D:maj7 D:maj6 |, (brass)
+9.74648526	B, verse, | D:maj D:maj6 | D:maj7 D:maj6 | A:maj A:maj(9) | A:maj A:maj(9) |, (voice
+18.958072562	| A:maj A:maj(9) | A:maj A:maj(9) | D:maj D:maj6 | D:maj7 D:maj6 |
+28.237641723	| D:7 | D:7 | G:maj | G:min |
+37.434172335	| D:maj | A:7 | D:maj D:maj6 | D:maj7 D:maj6 |
+46.660816326	B', verse, | D:maj D:maj6 | D:maj7 D:maj6 | A:maj A:maj(9) | A:maj A:maj(9) |
+55.904444444	| A:maj A:maj(9) | A:maj A:maj(9) | D:maj D:maj6 | D:maj7 D:maj6 |
+65.152879818	| D:7 | D:7 | G:maj | G:min |
+74.382811791	| D:maj | A:7 | D:maj D:maj6 | A:7 |
+83.629160997	B'', verse, | D:maj D:maj6 | D:maj7 D:maj6 | A:maj A:maj(9) | A:maj A:maj(9) |
+92.834988662	| A:maj A:maj(9) | A:maj A:maj(9) | D:maj D:maj6 | D:maj7 D:maj6 |
+102.076349206	| D:7 | D:7 | G:maj | G:min |
+111.294920634	| D:maj | A:7 | D:maj D:maj6 | D:maj7 D:maj6 |
+120.533015873	| D:maj | A:7 | &pause |
+127.779319727	| D:maj | D:maj | D:maj | D:maj |, voice)
+140.521020408	silence
+142.585555555	end

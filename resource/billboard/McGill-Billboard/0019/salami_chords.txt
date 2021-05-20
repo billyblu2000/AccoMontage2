@@ -1,0 +1,22 @@
+# title: Here's Some Love
+# artist: Tanya Tucker
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+5.3061224e-2	A, intro, | Bb:min | Eb:min | Gb:maj6 | Ab:maj |, (guitar)
+14.391836734	| Db:maj |
+17.991836734	B, verse, | Db:maj Gb:maj/5 | Ab:maj Db:maj/5 | Db:maj Gb:maj/5 | Ab:maj . Gb:maj/9 Ab:maj |, (voice
+32.326530612	| Db:maj Gb:maj/5 | Ab:maj Db:maj/5 | Bb:min Bb:min/b7 Gb:maj . | Ab:maj |
+46.587755102	C, chorus, | Gb:maj | Db:maj | Ab:maj | Db:maj Db:7 |
+60.775510204	| Gb:maj | Db:maj | Ab:maj | Gb:maj Db:maj |, voice)
+74.995918367	A, interlude, | Bb:min | Eb:min | Gb:maj6 | Ab:maj |, (guitar)
+89.395918367	| Db:maj |
+93.126530612	B, verse, | Db:maj Gb:maj/5 | Ab:maj Db:maj/5 | Db:maj Gb:maj/5 | Ab:maj . Gb:maj/9 Ab:maj |, (voice
+107.265306122	| Db:maj Gb:maj/5 | Ab:maj Db:maj/5 | Bb:min Bb:min/b7 Gb:maj . | Ab:maj |
+121.608163265	C, chorus, | Gb:maj | Db:maj | Ab:maj | Db:maj Db:7 |
+135.722448979	| Gb:maj | Db:maj | Ab:maj | (2/4) Gb:maj | Bb:min . . Ab:maj |
+151.657142857	C, chorus, | Gb:maj | Db:maj | Ab:maj | Db:maj Db:7 |, fadeout
+165.665306122	| Gb:maj | Db:maj | Ab:maj | Gb:maj Db:maj |, voice)
+176.293877551	silence
+177.815510204	end

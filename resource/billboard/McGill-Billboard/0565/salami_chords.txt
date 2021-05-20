@@ -1,0 +1,29 @@
+# title: Judy
+# artist: Elvis Presley
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.394739229	A, intro, | D:7 | D:7 |
+3.865056689	B, verse, | G:maj | G:maj | G:maj | G:maj |, (voice
+10.578684807	| G:maj | G:maj | D:7 | D:7 |
+17.318888888	| G:maj | G:7 | C:maj | C:maj |
+24.103809523	| A:7 | A:7 | D:7 | D:7 |
+30.858684807	C, chorus, | G:maj | G:maj | G:maj | G:maj | G:maj |
+39.413197278	| D:7 | D:7 | D:7 | D:7 |
+46.176462585	| D:7 | D:7 | G:maj | G:maj |
+52.926961451	| G:maj | G:maj | G:maj | G:maj |
+59.773968253	| C:maj | C:maj | D:7 | D:7 |
+66.501768707	| D:7 | D:7 | G:maj | G:maj |, voice)
+73.339115646	C', solo, | G:maj | G:maj | G:maj | G:maj |, (piano
+80.161133786	| D:maj | D:maj | D:7 | D:7 | D:7 |
+88.64755102	| G:maj | G:maj |, piano)
+92.017029478	| G:maj | G:maj | G:maj | G:maj |, (voice
+98.887913832	| C:maj | C:maj |
+102.211065759	| D:7 | D:7 | D:7 | D:7 |
+109.098843537	| G:maj | G:maj |
+112.559773242	fadeout, | D:7 | D:7 | D:7 | D:7 |
+119.36371882	| G:maj | G:maj |
+122.776916099	| D:7 | D:7 | D:7 | D:7 |, voice)
+129.729886621	silence
+132.466938775	end

@@ -1,0 +1,24 @@
+# title: I Rise, I Fall
+# artist: Johnny Tillotson
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.278639455	A, verse, | E:maj | C#:min | A:maj B:maj | E:maj |, (voice
+9.514399092	| E:maj | C#:min | A:maj B:maj | E:maj |
+17.867052154	| A:maj | B:maj | G#:maj | C#:min |
+26.275918367	| A:maj | B:maj | E:maj | B:maj |
+34.675351473	A, verse, | E:maj | C#:min | A:maj B:maj | E:maj |
+43.073015873	| E:maj | C#:min | A:maj B:maj | E:maj |
+51.559795918	| A:maj | B:maj | G#:maj | C#:min |
+59.985510204	| A:maj | B:maj | E:maj | E:7 |
+68.461269841	B, bridge, | A:maj | G#:min7 | A:maj | E:maj E:7 |
+76.865941043	| A:maj | G#:min7 | F#:7 | B:maj | B:maj A:maj G#:min F#:min |
+87.514512471	A', verse, | E:maj | C#:min | A:maj B:maj | E:maj |
+95.986757369	| E:maj | C#:min | A:maj B:maj | E:maj |
+104.401587301	| A:maj | B:maj | G#:maj | C#:min |
+112.930249433	| A:maj | B:maj | E:maj | E:7 |
+121.365827664	| A:maj | B:maj | ->
+125.684739229	| E:maj | C#:min | E:maj | E:maj |, voice)
+135.256235827	silence
+138.24	end

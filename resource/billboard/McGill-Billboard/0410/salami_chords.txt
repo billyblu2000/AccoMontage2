@@ -1,0 +1,29 @@
+# title: Jimmy's Girl
+# artist: Johnny Tillotson
+# metre: 4/4
+# tonic: Db
+
+0.000000000	silence
+0.325079365	A, intro, | Db:maj7 | Eb:min7 Ab:7 |, (voice
+4.838390022	| Db:maj7 | Eb:min7 Ab:7 |
+9.118435374	| Db:maj7 | Eb:min7 Ab:7 |
+13.563015873	| Db:maj7 | Eb:min7 Ab:7 |
+17.937573696	B, verse, | Db:maj7 | Db:maj7 | Db:maj7 | Eb:min7 Ab:13 |
+26.884535147	| Db:maj7 | Eb:min7 Ab:13 | Db:maj7 | Eb:min7 Ab:13 |
+35.588027210	| Db:maj7 | Db:maj7 | Db:maj7 | Eb:min7 Ab:13 |
+44.389909297	| Db:maj7 | Eb:min7 Ab:13 | Db:maj | Db:7 |
+53.342721088	C, bridge, | Gb:maj7 | Ab:7 | Db:maj7 | Bb:min |
+62.197278911	| Eb:min7 | Ab:13 | Db:maj | Db:7 |
+71.022585034	| Gb:maj7 | Ab:7 | Db:maj7 | Bb:min |
+79.949319727	| Eb:9 | Eb:9 | Ab:7 | Ab:7 |
+88.813650793	B, verse, | Db:maj7 | Db:maj7 | Db:maj7 | Eb:min7 Ab:13 |
+97.662562358	| Db:maj7 | Eb:min7 Ab:13 | Db:maj | Db:7 |
+106.485941043	C', bridge, | Gb:maj7 | Ab:7 | Db:maj7 | Bb:min |
+115.428594104	| Eb:9 | Eb:9 | Ab:7 | Ab:7 |
+124.291133786	B, verse, | Db:maj7 | Db:maj7 | Db:maj7 | Eb:min7 Ab:13 |
+133.068367346	| Db:maj7 | Eb:min7 Ab:13 | Db:maj7 | Eb:min7 Ab:13 |
+141.913242630	| Db:maj7 | Eb:min7 Ab:7 |
+146.350022675	B', coda, | Db:maj7 | Ab:7 | Db:maj7 | Db:maj7 | &pause |, voice)
+158.243990929	| Db:maj6(9) |, (piano)
+162.121723356	silence
+164.989387755	end

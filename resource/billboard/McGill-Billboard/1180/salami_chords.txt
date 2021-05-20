@@ -1,0 +1,38 @@
+# title: Lucky Man
+# artist: Emerson, Lake & Palmer
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.255419501	A', intro, | G:maj | D:maj/3 | G:maj | D:maj/3 |, (acoustic guitar)
+9.701133786	A, verse, | G:maj | D:maj/3 | G:maj | D:maj/3 |, (voice
+19.04786848	| G:maj | D:maj/3 | G:maj | D:maj/3 |
+28.440680272	B, chorus, | A:min | E:min7 | D:maj | D:maj |
+37.614036281	| A:min | E:min7 | D:maj | D:maj |
+46.698117913	C, verse, | G:maj | D:maj | G:maj | D:maj |
+56.147460317	| G:maj | D:maj | G:maj | D:maj |
+65.451247165	B, chorus, | A:min | E:min7 | D:maj | D:maj |
+74.654693877	| A:min | E:min7 | D:maj | D:maj |, voice)
+84.031428571	D, solo, | G:maj | D:maj | G:maj | D:maj |, (guitar
+93.428820861	| G:maj | D:maj | G:maj | D:maj |
+102.617891156	| A:min | E:min7 | D:maj | D:maj |
+112.039047619	| A:min | E:min7 | D:maj | D:maj |, guitar)
+121.440249433	C, verse, | G:maj | D:maj | G:maj | D:maj |, (voice
+130.931723356	| G:maj | D:maj | G:maj | D:maj |
+140.322222222	B, chorus, | A:min | E:min7 | D:maj | D:maj |
+149.427256235	| A:min | E:min7 | D:maj | D:maj |
+158.523492063	C, verse, | G:maj | D:maj | G:maj | D:maj |
+168.322154195	| G:maj | D:maj | G:maj | D:maj |
+178.109818594	B, chorus, | A:min | E:min7 | D:maj | D:maj |
+187.387732426	| A:min | E:min7 | D:maj | D:maj |, voice)
+196.57600907	E, outro, | A:min | E:min7 | D:maj | D:maj |, (synth
+205.48430839	| A:min | E:min7 | D:maj | D:maj |
+214.327913832	| A:min | E:min7 | D:maj | D:maj |
+223.311451247	| A:min | E:min7 | D:maj | D:maj |
+232.223265306	| A:min | E:min7 | D:maj | D:maj |
+241.23063492	| N | N | N | N |
+250.367845804	| N | N | N | N |
+259.338662131	| N | N | N | N |
+268.345918367	| N |, synth)
+275.701995464	silence
+280.899047619	end

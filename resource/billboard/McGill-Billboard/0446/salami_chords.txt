@@ -1,0 +1,42 @@
+# title: Back Home Again
+# artist: John Denver
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.371519274	A, intro, | E:maj | E:maj | E:maj | E:maj |, (guitar)
+8.638956916	B, verse, | E:maj | E:maj | A:maj | A:maj |, (voice
+16.65292517	| B:maj | B:7 | E:maj | E:maj |
+24.903469387	B, verse, | E:maj | E:7 | A:maj | A:maj |
+33.113673469	| B:maj | B:7 | E:maj | E:maj |
+41.353038548	B, verse, | E:maj | E:7 | A:maj | A:maj |
+49.612222222	| B:maj | B:7 | E:maj | E:maj |
+57.801814058	B, verse, | E:maj | E:7 | A:maj | A:maj |
+66.001519274	| B:maj | B:7 | E:maj | E:maj |
+74.134852607	C, chorus, | A:maj | B:maj | E:maj | E:maj |
+82.363854875	| A:maj | B:maj | E:maj | A:maj |
+90.611655328	| B:maj | B:7 | E:maj | E:maj |
+98.754081632	B, verse, | E:maj | E:7 | A:maj | A:maj |
+106.872698412	| B:maj | B:7 | E:maj | E:maj |
+114.995124716	B, verse, | E:maj | E:7 | A:maj | A:maj |
+123.206031746	| B:maj | B:7 | E:maj | E:maj |
+131.342607709	C, chorus, | A:maj | B:maj | E:maj | E:maj |
+139.488956916	| A:maj | B:maj | E:maj | A:maj |
+147.6761678	| B:maj | B:7 | E:maj | E:7 |
+155.756190476	D, bridge, | A:maj | B:maj | E:maj | A:maj |
+163.894285714	| F#:min | B:maj | E:maj | E:7 |
+172.015600907	| A:maj | B:maj | E:maj | A:maj |
+180.117301587	| F#:min | A:maj | B:maj | B:maj |
+188.312448979	B, verse, | E:maj | E:7 | A:maj | A:maj |
+196.465759637	| B:maj | B:7 | E:maj | E:maj |
+204.56648526	B, verse, | E:maj | E:maj | A:maj | A:maj |
+212.628072562	| B:maj | B:7 | E:maj | E:7 |
+220.827188208	C, chorus, | A:maj | B:maj | E:maj | E:maj |
+228.950657596	| A:maj | B:maj | E:maj | A:maj |
+237.039002267	| B:maj | B:7 | E:maj | E:maj |
+245.152607709	C, chorus, | A:maj | B:7 | E:maj | E:7 |
+253.170839002	| A:maj | B:7 | E:maj | A:maj |
+261.294444444	| B:maj | B:7 | E:maj | E:maj |
+269.381201814	outro, | B:maj | B:7 | A:maj | A:maj E:maj |, voice)
+282.168888888	silence
+286.484897959	end

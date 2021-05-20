@@ -1,0 +1,31 @@
+# title: Sweet Soul Music
+# artist: Arthur Conley
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.325079365	A, intro, | C:maj | C:maj | C:maj | C:maj |, (trumpet)
+6.559954648	B', chorus, | C:maj | (2/4) N |, (voice
+8.869818594	| C:maj | F:maj | F:maj | C:maj | C:maj |
+14.81494331	| F:maj | A:min G:maj | F:maj C:maj |
+19.300702947	B, verse, | C:maj | F:maj | F:maj | C:maj | C:maj |
+26.724807256	| F:maj | A:min G:maj | F:maj C:maj |
+31.187052154	| C:maj | F:maj | F:maj | C:maj | C:maj |
+38.754829931	| F:maj | A:min G:maj | F:maj C:maj |
+43.263945578	B, verse, | C:maj | F:maj | F:maj | C:maj | C:maj |
+50.740498866	| F:maj | A:min G:maj | F:maj C:maj |
+55.230839002	| C:maj | F:maj | F:maj | C:maj | C:maj |
+62.671156462	| F:maj | A:min G:maj | F:maj C:maj |
+67.195804988	B'', verse, | C:maj | F:maj | F:maj | C:maj | C:maj |
+74.68739229	| F:maj | A:min G:maj | F:maj C:maj |
+79.210045351	C, instrumental, | C:maj | C:maj | C:maj | F:maj C:maj | F:maj C:maj | F:maj C:maj |
+88.328730158	B''', verse, | N | F:maj | F:maj | C:maj | C:maj |
+95.785011337	| F:maj | A:min G:maj | F:maj C:maj |
+100.277777777	B'''', chorus, | C:maj | F:maj | F:maj | C:maj | C:maj |
+107.746598639	| F:maj | A:min G:maj | F:maj C:maj |
+112.224988662	D, outro, | C:maj | C:maj | C:maj | C:maj |
+118.165283446	| C:maj | C:maj | C:maj | C:maj |
+124.158662131	| C:maj | C:maj | C:maj | C:maj |
+130.113605442	fadeout, | C:maj | C:maj | C:maj | C:maj |, voice)
+137.377142857	silence
+143.075941043	end

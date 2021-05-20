@@ -1,0 +1,30 @@
+# title: Secret Love
+# artist: Freddy Fender
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.116099773	A, intro, | * | * |, (strings)
+5.37494331	B, verse, | G:maj | G:maj | G:maj | G:maj |, (voice
+15.677278911	| G:maj | G:maj | A:min | D:maj |
+25.938435374	| A:min | D:maj | A:min | D:maj |
+36.271496598	| A:min | D:maj | G:maj | G:maj |
+46.606122448	B, verse, | G:maj | G:maj | G:maj | G:maj |
+56.949501133	| G:maj | G:maj | A:min | D:maj |
+67.222698412	| A:min | D:maj | A:min | D:maj |
+77.515487528	| A:min | D:maj | G:maj | G:maj |
+87.937346938	C, chorus, | E:min | A:maj | D:maj | D:maj |
+98.192539682	| D:min | G:maj G:7 | C:maj | C:min |
+108.556734693	| G:maj | G:maj | G:maj F:maj | E:maj . . E:7 |
+118.896371882	| A:min | D:maj | G:maj | G:maj |, voice)
+129.193469387	| G:maj | G:maj | G:maj F:maj | E:maj |, (strings
+139.499160997	| A:maj | D:maj | G:maj | G:maj |, strings)
+149.784965986	C, chorus, | E:min | A:maj | D:maj | D:maj |, (voice
+160.126077097	| D:min | G:maj G:7 | C:maj | C:min | &pause |
+171.711564625	| G:maj | G:maj | G:maj F:maj | E:maj . . E:7 |
+182.074829931	| A:min | D:maj |, voice)
+187.161519274	| G:maj F:maj | E:maj . . E:7 |, (strings)
+192.353015873	| A:min | D:maj | &pause |, (voice
+198.762811791	| G:maj | G:maj | G:maj | G:maj |, voice)
+212.160725623	silence
+214.857142857	end

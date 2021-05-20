@@ -1,0 +1,25 @@
+# title: My Love
+# artist: Paul McCartney & Wings
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.534058956	A, intro, | (6/4) A:1 |
+6.130068027	B, verse, | Bb:maj7 | Bb:maj7 | A:min7 | D:9 |, (voice
+21.921315192	| G:min7 | A:min7 Bb:maj7 | G:9/3 |
+33.692154195	C, chorus, | F:maj | G:min7 | Bb:maj7 | F:maj |
+49.621043083	B, verse, | Bb:maj7 | Bb:maj7 | A:min7 | D:9 |
+65.573287981	| G:min7 | A:min7 Bb:maj7 | G:9/3 |
+77.628367346	C, chorus, | F:maj | G:min7 | Bb:maj7 | F:maj |
+93.831836734	D, bridge, | G:min7 . C:7/3 C:7 | F:maj A:7 | Bb:maj7 C:7 | F:maj F:7/3 |
+109.807165532	| G:min7 . C:7/3 C:7 | F:maj A:7 | Bb:maj7 C:7 | F:maj |, voice)
+126.13079365	B, solo, | Bb:maj7 | Bb:maj7 | A:min7 | D:9 |, (guitar
+141.920362811	| G:min7 | A:min7 Bb:maj7 | G:9/3 |, guitar)
+153.692879818	C, chorus, | F:maj | G:min7 | Bb:maj7 | F:maj |, (voice
+169.853968253	B, verse, | Bb:maj7 | Bb:maj7 | A:min7 | D:9 |
+185.806077097	| G:min7 | A:min7 Bb:maj7 | G:9/3 |
+197.578594104	C, chorus, | F:maj | G:min7 | Bb:maj7 | F:maj |
+213.739682539	D', coda, | G:min7 . C:7/3 C:7 | F:maj A:7 | Bb:maj7 C:7 | &pause |
+230.22585034	| F:maj A:min7 | Bb:maj7 C:7 | F:maj |, voice)
+245.899319727	silence
+247.771428571	end

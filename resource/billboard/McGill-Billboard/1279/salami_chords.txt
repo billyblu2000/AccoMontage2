@@ -1,0 +1,58 @@
+# title: Let The Music Play 
+# artist: Shannon
+# tonic: C
+# metre: 4/4
+
+0.000000000	silence
+0.394739229	Z
+18.808163265	A, intro, | C:min | Ab:maj Bb:maj |, (synth
+22.994217687	| C:min | Ab:maj Bb:maj |
+27.107142857	| C:min | Ab:maj Bb:maj |
+31.178367346	| C:min | Ab:maj Bb:maj |
+35.365464852	| C:min | Ab:maj Bb:maj |, synth)
+39.482222222	A, verse, | C:min | Ab:maj Bb:maj |, (voice
+43.586281179	| C:min | Ab:maj Bb:maj |
+47.722380952	| C:min | Ab:maj Bb:maj |
+51.853718820	| C:min | Ab:maj Bb:maj |
+55.966099773	| C:min | Ab:maj Bb:maj |
+60.122947845	| C:min | Ab:maj Bb:maj |
+64.289410430	A, pre-chorus, | C:min | Ab:maj Bb:maj |
+68.394625850	| C:min | Ab:maj Bb:maj |
+72.510453514	| C:min | Ab:maj Bb:maj |
+76.638684807	| C:min | Ab:maj Bb:maj |
+80.773560090	A, pre-chorus two, | C:min | Ab:maj Bb:maj |
+84.893741496	| C:min | Ab:maj Bb:maj |
+88.973741496	| C:min | Ab:maj Bb:maj |
+93.149546485	| C:min | Ab:maj Bb:maj |
+97.237800453	| C:min | Ab:maj Bb:maj |
+101.365691609	A, chorus, | C:min | Ab:maj Bb:maj |
+105.512403628	| C:min | Ab:maj Bb:maj |
+109.676643990	| C:min | Ab:maj Bb:maj |
+113.765691609	| C:min | Ab:maj Bb:maj |, voice)
+117.893968253	A, interlude, | C:min | Ab:maj Bb:maj |, (synth)
+121.949773242	A, verse, | C:min | Ab:maj Bb:maj |, (voice
+126.093990929	| C:min | Ab:maj Bb:maj |
+130.163877551	| C:min | Ab:maj Bb:maj |
+134.245963718	A, pre-chorus, | C:min | Ab:maj Bb:maj |
+138.382131519	| C:min | Ab:maj Bb:maj |
+142.514739229	| C:min | Ab:maj Bb:maj |
+146.619954648	| C:min | Ab:maj Bb:maj |
+150.724761904	A, pre-chorus two, | C:min | Ab:maj Bb:maj |
+154.773764172	| C:min | Ab:maj Bb:maj |
+158.885396825	| C:min | Ab:maj Bb:maj |
+162.981723356	| C:min | Ab:maj Bb:maj |
+167.101700680	A, chorus, | C:min | Ab:maj Bb:maj |
+171.246780045	| C:min | Ab:maj Bb:maj |
+175.333628117	| C:min | Ab:maj Bb:maj |
+179.445328798	| C:min | Ab:maj Bb:maj |, voice)
+183.586394557	A, interlude, | C:min | Ab:maj Bb:maj |, (synth
+187.688049886	A, outro, | C:min | Ab:maj Bb:maj |
+191.829841269	| C:min | Ab:maj Bb:maj |
+195.925487528	| C:min | Ab:maj Bb:maj |
+199.998662131	| C:min | Ab:maj Bb:maj |
+204.109659863	| C:min | Ab:maj Bb:maj |
+208.213492063	| C:min | Ab:maj Bb:maj |
+212.349727891	| C:min | Ab:maj Bb:maj |
+216.405668934	| C:min | Ab:maj Bb:maj |, synth)
+220.473469387	silence
+222.493242630	end

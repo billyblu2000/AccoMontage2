@@ -1,0 +1,66 @@
+# title: Upside Down
+# artist: Diana Ross
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.348299319	A, intro, | G:min7 C:maj | F:maj G:min7 |, (strings
+5.966462585	| Bb:maj C:maj | F:maj G:min7 |, strings)
+10.421020408	B, chorus, | G:min7 C:maj | F:maj G:min7 |, (voice
+14.844036281	| Bb:maj C:maj | F:maj G:min7 |
+19.311179138	C, verse, | G:min7 C:maj | F:maj G:min7 |
+23.752312925	| Bb:maj C:maj | F:maj G:min7 |
+28.219070294	| G:min7 C:maj | F:maj G:min7 |
+32.694693877	| Bb:maj C:maj | F:maj G:min7 |, voice)
+37.175736961	| (2/4) G:min7 Ab:min |, (strings)
+# tonic: Bb
+38.251224489	D, bridge, | Bb:min7 | Bb:min7 |, (voice
+42.678163265	| Bb:min7 | Bb:min7 |
+47.075464852	| Bb:min7 | Bb:min7 |
+51.525623582	| Bb:min7 | (2/4) Bb:min7 |
+# tonic: G
+54.785941043	C, verse, | G:min7 C:maj | F:maj G:min7 |
+59.238140589	| Bb:maj C:maj | F:maj G:min7 |
+63.70723356	| G:min7 C:maj | F:maj G:min7 |
+68.110839002	| Bb:maj C:maj | F:maj G:min7 |, voice)
+72.603219954	| (2/4) G:min7 Ab:min |, (strings)
+# tonic: Bb
+73.704716553	D, bridge, | Bb:min7 | Bb:min7 |, (voice
+78.125306122	| Bb:min7 | Bb:min7 |
+82.541972789	| Bb:min7 | Bb:min7 |
+86.902585034	| Bb:min7 | (2/4) Bb:min7 |
+# tonic: G
+90.150453514	C, verse, | G:min7 C:maj | F:maj G:min7 |
+94.544852607	| Bb:maj C:maj | F:maj G:min7 |
+99.035124716	| G:min7 C:maj | F:maj G:min7 |
+103.513741496	| Bb:maj C:maj | F:maj G:min7 |, voice)
+107.984376417	| (2/4) G:min7 Ab:min |, (strings)
+# tonic: Bb
+109.101224489	D, bridge, | Bb:min7 | Bb:min7 |, (voice
+113.481882086	| Bb:min7 | Bb:min7 |
+117.84430839	| Bb:min7 | Bb:min7 |
+122.276621315	| Bb:min7 | (2/4) Bb:min7 |
+# tonic: G
+125.519795918	C, verse, | G:min7 C:maj | F:maj G:min7 |
+129.956961451	| Bb:maj C:maj | F:maj G:min7 |
+134.41430839	| G:min7 C:maj | F:maj G:min7 |
+138.836984126	| Bb:maj C:maj | F:maj G:min7 |
+143.305646258	C, verse, | G:min7 C:maj | F:maj G:min7 |
+147.782267573	| Bb:maj C:maj | F:maj G:min7 |
+152.165396825	| G:min7 C:maj | F:maj G:min7 |
+156.6123356	| Bb:maj C:maj | F:maj G:min7 |
+161.050204081	B, chorus, | G:min7 C:maj | F:maj G:min7 |
+165.544580498	| Bb:maj C:maj | F:maj G:min7 |
+169.98185941	| G:min7 C:maj | F:maj G:min7 |
+174.46201814	| Bb:maj C:maj | F:maj G:min7 |
+178.91356009	B, chorus, | G:min7 C:maj | F:maj G:min7 |
+183.397528344	| Bb:maj C:maj | F:maj G:min7 |
+187.794240362	| G:min7 C:maj | F:maj G:min7 |
+192.246712018	| Bb:maj C:maj | F:maj G:min7 |
+196.671609977	B, chorus, | G:min7 C:maj | F:maj G:min7 |, voice)
+201.048321995	| Bb:maj C:maj | F:maj G:min7 |, (guitar
+205.507596371	| G:min7 C:maj | F:maj G:min7 |
+210.01201814	fadeout, | Bb:maj C:maj | F:maj G:min7 |
+214.451111111	| G:min7 C:maj | F:maj G:min7 |, guitar)
+218.128253968	silence
+222.72	end

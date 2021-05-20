@@ -1,0 +1,26 @@
+# title: Hey You! Get Off My Mountain
+# artist: The Dramatics
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.325079365	A, intro, | A:11 | F#:min/b3 | A:11 | F#:min/b3 |, (trumpets)
+13.099546485	C, chorus, | A:11 | F#:min/b3 | A:11 | F#:min/b3 |, (voice
+25.022879818	| A:11 | F#:min/b3 | A:11 | A:11 |
+37.19600907	| A:maj |
+40.263378684	D, verse, | D:maj9 | D:maj9 | A:11 | A:11 |
+52.426213151	| D:maj9 | D:maj9 | A:11 | A:11 |
+64.744512471	B, prechorus, | A:11 | F#:min7 B:7 | A:11 | F#:min7 B:7 |
+76.950612244	| A:11 | F#:min7 | G:maj7 | A:11 |
+89.253537414	C, chorus, | A:11 | F#:min/b3 | A:11 | F#:min/b3 |
+101.471746031	| A:11 | F#:min/b3 | A:11 | A:11 |
+113.626870748	| A:11 | A:11 | A:1 |, voice)
+122.706712018	D, verse, | D:maj9 | D:maj9 | A:11 | A:11 |, (strings
+134.816077097	| D:maj9 | D:maj9 | A:11 | A:11 |, strings)
+147.03755102	B, prechorus, | A:11 | F#:min7 B:7 | A:11 | F#:min7 B:7 |, (voice
+159.261927437	| A:11 | F#:min7 | G:maj7 | A:11 |
+171.623900226	C, chorus, | A:11 | F#:min/b3 | A:11 | F#:min/b3 |
+183.84648526	| A:11 | F#:min/b3 | A:11 | F#:min/b3 |
+196.09095238	| A:11 | F#:min/b3 | A:11 | F#:min/b3 |, fadeout, voice)
+208.44770975	silence
+211.2	end

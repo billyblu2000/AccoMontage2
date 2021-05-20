@@ -1,0 +1,28 @@
+# title: Heart in Hand
+# artist: Brenda Lee
+# tonic: C
+# metre: 4/4
+
+0.000000000	silence
+0.513015873	C, intro, | N . G:maj F:maj |
+2.285714285	| C:maj . A:min . | D:min . G:maj F:maj |
+8.995555555	A, verse, | C:maj . A:min . | D:min . G:maj . |
+15.690158730	| C:maj . A:min . | D:min . G:maj . |
+22.376848072	| C:maj . A:min . | D:min . G:maj . |
+29.017528344	| C:maj . F:maj . | C:maj . G:maj F:maj |
+35.718095238	A, verse, | C:maj . A:min . | D:min . G:maj . |
+42.334965986	| C:maj . A:min . | D:min . G:maj . |
+48.971814058	| C:maj . A:min . | F:maj . G:maj . |
+55.564195011	| C:maj . . . | C:maj . . . |
+62.177029478	F, bridge, | F:maj . . . | F:min . . . | C:maj . E:maj . | A:min . . . |
+75.536984126	| F:maj . . . | F:maj . . . | G:maj . D:maj . | G:maj . G:maj F:maj |
+89.041927437	A, verse, | C:maj . A:min . | D:min . G:maj . |
+95.756190476	| C:maj . A:min . | D:min . G:maj . |
+102.435555555	| C:maj . A:min . | F:maj . G:maj . |
+109.057641723	| C:maj . F:maj . | C:maj . G:maj F:maj |
+115.812857142	A, spoken verse, | C:maj . A:min . | D:min . G:maj . |
+122.429637188	| C:maj . A:min . | D:min . G:maj . |
+129.094489795	| C:maj . A:min . | F:maj . G:maj . | N | N . G:maj F:maj |
+142.105396825	| C:maj . . . |
+146.346870748	silence
+151.040000000	end

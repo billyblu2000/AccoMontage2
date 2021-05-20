@@ -1,0 +1,44 @@
+# title: The Joker 
+# artist: Steve Miller Band
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.278639455	A, verse, | F:maj | Bb:maj | C:maj | Bb:maj |, (voice
+6.976213151	| F:maj | Bb:maj | C:maj | Bb:maj |
+12.836235827	| F:maj | Bb:maj | C:maj | Bb:maj |
+18.664761904	| F:maj | Bb:maj | C:maj | Bb:maj |
+24.497052154	A, verse, | F:maj | Bb:maj | C:maj | Bb:maj |
+30.435804988	| F:maj | Bb:maj | C:maj | Bb:maj |
+36.213015873	| F:maj | Bb:maj | C:maj | Bb:maj |
+42.149750566	| F:maj | Bb:maj | C:maj | Bb:maj |
+47.980090702	B, chorus, | F:maj | Bb:maj | F:maj | Bb:maj |
+53.843900226	| F:maj | Bb:maj | C:maj | Bb:maj |
+59.600226757	| F:maj | Bb:maj | F:maj | Bb:maj |
+65.403582766	| F:maj | Bb:maj | C:maj | C:sus4 | C:sus4 | C:sus4 |, voice)
+73.983990929	A, solo, | F:maj | Bb:maj | C:maj | Bb:maj |, (guitar
+79.863265306	| F:maj | Bb:maj | C:maj | Bb:maj |
+85.661814058	| F:maj | Bb:maj | C:maj | Bb:maj |
+91.375759637	| F:maj | Bb:maj | C:maj | Bb:maj |, guitar)
+97.10585034	A, verse, | F:maj | Bb:maj | C:maj | Bb:maj |, (voice
+102.922947845	| F:maj | Bb:maj | C:maj | Bb:maj |
+108.684557823	| F:maj | Bb:maj | C:maj | Bb:maj |
+114.531972789	| F:maj | Bb:maj | C:maj | Bb:maj |
+120.305238095	B, chorus, | F:maj | Bb:maj | F:maj | Bb:maj |
+126.051292517	| F:maj | Bb:maj | C:maj | Bb:maj |
+131.77324263	| F:maj | Bb:maj | F:maj | Bb:maj |
+137.485351473	| F:maj | Bb:maj | C:maj | Bb:maj |, voice)
+143.268344671	B, solo, | F:maj | Bb:maj | F:maj | Bb:maj |, (guitar
+149.048888888	| F:maj | Bb:maj | C:maj | Bb:maj |
+154.78462585	| F:maj | Bb:maj | F:maj | Bb:maj |
+160.565464852	| F:maj | Bb:maj | C:maj | C:sus4 | C:sus4 | C:sus4 |, guitar)
+169.141337868	A, verse, | F:maj | Bb:maj | C:maj | Bb:maj |, (voice
+174.965192743	| F:maj | Bb:maj | C:maj | Bb:maj |
+180.716349206	| F:maj | Bb:maj | C:maj | Bb:maj |
+186.529433106	| F:maj | Bb:maj | C:maj | Bb:maj |
+192.202312925	A, fadeout, | F:maj | Bb:maj | C:maj | Bb:maj |
+197.917256235	| F:maj | Bb:maj | C:maj | Bb:maj |
+203.59585034	| F:maj | Bb:maj | C:maj | Bb:maj |
+209.405011337	| F:maj | Bb:maj | C:maj | Bb:maj |, voice)
+214.854240362	silence
+219.036734693	end

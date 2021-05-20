@@ -1,0 +1,38 @@
+# title: Misunderstanding
+# artist: Genesis
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.367346938	A, intro, | D:min E:min7 D:min7/b3 A:min | G:maj |, (guitar
+6.318367346	| D:min E:min7 D:min7/b3 A:min | G:maj |
+12.261224489	| D:min E:min7 D:min7/b3 A:min | G:maj |
+18.184126984	| C:maj . C:maj/3 C:maj/5 |, guitar)
+21.159183673	A, chorus, | D:min E:min7 D:min7/b3 A:min | G:maj |, (voice
+27.09478458	| D:min E:min7 D:min7/b3 A:min | G:maj |
+33.030385487	| D:min E:min7 D:min7/b3 A:min | G:maj |
+38.980498866	| C:maj . C:maj/3 C:maj/5 |
+41.91201814	A, verse, | D:min E:min7 D:min7/b3 A:min | G:maj |
+47.862131519	| D:min E:min7 D:min7/b3 A:min | G:maj |
+53.841269841	| D:min E:min7 D:min7/b3 A:min | G:maj |
+59.747845804	| C:maj . C:maj/3 C:maj/5 |
+62.693877551	B, bridge, | Ab:maj . Bb:maj/b7 . | Ab:maj . Bb:maj/b7 . | Ab:maj . Bb:maj/b7 . | Ab:maj . Bb:maj/b7 . |
+74.594104308	| G:min7 | F:min7 | G:min7 | F:min7 |
+86.479818594	| G:min7 | A:maj |
+92.415419501	A, chorus, | D:min E:min7 D:min7/b3 A:min | G:maj |
+98.394557823	| D:min E:min7 D:min7/b3 A:min | G:maj |
+104.286621315	| D:min E:min7 D:min7/b3 A:min | G:maj |
+110.222222222	| C:maj . C:maj/3 C:maj/5 |
+113.168253968	B, bridge, | Ab:maj . Bb:maj/b7 . | Ab:maj . Bb:maj/b7 . | Ab:maj . Bb:maj/b7 . | Ab:maj . Bb:maj/b7 . |
+125.114920634	| G:min7 | F:min7 | G:min7 | F:min7 |
+136.990181405	| G:min7 | A:maj |
+142.92462585	A, outro, | D:min E:min7 D:min7/b3 A:min | G:maj |
+148.854421768	| D:min E:min7 D:min7/b3 A:min | G:maj |
+154.801632653	| D:min E:min7 D:min7/b3 A:min | G:maj |
+160.722721088	| D:min E:min7 D:min7/b3 A:min | G:maj |
+166.643809523	| D:min E:min7 D:min7/b3 A:min | G:maj |
+172.617142857	| D:min E:min7 D:min7/b3 A:min | G:maj |
+178.538231292	| D:min E:min7 D:min7/b3 A:min | G:maj |, fadeout
+184.485442176	| D:min E:min7 D:min7/b3 A:min | G:maj |, voice)
+190.504807256	silence
+194.873469387	end

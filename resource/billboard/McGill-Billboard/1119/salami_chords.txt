@@ -1,0 +1,37 @@
+# title: Will The Wolf Survive
+# artist: Los Lobos
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.696598639	A, intro, | G:maj | C:maj | G:maj | C:maj |, (guitar
+9.119501133	| G:maj | C:maj | G:maj | C:maj |
+16.109365079	| D:maj | D:maj | C:maj | C:maj |
+23.200362811	| G:maj | C:maj | G:maj | C:maj |, guitar)
+30.239455782	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+37.289659863	| D:maj | D:maj | D:maj | D:maj |
+44.31356009	| C:maj | G:maj | C:maj | D:maj | D:maj | D:maj |, voice)
+54.926893424	C, interlude, | G:maj | C:maj | G:maj | C:maj |, (guitar
+61.973900226	| G:maj | C:maj | G:maj | C:maj |, guitar)
+69.022585034	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+76.055283446	| D:maj | D:maj | D:maj | D:maj |
+83.141224489	| C:maj | G:maj | C:maj | D:maj | D:maj | C:maj/9 |, voice)
+93.746553287	D, trans, | G:maj | G:maj | G:maj | G:maj |
+100.785623582	E, bridge, | G:maj | C:maj G:maj | G:maj | G:maj |, (voice
+107.828004535	| G:maj | C:maj G:maj | G:maj | G:maj |
+114.883015873	| C:maj(9) | F:maj C:maj | C:maj | C:maj |
+121.974013605	| G:maj | C:maj G:maj | G:maj | G:maj |
+128.977664399	| D:maj | D:maj | C:maj(9) | C:maj(9) |, voice)
+136.039365079	C, solo, | G:maj | C:maj | G:maj | C:maj |, (guitar
+143.132857142	| G:maj | C:maj | G:maj | C:maj |, guitar)
+150.221269841	B, verse, | D:maj | D:maj | D:maj | D:maj |, (voice
+157.250612244	| D:maj | D:maj | D:maj | D:maj |
+164.313333333	| C:maj | G:maj | C:maj | D:maj | D:maj | C:maj/9 |
+174.891179138	C, chorus, | G:maj | C:maj | G:maj | C:maj |
+181.94600907	| G:maj | C:maj | G:maj | C:maj |, voice)
+188.992811791	F, outro, | D:maj | D:maj | D:maj | D:maj |
+196.039773242	| D:maj | D:maj | D:maj | D:maj |
+203.086916099	| D:maj | D:maj | D:maj | D:maj |
+210.143492063	| D:maj | D:maj | D:maj |
+220.794353741	silence
+222.774829931	end

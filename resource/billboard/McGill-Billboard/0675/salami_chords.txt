@@ -1,0 +1,32 @@
+# title: With A Little Help From My Friends
+# artist: Joe Cocker
+# metre: 4/4
+# tonic: E
+
+0.0	A, intro, | E:maj B:maj | F#:min | F#:min B:maj | E:maj |, (guitar)
+8.327052154	A, verse, | E:maj B:maj | F#:min | F#:min B:maj | E:maj |, (voice
+16.523786848	| E:maj B:maj | F#:min | F#:min B:maj | E:maj |
+24.518662131	B, chorus, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+32.73510204	| A:maj(9) | A:maj(9) |
+36.857845804	A, verse, | E:maj B:maj | F#:min | F#:min B:maj | E:maj |
+44.942222222	| E:maj B:maj | F#:min | F#:min B:maj | E:maj |
+53.014829931	B, chorus, | D:maj A:maj/11 | E:maj | D:maj A:maj/11 | E:maj |
+61.196666666	| A:maj/11 | E:maj |
+65.227755102	C, bridge, | C#:min | F#:maj | E:maj D:maj | A:maj |
+73.320249433	| C#:min | F#:maj | E:maj D:maj | A:maj |
+81.487845804	A, verse, | E:maj B:maj | F#:min | F#:min B:maj | E:maj |
+89.612403628	| E:maj B:maj | F#:min | F#:min B:maj | E:maj |
+97.40770975	B, chorus, | D:maj A:maj | E:maj | D:maj A:maj | E:maj |
+105.820498866	| A:maj | E:maj |
+109.273106575	D, interlude, | N |
+# metre: 3/4
+129.013900226	E, transition, | B:maj | B:maj | B:maj | B:maj |
+135.316054421	| B:maj | B:maj | B:maj | B:maj | N | N |
+144.380022675	B', outro, | D:maj | A:maj | E:maj | E:maj |
+150.542471655	| D:maj | A:maj | E:maj | E:maj |
+156.563968253	| D:maj | A:maj | E:maj | E:maj | D:maj | A:maj | E:maj | E:maj |
+169.250249433	| D:maj | D:maj | A:maj | A:maj |
+# metre: 4/4
+175.272403628	| C:maj/5 | D:maj | E:maj |, voice)
+189.385396825	silence
+193.175510204	end

@@ -1,0 +1,16 @@
+# title: Do your thing
+# artist: Isaac Hayes
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.341043083	A, intro, | F:min F:min7/5 | x6, (horns)
+19.056575963	A, verse, | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | x3, (voice
+56.951995464	B, chorus, | Ab:maj | C:7/b7 | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 |
+75.995873015	A, verse, | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | x3
+114.077845804	B, chorus, | Ab:maj | C:7/b7 | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 |, voice)
+132.81648526	A, outro, | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | x4, (guitar
+183.791133786	| F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 | F:min F:min7/5 |, fadeout 
+196.295691609	| F:min F:min7/5 |, guitar) 
+198.790884353	silence
+199.91510204	end

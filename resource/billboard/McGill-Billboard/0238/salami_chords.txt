@@ -1,0 +1,28 @@
+# title: You Decorated My Life
+# artist: Kenny Rogers
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.510839002	A, intro, | G:maj | F#:dim B:7 | C:maj | C:maj |, (piano)
+11.74632653	B, verse, | G:maj | G:maj | C:maj/5 | C:maj/5 |, (voice
+22.985170068	| D:maj/11 | D:maj/11 | C:maj/5 | C:maj/5 |
+34.294353741	| G:maj | G:maj | C:maj/5 | C:maj/5 |
+45.504421768	| D:maj/11 | D:maj/11 | C:maj/5 | D:7 . C:maj/9 D:7 |
+56.660997732	C, chorus, | G:maj | C:maj | G:maj | C:maj B:7 |
+67.565782312	| E:min | G:maj/5 | A:min7 | D:7 |
+78.259614512	| G:maj | C:maj | G:maj | C:maj B:7 |
+89.181927437	| E:min | G:maj/5 | A:min7 | D:7 |, voice)
+100.016757369	A, interlude, | G:maj | F#:dim B:7 | C:maj | C:maj |, (flute)
+111.457913832	B, verse, | G:maj | G:maj | C:maj/5 | C:maj/5 |, (voice
+122.907505668	| D:maj/11 | D:maj/11 | C:maj/5 | C:maj/5 |
+134.244353741	| G:maj | G:maj | C:maj/5 | C:maj/5 |
+145.172721088	| D:maj/11 | D:maj/11 | C:maj/5 | D:7 . C:maj D:7 |
+156.086054421	C, chorus, | G:maj | C:maj | G:maj | C:maj B:7 |
+166.978253968	| E:min | G:maj/5 | A:min7 | D:7 |
+177.728956916	| G:maj | C:maj | G:maj | C:maj B:7 |
+188.537437641	| E:min | G:maj/5 | A:min7 | D:7 |, voice)
+199.330997732	A, coda, | G:maj | F#:dim B:7 | C:maj | C:maj |, (flute
+211.408253968	| G:maj7 |, flute)
+215.922358276	silence
+220.421224489	end

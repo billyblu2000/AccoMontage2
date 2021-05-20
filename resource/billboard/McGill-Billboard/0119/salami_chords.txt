@@ -1,0 +1,31 @@
+# title: Stand By Me
+# artist: David Ruffin, Jimmy Ruffin
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.859138321	A, intro, | G:maj | G:maj | G:maj | G:maj |
+11.041088435	B, verse, | G:maj | G:maj | E:min | E:min |, (voice
+21.037278911	| C:maj | D:maj | G:maj | G:maj |
+30.975419501	| G:maj | G:maj | E:min | E:min |
+40.994829931	| C:maj | D:maj | G:maj | G:maj |
+50.944580498	B, chorus, | G:maj | G:maj | E:min | E:min |
+60.956190476	| C:maj | D:maj | G:maj | G:maj |
+70.890521541	B, verse, | G:maj | G:maj | E:min | E:min |
+80.863492063	| C:maj | D:maj | G:maj | G:maj |
+90.796394557	| G:maj | G:maj | E:min | E:min |
+100.70494331	| C:maj | D:maj | G:maj | G:maj |
+110.608253968	B, chorus, | G:maj | G:maj | E:min | E:min |
+120.441904761	| C:maj | D:maj | G:maj | G:maj |
+130.182675736	B, interlude, | G:maj | G:maj | E:min | E:min |
+140.074376417	| C:maj | D:maj | G:maj | G:maj |
+149.977687074	| G:maj | G:maj | E:min | E:min |
+159.845510204	| C:maj | D:maj | G:maj | G:maj |
+169.644988662	B, chorus, | G:maj | G:maj | E:min | E:min |
+179.467029478	| C:maj | D:maj | G:maj | G:maj |
+189.254240362	B, outro, | G:maj | G:maj | E:min | E:min |
+198.996281179	| C:maj | D:maj | G:maj | G:maj |
+208.712562358	| G:maj | G:maj | E:min | E:min |
+218.430113378	| C:maj | D:maj | G:maj | G:maj |, fadeout, voice)
+228.437913832	silence
+228.702040816	end

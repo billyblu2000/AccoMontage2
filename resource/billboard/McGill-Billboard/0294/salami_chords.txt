@@ -1,0 +1,61 @@
+# title: Mr. Bojangles
+# artist: Jerry Jeff Walker
+# metre: 3/4
+# tonic: D
+
+0.0	silence
+0.30185941	C, intro, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |, (guitar
+4.821020408	| D:maj | D:maj/7 | D:maj/13 | D:maj/5 |, guitar)
+9.208344671	A, verse, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |, (voice
+13.618843537	| G:maj | G:maj | A:maj | A:maj |
+18.118526077	| D:maj | D:maj/7 | D:maj/13 | D:maj/5 |
+22.453492063	| G:maj | G:maj | A:maj | A:maj |
+26.852063492	| G:maj | G:maj | D:maj | F#:maj |
+31.24031746	| B:min | B:min/b7 | E:9/3 | E:9 |
+35.620362811	| A:maj | A:maj | A:maj | A:maj |
+39.871972789	B, chorus, | B:min | B:min | A:maj | A:maj |
+44.247278911	| B:min | B:min | A:maj | A:maj |
+48.542358276	| B:min | B:min | A:maj | A:maj |, voice)
+52.868571428	C, trans, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |, (guitar)
+57.233990929	A, verse, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |, (voice
+61.618004535	| G:maj | G:maj | A:maj | A:maj |
+65.985079365	| D:maj | D:maj/7 | D:maj/13 | D:maj/5 |
+70.396780045	| G:maj | G:maj | A:maj | A:maj |
+74.765623582	| G:maj | G:maj | D:maj | F#:maj |
+79.197823129	| B:min | B:min/b7 | E:9/3 | E:9 |
+83.580045351	| A:maj | A:maj | A:maj | A:maj |
+87.844512471	A, verse, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |
+92.32494331	| G:maj | G:maj | A:maj | A:maj |
+96.695192743	| D:maj | D:maj/7 | D:maj/13 | D:maj/5 |
+101.008208616	| G:maj | G:maj | A:maj | A:maj |
+105.327664399	| G:maj | G:maj | D:maj | F#:maj |
+109.698253968	| B:min | B:min/b7 | E:9/3 | E:9 |
+114.07340136	| A:maj | A:maj | A:maj | A:maj |
+118.32893424	B, chorus, | B:min | B:min | A:maj | A:maj |
+122.664603174	| B:min | B:min | A:maj | A:maj |
+127.007505668	| B:min | B:min | A:maj | A:maj |, voice)
+131.290272108	C, trans, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |, (guitar)
+135.691746031	A, verse, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |, (voice
+140.14446712	| G:maj | G:maj | A:maj | A:maj |
+144.530929705	| D:maj | D:maj/7 | D:maj/13 | D:maj/5 |
+148.958185941	| G:maj | G:maj | A:maj | A:maj |
+153.30185941	| G:maj | G:maj | D:maj | F#:maj |
+157.693038548	| B:min | B:min/b7 | E:9/3 | E:9 |
+162.086507936	| A:maj | A:maj | A:maj | A:maj |
+166.397210884	A, verse, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |
+170.81802721	| G:maj | G:maj | A:maj | A:maj |
+175.127528344	| D:maj | D:maj/7 | D:maj/13 | D:maj/5 |
+179.564217687	| G:maj | G:maj | A:maj | A:maj |
+183.868367346	| G:maj | G:maj | D:maj | F#:maj |
+188.275510204	| B:min | B:min/b7 | E:9/3 | E:9 |
+192.540861678	| A:maj | A:maj | A:maj | A:maj |
+196.900566893	B, chorus, | B:min | B:min | A:maj | A:maj |
+201.198798185	| B:min | B:min | A:maj | A:maj |
+205.527029478	| B:min | B:min | A:maj | A:maj |, voice)
+209.815147392	C, outro, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |, (guitar
+214.181678004	| G:maj | G:maj | A:maj | A:maj |
+218.453741496	fadeout, | D:maj | D:maj/7 | D:maj/13 | D:maj/5 |
+222.721496598	| G:maj | G:maj | A:maj | A:maj |
+227.074489795	| D:maj | D:maj/7 | D:maj/13 |, guitar)
+229.87755102	silence
+234.448979591	end

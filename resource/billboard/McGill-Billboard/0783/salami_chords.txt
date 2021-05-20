@@ -1,0 +1,29 @@
+# title: Hot Child in the City
+# artist: Nick Gilder
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.302040816	A, intro, | E:maj . . . | A:maj . B:maj . | E:maj . . . | A:maj . B:maj . |
+9.822040816	A, verse, | E:maj . . . | A:maj . B:maj . | E:maj . . . | A:maj . B:maj . |, (voice
+18.43664399	| E:maj . . . | A:maj . B:maj . | E:maj . . . | A:maj . B:maj . |
+27.071383219	B, pre-chorus, | E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+35.687732426	| E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+44.303673469	B, chorus, | E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+53.022539682	| E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+61.788299319	A, verse, | E:maj . . . | A:maj . B:maj . | E:maj . . . | A:maj . B:maj . |
+70.472562358	| E:maj . . . | A:maj . B:maj . | E:maj . . . | A:maj . B:maj . |
+79.110385487	B, pre-chorus, | E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+87.759297052	| E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+96.4092517	B, chorus, | E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+105.116734693	| E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |, voice)
+113.800997732	C, solo, | E:maj . . . | A:maj . B:maj . | E:maj . . . | A:maj . . . |, (guitar
+122.399954648	| E:maj . . . | A:maj . B:maj . | E:maj . . . | A:maj . . . |, guitar) 
+130.960544217	D, bridge, | B:maj . . . | F#:min . . . | A:maj . . . | E:maj . . . |, (voice
+139.575147392	| B:maj . . . | F#:min . . . | A:maj . . . | B:sus4(b7) . . . | B:sus4(b7) . . . |
+150.442086167	B, chorus, | E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+159.14956916	| E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+167.833832199	B, outro, | E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . |
+176.518095238	| E:maj . . . | A:maj . . . | E:maj . . . | A:maj . . . | E:maj . . . |, voice)
+185.782857142	silence
+189.466122448	end

@@ -1,0 +1,31 @@
+# title: It Amazes Me
+# artist: John Denver
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.424489795	A, intro, | D:maj . A:maj/11 D:maj | D:maj A:maj/11 D:maj A:maj/11 | D:maj . A:maj/11 D:maj | D:maj A:maj/11 D:maj . |, (guitar 
+6.177755102	| A:maj/11 . D:maj D:sus4 | D:sus4 | D:sus4 | D:sus4 |, guitar)
+11.824285714	A, verse, | D:maj | D:maj | D:maj . A:maj/11 D:maj | D:maj A:maj/11 D:maj . | (2/4) D:maj |, (voice
+18.201405895	| D:maj | D:maj | D:maj | A:maj/11 . B:min/b3 A:7/11 | (3/4) A:7/11 E:min/b7 . |
+24.948866213	| D:maj | D:maj | G:maj/5 . . D:maj | D:maj G:maj/5 D:maj . | (2/4) D:maj |
+31.330113378	| D:maj | D:maj | D:maj | A:maj/3 . D:maj/13 A:maj | A:maj D:maj/11 A:maj/13 D:maj/9 |
+38.314535147	A, verse, | D:maj | D:maj | D:maj . A:maj/11 D:maj | D:maj A:maj/11 D:maj . | (2/4) D:maj |
+44.653900226	| D:maj | D:maj | D:maj | A:maj/11 . D:maj A:maj/11 | (3/4) A:maj/11 E:min/b7 . |
+51.284149659	| D:maj | D:maj | G:maj/5 . . D:maj | D:maj G:maj/5 D:maj . | (2/4) D:maj |
+57.699478458	| D:maj | D:maj | D:maj | A:7 A:7/5 | A:7 A:7/5 | A:7/3 . A:7/9 A:7 | A:7 A:7/b7 A:7/13 A:7/5 |
+67.328276643	B, chorus, | D:maj | D:maj | G:maj | G:maj | (3/4) G:maj | D:maj |
+75.197913832	| D:maj | D:maj | G:maj | G:maj | G:maj |
+82.20893424	| A:7 A:7/5 | A:7 A:7/5 | x2
+87.653356009	A, verse, | D:maj | D:maj | D:maj . A:maj/11 D:maj | D:maj A:maj/11 D:maj . | (2/4) D:maj |
+93.96340136	| D:maj | D:maj | D:maj | A:maj/11 . B:min/b3 A:7/11 | (3/4) A:7/11 E:min/b7 . |
+100.534988662	| D:maj | D:maj | G:maj/5 . . D:maj | D:maj G:maj/5 D:maj . | (2/4) D:maj |
+106.78324263	| D:maj | D:maj | D:maj | A:7 A:7/5 | A:7 A:7/5 | A:7 A:7/5 | A:7 A:7/5 |
+116.452426303	B, chorus, | D:maj | D:maj | G:maj | G:maj | (3/4) G:maj | D:maj |
+124.280702947	| D:maj | D:maj | G:maj | G:maj | G:maj |
+131.169229024	| D:maj . A:maj/11 D:maj | D:maj A:maj/11 D:maj A:maj/11 | D:maj . A:maj/11 D:maj | D:maj A:maj/11 D:maj . |
+136.585986394	| A:7 | A:7 | A:7 | A:7 |
+142.040839002	B, outro, | D:maj | D:maj | D:maj | D:maj |
+147.529614512	| D:maj | D:maj | D:maj |, voice)
+156.117414965	silence
+159.764897959	end

@@ -1,0 +1,18 @@
+# title: Where Are You
+# artist: Dinah Washington
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.510839002	A, chorus, | Eb:maj7 | Gb:dim | F:min7 Bb:sus4(b7,9) | Eb:maj7 |, (voice
+14.14095238	| F:7 | G:min7 C:min7 | F:min7 E:maj7 | Eb:maj7 . F:min7 E:maj7 |
+27.626394557	A, chorus, | Eb:maj7 | Gb:dim | F:min7 Bb:sus4(b7,9) | Eb:maj7 |
+41.2823356	| F:7 | G:min7 C:min7 | F:min7 E:maj7 | Eb:maj7 . Bb:min7 Eb:7 |
+54.867165532	B, bridge, | Ab:maj7 | G:sus4(b7) C:7(b9) | F:min7 Bb:7(b9) | Eb:7 |
+68.754285714	| Ab:maj7 | G:sus4(b7) G:7 | C:min7 F:7 | F:min7 Bb:7 F#:min7 B:7 |
+# tonic: E
+82.57015873	A', chorus, | E:maj7 | G:dim | F#:min7 B:sus4(b7,9) | E:maj7 |
+96.316371882	| F#:7 F#:7/b9 | E:maj/3 | F#:min7(11) | G#:min7(11) |
+110.503764172	| F#:min7 | F#:min7 | B:7(b9) | B:7(b9) | E:maj9 | E:maj9 | E:maj9 |, voice)
+132.469841269	silence
+136.097959183	end

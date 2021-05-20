@@ -1,0 +1,38 @@
+# title: Venus
+# artist: Bananarama
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+1.021678004	A, trans, | B:sus4(b7) | B:sus4(b7) |, (synthesizer
+5.146077097	B', intro, | E:min A:maj6 | E:min A:maj6 |
+8.969659863	A, trans, | B:sus4(b7) | B:sus4(b7) |
+12.789478458	B', instrumental, | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 |, synthesizer)
+20.439206349	B, verse, | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 |, (voice
+28.016825396	| E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min |
+35.660748299	C, chorus, | A:min7 D:maj6 | A:min7 D:maj6 | E:min A:maj6 | E:min A:maj6 |
+43.30494331	| C:maj | B:sus4(b7) B:7 | E:min A:maj6 | E:min A:maj6 |
+50.969750566	| C:maj | B:sus4(b7) B:7 | E:min A:maj6 | E:min A:maj6 |
+58.614081632	B, verse, | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 |
+66.231678004	| E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min |
+73.893197278	C, chorus, | A:min7 D:maj6 | A:min7 D:maj6 | E:min A:maj6 | E:min A:maj6 |
+81.536916099	| C:maj | B:sus4(b7) B:7 | E:min A:maj6 | E:min A:maj6 |
+89.160045351	| C:maj | B:sus4(b7) B:7 | E:min A:maj6 | E:min A:maj6 |, voice)
+96.799274376	A, trans, | B:sus4(b7) | B:sus4(b7) |, (synthesizer
+100.644988662	B, solo, | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 |
+108.259931972	| E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min |, synthesizer)
+115.914489795	C, chorus, | A:min7 D:maj6 | A:min7 D:maj6 | E:min A:maj6 | E:min A:maj6 |, (voice
+123.538480725	| C:maj | B:sus4(b7) B:7 | E:min A:maj6 | E:min A:maj6 |
+131.197482993	| C:maj | B:sus4(b7) B:7 | E:min A:maj6 | E:min A:maj6 |
+138.816122448	B, verse, | E:min A:maj | E:min7 A:maj | E:min A:maj | E:min7 A:maj |
+146.486961451	| E:min A:maj | E:min7 A:maj | E:min A:maj | E:min7 A:maj |
+154.119523809	C, chorus, | A:min7 D:maj6 | A:min7 D:maj6 | E:min A:maj6 | E:min A:maj6 |
+161.752380952	| C:maj | B:sus4(b7) B:7 | E:min A:maj6 | E:min A:maj6 |
+169.396712018	| C:maj | B:sus4(b7) B:7 | E:min A:maj6 | E:min A:maj6 |, voice)
+177.052766439	A', trans, | B:sus4(b7) | B:sus4(b7) | B:sus4(b7) | B:sus4(b7) |, (synthesizer
+184.698503401	B', outro, | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 |
+192.364013605	| E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 |
+199.911088435	fadeout, | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 |
+207.596054421	| E:min A:maj6 | E:min A:maj6 | E:min A:maj6 | E:min A:maj6 |, synthesizer)
+217.013696145	silence
+222.302040816	end

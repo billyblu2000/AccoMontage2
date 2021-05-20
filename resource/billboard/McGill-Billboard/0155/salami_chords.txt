@@ -1,0 +1,29 @@
+# title: Forever Man
+# artist: Eric Clapton
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.185759637	A, pre-verse, | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) |
+9.426984126	| D:sus4(b7) | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) |
+18.068140589	B, verse, | Bb:maj C:maj | D:min | Bb:maj C:maj | D:min |, (voice
+26.696870748	| Bb:maj C:maj | D:min G:min | Bb:maj C:maj | D:min | Bb:maj C:maj |, voice)
+37.553310657	A, pre-verse, | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) |
+46.132199546	B, verse, | Bb:maj C:maj | D:min | Bb:maj C:maj | D:min |, (voice
+54.806893424	| Bb:maj C:maj | D:min G:min | Bb:maj C:maj | D:min | Bb:maj C:maj |, voice)
+65.641337868	A, pre-verse, | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) |
+74.237437641	B', solo, | Bb:maj C:maj | D:min | Bb:maj C:maj | D:min |, (guitar
+82.941995464	| Bb:maj C:maj | D:min G:min | Bb:maj C:maj | D:min | Bb:maj C:maj |, guitar)
+93.771655328	A, pre-verse, | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) |
+102.388684807	B, verse, | Bb:maj C:maj | D:min | Bb:maj C:maj | D:min |, (voice
+111.042471655	| Bb:maj C:maj | D:min G:min | Bb:maj C:maj | D:min |
+119.724648526	| Bb:maj C:maj | D:min | Bb:maj C:maj | D:min |
+128.401972789	| Bb:maj C:maj | D:min G:min | Bb:maj C:maj | D:min |
+137.117913832	| Bb:maj C:maj | D:min | Bb:maj C:maj | D:min |
+145.695895691	| Bb:maj C:maj | D:min G:min | Bb:maj C:maj | D:min |, voice)
+154.441609977	A, pre-verse, | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) | D:sus4(b7) |
+163.060770975	A', solo, | D:min7 | D:min7 | D:min7 | D:min7 |, (guitar
+171.728140589	| D:min7 | D:min7 | D:min7 | D:min7 |
+180.410430839	fadeout, | D:min7 | D:min7 | D:min7 | D:min7 |, guitar)
+188.615691609	silence
+191.895510204	end

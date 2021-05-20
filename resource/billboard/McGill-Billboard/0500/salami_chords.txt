@@ -1,0 +1,34 @@
+# title: The Battle Of New Orleans
+# artist: Johnny Horton
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.650158730	A, intro, | * | * |, (banjo
+3.798435374	| A:maj | D:maj | E:7 | A:maj | A:maj |, banjo)
+10.437573696	B, verse, | A:maj | D:maj | E:7 | A:maj |, (voice
+15.785691609	| A:maj | D:maj | E:7 | A:maj |
+21.215873015	C, chorus, | A:maj | A:maj | A:maj | E:maj A:maj |
+26.655873015	| A:maj | A:maj | A:maj | E:maj A:maj | A:maj | A:maj |
+34.777029478	B, verse, | A:maj | D:maj | E:7 | A:maj |
+40.225079365	| A:maj | D:maj | E:7 | A:maj |
+45.661360544	C, chorus, | A:maj | A:maj | A:maj | E:maj A:maj |
+51.151179138	| A:maj | A:maj | A:maj | E:maj A:maj | A:maj | A:maj |
+59.229682539	B, verse, | A:maj | D:maj | E:7 | A:maj |
+64.652834467	| A:maj | D:maj | E:7 | A:maj | &pause |
+70.846326530	C, chorus, | A:maj | A:maj | A:maj | E:maj A:maj |
+76.342063492	| A:maj | A:maj | A:maj | E:maj A:maj | A:maj | A:maj |
+84.422653061	C', bridge, | A:maj | A:maj | A:maj | E:maj A:maj |
+89.757573696	| A:maj | A:maj | A:maj | E:maj A:maj |
+95.192630385	| A:maj | A:maj | A:maj | A:maj |
+100.573628117	B, verse, | A:maj | D:maj | E:7 | A:maj |
+105.956780045	| A:maj | D:maj | E:7 | A:maj |
+111.369795918	C, chorus, | A:maj | A:maj | A:maj | E:maj A:maj |
+116.841609977	| A:maj | A:maj | A:maj | E:maj A:maj | A:maj | A:maj |
+124.934489795	C'', bridge, | A:maj | A:maj | A:maj | E:maj A:maj |
+130.341655328	| A:maj | A:maj | A:maj | E:maj A:maj |
+135.806054421	D, outro, | A:maj | A:maj | A:maj | A:maj |
+141.213242630	fadeout, | A:maj | A:maj | A:maj | A:maj |
+146.574149659	| A:maj | A:maj | A:maj | A:maj |, voice)
+151.821201814	silence
+152.550748299	end

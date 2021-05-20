@@ -1,0 +1,18 @@
+# title: My Thang
+# artist: James Brown
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.351269841	A, intro, | Bb:maj | Ab:maj | Ab:maj | Ab:maj |, (voice
+11.173786848	| Ab:maj | Bb:maj | C:7 |
+18.388798185	| F:min F:min7/b3 Bb:maj . | F:min F:min7/b3 Bb:maj . | F:min F:min7/b3 Bb:maj . | F:min F:min7/b3 Bb:maj . |
+28.083877551	B, verse, | F:min7 | F:min7 | F:min7 | F:min7 | x3
+56.934036281	B', chorus, | F:min7 Bb:7/5 | F:min7 Bb:7/5 | F:min7 Bb:7/5 | F:min7 Bb:7/5 | x2
+76.158412698	B, verse, | F:min7 | F:min7 | F:min7 | F:min7 | x2
+95.46292517	B', chorus, | F:min7 Bb:7/5 | F:min7 Bb:7/5 | F:min7 Bb:7/5 | F:min7 Bb:7/5 | x2
+114.497732426	B, verse, | F:min7 | F:min7 | F:min7 | F:min7 | x8
+190.428888888	| F:min7 | F:min7 |
+195.039455782	B', chorus, | F:min7 Bb:7/5 | F:min7 Bb:7/5 | F:min7 Bb:7/5 | F:min7 Bb:7/5 | x2
+213.697301587	B, outro, | F:min7 Bb:7/5 | F:min7 Bb:7/5 | F:min7 Bb:7/5 | F:min7 Bb:7/5 | x8, fadeout, voice)
+278.961632653	end

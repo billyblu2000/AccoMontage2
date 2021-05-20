@@ -1,0 +1,36 @@
+# title: It Takes Two
+# artist: Marvin Gaye & Kim Weston
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.278639455	A, pre-verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+7.20371882	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+13.748571428	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+20.22063492	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+26.624829931	| Bb:maj | Bb:maj | Bb:maj | Bb:7 |
+33.084217687	C, chorus, | Eb:maj | Eb:maj | F:maj | F:maj |
+39.486303854	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+45.83217687	| Eb:maj | Eb:maj | F:maj | F:maj |, voice)
+52.162947845	A, pre-verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+58.539727891	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+64.85526077	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+71.210544217	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+77.531564625	| Bb:maj | Bb:maj | Bb:maj | Bb:7 |
+83.826530612	C, chorus, | Eb:maj | Eb:maj | F:maj | F:maj |
+90.223061224	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+96.570068027	| Eb:maj | Eb:maj | F:maj | F:maj |, voice)
+102.971972789	A, pre-verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+109.286349206	D, interlude, | Bb:maj | Bb:maj | Bb:maj | Bb:7 |
+115.689637188	| Eb:7 | Eb:7 | F:maj | F:maj |
+122.045691609	A, pre-verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+128.298594104	B, verse, | Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (voice
+134.707278911	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+140.990816326	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+147.387619047	| Bb:maj | Bb:maj | Bb:maj | Bb:7 |
+153.620566893	C, chorus, | Eb:maj | Eb:maj | F:maj | F:maj |
+159.926031746	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |
+166.266122448	fadeout, | Eb:maj | Eb:maj | F:maj | F:maj |
+172.596439909	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |, voice)
+176.169795918	silence
+180.114285714	end

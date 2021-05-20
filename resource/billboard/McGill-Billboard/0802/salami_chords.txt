@@ -1,0 +1,27 @@
+# title: Theme From The Dukes Of Hazzard
+# artist: Waylon Jennings
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+1.764716553	A', intro, | C:7 | C:7 | F:maj | F:maj |, (guitar)
+8.515532879	A, verse, | F:maj | F:maj | Bb:7 | Bb:7 |, (voice
+15.298684807	| F:maj | (6/4) C:7 | F:maj | F:maj |
+22.75510204	| F:maj | F:maj | Bb:7 | Bb:7 |
+29.306870748	| F:maj | C:7 | F:maj | F:maj |
+35.918004535	B, chorus, | C:7 | C:7 | C:7 | C:7 |
+42.468639455	| C:7 | C:7 | F:maj | F:maj |, voice)
+48.970430839	A, solo, | F:maj | F:maj | Bb:7 | Bb:7 |, (guitar
+55.522267573	| F:maj | C:7 | F:maj | F:maj |
+61.926621315	| F:maj | F:maj | Bb:7 | Bb:7 |
+68.414512471	| F:maj | C:7 | F:maj | F:maj |
+74.828299319	B, chorus, | C:7 | C:7 | C:7 | C:7 |, (voice
+81.346575963	| C:7 | C:7 | F:maj | F:maj |
+87.806235827	A, verse, | F:maj | F:maj | Bb:7 | Bb:7 |
+94.353265306	| F:maj | C:7 | F:maj | F:maj |, voice)
+100.78664399	A, solo, | F:maj | F:maj | Bb:7 | Bb:7 |, (guitar
+107.355079365	| F:maj | C:7 | F:maj | F:maj |
+113.846281179	| F:maj | F:maj | Bb:7 | Bb:7 |
+120.361904761	fadeout, | F:maj | C:7 | F:maj | F:maj |, guitar)
+126.525532879	silence
+129.358367346	end

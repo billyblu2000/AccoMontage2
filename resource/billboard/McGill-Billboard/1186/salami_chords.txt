@@ -1,0 +1,32 @@
+# title: Baby, Baby Don't Cry
+# artist: The Miracles
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.348299319	A', intro, | F:1 | F:1 |
+5.619229024	| F:maj(9) | G:min7 | F:maj(9) | G:min7 |, (piano)
+16.161088435	| F:maj(9) | G:min7 | F:maj(9) | G:min |, (voice)
+26.586848072	A, verse, | F:maj | G:min | F:maj | G:min |, (guitar)
+37.035827664	| F:maj | G:min | F:maj | G:min |, (voice
+47.461587301	| F:maj | G:min Bb:maj |
+52.639637188	B, pre-chorus, | F:maj | Eb:maj | Bb:maj Bb:maj6 | Bb:7 Bb:maj6 |
+62.856417233	| F:maj | Eb:maj | Bb:maj Bb:maj6 | Bb:7 C:maj |
+72.957097505	C, chorus, | F:maj | G:min7 | F:maj | A:min7 Bb:maj7 |
+83.003219954	| Bb:maj D:min7 | A:min7 . . Bb:maj7 | Bb:maj D:min7 | A:min7 . . Bb:maj7 | Bb:maj7 |
+95.721451247	A, verse, | F:maj7 | G:min | F:maj7 | G:min |
+105.860861678	| F:maj7 | G:min | F:maj7 | G:min C:sus4(9) |
+116.030113378	| F:maj7 | G:min Bb:maj |
+121.092063492	B, pre-chorus, | F:maj | Eb:maj | Bb:maj Bb:maj6 | Bb:7 Bb:maj6 |
+131.279705215	| F:maj | Eb:maj | Bb:maj Bb:maj6 | Bb:7 C:maj |
+141.204920634	C, chorus, | F:maj | G:min7 | F:maj | A:min7 Bb:maj7 |
+151.185328798	| Bb:maj D:min7 | A:min7 . . Bb:maj7 | Bb:maj D:min7 | A:min7 . . Bb:maj7 | Bb:maj7/3 |
+163.784013605	D, bridge, | D:min6 | D:min7 | D:min6 | D:min(b13) |
+173.73170068	| D:min6 | D:min7 | D:min6 | D:min(b13) |
+183.670929705	| D:min6 | D:min7 | D:min6 | G:min | Ab:min |
+# tonic: Gb
+195.976417233	C, chorus, | Gb:maj7 | Ab:min7 | Gb:maj7 | Ab:min7 | Gb:maj | Bb:min7 Cb:maj7 |
+210.703514739	| Cb:maj Eb:min7 | Bb:min7 . . Cb:maj7 | Cb:maj Eb:min7 | Bb:min7 . . Cb:maj7 | Cb:maj/5 Ab:min |
+223.164693877	C, fadeout, | Gb:maj7 | Ab:min7 | Gb:maj7 | Ab:min7 | Gb:maj | Bb:min7 Cb:maj7 |, voice)
+235.427120181	silence
+239.151020408	end

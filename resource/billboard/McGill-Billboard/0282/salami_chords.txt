@@ -1,0 +1,40 @@
+# title: Gotta Serve Somebody
+# artist: Bob Dylan
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.255419501	A, intro, | A:min | A:min | A:min | A:min |
+10.637346938	B, verse, | A:min | A:min | A:min | A:min |, (voice
+20.762131519	| A:min | A:min | A:min | A:min |
+30.837324263	| D:7 | D:7 | A:min | A:min |
+41.09170068	| E:7 | D:7 | A:min | A:min |
+51.205170068	B, verse, | A:min | A:min | A:min | A:min |
+61.294263038	| A:min | A:min | A:min | A:min |
+71.292993197	| D:7 | D:7 | A:min | A:min |
+81.439977324	| E:7 | D:7 | A:min | A:min |
+91.659727891	B, verse, | A:min | A:min | A:min | A:min |
+101.769841269	| A:min | A:min | A:min | A:min |
+111.787165532	| D:7 | D:7 | A:min | A:min |
+122.03356009	| E:7 | D:7 | A:min | A:min |
+132.181927437	B, verse, | A:min | A:min | A:min | A:min |
+142.277097505	| A:min | A:min | A:min | A:min |
+152.362063492	| D:7 | D:7 | A:min | A:min |
+162.587505668	| E:7 | D:7 | A:min | A:min |
+172.774988662	B, verse, | A:min | A:min | A:min | A:min |
+182.877052154	| A:min | A:min | A:min | A:min |
+192.848276643	| D:7 | D:7 | A:min | A:min |
+202.850272108	| E:7 | D:7 | A:min | A:min |
+212.914920634	B, verse, | A:min | A:min | A:min | A:min |
+222.906621315	| A:min | A:min | A:min | A:min |
+233.028004535	| D:7 | D:7 | A:min | A:min |
+243.139002267	| E:7 | D:7 | A:min | A:min |
+253.178276643	B, verse, | A:min | A:min | A:min | A:min |
+263.190997732	| A:min | A:min | A:min | A:min |
+273.301632653	| D:7 | D:7 | A:min | A:min |
+283.257619047	| E:7 | D:7 | A:min | A:min |, voice)
+293.310294784	A, coda, | A:min | A:min | A:min | A:min |
+303.28371882	fadeout, | A:min | A:min | A:min | A:min |
+313.354852607	| A:min | A:min | A:min |
+321.503492063	silence
+325.746938775	end

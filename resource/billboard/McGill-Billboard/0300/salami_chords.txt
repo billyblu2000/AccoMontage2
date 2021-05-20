@@ -1,0 +1,38 @@
+# title: Here I Go Again
+# artist: Whitesnake
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.255419501	A', intro, | G:maj D:maj | C:maj | G:maj D:maj | C:maj |, (synthesizer)
+11.331337868	A, verse, | G:maj D:maj | C:maj | G:maj D:maj | C:maj |, (voice
+22.224603174	| G:maj D:maj/3 | C:maj/3 C:maj . C:maj/7 |
+27.738049886	| A:min | D:maj | A:min | D:maj |, voice)
+38.677324263	B, pre-verse, | E:min | A:min C:maj | G:maj E:min | A:min . C:maj D:maj |, (synthesizer)
+49.608299319	A, verse, | G:maj D:maj | C:maj | G:maj D:maj | C:maj |, (voice
+60.523469387	| G:maj D:maj/3 | C:maj/3 C:maj . C:maj/7 |
+66.029682539	| A:min | D:maj | A:min | D:maj . C:maj D:maj |
+76.811609977	C, chorus, | G:maj C:maj | D:maj . C:maj D:maj | G:maj C:maj | D:maj . C:maj D:maj |
+87.565374149	| G:maj C:maj | D:maj . C:maj B:1 |
+92.897120181	| A:min | D:maj | A:min | D:maj . C:maj D:maj |
+103.530657596	A, verse, | G:maj D:maj/11 | C:maj/5 D:maj/11 | G:maj D:maj/11 | C:maj/5 D:maj/11 |, (voice
+114.211088435	| G:maj D:maj/3 | C:maj/3 . C:maj C:maj/7 |
+119.497256235	| A:min | D:maj | A:min | D:maj . C:maj D:maj |
+130.140702947	C, chorus, | G:maj C:maj | D:maj . C:maj D:maj | G:maj C:maj | D:maj . C:maj D:maj |
+140.799614512	| G:maj C:maj | D:maj . C:maj B:1 |
+146.100113378	| A:min | D:maj | A:min | D:maj . C:maj D:maj |, voice)
+156.768208616	D, bridge, | E:min | A:min | E:min | A:min |, (synthesizer
+167.417845804	| E:min | A:min | E:min | A:min . C:maj D:maj |, synthesizer)
+178.092267573	A, solo, | G:maj D:maj/11 | C:maj/5 D:maj/11 | G:maj D:maj/11 | C:maj/5 D:maj/11 |, (guitar
+188.725646258	| G:maj D:maj/3 | C:maj/3 . C:maj C:maj/7 |, guitar)
+194.034172335	| A:min | D:maj | A:min | D:maj . C:maj D:maj |, (voice
+204.682811791	C, chorus, | G:maj C:maj | D:maj . C:maj D:maj | G:maj C:maj | D:maj . C:maj D:maj |
+215.34802721	| G:maj C:maj | D:maj . C:maj B:1 |
+220.663356009	| A:min | D:maj | A:min | D:maj . C:maj D:maj |
+231.276031746	C, chorus, | G:maj C:maj | D:maj . C:maj D:maj | G:maj C:maj | D:maj . C:maj D:maj |
+241.950181405	| G:maj C:maj | D:maj . C:maj B:1 |
+247.271995464	| A:min | D:maj | A:min | D:maj . C:maj D:maj |
+257.900861678	C, fadeout, | G:maj C:maj | D:maj . C:maj D:maj | G:maj C:maj | D:maj . C:maj D:maj |
+268.60095238	| G:maj C:maj | D:maj . C:maj B:1 |, voice)
+272.555827664	silence
+278.308571428	end

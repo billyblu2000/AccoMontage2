@@ -1,0 +1,31 @@
+# title: Dyer Maker
+# artist: Led Zepplin
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.30185941	A', intro, | N | N |, (drums)
+3.529433106	| C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |, (guitar)
+15.458185941	B, chorus, | C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |, (voice
+27.384580498	| C:maj A:min | F:maj G:maj | A:min | A:min |
+39.239115646	| C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |
+51.133015873	| C:maj A:min | F:maj G:maj | A:min | A:min |
+62.873990929	C, verse, | A:min | G:maj | A:min | G:maj |
+74.582585034	| A:min | G:maj | F:maj | G:maj |
+86.307142857	B, chorus, | C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |
+97.954331065	| C:maj A:min | F:maj G:maj | A:min | A:min |
+109.715192743	| C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |
+121.563469387	| C:maj A:min | F:maj G:maj | A:min | A:min |
+133.066575963	C, verse, | A:min | G:maj | A:min | G:maj |
+144.671519274	| A:min | G:maj | F:maj | G:maj |, voice)
+156.251746031	B, chorus, | C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |, (guitar
+168.038004535	| C:maj A:min | F:maj G:maj | A:min | A:min |, guitar)
+179.60664399	| C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |, (voice
+191.347505668	| C:maj A:min | F:maj G:maj | A:min | A:min |, voice)
+202.921814058	B', outro, | C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |, (guitar
+214.475782312	| C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |
+226.07770975	| C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |
+237.656575963	| C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |
+249.034965986	fadeout, | C:maj A:min | F:maj G:maj | C:maj A:min | F:maj G:maj |, guitar)
+259.738412698	silence
+263.235918367	end

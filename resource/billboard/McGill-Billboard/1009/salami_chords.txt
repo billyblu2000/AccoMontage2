@@ -1,0 +1,41 @@
+# title: The Millionaire
+# artist: Dr. Hook
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.371519274	Z
+6.948911564	A, intro, | Eb:maj Bb:maj | Eb:maj Bb:maj |, (guitar)
+12.66941043	B, verse, | Eb:maj Bb:maj | Eb:maj Bb:maj |, (voice
+18.082154195	| C:min G:min | F:min Bb:maj |
+23.636825396	| Eb:maj Bb:maj | Eb:maj Bb:maj |
+29.149115646	| C:min G:min | F:min Bb:maj | (6/4) Bb:maj |
+38.85648526	C, chorus, | Eb:maj Bb:maj | C:min G:min |
+44.2	| Ab:maj | Bb:maj |
+49.514081632	| Eb:maj Bb:maj | C:min G:min |
+54.723356009	| Ab:maj Eb:maj | Ab:maj Ab:maj/7 F:min Bb:maj |
+60.150680272	A', trans, | Eb:maj Bb:maj | Eb:maj Bb:maj |
+65.531814058	B, verse, | Eb:maj Bb:maj | Eb:maj Bb:maj |
+71.032789115	| C:min G:min | F:min Bb:maj |
+76.364331065	| Eb:maj Bb:maj | Eb:maj Bb:maj |
+81.831587301	| C:min G:min | F:min Bb:maj | (2/4) Bb:maj |
+88.538662131	C, chorus, | Eb:maj Bb:maj | C:min G:min |
+93.799024943	| Ab:maj | Bb:maj |
+99.105532879	| Eb:maj Bb:maj | C:min G:min |
+104.457800453	| Ab:maj Eb:maj | Ab:maj Ab:maj/7 F:min Bb:maj |
+109.758072562	D, bridge, | Eb:maj Eb:maj/b7 | Ab:maj Bb:maj |
+115.358140589	| Eb:maj Eb:7 | G:maj C:min |
+120.837482993	| F:min | Ab:maj Ab:min |
+126.272426303	| Eb:maj Eb:maj/7 C:min . |
+129.110090702	| Ab:maj A:dim | Bb:maj |
+134.326507936	C', chorus, | Eb:maj Bb:maj | C:min G:min |
+139.671179138	| Ab:maj | Bb:maj |
+145.007891156	| Eb:maj Bb:maj | C:min G:min |
+150.283922902	| Ab:maj Eb:maj | Ab:maj Ab:maj/7 F:min Bb:maj |
+155.75324263	| Eb:maj Ab:maj | Eb:maj Bb:maj |
+161.207346938	A', outro, | Eb:maj Bb:maj | Eb:maj Bb:maj |
+166.388458049	| Eb:maj Bb:maj | Eb:maj Bb:maj |
+171.571746031	fadeout, | Eb:maj Bb:maj | Eb:maj Bb:maj |
+176.736780045	| Eb:maj Bb:maj | Eb:maj Bb:maj |, voice)
+178.672811791	silence
+181.482403628	end

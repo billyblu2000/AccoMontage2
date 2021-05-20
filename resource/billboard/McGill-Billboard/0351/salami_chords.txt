@@ -1,0 +1,24 @@
+# title: Roll On Down The Highway
+# artist: Bachman-Turner Overdrive
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | D:maj | Bb:maj C:maj | x3, (guitar
+10.866938775	| D:maj | D:maj |, guitar)
+14.348412698	B, verse, | D:maj | D:maj | C:maj | C:maj | Bb:maj | Bb:maj | A:sus4 | A:maj | x2, (voice
+42.007936507	C, chorus, | D:maj | G:maj | D:maj | G:maj | D:maj | G:maj | D:maj | Bb:maj C:maj |, voice)
+55.913650793	A, interlude, | D:maj | D:maj | D:maj | D:maj |, (guitar)
+62.760068027	B, verse, | D:maj | D:maj | C:maj | C:maj | Bb:maj | Bb:maj | A:sus4 | A:maj | x2, (voice
+90.407052154	C, chorus, | D:maj | G:maj | D:maj | G:maj | D:maj | G:maj | D:maj | Bb:maj C:maj |, voice)
+104.19585034	A, interlude, | D:maj | Bb:maj C:maj | x3, (guitar
+114.315804988	B, solo, | D:maj | D:maj | C:maj | C:maj | Bb:maj | Bb:maj | A:sus4 | A:maj | x2
+141.630113378	B, solo, | D:maj | D:maj | C:maj | C:maj | Bb:maj | Bb:maj | A:sus4 | A:maj | x2
+168.676848072	B, solo, | D:maj | D:maj | C:maj | C:maj | Bb:maj | Bb:maj | A:sus4 | A:maj |, guitar)
+182.404671201	C, chorus, | D:maj | G:maj | D:maj | G:maj | D:maj | G:maj | D:maj | Bb:maj C:maj |, (voice
+196.023673469	C, chorus, | D:maj | G:maj | D:maj | G:maj | D:maj | G:maj | D:maj | Bb:maj C:maj |, voice)
+209.566439909	C', interlude, | N | N | N | N |, (guitar) 
+216.519387755	C, outro, | D:maj | G:maj | D:maj | G:maj | D:maj | G:maj | D:maj | Bb:maj C:maj |, (voice
+230.192154195	| D:maj |, voice)
+236.065668934	silence
+240.248163265	end

@@ -1,0 +1,51 @@
+# title: Ob-La-Di, Ob-La-Da
+# artist: The Beatles'
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.116099773	A, intro, | F:maj F:7 |
+2.166689342	| Bb:maj | Bb:maj |
+6.445283446	| Bb:maj | Bb:maj |
+10.708866213	B, verse, | Bb:maj | F:7 |, (voice
+15.050589569	| F:7 | Bb:maj |
+19.278503401	| Bb:maj | Eb:maj |
+23.528412698	| Bb:maj F:7 | Bb:maj |
+27.758276643	C, chorus, | Bb:maj | D:min/b3 G:min |
+31.999750566	| Bb:maj F:maj | Bb:maj |
+36.319002267	| Bb:maj | D:min/b3 G:min |
+40.517687074	| Bb:maj F:maj | Bb:maj |
+44.705124716	B, verse, | Bb:maj | F:7 |
+48.917505668	| F:7 | Bb:maj |
+53.07015873	| Bb:maj | Eb:maj |
+57.304058956	| Bb:maj F:7 | Bb:maj |
+61.55786848	C, chorus, | Bb:maj | D:min/b3 G:min |
+65.736145124	| Bb:maj F:maj | Bb:maj |
+69.990612244	| Bb:maj | D:min/b3 G:min |
+74.216077097	| Bb:maj F:maj | Bb:maj |
+78.439546485	D, bridge, | Eb:maj | Eb:maj |
+82.658390022	| Bb:maj Bb:sus4(9) | Bb:maj Bb:9 |
+86.849659863	| Eb:maj | Eb:maj |
+91.059886621	| Bb:maj/5 | F:7 |
+95.297981859	B, verse, | Bb:maj | F:7 |
+99.544852607	| F:7 | Bb:maj |
+103.751405895	| Bb:maj | Eb:maj |
+107.938412698	| Bb:maj F:7 | Bb:maj |
+112.23755102	C, chorus, | Bb:maj | D:min/b3 | G:min |
+116.531247165	| Bb:maj F:maj | Bb:maj |
+120.795782312	| Bb:maj | D:min/b3 | G:min |
+125.017052154	| Bb:maj F:maj | Bb:maj |
+129.262380952	D, bridge, | Eb:maj | Eb:maj |
+133.479682539	| Bb:maj Bb:sus4(9) | Bb:maj Bb:9 |
+137.775034013	| Eb:maj | Eb:maj |
+141.970068027	| Bb:maj/5 | F:7 |
+146.145283446	B, verse, | Bb:maj | F:7 |
+150.45861678	| F:7 | Bb:maj |
+154.714535147	| Bb:maj | Eb:maj |
+158.980453514	| Bb:maj F:7 | Bb:maj |
+163.221882086	C', chorus, | Bb:maj | D:min/b3 | G:min |
+167.569070294	| Bb:maj F:maj | Bb:maj |
+171.804172335	| Bb:maj | D:min/b3 | G:min |
+176.037120181	| Bb:maj F:maj | G:min |
+180.32063492	E, coda, | G:min | F:maj Bb:maj | Bb:maj |, voice)
+189.011269841	end

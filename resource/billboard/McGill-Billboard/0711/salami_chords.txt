@@ -1,0 +1,34 @@
+# title: Some Days Are Diamonds (Some Days Are Stone)
+# artist: John Denver
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.417959183	A, intro, | G:maj | G:sus4 | G:maj | G:sus4 |, (guitar)
+9.90600907	B, verse, | G:maj | D:7/3 | E:min | E:min . . D:maj |, (voice
+19.28446712	| C:maj | C:maj | G:maj | G:maj |
+28.616984126	| C:maj | C:maj | G:maj | G:maj |
+37.911428571	| E:min | A:7 | D:7 | D:7 |
+47.275827664	C, chorus, | G:maj | C:maj(9) | G:maj | G:maj |
+56.57770975	| E:min | A:7 | D:7 | D:7 |
+65.889705215	| G:maj | C:maj | G:maj | E:min C:maj |
+75.184920634	| G:maj | D:7 | G:maj G:maj/3 | C:maj C#:dim | D:maj | D:7 |, voice)
+89.097687074	A, interlude, | G:maj | G:sus4 | G:maj | G:sus4 |, (guitar)
+98.468594104	B, verse, | G:maj | D:7/3 | E:min | E:min . . D:maj |, (voice
+107.69371882	| C:maj | C:maj | G:maj | G:maj |
+117.00201814	| C:maj | C:maj | G:maj | G:maj |
+126.271950113	| E:min | A:7 | D:7 | D:7 |
+135.483265306	C, chorus, | G:maj | C:maj(9) | G:maj | G:maj |
+144.704285714	| E:min | A:7 | D:7 | D:7 |
+153.883378684	| G:maj | C:maj | G:maj | E:min C:maj |
+163.056462585	| G:maj | D:7 | G:maj | D:sus4(b7) |, voice)
+# tonic: A
+172.337936507	D, interlude, | A:maj | D:sus4(b7) |
+176.828707482	C', chorus, | A:maj | D:maj(9) | A:maj | A:maj |, (voice
+186.098526077	| F#:min | B:7 | E:7 | E:7 |
+195.16063492	| A:maj | D:maj | A:maj | F#:min D:maj |
+204.410136054	| A:maj | E:7 | A:maj | E:sus4(b7) |
+213.346938775	fadeout, | A:maj | D:maj(9) | A:maj | A:maj |
+222.612380952	| F#:min | B:7 | E:7 | E:7 |, voice)
+237.026575963	silence
+242.788231292	end

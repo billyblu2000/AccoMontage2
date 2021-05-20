@@ -1,0 +1,41 @@
+# title: Country Road
+# artist: James Taylor
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.208979591	A', intro, | D:maj | D:maj | C:maj/9 . . G:maj/5 | G:maj/5 |
+7.578004535	| D:maj | D:maj | C:maj . G:maj D:maj | D:maj |
+14.000770975	B, verse, | D:maj | D:maj | C:maj/9 | C:maj/9 G:maj/5 |, (voice
+20.458276643	| D:maj | D:maj | C:maj/9 | C:maj/9 D:maj |
+26.969705215	| E:min7 | A:7 | x3
+36.331451247	| B:min . . C:maj/9 | C:maj/9 |
+39.467210884	A, chorus, | D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+45.835578231	| D:maj | D:maj | C:maj/9 . . D:maj | D:maj |
+52.145555555	B, verse, | D:maj | D:maj | C:maj/9 | C:maj/9 G:maj/5 |
+58.57941043	| D:maj | D:maj | C:maj/9 | C:maj/9 D:maj |
+65.007165532	| E:min7 | A:7 | x3
+74.256122448	| B:min . . C:maj/9 | C:maj/9 |
+77.393446712	A, chorus, | D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+83.628344671	| D:maj | D:maj | C:maj/9 . . D:maj | D:maj |
+89.845351473	C, bridge, | F:maj/13 | F:maj/13 | G:maj . . D:maj | D:maj |
+96.037732426	| C:maj . C:maj/7 C:maj/13 | C:maj/13 |
+99.154512471	A, chorus, | D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+105.434013605	| D:maj | D:maj | C:maj/9 . . D:maj | D:maj |
+111.652970521	B, verse, | D:maj | D:maj | C:maj/9 | C:maj/9 G:maj/5 |
+118.083741496	| D:maj | D:maj | C:maj/9 | C:maj/9 D:maj |
+124.367913832	| E:min7 | A:7 | x3
+133.609297052	| B:min . . C:maj/9 | C:maj/9 |
+136.730589569	A, chorus, | D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+142.955714285	| D:maj | D:maj | C:maj/9 . . D:maj | D:maj |
+149.257120181	A'', outro, | D:maj | D:maj | C:maj/9 | C:maj/9 |
+155.589047619	| D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+161.921950113	| D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+168.057981859	| D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+174.194875283	| D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+180.338503401	| D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+186.395963718	fadeout, | D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+192.503628117	| D:maj | D:maj | C:maj/9 . . G:maj | G:maj |
+198.599886621	| D:maj | D:maj | C:maj/9 . . G:maj | G:maj |, voice)
+200.683197278	silence
+203.45185941	end

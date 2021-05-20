@@ -1,0 +1,42 @@
+# title: Right Place Wrong Time
+# artist: Dr. John
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+2.9024943e-2	Z
+0.325079365	A, intro, | N |, (synthesizer
+1.909841269	| N | Eb:min7 | Eb:min7 |
+11.778321995	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |
+21.73648526	B, instrumental, | Eb:min7 | Ab:7/5 | Eb:min7 | Ab:7/5 |
+31.74893424	| Eb:min7 | Ab:7/5 | Eb:min7 | Ab:7/5 |, synthesizer)
+41.900408163	B, chorus, | Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |, (voice
+52.173061224	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+62.465192743	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 Gb:7 F:7 E:7 |
+72.743424036	C, verse, | Eb:min7 | Eb:min7 Ab:7/b7 | Eb:min7 | Eb:min7 |
+83.023310657	| Eb:min7 | Eb:min7 Ab:7/b7 | Eb:min7 | Eb:min7 |
+93.433650793	B, chorus, | Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+103.830498866	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 Gb:7 F:7 E:7 |, voice)
+114.206145124	A', trans, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (trumpet
+124.513446712	| F:7 | Bb:maj |, trumpet)
+129.705192743	B', solo, | Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |, (guitar
+140.105192743	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+150.413492063	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+160.690680272	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+171.050385487	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+181.481065759	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+191.924081632	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 Gb:7 F:7 E:7 |, guitar)
+202.43356009	C, verse, | Eb:min7 | Eb:min7 Ab:7/b7 | Eb:min7 | Eb:min7 |, (voice
+212.853582766	| Eb:min7 | Eb:min7 Ab:7/b7 | Eb:min7 | Eb:min7 |
+223.3623356	B, chorus, | Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+233.76462585	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+244.17510204	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+254.611995464	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+264.935873015	B, chorus, | Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |
+275.316394557	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |, voice)
+285.765464852	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 |, (guitar
+296.151587301	| Eb:min7 | Ab:7 | Eb:min7 | Ab:7 Gb:7 F:7 E:7 |
+306.609750566	C', coda, | Eb:min7 | Eb:min7 Ab:7/b7 | Eb:min7 | Eb:min7 |
+316.954172335	| Eb:min7 | Eb:min7 Ab:7/b7 | &pause |, guitar)
+331.99877551	Z
+335.020408163	end

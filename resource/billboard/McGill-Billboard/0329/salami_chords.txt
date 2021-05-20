@@ -1,0 +1,40 @@
+# title: Smoking Gun
+# artist: The Robert Cray Band
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.348299319	A, intro, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |, (guitar
+8.360136054	| E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |, guitar)
+16.06079365	B, verse, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |, (voice
+23.666734693	| E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |
+31.257210884	| A:min7 | A:min7 | E:min7 | E:min7 |
+38.893786848	| A:min7 | A:min7 | Bb:1 A:1 |, voice)
+44.61755102	A, trans, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |, (guitar)
+52.27015873	B, verse, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |, (voice
+59.888276643	| E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |
+67.49031746	| A:min7 | A:min7 | E:min7 | E:min7 |
+75.108299319	| A:min7 | A:min7 | Bb:1 A:1 |, voice)
+80.823287981	A, trans, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |, (guitar
+88.443287981	B', solo, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |
+96.08340136	| E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |
+103.701065759	| A:min7 | A:min7 | E:min7 | E:min7 |
+111.393537414	| A:min7 | A:min7 | Bb:1 A:1 |
+117.021836734	A, trans, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |
+124.671927437	B', solo, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |
+132.33292517	| E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |
+139.95893424	| A:min7 | A:min7 | E:min7 | E:min7 |
+147.598231292	| A:min7 | A:min7 | Bb:1 A:1 |
+153.328503401	A, trans, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |, guitar)
+160.941768707	B, verse, | E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |, (voice
+168.571972789	| E:min7 | E:min9 E:min7 | E:min7 | E:min9 E:min7 |
+176.198798185	| A:min7 | A:min7 | E:min7 | E:min7 |
+183.806099773	| A:min7 | A:min7 | Bb:1 A:1 |, voice)
+189.532199546	A, outro, | E:min7 | E:min7 | E:min7 | E:min7 |, (guitar
+197.206303854	| E:min7 | E:min7 | E:min7 | E:min7 |
+204.856870748	| E:min7 | E:min7 | E:min7 | E:min7 |
+212.495442176	| E:min7 | E:min7 | E:min7 | E:min7 |
+220.098253968	| E:min7 | E:min7 | E:min7 | E:min7 |
+227.756122448	fadeout, | E:min7 | E:min7 | E:min7 | E:min7 | E:min7 |, guitar)
+237.261496598	silence
+240.796734693	end

@@ -1,0 +1,21 @@
+# title: Silent Night
+# artist: Bing Crosby
+# metre: 3/4
+# tonic: Ab
+
+0.0	silence
+0.441179138	A, intro, | Ab:maj/5 | Eb:7 | Ab:maj/5 | Ab:maj/5 |
+12.319727891	B, verse, | Ab:maj | Ab:maj | Ab:maj | Ab:maj |, (voice
+23.076893424	| Eb:sus4 | Eb:maj | Ab:maj | Ab:maj |
+33.762471655	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+44.494988662	| Db:maj | Db:maj | Ab:maj | Ab:maj |
+55.72755102	| Eb:7 | Eb:7 | Ab:maj | Ab:maj |
+66.887891156	| Ab:maj | Eb:maj | Ab:maj | Ab:maj |
+78.305714285	B, verse, | Ab:maj | Ab:maj7 | Ab:maj(9) | Ab:maj7 |
+90.62786848	| Eb:7 | Eb:7 | Ab:maj | Ab:maj7 . Ab:7 |
+103.299047619	| Db:maj | Db:maj7 Db:maj6 Db:7 | Ab:maj(9) | Ab:maj7 . Ab:7 |
+115.835804988	| Db:maj | Db:maj7 Db:maj6 Db:7 | Ab:maj(9) | Ab:maj |
+128.711519274	| Eb:7 | Eb:7 | Ab:maj | Ab:maj |
+142.294172335	| Ab:maj | Eb:7 | Ab:maj | Ab:maj |, voice)
+160.055147392	silence
+161.906938775	end

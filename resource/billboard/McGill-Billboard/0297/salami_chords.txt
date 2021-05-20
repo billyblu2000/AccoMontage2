@@ -1,0 +1,24 @@
+# title: That's the Way I Feel About Cha
+# artist: Bobby Womack
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.534058956	A, intro, | G:maj7 | D:maj6 | G:maj7 D:maj6/3 E:min7 A:sus4(b7) | D:maj7 . E:min7 A:7 |, (guitar)
+15.761179138	A, verse, | G:maj7 | D:maj6 | G:maj7 D:maj6/3 E:min7 A:sus4(b7) | D:maj7 . E:min7 A:7 |, (voice
+29.357959183	| G:maj7 | D:maj6 | G:maj7 D:maj6/3 E:min7 A:sus4(b7) | D:maj7 . E:min7 A:7 |
+42.830770975	| G:maj7 | D:maj6 | G:maj7 D:maj6/3 E:min7 A:sus4(b7) | D:maj7 . E:min7 A:7 |
+56.474489795	| G:maj7 | D:maj6 | G:maj7 D:maj6/3 E:min7 A:sus4(b7) | D:maj7 . E:min7 A:7 |
+69.89526077	B, chorus, | G:maj/9 | G:maj/9 | D:maj7 A:7 | B:min7 |
+83.501972789	| E:min7 | A:7 | D:maj6 . A:7/3 . | B:min7 . . F#:maj |
+97.290929705	| B:min9 | B:min9 . E:7 . | G:maj7 . B:min7 . | E:min7 . . F#:maj |
+110.980839002	| B:min9 | B:min9 . E:7 . | G:maj7 | G:maj/9 |
+124.901315192	A, verse, | G:maj7 | D:maj6 | G:maj7 D:maj6/3 E:min7 A:sus4(b7) | D:maj7 . E:min7 A:7 |
+138.582902494	| G:maj7 | D:maj6 | G:maj7 D:maj6/3 E:min7 A:sus4(b7) | D:maj7 . E:min7 A:7 |
+152.054965986	B, chorus, | G:maj/9 | G:maj/9 | D:maj7 . A:7 . | B:min7 |
+165.66861678	| E:min7 . G:maj . | A:7 | D:maj6 . A:7/3 . | B:min7 |
+179.523854875	| E:min7 . G:maj . | A:7 | D:maj6 . A:7/3 . | B:min7 |
+193.34356009	fadeout, | E:min7 . G:maj . | A:7 | D:maj6 . A:7/3 . | B:min7 |
+206.981405895	| E:min7 . G:maj . | A:7 | D:maj6 . A:7/3 . | B:min7 |, voice)
+213.298503401	silence
+216.372244897	end

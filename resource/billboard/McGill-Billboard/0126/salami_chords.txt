@@ -1,0 +1,25 @@
+# title: Willie Nelson
+# artist: Blue Eyes Cryin' 
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.565986394	A, intro, | E:maj | E:maj |
+5.109637188	A, verse, | E:maj | E:maj | E:maj | E:maj |, (voice
+13.46632653	| B:maj | B:maj | E:maj | E:maj |
+21.53446712	| E:maj | E:maj | E:maj | E:maj |
+29.618888888	| B:maj | B:maj | E:maj | E:maj |
+37.357981859	B, verse, | A:maj | A:maj | A:maj | A:maj |
+45.353061224	| E:maj | E:maj | B:maj | B:maj |
+53.418684807	| E:maj | E:maj | E:maj | E:maj |
+61.411519274	| B:maj | B:maj | E:maj | E:maj |
+69.43877551	A, solo, | E:maj | E:maj | E:maj | E:maj |, (guitar)
+77.694444444	| B:maj | B:maj | E:maj | E:maj |
+85.839478458	| E:maj | E:maj | E:maj | E:maj |
+93.87	| B:maj | B:maj | E:maj C:aug(b7,9) | E:7/5 Bb:1(b5,b7,3) |
+102.057777777	B, verse, | A:maj | A:maj | A:maj | A:maj |, (voice
+110.283537414	| E:maj | E:maj | B:maj | B:maj |
+118.324444444	| E:maj | E:maj | E:maj | E:maj |
+126.5592517	| B:maj | B:maj | E:maj A:maj | E:maj |, voice)
+138.202267573	silence
+140.564897959	end

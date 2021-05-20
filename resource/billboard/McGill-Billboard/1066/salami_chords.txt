@@ -1,0 +1,42 @@
+# title: My Hometown
+# artist: Bruce Springsteen
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.371519274	A, intro, | A:maj/5 | A:maj/5 | D:maj/3 A:maj/5 | E:maj |, (synthesizer
+8.693310657	| E:sus4/9 E:maj . . | E:sus4/9 E:maj . . | A:maj/5 A:maj/3 | D:maj |, synthesizer)
+16.942358276	A, verse, | A:maj/5 | A:maj/5 | D:maj/3 A:maj/5 | E:maj |, (voice
+25.216054421	| E:sus4/9 E:maj . . | E:sus4/9 E:maj . . | A:maj/5 A:maj/3 | D:maj |
+33.445532879	| A:maj/5 | A:maj/5 | D:maj/3 A:maj/5 | E:maj |
+41.674195011	| E:sus4/9 E:maj . . | E:sus4/9 E:maj . . | A:maj/5 A:maj/3 | D:maj |
+49.99510204	A, chorus, | A:maj/5 | A:maj/5 | D:maj/3 A:maj/5 | E:maj |
+58.223197278	| E:sus4/9 E:maj . . | E:sus4/9 E:maj . . | A:maj/5 A:maj/3 | D:maj |, voice)
+66.479024943	B, trans, | A:maj/5 | A:maj/5 |, (synthesizer)
+70.63600907	A, verse, | A:maj | A:maj | D:maj A:maj | E:maj |, (voice
+78.816780045	| E:maj | E:maj | A:maj | D:maj |
+86.962630385	| A:maj | A:maj | D:maj A:maj | E:maj |
+95.123310657	| E:maj | E:maj | A:maj | D:maj |
+103.223514739	A, chorus, | A:maj | A:maj | D:maj A:maj | E:maj |
+111.400090702	| E:maj | E:maj | A:maj | D:maj |, voice)
+119.566575963	B, trans, | A:maj | A:maj |, (synthesizer)
+123.662993197	C, bridge, | F#:min | F#:min | A:maj | A:maj |, (voice
+131.742403628	| F#:min | F#:min | A:maj | A:maj |
+139.923129251	| D:maj | D:maj | A:maj | A:maj |
+148.080181405	| D:maj | D:maj | A:maj | E:maj |
+156.292743764	A, chorus, | A:maj | A:maj | D:maj A:maj | E:maj |
+164.417641723	| E:maj | E:maj | A:maj | D:maj |, voice)
+172.500884353	B, trans, | A:maj | A:maj |, (synthesizer)
+176.539591836	A, verse, | A:maj | A:maj | D:maj A:maj | E:maj |, (voice
+184.669659863	| E:maj | E:maj | A:maj | D:maj |
+192.810385487	| A:maj | A:maj | D:maj A:maj | E:maj |
+200.898843537	| E:maj | E:maj | A:maj | D:maj | D:maj |, voice)
+211.057596371	A, instrumental, | A:maj | A:maj | D:maj A:maj | E:maj |, (synthesizer
+219.264965986	| E:maj | E:maj | A:maj | D:maj |
+227.251655328	fadeout, | A:maj | A:maj | D:maj A:maj | E:maj |
+235.26430839	| E:maj | E:maj | A:maj | D:maj |
+243.273968253	| A:maj | A:maj | D:maj A:maj | E:maj |
+251.275283446	| E:maj | E:maj | A:maj | D:maj |
+259.327460317	| A:maj | A:maj | D:maj A:maj | E:maj | E:maj | E:maj |, synthesizer)
+268.051156462	silence
+274.233469387	end

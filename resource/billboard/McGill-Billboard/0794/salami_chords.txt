@@ -1,0 +1,38 @@
+# title: Catch My Fall
+# artist: Billy Idol
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.998458049	A, intro, | N | N | N | N |, (synthesiser) 
+8.405623582	| G:maj | D:maj | C:maj | D:maj |
+15.732675736	A, verse, | G:maj | D:maj | C:maj | D:maj |, (voice
+22.988458049	| G:maj | D:maj | C:maj | D:maj |
+30.287369614	B, verse, | C:maj | C:maj | D:maj | D:maj |
+37.526235827	| C:maj | C:maj | D:maj | D:maj |
+44.807414965	C, pre-chorus, | E:min | A:maj | E:min | A:maj |
+52.094512471	B, chorus, | C:maj | C:maj | D:maj | D:maj |
+59.45861678	| C:maj | C:maj | D:maj | D:maj |
+66.656848072	A, chorus, | G:maj | D:maj | C:maj | D:maj |
+74.018367346	| G:maj | D:maj | C:maj | D:maj |
+81.287959183	A, verse, | G:maj | D:maj | C:maj | D:maj |
+88.569682539	| G:maj | D:maj | C:maj | D:maj |
+95.843265306	B, verse, | C:maj | C:maj | D:maj | D:maj |
+103.127505668	| C:maj | C:maj | D:maj | D:maj |
+110.40356009	C, pre-chorus, | E:min | A:maj | E:min | A:maj |
+117.565215419	B, chorus, | C:maj | C:maj | D:maj | D:maj |
+124.977346938	| C:maj | C:maj | D:maj | D:maj |, voice)
+132.257437641	B, interlude, | C:maj | C:maj | D:maj | D:maj |, (guitar
+139.541791383	| C:maj | C:maj | D:maj | D:maj |
+146.88063492	B, interlude, | C:maj | C:maj | D:maj | D:maj |
+154.102131519	| C:maj | C:maj | D:maj | D:maj |, guitar)
+161.322154195	C, pre-chorus, | E:min | A:maj | E:min | A:maj |, (voice
+168.601179138	B, outro, | C:maj | C:maj | D:maj | D:maj |
+175.949342403	| C:maj | C:maj | D:maj | D:maj |
+183.228163265	| C:maj | C:maj | D:maj | D:maj |
+190.448798185	A, outro, | G:maj | D:maj | C:maj | D:maj |
+197.792040816	| G:maj | D:maj | C:maj | D:maj |
+205.136530612	| G:maj | D:maj | C:maj | D:maj |, fadeout
+212.445374149	| G:maj | D:maj | C:maj | D:maj |, voice)
+219.706145124	silence
+221.985487528	end

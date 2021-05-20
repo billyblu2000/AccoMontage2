@@ -1,0 +1,21 @@
+# title: Scarlet Fever
+# artist: Kenny Rogers
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.478911564	A, intro, | D:maj | x3, (guitar)
+9.256553287	B, verse, | D:maj | D:maj | G:maj | D:maj | G:maj A:maj | (2/4) D:maj | G:maj | G:maj | A:maj |, (voice 
+33.824240362	B, verse, | D:maj | D:maj | G:maj | D:maj | G:maj A:maj | (2/4) D:maj | G:maj | G:maj A:maj | D:maj |
+58.251836734	B, verse, | D:maj | D:maj . . A:maj | G:maj | D:maj | G:maj A:maj | (2/4) D:maj | G:maj | G:maj A:maj | D:maj |
+82.742517006	D, transition, | (2/4) D:maj |
+84.252199546	C, chorus, | G:maj(9) | A:sus4(b7) A:maj | D:sus4 D:maj | G:maj | E:min11 E:min7 | A:sus4(b7) A:maj | D:maj | D:maj |
+107.531995464	| G:maj(9) | A:sus4(b7) A:maj | D:sus4 D:maj | G:maj | E:min11 E:min7 | A:sus4(b7) A:maj | D:maj | D:maj |
+130.919637188	B, verse, | D:maj | D:maj | G:maj | D:maj | G:maj A:maj | (2/4) D:maj | G:maj | G:maj A:maj | D:maj |
+155.333492063	B, verse, | D:maj | D:maj | G:maj | D:maj | G:maj A:maj | (2/4) D:maj | G:maj | G:maj A:maj | D:maj |
+179.883673469	D, transition, | (2/4) D:maj |
+181.336439909	C, chorus, | G:maj(9) | A:sus4(b7) A:maj | D:sus4 D:maj | G:maj | E:min11 E:min7 | A:sus4(b7) A:maj | D:maj | D:maj |
+204.554648526	| G:maj(9) | A:sus4(b7) A:maj | D:sus4 D:maj | G:maj | E:min11 E:min7 | A:sus4(b7) |
+222.163537414	A, outro, | D:maj | x3, voice)
+237.468956916	silence
+238.471836734	end

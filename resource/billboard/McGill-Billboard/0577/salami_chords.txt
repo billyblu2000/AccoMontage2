@@ -1,0 +1,28 @@
+# title: Let's work Together
+# artist: Canned Heat
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.487619047	A', intro, | D:7 | C:7 | G:maj | G:maj |
+9.801247165	A, chorus, | G:maj | G:maj | G:maj | G:maj |, (voice
+17.926077097	| C:7 | C:7 | G:maj | G:maj |
+26.006870748	| D:7 | C:7 | G:maj | G:maj |
+34.063469387	A, chorus, | G:maj | G:maj | G:maj | G:maj |
+42.142426303	| C:7 | C:7 | G:maj | G:maj |
+50.203990929	| D:7 | C:7 | G:maj | G:maj |
+58.313514739	A, chorus, | G:maj | G:maj | G:maj | G:maj |
+66.336099773	| C:7 | C:7 | G:maj | G:maj |
+74.372743764	| D:7 | C:7 | G:maj | G:maj |, voice)
+82.394104308	A, solo, | G:maj | G:maj | G:maj | G:maj |, (guitar
+90.503106575	| C:7 | C:7 | G:maj | G:maj |
+98.416303854	| D:7 | C:7 | G:maj | G:maj |, guitar)
+106.378639455	A, chorus, | G:maj | G:maj | G:maj | G:maj |, (voice
+114.516780045	| C:7 | C:7 | G:maj | G:maj |
+122.61648526	| D:7 | C:7 | G:maj | G:maj |, voice)
+130.492312925	A, solo, | G:maj | G:maj | G:maj | G:maj |, (guitar
+138.499297052	| C:7 | C:7 | G:maj | G:maj |, guitar)
+146.5161678	| D:7 | C:7 | G:maj | G:maj |, (voice)
+154.573990929	| D:7 | C:7 | G:maj | G:maj . D:7 C:7 | G:maj |, (guitar)
+166.370975056	silence
+169.900408163	end

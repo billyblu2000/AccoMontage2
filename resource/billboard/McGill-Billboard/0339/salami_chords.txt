@@ -1,0 +1,41 @@
+# title: Deeper Shade Of Soul
+# artist: Urban Dance Squad
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.278639455	A, intro, | N | N | N | N |
+8.778117913	B, verse, | A:7 | A:7 | A:7 | A:7 |, (voice
+17.177369614	| A:7 | A:7 | A:7 | A:7 |
+25.679886621	| A:7 | A:7 | A:7 | A:7 |
+34.097936507	| A:7 | A:7 | A:7 | A:7 |
+42.554013605	C, chorus, | D:maj . G:maj . | A:maj . G:maj . | D:maj . G:maj . | A:maj . G:maj . |
+51.058503401	| D:maj . G:maj . | A:maj . G:maj . | D:maj . G:maj . | A:maj . G:maj . |
+59.498548752	B, verse, | A:7 | A:7 | A:7 | A:7 |
+67.988639455	| A:7 | A:7 | A:7 | A:7 |
+76.414603174	| A:7 | A:7 | A:7 | A:7 |
+84.872698412	| A:7 | A:7 | A:7 | A:7 |
+93.338798185	C, chorus, | D:maj . G:maj . | A:maj . G:maj . | D:maj . G:maj . | A:maj . G:maj . |
+101.809274376	| D:maj . G:maj . | A:maj . G:maj . | D:maj . G:maj . | A:maj . G:maj . |
+110.281678004	D, trans, | D:maj | F:maj G:maj . . | A:maj | C:maj A:maj G:maj F:maj |
+118.715328798	| D:maj | F:maj G:maj . . | A:maj | C:maj A:maj G:maj F:maj |
+127.189047619	B, verse, | A:7 | A:7 | A:7 | A:7 |
+135.647482993	| A:7 | A:7 | A:7 | A:7 |
+144.141950113	| A:7 | A:7 | A:7 | A:7 |
+152.592131519	| A:7 | A:7 | A:7 | A:7 |
+161.017097505	C', chorus, | D:maj . G:maj . | A:maj . G:maj . | D:maj . G:maj . | A:maj . G:maj . |
+169.490136054	| D:maj . G:maj . | A:maj . G:maj . | D:maj . G:maj . | A:maj . G:maj . |
+177.946258503	| D:maj . G:maj . | A:maj . G:maj . | D:maj . G:maj . | A:maj . G:maj . |
+186.418752834	| D:maj . G:maj . | A:maj . G:maj . | D:maj . G:maj . | A:maj . G:maj . |
+194.913356009	E, instrumental, | D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . | D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . |, (saxophone
+203.318911564	| D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . | D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . |
+211.746575963	| D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . | D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . |, voice)
+220.268276643	| D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . | D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . |
+228.693809523	| D:maj/5 . G:maj/9 . | A:7 . G:maj/9 . | D:maj/5 . G:maj/9 . |, saxophone)
+235.054988662	F, trans, | A:7(#9) | A:7(#9) | A:7(#9) | A:7(#9) |
+243.525034013	| A:7(#9) | A:7(#9) | A:7(#9) | D:maj/5 . G:maj/9 . |
+251.991405895	B', solo, | A:7 | A:7 | A:7 | A:7 |, (saxophone, (guitar
+260.319047619	| A:7 | A:7 | A:7 | A:7 |, saxophone)
+268.37723356	| A:7 | A:7 |, guitar) 
+272.19430839	silence
+274.048049886	end

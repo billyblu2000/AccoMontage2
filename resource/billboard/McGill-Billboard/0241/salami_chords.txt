@@ -1,0 +1,26 @@
+# title: White Christmas
+# artist: Bing Crosby
+# metre: 4/4
+# tonic: A
+
+0.000000000	silence
+0.417959183	A, intro, | A:maj/5 | C#:min7/b3 C:dim |, (woodwinds
+6.068798185	| A:maj(9)/5 A:maj/5 | (3/4) C#:min7/b3 C:dim B:min7/11 |, woodwinds)
+10.646122448	B, theme, | A:maj | D:maj/5 A:maj G#:maj/b9 A:maj | B:min | D#:dim/b9 E:7 |, (voice
+20.575963718	| B:min7 | B:min7/b3 E:7 | A:maj E:7 | G#:maj/b9 A:maj B:min7 E:7 |
+30.232380952	| A:maj | A:9 A:7(b9) | D:maj7 | D:maj6(7) |
+40.561315192	| F#:min | F#:min7 B:7 | E:sus4(b7) | E:7 |
+50.523786848	B', theme, | A:7 | D:maj/5 A:maj G#:maj/b9 A:maj | B:min | D#:dim/b9 E:7 |
+60.437596371	| B:min7 | B:min7/b3 E:7 | A:maj G#:maj/b9 | A:maj . B:min7 E:7 |
+70.434716553	| A:maj | A:9 A:7(b9) | D:maj7 | D:min |
+80.683514739	| A:maj A:7 | D:maj E:7(b9) | A:maj C#:min7 | F#:min7 | E:7/5 Bb:maj |, voice)
+90.747233560	B'', theme, | A:maj | D:maj/5 A:maj G#:maj/b9 A:maj | B:min7 | D#:dim/b9 E:7 |, (choir
+100.675328798	| B:min7 | D:maj E:7 | A:maj | G#:maj/b9 A:maj . . |
+110.579183673	| A:maj A:7 | A:7 | D:maj | D:maj6(7) |
+120.635102040	| A:maj | A:sus4 A:maj B:7 . | E:7 | E:7 |
+130.443083900	B''', theme, | A:maj | D:maj/5 A:maj G#:maj/b9 A:maj | B:min7 | D#:dim/b9 E:7 |
+140.245170068	| B:min7 | D:maj E:7 | A:maj | G#:maj/b9 A:maj . . |
+150.000907029	| A:maj A:7 | A:7 | D:maj | D:min6(7) |, (voice, choir)
+161.178412698	| A:maj | E:7 | A:maj6 |, voice)
+179.676009070	silence
+181.978843537	end

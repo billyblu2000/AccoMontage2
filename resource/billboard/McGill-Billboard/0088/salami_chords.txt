@@ -1,0 +1,35 @@
+# title: Buy For Me The Rain
+# artist: Nitty Gritty Dirt Band
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.510839002	A, intro, | C:sus2 . . . | C:sus2 | Bb:maj6(9) | Bb:maj6(9) . F:maj/3 F:maj |, (guitar)
+5.51371882	B, trans, | C:maj | Bb:maj6(9) | C:maj | Bb:maj6(9) |, (strings)
+10.615510204	C, verse, | C:maj | Bb:maj6(9) | C:maj | Bb:maj6(9) |, (voice
+15.636303854	| C:maj | Bb:maj6(9) | C:maj | G:min11/b3 |
+20.761473922	| F:maj | F:maj | G:7 | G:7 |
+25.831247165	| C:maj | Bb:maj6(9) | F:maj | Bb:maj6(9) | Bb:maj6(9) | ->, voice)
+32.174988662	B, trans, | C:maj | G:min7 | C:maj | G:min7 |, (strings)
+37.28478458	C, verse, | C:maj | Bb:maj6(9) | C:maj | G:min7 |, (voice
+42.389659863	| C:maj | Bb:maj6(9) | C:maj | Bb:maj6(9) |
+47.524603174	| F:maj | F:maj | G:7 | G:7 |
+52.598299319	| C:maj | Bb:maj6(9) | F:maj | Bb:maj6(9) | Bb:maj6(9) | ->, voice)
+59.0630839	B, trans, | C:maj | G:min7 | C:maj | G:min7 |, (strings)
+64.204149659	C, verse, | C:maj | Bb:maj6(9) | C:maj | Bb:maj6(9) |, (voice
+69.340430839	| C:maj | Bb:maj6(9) | C:maj | Bb:maj6(9) |
+74.549229024	| F:maj | F:maj | G:7 | G:7 |
+79.611746031	| C:maj | Bb:maj6(9) | F:maj | Bb:maj6(9) . . . | Bb:maj6(9) | ->, voice)
+86.148594104	B, trans, | C:maj | G:min7 | C:maj | G:min7 |, (strings)
+91.243219954	C, verse, | C:maj | Bb:maj6(9) | C:maj | Bb:maj6(9) |, (voice
+96.431111111	| C:maj | Bb:maj6(9) | C:maj | Bb:maj6(9) |
+101.524920634	| F:maj | F:maj | G:7 | G:7 |
+106.707573696	| C:maj | Bb:maj6(9) | F:maj | Bb:maj6(9) | Bb:maj6(9) | ->, voice)
+113.074263038	B, trans, | C:maj | G:min7 | C:maj | G:min7 |, (strings)
+118.323038548	C, interlude, | C:maj | Bb:maj6(9) | C:maj | Bb:maj6(9) |
+123.448140589	| F:maj | F:maj | G:7 | G:7 |
+128.605170068	| C:maj | Bb:maj6(9) | F:maj | -> 
+132.453809523	| G:min6 | G:min6 | G:min7 | G:min7 |
+137.55893424	| C:maj |, strings)
+141.154104308	silence
+143.046530612	end

@@ -1,0 +1,27 @@
+# title: Jamie
+# artist: Eddie Holland
+# metre: 4/4
+# tonic: Eb
+
+0.0	silence
+0.464399092	A, intro, | Bb:7 | Bb:7 |, (strings
+4.484535147	B, intro, | Eb:maj C:min | F:min7 Bb:7 | Eb:maj C:min | F:min7 Bb:7 |, strings)
+12.394149659	C, verse, | Eb:maj | Bb:7 | Eb:maj | Eb:7 |, (voice
+20.238435374	| Ab:maj | Ab:maj | F:7 | F:7 |
+28.086961451	B, chorus, | Eb:maj C:min | Ab:maj Bb:7 | Eb:maj C:min | Ab:maj Bb:7 |
+36.041360544	| Eb:maj C:min | Ab:maj | Bb:7 | Bb:7 |
+43.894671201	C, verse, | Eb:maj | Bb:7 | Eb:maj | Eb:7 |
+51.758344671	| Ab:maj | Ab:maj | F:7 | F:7 |
+59.604081632	B, chorus, | Eb:maj C:min | Ab:maj Bb:7 | Eb:maj C:min | Ab:maj Bb:7 | Eb:maj C:min | Ab:maj Bb:7 |
+71.44600907	| Eb:maj Ab:maj | Eb:7 |
+75.358662131	D, bridge, | Ab:maj | Ab:maj | G:maj | G:maj |
+83.08877551	| Ab:maj | Ab:maj | F:maj | Bb:7 | Bb:7 |
+92.884421768	C, verse, | Eb:maj | Bb:7 | Eb:maj | Eb:7 |
+100.78095238	| Ab:maj | Ab:maj | F:7 | F:7 | x2
+116.450521541	B, chorus, | Eb:maj C:min | Ab:maj Bb:7 | Eb:maj C:min | Ab:maj Bb:7 | Eb:maj C:min | Ab:maj Bb:7 |
+128.341292517	| Eb:maj Ab:maj | Eb:7 |
+132.188185941	B, outro, | Eb:maj C:min | Ab:maj Bb:7 |
+136.126213151	| Eb:maj C:min | Ab:maj Bb:7 |, fadeout
+140.152040816	| Eb:maj C:min | Ab:maj Bb:7 |, voice)
+142.696417233	silence
+145.240816326	end

@@ -1,0 +1,36 @@
+# title: Living In The Past
+# artist: Jethro Tull
+# metre: 5/4
+# tonic: C
+
+0.0	silence
+0.30185941	A', intro, | C:1 . . F:1 . | C:1 . . F:1 . |, (bass)
+4.237097505	| C:min . . F:sus4 . | C:min . . F:sus4 . | C:min . . F:sus4 . | C:min . . F:sus4 . |, (flute
+12.091088435	| F:maj . . Eb:maj Bb:sus4 | C:min7 . . . . | F:maj . . Eb:maj Bb:sus4 | C:min7 . . . . |
+19.8261678	| C:5 . . . . | F:maj . . . . |
+23.887029478	| G:maj . . G:sus4(b7) . | G:maj . . G:sus4(b7) . | G:maj . . G:sus4(b7) . | G:maj . . . . |
+31.606077097	| D:maj . . G:maj . | D:maj . . G:maj . | D:maj . . G:maj . | D:maj . . . . |, flute)
+39.355668934	B, verse, | C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . Bb:maj . |, (voice
+47.238163265	| C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . . . |
+55.101473922	| F:maj . . Eb:maj Bb:sus4 | F:maj . . Eb:maj Bb:sus4 | F:maj . . Eb:maj Bb:sus4 | F:maj . . Eb:maj Bb:sus4 |
+63.00786848	| C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . . . |, voice)
+70.892789115	A, interlude, | C:min . . F:sus4 . | C:min . . F:sus4 . | C:min . . F:sus4 . | C:min . . F:sus4 . |, (flute
+78.952970521	| F:maj . . Eb:maj Bb:sus4 | C:min7 . . . . | F:maj . . Eb:maj Bb:sus4 | C:min7 . . . . |
+87.017324263	| C:5 . . . . | F:maj . . . . |
+91.056666666	| G:maj . . G:sus4(b7) . | G:maj . . G:sus4(b7) . | G:maj . . G:sus4(b7) . | G:maj . . . . |
+98.972358276	| D:maj . . G:maj . | D:maj . . G:maj . | D:maj . . G:maj . | D:maj . . . . |, flute)
+106.794761904	B, verse, | C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . Bb:maj . |, (voice
+114.726099773	| C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . . . |
+122.679501133	| F:maj . . Eb:maj Bb:sus4 | F:maj . . Eb:maj Bb:sus4 | F:maj . . Eb:maj Bb:sus4 | F:maj . . Eb:maj Bb:sus4 |
+130.654036281	| C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . Bb:maj . | C:maj . . . . |, voice)
+138.634693877	A'', interlude, | C:min . . F:sus4 . | C:min . . F:sus4 . | C:min . . F:sus4 . | C:min . . F:sus4 . |, (flute
+146.777732426	| F:maj . . Eb:maj Bb:sus4 | C:min7 . . . . | F:maj . . Eb:maj Bb:sus4 | C:min7 . . . . |
+154.787732426	| C:5 . . . . |, flute)
+156.859501133	B', chorus, | C:7 . . Bb:maj . | C:7 . . Bb:maj . | C:7 . . Bb:maj . | C:7 . . Bb:maj . |, (voice
+164.693922902	| C:7 . . Bb:maj . | C:7 . . Bb:maj . | C:7 . . Bb:maj . | C:7 . . Bb:maj . |, voice)
+172.562539682	B'', outro, | C:7 . . Bb:maj . | C:7 . . Bb:maj . | C:7 . . Bb:maj . | C:7 . . Bb:maj F:maj/3 |, (flute
+180.453015873	| C:7 . . Bb:maj F:maj/3 | C:7 . . Bb:maj F:maj | C:7 . . Bb:maj F:maj | C:7 . . Bb:maj F:maj |
+188.361746031	fadeout, | C:7 . . Bb:maj F:maj | C:7 . . Bb:maj F:maj | C:7 . . Bb:maj F:maj | C:7 . . Bb:maj F:maj |
+196.240226757	| C:7 . . Bb:maj F:maj | C:7 . . Bb:maj F:maj | C:7 . . Bb:maj F:maj | C:7 . . Bb:maj F:maj |, flute)
+198.861269841	silence
+203.468367346	end

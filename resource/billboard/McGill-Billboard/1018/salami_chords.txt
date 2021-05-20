@@ -1,0 +1,25 @@
+# title: In The Midnight Hour 
+# artist: Wilson Pickett
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.277188208	B, intro, | D:maj | B:maj | A:maj | G:maj |
+8.614195011	| E:maj A:maj | E:maj A:maj |
+12.850113378	A, verse, | E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |, (voice
+21.429319727	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |
+30.038117913	| B:7 | A:7 | B:7 | A:7 |
+38.547619047	| E:maj A:maj | E:maj A:maj | E:maj A:maj | D:maj | B:maj |
+49.278571428	A, verse, | E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |
+57.944557823	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |
+66.482789115	| B:7 | A:7 | B:7 | A:7 |
+75.082290249	| E:maj A:maj | E:maj A:maj | E:maj A:maj | D:maj | B:maj |, voice)
+85.776712018	C, instrumental, | E:maj A:maj | E:maj A:maj | E:maj D:maj | B:maj |
+94.107845804	| E:maj A:maj | E:maj A:maj | E:maj A:maj | B:maj |
+102.429523809	A, outro, | E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |, (voice
+110.994807256	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |
+119.559138321	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |
+128.229546485	fadeout, | E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |
+136.795192743	| E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj A:maj |
+152.742312925	silence
+159.085714285	end

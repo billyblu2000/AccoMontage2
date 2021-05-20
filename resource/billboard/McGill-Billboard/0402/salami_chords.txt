@@ -1,0 +1,32 @@
+# title: Last Kiss
+# artist: J. Frank Wilson & The Cavaliers
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.139319727	A, intro, | N | N |
+3.651292517	| E:maj | C#:min | A:maj | B:maj |
+10.588299319	B, chorus, | E:maj | C#:min | A:maj | B:maj |, (voice
+17.688117913	| E:maj | C#:min | A:maj | B:maj |, voice)
+24.826780045	A', trans, | E:maj | E:maj |
+28.337755102	C, verse, | E:maj | C#:min | A:maj | B:maj |, (voice
+35.366689342	| E:maj | C#:min | A:maj | B:maj |
+42.543854875	| E:maj | C#:min | A:maj | B:maj |
+49.625056689	| E:maj | C#:min | A:maj | B:maj |, voice)
+56.76786848	A', trans, | E:maj | E:maj |
+60.284285714	B, chorus, | E:maj | C#:min | A:maj | B:maj |, (voice
+67.257165532	| E:maj | C#:min | A:maj | B:maj |, voice)
+74.42446712	A', trans, | E:maj | E:maj |
+77.921065759	C, verse, | E:maj | C#:min | A:maj | B:maj |, (voice
+85.057800453	| E:maj | C#:min | A:maj | B:maj |
+92.196780045	| E:maj | C#:min | A:maj | B:maj |
+99.348956916	| E:maj | C#:min | A:maj | B:maj |
+106.455192743	| E:maj | C#:min | A:maj | B:maj |, voice)
+113.641088435	A', trans, | E:maj | E:maj |
+117.119024943	B, chorus, | E:maj | C#:min | A:maj | B:maj |, (voice
+124.183945578	| E:maj | C#:min | A:maj | B:maj |, voice)
+131.35324263	A', trans, | E:maj | E:maj |
+134.731111111	C', outro, | E:maj | C#:min | A:maj | B:maj |
+141.831360544	fadeout, | E:maj | C#:min | A:maj | B:maj |
+144.567437641	silence
+147.69632653	end

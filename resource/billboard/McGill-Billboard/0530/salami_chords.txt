@@ -1,0 +1,36 @@
+# title: This House
+# artist: Tracie Spencer
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.522448979	A, intro, | N | N | N | N |, (drums)
+9.173356009	B, pre-verse, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |, (synthesiser
+17.704240362	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+26.218049886	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |, synthesiser)
+34.694240362	B, verse, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 | x2, (voice
+51.791428571	B, pre-chorus, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 | x2
+68.873628117	B, chorus, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+77.378684807	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+85.884421768	B, pre-verse, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+94.412562358	B, verse, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 | x2
+111.424217687	B, pre-chorus, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 | x2
+128.53430839	B, chorus, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+137.064353741	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+145.622721088	C, interlude, | N | N | N | N |, voice)
+154.092154195	| N | N | N | N |, (synthesiser)
+162.589024943	D, bridge, | D:maj | E:maj | F#:min | F#:min(b13) F#:min | x6, (voice
+213.826848072	| N |
+215.912698412	B, outro, | F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+224.451065759	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+232.964557823	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+241.509705215	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+250.025442176	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+258.636666666	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+267.136099773	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+275.614126984	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+284.179047619	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |, voice)
+292.662199546	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |, fadeout
+301.159977324	| F#:min E:maj/9 | D:maj D:maj/7 | F#:min E:maj/9 | D:maj D:maj/9 |
+305.690702947	silence
+306.580839002	end

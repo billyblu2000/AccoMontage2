@@ -1,0 +1,31 @@
+# title: I wouldn't Have Missed it For The World
+# artist: Ronnie Milsap
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.441179138	A, intro, | G:maj | C:maj | G:maj | C:maj |, (guitar)
+8.868321995	B, verse, | A:min | A:min | G:maj | G:maj |, (voice
+17.283628117	| C:maj7 | C:maj7 | G:maj | G:maj |
+25.679637188	| E:min | E:min | C:maj | C:maj |
+34.058843537	| A:min | A:min | D:maj C:maj | B:min A:min |
+42.390589569	C, chorus, | G:maj | C:maj | A:min | D:maj B:7/3 |
+50.84956916	| E:min | E:min/b7 | A:min | D:sus4 |
+59.218072562	| G:maj | C:maj | A:min | D:maj B:7/3 |
+67.604580498	| E:min | E:min/b7 | A:min | D:sus4 | D:sus4 |, voice)
+78.123265306	A, trans, | G:maj | C:maj | G:maj | C:maj |, (guitar)
+86.471519274	B, verse, | A:min | A:min | G:maj | G:maj |, (voice
+94.885941043	| C:maj7 | C:maj7 | G:maj | G:maj |
+103.259682539	| E:min | E:min | C:maj | C:maj |
+111.65739229	| A:min | A:min | D:maj C:maj | B:min A:min |
+119.995238095	C, chorus, | G:maj | C:maj | A:min | D:maj B:7/3 |
+128.389523809	| E:min | E:min/b7 | A:min | D:sus4 |
+136.818684807	| G:maj | C:maj | A:min | D:maj B:7/3 |
+145.176825396	| E:min | E:min/b7 | A:min | D:sus4 | D:sus4 |, voice)
+155.676258503	C', solo, | G:maj | C:maj | A:min | D:maj B:7/3 |, (guitar
+164.024104308	| E:min | E:min/b7 | A:min | D:sus4 |, guitar)
+172.450226757	C'', chorus, | G:maj | C:maj | A:min | D:maj B:7/3 |, (voice
+180.86585034	| E:min | E:min/b7 | A:min | D:sus4 | D:sus4 |
+191.323514739	fadeout, | G:maj | C:maj | A:min | D:maj B:maj/3 | E:min | E:min/b7 | A:min | D:sus4 |, voice)
+212.091065759	silence
+216.241632653	end

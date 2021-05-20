@@ -1,0 +1,30 @@
+# title: On Broadway
+# artist: The Drifters
+# metre: 4/4
+# tonic: F#
+
+0.0	silence
+0.325079365	A', intro, | F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) |, (guitar)
+9.345328798	A, verse, | F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) |, (voice
+18.265827664	| F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) | F#:maj F#:sus4(b7,9) |
+27.146712018	| B:maj B:sus4(b7,9) | B:maj B:sus4(b7,9) | B:maj B:sus4(b7,9) | B:maj C#:maj |
+36.045396825	| F#:maj F#:7 | F#:maj F#:7 | F#:maj F#:7 | F#:maj F#:7 |
+44.921950113	A, verse, | G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) |
+53.868866213	| G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) |
+62.73324263	| C:maj C:sus4(b7,9) | C:maj C:sus4(b7,9) | C:maj C:sus4(b7,9) | C:maj D:maj |
+71.472131519	| G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) | G:maj G:sus4(b7,9) |
+# tonic: Ab
+80.362086167	A, verse, | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |
+89.152970521	| Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |
+97.94723356	| Db:maj Db:sus4(b7,9) | Db:maj Db:sus4(b7,9) | Db:maj Db:sus4(b7,9) | Db:maj Eb:maj |
+106.719115646	| Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |, voice)
+115.500385487	A', verse, | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |, (strings)
+124.218412698	| Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |, (trumpet)
+132.947823129	| Db:maj Db:sus4(b7,9) | Db:maj Db:sus4(b7,9) | Db:maj Db:sus4(b7,9) | Db:maj Eb:maj |, (voice
+141.707324263	| Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |
+150.465306122	| Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |
+159.179773242	| Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |
+167.873356009	fadeout, | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) | Ab:maj Ab:sus4(b7,9) |
+176.521043083	| Ab:maj Ab:sus4(b7,9) |, voice)
+178.445351473	silence
+180.244897959	end

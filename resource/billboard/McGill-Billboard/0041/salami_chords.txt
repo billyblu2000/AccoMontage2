@@ -1,0 +1,35 @@
+# title: Absolutely Right
+# artist: Five Man Electrical Band
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.325079365	A, intro, | A:maj | D:maj | A:maj | D:maj |, (guitar)
+5.892040816	| G:maj | E:maj |, (organ)
+8.772108843	B, verse, | A:maj | D:maj | A:maj | D:maj |, (voice
+14.420113378	| A:maj | D:maj | A:maj | D:maj |
+20.088276643	| A:maj | D:maj | A:maj | D:maj |
+25.762675736	| A:maj | D:maj | ->
+28.626213151	C, chorus, | A:maj | D:maj | G:maj | C:maj |
+34.265419501	| B:maj | E:7 |, voice)
+37.123945578	A', trans, | A:min | D:min | C:maj | A:maj |, (guitar)
+42.781746031	B, verse, | A:maj | D:maj | A:maj | D:maj |, (voice
+48.372222222	| A:maj | D:maj | A:maj | D:maj |
+54.030385487	| A:maj | D:maj | A:maj | D:maj |
+59.715668934	C, chorus, | A:maj | D:maj | G:maj | C:maj |
+65.314807256	| B:maj | E:maj |, voice)
+68.171111111	A', trans, | A:maj | D:maj | G:maj | E:maj |, (guitar)
+73.788662131	E, bridge, | A:maj | D:maj | G:maj | E:maj |, (voice
+79.42585034	| A:maj | D:maj | G:maj | E:maj |
+85.088956916	| A:maj | D:maj | G:maj | E:maj |
+90.879773242	B, verse, | A:maj | D:maj | A:maj | D:maj |
+96.358321995	| A:maj | D:maj | A:maj | D:maj |
+102.08371882	| A:maj | D:maj | A:maj | D:maj |
+107.716621315	C, chorus, | A:maj | D:maj | G:maj | C:maj |
+113.359795918	| B:maj | E:maj |
+116.245034013	C, chorus, | A:maj | D:maj | G:maj | C:maj |
+121.898117913	| B:maj | E:maj |, voice)
+124.798752834	A, outro, | A:maj | D:maj/5 | A:maj | D:maj/5 |, (guitar
+130.477369614	| A:maj | D:maj/5 | G:maj D:maj | A:maj |, guitar)
+137.880090702	silence
+142.471836734	end

@@ -1,0 +1,32 @@
+# title: Baby Don't Go
+# artist: Sonny & Cher
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.203174603	A, intro, | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+8.080544217	B, chorus, | D:min7 | D:min7 | D:min7 | D:min7 |, (voice
+15.969523809	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+19.922721088	A, verse, | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | x2
+35.514920634	| D:min7 | D:min7 | D:min7 | D:min7 |
+43.29941043	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+51.02585034	B', chorus, | D:min7 | D:min7 | D:min7 | D:min7 |
+58.787120181	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+64.684988662	B, chorus, | D:min7 | D:min7 | D:min7 | D:min7 |
+72.486893424	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+76.370430839	A, verse, | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | x2
+91.916190476	| D:min7 | D:min7 | D:min7 | D:min7 |
+99.712290249	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+107.57739229	B', chorus, | D:min7 | D:min7 | D:min7 | D:min7 |
+115.374149659	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+121.208163265	B, chorus, | D:min7 | D:min7 | D:min7 | D:min7 |
+128.975238095	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+132.818140589	A, verse, | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | x2
+148.427755102	| D:min7 | D:min7 | D:min7 | D:min7 |
+156.189024943	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |
+163.892244897	B', chorus, | D:min7 | D:min7 | D:min7 | D:min7 |
+171.601269841	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |, fadeout
+177.499138321	B, chorus, | D:min7 | D:min7 | D:min7 | D:min7 |
+185.219841269	| C:maj . F:maj/5 C:maj | C:maj . F:maj/5 C:maj |, voice)
+187.17015873	silence
+188.551836734	end

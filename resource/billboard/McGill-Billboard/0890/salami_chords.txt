@@ -1,0 +1,21 @@
+# title: Let's Go Get Stoned
+# artist: Ray Charles
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.255419501	A, intro, | Ab:sus4(b7) |
+1.811156462	B, chorus, | Db:maj F:7 | Bb:7 . Gb:maj6 Db:7 | Gb:maj Ab:sus4(b7,9) | Db:maj Ab:7 |, (voice
+17.009070294	| Db:maj F:7 | Bb:7 . Gb:maj6 Db:7 | Gb:maj Ab:sus4(b7,9) | Db:maj Ab:7 |
+32.509297052	C, verse, | Db:7 | Gb:7 | Db:7 | Gb:7 |
+48.137687074	| Db:7 F:7 | Bb:min7 Db:7/5 Gb:maj Eb:7(b9)/3 | Ab:sus4(b7) Ab:sus4(b7,9) | Db:7 Ab:7 |
+63.715736961	C, verse, | Db:7 | Gb:7 | Db:7 | Gb:7 |
+79.355374149	| Db:7 F:7 | Bb:min7 Db:7/5 Gb:maj Eb:7(b9)/3 | Ab:sus4(b7) Ab:sus4(b7,9) | Db:7 Ab:7 |
+95.126122448	D, bridge, | Gb:7 | Bb:min7 | Gb:7 | Db:7 |
+110.642380952	| Gb:7 | Bb:min7 | Gb:7 | Eb:7 Ab:7 |
+126.19356009	B, chorus, | Db:maj F:7 | Bb:7 . Gb:maj6 Db:7 | Gb:maj Ab:sus4(b7,9) | Db:maj Ab:7 |
+141.921224489	fadeout, | Db:maj F:7 | Bb:7 . Gb:maj6 Db:7 | Gb:maj Ab:sus4(b7,9) | Db:maj Ab:7 |
+157.571179138	| Db:maj F:7 | Bb:7 . Gb:maj6 Db:7 | Gb:maj Ab:sus4(b7,9) | Db:maj Ab:7 |
+173.224376417	| Db:maj F:7 | Bb:7 . Gb:maj6 Db:7 | Gb:maj Ab:sus4(b7,9) | Db:maj Ab:7 |, voice)
+180.077619047	silence
+183.849795918	end

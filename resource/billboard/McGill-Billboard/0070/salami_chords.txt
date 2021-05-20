@@ -1,0 +1,25 @@
+# title: Hot Fun In The Summertime
+# artist: Sly & The Family Stone
+# metre: 4/4
+# tonic: C
+
+0.0	silence
+0.464399092	C, intro, | C:maj | G:min9 | C:maj | G:min9 |
+10.377913832	A, verse, | C:maj | G:min9 | D:hdim7 | Ab:maj(9) . G:min7 F:min7(11) |, (voice
+20.308344671	| Eb:maj(9) Eb:maj | Eb:maj |
+25.139433106	| D:min7 G:7 | G:7 | D:min7 | G:7 |
+34.941247165	| C:maj | G:min9 | D:hdim7 | Ab:maj(9) . G:min7 F:min7(11) |
+44.962086167	| Eb:maj(9) Eb:maj | Eb:maj |
+49.931927437	| D:min7 G:7 | G:7 | D:min7 | G:7 |
+59.903922902	B, chorus, | D:min7 | G:7 | D:min7 | G:7 |
+69.891723356	| D:min7 | G:7 | D:min7 | G:7 |
+79.826802721	| D:min7 | G:7 | D:min7 | G:7 |
+89.791383219	| D:min7 | G:7 | D:min7 | G:7 |
+99.552857142	A, verse, | C:maj | G:min9 | D:hdim7 | Ab:maj(9) . G:min7 F:min7(11) |, (voice
+109.322993197	| Eb:maj(9) Eb:maj | Eb:maj |
+114.177845804	| D:min7 G:7 | G:7 | D:min7 | G:7 |
+124.181678004	B, chorus, | D:min7 | G:maj | D:min7 | G:maj |
+134.096213151	fadeout, | D:min7 | G:maj | D:min7 | G:maj |
+144.026349206	| D:min7 | G:maj | D:min7 | G:maj | D:min7 |, voice)
+155.295056689	silence
+158.275918367	end

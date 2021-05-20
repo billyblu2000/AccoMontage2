@@ -1,0 +1,36 @@
+# title: Have You Seen Your Mother, Baby, Standing In The Shadow? 
+# artist: The Rolling Stones
+# metre: 4/4
+# tonic: G
+
+0.000000000	silence
+0.301859410	A', intro, | G:maj | &pause |, (guitar
+7.871564625	| D:maj | D:7 |, guitar)
+10.240000000	A, chorus, | G:maj | G:maj | D:maj | D:7 |, (voice
+15.092970521	| G:maj | G:maj | D:maj | D:7 |
+19.911541950	B, bridge, | B:maj | B:maj | G:maj | G:maj |
+24.696689342	| B:maj | D:maj | C:maj | C:maj |
+29.465283446	C, refrain, | G:maj/3 | G:maj | D:maj | D:maj | D:maj | D:7 |
+36.623061224	A, chorus, | G:maj | G:maj | D:maj | D:7 |
+41.399319727	| G:maj | G:maj | D:maj | D:7 |
+46.152018140	B, bridge, | B:maj | B:maj | G:maj | G:maj |
+50.992403628	| B:maj | D:maj | C:maj | C:maj |
+55.768299319	C', refrain, | G:maj | G:maj | D:maj | D:maj | D:maj | D:7 |
+62.902857142	D, interlude, | G:maj | C:maj/5 G:maj | G:maj | C:maj/5 G:maj |
+67.889818594	| G:maj | C:maj/5 G:maj | G:maj | C:maj/5 G:maj |
+72.761927437	| G:maj | C:maj/5 G:maj | G:maj | C:maj/5 G:maj |
+77.471201814	| G:maj | C:maj/5 G:maj | G:maj | C:maj/5 G:maj |
+82.048276643	| D:maj | D:maj | D:maj | D:7 |
+86.711519274	A, chorus, | G:maj | G:maj | D:maj | D:7 |
+91.438208616	| G:maj | G:maj | D:maj | D:7 |
+96.141678004	B, bridge, | B:maj | B:maj | G:maj | G:maj |
+100.903310657	| B:maj | D:maj | C:maj | C:maj |
+105.590136054	C, refrain, | G:maj | G:maj | D:maj | D:maj | D:maj | D:7 |
+112.500680272	A, chorus, | G:maj | G:maj | D:maj | D:7 |
+117.327800453	| G:maj | G:maj | D:maj | D:7 |
+122.055850340	B, bridge, | B:maj | B:maj | G:maj | G:maj |
+126.871632653	| B:maj | D:maj | C:maj | C:maj |
+131.519251700	C, refrain, | G:maj | G:maj | D:maj | D:maj | D:maj | D:7 |, voice)
+138.640816326	E, outro, | D:maj | D:7 | C:maj | D:maj | D:maj | C:maj | D:maj | G:maj | D:maj |, (guitar)
+153.065963718	silence
+153.855396825	end

@@ -1,0 +1,45 @@
+# title: Human Nature
+# artist: Michael Jackson
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.185759637	C, intro, | G:maj(9) A:maj | F:maj9 E:min7(11) |
+5.401836734	| G:maj(9) A:maj | F:maj9 E:min7(11) |
+10.491473922	A, verse, | G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) A:maj |, (voice
+20.891519274	| G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) F#:min7 | E:min9 A:maj |
+31.162970521	| G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) A:maj |
+41.480725623	| G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) F#:min7 | E:min9 A:maj |
+51.80909297	B, chorus, | G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+56.926802721	| G:maj F#:min7 | E:min7 B:min |
+62.070294784	| G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+67.28430839	| G:maj F#:min7 | E:min A:maj |
+72.428888888	A, verse, | G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) A:maj |
+82.737528344	| G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) F#:min7 | E:min9 A:maj |
+93.014716553	B, chorus, | G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+98.178662131	| G:maj F#:min7 | E:min7 B:min |
+103.325215419	| G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+108.48	| G:maj F#:min7 | E:min7 B:min | E:min B:min | E:min B:min |, voice)
+118.78941043	D, trans, | E:min7 | A:sus4(b7,9,13) |, (synthesizer)
+123.941224489	C, interlude, | G:maj(9) A:maj | F:maj9 E:min7(11) |
+129.066099773	| G:maj(9) A:maj | F:maj9 E:min7(11) |
+134.249160997	A, verse, | G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) A:maj |, (voice
+144.602267573	| G:maj(9) A:maj | G:maj(9) A:maj | G:maj(9) F#:min7 | E:min9 A:maj |
+154.889637188	B, chorus, | G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+160.067210884	| G:maj F#:min7 | E:min7 B:min |
+165.217369614	| G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+170.33909297	| G:maj F#:min7 | E:min7 D:maj7/5 |
+175.493764172	B, chorus, | G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+180.662154195	| G:maj F#:min7 | E:min7 B:min |
+185.797573696	| G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+190.9592517	| G:maj F#:min7 | E:min7 D:maj7/5 |
+196.177006802	B, chorus, | G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+201.302380952	| G:maj F#:min7 | E:min7 B:min |
+206.469750566	| G:maj A:maj | D:maj D:maj/7 D:maj/13 D:maj/5 |
+211.579501133	| G:maj F#:min7 | E:min7 | A:sus4(b7,9,13) |, voice)
+219.350566893	C', interlude, | G:maj(9) A:maj | F:maj9 E:min7(11) |
+224.517278911	| G:maj(9) A:maj | F:maj9 E:min7(11) |
+229.653356009	| G:maj(9) A:maj | F:maj9 E:min7(11) |
+234.788820861	fadeout, | Bb:maj6(7,#11) | Bb:maj6(7,#11) | Bb:maj6(7,#11) | Bb:maj6(7,#11) |
+244.738321995	silence
+245.733877551	end

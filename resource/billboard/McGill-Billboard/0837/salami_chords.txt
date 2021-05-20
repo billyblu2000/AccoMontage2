@@ -1,0 +1,32 @@
+# title: Sweet Love
+# artist: Anita Baker
+# metre: 4/4
+# tonic: Bb
+
+0.0	silence
+0.232199546	A', intro, | Bb:maj7 | Gb:maj7 | Eb:min9 | Ab:11 F:7 |, (synthesizer
+11.409342403	| Bb:maj7 | Gb:maj7 | Eb:min9 | Ab:11 . . F:7 |, synthesizer)
+22.402811791	B, verse, | Bb:maj7 | Eb:min9 | Gb:maj7 | F:min7 . Ab:11 F:7 |, (voice
+33.578979591	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 . . F:7 |
+44.797845804	A, chorus, | Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+55.667619047	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+66.501950113	B, verse, | Bb:maj7 | Eb:min9 | Gb:maj7 | F:min7 . Ab:11 F:7 |
+77.660272108	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 . . F:7 |
+88.730408163	A, chorus, | Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+99.534172335	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+110.302653061	C, bridge, | Eb:min7 | Bb:sus4(b7) Bb:7 | Eb:min7 | Bb:sus4(b7) Bb:7 |
+121.208163265	| Eb:min7 | Bb:sus4(b7) Bb:7 | Cb:maj7 Bb:min7 | F:11 |
+132.255215419	B, verse, | Bb:maj7 | Eb:min9 | Gb:maj7 | F:min7 . Ab:11 F:7 |
+143.260090702	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 . . F:7 |
+154.137210884	A, chorus, | Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+165.022947845	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+175.806213151	A', solo, | Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+186.517324263	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+197.266054421	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+207.972040816	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+218.59047619	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+229.234421768	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+239.893310657	A, fadeout, | Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |
+250.50079365	| Bb:maj7 | Eb:min9 | Gb:maj7 | Ab:11 F:7 |, voice)
+261.178049886	silence
+266.344489795	end

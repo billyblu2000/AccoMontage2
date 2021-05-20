@@ -1,0 +1,28 @@
+# title: Paper Roses
+# artist: Marie Osmond
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.522448979	C, intro, | Db:maj | Db:maj | Ab:maj | F:min |, (harmonica)
+10.480816326	| Bb:min | Eb:7 | Ab:maj | Eb:maj |, (strings) 
+19.015464852	B, verse, | Ab:maj | Ab:maj | Eb:7 | Eb:7 |, (voice
+27.524376417	| Eb:7 | Eb:7 | Ab:maj | Ab:maj |
+35.865215419	| Ab:maj | Ab:maj | Db:maj | Db:maj |
+44.30893424	| Eb:7 | Eb:7 | Ab:maj | Ab:maj |
+52.762698412	C, chorus, | Db:maj | Db:maj | Ab:maj | Ab:maj |
+61.142585034	| Bb:min | Eb:7 | Ab:maj | Ab:7 |
+69.530589569	| Db:maj | Db:maj Eb:maj | Ab:maj | F:min |
+77.923696145	| Bb:min | Eb:7 | Ab:maj | E:7 |
+# tonic: A
+86.231768707	B', verse, | A:maj | A:maj | E:7 | E:7 |
+94.673514739	| E:7 | E:7 | A:maj | A:maj |
+102.829002267	| A:maj | A:maj | D:maj | D:maj |
+111.078276643	| E:7 | E:7 | A:maj | A:maj |
+119.31185941	C', chorus, | D:maj | D:maj | A:maj | A:maj |
+127.525963718	| B:min | E:7 | A:maj | A:7 |
+135.748004535	| D:maj | D:maj E:maj | A:maj | F#:min |
+143.976099773	| B:min | B:min | E:7 | A:maj | A:maj |
+154.552743764	| A:maj |
+158.185941043	silence
+161.567346938	end

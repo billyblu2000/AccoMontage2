@@ -1,0 +1,34 @@
+# title: I've Got A Tiger By The Tail
+# artist: Buck Owens
+# metre: 4/4
+# tonic: E
+
+0.000000000	silence
+0.325079365	A, intro, | N | N |, (voice
+2.542131519	A, chorus, | E:maj | E:7 | A:7 | A:7 |
+7.500045351	| B:7 | B:7 | E:maj | B:7 |
+12.733310657	| E:maj | E:7 | A:7 | A:7 |
+17.674875283	| B:7 | B:7 | E:maj | E:maj |
+22.690997732	A, verse, | E:maj | E:7 | A:7 | A:7 |
+27.675215419	| B:7 | B:7 | E:maj | B:7 |
+32.650748299	| E:maj | E:7 | A:7 | A:7 |
+37.620158730	| B:7 | B:7 | E:maj | E:maj N . . | N |
+43.995124716	A, chorus, | E:maj | E:7 | A:7 | A:7 |
+48.878004535	| B:7 | B:7 | E:maj | B:7 |
+54.000022675	| E:maj | E:7 | A:7 | A:7 |
+58.966190476	| B:7 | B:7 | E:maj | E:maj N . . |, voice)
+63.947936507	A, solo, | E:maj | E:7 | A:7 | A:7 |, (guitar
+68.800725623	| B:7 | B:7 | E:maj | B:7 |
+73.841405895	| E:maj | E:7 | A:7 | A:7 |
+78.872698412	| B:7 | B:7 | E:maj | E:maj |, guitar)
+83.887687074	A, verse, | E:maj | E:7 | A:7 | A:7 |, (voice
+88.769886621	| B:7 | B:7 | E:maj | B:7 |
+93.777755102	| E:maj | E:7 | A:7 | A:7 |
+98.741383219	| B:7 | B:7 | E:maj | E:maj N . . | N |
+105.045510204	A, chorus, | E:maj | E:7 | A:7 | A:7 |
+109.853605442	| B:7 | B:7 | E:maj | B:7 |
+114.947165532	| E:maj | E:7 | A:7 | A:7 |
+119.915147392	| B:7 | B:7 | ->, voice)
+122.322721088	B, outro, | E:maj A:maj | E:maj A:maj | E:maj A:maj | E:maj B:7 E:maj . |, (guitar)
+131.307120181	silence
+135.401564625	end

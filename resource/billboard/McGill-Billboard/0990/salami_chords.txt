@@ -1,0 +1,28 @@
+# title: Shapes Of Things
+# artist: The Yardbirds
+# metre: 4/4
+# tonic: G
+
+0.0	silence
+0.255419501	A, intro, | F:maj | F:maj |
+3.808072562	A, verse, | G:maj | D:min7 | x3, (voice
+14.624013605	| F:maj | F:maj |
+18.298979591	A, verse, | G:maj | D:min7 | x3
+29.069886621	| F:maj | F:maj |
+32.648072562	B, chorus, | C:maj | Bb:maj | C:maj | Bb:maj |
+39.903741496	| C:maj | Bb:maj | Bb:maj | D:maj | D:maj |
+49.063764172	A, verse, | G:maj | D:min7 | x3
+60.097641723	| F:maj | F:maj |
+63.651451247	A, verse, | G:maj | D:min7 | x3
+74.542108843	| F:maj | F:maj |
+77.923764172	B, chorus, | C:maj | Bb:maj | C:maj | Bb:maj |
+85.484353741	| C:maj | Bb:maj | Bb:maj | D:maj | D:maj |, voice)
+94.598095238	C, solo, | G:maj | F:maj | G:maj | F:maj |, (guitar
+101.479705215	| G:maj | F:maj | G:maj | F:maj |
+108.296417233	| G:maj | F:maj | G:maj | F:maj |
+115.193333333	| G:maj | F:maj | Bb:maj | D:maj | D:maj |, guitar)
+124.064217687	A, verse, | G:maj | D:min7 | x3, (voice
+134.806689342	| F:maj | F:maj |, voice)
+138.409274376	| G:maj |
+143.015873015	silence
+145.240816326	end

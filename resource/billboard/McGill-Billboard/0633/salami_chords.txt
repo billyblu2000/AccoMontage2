@@ -1,0 +1,58 @@
+# title: Maneater
+# artist: Daryl Hall & John Oates
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.232199546	A', intro, | B:1 | B:1 | A:1 | A:1 |, (bass guitar
+5.763514739	| G:1 | G:1 | A:1 | A:1 |
+11.1423356	| B:min | B:min | A:maj | A:maj |
+16.548730158	| G:maj | G:maj | A:maj | A:maj |
+21.912675736	| B:min | B:min | A:maj | A:maj |
+27.296031746	| G:maj | G:maj | A:maj | A:maj |, (tenor saxophone
+32.713514739	| B:min | B:min | A:maj | A:maj |
+38.062244897	| G:maj | G:maj | A:maj | A:maj |, tenor saxophone)
+43.505986394	B, verse, | D:maj | D:maj | A:maj/3 | A:maj/3 |, (voice
+48.928684807	| C:maj | C:maj | B:maj | B:maj |
+54.318095238	| E:min7 | E:min7 | A:maj | A:maj F#:7/3 |
+59.849977324	| B:min | B:min F#:min7 | B:min | B:min |
+65.091111111	B, verse, | D:maj | D:maj | A:maj/3 | A:maj/3 |
+70.560589569	| C:maj | C:maj | B:maj | B:maj |
+75.866439909	| E:min7 | E:min7 | A:maj | A:maj F#:7/3 |
+81.348956916	| B:min | B:min F#:min7 | B:maj | B:maj |
+86.711088435	A, chorus, | B:min | B:min | A:maj | A:maj |
+92.101609977	| G:maj | G:maj | F#:maj | F#:7/3 |
+97.499909297	| B:min | B:min | A:maj | A:maj |
+102.930113378	| E:min7 | E:min7 | G:maj | A:maj(9) |, voice)
+108.325419501	C, interlude, | B:min | B:min | B:min | B:min |, (synthesiser)
+113.725646258	B, verse, | D:maj | D:maj | A:maj/3 | A:maj/3 |, (voice
+119.207528344	| C:maj | C:maj | B:maj | B:maj |
+124.52217687	| E:min7 | E:min7 | A:maj | A:maj F#:7/3 |
+129.923741496	| B:min | B:min F#:min7 | B:maj | B:maj |
+135.344353741	A, chorus, | B:min | B:min | A:maj | A:maj |
+140.744875283	| G:maj | G:maj | F#:maj | F#:7/3 |
+146.144761904	| B:min | B:min | A:maj | A:maj |
+151.596417233	| E:min7 | E:min7 | G:maj | A:maj(9) |, voice)
+156.899160997	C, interlude, | B:1 | B:1 | B:1 | B:1 |, (bass guitar)
+162.325827664	A', solo, | B:min | B:min | A:maj | A:maj |, (tenor saxophone
+167.676190476	| G:maj | G:maj | A:maj | A:maj |
+173.173922902	| B:min | B:min | A:maj | A:maj |
+178.573197278	| G:maj | G:maj | A:maj | A:maj |
+183.904603174	| B:min | B:min | A:maj | A:maj |
+189.351201814	| G:maj | G:maj | A:maj | A:maj |
+194.676825396	| B:min | B:min | A:maj | A:maj |
+200.150022675	| E:min7 | E:min7 | F#:maj | F#:maj |, tenor saxophone)
+205.500068027	A, chorus, | B:min | B:min | A:maj | A:maj |, (voice
+210.935419501	| G:maj | G:maj | F#:maj | F#:7/3 |
+216.311065759	| B:min | B:min | A:maj | A:maj |
+221.732358276	| E:min7 | E:min7 | G:maj | A:maj(9) |
+227.178140589	A, chorus, | B:min | B:min | A:maj | A:maj |
+232.550272108	| G:maj | G:maj | F#:maj | F#:7/3 |
+237.872063492	| B:min | B:min | A:maj | A:maj |
+243.314444444	| E:min7 | E:min7 | G:maj | A:maj(9) |
+248.765034013	A, outro, | B:min | B:min | A:maj | A:maj |, fadeout
+254.181020408	| G:maj | G:maj | F#:maj | F#:7/3 |
+259.586145124	| B:min | B:min | A:maj | A:maj |
+264.924149659	| E:min7 | E:min7 | G:maj | A:maj(9) |, voice)
+270.960566893	silence
+274.207346938	end

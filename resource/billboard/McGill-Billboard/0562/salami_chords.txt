@@ -1,0 +1,19 @@
+# title: Fool That I Am
+# artist: Etta James
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.255419501	A, intro, | Ab:7(b13) | Db:maj Gb:7 | Db:maj Ab:7(b9,b13) |, (strings)
+12.469115646	B, verse, | Db:maj7 | Bb:dim Db:dim | Eb:min7 | Ab:maj Ab:7(b9,b13) |, (voice
+31.056031746	| Db:maj7 | Bb:dim Db:dim | Eb:min7 | Ab:maj Ab:7(b9,b13) |
+49.906893424	B', verse, | Db:maj7 | A:7 | Eb:min7 | F:7 |
+68.786530612	| Bb:min7 | Eb:7 | Eb:min7 | Ab:7 |
+87.701995464	C, chorus, | Db:maj7 | Bb:dim Db:dim | Eb:min7 | Ab:maj Ab:7(b9,b13) |
+106.513809523	| Db:maj | Db:aug | Gb:maj7 | Gb:maj6 |
+125.622380952	| Gb:maj6 | Cb:9 | Db:maj9 | F:min7 Bb:7(b9) |
+145.024535147	| Eb:min7 | Ab:7(b13) |
+154.709886621	A', outro, | Db:maj7 Gb:7 | Db:maj Ab:7(b9,b13) | &pause |
+168.46600907	| Db:maj9 |, voice)
+175.473197278	silence
+177.632653061	end

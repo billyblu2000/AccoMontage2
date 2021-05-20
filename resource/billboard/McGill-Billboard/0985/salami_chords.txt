@@ -1,0 +1,26 @@
+# title: Dancing Machine
+# artist: The Jacksons
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.162539682	A', intro, | N Ab:1 N Ab:1 | N Cb:1 Db:1 . | Ab:min11 | Ab:min11 |, (voice
+9.108979591	B, verse, | Ab:min7 | Ab:min7 | Ab:min7 | Ab:min7 |
+17.999637188	| Ab:min7 | Ab:min7 | Ab:min7 | Ab:min7 |
+26.808888888	C, interlude, | Eb:min7 E:7 | F:hdim7 Db:7/11 | Ab:min7 | Ab:min7 |
+35.759637188	B, verse, | Ab:min7 | Ab:min7 | Ab:min7 | Ab:min7 |
+44.531065759	| Ab:min7 | Ab:min7 | Ab:min7 | Ab:min7 |, voice)
+53.266054421	D, solo, | N | N | N | N |, (guitar
+62.161655328	| N | N | N | N |, guitar)
+71.057505668	A, chorus, | N Ab:1 N Ab:1 | N Cb:1 Db:1 . | Ab:min11 | Ab:min11 |, (voice
+79.901360544	| N Ab:1 N Ab:1 | N Cb:1 Db:1 . | Ab:min11 | Ab:min11 |
+88.580839002	E, outro, | Ab:min7 | Db:7/3 | Gb:maj(9) Db:7/3 | Ab:7 |
+97.381360544	| Ab:min7 | Db:7/3 | Gb:maj(9) Db:7/3 | Ab:7 |
+106.178594104	B, instrumental, | Ab:min7 | Db:7/3 | Gb:maj(9) Db:7/3 | Ab:7 |
+114.981405895	| Ab:min7 | Db:7/3 | Gb:maj(9) Db:7/3 | Ab:7 |
+123.777210884	E, outro, | Ab:min7 | Db:7/3 | Gb:maj(9) Db:7/3 | Ab:7 |
+132.507482993	| Ab:min7 | Db:7/3 | Gb:maj(9) Db:7/3 | Ab:7 |
+141.24324263	fadeout, | Ab:min7 | Db:7/3 | Gb:maj(9) Db:7/3 | Ab:7 |
+149.972471655	| Ab:min7 | Db:7/3 |, voice)
+154.366258503	silence
+157.779591836	end

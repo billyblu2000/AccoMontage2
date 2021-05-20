@@ -1,0 +1,54 @@
+# title: Lay Down Sally
+# artist: Eric Clapton
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.348299319	A, intro, | A:maj | A:7 | A:maj | A:maj |, (guitar
+5.353900226	| A:maj | A:7 | A:maj | A:maj |
+10.383741496	| A:7 | A:7 | A:7 | A:7 |
+15.390816326	| A:7 | A:7 | A:7 | A:7 |, guitar)
+20.346757369	B, verse, | A:7 | A:7 | A:7 | A:7 |, (voice
+25.263945578	| D:maj | D:maj |
+27.84510204	| A:7 | A:7 | A:7 | A:7 |
+32.808684807	| D:maj | D:maj | E:maj | E:maj |
+37.824126984	C, chorus, | A:maj | A:maj | D:maj | D:maj |
+42.846870748	| E:maj | E:maj | A:maj | A:maj |
+47.839954648	| A:maj | A:maj | D:maj | D:maj |
+52.910907029	| E:maj | E:maj | A:maj | A:maj |, voice)
+57.896780045	D, interlude, | A:7 | A:7 | A:7 | A:7 |, (guitar
+62.936553287	| A:7 | A:7 | A:7 | A:7 |, guitar)
+67.943038548	B, verse, | A:7 | A:7 | A:7 | A:7 |, (voice
+72.891496598	| D:maj | D:maj |
+75.427777777	| A:7 | A:7 | A:7 | A:7 |
+80.51031746	| D:maj | D:maj | E:maj | E:maj |
+85.520498866	C, chorus, | A:maj | A:maj | D:maj | D:maj |
+90.512244897	| E:maj | E:maj | A:maj | A:maj |
+95.538911564	| A:maj | A:maj | D:maj | D:maj |
+100.58	| E:maj | E:maj | A:maj | A:maj |, voice)
+105.529523809	E, solo, | A:7 | A:7 | A:7 | A:7 |, (guitar
+110.55371882	| A:7 | A:7 | A:7 | A:7 |
+115.568480725	| A:7 | A:7 | A:7 | A:7 |
+120.582993197	| A:7 | A:7 | A:7 | A:7 |
+125.525600907	| A:7 | A:7 | A:7 | A:7 |
+130.560045351	| A:7 | A:7 | A:7 | A:7 |
+135.462154195	| A:7 | A:7 | A:7 | A:7 |
+140.558571428	| A:7 | A:7 | A:7 | A:7 |, guitar)
+145.507641723	B, verse, | A:7 | A:7 | A:7 | A:7 |, (voice
+150.595464852	| D:maj | D:maj |
+153.150249433	| A:7 | A:7 | A:7 | A:7 |
+158.093378684	| D:maj | D:maj | E:maj | E:maj |
+163.159931972	C, chorus, | A:maj | A:maj | D:maj | D:maj |
+168.214716553	| E:maj | E:maj | A:maj | A:maj |
+173.302539682	| A:maj | A:maj | D:maj | D:maj |
+178.364965986	| E:maj | E:maj | A:maj | A:maj |
+183.419841269	C, chorus, | A:maj | A:maj | D:maj | D:maj |
+188.489387755	| E:maj | E:maj | A:maj | A:maj |
+193.529977324	| A:maj | A:maj | D:maj | D:maj |
+198.754263038	| E:maj | E:maj | A:maj | A:maj |, voice)
+203.61877551	F, outro, | A:7 | A:7 | A:7 | A:7 |, (guitar
+208.708253968	| A:7 | A:7 | A:7 | A:7 |
+213.667823129	| A:7 | A:7 | A:7 | A:7 |, fadeout, guitar)
+218.739886621	| A:7 | A:7 | A:7 | A:7 |
+226.673197278	silence
+230.844081632	end

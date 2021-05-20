@@ -1,0 +1,45 @@
+# title: Shock the Monkey
+# artist: Peter Gabriel
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.232199546	A, intro, | D:min | D:min | D:min | D:min |, (synthesizer
+6.773673469	| D:min | D:min | D:min | D:min |, synthesizer)
+13.192448979	B, verse, | D:min | D:min | D:min | D:min |, (voice
+19.667301587	| D:min | D:min | D:min | D:min |
+26.124716553	| D:min | D:min | D:min | D:min |
+32.568979591	| D:min | D:min | D:min | D:min |
+39.055283446	C, chorus, | C:maj | C:maj | C:maj | C:maj |
+45.507482993	| D:min | D:min | D:min | D:min |
+52.002607709	B, verse, | D:min | D:min | D:min | D:min |
+58.447120181	| D:min | D:min | D:min | D:min |
+64.953514739	| D:min | D:min | D:min | D:min |
+71.41739229	| D:min | D:min | D:min | D:min |
+77.858004535	C, chorus, | C:maj | C:maj | C:maj | C:maj |
+84.332131519	| D:min | D:min | D:min | D:min |
+90.823605442	D, bridge, | D:5 | D:5 | C:5 | C:5 |
+97.283129251	| D:min | D:min | C:5 | C:sus4 |
+103.742562358	| D:min | D:min | C:maj | C:sus4 |, voice)
+110.218639455	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (guitar
+116.652789115	| Bb:maj | Bb:maj | C:sus4 | D:min |, guitar)
+123.133854875	A, instrumental, | D:min | D:min | D:min | D:min |, (synthesizer
+129.659455782	| D:min | D:min | D:min | D:min |, synthesizer)
+136.04154195	B, verse, | D:min | D:min | D:min | D:min |, (voice
+142.542811791	| D:min | D:min | D:min | D:min |
+149.002403628	| D:min | D:min | D:min | D:min |
+155.471723356	| D:min | D:min | D:min | D:min |
+161.968752834	D, bridge, | D:5 | D:5 | C:5 | C:5 |
+168.442562358	| D:min | D:min | C:sus4 | C:sus4 |
+174.897346938	| D:min | D:min | C:maj | C:maj |, voice)
+181.387369614	| Bb:maj | Bb:maj | Bb:maj | Bb:maj |, (guitar
+187.898843537	| Bb:maj | Bb:maj | C:maj | D:min |, guitar)
+194.342947845	E, outro, | F:maj | A:min/5 | D:min7 | D:min7 |, (synthesizer
+200.805487528	| F:maj | A:min/5 | D:min7 | D:min7 |
+207.308163265	| D:min | D:min | D:min | D:min |
+213.753446712	| D:min | D:min | D:min | D:min |
+220.269546485	| D:min | D:min | D:min | D:min |
+226.760657596	| F:maj | A:min/5 | D:min | D:min |, synthesizer)
+233.231519274	| D:min | D:min |, (voice)
+235.845079365	silence
+239.046530612	end

@@ -1,0 +1,24 @@
+# title: Still
+# artist: Commodores
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.464399092	A, intro, | Db:maj | Eb:min/b7 | Db:maj | Eb:min/b7 |
+15.638117913	B, verse, | Db:sus4 Db:maj | Db:maj . Db:sus4 Db:maj | Gb:maj7 Gb:maj6 | Ab:sus4 Ab:maj Ab:sus4 Ab:maj |, (voice
+30.491179138	| Db:sus4 Db:maj | Db:maj |
+38.003809523	| Db:sus4 Db:maj | Db:maj . Db:sus4 Db:maj | Gb:maj7 Gb:maj6 | Ab:sus4 Ab:maj Ab:sus4 Ab:maj |
+52.897210884	| Db:sus4 Db:maj | Db:maj Db:maj/7 Eb:min/5 Ab:maj |
+60.637959183	C, chorus, | Gb:maj7 | Eb:min7 Ab:maj | Db:maj7 | Db:7 Db:maj/7 Eb:min/5 Ab:maj |
+76.394829931	| Gb:maj7 | Eb:min7/11 Ab:maj | Db:maj7 | Cb:maj/9 Db:7 Gb:maj/3 Ab:maj |
+92.20217687	| Gb:maj7 | Eb:min7 Ab:maj | Db:maj7 | Cb:maj/9 Db:7 Gb:maj/3 Ab:maj |
+108.175442176	| Gb:maj7 | Gb:maj7 Db:maj/3 Eb:min7 . | Eb:min7 | Ab:maj . Ab:sus4 Ab:maj | &pause |, voice)
+125.410975056	B, instrumental, | Db:sus4 Db:maj | Db:maj . Db:sus4 Db:maj | Gb:maj7 Gb:maj6 | Ab:sus4 Ab:maj Ab:sus4 Ab:maj |
+140.70340136	| Db:sus4 Db:maj | Db:maj Db:maj/7 Eb:min/5 Ab:maj |
+148.48217687	C, chorus, | Gb:maj7 | Eb:min7 Ab:maj | Db:maj7 | Cb:maj/9 Db:7 Gb:maj/3 Ab:maj |, (voice
+163.987278911	| Gb:maj7 | Eb:min7 Ab:maj | Db:maj7 | Cb:maj/9 Db:7 Gb:maj/3 Ab:maj |
+179.335691609	| Gb:maj7 | Eb:min7 Ab:maj | Db:maj7 | Cb:maj/9 Db:7 Gb:maj/3 Ab:maj |
+194.99015873	| Gb:maj7 | Gb:maj7 Db:maj/3 Eb:min7 . | Eb:min7 | Ab:maj . Ab:sus4 Ab:maj | &pause |, voice)
+212.598276643	A', coda, | Db:sus4 Db:maj |
+220.925396825	silence
+227.552653061	end

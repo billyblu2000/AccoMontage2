@@ -1,0 +1,36 @@
+# title: Hungry Eyes 
+# artist: Eric Carmen
+# metre: 4/4
+# tonic: F
+
+0.0	silence
+0.499319727	A, intro, | F:1 | F:1 |, (bass guitar)
+5.695646258	C', intro, | F:maj(9) | Bb:maj(9) . C:sus4 C:maj | F:maj(9) | Bb:maj(9) . C:sus4 C:maj |, (synthesiser
+14.43324263	| F:maj(9) | Bb:maj(9) . C:sus4 C:maj | F:maj(9) | Bb:maj(9) . C:sus4 C:maj |, synthesiser)
+23.056802721	| F:maj(9) | F:maj(9) |
+27.357142857	B, verse, | F:maj | F:maj | A:min | A:min9 | A:min9(b13) | A:min9 . D:min/5 C:maj/13 |, (voice
+40.46292517	| A:min | A:min9 | D:min7 | D:min11 | G:maj | G:maj . . C:maj/3 |
+53.468571428	| D:min7 | D:min11 | G:maj | Bb:maj C:maj |
+62.078299319	C, chorus, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+70.793378684	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, voice)
+79.478571428	E, transition, | F:maj | F:maj . . C:7/3 |, (keyboard)
+83.867074829	B', verse, | A:min | A:min9 | A:min9(b13) | A:min9 . D:min/5 C:maj/13 |, (voice
+92.437052154	| A:min | A:min9 | D:min7 | D:min11 | G:maj | G:maj . . C:maj/3 |
+105.499591836	| D:min7 | D:min11 | G:maj | Bb:maj C:maj |
+114.201972789	C, chorus, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+122.824036281	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+131.45632653	C, chorus, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+140.228163265	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+148.923877551	D, bridge, | D:min7 | D:min11 | D:min7 | D:min11 |
+157.576031746	| D:min7 | D:min11 | D:min7 | Bb:maj C:maj |, voice)
+166.261360544	C, solo, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, (tenor saxophone
+174.957664399	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, tenor saxophone)
+183.629319727	C, chorus, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, (voice
+192.326780045	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+201.031088435	C, chorus, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+209.71324263	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+218.387505668	C, outro, | F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, fadeout
+227.137641723	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |
+235.667301587	| F:maj | Bb:maj C:maj | F:maj | Bb:maj C:maj |, voice)
+244.385532879	silence
+248.424489795	end

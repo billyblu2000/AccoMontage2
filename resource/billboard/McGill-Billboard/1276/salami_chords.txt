@@ -1,0 +1,55 @@
+# title: Baby Don t Forget My Number
+# artist: Milli Vanilli
+# metre: 4/4
+# tonic: Ab
+
+0.0	silence
+0.232199546	A, intro, | Ab:1(b7) | Ab:1(b7) | Ab:1(b7) | Ab:1(b7) | Db:1(b7) |
+12.133174603	B, interlude, | Ab:1(b7) | Ab:1(b7) Db:1(b7) . . | Gb:1(b7) | Ab:1(b7) . . Gb:1(b7) |, (synthesizer
+21.714988662	| Db:min | Ab:min | B:maj | A:maj |
+31.231156462	| Ab:1(b7) | Ab:1(b7) Db:1(b7) . . | Gb:1(b7) | Ab:1(b7) . . Gb:1(b7) |
+40.705170068	| Db:min | Ab:min | B:maj | A:maj |, synthesizer)
+50.244603174	A, trans, | Db:1 | Db:1 | Db:1 | Db:1 |
+59.830839002	B, interlude, | Db:min | Ab:min(11) | B:maj(9) | A:maj |, (synthesizer)
+69.304421768	| N |
+71.697664399	C, solo, | E:1 | D:1 | E:1 | D:1 |, (bass
+81.25956916	| Gb:1 | Cb:1 | Gb:1 | Gb:min |, bass)
+90.734399092	B, verse, | Ab:1(b7) | Ab:1(b7) Db:1(b7) . . | Gb:1(b7) | Ab:1(b7) . . Gb:1(b7) |, (voice
+100.271904761	| Ab:1(b7) | Ab:1(b7) Db:1(b7) . . | Gb:1(b7) | Ab:1(b7) . . Gb:1(b7) |
+109.782539682	| Db:5(b7) | Db:5(b7) | Db:5(b7) | Db:5(b7) |
+119.309523809	| Db:5(b7) | Db:5(b7) | B:maj(9) | A:maj7 |
+128.843605442	| Db:min | Ab:min(11) | B:maj(9) | A:maj7 |
+138.326303854	| Db:min | Ab:min(11) |, voice)
+143.179047619	| N |
+145.497029478	C, chorus, | E:1 | A:1 D:1 | E:1 | C:1 D:1 |, (voice
+155.037256235	| E:1 | C:1 D:1 | E:1 | N |
+164.581043083	A, trans, | C:1 | D:1 | E:1 |
+171.718843537	B, verse, | Db:min | Ab:min | B:maj | A:maj |, voice)
+181.189682539	C, chorus, | E:1 | D:1 | E:1 | D:1 |, (voice
+190.780816326	| E:1 |, voice)
+193.167346938	E, interlude, | Db:min7 | Cb:maj | Cb:maj | Db:min7 |, (guitar
+202.6530839	| Db:min7 | Cb:maj | Cb:maj | Db:min7 |
+212.203219954	| Db:min7 | Cb:maj | Cb:maj | Db:min7 |, guitar)
+221.74632653	| N | N |
+226.494716553	A, trans, | Gb:1 | Gb:1 | Gb:1 | Gb:1 |, (voice
+236.009659863	| Gb:1 | Gb:1 |
+240.734603174	| Gb:1 | Gb:1 | Gb:1 | Gb:1 |, voice)
+250.31292517	C', chorus, | E:1 | N | E:1 | B:1 . . D:1 |
+259.834172335	| E:1 | D:1 | E:1 | N |, (voice
+269.335918367	| E:1 | N |
+274.119909297	C, chorus, | E:1 . A:maj/5 E:maj | B:min | E:1 . A:maj/5 E:maj | B:min |
+283.626303854	| E:1 . A:maj/5 E:maj | B:min | E:1 . A:maj/5 E:maj | B:min | E:maj |
+295.51786848	F, bridge, | E:maj D:maj/9 | A:maj . D:maj/5 A:maj | E:maj D:maj/9 | A:maj . A:sus4(9) A:maj |
+305.101292517	| E:maj D:maj/9 | A:maj . D:maj/5 A:maj | E:maj E:sus4 | E:maj B:min7 |
+314.643945578	| E:maj | N | N | N |
+324.093650793	| E:maj | A:maj | E:maj D:maj | A:maj E:sus4(b7,9) |
+333.675941043	| N |, voice)
+336.09079365	B', interlude, | B:maj | F#:min7 |, (synthesizer)
+340.813151927	A, trans, | C#:min7 | C#:min7 |
+345.571791383	| C#:1 | C#:1 | C#:1 | C#:1 |
+355.060929705	| C:1 D:1 | E:1 | A:1 D:1 | E:1 |
+364.60956916	C, chorus, | E:1 . A:maj/5 E:maj | B:min7 | E:1 . A:maj/5 E:maj | B:min7 |, (voice
+374.130068027	| E:1 . A:maj/5 E:maj | B:min7 | E:1 . A:maj/5 E:maj | B:min7 |
+383.661065759	| E:maj |, voice)
+386.310385487	silence
+388.466938775	end

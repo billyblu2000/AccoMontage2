@@ -1,0 +1,34 @@
+# title: Talk Back Trembling Lips
+# artist: Johnny Tillotson
+# metre: 4/4
+# tonic: A
+
+0.0	silence
+0.255419501	A, chorus, | D:maj | D:maj | A:maj | A:maj |, (voice
+8.605464852	| E:7 | E:7 | A:maj | A:maj |
+15.415079365	| D:maj | D:maj | A:maj | A:maj |
+22.269886621	| E:7 | E:7 | E:7 |
+27.438117913	| A:maj | A:maj |
+30.859002267	B, verse, | A:maj | D:maj | A:maj | A:maj |
+37.812426303	| A:maj | D:maj | E:7 | E:7 |
+44.701746031	| A:maj | D:maj | A:maj | A:maj |
+51.55861678	| B:7 | B:7 | E:7 | E:7 |
+58.43292517	A, chorus, | D:maj | D:maj | A:maj | A:maj |
+65.27154195	| E:7 | E:7 | A:maj | A:maj |
+72.129387755	| D:maj | D:maj | A:maj | A:maj |
+79.024807256	| E:7 | E:7 | E:7 |
+84.241836734	| A:maj | F:maj |
+# tonic: Bb
+87.660929705	B, verse, | Bb:maj | Eb:maj | Bb:maj | Bb:maj |
+94.632063492	| Bb:maj | Eb:maj | F:7 | F:7 |
+101.624580498	| Bb:maj | Eb:maj | Bb:maj | Bb:maj |
+108.545510204	| C:7 | C:7 | F:7 | F:7 |
+115.443764172	A', chorus, | Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+122.401315192	| F:7 | F:7 | Bb:maj | Bb:maj |
+129.271950113	| Eb:maj | Eb:maj | Bb:maj | Bb:maj |
+136.199591836	| F:7 | F:7 | F:7 |
+141.443151927	| Bb:maj | Bb:maj |
+144.84648526	| F:7 | F:7 | F:7 | F:7 |
+151.833265306	| Bb:maj | Bb:maj |, voice)
+155.759455782	silence
+158.511020408	end

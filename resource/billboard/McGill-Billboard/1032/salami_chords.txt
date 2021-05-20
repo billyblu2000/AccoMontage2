@@ -1,0 +1,35 @@
+# title: Down And Out In New York City
+# artist: James Brown
+# metre: 4/4
+# tonic: Db
+
+0.0	silence
+0.162539682	A', intro, | N | Db:min7 Gb:7 | Db:min7 Gb:7 |, (guitar)
+8.810181405	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (voice
+19.777210884	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |
+30.816575963	C', chorus, | Gb:maj Db:maj | Ab:maj | (2/4) N |, voice)
+37.67430839	A', trans, | Db:min7 Gb:7 | Db:min7 Gb:7 |, (trumpet)
+43.250657596	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (voice
+54.450272108	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |
+65.557097505	C, chorus, | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj | Ab:maj Eb:min |
+76.562131519	| Gb:maj Db:maj | Ab:maj Eb:min | Gb:maj Db:maj | Ab:maj Eb:min |
+87.464852607	| Db:7 | Ab:min7 |, voice)
+92.920680272	A, interlude, | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |, (flute
+104.210748299	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |, flute)
+115.450861678	B, verse, | Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |, (voice
+126.45585034	| Eb:min7 | Eb:min7 | Eb:min7 | Eb:min7 |
+137.445918367	C, chorus, | Gb:maj Db:maj | Ab:maj | Gb:maj Db:maj | Ab:maj Eb:min |
+148.287188208	| Gb:maj Db:maj | Ab:maj Eb:min | Gb:maj Db:maj | Ab:maj Eb:min |, voice)
+159.081972789	| Db:7 | Ab:min7 | Eb:1 | Eb:1 |, (guitar)
+169.900408163	A, outro, | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |, (flute
+181.069886621	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |
+192.326439909	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |
+203.664739229	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |
+214.954263038	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |
+226.301746031	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |
+237.686394557	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |
+248.814648526	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |
+260.071043083	fadeout, | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |
+271.35	| Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 | Db:min7 Gb:7 |, flute)
+281.936689342	silence
+286.380408163	end

@@ -1,0 +1,32 @@
+# title: Rock 'n' Roll Fantasy 
+# artist: Bad Company
+# metre: 4/4
+# tonic: E
+
+0.0	silence
+0.255419501	A, intro, | (6/4) E:7(#9) |
+3.788548752	| E:7(#9) | E:7(#9) | E:7(#9) | E:7(#9) |
+12.58462585	B, verse, | E:7(#9) | C:maj D:maj | E:7(#9) | C:maj D:maj |, (voice
+21.119750566	| E:7(#9) | C:maj D:maj | E:7(#9) | E:7(#9) |, voice)
+29.714852607	A, trans, | E:7(#9) | E:7(#9) | E:7(#9) | E:7(#9) |
+38.161133786	B, verse, | E:7(#9) | C:maj D:maj | E:7(#9) | C:maj D:maj |, (voice
+46.606122448	| E:7(#9) | C:maj D:maj | E:7(#9) | E:7(#9) |
+54.986666666	C, chorus, | C:maj A:maj | G:maj D:maj | A:maj | A:maj |
+63.629070294	| C:maj A:maj | G:maj D:maj | A:maj | A:maj |
+72.291269841	A, trans, | E:7(#9) | E:7(#9) |
+76.484761904	A', solo, | E:7(#9) | E:7(#9) | E:7(#9) | E:7(#9) |, (guitar
+84.988594104	| E:7(#9) | E:7(#9) | E:7(#9) | E:7(#9) |, guitar)
+93.396462585	C, chorus, | C:maj A:maj | G:maj D:maj | A:maj | A:maj |, (voice
+102.012358276	| C:maj A:maj | G:maj D:maj | A:maj | A:maj |, voice)
+110.61031746	A, trans, | E:7(#9) | E:7(#9) | E:7(#9) | E:7(#9) |
+119.131405895	B, verse, | E:7(#9) | C:maj D:maj | E:7(#9) | C:maj D:maj |, (voice
+127.563310657	| E:7(#9) | C:maj D:maj | E:7(#9) | E:7(#9) |
+135.951111111	C, chorus, | C:maj A:maj | G:maj D:maj | A:maj | A:maj |
+144.583628117	| C:maj A:maj | G:maj D:maj | A:maj | A:maj |
+153.163492063	C, chorus, | C:maj A:maj | G:maj D:maj | A:maj | A:maj |
+161.757619047	| C:maj A:maj | G:maj D:maj | A:maj | A:maj |, voice)
+170.359954648	D, coda, | A:maj | A:maj | A:maj | A:maj |, (guitar
+179.001428571	| A:maj | A:maj | A:maj | A:maj |
+187.757936507	| A:maj |, guitar)
+195.233378684	silence
+199.68	end

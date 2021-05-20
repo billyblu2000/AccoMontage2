@@ -1,0 +1,51 @@
+# title: Every Little Thing She Does Is Magic
+# artist: The Police
+# metre: 4/4
+# tonic: D
+
+0.000000000	silence
+0.232199546	A, intro, | N |
+1.207437641	| A:5(b7)/b7 | A:5(b7) | A:5(b7)/9 | A:5(b7)/3 |, (guitar
+7.100362811	| A:5(b7)/b7 | A:5(b7) | A:5(b7)/9 | A:5(b7)/3 |, guitar)
+12.940408163	A, verse, | A:5(b7)/b7 | A:5(b7) | A:5(b7)/9 | A:5(b7)/3 |, (voice
+18.828616780	| A:5(b7)/b7 | A:5(b7) | A:5(b7)/9 | A:5(b7)/3 |
+24.700453514	| A:5(b7)/b7 | A:5(b7) | A:5(b7)/9 | A:5(b7)/3 |
+30.588594104	B, pre-chorus, | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj |
+36.406235827	C, chorus, | A:maj | D:maj | A:maj | D:maj |
+42.264149659	| A:maj | D:maj | A:maj |
+46.751882086	D, transition, | Bb:9 | C:maj/11 | G:min7 | A:min7 | A:5(b7)/9 | A:5(b7)/3 |
+55.543083900	A, verse, | A:5(b7)/b7 | A:5(b7) | A:5(b7)/9 | A:5(b7)/3 |
+61.252947845	| A:5(b7)/b7 | A:5(b7) | A:5(b7)/9 | A:5(b7)/3 |
+67.212630385	| A:5(b7)/b7 | A:5(b7) | A:5(b7)/9 | A:5(b7)/3 |
+72.981065759	B, pre-chorus, | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj . G:maj A:maj | D:maj |
+78.908979591	C, chorus, | A:maj | D:maj | A:maj | D:maj |
+84.766598639	| A:maj | D:maj | A:maj |
+89.285034013	D, transition, | Bb:9 | C:maj/11 | G:min7 | A:min7 | A:5(b7)/9 | A:5(b7)/3 |
+95.036916099	E, bridge, | Bb:maj6(9) | F:maj6(9)/3 | G:min11 | F:maj6(9)/3 |
+100.924693877	| G:sus4(b7) | F:maj6(9)/3 | Bb:maj6(9) | F:maj6(9)/3 |
+106.797120181	| Bb:maj6(9) | C:maj(9) | Bb:maj6(9) | C:maj(9) |
+112.568231292	| Bb:maj6(9) | C:maj(9) | Bb:maj6(9) | C:maj(9) |
+118.439501133	| D:maj | D:maj |
+121.351655328	C, chorus, | A:maj | D:maj | A:maj | D:maj |
+127.205079365	| A:maj | D:maj | A:maj | D:maj |
+133.004965986	| A:maj | D:maj | A:maj | D:maj |
+138.957278911	| A:maj | D:maj | A:maj |
+143.289002267	D, outro, | Bb:9 | C:maj/11 | G:min7 | A:min7 |
+149.164875283	| Bb:maj7 | C:maj/11 C:maj | D:maj | D:maj |
+154.971950113	| Bb:9 | C:maj/11 | G:min7 | A:min7 |
+160.934489795	| Bb:maj7 | C:maj/11 C:maj | D:maj | D:maj |
+166.734104308	| Bb:9 | C:maj/11 | G:min7 | A:min7 |
+172.640612244	| Bb:maj7 | C:maj/11 C:maj | D:maj | D:maj |
+178.462290249	| Bb:9 | C:maj/11 | G:min7 | A:min7 |
+184.366281179	| Bb:maj7 | C:maj/11 C:maj | D:maj | D:maj |
+190.159727891	| Bb:9 | C:maj/11 | G:min7 | A:min7 |
+196.090725623	| Bb:maj7 | C:maj/11 C:maj | D:maj | D:maj |
+201.878253968	| Bb:9 | C:maj/11 | G:min7 | A:min7 |
+207.798662131	| Bb:maj7 | C:maj/11 C:maj | D:maj | D:maj |
+213.582993197	| D:maj | D:maj |
+216.582380952	| Bb:9 | C:maj/11 | G:min7 | A:min7 |
+222.434875283	| Bb:maj7 | C:maj/11 C:maj |
+225.357188208	fadeout, | D:maj | D:maj | D:maj | D:maj |
+231.154104308	| D:maj | D:maj | D:maj | D:maj |, voice)
+257.625396825	silence
+261.242562358	end

@@ -1,0 +1,36 @@
+# title: I Had Too Much To Dream
+# artist: Electric Prunes
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.394739229	A, intro, | D:5 . . . | D:5 . . . | D:min . . . | D:min . . . |, (guitar)
+12.455646258	B, verse, | D:min . . . | D:min . . . | C:maj . . . | C:maj . . . |, (voice
+19.206077097	| D:min . . . | D:min . . . | C:maj . . . | C:maj . . . |
+25.998571428	| G:min . . . | G:min . . . | D:min . . . | D:min . . . |
+32.819138321	| G:min . . . | G:min . . . | D:min . . . | G:maj . . . |, voice)
+39.537959183	| G:maj . . . | G:maj . . . |, (guitar)
+43.165895691	C, pre-chorus, | D:min . . . | D:min . . . | Db:min . . . | Db:min . . . |, (voice
+49.767482993	| (3/4) G:maj . F:maj | (3/4) F:maj Eb:maj . | (3/4) Eb:maj | N . . . |
+55.480657596	D, chorus, | D:min . . . | G:maj . . . | D:min . . . | G:maj . . . |
+62.077505668	| D:min . . . | G:maj . . . | D:min . . . | A:maj . . . |, voice)
+68.675328798	E, trans, | D:min . C:maj . | Bb:maj . C:maj . | D:min . C:maj . | Bb:maj . C:maj . |, (guitar)
+75.048117913	B, verse, | D:min . . . | D:min . . . | C:maj . . . | C:maj . . . |, (voice
+81.618004535	| D:min . . . | D:min . . . | C:maj . . . | C:maj . . . |
+88.199954648	| G:min . . . | G:min . . . | D:min . . . | D:min . . . |
+94.710408163	| G:min . . . | G:min . . . | D:min . . . | G:maj . . . |, voice)
+101.232879818	| G:maj . . . |, (guitar)
+102.933605442	C, pre-chorus, | D:min . . . | D:min . . . | Db:min . . . | Db:min . . . |, (voice
+109.492154195	| (3/4) G:maj . F:maj | (3/4) F:maj Eb:maj . | (3/4) Eb:maj | N . . . |
+115.062902494	D, chorus, | D:min . . . | G:maj . . . | D:min . . . | G:maj . . . |
+121.59956916	| D:min . . . | G:maj . . . | D:min . . . | A:maj . . . |, voice)
+128.070408163	E, trans, | D:min . C:maj . | Bb:maj . C:maj . | D:min . C:maj . | Bb:maj . C:maj . |, (guitar)
+134.462222222	D, chorus, | D:min . . . | G:maj . . . | D:min . . . | G:maj . . . |, (voice
+140.989614512	| D:min . . . | G:maj . . . | D:min . . . | A:maj . . . |
+147.501201814	E, outro, | D:min . C:maj . | Bb:maj . C:maj . | D:min . C:maj . | Bb:maj . C:maj . |
+153.98047619	| D:min . C:maj . | Bb:maj . C:maj . | D:min . C:maj . | Bb:maj . C:maj . |
+160.2961678	| D:min . C:maj . | Bb:maj . C:maj . | D:min . C:maj . | Bb:maj . C:maj . |
+166.714013605	fadeout, | D:min . C:maj . | Bb:maj . C:maj . | D:min . C:maj . | Bb:maj . C:maj . |
+173.013174603	| D:min . C:maj . | Bb:maj . C:maj . | D:min . C:maj . | Bb:maj . C:maj . |, voice)
+176.750294784	silence
+179.983673469	end

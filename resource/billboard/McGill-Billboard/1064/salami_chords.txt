@@ -1,0 +1,29 @@
+# title: Sad Eyes
+# artist: Robert John
+# metre: 4/4
+# tonic: C
+
+0.000000000	silence
+0.348299319	A, intro, | C:maj C:sus2 | D:min(9) D:min | F:maj7 F:maj6 | C:maj |, (synth)
+13.815124716	| C:maj | D:min(9) D:min | F:maj7 F:maj6 | F:maj/9 |, (piano
+27.318979591	| C:maj | D:min(9) D:min | F:maj7 F:maj6 | C:maj/5 F:maj/9 |, piano)
+40.704580498	B, verse, | C:maj | D:min/b7 | F:maj/5 | C:maj F:maj/9 |, (voice
+54.161337868	| C:maj | D:min/b7 | F:maj/5 | G:sus4(b7) . G:sus4(b7) G:7 |
+67.577233560	C, pre-chorus, | D:min | F:maj |
+74.376916099	D, chorus, | C:maj C:maj7 | D:min7 | F:maj7 F:maj6 | C:maj F:maj/9 |
+87.720997732	| C:maj C:maj7 | D:min7 | F:maj7 F:maj6 | C:maj F:maj/9 |
+101.152834467	B, verse, | C:maj | D:min/b7 | F:maj/5 | C:maj F:maj/9 |
+114.593106575	| C:maj | D:min/b7 | F:maj/5 | G:sus4(b7) . G:sus4(b7) G:7 |
+128.019750566	C, pre-chorus, | D:min | F:maj |
+134.728911564	D, chorus, | C:maj C:maj7 | D:min7 | F:maj7 F:maj6 | C:maj F:maj/9 |
+148.209478458	| C:maj C:maj7 | D:min7 | F:maj7 F:maj6 | C:maj F:maj/9 |
+161.665124716	D, solo, | C:maj C:maj7 | D:min7 | F:maj7 F:maj6 | C:maj F:maj/9 |, (guitar
+175.088888888	| C:maj C:maj7 | D:min7 | F:maj7 F:maj6 | C:maj F:maj/9 |, guitar)
+188.489138321	D, chorus, | C:maj C:maj7 | D:min7 | F:maj7 F:maj6 | C:maj F:maj/9 |, (voice
+201.913083900	| C:maj C:maj7 | D:min7 | F:maj7 F:maj6 | C:maj F:maj/9 |
+# tonic: D
+215.417052154	D', chorus, | D:maj D:maj7 | E:min7 | G:maj7 G:maj6 | D:maj G:maj/9 |
+228.817074829	fadeout, | D:maj D:maj7 | E:min7 | G:maj7 G:maj6 | D:maj G:maj/9 |
+242.169523809	| D:maj D:maj7 | E:min7 | G:maj7 G:maj6 | D:maj G:maj/9 |, voice)
+249.453061224	silence
+253.257800453	end

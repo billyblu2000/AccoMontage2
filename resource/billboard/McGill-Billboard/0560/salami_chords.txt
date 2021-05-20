@@ -1,0 +1,27 @@
+# title: Cecilia
+# artist: Simon & Garfunkel
+# metre: 4/4
+# tonic: B
+
+0.0	silence
+0.255419501	A, intro, | N | N | N | N |
+10.040544217	B', chorus, | N | N | N | F#:maj |, (voice
+19.449433106	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj |
+28.848117913	B, chorus, | B:maj | E:maj B:maj | E:maj B:maj | F#:maj |
+38.291972789	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj | B:maj |
+49.900045351	C, verse, | B:maj | B:maj | B:maj | F#:maj B:maj |
+59.141587301	| B:maj | B:maj | B:maj | F#:maj B:maj |
+68.427619047	B, chorus, | B:maj | E:maj B:maj | E:maj B:maj | F#:maj |
+77.739229024	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj | B:maj |
+87.145192743	A', interlude, | N | N | N | F#:maj |, voice)
+96.491337868	B, solo, | B:maj | E:maj B:maj | E:maj B:maj | F#:maj |, (guitar
+105.8523356	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj |, guitar)
+115.138231292	B', chorus, | B:maj | E:maj B:maj | E:maj B:maj | F#:maj |, (voice
+124.387505668	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj |
+133.60877551	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj |
+142.810226757	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj |
+152.021292517	fadeout, | E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj |
+161.179931972	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj |
+170.361292517	| E:maj B:maj | E:maj B:maj | E:maj B:maj | F#:maj |, voice)
+174.167074829	silence
+176.776621315	end

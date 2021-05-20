@@ -1,0 +1,32 @@
+# title: Get Ready
+# artist: Rare Earth
+# metre: 4/4
+# tonic: D
+
+0.0	silence
+0.325079365	A, intro, | D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |, (guitar
+7.691065759	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+14.895306122	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |, guitar)
+22.13786848	A, verse, | D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |, (voice
+29.336077097	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+36.445487528	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+43.52861678	B, chorus, | F:maj | Bb:7 | G:min | C:maj |
+50.575464852	| F:maj | Bb:7 | G:min | C:maj |
+57.601904761	A''', verse, | D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+64.672766439	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+71.704126984	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+78.709637188	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+85.673582766	B, chorus, | F:maj | Bb:maj | G:min7 | C:maj |
+92.631609977	| F:maj | Bb:maj | G:min7 | C:maj |
+99.571473922	A'', verse, | D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |, voice)
+106.598843537	C, solo, | D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |, (saxophone
+113.554172335	| G:maj A:maj | G:maj A:maj | G:maj A:maj | Bb:maj . A:min G:maj |, saxophone)
+120.679342403	A, verse, | D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |, (voice
+127.750249433	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+134.781043083	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+141.717460317	B, chorus, | F:maj | Bb:maj | G:min7 | C:maj |
+148.628140589	| F:maj | Bb:maj | G:min7 | C:maj |
+155.539659863	A'''', outro, | D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |
+162.558390022	| D:maj | D:maj . G:maj F:maj | D:maj | D:maj . G:maj F:maj |, voice)
+166.877528344	silence
+169.698548752	end
