@@ -2,10 +2,15 @@ import time
 from typing import List
 
 from pretty_midi import *
-from midi2audio import FluidSynth
 
 from utils.string import STATIC_DIR
 from utils.constants import *
+
+try:
+    from midi2audio import FluidSynth
+except:
+    def FluidSynth():
+        return None
 
 
 def nmat2ins(nmat, program=0, tempo=120, sixteenth_notes_in_bar=16) -> Instrument:
@@ -139,8 +144,9 @@ def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + "
         os.makedirs(STATIC_DIR + "audio/" + date)
     except:
         pass
-    fs.midi_to_audio(STATIC_DIR + "audio/" + "midi.mid", STATIC_DIR + "audio/" + date + out)
-    os.remove(STATIC_DIR + "audio/" + "midi.mid")
+    if fs is not None:
+        fs.midi_to_audio(STATIC_DIR + "audio/" + "midi.mid", STATIC_DIR + "audio/" + date + out)
+        os.remove(STATIC_DIR + "audio/" + "midi.mid")
 
 
 def pick_progressions(*args, **kwargs):
