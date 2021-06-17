@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Any
 
 from pretty_midi import PrettyMIDI, Instrument, Note
 
@@ -130,17 +130,16 @@ class ChordProgression:
             self.type = None
             self.meta['type'] = None
 
-
-    def set_appeared_time(self,time):
+    def set_appeared_time(self, time):
         self.appeared_time = time
 
-    def set_appeared_in_other_songs(self,time):
+    def set_appeared_in_other_songs(self, time):
         self.appeared_in_other_songs = time
 
-    def set_reliability(self,reliability):
+    def set_reliability(self, reliability):
         self.reliability = reliability
 
-    def set_progression_class(self,progression_class):
+    def set_progression_class(self, progression_class):
         self.progression_class = progression_class
 
     def __iter__(self):
@@ -166,7 +165,7 @@ class ChordProgression:
         str_ += "-Source Mode: " + self.__print_accept_none(self.meta["mode"]) + " (M for Major and m for minor)" + "\n"
         str_ += "-Appeared Times: " + self.__print_accept_none(self.appeared_time) + "\n"
         str_ += "-Appeared In Other Songs: " + self.__print_accept_none(self.appeared_in_other_songs) + "\n"
-        str_ += "-Reliability: " + self.__print_accept_none(self.reliability)  + "\n"
+        str_ += "-Reliability: " + self.__print_accept_none(self.reliability) + "\n"
         str_ += "-Progression Class: " + self.__print_accept_none(self.progression_class) + "\n"
 
         str_ += "| "
@@ -190,7 +189,7 @@ class ChordProgression:
         return str(value) if value is not None else 'None'
 
 
-def read_progressions(progression_file = 'progressions.txt'):
+def read_progressions(progression_file='progressions.txt'):
     file = open(STATIC_DIR + progression_file, "r")
     progression_list = []
     progression = ChordProgression()
@@ -236,8 +235,8 @@ def read_progressions(progression_file = 'progressions.txt'):
                         continue
                     if char.isdigit():
                         if type(memo) is str:
-                            bar_chord.append(float(memo+char))
-                            memo = float(memo+char)
+                            bar_chord.append(float(memo + char))
+                            memo = float(memo + char)
                         else:
                             bar_chord.append(int(char))
                             memo = int(char)
@@ -250,8 +249,9 @@ def read_progressions(progression_file = 'progressions.txt'):
     return progression_list
 
 
-# TODO
-def query_progression(progression_list, source=None, type=None, tonic=None, mode=None, metre=None,times=None,other_times=None,reliability=None):
+# Abandoned!
+def query_progression(progression_list, source=None, type=None, tonic=None, mode=None, metre=None, times=None,
+                      other_times=None, reliability=None):
     if source:
         new_progression_list = []
         for prgression in progression_list:
@@ -311,7 +311,7 @@ def print_progression_list(progression_list: List[ChordProgression], limit=None)
         count += 1
         if count == limit:
             break
-    print("Total: ",len(progression_list),"\n")
+    print("Total: ", len(progression_list), "\n")
 
 
 if __name__ == '__main__':

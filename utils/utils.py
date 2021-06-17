@@ -151,8 +151,8 @@ def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + "
 
 def pick_progressions(*args, **kwargs):
     PICKING_PARAMS = {
-        'dense_sparse': 32,
-        'long_short': 100,
+        'dense_sparse': 16,
+        'long_short': 64,
     }
 
     prog_list = kwargs['progression_list']

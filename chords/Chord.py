@@ -45,8 +45,25 @@ class Chord:
     # TODO
     def __str__(self):
         str_ = self.root
-        if self.type == MIN_TRIAD:
-            str_ += "m"
+        if self.type == MAJ_TRIAD:
+            str_ += ''
+        elif self.type == MIN_TRIAD:
+            str_ += 'm'
+        elif self.type == AUG_TRIAD:
+            str_ += 'aug'
+        elif self.type == DIM_TRIAD:
+            str_ += 'dim'
+        elif self.type == MAJ_SEVENTH:
+            str_ += 'maj7'
+        elif self.type == MIN_SEVENTH:
+            str_ += 'm7'
+        elif self.type == DOM_SEVENTH:
+            str_ += '7'
+        elif self.type == HALF_DIM_SEVENTH:
+            str_ += 'm7(b5)'
+        elif self.type == FULLY_DIM_SEVENTH:
+            str_ += 'dim7'
+
         return "Chord: " + str_
 
 

@@ -5,7 +5,7 @@ from utils.string import RESOURCE_DIR, STATIC_DIR
 from utils.ProcessDataUtils import type_dict, root_map_major, root_map_minor
 
 song_name = []
-
+tmp_dict = {}
 
 def process_line(line):
     """a func used to process a single line, called by process_file()"""
@@ -172,11 +172,20 @@ def process_file(file, source=None):
                         else:
                             if mode == "M" or mode is None:
                                 chord_order = root_map_major(bar_chord_list[k].split(":")[0], tonic)
+                                try:
+                                    tmp_dict[bar_chord_list[k].split(":")[1]] += 1
+                                except:
+                                    tmp_dict[bar_chord_list[k].split(":")[1]] = 1
                             else:
                                 chord_order = root_map_minor(bar_chord_list[k].split(":")[0], tonic)
+                                try:
+                                    tmp_dict[bar_chord_list[k].split(":")[1]] += 1
+                                except:
+                                    tmp_dict[bar_chord_list[k].split(":")[1]] = 1
                         bar_chord[chord_length * k:chord_length * (k + 1)] = [chord_order] * chord_length
                     if progression is not None:
                         progression.progression.append(bar_chord)
+        print(tmp_dict)
 
         return prog_list
 
