@@ -26,7 +26,7 @@ class ChordProgression:
 
     @staticmethod
     def render_to_chord(order, tonality="C", mode="M") -> Chord:
-        chord = Chord()
+        chord = Chord(-1)
         if order not in [1, 2, 3, 4, 5, 6, 7]:
             raise ValueError
         distance = 0

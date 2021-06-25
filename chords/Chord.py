@@ -6,41 +6,63 @@ from utils.utils import listen_pitches
 class Chord:
 
     # TODO finish chord class
-    def __init__(self, name=None):
-        self.root = None
-        self.type = None
-        self.inversion = None
-        self.add = None
-        self.sus = None
-        if name is not None:
-            self.analyze_name(name)
+    def __init__(self, root = None, attr=None):
+        self.root = -1
+        self.type = -1
+        self.inversion = -1
+        self.add = -1
+        self.sus = -1
+        if root:
+            self.root = root
+        if attr:
+            self.type, self.inversion, self.sus, self.add = attr[0], attr[1], attr[2], attr[3]
 
     def to_midi_pitch(self) -> list:
         midi_pitch = []
         root_pitch = root_to_pitch_low[str_to_root[self.root]]
-        midi_pitch.append(root_pitch)
-        for i in chord_type_to_pitch_relation[self.type]:
+        pitch_relation = [0] + chord_type_to_pitch_relation[self.type]
+        if self.sus != -1:
+            if self.sus == SUS2:
+                pitch_relation[1] = 2
+            elif self.sus == SUS4:
+                pitch_relation[1] = 5
+        if self.add != -1:
+            if self.add == ADD6:
+                pitch_relation.append(9)
+            elif self.add == ADD9:
+                pitch_relation.append(14)
+            elif self.add == ADD69:
+                pitch_relation.append(9)
+                pitch_relation.append(14)
+            elif self.add == ADD11:
+                pitch_relation.append(17)
+            elif self.add == ADD13:
+                pitch_relation.append(21)
+            elif self.add == ADD911:
+                pitch_relation.append(14)
+                pitch_relation.append(17)
+            elif self.add == ADD1113:
+                pitch_relation.append(17)
+                pitch_relation.append(21)
+            elif self.add == ADD91113:
+                pitch_relation.append(14)
+                pitch_relation.append(17)
+                pitch_relation.append(21)
+        if self.inversion != -1:
+            if self.inversion == T6 and len(pitch_relation) == 3:
+                pitch_relation = pitch_relation[1:] + [pitch_relation[0] + 12]
+            elif self.inversion == T64 and len(pitch_relation) == 3:
+                pitch_relation = pitch_relation[2:] + [pitch_relation[0] + 12, pitch_relation[1] + 12]
+            elif self.inversion == S65 and len(pitch_relation) == 4:
+                pitch_relation = pitch_relation[1:] + [pitch_relation[0] + 12]
+            elif self.inversion == S43 and len(pitch_relation) == 4:
+                pitch_relation = pitch_relation[2:] + [pitch_relation[0] + 12, pitch_relation[1] + 12]
+            elif self.inversion == S2 and len(pitch_relation) == 4:
+                pitch_relation = pitch_relation[3:] + [pitch_relation[0] + 12, pitch_relation[1] + 12,
+                                                       pitch_relation[2] + 12]
+        for i in pitch_relation:
             midi_pitch.append(root_pitch + i)
         return midi_pitch
-
-    # TODO
-    def analyze_name(self, name):
-        try:
-            if len(name) == 1:
-                self.root = name[0]
-                name = name[1:]
-            elif name[1] == "#" or name[1] == "b":
-                self.root = name[:2]
-                name = name[2:]
-            else:
-                self.root = name[0]
-                name = name[1:]
-            if name == "":
-                self.type = MAJ_TRIAD
-            if name == "m":
-                self.type = MIN_TRIAD
-        except:
-            raise Warning("Cannot recognize chord name: {}".format(name))
 
     # TODO
     def __str__(self):
@@ -60,7 +82,7 @@ class Chord:
         elif self.type == DOM_SEVENTH:
             str_ += '7'
         elif self.type == HALF_DIM_SEVENTH:
-            str_ += 'm7(b5)'
+            str_ += 'm7-5'
         elif self.type == FULLY_DIM_SEVENTH:
             str_ += 'dim7'
 
@@ -68,6 +90,6 @@ class Chord:
 
 
 if __name__ == '__main__':
-    chord = Chord("Am")
-    print(chord)
-    listen_pitches(chord.to_midi_pitch(), time=5, instrument=VOCAL)
+    chord = Chord('C', [DOM_SEVENTH, S65, -1, -1])
+    print(chord.to_midi_pitch())
+    # listen_pitches(chord.to_midi_pitch(), time=5, instrument=VOCAL)
