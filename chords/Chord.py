@@ -90,6 +90,6 @@ class Chord:
 
 
 if __name__ == '__main__':
-    chord = Chord('C', [DOM_SEVENTH, S65, -1, -1])
+    chord = Chord('C', [MAJ_TRIAD, S43, -1, ADD9])
     print(chord.to_midi_pitch())
     # listen_pitches(chord.to_midi_pitch(), time=5, instrument=VOCAL)

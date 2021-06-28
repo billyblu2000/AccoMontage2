@@ -14,7 +14,7 @@ class ChordProgression:
 
     def __init__(self, type=None, tonic=None, metre=None, mode=None, source=None):
         self.meta = {"source": source, "type": type, "tonic": tonic, "metre": metre, "mode": mode}
-        self.progression = []
+        self._progression = []
         try:
             self.type = type_dict[type]
         except:
@@ -23,6 +23,14 @@ class ChordProgression:
         self.appeared_in_other_songs = 0
         self.reliability = -1
         self.progression_class = "unknown"
+
+    @property
+    def progression(self):
+        return self._progression
+
+    @progression.setter
+    def progression(self, new):
+        self._progression = new
 
     @staticmethod
     def render_to_chord(order, tonality="C", mode="M") -> Chord:

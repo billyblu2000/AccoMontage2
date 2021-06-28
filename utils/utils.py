@@ -126,6 +126,7 @@ def get_melo_notes_from_midi(midi: PrettyMIDI, beat_audio, melo_track=0):
         my_note_list.append(my_note)
     return my_note_list
 
+def
 
 def listen_pitches(midi_pitch: list, time, instrument=0):
     midi = PrettyMIDI()
