@@ -1,5 +1,5 @@
 from utils.constants import *
-from utils.dictionary import str_to_root, chord_type_to_pitch_relation, root_to_pitch_low
+from utils.structured import str_to_root, chord_type_to_pitch_relation, root_to_pitch_low
 from utils.utils import listen_pitches
 
 

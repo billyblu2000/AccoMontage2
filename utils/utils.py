@@ -1,8 +1,7 @@
 import time
-from typing import List
 
 from pretty_midi import *
-
+from utils.structured import str_to_root
 from utils.string import STATIC_DIR
 from utils.constants import *
 
@@ -126,7 +125,25 @@ def get_melo_notes_from_midi(midi: PrettyMIDI, beat_audio, melo_track=0):
         my_note_list.append(my_note)
     return my_note_list
 
-def
+
+def compute_distance(tonic, this, mode='M'):
+    tonic_pitch = str_to_root(tonic)
+    this_pitch = str_to_root(this)
+    pitch_distance = this_pitch - tonic_pitch
+    if pitch_distance < 0:
+        pitch_distance += 12
+    if mode == 'M':
+        pitch_distance_to_note_distance = {
+            0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7
+        }
+        return pitch_distance_to_note_distance[pitch_distance]
+    else:
+        pitch_distance_to_note_distance = {
+            0: 1, 1: 1.5, 2: 2, 3: 3, 4: 3.5, 5: 4, 6: 4.5, 7: 5, 8: 6, 9: 6.5, 10: 7, 11: 7.5
+        }
+        return pitch_distance_to_note_distance[pitch_distance]
+
+
 
 def listen_pitches(midi_pitch: list, time, instrument=0):
     midi = PrettyMIDI()
