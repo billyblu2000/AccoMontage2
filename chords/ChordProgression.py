@@ -4,9 +4,9 @@ from pretty_midi import PrettyMIDI, Instrument, Note
 
 from chords.Chord import Chord
 from utils.ProcessDataUtils import type_dict
-from utils.structured import str_to_root, root_to_str
+from utils.structured import str_to_root, root_to_str, POPULAR_CHORDS
 from utils.string import STATIC_DIR
-from utils.utils import listen
+from utils.utils import listen, compute_distance, compute_destination
 from utils.constants import *
 
 
@@ -24,13 +24,56 @@ class ChordProgression:
         self.reliability = -1
         self.progression_class = "unknown"
 
+    # chords are stored as Chord Class
+    # switch to root note and output the progression in a easy-read way
     @property
     def progression(self):
-        return self._progression
+        prog = []
+        for bar_chords in self._progression:
+            bar_roots = []
+            for chord in bar_chords:
+                root = chord.root
+                bar_roots.append(compute_distance(tonic=self.meta['tonic'],this=root,mode=self.meta['mode']))
+            prog.append(bar_roots)
+        return prog
 
     @progression.setter
     def progression(self, new):
-        self._progression = new
+        if type(new[0][0]) is not int:
+            self._progression = new
+        else:
+            prog = []
+            for bar_roots in new:
+                bar_chords = []
+                for order in bar_roots:
+                    root = compute_destination(tonic=self.meta['tonic'],order=order,mode=self.meta['mode'])
+                    if self.meta['mode'] == 'M':
+                        if order == 1 or order == 4 or order == 5:
+                            attr = [MAJ_TRIAD,-1,-1,-1]
+                        elif order == 2 or order == 3 or order == 6:
+                            attr = [MIN_TRIAD,-1,-1,-1]
+                        elif order == 7:
+                            attr = [DIM_TRIAD,-1,-1,-1]
+                        else:
+                            attr = [-1,-1,-1,-1]
+                    elif self.meta['mode'] == 'm':
+                        if order == 1 or order == 4 or order == 5:
+                            attr = [MIN_TRIAD,-1,-1,-1]
+                        elif order == 3 or order == 6 or order == 7:
+                            attr = [MAJ_TRIAD,-1,-1,-1]
+                        elif order == 2:
+                            attr = [DIM_TRIAD, -1, -1, -1]
+                        else:
+                            attr = [-1,-1,-1,-1]
+                    else:
+                        attr = [-1,-1,-1,-1]
+                    chord = Chord(root=root,attr=attr)
+                    bar_chords.append(chord)
+                prog.append(bar_chords)
+            self._progression = prog
+
+
+
 
     @staticmethod
     def render_to_chord(order, tonality="C", mode="M") -> Chord:

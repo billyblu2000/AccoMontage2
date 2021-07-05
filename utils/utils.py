@@ -5,6 +5,7 @@ from utils.structured import str_to_root
 from utils.string import STATIC_DIR
 from utils.constants import *
 
+# this module will enable the program to listen to progressions immediately
 try:
     from midi2audio import FluidSynth
 except:
@@ -12,6 +13,7 @@ except:
         return None
 
 
+# convert note matrix to PrettyMIDI.Instrument
 def nmat2ins(nmat, program=0, tempo=120, sixteenth_notes_in_bar=16) -> Instrument:
     ins = Instrument(program=program)
     snib = sixteenth_notes_in_bar
@@ -24,6 +26,7 @@ def nmat2ins(nmat, program=0, tempo=120, sixteenth_notes_in_bar=16) -> Instrumen
     return ins
 
 
+# combine PrettyMIDI.Instruments into PrettyMIDI
 def combine_ins(*kargs: Instrument, init_tempo=120) -> PrettyMIDI:
     midi = PrettyMIDI(initial_tempo=init_tempo)
     for ins in kargs:
@@ -78,6 +81,7 @@ def compute_beat_position(t, tempo_changes):
     return t
 
 
+# util function in 'get_melo_notes_from_midi()'
 def get_bar_and_position(time, beat_info):
     beat_time_list = list(beat_info.keys())
     closest = 0
@@ -126,6 +130,9 @@ def get_melo_notes_from_midi(midi: PrettyMIDI, beat_audio, melo_track=0):
     return my_note_list
 
 
+# a function the order of notes according to tonic
+# e.g., the order of F in C major is 4
+# mode : M for major and m for minor
 def compute_distance(tonic, this, mode='M'):
     tonic_pitch = str_to_root(tonic)
     this_pitch = str_to_root(this)
@@ -144,7 +151,32 @@ def compute_distance(tonic, this, mode='M'):
         return pitch_distance_to_note_distance[pitch_distance]
 
 
+# a function that compute the destination note according to order
+# e.g., the 4th order note of C major is F
+# mode : M for major and m for minor
+def compute_destination(tonic, order, mode='M'):
+    root_list = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
+    if tonic == 'Db': tonic = 'C#'
+    if tonic == 'Eb': tonic = 'D#'
+    if tonic == 'Gb': tonic = 'F#'
+    if tonic == 'Ab': tonic = 'G#'
+    if tonic == 'Bb': tonic = 'A#'
+    index = root_list.index(tonic)
+    if mode == 'M':
+        order_to_distance = {
+            1: 0, 1.5: 1, 2: 2, 2.5: 3, 3: 4, 4: 5, 4.5: 6, 5: 7, 5.5: 8, 6: 9, 6.5: 10, 7: 11
+        }
 
+    else:
+        order_to_distance = {
+            1: 0, 1.5: 1, 2: 2, 3: 3, 3.5: 4, 4: 5, 4.5: 6, 5: 7, 6: 8, 6.5: 9, 7: 10, 7.5: 11
+        }
+    des_index = order_to_distance[order] + index
+    des_index -= 12 if des_index >= 12 else 0
+    return root_list[des_index]
+
+
+# listen to a pitch list (Must import FluidSynth)
 def listen_pitches(midi_pitch: list, time, instrument=0):
     midi = PrettyMIDI()
     ins = Instrument(instrument)
@@ -154,6 +186,7 @@ def listen_pitches(midi_pitch: list, time, instrument=0):
     listen(midi)
 
 
+# listen to a MIDI file (Must import FluidSynth)
 def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + ".wav"):
     midi.write(STATIC_DIR + "audio/" + "midi.mid")
     fs = FluidSynth()
@@ -167,6 +200,7 @@ def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + "
         os.remove(STATIC_DIR + "audio/" + "midi.mid")
 
 
+# pick suitable progressions
 def pick_progressions(*args, **kwargs):
     PICKING_PARAMS = {
         'dense_sparse': 16,
@@ -249,4 +283,4 @@ def pick_progressions(*args, **kwargs):
 
 
 if __name__ == '__main__':
-    pass
+    print(compute_destination(tonic='E',order=4,mode='M'))

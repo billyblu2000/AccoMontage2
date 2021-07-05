@@ -9,7 +9,8 @@ from utils.constants import PIANO, SHORT, DENSE, LONG, SPARSE
 
 from utils.process_pop909 import process
 from utils.string import STATIC_DIR
-from utils.utils import listen, get_melo_notes_from_midi, get_bar_and_position, combine_ins, nmat2ins, pick_progressions
+from utils.utils import listen, get_melo_notes_from_midi, get_bar_and_position, combine_ins, nmat2ins, \
+    pick_progressions, compute_destination
 from matplotlib import pyplot as plt
 import numpy as np
 
@@ -25,4 +26,3 @@ import numpy as np
 # print(len(pick_progressions(SHORT,SPARSE, progression_list=prog_list)))
 # print(len(pick_progressions(LONG,DENSE, progression_list=prog_list)))
 # print(len(pick_progressions(LONG,SPARSE, progression_list=prog_list)))
-
