@@ -86,7 +86,7 @@ class Chord:
         elif self.type == FULLY_DIM_SEVENTH:
             str_ += 'dim7'
 
-        return "Chord: " + str_
+        return str_
 
 
 if __name__ == '__main__':

@@ -33,7 +33,7 @@ class ChordProgression:
             bar_roots = []
             for chord in bar_chords:
                 root = chord.root
-                bar_roots.append(compute_distance(tonic=self.meta['tonic'],this=root,mode=self.meta['mode']))
+                bar_roots.append(compute_distance(tonic=self.meta['tonic'], this=root, mode=self.meta['mode']))
             prog.append(bar_roots)
         return prog
 
@@ -46,35 +46,33 @@ class ChordProgression:
             for bar_roots in new:
                 bar_chords = []
                 for order in bar_roots:
-                    root = compute_destination(tonic=self.meta['tonic'],order=order,mode=self.meta['mode'])
+                    root = compute_destination(tonic=self.meta['tonic'], order=order, mode=self.meta['mode'])
                     if self.meta['mode'] == 'M':
                         if order == 1 or order == 4 or order == 5:
-                            attr = [MAJ_TRIAD,-1,-1,-1]
+                            attr = [MAJ_TRIAD, -1, -1, -1]
                         elif order == 2 or order == 3 or order == 6:
-                            attr = [MIN_TRIAD,-1,-1,-1]
+                            attr = [MIN_TRIAD, -1, -1, -1]
                         elif order == 7:
-                            attr = [DIM_TRIAD,-1,-1,-1]
+                            attr = [DIM_TRIAD, -1, -1, -1]
                         else:
-                            attr = [-1,-1,-1,-1]
+                            attr = [-1, -1, -1, -1]
                     elif self.meta['mode'] == 'm':
                         if order == 1 or order == 4 or order == 5:
-                            attr = [MIN_TRIAD,-1,-1,-1]
+                            attr = [MIN_TRIAD, -1, -1, -1]
                         elif order == 3 or order == 6 or order == 7:
-                            attr = [MAJ_TRIAD,-1,-1,-1]
+                            attr = [MAJ_TRIAD, -1, -1, -1]
                         elif order == 2:
                             attr = [DIM_TRIAD, -1, -1, -1]
                         else:
-                            attr = [-1,-1,-1,-1]
+                            attr = [-1, -1, -1, -1]
                     else:
-                        attr = [-1,-1,-1,-1]
-                    chord = Chord(root=root,attr=attr)
+                        attr = [-1, -1, -1, -1]
+                    chord = Chord(root=root, attr=attr)
                     bar_chords.append(chord)
                 prog.append(bar_chords)
             self._progression = prog
 
-
-
-
+    # TODO
     @staticmethod
     def render_to_chord(order, tonality="C", mode="M") -> Chord:
         chord = Chord(-1)
@@ -233,6 +231,19 @@ class ChordProgression:
                     memo = j
             str_ += " | "
             count += 1
+        str_ += "\n| "
+        for i in self._progression:
+            if count % 8 == 0 and count != 0:
+                str_ += "\n| "
+            memo = -1
+            for j in i:
+                if str(j) == memo:
+                    str_ += "-"
+                else:
+                    str_ += str(j)
+                    memo = str(j)
+            str_ += " | "
+            count += 1
         return str_ + "\n"
 
     @staticmethod
@@ -366,8 +377,9 @@ def print_progression_list(progression_list: List[ChordProgression], limit=None)
 
 
 if __name__ == '__main__':
-    cp = ChordProgression(type="", metre="", mode="", tonic="", source="")
+    cp = ChordProgression(type="", metre="", mode="M", tonic="D", source="")
     cp.progression = [[1, 1, 1, 1, 4, 4, 4, 4], [1, 1, 1, 1, 4, 4, 4, 4], [1, 1, 1, 1, 4, 4, 4, 4],
                       [1, 1, 1, 1, 4, 4, 4, 4], ]
+
     print(cp)
-    listen(cp.to_midi(tempo=70, tonic="A", mode="M", instrument=SHAKUHACHI))
+    # listen(cp.to_midi(tempo=70, tonic="A", mode="M", instrument=SHAKUHACHI))

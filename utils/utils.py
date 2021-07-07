@@ -135,8 +135,8 @@ def get_melo_notes_from_midi(midi: PrettyMIDI, beat_audio, melo_track=0):
 # e.g., the order of F in C major is 4
 # mode : M for major and m for minor
 def compute_distance(tonic, this, mode='M'):
-    tonic_pitch = str_to_root(tonic)
-    this_pitch = str_to_root(this)
+    tonic_pitch = str_to_root[tonic]
+    this_pitch = str_to_root[this]
     pitch_distance = this_pitch - tonic_pitch
     if pitch_distance < 0:
         pitch_distance += 12
