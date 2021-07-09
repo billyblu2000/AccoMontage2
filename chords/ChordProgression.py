@@ -1,12 +1,12 @@
-from typing import List, Any
+from typing import List
 
 from pretty_midi import PrettyMIDI, Instrument, Note
 
 from chords.Chord import Chord
-from utils.ProcessDataUtils import type_dict
-from utils.structured import str_to_root, root_to_str, POPULAR_CHORDS
+from utils.process_raw.ProcessDataUtils import type_dict
+from utils.structured import str_to_root, root_to_str
 from utils.string import STATIC_DIR
-from utils.utils import listen, compute_distance, compute_destination
+from utils.utils import compute_distance, compute_destination
 from utils.constants import *
 
 
@@ -216,7 +216,7 @@ class ChordProgression:
         str_ += "-Appeared In Other Songs: " + self.__print_accept_none(self.appeared_in_other_songs) + "\n"
         str_ += "-Reliability: " + self.__print_accept_none(self.reliability) + "\n"
         str_ += "-Progression Class: " + self.__print_accept_none(self.progression_class) + "\n"
-
+        str_ += "Numbered: " + "\n"
         str_ += "| "
         count = 0
         for i in self.progression:
@@ -231,7 +231,7 @@ class ChordProgression:
                     memo = j
             str_ += " | "
             count += 1
-        str_ += "\n| "
+        str_ += "\nChord: \n| "
         for i in self._progression:
             if count % 8 == 0 and count != 0:
                 str_ += "\n| "
@@ -285,16 +285,17 @@ def read_progressions(progression_file='progressions.txt'):
             progression.set_reliability(int(line.split(":")[1].strip()))
         if "-Progression Class:" in line:
             progression.set_progression_class(line.split(":")[1].strip())
-        if "|" in line:
+
+        # read from chord
+        if "|" in line and not line[2].isdigit():
             line_split = line.split("|")
             for segment in line_split:
                 if segment.strip() == "" or segment.strip() == "\n":
                     continue
                 bar_chord = []
                 memo = -1
+                segment = segment[1:-1]
                 for char in segment:
-                    if char == " ":
-                        continue
                     if char.isdigit():
                         if type(memo) is str:
                             bar_chord.append(float(memo + char))

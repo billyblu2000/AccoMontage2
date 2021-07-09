@@ -2,7 +2,7 @@ import os
 
 from chords.ChordProgression import ChordProgression
 from utils.string import RESOURCE_DIR, STATIC_DIR
-from utils.ProcessDataUtils import type_dict, root_map_major, root_map_minor
+from utils.process_raw.ProcessDataUtils import type_dict, root_map_major, root_map_minor
 
 song_name = []
 tmp_dict = {}
