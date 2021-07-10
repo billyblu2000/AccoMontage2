@@ -3,10 +3,10 @@ from typing import List
 from pretty_midi import PrettyMIDI, Instrument, Note
 
 from chords.Chord import Chord
-from utils.process_raw.ProcessDataUtils import type_dict
-from utils.structured import str_to_root, root_to_str
+from utils.ProcessDataUtils import type_dict
+from utils.dictionary import str_to_root, root_to_str
 from utils.string import STATIC_DIR
-from utils.utils import compute_distance, compute_destination
+from utils.utils import listen
 from utils.constants import *
 
 
@@ -14,7 +14,7 @@ class ChordProgression:
 
     def __init__(self, type=None, tonic=None, metre=None, mode=None, source=None):
         self.meta = {"source": source, "type": type, "tonic": tonic, "metre": metre, "mode": mode}
-        self._progression = []
+        self.progression = []
         try:
             self.type = type_dict[type]
         except:
@@ -24,58 +24,9 @@ class ChordProgression:
         self.reliability = -1
         self.progression_class = "unknown"
 
-    # chords are stored as Chord Class
-    # switch to root note and output the progression in a easy-read way
-    @property
-    def progression(self):
-        prog = []
-        for bar_chords in self._progression:
-            bar_roots = []
-            for chord in bar_chords:
-                root = chord.root
-                bar_roots.append(compute_distance(tonic=self.meta['tonic'], this=root, mode=self.meta['mode']))
-            prog.append(bar_roots)
-        return prog
-
-    @progression.setter
-    def progression(self, new):
-        if type(new[0][0]) is not int:
-            self._progression = new
-        else:
-            prog = []
-            for bar_roots in new:
-                bar_chords = []
-                for order in bar_roots:
-                    root = compute_destination(tonic=self.meta['tonic'], order=order, mode=self.meta['mode'])
-                    if self.meta['mode'] == 'M':
-                        if order == 1 or order == 4 or order == 5:
-                            attr = [MAJ_TRIAD, -1, -1, -1]
-                        elif order == 2 or order == 3 or order == 6:
-                            attr = [MIN_TRIAD, -1, -1, -1]
-                        elif order == 7:
-                            attr = [DIM_TRIAD, -1, -1, -1]
-                        else:
-                            attr = [-1, -1, -1, -1]
-                    elif self.meta['mode'] == 'm':
-                        if order == 1 or order == 4 or order == 5:
-                            attr = [MIN_TRIAD, -1, -1, -1]
-                        elif order == 3 or order == 6 or order == 7:
-                            attr = [MAJ_TRIAD, -1, -1, -1]
-                        elif order == 2:
-                            attr = [DIM_TRIAD, -1, -1, -1]
-                        else:
-                            attr = [-1, -1, -1, -1]
-                    else:
-                        attr = [-1, -1, -1, -1]
-                    chord = Chord(root=root, attr=attr)
-                    bar_chords.append(chord)
-                prog.append(bar_chords)
-            self._progression = prog
-
-    # TODO
     @staticmethod
     def render_to_chord(order, tonality="C", mode="M") -> Chord:
-        chord = Chord(-1)
+        chord = Chord()
         if order not in [1, 2, 3, 4, 5, 6, 7]:
             raise ValueError
         distance = 0
@@ -179,16 +130,17 @@ class ChordProgression:
             self.type = None
             self.meta['type'] = None
 
-    def set_appeared_time(self, time):
+
+    def set_appeared_time(self,time):
         self.appeared_time = time
 
-    def set_appeared_in_other_songs(self, time):
+    def set_appeared_in_other_songs(self,time):
         self.appeared_in_other_songs = time
 
-    def set_reliability(self, reliability):
+    def set_reliability(self,reliability):
         self.reliability = reliability
 
-    def set_progression_class(self, progression_class):
+    def set_progression_class(self,progression_class):
         self.progression_class = progression_class
 
     def __iter__(self):
@@ -214,9 +166,9 @@ class ChordProgression:
         str_ += "-Source Mode: " + self.__print_accept_none(self.meta["mode"]) + " (M for Major and m for minor)" + "\n"
         str_ += "-Appeared Times: " + self.__print_accept_none(self.appeared_time) + "\n"
         str_ += "-Appeared In Other Songs: " + self.__print_accept_none(self.appeared_in_other_songs) + "\n"
-        str_ += "-Reliability: " + self.__print_accept_none(self.reliability) + "\n"
+        str_ += "-Reliability: " + self.__print_accept_none(self.reliability)  + "\n"
         str_ += "-Progression Class: " + self.__print_accept_none(self.progression_class) + "\n"
-        str_ += "Numbered: " + "\n"
+
         str_ += "| "
         count = 0
         for i in self.progression:
@@ -231,19 +183,6 @@ class ChordProgression:
                     memo = j
             str_ += " | "
             count += 1
-        str_ += "\nChord: \n| "
-        for i in self._progression:
-            if count % 8 == 0 and count != 0:
-                str_ += "\n| "
-            memo = -1
-            for j in i:
-                if str(j) == memo:
-                    str_ += "-"
-                else:
-                    str_ += str(j)
-                    memo = str(j)
-            str_ += " | "
-            count += 1
         return str_ + "\n"
 
     @staticmethod
@@ -251,7 +190,7 @@ class ChordProgression:
         return str(value) if value is not None else 'None'
 
 
-def read_progressions(progression_file='progressions.txt'):
+def read_progressions(progression_file = 'progressions.txt'):
     file = open(STATIC_DIR + progression_file, "r")
     progression_list = []
     progression = ChordProgression()
@@ -285,21 +224,20 @@ def read_progressions(progression_file='progressions.txt'):
             progression.set_reliability(int(line.split(":")[1].strip()))
         if "-Progression Class:" in line:
             progression.set_progression_class(line.split(":")[1].strip())
-
-        # read from chord
-        if "|" in line and not line[2].isdigit():
+        if "|" in line:
             line_split = line.split("|")
             for segment in line_split:
                 if segment.strip() == "" or segment.strip() == "\n":
                     continue
                 bar_chord = []
                 memo = -1
-                segment = segment[1:-1]
                 for char in segment:
+                    if char == " ":
+                        continue
                     if char.isdigit():
                         if type(memo) is str:
-                            bar_chord.append(float(memo + char))
-                            memo = float(memo + char)
+                            bar_chord.append(float(memo+char))
+                            memo = float(memo+char)
                         else:
                             bar_chord.append(int(char))
                             memo = int(char)
@@ -312,9 +250,8 @@ def read_progressions(progression_file='progressions.txt'):
     return progression_list
 
 
-# Abandoned!
-def query_progression(progression_list, source=None, type=None, tonic=None, mode=None, metre=None, times=None,
-                      other_times=None, reliability=None):
+# TODO
+def query_progression(progression_list, source=None, type=None, tonic=None, mode=None, metre=None,times=None,other_times=None,reliability=None):
     if source:
         new_progression_list = []
         for prgression in progression_list:
@@ -374,13 +311,13 @@ def print_progression_list(progression_list: List[ChordProgression], limit=None)
         count += 1
         if count == limit:
             break
-    print("Total: ", len(progression_list), "\n")
+    print("Total: ",len(progression_list),"\n")
 
 
 if __name__ == '__main__':
-    cp = ChordProgression(type="", metre="", mode="M", tonic="D", source="")
+    cp = ChordProgression(type="", metre="", mode="", tonic="", source="")
     cp.progression = [[1, 1, 1, 1, 4, 4, 4, 4], [1, 1, 1, 1, 4, 4, 4, 4], [1, 1, 1, 1, 4, 4, 4, 4],
                       [1, 1, 1, 1, 4, 4, 4, 4], ]
-
     print(cp)
-    # listen(cp.to_midi(tempo=70, tonic="A", mode="M", instrument=SHAKUHACHI))
+    listen(cp.to_midi(tempo=70, tonic="A", mode="M", instrument=SHAKUHACHI))
+

@@ -27,7 +27,6 @@ DOM_SEVENTH = 6
 HALF_DIM_SEVENTH = 7
 FULLY_DIM_SEVENTH = 8
 
-
 # inversions
 T6 = 0
 T64 = 1
@@ -45,12 +44,6 @@ ADD9 = 1
 ADD69 = 2
 ADD11 = 3
 ADD13 = 4
-ADD911 = 5
-ADD913 = 6
-ADD1113 = 7
-ADD91113 = 8
-ADDb7 = 9
-
 
 # ############
 # Progressions
