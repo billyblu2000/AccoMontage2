@@ -57,3 +57,5 @@ POPULAR_CHORDS = [
     ('min7/b7', [MIN_SEVENTH, -1, -1, -1]),
     ('sus4(b7,9)', [DOM_SEVENTH, -1, SUS4, ADD9])
 ]
+
+# 我来了
