@@ -79,3 +79,39 @@ CHORD_HIERARCHY = {
     4: ['5', 'maj/3', 'min/b3', 'maj/5', 'min/5',
         '7/3', '7/5', 'min7/5', 'maj/7', 'maj/b7', 'min/b7', 'min7/b7']
 }
+
+X = 100
+
+
+# CHORDS_ANALYSIS_1 is the most brutal way to analysis chords, it only considers if the chord is major or minor
+CHORDS_ANALYSIS_1 = {
+    MAJ_TRIAD: ['maj', 'maj7', '7','maj9', '9',  '11',
+                '7(b9)', '7(#9)', '13', 'maj/9', 'maj(9)', 'maj6', 'maj/11', 'maj6(9)',
+                'maj/3', 'maj/5', '7/3', '7/5', 'maj/7', 'maj/b7'],
+    MIN_TRIAD: ['min', 'min7', 'min9', 'min11', 'min6', 'min/11', 'min/b3', 'min/5', 'min7/5', 'min/b7', 'min7/b7'],
+    X: [ 'sus4', 'sus2', 'dim', 'sus4(b7)', '5(b7)', 'sus4(b7,9)', 'aug(b7)']
+}
+
+
+# CHORDS_ANALYSIS_2 is a more careful but still direct approach, it only considers the base chord of the given chord
+CHORDS_ANALYSIS_2 = {
+    MAJ_TRIAD: ['maj', 'maj/9', 'maj(9)', 'maj6', 'maj/11', 'maj6(9)', 'maj/3', 'maj/5'],
+    MIN_TRIAD: ['min', 'min6', 'min/11', 'min/b3', 'min/5'],
+    MAJ_SEVENTH: ['maj7', 'maj/7', 'maj9'],
+    DOM_SEVENTH: ['7', '9',  '11', '7(b9)', '7(#9)', '13', '7/3', '7/5', 'maj/b7'],
+    MIN_SEVENTH: ['min7', 'min9', 'min11', 'min7/5', 'min/b7', 'min7/b7'],
+    X: ['sus4', 'sus2', 'dim', 'sus4(b7)', '5(b7)', 'sus4(b7,9)', 'aug(b7)']
+}
+
+
+# CHORDS_ANALYSIS_3 is a bit subjective, it considers the tonal function of the chord,
+# such as maj69 functions as maj7, so I put maj67 in the MAJ_SEVENTH class
+# This analysis needs more work (on how the chord sounds)
+CHORDS_ANALYSIS_3 = {
+    MAJ_TRIAD: ['maj', 'maj/9', 'maj(9)', 'maj/11', 'maj/3', 'maj/5', 'sus4'],
+    MIN_TRIAD: ['min', 'min6', 'min/11', 'min/b3', 'min/5'],
+    MAJ_SEVENTH: ['maj7', 'maj/7', 'maj9', 'maj6', 'maj6(9)'],
+    DOM_SEVENTH: ['7', '9',  '11', '7(b9)', '7(#9)', '13', '7/3', '7/5', 'maj/b7', 'sus4(b7,9)', '5(b7)'],
+    MIN_SEVENTH: ['min7', 'min9', 'min11', 'min7/5', 'min/b7', 'min7/b7'],
+    X: ['sus2', 'dim', 'sus4(b7)', 'aug(b7)']
+}
