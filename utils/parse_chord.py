@@ -58,4 +58,24 @@ POPULAR_CHORDS = [
     ('sus4(b7,9)', [DOM_SEVENTH, -1, SUS4, ADD9])
 ]
 
-# 我来了
+# 0: roots
+# 1: triads (two options from here, a. mark sus2, sus4, dim as X (unknown); b. record them separately)
+# 2: sevenths
+# 3: extensions (all the 9, 11, 13, 6, potentially subdivide even further by its base chords)
+# 4: inversions (basic idea is to first remove all the annotations that have little influences on tonality
+#                a. potentially subdivide even more as follows:
+#                4.1 triads, 4.1.1: first inversion, 4.1.2: second inversion,
+#                4.2 sevenths, 4.2.1 first inversion, 4.2.2: second inversion, 4.2.3: third inversion;
+#                b. remove octaves if recorded;
+#                c. include power chord also in this hierarchy since it does not change tonality)
+# 5: original
+
+CHORD_HIERARCHY = {
+    0: ['1'],
+    1: ['maj', 'min',  'sus4', 'sus2', 'dim'],
+    2: ['maj7', '7', 'min7', 'sus4(b7)', '5(b7)'],
+    3: ['maj9', '9',  '11', '7(b9)', '7(#9)', '13', 'maj/9', 'maj(9)', 'maj6', 'maj/11', 'maj6(9)',
+        'min9', 'min11', 'min6', 'min/11', 'sus4(b7,9)', 'aug(b7)'],
+    4: ['5', 'maj/3', 'min/b3', 'maj/5', 'min/5',
+        '7/3', '7/5', 'min7/5', 'maj/7', 'maj/b7', 'min/b7', 'min7/b7']
+}
