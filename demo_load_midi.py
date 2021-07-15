@@ -6,7 +6,7 @@ if __name__ == '__main__':
     # ##########
     # load midis
     # ##########
-
+    print('Demo of MIDILoader (load from midi folder)\n-------------------------------')
     my_midis = MIDILoader()  # load every midi files in the midi folder
     # alternatives
     # midi = MIDILoader(files = '*') # also load every midi files in the midi folder
@@ -45,3 +45,10 @@ if __name__ == '__main__':
 
     midi_object_of_a_specific_midi = my_midis.get(name='6.mid')
     print("Return a MIDI object': ", midi_object_of_a_specific_midi)
+
+    print('\n\nDemo of MIDILoader (load from pop909)\n-------------------------------')
+
+    pop909_loader = MIDILoader(files='POP909')
+    pop909_loader.config(output_form='number')
+    print("Show melo with name 00101_i4: ", pop909_loader.get(name='00101_i4'))
+    print("Pick out melo with special constraints: ", pop909_loader.get(metre='4/4', length=64, mode='min'))
