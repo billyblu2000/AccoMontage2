@@ -100,9 +100,9 @@ if __name__ == '__main__':
             new.append((midi[0], midi[1], midi[2], midi[3], midi[4], note_list))
         roll_list = new
 
-        data['midi'] += midi_list
+        # data['midi'] += midi_list
         data['melo'] += melo_list
         data['roll'] += roll_list
 
-    file = open('../../resource/phrase_split_data/melodies.pk', 'bw')
+    file = open('melodies.pk', 'bw')
     pickle.dump(data, file, 1)
