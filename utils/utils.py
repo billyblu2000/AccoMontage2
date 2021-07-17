@@ -1,9 +1,10 @@
+import pickle
 import random
 import time
 
 from pretty_midi import *
-from utils.structured import str_to_root
-from utils.string import STATIC_DIR
+from utils.structured import str_to_root, root_to_str
+from utils.string import STATIC_DIR, RESOURCE_DIR
 from utils.constants import *
 
 # this module will enable the program to listen to progressions immediately
@@ -294,7 +295,6 @@ class MIDILoader:
             'output_form': 'pitch'
         }
         self.load_midis(files)
-        self.process()
 
     def config(self, output_form='pitch'):
         if output_form not in ['pitch', 'number', 'midi']:
@@ -310,34 +310,74 @@ class MIDILoader:
             return self.roll
 
     def load_midis(self, files):
-        try:
-            if files == '*':
-                files = os.listdir(self.midi_dir)
-                for file in files:
-                    if file[-4:] == '.mid':
-                        midi = PrettyMIDI(os.path.join(self.midi_dir, file))
+        if files == 'POP909':
+            print("Loading melodies, please wait for a few seconds...")
+            data = pickle.load(open(RESOURCE_DIR + 'phrase_split_data/melodies.pk', 'rb'))
+            print("Done.")
+            self.midis = data['midi']
+            self.transformed = data['melo']
+            self.roll = data['roll']
+        else:
+            try:
+                if files == '*':
+                    files = os.listdir(self.midi_dir)
+                    for file in files:
+                        if file[-4:] == '.mid':
+                            midi = PrettyMIDI(os.path.join(self.midi_dir, file))
+                            try:
+                                key_number = midi.key_signature_changes[0].key_number
+                                if key_number >= 12:
+                                    tonic = root_to_str[key_number - 12]
+                                    mode = 'min'
+                                else:
+                                    tonic = root_to_str[key_number]
+                                    mode = 'maj'
+                            except:
+                                tonic = 'C'
+                                mode = 'maj'
+                            self.midis.append((file, tonic, -1, mode, -1, midi))
+                elif type(files) is list:
+                    for file_name in files:
+                        if file_name[-4:] == '.mid':
+                            midi = PrettyMIDI(os.path.join(self.midi_dir, file_name))
+                            try:
+                                key_number = midi.key_signature_changes[0].key_number
+                                if key_number >= 12:
+                                    tonic = root_to_str[key_number - 12]
+                                    mode = 'min'
+                                else:
+                                    tonic = root_to_str[key_number]
+                                    mode = 'maj'
+                            except:
+                                tonic = 'C'
+                                mode = 'maj'
+                            self.midis.append((file_name, tonic, -1, mode, -1, midi))
+                elif type(files) is str:
+                    midi = PrettyMIDI(os.path.join(self.midi_dir, files))
+                    try:
+                        key_number = midi.key_signature_changes[0].key_number
+                        if key_number >= 12:
+                            tonic = root_to_str[key_number - 12]
+                            mode = 'min'
+                        else:
+                            tonic = root_to_str[key_number]
+                            mode = 'maj'
+                    except:
                         tonic = 'C'
-                        self.midis.append((file, tonic, midi))
-            elif type(files) is list:
-                for file_name in files:
-                    if file_name[-4:] == '.mid':
-                        midi = PrettyMIDI(os.path.join(self.midi_dir, file_name))
-                        tonic = 'C'
-                        self.midis.append((file_name, tonic, midi))
-            elif type(files) is str:
-                midi = PrettyMIDI(os.path.join(self.midi_dir, files))
-                tonic = 'C'
-                self.midis.append((files, tonic, midi))
-            else:
-                raise ValueError("argument 'files' must be '*' or file name or list of file names")
-        except Exception as e:
-            raise Exception('An error occored when loading midis')
+                        mode = 'maj'
+                    self.midis.append((files, tonic, -1, mode, -1, midi))
+                else:
+                    raise ValueError("argument 'files' must be '*' or file name or list of file names")
+                self.midi_to_pitch()
+                self.pitch_to_number()
+            except Exception as e:
+                raise Exception('An error occored when loading midis')
 
-    def process(self):
+    def midi_to_pitch(self):
         new = []
         for midi in self.midis:
-            ins = midi[2].instruments[0]
-            tempo = midi[2].get_tempo_changes()[1][0]
+            ins = midi[5].instruments[0]
+            tempo = midi[5].get_tempo_changes()[1][0]
             note_list = np.zeros(10240, dtype=int)
             very_end = 0
             for note in ins.notes:
@@ -348,9 +388,10 @@ class MIDILoader:
                     note_list[i] = int(note.pitch)
             note_list = note_list[:very_end]
             note_list = list(note_list)
-            new.append((midi[0], midi[1], note_list))
+            new.append((midi[0], midi[1], midi[2], midi[3], midi[4], note_list))
         self.transformed = new
 
+    def pitch_to_number(self):
         new = []
         major_map = {
             0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7
@@ -361,13 +402,13 @@ class MIDILoader:
         for midi in self.transformed:
             tonic_index = str_to_root[midi[1]]
             note_list = []
-            map = major_map
-            for pitch in midi[2]:
+            map = major_map if midi[3] == 'maj' else minor_map
+            for pitch in midi[5]:
                 if pitch == 0:
                     note_list.append(0)
                 else:
                     note_list.append(map[(pitch - tonic_index) % 12])
-            new.append((midi[0],midi[1],note_list))
+            new.append((midi[0], midi[1], midi[2], midi[3], midi[4], note_list))
         self.roll = new
 
     @staticmethod
@@ -380,28 +421,39 @@ class MIDILoader:
     def all(self):
         return self.sample(num=len(self.midis))
 
-    def get(self, name='*'):
+    def get(self, name='*', metre='*', mode='*', length='*', pos='*'):
         if name == "*":
-            return self.sample()
+            if metre == mode == length == pos == '*':
+                return self.sample()
+            else:
+                midis = self.__get_data()
+                picked_midis = []
+                for i in range(len(midis)):
+                    if (midis[i][2] == metre or metre == '*') and \
+                            (midis[i][3] == mode or mode == '*') and \
+                            (len(midis[i][5]) == length or length == '*') and \
+                            (midis[i][4] == pos or pos == '*'):
+                        picked_midis.append(midis[i][5])
+                return picked_midis
         elif type(name) is list:
             midis = self.__get_data()
             picked_midis = []
             for i in range(len(midis)):
                 if midis[i][0] in name:
-                    picked_midis.append(midis[i][2])
+                    picked_midis.append(midis[i][5])
             return picked_midis
         elif type(name) is str:
             midis = self.__get_data()
             for i in range(len(midis)):
                 if midis[i][0] == name:
-                    return midis[i][2]
+                    return midis[i][5]
         else:
             raise ValueError("name")
 
     def sample(self, num=1):
         midis = self.__get_data()
         sampled = random.sample(midis, k=num)
-        sampled = [i[2] for i in sampled]
+        sampled = [i[5] for i in sampled]
         if num == 1:
             sampled = sampled[0]
         return sampled
