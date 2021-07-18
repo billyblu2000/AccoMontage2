@@ -80,8 +80,6 @@ CHORD_HIERARCHY = {
         '7/3', '7/5', 'min7/5', 'maj/7', 'maj/b7', 'min/b7', 'min7/b7']
 }
 
-X = 100
-
 
 # CHORDS_ANALYSIS_1 is the most brutal way to analysis chords, it only considers if the chord is major or minor
 CHORDS_ANALYSIS_1 = {
