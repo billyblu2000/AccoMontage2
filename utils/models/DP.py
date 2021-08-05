@@ -1,5 +1,6 @@
 import difflib
 
+from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
 from typing import List
 
@@ -7,20 +8,21 @@ from typing import List
 # core DP algorithm
 class DP:
 
-    def __init__(self, melo: list, melo_meta: dict, templates: List[list]):
+    def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression]):
         self.melo = melo
         self.melo_meta = melo_meta
         self.templates = templates
         self.template_span = self.__span_template()
         self.solved = False
+        self.result = []
         self.solve()
 
-    def solve(self) -> list:
+    def solve(self):
         pass
         self.solved = True
         pass
 
-    def __span_template(self) -> List[list]:
+    def __span_template(self) -> List[List[List[Chord], float]]:
         pass
 
     def __match_template(self, progression: list) -> int:
@@ -45,24 +47,11 @@ class DP:
             chord_score = {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1}
         return chord_score
 
-    def get_progression(self) -> List[list]:
+    def get_progression(self) -> ChordProgression:
         if self.solved:
             pass
         else:
             raise Exception("Please call the solve method first!")
-
-
-# Adapter: DP <--> ChordProgression
-class MyDPModel(DP):
-
-    def __init__(self, melo: list, melo_meta: dict, templates: list):
-        # TODO: add adapter
-        pass
-        super().__init__(melo, melo_meta, templates)
-
-    def get_progression(self):
-        # TODO: add adapter
-        pass
 
 
 if __name__ == '__main__':
