@@ -23,6 +23,10 @@ class Chord:
             midi_pitch.append(root_pitch + i)
         return midi_pitch
 
+    def to_number(self, tonic) -> float:
+        # TODO
+        pass
+
     # TODO
     def analyze_name(self, name):
         try:
