@@ -3,11 +3,9 @@ import difflib
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
 from typing import List, Union
-
-# core DP algorithm
 from utils import constants
 
-
+# core DP algorithm
 class DP:
     _dp: List[List[Union[float, List[Chord]]]]
     result: List[Chord]
