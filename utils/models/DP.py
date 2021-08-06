@@ -5,9 +5,10 @@ from chords.ChordProgression import ChordProgression
 from typing import List, Union
 from utils import constants
 
+
 # core DP algorithm
 class DP:
-    _dp: List[List[Union[float, List[Chord]]]]
+    _dp:  List[List[Union[float, list]]]
     result: List[Chord]
 
     def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression], melody_attention_level=0.5):
@@ -79,7 +80,7 @@ class DP:
         return chord_list
 
     # util func to span template
-    def __span_template(self) -> List[List[List[Chord], float]]:
+    def __span_template(self) -> List[List[Union[List[Chord], float]]]:
         pass
 
     # '中观', called in self.__select_max_candidate
