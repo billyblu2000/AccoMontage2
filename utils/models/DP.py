@@ -4,6 +4,7 @@ from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
 from typing import List, Union
 from utils import constants
+from utils.dictionary import major_map_backward, minor_map_backward
 
 
 # core DP algorithm
@@ -26,9 +27,10 @@ class DP:
         self.melody_attention_level = melody_attention_level
         self.popular_pattern_trust_level = popular_pattern_trust_level
 
-        # preprocess attributes, span template
+        # preprocess attributes
         self._template_span = self.__span_template()  # span template
         self._max_template_length = max([len(i) for i in self._template_span])
+        self._pattern_socre = self.__analyze_pattern()  # analyze template pattern
 
     def solve(self):
 
@@ -68,29 +70,78 @@ class DP:
     # util func, provide all available chords, the spare parts
     def __get_all_available_chords(self) -> List[Chord]:
         # TODO: This is only a toy implementation
-        chord_list = []
-        for i in ['C', 'D', 'E', 'F', 'G', 'A', 'B']:
-            chord = Chord()
-            chord.root = i
-            if i in ['C', 'F', 'G']:
-                chord.type = constants.MAJ_TRIAD
-            elif i in ['D', 'E', 'A']:
-                chord.type = constants.MIN_TRIAD
-            else:
-                chord.type = constants.DIM_TRIAD
-            chord_list.append(chord)
+        # chord_list = []
+        # for i in ['C', 'D', 'E', 'F', 'G', 'A', 'B']:
+        #     chord = Chord()
+        #     chord.root = i
+        #     if i in ['C', 'F', 'G']:
+        #         chord.type = constants.MAJ_TRIAD
+        #     elif i in ['D', 'E', 'A']:
+        #         chord.type = constants.MIN_TRIAD
+        #     else:
+        #         chord.type = constants.DIM_TRIAD
+        #     chord_list.append(chord)
+        chord_list = [1,2,3,4,5,6,7]
         return chord_list
 
     # util func to span template
     def __span_template(self) -> List[List[Union[List[Chord], float]]]:
-        pass
+        return [
+            [[4, 4, 4, 4, 5, 5, 5, 5, ], 0],
+            [[3, 3, 3, 3, 6, 6, 6, 6, ], 0],
+            [[1, 1, 1, 1, 1, 1, 1, 1, ], 0],
+            [[4, 4, 4, 4, 5, 5, 5, 5, 3, 3, 3, 3, 6, 6, 6, 6, ], 0],
+            [[4, 4, 4, 4, 5, 5, 5, 5, 3, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 4, 5, 5, 5, 5, ], 0],
+            [[3, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 4, 5, 5, 5, 5, ], 0],
+            [[3, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 4, 5, 5, 5, 5, 1, 1, 1, 1, ], 0],
+            [[4, 4, 4, 4, 5, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, ], 0],
+            [[2, 2, 2, 2, 5, 5, 5, 5, 1, 1, 1, 1, ], 0],
+            [[4, 4, 4, 4, 5, 5, 5, 5, ], 0],
+        ]
 
     # '中观', called in self.__select_max_candidate
     def __match_progression_and_template_span(self, progression: list) -> float:
         if len(progression) == 1:
             return 1
         else:
-            pass
+
+            max_score = 0.0
+            pattern_socre = self._pattern_socre[len(progression)]
+            for item in pattern_socre.items():
+                sim_socre = difflib.SequenceMatcher(None, item[0], progression).ratio()
+                trust_score = item[1]
+                score = self.popular_pattern_trust_level * trust_score \
+                        + (1 - self.popular_pattern_trust_level) * sim_socre
+                if score >= max_score:
+                    max_score = score
+
+            return max_score
+
+    def __analyze_pattern(self):
+        all_patterns = {0: {}, 1: {}, }
+        for i in range(2, len(self.melo) // 2 + 1):
+
+            length = i
+            count_pattern = {}
+            # count pattern
+            for cp in self.templates:
+                prog = [j for j in cp]
+                cursor = 0
+                while cursor + length < len(prog):
+                    pattern = tuple(prog[cursor:cursor + length])
+                    if pattern in count_pattern.keys():
+                        count_pattern[pattern] += 1
+                    else:
+                        count_pattern[pattern] = 1
+                    cursor += 1
+            # normalize
+            max_appears = max(count_pattern.values())
+            for key in count_pattern.keys():
+                count_pattern[key] /= max_appears
+
+            all_patterns[i] = count_pattern
+
+        return all_patterns
 
     # max candidate
     def __select_max_candidate(self, candidate_pool: List[List[Chord]], melody: List) \
@@ -108,9 +159,8 @@ class DP:
 
     # '微观', called in self.__select_max_candidate
     @staticmethod
-    def __match_melody_and_chord(melody_list: list, chord_list: list) -> float:
+    def __match_melody_and_chord(melody_list: list, chord_list: list, mode='M') -> float:
         # TODO: This is only a toy implementation
-
         musical_knowledge = [  # row: chord; col: melody
             [1, 0.1, 0.4, 0.15, 0.75, 0.7, 0.1, 0.9, 0.1, 0.7, 0.15, 0.2],
             [0.4, 0.1, 1, 0.1, 0.4, 0.75, 0.4, 0.5, 0.1, 0.9, 0.15, 0.4],
@@ -123,10 +173,14 @@ class DP:
 
         total_score = 0.0
         for i in range(len(chord_list)):
+            # this_chord = chord_list[i].to_number(tonic='C')
             this_chord = chord_list[i]
-            this_note = [melody_list[i * 2], melody_list[i * 2 + 1]]
-            total_score += musical_knowledge[this_chord.to_number(tonic='C') + 1][this_note[0]]
-            total_score += musical_knowledge[this_chord.to_number(tonic='C') + 1][this_note[1]]
+            if mode == 'M':
+                this_note = [major_map_backward[melody_list[i * 2]], major_map_backward[melody_list[i * 2 + 1]]]
+            else:
+                this_note = [minor_map_backward[melody_list[i * 2]], minor_map_backward[melody_list[i * 2 + 1]]]
+            total_score += musical_knowledge[int(this_chord) - 1][this_note[0]]
+            total_score += musical_knowledge[int(this_chord) - 1][this_note[1]]
 
         return total_score / len(melody_list)
 
@@ -137,8 +191,19 @@ class DP:
         else:
             raise Exception("Please call the solve method first!")
 
+    def test(self):
+        pass
+
 
 if __name__ == '__main__':
-    # dp = DP()
-    # dp.solve()
-    print([1] in [1, 2])
+    melo = [4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+    template_1 = [[2, 2, 2, 2, 5, 5, 5, 5], [1, 1, 1, 1, 1, 1, 1, 1]]
+    template_2 = [[4, 4, 4, 4, 5, 5, 5, 5, ], [3, 3, 3, 3, 6, 6, 6, 6, ], [4, 4, 4, 4, 5, 5, 5, 5, ],
+                  [1, 1, 1, 1, 1, 1, 1, 1, ]]
+    cp_1 = ChordProgression()
+    cp_1.progression = template_1
+    cp_2 = ChordProgression()
+    cp_2.progression = template_2
+    dp = DP(melo=melo, melo_meta={}, templates=[cp_1, cp_2])
+    dp.solve()
+    print(dp.result)

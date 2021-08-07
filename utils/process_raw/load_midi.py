@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 from pretty_midi import PrettyMIDI
 
-from utils.dictionary import root_to_str, str_to_root
+from utils.dictionary import root_to_str, str_to_root, major_map, minor_map
 from utils.string import RESOURCE_DIR
 
 if __name__ == '__main__':
@@ -82,12 +82,6 @@ if __name__ == '__main__':
         melo_list, midi_list = new_melo_list, new_midi_list
 
         new = []
-        major_map = {
-            0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7
-        }
-        minor_map = {
-            0: 1, 1: 1.5, 2: 2, 3: 3, 4: 3.5, 5: 4, 6: 4.5, 7: 5, 8: 6, 9: 6.5, 10: 7, 11: 7.5
-        }
         for midi in melo_list:
             tonic_index = str_to_root[midi[1]]
             note_list = []

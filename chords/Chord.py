@@ -1,5 +1,5 @@
 from utils.constants import *
-from utils.dictionary import str_to_root, chord_type_to_pitch_relation, root_to_pitch_low
+from utils.dictionary import str_to_root, chord_type_to_pitch_relation, root_to_pitch_low, major_map, minor_map
 from utils.utils import listen_pitches
 
 
@@ -23,9 +23,14 @@ class Chord:
             midi_pitch.append(root_pitch + i)
         return midi_pitch
 
-    def to_number(self, tonic) -> float:
+    def to_number(self, tonic, mode= 'M') -> float:
         # TODO
-        pass
+        number = str_to_root[self.root] - str_to_root[tonic]
+        if number < 0:
+            number += 12
+        map = major_map if mode == 'M' else minor_map
+        print(tonic,self.root,map[number])
+        return map[number]
 
     # TODO
     def analyze_name(self, name):
