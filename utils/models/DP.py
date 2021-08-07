@@ -8,10 +8,11 @@ from utils import constants
 
 # core DP algorithm
 class DP:
-    _dp:  List[List[Union[float, list]]]
+    _dp: List[List[Union[float, list]]]
     result: List[Chord]
 
-    def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression], melody_attention_level=0.5):
+    def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression],
+                 melody_attention_level=0.5, popular_pattern_trust_level=0.5):
 
         # init attributes
         self.melo = melo
@@ -23,6 +24,7 @@ class DP:
 
         # init parameters
         self.melody_attention_level = melody_attention_level
+        self.popular_pattern_trust_level = popular_pattern_trust_level
 
         # preprocess attributes, span template
         self._template_span = self.__span_template()  # span template
@@ -85,7 +87,10 @@ class DP:
 
     # '中观', called in self.__select_max_candidate
     def __match_progression_and_template_span(self, progression: list) -> float:
-        pass
+        if len(progression) == 1:
+            return 1
+        else:
+            pass
 
     # max candidate
     def __select_max_candidate(self, candidate_pool: List[List[Chord]], melody: List) \
@@ -104,10 +109,24 @@ class DP:
     # '微观', called in self.__select_max_candidate
     @staticmethod
     def __match_melody_and_chord(melody_list: list, chord_list: list) -> float:
+        # TODO: This is only a toy implementation
+
+        musical_knowledge = [  # row: chord; col: melody
+            [1, 0.1, 0.4, 0.15, 0.75, 0.7, 0.1, 0.9, 0.1, 0.7, 0.15, 0.2],
+            [0.4, 0.1, 1, 0.1, 0.4, 0.75, 0.4, 0.5, 0.1, 0.9, 0.15, 0.4],
+            [0.5, 0.1, 0.4, 0.15, 1, 0.3, 0.2, 0.75, 0.2, 0.6, 0.15, 0.9],
+            [0.9, 0.1, 0.6, 0.2, 0.5, 1, 0.1, 0.4, 0.4, 0.75, 0.2, 0.2],
+            [0.5, 0.1, 0.9, 0.1, 0.5, 0.5, 0.1, 1, 0.1, 0.5, 0.15, 0.75],
+            [0.75, 0.1, 0.6, 0.15, 0.9, 0.5, 0.1, 0.4, 0.1, 1, 0.15, 0.4],
+            [0.4, 0.1, 0.8, 0.15, 0.6, 0.8, 0.1, 0.6, 0.1, 0.4, 0.15, 1],
+        ]
+
         total_score = 0.0
         for i in range(len(chord_list)):
             this_chord = chord_list[i]
-            this_note = [melody_list[i*2], melody_list[i*2+1]]
+            this_note = [melody_list[i * 2], melody_list[i * 2 + 1]]
+            total_score += musical_knowledge[this_chord.to_number(tonic='C') + 1][this_note[0]]
+            total_score += musical_knowledge[this_chord.to_number(tonic='C') + 1][this_note[1]]
 
         return total_score / len(melody_list)
 
