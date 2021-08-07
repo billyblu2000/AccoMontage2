@@ -104,7 +104,12 @@ class DP:
     # '微观', called in self.__select_max_candidate
     @staticmethod
     def __match_melody_and_chord(melody_list: list, chord_list: list) -> float:
-        pass
+        total_score = 0.0
+        for i in range(len(chord_list)):
+            this_chord = chord_list[i]
+            this_note = [melody_list[i*2], melody_list[i*2+1]]
+
+        return total_score / len(melody_list)
 
     # output final result
     def get_progression(self) -> ChordProgression:
