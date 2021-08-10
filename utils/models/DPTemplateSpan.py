@@ -8,7 +8,7 @@ from utils.dictionary import major_map_backward, minor_map_backward
 
 
 # core DP algorithm
-class DP:
+class DPTemplateSpan:
     _dp: List[List[Union[float, list]]]
     result: List[Chord]
 
@@ -204,6 +204,6 @@ if __name__ == '__main__':
     cp_1.progression = template_1
     cp_2 = ChordProgression()
     cp_2.progression = template_2
-    dp = DP(melo=melo, melo_meta={}, templates=[cp_1, cp_2])
+    dp = DPTemplateSpan(melo=melo, melo_meta={}, templates=[cp_1, cp_2])
     dp.solve()
     print(dp.result)
