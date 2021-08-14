@@ -41,11 +41,14 @@ class ChordProgression:
     def progression(self, new):
         if type(new[0][0]) is not int:
             self._progression = new
+        # not recommended to assign numbers to _progression
         else:
             prog = []
             for bar_roots in new:
                 bar_chords = []
                 for order in bar_roots:
+                    if not self.meta['tonic']:
+                        raise Exception('cannot convert numbers to chords before tonic assigned')
                     root = compute_destination(tonic=self.meta['tonic'], order=order, mode=self.meta['mode'])
                     if self.meta['mode'] == 'M':
                         if order == 1 or order == 4 or order == 5:
