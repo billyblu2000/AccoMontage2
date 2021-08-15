@@ -1,10 +1,14 @@
 import os
 
+from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
+from utils.parse_chord import CHORDS_ANALYSIS_2
 from utils.string import RESOURCE_DIR, STATIC_DIR
 from utils.process_raw.ProcessDataUtils import type_dict, root_map_major, root_map_minor
 
 song_name = []
+tmp_dict = {}
+chord_analysis = CHORDS_ANALYSIS_2
 
 
 def process_line(line):
@@ -59,6 +63,8 @@ def process_line(line):
         # print(result)
         return result
     except Exception as e:
+        print(e)
+        print("An error occurred when processing lines: ", e)
         return None
 
 
@@ -150,7 +156,7 @@ def process_file(file, source=None):
 
                 if root_in_major == len(all_chords_list):
                     new_mode = "M"
-                if root_in_major < len(all_chords_list) and root_in_minor == len(all_chords_list):
+                elif root_in_major < len(all_chords_list) and root_in_minor == len(all_chords_list):
                     new_mode = "m"
                 else:
                     new_mode = "M"
@@ -168,20 +174,26 @@ def process_file(file, source=None):
                     chord_length = int(len(bar_chord) / len(bar_chord_list))
                     for k in range(len(bar_chord_list)):
                         if bar_chord_list[k] == "N" or bar_chord_list[k] == "*" or bar_chord_list[k] == "&pause":
-                            chord_order = 0
+                            my_chord = Chord(root=-1, attr=[-1, -1, -1, -1])
                         else:
-                            if mode == "M" or mode is None:
-                                chord_order = root_map_major(bar_chord_list[k].split(":")[0], tonic)
+                            chord_root = bar_chord_list[k].split(":")[0]
+                            chord_type = bar_chord_list[k].split(":")[1]
+                            for item in chord_analysis.items():
+                                if chord_type in item[1]:
+                                    type_num = item[0]
+                                    break
                             else:
-                                chord_order = root_map_minor(bar_chord_list[k].split(":")[0], tonic)
-                        bar_chord[chord_length * k:chord_length * (k + 1)] = [chord_order] * chord_length
+                                type_num = -1
+                            my_chord = Chord(root=chord_root, attr=[type_num, -1, -1, -1])
+
+                        bar_chord[chord_length * k:chord_length * (k + 1)] = [my_chord] * chord_length
                     if progression is not None:
-                        progression.progression.append(bar_chord)
+                        progression.progression = progression._progression + [bar_chord]
 
         return prog_list
 
     except Exception as e:
-        # print("An error occurred when processing files: ", e)
+        print("An error occurred when processing files: ", e)
         return []
 
 
@@ -205,53 +217,42 @@ def process_data():
             prog_list += single_progression_list
             file.close()
             total_num += 1
+
     print("{s} succeeded, {e} failed.".format(s=total_num - error_num, e=error_num))
 
     # delete duplicates
     new_prog_list = []
     for progression in prog_list:
-        if progression.progression not in [p.progression for p in new_prog_list]:
+        if progression._progression not in [p._progression for p in new_prog_list]:
             new_prog_list.append(progression)
         else:
             for i in new_prog_list:
-                if i.progression == progression.progression:
+                if i._progression == progression._progression:
                     i.appeared_time += 1
                     if i.meta["source"] != progression.meta["source"]:
                         i.appeared_in_other_songs += 1
                     break
     prog_list = new_prog_list
+    print(1)
 
-    temp = set()
-    for i in prog_list:
-        flag = True
-        str_ = ""
-        memo = -1
-        for j in i:
-            if type(j) is not int:
-                flag = False
-                break
-            if j == memo:
-                pass
-            else:
-                str_ += str(j)
-                memo = j
-        if flag:
-            temp.add(str_)
-    print(temp)
-
-
+    print(1)
     for progression in prog_list[:]:
         for i in progression:
-            if i != 0 and i != 1:
+            if i.root != -1:
                 break
         else:
             for i in prog_list:
-                if i.progression == progression.progression:
+                if i._progression == progression._progression:
                     prog_list.remove(i)
-
+    print(1)
     # save progressions
-    progression_file = open(STATIC_DIR + "progressions.txt", "w")
+    progression_file = open(STATIC_DIR + "progressions_with_type.txt", "w")
     for progression in prog_list:
         progression_file.write(str(progression) + "\n")
     progression_file.close()
     print("progressions:", len(prog_list))
+    print(1)
+
+
+if __name__ == '__main__':
+    process_data()
