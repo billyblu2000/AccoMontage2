@@ -64,27 +64,29 @@ class Chord:
             midi_pitch.append(root_pitch + i)
         return midi_pitch
 
+    def __eq__(self,other):
+        if not isinstance(other, Chord):
+            return False
+        if self.root == other.root \
+                and self.type == other.type \
+                and self.add == other.add \
+                and self.inversion == other.inversion:
+            return True
+        else:
+            return False
+
     # TODO
     def __str__(self):
+        if self.root == -1:
+            return '???'
+
         str_ = self.root
-        if self.type == MAJ_TRIAD:
-            str_ += ''
-        elif self.type == MIN_TRIAD:
-            str_ += 'm'
-        elif self.type == AUG_TRIAD:
-            str_ += 'aug'
-        elif self.type == DIM_TRIAD:
-            str_ += 'dim'
-        elif self.type == MAJ_SEVENTH:
-            str_ += 'maj7'
-        elif self.type == MIN_SEVENTH:
-            str_ += 'm7'
-        elif self.type == DOM_SEVENTH:
-            str_ += '7'
-        elif self.type == HALF_DIM_SEVENTH:
-            str_ += 'm7-5'
-        elif self.type == FULLY_DIM_SEVENTH:
-            str_ += 'dim7'
+        if len(str_) == 1:
+            str_ += ' '
+        if self.type != -1:
+            str_ += str(self.type)
+        else:
+            str_ += '?'
 
         return str_
 
