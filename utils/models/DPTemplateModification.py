@@ -2,7 +2,7 @@ from typing import List, Any, Union
 
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
-from utils.dictionary import major_map_backward, minor_map_backward
+from utils.structured import major_map_backward, minor_map_backward
 
 
 class DPTemplateModification:

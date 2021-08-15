@@ -4,7 +4,7 @@ from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
 from typing import List, Union
 from utils import constants
-from utils.dictionary import major_map_backward, minor_map_backward
+from utils.structured import major_map_backward, minor_map_backward
 
 
 # core DP algorithm

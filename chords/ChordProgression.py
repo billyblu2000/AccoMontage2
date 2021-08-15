@@ -4,7 +4,7 @@ from pretty_midi import PrettyMIDI, Instrument, Note
 
 from chords.Chord import Chord
 from utils.process_raw.ProcessDataUtils import type_dict
-from utils.dictionary import str_to_root, root_to_str
+from utils.structured import str_to_root, root_to_str
 from utils.string import STATIC_DIR
 from utils.utils import listen
 from utils.constants import *

@@ -6,7 +6,7 @@ from typing import List
 from pretty_midi import *
 from midi2audio import FluidSynth
 
-from utils.dictionary import str_to_root, root_to_str
+from utils.structured import str_to_root, root_to_str
 from utils.string import STATIC_DIR, RESOURCE_DIR
 from utils.constants import *
 
