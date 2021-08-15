@@ -376,4 +376,4 @@ if __name__ == '__main__':
     #
     # print(cp)
     # # listen(cp.to_midi(tempo=70, tonic="A", mode="M", instrument=SHAKUHACHI))
-    pass
+    read_progressions()
