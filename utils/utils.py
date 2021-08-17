@@ -6,7 +6,7 @@ from typing import List
 from pretty_midi import *
 from midi2audio import FluidSynth
 
-from utils.dictionary import str_to_root, root_to_str
+from utils.structured import str_to_root, root_to_str
 from utils.string import STATIC_DIR, RESOURCE_DIR
 from utils.constants import *
 
@@ -123,6 +123,53 @@ def get_melo_notes_from_midi(midi: PrettyMIDI, beat_audio, melo_track=0):
                    get_bar_and_position(note.end, beat_info)]
         my_note_list.append(my_note)
     return my_note_list
+
+
+# a function the order of notes according to tonic
+# e.g., the order of F in C major is 4
+# mode : M for major and m for minor
+def compute_distance(tonic, this, mode='M'):
+    tonic_pitch = str_to_root[tonic]
+    this_pitch = str_to_root[this]
+    pitch_distance = this_pitch - tonic_pitch
+    if pitch_distance < 0:
+        pitch_distance += 12
+    if mode == 'M':
+        pitch_distance_to_note_distance = {
+            0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7
+        }
+        return pitch_distance_to_note_distance[pitch_distance]
+    else:
+        pitch_distance_to_note_distance = {
+            0: 1, 1: 1.5, 2: 2, 3: 3, 4: 3.5, 5: 4, 6: 4.5, 7: 5, 8: 6, 9: 6.5, 10: 7, 11: 7.5
+        }
+        return pitch_distance_to_note_distance[pitch_distance]
+
+
+# a function that compute the destination note according to order
+# e.g., the 4th order note of C major is F
+# mode : M for major and m for minor
+def compute_destination(tonic, order, mode='M'):
+    root_list = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
+    if tonic == 'Db': tonic = 'C#'
+    if tonic == 'Eb': tonic = 'D#'
+    if tonic == 'Gb': tonic = 'F#'
+    if tonic == 'Ab': tonic = 'G#'
+    if tonic == 'Bb': tonic = 'A#'
+    index = root_list.index(tonic)
+    if mode == 'M':
+        order_to_distance = {
+            1: 0, 1.5: 1, 2: 2, 2.5: 3, 3: 4, 4: 5, 4.5: 6, 5: 7, 5.5: 8, 6: 9, 6.5: 10, 7: 11
+        }
+
+    else:
+        order_to_distance = {
+            1: 0, 1.5: 1, 2: 2, 3: 3, 3.5: 4, 4: 5, 4.5: 6, 5: 7, 6: 8, 6.5: 9, 7: 10, 7.5: 11
+        }
+    des_index = order_to_distance[order] + index
+    des_index -= 12 if des_index >= 12 else 0
+    return root_list[des_index]
+
 
 
 def listen_pitches(midi_pitch: list, time, instrument=0):

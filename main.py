@@ -58,5 +58,5 @@ for progression in new:
 pure_score = [i[0] for i in progression_score]
 max_index = pure_score.index(max(pure_score))
 max_progression = progression_score[max_index][1]
-print(max_progression)
+print(max_progression.progression)
 print(melo)

@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 from pretty_midi import PrettyMIDI
 
-from utils.dictionary import root_to_str, str_to_root, major_map, minor_map
+from utils.structured import root_to_str, str_to_root, major_map, minor_map
 from utils.string import RESOURCE_DIR
 
 if __name__ == '__main__':

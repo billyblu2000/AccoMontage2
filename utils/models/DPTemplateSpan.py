@@ -4,7 +4,7 @@ from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
 from typing import List, Union
 from utils import constants
-from utils.dictionary import major_map_backward, minor_map_backward
+from utils.structured import major_map_backward, minor_map_backward
 
 
 # core DP algorithm
@@ -85,19 +85,50 @@ class DPTemplateSpan:
         return chord_list
 
     # util func to span template
-    def __span_template(self) -> List[List[Union[List[Chord], float]]]:
-        return [
-            [[4, 4, 4, 4, 5, 5, 5, 5, ], 0],
-            [[3, 3, 3, 3, 6, 6, 6, 6, ], 0],
-            [[1, 1, 1, 1, 1, 1, 1, 1, ], 0],
-            [[4, 4, 4, 4, 5, 5, 5, 5, 3, 3, 3, 3, 6, 6, 6, 6, ], 0],
-            [[4, 4, 4, 4, 5, 5, 5, 5, 3, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 4, 5, 5, 5, 5, ], 0],
-            [[3, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 4, 5, 5, 5, 5, ], 0],
-            [[3, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 4, 5, 5, 5, 5, 1, 1, 1, 1, ], 0],
-            [[4, 4, 4, 4, 5, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, ], 0],
-            [[2, 2, 2, 2, 5, 5, 5, 5, 1, 1, 1, 1, ], 0],
-            [[4, 4, 4, 4, 5, 5, 5, 5, ], 0],
-        ]
+    def __span_template(self) -> (List[List[Union[List[Chord], float]]], List[List[Union[List[Chord], float]]]):
+        pass
+
+    # 往两个方向span, 1. 变得更简单,general, 作为最基本的模版
+    #               2. 变得更复杂,更短, 作为 modification, 拼凑的原料
+        available_templates = []
+        for i in self.templates:
+            if len(i.progression[0]) == len(self.melo[0]) and i.meta['type'] == self.melo_meta['type'] \
+                    and i.meta['mode'] == self.melo_meta['mode']:
+                available_templates.append(i)
+
+        # 1
+        general_span = []
+        min_unit = 2  # half note as the shortest duration
+        for template in available_templates:
+            duration = len(template.progression[0]) // min_unit
+            for i in range(len(template.progression)):
+                for t in range(min_unit):
+                    slice = template.progression[i][duration * t: duration * (t+1)]
+                    result = all(e == slice[0] for e in slice)
+                    if result:
+                        continue
+                    else:
+                        break
+            general_span.append(template)
+
+        # 2
+        ingredient_span = []
+        for template in general_span:
+            duration = len(template.progression[0]) // min_unit
+            for i in range(len(template.progression)):
+                template_copy1 = template.progression[i]
+                template_copy2 = template.progression[i]
+                for t in range(min_unit):
+                    template_copy1.progression[i] = [].append(template.progression[i][t * duration])
+                    if len(template.progression[0]) == 8:
+                        template_copy2.progression[i] = [].append(2 * [template.progression[i][t * duration]])
+
+                ingredient_span.append(template_copy1)
+                ingredient_span.append(template_copy2)
+
+        # for template in available_templates:
+
+
 
     # '中观', called in self.__select_max_candidate
     def __match_progression_and_template_span(self, progression: list) -> float:
