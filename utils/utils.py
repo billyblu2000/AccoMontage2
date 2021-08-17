@@ -16,7 +16,7 @@ except Exception as e:
     fs_exist = False
 
 from utils.structured import str_to_root, root_to_str
-from utils.string import STATIC_DIR, RESOURCE_DIR
+from utils.string import STATIC_DIR, RESOURCE_DIR, BASE_DIR
 
 
 def nmat2ins(nmat, program=0, tempo=120, sixteenth_notes_in_bar=16) -> Instrument:
@@ -192,7 +192,7 @@ def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + "
     if not fs_exist:
         warnings.warn('FluidSynth not installed!')
     midi.write(STATIC_DIR + "audio/" + "midi.mid")
-    fs = FluidSynth()
+    fs = FluidSynth(sound_font=BASE_DIR+'.fluidsynth/default_sound_font.sf2')
     date = time.strftime("%Y-%m-%d", time.localtime()) + "/"
     try:
         os.makedirs(STATIC_DIR + "audio/" + date)
