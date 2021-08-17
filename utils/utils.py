@@ -1,14 +1,22 @@
 import pickle
 import random
 import time
-from typing import List
+import warnings
 
 from pretty_midi import *
-from midi2audio import FluidSynth
+
+from settings import SHOW_WARNINGS
+
+fs_exist = True
+try:
+    from midi2audio import FluidSynth
+except Exception as e:
+    if SHOW_WARNINGS:
+        warnings.warn('Could not import FluidSynth, this will disabled the listen function')
+    fs_exist = False
 
 from utils.structured import str_to_root, root_to_str
 from utils.string import STATIC_DIR, RESOURCE_DIR
-from utils.constants import *
 
 
 def nmat2ins(nmat, program=0, tempo=120, sixteenth_notes_in_bar=16) -> Instrument:
@@ -171,7 +179,6 @@ def compute_destination(tonic, order, mode='M'):
     return root_list[des_index]
 
 
-
 def listen_pitches(midi_pitch: list, time, instrument=0):
     midi = PrettyMIDI()
     ins = Instrument(instrument)
@@ -182,6 +189,8 @@ def listen_pitches(midi_pitch: list, time, instrument=0):
 
 
 def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + ".wav"):
+    if not fs_exist:
+        warnings.warn('FluidSynth not installed!')
     midi.write(STATIC_DIR + "audio/" + "midi.mid")
     fs = FluidSynth()
     date = time.strftime("%Y-%m-%d", time.localtime()) + "/"

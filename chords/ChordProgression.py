@@ -82,6 +82,21 @@ class ChordProgression:
     def get_chord_progression(self):
         return self._progression
 
+    def get_chord_progression_only_degree(self):
+        prog = []
+        for bar_chords in self._progression:
+            bar_roots = []
+            for chord in bar_chords:
+                if chord.root != -1:
+                    root = chord.root
+                    number = compute_distance(tonic=self.meta['tonic'], this=root, mode=self.meta['mode'])
+                    new_chord = Chord(root=number, attr=[chord.type, chord.inversion, chord.sus, chord.add])
+                else:
+                    new_chord = Chord(root=-1, attr=[chord.type, chord.inversion, chord.sus, chord.add])
+                bar_roots.append(new_chord)
+            prog.append(bar_roots)
+        return prog
+
     def to_midi(self, tempo=120, instrument=PIANO):
         if not self.progression:
             Warning("Progression not assigned!")
@@ -370,10 +385,9 @@ def print_progression_list(progression_list: List[ChordProgression], limit=None)
 
 
 if __name__ == '__main__':
-    # cp = ChordProgression(type="", metre="", mode="M", tonic="D", source="")
-    # cp.progression = [[1, 1, 1, 1, 4, 4, 4, 4], [1, 1, 1, 1, 4, 4, 4, 4], [1, 1, 1, 1, 4, 4, 4, 4],
-    #                   [1, 1, 1, 1, 4, 4, 4, 4], ]
-    #
-    # print(cp)
-    # # listen(cp.to_midi(tempo=70, tonic="A", mode="M", instrument=SHAKUHACHI))
-    pass
+    cp = ChordProgression(type="", metre="", mode="M", tonic="D", source="")
+    cp.progression = [[1, 1, 1, 1, 4, 4, 4, 4], [1, 1, 1, 1, 4, 4, 4, 4], [1, 1, 1, 1, 4, 4, 4, 4],
+                      [1, 1, 1, 1, 4, 4, 4, 4], ]
+
+    print(cp)
+    # listen(cp.to_midi(tempo=70, tonic="A", mode="M", instrument=SHAKUHACHI))
