@@ -4,6 +4,7 @@ from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
 from utils.structured import major_map_backward, minor_map_backward
 
+
 class DP:
 
     def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression]):
@@ -14,13 +15,11 @@ class DP:
         self._dp = []
         self.result = []
 
-
     def solve(self):
         pass
 
     def __get_all_available_chords(self) -> List[Chord]:
         pass
-
 
     def pick_templates(self) -> List[List[Union[float, ChordProgression]]]:
         available_templates = []
@@ -39,7 +38,7 @@ class DP:
     # 微观
     @staticmethod
     def __match_melody_and_chord(melody_list: list, chord_list: list, mode='M') -> float:
-       pass
+        pass
 
     # 中观
     def __analyze_pattern(self):
