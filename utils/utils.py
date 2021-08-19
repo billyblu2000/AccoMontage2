@@ -6,6 +6,7 @@ import warnings
 from pretty_midi import *
 
 from settings import SHOW_WARNINGS
+from utils.constants import SHORT, LONG, DENSE, SPARSE
 
 fs_exist = True
 try:
