@@ -1,43 +1,61 @@
 from typing import List, Union
 
+import numpy as np
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
-from utils.structured import major_map_backward, minor_map_backward
+from utils.utils import MIDILoader
+
+
 
 
 class DP:
 
     def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression]):
-        self.melo = self.__split_melody(melo)
-        self.melo_meta = melo_meta
+        self.melo = melo  # melo : List(List) 是整首歌的melo
+        # self.melo_meta = melo_meta
         self.templates = templates
-
-        self._dp = []
+        self.max_num = 200  # 每一个phrase所对应chord progression的最多数量
+        self._dp = np.array([0] * self.max_num * len(self.melo))
         self.result = []
 
+        # melo分段的数据
+
     def solve(self):
-        pass
+        for i in range(len(self.melo)):
+            melo = self.melo[i]
+            melo_meta = {}
+            templates = self.pick_templates(melo, melo_meta)
+            if i == 0:
+                for j in range(len(templates)):
+                    self._dp[i][j] = self.phrase_template_score(self.melo[i], templates[j])
+            for j in range(len(templates)):
+                self._dp[i][j] = self.phrase_template_score(self.melo[i], templates[j]) + \
+                                 max([self._dp[i-1][t] + self.transition_score(i, j, t) for t in range(self.max_num)])
+
 
     def __get_all_available_chords(self) -> List[Chord]:
         pass
 
-    def pick_templates(self) -> List[List[Union[float, ChordProgression]]]:
+
+    # input是分好段的melo
+    def pick_templates(self, melo, melo_meta) -> List[List[Union[float, ChordProgression]]]:
         available_templates = []
         for i in self.templates:
-            # TODO: melody phrase might have different length, consider refactor this method?
-            if len(i.progression) == 8 \
-                    and i.meta['metre'] == self.melo_meta['metre'] \
-                    and i.meta['type'] == self.melo_meta['type'] \
-                    and i.meta['mode'] == self.melo_meta['mode']:
-                template = i
-                for j in range(len(template.progression)):
-                    duration = len(template.progression[j]) // self.min_unit
-                    for t in range(self.min_unit):
-                        # TODO: logic to be adjust：multiple assignment to the same 'template.progression[j]'?
-                        template.progression[j] = [].append(template.progression[j][t * duration])
-                available_templates.append(template)
+            if len(i.progression) == 8 and len(i.progression[0]) == 8 and i.meta['type'] == melo_meta['type'] \
+                    and i.meta['mode'] == melo_meta['mode']:
+                # template = i
+                # for j in range(len(template.progression)):
+                #     duration = len(template.progression[j]) // self.min_unit
+                #     for t in range(self.min_unit):
+                #         template.progression[j] = [].append(template.progression[j][t * duration])
+                available_templates.append(i)
 
         return available_templates
+
+    # 微观 + 中观
+    def phrase_template_score(self, melo, chord, weight):
+        return weight * self.__analyze_pattern() + (1 - weight) * self.__match_melody_and_chord(melo, chord)
+
 
     # 微观
     @staticmethod
@@ -71,7 +89,8 @@ class DP:
 
         return all_patterns
 
-    def __transition_score(self):
+    # transition prob between i-th phrase and (i-1)-th
+    def transition_score(self, i, cur_template, prev_template):
         pass
 
     def __split_melody(self, melo):
@@ -81,3 +100,12 @@ class DP:
             split = [[]]
             pass
             return split
+
+if __name__ == '__main__':
+
+        # load midi
+        my_midis = MIDILoader()  # load every midi files in the midi folder
+        melo_name = input()
+        get_midi = my_midis.get(name=melo_name)
+
+        # transform get_midi into melo (list of lists)
