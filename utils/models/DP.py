@@ -11,31 +11,29 @@ from utils.utils import MIDILoader
 class DP:
 
     def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression]):
-        self.melo = melo  # melo : List(List) 是整首歌的melo
+        self.melo = self.__split_melody(melo)  # melo : List(List) 是整首歌的melo
         # self.melo_meta = melo_meta
         self.templates = templates
         self.max_num = 200  # 每一个phrase所对应chord progression的最多数量
         self._dp = np.array([0] * self.max_num * len(self.melo))
         self.result = []
 
-        # melo分段的数据
 
     def solve(self):
+        templates = []
         for i in range(len(self.melo)):
             melo = self.melo[i]
             melo_meta = {}
-            templates = self.pick_templates(melo, melo_meta)
+            templates.append([self.pick_templates(melo, melo_meta)])
             if i == 0:
                 for j in range(len(templates)):
                     self._dp[i][j] = self.phrase_template_score(self.melo[i], templates[j])
             for j in range(len(templates)):
                 self._dp[i][j] = self.phrase_template_score(self.melo[i], templates[j]) + \
-                                 max([self._dp[i-1][t] + self.transition_score(i, j, t) for t in range(self.max_num)])
-
+                                 max([self._dp[i-1][t] + self.transition_score(i, templates[i][j], templates[i][t]) for t in range(self.max_num)])
 
     def __get_all_available_chords(self) -> List[Chord]:
         pass
-
 
     # input是分好段的melo
     def pick_templates(self, melo, melo_meta) -> List[List[Union[float, ChordProgression]]]:
@@ -43,11 +41,6 @@ class DP:
         for i in self.templates:
             if len(i.progression) == 8 and len(i.progression[0]) == 8 and i.meta['type'] == melo_meta['type'] \
                     and i.meta['mode'] == melo_meta['mode']:
-                # template = i
-                # for j in range(len(template.progression)):
-                #     duration = len(template.progression[j]) // self.min_unit
-                #     for t in range(self.min_unit):
-                #         template.progression[j] = [].append(template.progression[j][t * duration])
                 available_templates.append(i)
 
         return available_templates
