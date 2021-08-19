@@ -8,7 +8,7 @@ from utils.structured import major_map_backward, minor_map_backward
 class DP:
 
     def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression]):
-        self.melo = melo
+        self.melo = self.__split_melody(melo)
         self.melo_meta = melo_meta
         self.templates = templates
 
@@ -24,12 +24,16 @@ class DP:
     def pick_templates(self) -> List[List[Union[float, ChordProgression]]]:
         available_templates = []
         for i in self.templates:
-            if len(i.progression) == 8 and len(i.progression[0]) == 8 and i.meta['type'] == self.melo_meta['type'] \
+            # TODO: melody phrase might have different length, consider refactor this method?
+            if len(i.progression) == 8 \
+                    and i.meta['metre'] == self.melo_meta['metre'] \
+                    and i.meta['type'] == self.melo_meta['type'] \
                     and i.meta['mode'] == self.melo_meta['mode']:
                 template = i
                 for j in range(len(template.progression)):
                     duration = len(template.progression[j]) // self.min_unit
                     for t in range(self.min_unit):
+                        # TODO: logic to be adjust：multiple assignment to the same 'template.progression[j]'?
                         template.progression[j] = [].append(template.progression[j][t * duration])
                 available_templates.append(template)
 
@@ -67,5 +71,13 @@ class DP:
 
         return all_patterns
 
-    def transition_score(self):
+    def __transition_score(self):
         pass
+
+    def __split_melody(self, melo):
+        if type(melo[0]) is list:
+            return melo
+        else:
+            split = [[]]
+            pass
+            return split

@@ -62,6 +62,4 @@ from utils.utils import MIDILoader, listen
 # max_progression = progression_score[max_index][1]
 # print(max_progression.progression)
 # print(melo)
-
-md = PrettyMIDI('/Users/billyyi/PycharmProjects/Chorderator/static/midi/1.mid')
-listen(md)
+pass
