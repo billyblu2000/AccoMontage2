@@ -50,6 +50,22 @@ class DP:
                                  max([self._dp[i - 1][t] + self.transition_score(i, templates[i][j], templates[i][t])
                                       for t in range(self.max_num)])
 
+        # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
+        best_score = max(self._dp[-1]) / len(self.melo)
+
+        # find the path
+        last_index = self._dp[-1].index(max(self._dp[-1]))
+        result_path = [templates[-1][last_index]]
+        i = len(self.melo) - 1
+        while True:
+            if i > 0:
+                i -= 1
+                index = self._dp[i].index(max(self._dp[i]))
+                result_path.append(templates[i][index])
+
+        return result_path, best_score
+
+
     def __get_all_available_chords(self) -> List[Chord]:
         pass
 
