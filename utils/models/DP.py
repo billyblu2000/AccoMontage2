@@ -35,6 +35,7 @@ class DP:
         self.max_num = 200  # 每一个phrase所对应chord progression的最多数量
         self._dp = np.array([[0] * self.max_num] * len(self.melo))
         self.result = []
+        self.all_paterns = self.__analyze_pattern()
 
     def solve(self):
         templates = []
@@ -129,16 +130,21 @@ class DP:
         pass
 
     # 中观
-    def __analyze_pattern(self, chord_list):
+    def __analyze_pattern(self):
         # TODO
         all_patterns = {0: {}, 1: {}, }
-        for i in range(2, len(self.melo) // 2 + 1):
+        melo_phrase_max_length = max([len(i) for i in self.melo])
+        for i in range(2, melo_phrase_max_length // 2 + 1):
 
             length = i
             count_pattern = {}
             # count pattern
             for cp in self.templates:
-                prog = [j for j in cp]
+                prog = cp.progression
+                new_prog = []
+                for bar_prog in prog:
+                    new_prog += bar_prog
+                prog = new_prog
                 cursor = 0
                 while cursor + length < len(prog):
                     pattern = tuple(prog[cursor:cursor + length])
