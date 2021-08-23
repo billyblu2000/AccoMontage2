@@ -4,6 +4,7 @@ import numpy as np
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression, read_progressions
 from utils.utils import MIDILoader
+from utils.structured import major_map_backward, minor_map_backward
 
 
 class DP:
@@ -33,12 +34,13 @@ class DP:
         self.melo_meta = self.__handle_meta(melo_meta)
         self.templates = templates
         self.max_num = 200  # 每一个phrase所对应chord progression的最多数量
-        self._dp = np.array([[0] * self.max_num] * len(self.melo))
+        self._dp = np.array([[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
         self.result = []
         self.all_paterns = self.__analyze_pattern()
 
     def solve(self):
         templates = []
+        weight = 0.5
         for i in range(len(self.melo)):
             melo = self.melo[i]
             melo_meta = self.melo_meta
@@ -46,23 +48,32 @@ class DP:
             # TODO: template now contains a confidence level, some codes to be change
             templates.append(self.pick_templates(melo, melo_meta))
 
-            for j in range(len(templates)):
+            for j in range(len(templates[i])):
                 if i == 0:
-                    self._dp[i][j] = self.phrase_template_score(self.melo[i], templates[j])
+                    self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[j]))
                 else:
                     # max_previous = max([self._dp[i - 1][t]
                     #                     + self.transition_score(i, templates[i][j], templates[i][t]) for t in range(self.max_num)])
-                    max_previous = max([self._dp[i - 1][t]
-                                        + self.transition_score(melo_meta['pos'], templates[i][j], templates[i - 1][t])
-                                        for t in range(self.max_num)])
-                    self._dp[i][j] = self.phrase_template_score(self.melo[i], templates[j]) + max_previous
+                    previous = [weight * self._dp[i - 1][t][1]
+                                        + (1 - weight ) * self.transition_score(melo_meta['pos'], templates[i][j], templates[i - 1][t])
+                                        for t in range(self.max_num)]
+                    max_previous = max(previous)
+                    max_previous_index = previous.index(max(previous))
+                    path_l = templates[i-1][max_previous_index][0].append(j)
+                    self._dp[i][j] = (path_l, self.phrase_template_score(self.melo[i], templates[j]) + max_previous)
 
         # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
         best_score = max(self._dp[-1]) / len(self.melo)
 
         # find the path
-
+        last_index = self._dp[-1].index(max(self._dp[-1]))
+        result_path_index = self._dp[-1][last_index][0]
         result_path = []
+        for i in range(len(self.melo)):
+            index = result_path_index[i]
+            result_path.append(templates[i][index])
+
+        # 不管下面了，直接在dp里记录了路径
 
         # TODO: This is not the actual path...
         # TODO: 算法应该选择使 dp[-1]=max 的路径，而不是每轮dp迭代的最优路径
@@ -127,7 +138,28 @@ class DP:
     # 微观
     @staticmethod
     def __match_melody_and_chord(melody_list: list, chord_list: list, mode='M') -> float:
-        pass
+        musical_knowledge = [  # row: chord; col: melody
+            [1, 0.1, 0.4, 0.15, 0.75, 0.7, 0.1, 0.9, 0.1, 0.7, 0.15, 0.2],
+            [0.4, 0.1, 1, 0.1, 0.4, 0.75, 0.4, 0.5, 0.1, 0.9, 0.15, 0.4],
+            [0.5, 0.1, 0.4, 0.15, 1, 0.3, 0.2, 0.75, 0.2, 0.6, 0.15, 0.9],
+            [0.9, 0.1, 0.6, 0.2, 0.5, 1, 0.1, 0.4, 0.4, 0.75, 0.2, 0.2],
+            [0.5, 0.1, 0.9, 0.1, 0.5, 0.5, 0.1, 1, 0.1, 0.5, 0.15, 0.75],
+            [0.75, 0.1, 0.6, 0.15, 0.9, 0.5, 0.1, 0.4, 0.1, 1, 0.15, 0.4],
+            [0.4, 0.1, 0.8, 0.15, 0.6, 0.8, 0.1, 0.6, 0.1, 0.4, 0.15, 1],
+        ]
+
+        total_score = 0.0
+        for i in range(len(chord_list)):
+            # this_chord = chord_list[i].to_number(tonic='C')
+            this_chord = chord_list[i]
+            if mode == 'M':
+                this_note = [major_map_backward[melody_list[i * 2]], major_map_backward[melody_list[i * 2 + 1]]]
+            else:
+                this_note = [minor_map_backward[melody_list[i * 2]], minor_map_backward[melody_list[i * 2 + 1]]]
+            total_score += musical_knowledge[int(this_chord) - 1][this_note[0]]
+            total_score += musical_knowledge[int(this_chord) - 1][this_note[1]]
+
+        return total_score / len(melody_list)
 
     # 中观
     def __analyze_pattern(self):
