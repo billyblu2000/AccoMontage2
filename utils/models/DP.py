@@ -21,7 +21,7 @@ class DP:
             'tonic': str,      # string indicating the tonic, e.g., 'C'
             'metre': str,      # string indicating the metre, e.g., '4/4'
             'mode': str,       # possible values: ['M', 'm', 'maj', 'min']
-            'pos': List[str]   # list of string, each indication the type (position)
+            'pos': List[str]   # list of string, each indicating the type (position)
                                # of the corresponding melody phrase
         }
         The meta info of the input melody.
@@ -34,9 +34,13 @@ class DP:
         self.melo_meta = self.__handle_meta(melo_meta)
         self.templates = templates
         self.max_num = 200  # 每一个phrase所对应chord progression的最多数量
-        self._dp = np.array([[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
+        self._dp = np.array(
+            [[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
         self.result = []
-        self.all_paterns = self.__analyze_pattern()
+        self.all_patterns = self.__analyze_pattern()
+        print(self.templates[1])
+        print(self.__match_template_and_pattern(self.templates[1]))
+        raise Exception
 
     def solve(self):
         templates = []
@@ -55,17 +59,18 @@ class DP:
                     # max_previous = max([self._dp[i - 1][t]
                     #                     + self.transition_score(i, templates[i][j], templates[i][t]) for t in range(self.max_num)])
                     previous = [weight * self._dp[i - 1][t][1]
-                                        + (1 - weight ) * self.transition_score(melo_meta['pos'], templates[i][j], templates[i - 1][t])
-                                        for t in range(self.max_num)]
+                                + (1 - weight) * self.transition_score(melo_meta['pos'], templates[i][j],
+                                                                       templates[i - 1][t])
+                                for t in range(self.max_num)]
                     max_previous = max(previous)
                     max_previous_index = previous.index(max(previous))
-                    path_l = templates[i-1][max_previous_index][0].append(j)
+                    path_l = templates[i - 1][max_previous_index][0].append(j)
                     self._dp[i][j] = (path_l, self.phrase_template_score(self.melo[i], templates[j]) + max_previous)
 
         # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
         best_score = max(self._dp[-1]) / len(self.melo)
 
-        # find the path
+        # find the path，
         last_index = self._dp[-1].index(max(self._dp[-1]))
         result_path_index = self._dp[-1][last_index][0]
         result_path = []
@@ -75,8 +80,8 @@ class DP:
 
         # 不管下面了，直接在dp里记录了路径
 
-        # TODO: This is not the actual path...
-        # TODO: 算法应该选择使 dp[-1]=max 的路径，而不是每轮dp迭代的最优路径
+        # TODO: This is not the actual path...?
+        # TODO: 算法应该选择使 dp[-1]=max 的路径，而不是每轮dp迭代的最优路径?
         # last_index = self._dp[-1].index(max(self._dp[-1]))
         # result_path = [templates[-1][last_index]]
         # i = len(self.melo) - 1
@@ -133,11 +138,11 @@ class DP:
 
     # 微观 + 中观
     def phrase_template_score(self, melo, chord, weight=0.5):
-        return weight * self.__analyze_pattern(chord) + (1 - weight) * self.__match_melody_and_chord(melo, chord)
+        return weight * self.__match_template_and_pattern(chord) + (1 - weight) * self.__match_melody_and_chord(melo, chord)
 
     # 微观
     @staticmethod
-    def __match_melody_and_chord(melody_list: list, chord_list: list, mode='M') -> float:
+    def __match_melody_and_chord(melody_list: list, progression: ChordProgression, mode='M') -> float:
         musical_knowledge = [  # row: chord; col: melody
             [1, 0.1, 0.4, 0.15, 0.75, 0.7, 0.1, 0.9, 0.1, 0.7, 0.15, 0.2],
             [0.4, 0.1, 1, 0.1, 0.4, 0.75, 0.4, 0.5, 0.1, 0.9, 0.15, 0.4],
@@ -149,6 +154,7 @@ class DP:
         ]
 
         total_score = 0.0
+        chord_list = progression.get(only_degree=True, flattened=True)
         for i in range(len(chord_list)):
             # this_chord = chord_list[i].to_number(tonic='C')
             this_chord = chord_list[i]
@@ -162,23 +168,37 @@ class DP:
         return total_score / len(melody_list)
 
     # 中观
+    def __match_template_and_pattern(self, cp: ChordProgression) -> float:
+
+        final_score = 0
+        max_length = min([len(cp), max([len(i) for i in self.templates])])
+        weight_denominator = (max_length ** 2 + max_length - 2) // 2
+        for length in range(2,  max_length + 1):
+            cursor = 0
+            prog = cp.get(only_root=True, flattened=True)
+            length_total_score = 0
+            while cursor + length <= len(prog):
+                pattern = tuple(prog[cursor:cursor + length])
+                if pattern in self.all_patterns[length].keys():
+                    length_total_score += self.all_patterns[length][pattern]
+                cursor += 1
+            length_avg_score = length_total_score / cursor
+            print(length, length_avg_score)
+            final_score += (length/weight_denominator) * length_avg_score
+        return final_score
+
     def __analyze_pattern(self):
-        # TODO
         all_patterns = {0: {}, 1: {}, }
-        melo_phrase_max_length = max([len(i) for i in self.melo])
-        for i in range(2, melo_phrase_max_length // 2 + 1):
+        max_length = max([len(i) for i in self.templates])
+        for i in range(2, max_length+1):
 
             length = i
             count_pattern = {}
             # count pattern
             for cp in self.templates:
-                prog = cp.progression
-                new_prog = []
-                for bar_prog in prog:
-                    new_prog += bar_prog
-                prog = new_prog
+                prog = cp.get(only_root=True, flattened=True)
                 cursor = 0
-                while cursor + length < len(prog):
+                while cursor + length <= len(prog):
                     pattern = tuple(prog[cursor:cursor + length])
                     if pattern in count_pattern.keys():
                         count_pattern[pattern] += 1
@@ -191,6 +211,8 @@ class DP:
                 count_pattern[key] /= max_appears
 
             all_patterns[i] = count_pattern
+
+        print(all_patterns.keys())
 
         return all_patterns
 
@@ -229,5 +251,5 @@ if __name__ == '__main__':
         'mode': 'maj',
         'pos': [name[6] for name in melo_source_name]
     }
-    my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions())
+    my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions()[:100])
     my_dp_model.solve()

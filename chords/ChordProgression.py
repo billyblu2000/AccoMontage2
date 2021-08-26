@@ -78,6 +78,25 @@ class ChordProgression:
                 prog.append(bar_chords)
             self._progression = prog
 
+    # all progression getters
+
+    def get(self, only_degree=False, flattened=False, only_root=False):
+        if only_root:
+            if flattened:
+                return self.get_chord_progression_only_root_flattened()
+            else:
+                return self.get_chord_progression_only_root()
+        elif only_degree:
+            if flattened:
+                return self.get_chord_progression_only_degree_flattened()
+            else:
+                return self.get_chord_progression_only_degree()
+        else:
+            if flattened:
+                return self.get_chord_progression_flattened()
+            else:
+                return self.get_chord_progression()
+
     # differences between progression.getter: this method returns the exact chord, not number (order)
     def get_chord_progression(self):
         return self._progression
@@ -96,6 +115,25 @@ class ChordProgression:
                 bar_roots.append(new_chord)
             prog.append(bar_roots)
         return prog
+
+    def get_chord_progression_only_root(self):
+        return self.progression
+
+    def get_chord_progression_flattened(self):
+        return self.__flat_progression(self.get_chord_progression())
+
+    def get_chord_progression_only_degree_flattened(self):
+        return self.__flat_progression(self.get_chord_progression_only_degree())
+
+    def get_chord_progression_only_root_flattened(self):
+        return self.__flat_progression(self.progression)
+
+    @staticmethod
+    def __flat_progression(before):
+        after = []
+        for bar_prog in before:
+            after += bar_prog
+        return after
 
     def to_midi(self, tempo=120, instrument=PIANO):
         if not self.progression:
@@ -125,6 +163,8 @@ class ChordProgression:
             current_pos += length
         midi.instruments.append(ins)
         return midi
+
+    # setters
 
     def set_mode(self, mode):
         self.meta["mode"] = mode
