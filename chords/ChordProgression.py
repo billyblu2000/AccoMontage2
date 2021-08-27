@@ -6,7 +6,7 @@ from chords.Chord import Chord
 from utils.process_raw.ProcessDataUtils import type_dict
 from utils.structured import str_to_root, root_to_str, major_map, major_map_backward
 from utils.string import STATIC_DIR
-from utils.utils import compute_distance, compute_destination
+from utils.utils import compute_distance, compute_destination, Logging
 from utils.constants import *
 
 
@@ -259,6 +259,7 @@ class ChordProgression:
 
 
 def read_progressions(progression_file='progressions_with_type.txt'):
+    Logging.info('start read progressions from {f}'.format(f=progression_file))
     file = open(STATIC_DIR + progression_file, "r")
     progression_list = []
     progression = ChordProgression()
@@ -356,6 +357,7 @@ def read_progressions(progression_file='progressions_with_type.txt'):
                         memo = chord_str
                     bar_chord.append(my_chord)
                 progression.progression = progression._progression + [bar_chord]
+    Logging.info('read progressions done')
     return progression_list
 
 

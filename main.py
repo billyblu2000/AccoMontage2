@@ -6,7 +6,7 @@ from pretty_midi import PrettyMIDI
 from settings import *
 from chords.ChordProgression import read_progressions
 
-from utils.utils import MIDILoader, listen
+from utils.utils import MIDILoader, listen, Logging
 
 # this function will analyze the billboard original data and store the result in 'progression.txt'
 # process_data()

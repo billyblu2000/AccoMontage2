@@ -1,3 +1,4 @@
+import logging
 import pickle
 import random
 import time
@@ -193,7 +194,7 @@ def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + "
     if not fs_exist:
         warnings.warn('FluidSynth not installed!')
     midi.write(STATIC_DIR + "audio/" + "midi.mid")
-    fs = FluidSynth(sound_font=BASE_DIR+'.fluidsynth/default_sound_font.sf2')
+    fs = FluidSynth(sound_font=BASE_DIR + '.fluidsynth/default_sound_font.sf2')
     date = time.strftime("%Y-%m-%d", time.localtime()) + "/"
     try:
         os.makedirs(STATIC_DIR + "audio/" + date)
@@ -311,9 +312,9 @@ class MIDILoader:
 
     def load_midis(self, files):
         if files == 'POP909':
-            print("Loading melodies, please wait for a few seconds...")
+            Logging.info("loading melodies, please wait for a few seconds...")
             data = pickle.load(open(RESOURCE_DIR + 'phrase_split_data/melodies.pk', 'rb'))
-            print("Done.")
+            Logging.info("melodies loaded.")
             self.midis = data['midi']
             self.transformed = data['melo']
             self.roll = data['roll']
@@ -457,6 +458,36 @@ class MIDILoader:
         if num == 1:
             sampled = sampled[0]
         return sampled
+
+
+class Logging:
+
+    @staticmethod
+    def _preprocess(*args):
+        msg = ''
+        for arg in args:
+            msg += str(arg) + ' '
+        return msg.rstrip(' ')
+
+    @staticmethod
+    def debug(*args):
+        logging.debug('\033[1;37m ' + Logging._preprocess(*args) + ' \033[0m')
+
+    @staticmethod
+    def info(*args):
+        logging.info('\033[1;30m ' + Logging._preprocess(*args) + ' \033[0m')
+
+    @staticmethod
+    def warning(*args):
+        logging.warning('\033[1;33m ' + Logging._preprocess(*args) + ' \033[0m')
+
+    @staticmethod
+    def error(*args):
+        logging.error('\033[1;31m ' + Logging._preprocess(*args) + ' \033[0m')
+
+    @staticmethod
+    def critical(*args):
+        logging.critical('\033[1;41m ' + Logging._preprocess(*args) + ' \033[0m')
 
 
 if __name__ == '__main__':
