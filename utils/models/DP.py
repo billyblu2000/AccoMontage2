@@ -1,4 +1,5 @@
 import copy
+import random
 from typing import List, Union
 import numpy as np
 from chords.Chord import Chord
@@ -110,9 +111,9 @@ class DP:
         available_templates = []
 
         for i in self.templates:
-            if len(i) * 2 == len(melo) \
-                    and i.meta['metre'] == melo_meta['metre'] \
-                    and i.meta['mode'] == melo_meta['mode']:
+            if len(i) * 2 == len(melo):
+                    # and i.meta['metre'] == melo_meta['metre'] \
+                    # and i.meta['mode'] == melo_meta['mode']:
                 confidence_level = self.__progression_melo_type_match(melo_meta['pos'], i.meta['type'])
                 available_templates.append([confidence_level, i])
 
@@ -181,53 +182,53 @@ class DP:
     # 中观
     def __match_template_and_pattern(self, cp: ChordProgression) -> float:
 
-        final_score = 0
-        max_length = min([len(cp), max([len(i) for i in self.templates])])
-        weight_denominator = (max_length ** 2 + max_length - 2) // 2
-        for length in range(2, max_length + 1):
-            cursor = 0
-            prog = cp.get(only_root=True, flattened=True)
-            length_total_score = 0
-            while cursor + length <= len(prog):
-                pattern = tuple(prog[cursor:cursor + length])
-                if pattern in self.all_patterns[length].keys():
-                    length_total_score += self.all_patterns[length][pattern]
-                cursor += 1
-            length_avg_score = length_total_score / cursor
-            final_score += (length / weight_denominator) * length_avg_score
-        return final_score
+        # final_score = 0
+        # max_length = min([len(cp), max([len(i) for i in self.templates])])
+        # weight_denominator = (max_length ** 2 + max_length - 2) // 2
+        # for length in range(2, max_length + 1):
+        #     cursor = 0
+        #     prog = cp.get(only_root=True, flattened=True)
+        #     length_total_score = 0
+        #     while cursor + length <= len(prog):
+        #         pattern = tuple(prog[cursor:cursor + length])
+        #         if pattern in self.all_patterns[length].keys():
+        #             length_total_score += self.all_patterns[length][pattern]
+        #         cursor += 1
+        #     length_avg_score = length_total_score / cursor
+        #     final_score += (length / weight_denominator) * length_avg_score
+        return 0.5
 
     def __analyze_pattern(self):
         Logging.debug('analyze pattern...')
-        all_patterns = {0: {}, 1: {}, }
-        max_length = max([len(i) for i in self.templates])
-        for i in range(2, max_length + 1):
-
-            length = i
-            count_pattern = {}
-            # count pattern
-            for cp in self.templates:
-                prog = cp.get(only_root=True, flattened=True)
-                cursor = 0
-                while cursor + length <= len(prog):
-                    pattern = tuple(prog[cursor:cursor + length])
-                    if pattern in count_pattern.keys():
-                        count_pattern[pattern] += 1
-                    else:
-                        count_pattern[pattern] = 1
-                    cursor += 1
-            # normalize
-            max_appears = max(count_pattern.values())
-            for key in count_pattern.keys():
-                count_pattern[key] /= max_appears
-
-            all_patterns[i] = count_pattern
+        all_patterns = {0: {}, 1: {}}
+        # max_length = max([len(i) for i in self.templates])
+        # for i in range(2, max_length + 1):
+        #
+        #     length = i
+        #     count_pattern = {}
+        #     # count pattern
+        #     for cp in self.templates:
+        #         prog = cp.get(only_root=True, flattened=True)
+        #         cursor = 0
+        #         while cursor + length <= len(prog):
+        #             pattern = tuple(prog[cursor:cursor + length])
+        #             if pattern in count_pattern.keys():
+        #                 count_pattern[pattern] += 1
+        #             else:
+        #                 count_pattern[pattern] = 1
+        #             cursor += 1
+        #     # normalize
+        #     max_appears = max(count_pattern.values())
+        #     for key in count_pattern.keys():
+        #         count_pattern[key] /= max_appears
+        #
+        #     all_patterns[i] = count_pattern
         Logging.debug('analyze pattern done')
         return all_patterns
 
     # transition prob between i-th phrase and (i-1)-th
     def transition_score(self, i, cur_template, prev_template):
-        return 0
+        return random.random()
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:
