@@ -3,8 +3,8 @@ import random
 from typing import List, Union
 import numpy as np
 from chords.Chord import Chord
-from chords.ChordProgression import ChordProgression, read_progressions
-from utils.utils import MIDILoader, Logging
+from chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
+from utils.utils import MIDILoader, Logging, listen
 from utils.structured import major_map_backward, minor_map_backward
 
 
@@ -38,7 +38,8 @@ class DP:
         self.max_num = 200  # 每一个phrase所对应chord progression的最多数量
         self._dp = np.array(
             [[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
-        self.result = []
+        self.solved = False
+        self.result = None
         self.all_patterns = self.__analyze_pattern()
         Logging.debug('init DP model done')
 
@@ -94,7 +95,8 @@ class DP:
         #     i -= 1
         #     index = self._dp[i].index(max(self._dp[i]))
         #     result_path.append(templates[i][index])
-
+        self.solved = True
+        self.result = (result_path, best_score)
         return result_path, best_score
 
     def __get_all_available_chords(self) -> List[Chord]:
@@ -111,9 +113,9 @@ class DP:
         available_templates = []
 
         for i in self.templates:
-            if len(i) * 2 == len(melo):
-                    # and i.meta['metre'] == melo_meta['metre'] \
-                    # and i.meta['mode'] == melo_meta['mode']:
+            if len(i) * 2 == len(melo) \
+                    and i.meta['metre'] == melo_meta['metre'] \
+                    and i.meta['mode'] == melo_meta['mode']:
                 confidence_level = self.__progression_melo_type_match(melo_meta['pos'], i.meta['type'])
                 available_templates.append([confidence_level, i])
 
@@ -228,7 +230,7 @@ class DP:
 
     # transition prob between i-th phrase and (i-1)-th
     def transition_score(self, i, cur_template, prev_template):
-        return random.random()
+        return 0.35 + random.random() / 4
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:
@@ -242,6 +244,15 @@ class DP:
                 return melo_meta
         except:
             raise Exception('Model cannot handle melo meta in this form yet.')
+
+    def get_progression(self):
+        if not self.solved:
+            self.solve()
+        picked_prog = [i[1] for i in self.result[0]]
+        return picked_prog
+
+    def get_progression_join_as_midi(self):
+        pass
 
 
 if __name__ == '__main__':
@@ -262,4 +273,7 @@ if __name__ == '__main__':
         'pos': [name[6] for name in melo_source_name]
     }
     my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions()[:1000])
-    print(my_dp_model.solve())
+    my_dp_model.solve()
+    print_progression_list(my_dp_model.get_progression())
+
+

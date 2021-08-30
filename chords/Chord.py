@@ -6,7 +6,7 @@ from utils.utils import listen_pitches
 class Chord:
 
     # TODO finish chord class
-    def __init__(self, root = None, attr=None):
+    def __init__(self, root=None, attr=None):
         self.root = -1
         self.type = -1
         self.inversion = -1
@@ -17,9 +17,12 @@ class Chord:
         if attr:
             self.type, self.inversion, self.sus, self.add = attr[0], attr[1], attr[2], attr[3]
 
-    def to_midi_pitch(self) -> list:
+    def to_midi_pitch(self, tonic=None) -> list:
         midi_pitch = []
-        root_pitch = root_to_pitch_low[str_to_root[self.root]]
+        if tonic:
+            root_pitch = root_to_pitch_low[str_to_root[tonic]]
+        else:
+            root_pitch = root_to_pitch_low[str_to_root[self.root]]
         pitch_relation = [0] + chord_type_to_pitch_relation[self.type]
         if self.sus != -1:
             if self.sus == SUS2:
@@ -64,7 +67,7 @@ class Chord:
             midi_pitch.append(root_pitch + i)
         return midi_pitch
 
-    def __eq__(self,other):
+    def __eq__(self, other):
         if not isinstance(other, Chord):
             return False
         if self.root == other.root \

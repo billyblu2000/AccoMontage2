@@ -135,10 +135,12 @@ class ChordProgression:
             after += bar_prog
         return after
 
-    def to_midi(self, tempo=120, instrument=PIANO):
+    def to_midi(self, tempo=120, instrument=PIANO, tonic=None):
         if not self.progression:
             Warning("Progression not assigned!")
             return None
+        if not tonic:
+            tonic = self.meta['tonic']
         midi = PrettyMIDI()
         unit_length = 30 / tempo
         ins = Instrument(instrument)
@@ -151,18 +153,22 @@ class ChordProgression:
                     length += unit_length
                 else:
                     if memo != -1:
-                        for pitch in memo.to_midi_pitch():
+                        for pitch in memo.to_midi_pitch(tonic=self.__key_changer(self.meta['tonic'], memo.root, tonic)):
                             note = Note(pitch=pitch, velocity=80, start=current_pos, end=current_pos + length)
                             ins.notes.append(note)
                     current_pos += length
                     length = unit_length
                     memo = j
-            for pitch in memo.to_midi_pitch():
+            for pitch in memo.to_midi_pitch(tonic=self.__key_changer(self.meta['tonic'], memo.root, tonic)):
                 note = Note(pitch=pitch, velocity=80, start=current_pos, end=current_pos + length)
                 ins.notes.append(note)
             current_pos += length
         midi.instruments.append(ins)
         return midi
+
+    def __key_changer(self, original_tonic: str, root: str, new_tonic: str) -> str:
+        order = compute_distance(original_tonic, new_tonic, mode=self.meta['mode'])
+        return compute_destination(tonic=root, order=order, mode=self.meta['mode'])
 
     # setters
 

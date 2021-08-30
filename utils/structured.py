@@ -6,9 +6,9 @@ chord_type_to_pitch_relation = {
     MIN_TRIAD: [3, 7],
     AUG_TRIAD: [4, 8],
     DIM_TRIAD: [3, 6],
-    MAJ_SEVENTH: [],
-    MIN_SEVENTH: [],
-    DOM_SEVENTH: [],
+    MAJ_SEVENTH: [4, 7, 11],
+    MIN_SEVENTH: [3, 7, 10],
+    DOM_SEVENTH: [4, 7, 10],
     HALF_DIM_SEVENTH: [],
     FULLY_DIM_SEVENTH: [],
 }
@@ -39,10 +39,10 @@ str_to_root["G#"] = GS
 str_to_root["A#"] = AS
 
 major_map = {
-            0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7
+    0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7
 }
 minor_map = {
-            0: 1, 1: 1.5, 2: 2, 3: 3, 4: 3.5, 5: 4, 6: 4.5, 7: 5, 8: 6, 9: 6.5, 10: 7, 11: 7.5
+    0: 1, 1: 1.5, 2: 2, 3: 3, 4: 3.5, 5: 4, 6: 4.5, 7: 5, 8: 6, 9: 6.5, 10: 7, 11: 7.5
 }
 
 major_map_backward = {}
@@ -51,13 +51,12 @@ for item in major_map.items():
     major_map_backward[item[1]] = item[0]
 for item in minor_map.items():
     minor_map_backward[item[1]] = item[0]
-
 
 major_map = {
-            0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7, -1:0
+    0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7, -1: 0
 }
 minor_map = {
-            0: 1, 1: 1.5, 2: 2, 3: 3, 4: 3.5, 5: 4, 6: 4.5, 7: 5, 8: 6, 9: 6.5, 10: 7, 11: 7.5, -1:0
+    0: 1, 1: 1.5, 2: 2, 3: 3, 4: 3.5, 5: 4, 6: 4.5, 7: 5, 8: 6, 9: 6.5, 10: 7, 11: 7.5, -1: 0
 }
 
 major_map_backward = {}
@@ -66,4 +65,3 @@ for item in major_map.items():
     major_map_backward[item[1]] = item[0]
 for item in minor_map.items():
     minor_map_backward[item[1]] = item[0]
-
