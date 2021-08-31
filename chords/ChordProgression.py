@@ -166,7 +166,9 @@ class ChordProgression:
         midi.instruments.append(ins)
         return midi
 
-    def __key_changer(self, original_tonic: str, root: str, new_tonic: str) -> str:
+    def __key_changer(self, original_tonic: str, root: str, new_tonic: str):
+        if root == -1:
+            return None
         order = compute_distance(original_tonic, new_tonic, mode=self.meta['mode'])
         return compute_destination(tonic=root, order=order, mode=self.meta['mode'])
 

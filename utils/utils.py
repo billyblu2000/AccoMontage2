@@ -461,15 +461,54 @@ class MIDILoader:
 
     @staticmethod
     def melo_to_midi(melo, tonic='C'):
+        # ins = Instrument(program=0)
+        # cursor = 0
+        # for i in melo:
+        #     root = major_map_backward[i]
+        #     if root != -1:
+        #         pitch = root_to_pitch[root]
+        #         ins.notes.append(Note(start=cursor, end=cursor + 0.125, pitch=pitch, velocity=60))
+        #     cursor += 0.125
         ins = Instrument(program=0)
-        cursor = 0
-        for i in melo:
-            root = major_map_backward[i]
-            if root != -1:
-                pitch = root_to_pitch[root]
-                ins.notes.append(Note(start=cursor, end=cursor + 0.125, pitch=pitch, velocity=60))
-            cursor += 0.125
+        current_pitch = MIDILoader.__melo_number_to_pitch(melo[0])
+        start = 0
+        for i in range(len(melo)):
+            if i == len(melo) - 1:
+                note = Note(pitch=current_pitch, velocity=80, start=start * 0.125, end=(i + 1) * 0.125)
+                ins.notes.append(note)
+                break
+            if melo[i + 1] != melo[i]:
+                if current_pitch is not 0:
+                    note = Note(pitch=current_pitch, velocity=80, start=start * 0.125, end=(i + 1) * 0.125)
+                    ins.notes.append(note)
+                current_pitch = MIDILoader.__melo_number_to_pitch(melo[i+1])
+                start = i + 1
+
         return ins
+
+    @staticmethod
+    def __melo_number_to_pitch(number):
+        root = major_map_backward[number]
+        if root != -1:
+            pitch = root_to_pitch[root]
+            return pitch
+        else:
+            return 0
+
+    @staticmethod
+    def auto_find_pop909_source_name(start_with=None):
+        all_names = []
+        temp_loader = MIDILoader(files='POP909')
+        if start_with:
+            if type(start_with) is str:
+                start_with = [start_with]
+            assert type(start_with) is list
+            for this in start_with:
+                for item in temp_loader.transformed:
+                    if item[0][:len(this)] == this:
+                        all_names.append(item[0])
+        del temp_loader
+        return sorted(all_names)
 
 
 class Logging:
