@@ -22,7 +22,10 @@ class Chord:
         if tonic:
             root_pitch = root_to_pitch_low[str_to_root[tonic]]
         else:
-            root_pitch = root_to_pitch_low[str_to_root[self.root]]
+            if self.root != -1:
+                root_pitch = root_to_pitch_low[str_to_root[self.root]]
+            else:
+                return []
         if self.type != -1:
             pitch_relation = [0] + chord_type_to_pitch_relation[self.type]
         else:

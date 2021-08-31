@@ -124,23 +124,25 @@ class DP:
 
     def __progression_melo_type_match(self, melo_type, prog_type):
 
-        family = ['i', 'a', 'b', 'c', 'o', 'x']
+        family = ['i', 'a', 'b', 'c', 'o', 'x', 'd']
         progression_type_family = {
             'i': ['fadein', 'intro', 'intro-b', 'pre-verse'],
             'a': ['verse'],
             'b': ['prechorus', 'pre-chorus', 'refrain', 'chorus'],
             'c': ['trans', 'transition', 'bridge'],
             'o': ['fadeout', 'outro', 'coda', 'ending'],
-            'x': ['instrumental', 'interlude', 'solo']
+            'x': ['instrumental', 'interlude', 'solo'],
+            'd': ['instrumental', 'interlude', 'solo']
         }
         # row: melo_type; col: prog_type
         family_shift_confidence_level = [
-            [1, 0.4, 0.3, 0.4, 0.9, 0.3],
-            [0.7, 1, 0.6, 0.6, 0.7, 0.5],
-            [0.3, 0.4, 1, 0.6, 0.3, 0.5],
-            [0.3, 0.4, 0.6, 1, 0.3, 0.5],
-            [0.9, 0.7, 0.3, 0.4, 1, 0.3],
-            [0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+            [1, 0.4, 0.3, 0.4, 0.9, 0.3, 0.3],
+            [0.7, 1, 0.6, 0.6, 0.7, 0.5, 0.5],
+            [0.3, 0.4, 1, 0.6, 0.3, 0.5, 0.5],
+            [0.3, 0.4, 0.6, 1, 0.3, 0.5, 0.5],
+            [0.9, 0.7, 0.3, 0.4, 1, 0.3, 0.3],
+            [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+            [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
         ]
         for item in progression_type_family.items():
             if prog_type in item[1]:
@@ -278,8 +280,8 @@ if __name__ == '__main__':
     # load midi
     pop909_loader = MIDILoader(files='POP909')
     pop909_loader.config(output_form='number')
-    melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with='029')
-    print(melo_source_name)
+    melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with='038')
+    Logging.debug('melo_source_name: ', melo_source_name)
     test_melo = [pop909_loader.get(name=i) for i in melo_source_name]
     test_melo_meta = {
         'tonic': '',
@@ -287,7 +289,6 @@ if __name__ == '__main__':
         'mode': 'maj',
         'pos': [name[6] for name in melo_source_name]
     }
-    print(test_melo)
     my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions())
     my_dp_model.solve()
     print_progression_list(my_dp_model.get_progression())
