@@ -2,9 +2,11 @@ import copy
 import random
 from typing import List, Union
 import numpy as np
+import pretty_midi
+
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
-from utils.utils import MIDILoader, Logging, listen
+from utils.utils import MIDILoader, Logging, listen, combine_ins
 from utils.structured import major_map_backward, minor_map_backward
 
 
@@ -63,7 +65,7 @@ class DP:
                     previous = [weight * self._dp[i - 1][t][1]
                                 + (1 - weight) * self.transition_score(melo_meta['pos'], templates[i][j][1],
                                                                        templates[i - 1][t][1])
-                                for t in range(min([self.max_num, len(templates[i-1])]))]
+                                for t in range(min([self.max_num, len(templates[i - 1])]))]
                     max_previous = max(previous)
                     max_previous_index = previous.index(max(previous))
                     path_l = copy.copy(self._dp[i - 1][max_previous_index][0])
@@ -75,7 +77,6 @@ class DP:
         # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
         max_score = max([self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))])
         best_score = max_score / len(self.melo)
-        print(best_score)
         # find the path，
         last_index = [self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))].index(max_score)
         result_path_index = self._dp[-1][last_index][0]
@@ -251,8 +252,26 @@ class DP:
         picked_prog = [i[1] for i in self.result[0]]
         return picked_prog
 
-    def get_progression_join_as_midi(self):
-        pass
+    def get_progression_join_as_midi(self, tonic=None):
+        progressions = self.get_progression()
+        if not tonic:
+            tonic = self.melo_meta['tonic']
+        if tonic == '':
+            Logging.error('DP.get_progression_join_as_midi: Cannot convert progressions into midi until tonic is '
+                          'assigned!')
+            return None
+        midis = [progression.to_midi(tonic=tonic) for progression in progressions]
+        lens = [len(progression) for progression in progressions]
+        ins = pretty_midi.Instrument(program=0)
+        shift = 0
+        for i in range(len(midis)):
+            notes = midis[i].instruments[0].notes
+            for note in notes:
+                note.start += shift
+                note.end += shift
+                ins.notes.append(note)
+            shift += lens[i] * 0.25
+        return ins
 
 
 if __name__ == '__main__':
@@ -275,5 +294,6 @@ if __name__ == '__main__':
     my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions()[:1000])
     my_dp_model.solve()
     print_progression_list(my_dp_model.get_progression())
-
-
+    chord_ins = my_dp_model.get_progression_join_as_midi(tonic='C')
+    melo_ins = MIDILoader.melo_to_midi([i for item in test_melo for i in item])
+    combine_ins(melo_ins,chord_ins).write('test1.mid')

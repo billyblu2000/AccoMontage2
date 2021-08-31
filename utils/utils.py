@@ -17,7 +17,7 @@ except Exception as e:
         warnings.warn('Could not import FluidSynth, this will disabled the listen function')
     fs_exist = False
 
-from utils.structured import str_to_root, root_to_str
+from utils.structured import str_to_root, root_to_str, root_to_pitch, major_map_backward
 from utils.string import STATIC_DIR, RESOURCE_DIR, BASE_DIR
 
 
@@ -458,6 +458,18 @@ class MIDILoader:
         if num == 1:
             sampled = sampled[0]
         return sampled
+
+    @staticmethod
+    def melo_to_midi(melo, tonic='C'):
+        ins = Instrument(program=0)
+        cursor = 0
+        for i in melo:
+            root = major_map_backward[i]
+            if root != -1:
+                pitch = root_to_pitch[root]
+                ins.notes.append(Note(start=cursor, end=cursor + 0.125, pitch=pitch, velocity=60))
+            cursor += 0.125
+        return ins
 
 
 class Logging:
