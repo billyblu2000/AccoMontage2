@@ -2,64 +2,86 @@
 # imports
 # #######
 from pretty_midi import PrettyMIDI
-
+from matplotlib import pyplot as plt
 from settings import *
-from chords.ChordProgression import read_progressions
+from chords.ChordProgression import read_progressions, print_progression_list
+from utils.constants import DENSE, SPARSE
 
-from utils.utils import MIDILoader, listen, Logging
+from utils.utils import MIDILoader, listen, Logging, pick_progressions, np
 
-# this function will analyze the billboard original data and store the result in 'progression.txt'
+# this function will analyze the billboard original data and store the result in 'progression_with_type.pk'
 # process_data()
 
-# POP909 = 'progressions_from_pop909.txt'
-# DEFAULT = 'progressions.txt'
-#
-# # get melody
-# melos = MIDILoader()
-# melos.config(output_form='number')
-# melo = melos.get(name='6.mid')
-#
-# # pickout all progressions with metre = 4/4 and bars = 8
-# prog_list = read_progressions(progression_file=DEFAULT)
-# new = []
+prog_list = read_progressions()
+
+
+def calculate_density(prog, WINDOW=None):
+    if WINDOW is None:
+        WINDOW = len(prog.progression[0])
+    K = 0
+    corre_with_k = {}
+    progression = prog.get(only_root=True, flattened=True)
+    if WINDOW >= len(progression):
+        if WINDOW > 10:
+            return 0, 0
+        else:
+            return -1, len(progression)
+    try:
+        while True:
+
+            x, y = [], []
+            K += WINDOW
+            if K > len(progression) // 2:
+                break
+            for i in range(len(progression) // WINDOW):
+                x.append(progression[i * WINDOW:(i + 1) * WINDOW])
+                y.append(progression[i * WINDOW + K:(i + 1) * WINDOW + K])
+                if (i + 1) * WINDOW + K == len(progression):
+                    break
+            x = np.array(x).transpose()
+            y = np.array(y).transpose()
+            i = 0
+            while True:
+                x_row = x[i]
+                y_row = y[i]
+                if len(np.unique(x_row)) == 1 or len(np.unique(y_row)) == 1:
+                    x = np.delete(x, i, axis=0)
+                    y = np.delete(y, i, axis=0)
+                else:
+                    i += 1
+                if i >= len(x):
+                    break
+            corre_mat = np.corrcoef(x, y)
+            avg_corre = 0
+            for i in range(len(x)):
+                avg_corre += corre_mat[i, i + len(x)]
+            corre_with_k[K] = avg_corre / len(x)
+        max_corre = -1
+        max_k = 0
+        for item in corre_with_k.items():
+            if item[1] > max_corre:
+                max_corre = item[1]
+                max_k = item[0]
+            elif item[1] == max_corre:
+                if item[0] < max_k:
+                    max_k = item[0]
+        # print("Max autocorrelation {c} with K = {k}".format(c=max(value), k=max_k))
+        return max_corre, max_k
+    except Exception as e:
+        return calculate_density(prog, WINDOW=WINDOW * 2)
+
+
+index = 10
+print(prog_list[index])
+print(calculate_density(prog_list[index]))
+# count_dict = {}
 # for i in prog_list:
-#     if len(i.progression) == 8 and len(i.progression[0]) == 8:
-#         new.append(i)
-#
-# # model parameters
-# score = {
-#     0: 1, 1: 0.5, 2: 0.8, 3: 0.5, 4: 0.9, 5: 0.5, 6: 0.7,
-#     0.5: 0.2, 1.5: 0.2, 2.5: 0.2, 3.5: 0.2, 4.5: 0.2, 5.5: 0.2, 6.5: 0.2, 7: 0.2  # strange chords, give smaller weight
-# }
-#
-# # compute score for each progression
-# progression_score = []
-# for progression in new:
-#     i = 0
-#     tot_score = 0
-#     for chord in progression:
-#         temp_score = 0
-#         if melo[i] < chord:
-#             temp_score += score[melo[i] + 7 - chord]
-#         else:
-#             print(melo[i], chord)
-#             temp_score += score[melo[i] - chord]
-#         if melo[i + 1] < chord:
-#             temp_score += score[melo[i + 1] + 7 - chord]
-#         else:
-#             temp_score += score[melo[i + 1] - chord]
-#         temp_score /= 2
-#         tot_score += temp_score
-#         i += 2
-#         if i > len(melo) - 2:
-#             tot_score /= (i) // 2
-#             progression_score.append((tot_score, progression))
-#             break
-#
-# # pick out the progression with max score
-# pure_score = [i[0] for i in progression_score]
-# max_index = pure_score.index(max(pure_score))
-# max_progression = progression_score[max_index][1]
-# print(max_progression.progression)
-# print(melo)
-pass
+#     cyc = len(i)
+#     if cyc in count_dict.keys():
+#         count_dict[cyc] += 1
+#     else:
+#         count_dict[cyc] = 1
+# x = sorted(list(count_dict.keys()))
+# y = [count_dict[i] for i in x]
+# plt.bar(x, y)
+# plt.show()

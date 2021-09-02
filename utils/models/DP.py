@@ -231,27 +231,27 @@ class DP:
 
     # transition prob between i-th phrase and (i-1)-th
     def transition_score(self, i, cur_template, prev_template):
-        pass
+        return 0.4 + random.random() / 0.5
 
         # 计算和弦变换速度是否匹配
-        prev_duration = 1
-        for i in range(len(prev_template.progression[-1])):
-            if prev_template.progression[-1][i] == prev_template.progression[-1][i - 1]:
-                prev_duration += 1
-            else:
-                break
-
-        cur_duration = 1
-        for i in range(len(cur_template.progression[0])):
-            if cur_template.progression[0][i] == cur_template.progression[0][i - 1]:
-                cur_duration += 1
-            else:
-                break
-
-        duration_match = cur_duration - prev_duration
-
-        # first bar of cur cp and last bar of prev cp 接在一起对这两个小节做中观打分
-        transition_bars = prev_template.progression[-1] + cur_template.progression[0]
+        # prev_duration = 1
+        # for i in range(len(prev_template.progression[-1])):
+        #     if prev_template.progression[-1][i] == prev_template.progression[-1][i - 1]:
+        #         prev_duration += 1
+        #     else:
+        #         break
+        #
+        # cur_duration = 1
+        # for i in range(len(cur_template.progression[0])):
+        #     if cur_template.progression[0][i] == cur_template.progression[0][i - 1]:
+        #         cur_duration += 1
+        #     else:
+        #         break
+        #
+        # duration_match = cur_duration - prev_duration
+        #
+        # # first bar of cur cp and last bar of prev cp 接在一起对这两个小节做中观打分
+        # transition_bars = prev_template.progression[-1] + cur_template.progression[0]
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:

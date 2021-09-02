@@ -82,12 +82,12 @@ class ChordProgression:
     # all progression getters
 
     def get(self, only_degree=False, flattened=False, only_root=False):
-        if only_root:
+        if only_root:  # element is a number
             if flattened:
                 return self.get_chord_progression_only_root_flattened()
             else:
                 return self.get_chord_progression_only_root()
-        elif only_degree:
+        elif only_degree:  # element is a Chord class, but Chord.root is a number
             if flattened:
                 return self.get_chord_progression_only_degree_flattened()
             else:

@@ -218,7 +218,7 @@ def pick_progressions(*args, **kwargs):
             WINDOW = len(prog.progression[0])
         K = 0
         corre_with_k = {}
-        progression = [i for i in prog]
+        progression = prog.get(only_root=True, flattened=True)
         if WINDOW >= len(progression):
             if WINDOW > 10:
                 return 0, 0
