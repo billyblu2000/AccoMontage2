@@ -2,23 +2,24 @@ import logging
 import pickle
 import random
 import time
-import warnings
 
 from pretty_midi import *
 
+import utils.constants
+import utils.structured
+import utils.string
 from settings import SHOW_WARNINGS
-from utils.constants import SHORT, LONG, DENSE, SPARSE
 
-fs_exist = True
 try:
     from midi2audio import FluidSynth
-except Exception as e:
+except ImportError as e:
+    FluidSynth = None
+
+fs_exist = True
+if FluidSynth is None:
+    fs_exist = False
     if SHOW_WARNINGS:
         warnings.warn('Could not import FluidSynth, this will disabled the listen function')
-    fs_exist = False
-
-from utils.structured import str_to_root, root_to_str, root_to_pitch, major_map_backward
-from utils.string import STATIC_DIR, RESOURCE_DIR, BASE_DIR
 
 
 def nmat2ins(nmat, program=0, tempo=120, sixteenth_notes_in_bar=16) -> Instrument:
@@ -139,8 +140,8 @@ def get_melo_notes_from_midi(midi: PrettyMIDI, beat_audio, melo_track=0):
 # e.g., the order of F in C major is 4
 # mode : M for major and m for minor
 def compute_distance(tonic, this, mode='M'):
-    tonic_pitch = str_to_root[tonic]
-    this_pitch = str_to_root[this]
+    tonic_pitch = utils.structured.str_to_root[tonic]
+    this_pitch = utils.structured.str_to_root[this]
     pitch_distance = this_pitch - tonic_pitch
     if pitch_distance < 0:
         pitch_distance += 12
@@ -193,15 +194,15 @@ def listen_pitches(midi_pitch: list, time, instrument=0):
 def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + ".wav"):
     if not fs_exist:
         warnings.warn('FluidSynth not installed!')
-    midi.write(STATIC_DIR + "audio/" + "midi.mid")
-    fs = FluidSynth(sound_font=BASE_DIR + '.fluidsynth/default_sound_font.sf2')
+    midi.write(utils.string.STATIC_DIR + "audio/" + "midi.mid")
+    fs = FluidSynth(sound_font=utils.string.BASE_DIR + '.fluidsynth/default_sound_font.sf2')
     date = time.strftime("%Y-%m-%d", time.localtime()) + "/"
     try:
-        os.makedirs(STATIC_DIR + "audio/" + date)
+        os.makedirs(utils.string.STATIC_DIR + "audio/" + date)
     except:
         pass
-    fs.midi_to_audio(STATIC_DIR + "audio/" + "midi.mid", STATIC_DIR + "audio/" + date + out)
-    os.remove(STATIC_DIR + "audio/" + "midi.mid")
+    fs.midi_to_audio(utils.string.STATIC_DIR + "audio/" + "midi.mid", utils.string.STATIC_DIR + "audio/" + date + out)
+    os.remove(utils.string.STATIC_DIR + "audio/" + "midi.mid")
 
 
 def pick_progressions(*args, **kwargs):
@@ -269,16 +270,16 @@ def pick_progressions(*args, **kwargs):
 
     new_list = []
     for i in prog_list:
-        if SHORT in args:
+        if utils.constants.SHORT in args:
             if len(i) > PICKING_PARAMS['long_short']:
                 continue
-        if LONG in args:
+        if utils.constants.LONG in args:
             if len(i) <= PICKING_PARAMS['long_short']:
                 continue
-        if DENSE in args:
+        if utils.constants.DENSE in args:
             if calculate_density(i)[1] > PICKING_PARAMS['dense_sparse']:
                 continue
-        if SPARSE in args:
+        if utils.constants.SPARSE in args:
             if calculate_density(i)[1] <= PICKING_PARAMS['dense_sparse']:
                 continue
         new_list.append(i)
@@ -287,7 +288,7 @@ def pick_progressions(*args, **kwargs):
 
 class MIDILoader:
 
-    def __init__(self, midi_dir=STATIC_DIR + 'midi/', files="*"):
+    def __init__(self, midi_dir=utils.string.STATIC_DIR + 'midi/', files="*"):
         self.midi_dir = midi_dir
         self.midis = []
         self.transformed = []
@@ -313,7 +314,7 @@ class MIDILoader:
     def load_midis(self, files):
         if files == 'POP909':
             Logging.info("loading melodies, please wait for a few seconds...")
-            data = pickle.load(open(RESOURCE_DIR + 'phrase_split_data/melodies.pk', 'rb'))
+            data = pickle.load(open(utils.string.RESOURCE_DIR + 'phrase_split_data/melodies.pk', 'rb'))
             Logging.info("melodies loaded.")
             self.midis = data['midi']
             self.transformed = data['melo']
@@ -328,10 +329,10 @@ class MIDILoader:
                             try:
                                 key_number = midi.key_signature_changes[0].key_number
                                 if key_number >= 12:
-                                    tonic = root_to_str[key_number - 12]
+                                    tonic = utils.structured.root_to_str[key_number - 12]
                                     mode = 'min'
                                 else:
-                                    tonic = root_to_str[key_number]
+                                    tonic = utils.structured.root_to_str[key_number]
                                     mode = 'maj'
                             except:
                                 tonic = 'C'
@@ -344,10 +345,10 @@ class MIDILoader:
                             try:
                                 key_number = midi.key_signature_changes[0].key_number
                                 if key_number >= 12:
-                                    tonic = root_to_str[key_number - 12]
+                                    tonic = utils.structured.root_to_str[key_number - 12]
                                     mode = 'min'
                                 else:
-                                    tonic = root_to_str[key_number]
+                                    tonic = utils.structured.root_to_str[key_number]
                                     mode = 'maj'
                             except:
                                 tonic = 'C'
@@ -358,10 +359,10 @@ class MIDILoader:
                     try:
                         key_number = midi.key_signature_changes[0].key_number
                         if key_number >= 12:
-                            tonic = root_to_str[key_number - 12]
+                            tonic = utils.structured.root_to_str[key_number - 12]
                             mode = 'min'
                         else:
-                            tonic = root_to_str[key_number]
+                            tonic = utils.structured.root_to_str[key_number]
                             mode = 'maj'
                     except:
                         tonic = 'C'
@@ -401,7 +402,7 @@ class MIDILoader:
             0: 1, 1: 1.5, 2: 2, 3: 3, 4: 3.5, 5: 4, 6: 4.5, 7: 5, 8: 6, 9: 6.5, 10: 7, 11: 7.5
         }
         for midi in self.transformed:
-            tonic_index = str_to_root[midi[1]]
+            tonic_index = utils.structured.str_to_root[midi[1]]
             note_list = []
             map = major_map if midi[3] == 'maj' else minor_map
             for pitch in midi[5]:
@@ -459,8 +460,25 @@ class MIDILoader:
             sampled = sampled[0]
         return sampled
 
+    def get_full_midi_ins_from_pop909(self, index: str, change_key_to=None):
+        self.config(output_form='pitch')
+        all_names = MIDILoader.auto_find_pop909_source_name(start_with=index)
+        full_melo = []
+        for name in all_names:
+            full_melo += self.get(name=name)
+        if change_key_to:
+            pass
+
     @staticmethod
-    def melo_to_midi(melo, tonic='C'):
+    def key_changer(melo, ori_key, des_key):
+        distance = utils.structured.str_to_root[ori_key] - utils.structured.str_to_root[des_key]
+        if distance < 0:
+            distance += 12
+        melo = [i + distance for i in melo]
+        return melo
+
+    @staticmethod
+    def melo_to_midi(melo, tonic='C', unit=0.125):
         # ins = Instrument(program=0)
         # cursor = 0
         # for i in melo:
@@ -474,23 +492,23 @@ class MIDILoader:
         start = 0
         for i in range(len(melo)):
             if i == len(melo) - 1:
-                note = Note(pitch=current_pitch, velocity=80, start=start * 0.125, end=(i + 1) * 0.125)
+                note = Note(pitch=current_pitch, velocity=80, start=start * unit, end=(i + 1) * 0.125)
                 ins.notes.append(note)
                 break
             if melo[i + 1] != melo[i]:
                 if current_pitch is not 0:
-                    note = Note(pitch=current_pitch, velocity=80, start=start * 0.125, end=(i + 1) * 0.125)
+                    note = Note(pitch=current_pitch, velocity=80, start=start * unit, end=(i + 1) * 0.125)
                     ins.notes.append(note)
-                current_pitch = MIDILoader.__melo_number_to_pitch(melo[i+1])
+                current_pitch = MIDILoader.__melo_number_to_pitch(melo[i + 1])
                 start = i + 1
 
         return ins
 
     @staticmethod
     def __melo_number_to_pitch(number):
-        root = major_map_backward[number]
+        root = utils.structured.major_map_backward[number]
         if root != -1:
-            pitch = root_to_pitch[root]
+            pitch = utils.structured.root_to_pitch[root]
             return pitch
         else:
             return 0

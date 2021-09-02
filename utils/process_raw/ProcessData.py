@@ -1,4 +1,5 @@
 import os
+import pickle
 
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression
@@ -204,7 +205,7 @@ def l2s(lst):
     return str_
 
 
-def process_data():
+def process_data(save):
     dir = RESOURCE_DIR + "billboard/McGill-Billboard/"
     prog_list, error_num, total_num = [], 0, 0
     for location in os.walk(top=dir):
@@ -244,15 +245,18 @@ def process_data():
             for i in prog_list:
                 if i._progression == progression._progression:
                     prog_list.remove(i)
-    print(1)
+
     # save progressions
-    progression_file = open(STATIC_DIR + "progressions_with_type.txt", "w")
-    for progression in prog_list:
-        progression_file.write(str(progression) + "\n")
-    progression_file.close()
+    if save == 'pk':
+        file = open('progressions_with_type.pk', 'bw')
+        pickle.dump(prog_list, file, 1)
+    if save == 'txt':
+        progression_file = open(STATIC_DIR + "progressions_with_type.txt", "w")
+        for progression in prog_list:
+            progression_file.write(str(progression) + "\n")
+        progression_file.close()
     print("progressions:", len(prog_list))
-    print(1)
 
 
 if __name__ == '__main__':
-    process_data()
+    process_data(save='pk')

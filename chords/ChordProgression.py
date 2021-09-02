@@ -1,3 +1,4 @@
+import pickle
 from typing import List
 
 from pretty_midi import PrettyMIDI, Instrument, Note
@@ -5,7 +6,7 @@ from pretty_midi import PrettyMIDI, Instrument, Note
 from chords.Chord import Chord
 from utils.process_raw.ProcessDataUtils import type_dict
 from utils.structured import str_to_root, root_to_str, major_map, major_map_backward
-from utils.string import STATIC_DIR
+from utils.string import STATIC_DIR, RESOURCE_DIR
 from utils.utils import compute_distance, compute_destination, Logging
 from utils.constants import *
 
@@ -266,105 +267,112 @@ class ChordProgression:
         return str(value) if value is not None else 'None'
 
 
-def read_progressions(progression_file='progressions_with_type.txt'):
+def read_progressions(progression_file='progressions_with_type.pk'):
     Logging.info('start read progressions from {f}'.format(f=progression_file))
-    file = open(STATIC_DIR + progression_file, "r")
-    progression_list = []
-    progression = ChordProgression()
-    for line in file.readlines():
-        if line == "\n":
-            progression_list.append(progression)
-            continue
-        if line == "Chord Progression\n":
-            progression = ChordProgression()
-            continue
-        if "-Source:" in line:
-            progression.set_source(line.split(":")[1].strip())
-            continue
-        if "-Source Type:" in line:
-            progression.set_type(line.split(":")[1].strip())
-            continue
-        if "-Source Tonic:" in line:
-            progression.set_tonic(line.split(":")[1].strip())
-            continue
-        if "-Source Metre:" in line:
-            progression.set_metre(line.split(":")[1].strip())
-            continue
-        if "-Source Mode:" in line:
-            progression.set_mode(line[14])
-            continue
-        if "-Appeared Times:" in line:
-            progression.set_appeared_time(int(line.split(":")[1].strip()))
-        if "-Appeared In Other Songs:" in line:
-            progression.set_appeared_in_other_songs(int(line.split(":")[1].strip()))
-        if "-Reliability:" in line:
-            progression.set_reliability(int(line.split(":")[1].strip()))
-        if "-Progression Class:" in line:
-            progression.set_progression_class(line.split(":")[1].strip())
+    if progression_file[-1] == 't':
+        file = open(STATIC_DIR + progression_file, "r")
+        progression_list = []
+        progression = ChordProgression()
+        for line in file.readlines():
+            if line == "\n":
+                progression_list.append(progression)
+                continue
+            if line == "Chord Progression\n":
+                progression = ChordProgression()
+                continue
+            if "-Source:" in line:
+                progression.set_source(line.split(":")[1].strip())
+                continue
+            if "-Source Type:" in line:
+                progression.set_type(line.split(":")[1].strip())
+                continue
+            if "-Source Tonic:" in line:
+                progression.set_tonic(line.split(":")[1].strip())
+                continue
+            if "-Source Metre:" in line:
+                progression.set_metre(line.split(":")[1].strip())
+                continue
+            if "-Source Mode:" in line:
+                progression.set_mode(line[14])
+                continue
+            if "-Appeared Times:" in line:
+                progression.set_appeared_time(int(line.split(":")[1].strip()))
+            if "-Appeared In Other Songs:" in line:
+                progression.set_appeared_in_other_songs(int(line.split(":")[1].strip()))
+            if "-Reliability:" in line:
+                progression.set_reliability(int(line.split(":")[1].strip()))
+            if "-Progression Class:" in line:
+                progression.set_progression_class(line.split(":")[1].strip())
 
-        # read from chord
-        # if "|" in line and line[2].isdigit():
-        #     line_split = line.split("|")
-        #     for segment in line_split:
-        #         if segment.strip() == "" or segment.strip() == "\n":
-        #             continue
-        #         bar_chord = []
-        #         memo = -1
-        #         segment = segment[1:-1]
-        #         for char in segment:
-        #             if char.isdigit():
-        #                 if type(memo) is str:
-        #                     bar_chord.append(float(memo + char))
-        #                     memo = float(memo + char)
-        #                 else:
-        #                     bar_chord.append(int(char))
-        #                     memo = int(char)
-        #             if char == "-":
-        #                 bar_chord.append(memo)
-        #             if char == ".":
-        #                 bar_chord = bar_chord[:-1]
-        #                 memo = str(memo) + "."
-        #         progression.progression.append(bar_chord)
-        if "|" in line and line != '| \n' and line != '|\n' and not line[2].isdigit():
-            line_split = line.split("|")
-            for segment in line_split:
-                if segment.strip() == "" or segment.strip() == "\n":
-                    continue
-                bar_chord = []
-                memo = -1
-                segment = segment[1:-1]
-                segment_split = segment.split('-')
-                for chord_str in segment_split:
-                    if chord_str == '':
-                        if memo == '???':
+            # read from chord
+            # if "|" in line and line[2].isdigit():
+            #     line_split = line.split("|")
+            #     for segment in line_split:
+            #         if segment.strip() == "" or segment.strip() == "\n":
+            #             continue
+            #         bar_chord = []
+            #         memo = -1
+            #         segment = segment[1:-1]
+            #         for char in segment:
+            #             if char.isdigit():
+            #                 if type(memo) is str:
+            #                     bar_chord.append(float(memo + char))
+            #                     memo = float(memo + char)
+            #                 else:
+            #                     bar_chord.append(int(char))
+            #                     memo = int(char)
+            #             if char == "-":
+            #                 bar_chord.append(memo)
+            #             if char == ".":
+            #                 bar_chord = bar_chord[:-1]
+            #                 memo = str(memo) + "."
+            #         progression.progression.append(bar_chord)
+            if "|" in line and line != '| \n' and line != '|\n' and not line[2].isdigit():
+                line_split = line.split("|")
+                for segment in line_split:
+                    if segment.strip() == "" or segment.strip() == "\n":
+                        continue
+                    bar_chord = []
+                    memo = -1
+                    segment = segment[1:-1]
+                    segment_split = segment.split('-')
+                    for chord_str in segment_split:
+                        if chord_str == '':
+                            if memo == '???':
+                                my_chord = Chord(root=-1, attr=[-1, -1, -1, -1])
+                            elif memo[2] == '?':
+                                if memo[1] == ' ':
+                                    my_chord = Chord(root=memo[0], attr=[-1, -1, -1, -1])
+                                else:
+                                    my_chord = Chord(root=memo[0:2], attr=[-1, -1, -1, -1])
+                            else:
+                                if memo[1] == ' ':
+                                    my_chord = Chord(root=memo[0], attr=[int(memo[2]), -1, -1, -1])
+                                else:
+                                    my_chord = Chord(root=memo[0:2], attr=[int(memo[2]), -1, -1, -1])
+                        elif chord_str == '???':
                             my_chord = Chord(root=-1, attr=[-1, -1, -1, -1])
-                        elif memo[2] == '?':
-                            if memo[1] == ' ':
-                                my_chord = Chord(root=memo[0], attr=[-1, -1, -1, -1])
+                            memo = chord_str
+                        elif chord_str[2] == '?':
+                            if chord_str[1] == ' ':
+                                my_chord = Chord(root=chord_str[0], attr=[-1, -1, -1, -1])
                             else:
-                                my_chord = Chord(root=memo[0:2], attr=[-1, -1, -1, -1])
+                                my_chord = Chord(root=chord_str[0:2], attr=[-1, -1, -1, -1])
+                            memo = chord_str
                         else:
-                            if memo[1] == ' ':
-                                my_chord = Chord(root=memo[0], attr=[int(memo[2]), -1, -1, -1])
+                            if chord_str[1] == ' ':
+                                my_chord = Chord(root=chord_str[0], attr=[int(chord_str[2]), -1, -1, -1])
                             else:
-                                my_chord = Chord(root=memo[0:2], attr=[int(memo[2]), -1, -1, -1])
-                    elif chord_str == '???':
-                        my_chord = Chord(root=-1, attr=[-1, -1, -1, -1])
-                        memo = chord_str
-                    elif chord_str[2] == '?':
-                        if chord_str[1] == ' ':
-                            my_chord = Chord(root=chord_str[0], attr=[-1, -1, -1, -1])
-                        else:
-                            my_chord = Chord(root=chord_str[0:2], attr=[-1, -1, -1, -1])
-                        memo = chord_str
-                    else:
-                        if chord_str[1] == ' ':
-                            my_chord = Chord(root=chord_str[0], attr=[int(chord_str[2]), -1, -1, -1])
-                        else:
-                            my_chord = Chord(root=chord_str[0:2], attr=[int(chord_str[2]), -1, -1, -1])
-                        memo = chord_str
-                    bar_chord.append(my_chord)
-                progression.progression = progression._progression + [bar_chord]
+                                my_chord = Chord(root=chord_str[0:2], attr=[int(chord_str[2]), -1, -1, -1])
+                            memo = chord_str
+                        bar_chord.append(my_chord)
+                    progression.progression = progression._progression + [bar_chord]
+    elif progression_file[-1] == 'k':
+        file = open(STATIC_DIR + progression_file, "r")
+        progression_list = pickle.load(open(STATIC_DIR + 'progressions_with_type.pk', 'rb'))
+    else:
+        Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
+        return None
     Logging.info('read progressions done')
     return progression_list
 

@@ -37,7 +37,7 @@ class DP:
         self.melo = self.__split_melody(melo)  # melo : List(List) 是整首歌的melo
         self.melo_meta = self.__handle_meta(melo_meta)
         self.templates = templates
-        self.max_num = 300  # 每一个phrase所对应chord progression的最多数量
+        self.max_num = 700  # 每一个phrase所对应chord progression的最多数量
         self._dp = np.array(
             [[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
         self.solved = False
@@ -280,7 +280,8 @@ if __name__ == '__main__':
     # load midi
     pop909_loader = MIDILoader(files='POP909')
     pop909_loader.config(output_form='number')
-    melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with='038')
+    index = '170'
+    melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with=index)
     Logging.debug('melo_source_name: ', melo_source_name)
     test_melo = [pop909_loader.get(name=i) for i in melo_source_name]
     test_melo_meta = {
@@ -289,9 +290,10 @@ if __name__ == '__main__':
         'mode': 'maj',
         'pos': [name[6] for name in melo_source_name]
     }
+    Logging.debug(test_melo)
     my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions())
     my_dp_model.solve()
     print_progression_list(my_dp_model.get_progression())
     chord_ins = my_dp_model.get_progression_join_as_midi(tonic='C')
-    melo_ins = MIDILoader.melo_to_midi([i for item in test_melo for i in item])
+    melo_ins = MIDILoader.melo_to_midi([i for seg in test_melo for i in seg])
     combine_ins(melo_ins,chord_ins).write('test1.mid')

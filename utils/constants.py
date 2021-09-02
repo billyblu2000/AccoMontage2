@@ -45,6 +45,9 @@ ADD9 = 1
 ADD69 = 2
 ADD11 = 3
 ADD13 = 4
+ADDb7 = 5
+ADD911 = 6
+ADD91113 = 7
 
 # ############
 # Progressions
