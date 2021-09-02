@@ -37,7 +37,7 @@ class DP:
         self.melo = self.__split_melody(melo)  # melo : List(List) 是整首歌的melo
         self.melo_meta = self.__handle_meta(melo_meta)
         self.templates = templates
-        self.max_num = 700  # 每一个phrase所对应chord progression的最多数量
+        self.max_num = 200  # 每一个phrase所对应chord progression的最多数量
         self._dp = np.array(
             [[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
         self.solved = False
@@ -58,7 +58,7 @@ class DP:
             templates.append(self.pick_templates(melo, melo_meta))
             for j in range(len(templates[i])):
                 if i == 0:
-                    self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j]))
+                    self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j][1]))
                 else:
                     # max_previous = max([self._dp[i - 1][t]
                     #                     + self.transition_score(i, templates[i][j], templates[i][t]) for t in range(self.max_num)])
@@ -71,7 +71,7 @@ class DP:
                     path_l = copy.copy(self._dp[i - 1][max_previous_index][0])
                     path_l.append(j)
                     self._dp[i][j] = (
-                        path_l, self.phrase_template_score(self.melo[i], templates[i][j]) + max_previous)
+                        path_l, self.phrase_template_score(self.melo[i], templates[i][j][1]) + max_previous)
             Logging.debug('dp with i = {}: '.format(i), self._dp[i])
 
         # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
@@ -124,25 +124,22 @@ class DP:
 
     def __progression_melo_type_match(self, melo_type, prog_type):
 
-        family = ['i', 'a', 'b', 'c', 'o', 'x', 'd']
+        family = ['i', 'a', 'b', 'c', 'o', 'x']
         progression_type_family = {
             'i': ['fadein', 'intro', 'intro-b', 'pre-verse'],
             'a': ['verse'],
             'b': ['prechorus', 'pre-chorus', 'refrain', 'chorus'],
             'c': ['trans', 'transition', 'bridge'],
             'o': ['fadeout', 'outro', 'coda', 'ending'],
-            'x': ['instrumental', 'interlude', 'solo'],
-            'd': ['instrumental', 'interlude', 'solo']
+            'x': ['instrumental', 'interlude', 'solo']
         }
-        # row: melo_type; col: prog_type
         family_shift_confidence_level = [
-            [1, 0.4, 0.3, 0.4, 0.9, 0.3, 0.3],
-            [0.7, 1, 0.6, 0.6, 0.7, 0.5, 0.5],
-            [0.3, 0.4, 1, 0.6, 0.3, 0.5, 0.5],
-            [0.3, 0.4, 0.6, 1, 0.3, 0.5, 0.5],
-            [0.9, 0.7, 0.3, 0.4, 1, 0.3, 0.3],
-            [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
-            [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+            [1, 0.7, 0.3, 0.4, 0.9, 0.3],
+            [0.7, 1, 0.6, 0.6, 0.7, 0.5],
+            [0.3, 0.4, 1, 0.6, 0.3, 0.5],
+            [0.3, 0.4, 0.6, 1, 0.3, 0.5],
+            [0.9, 0.7, 0.3, 0.4, 1, 0.3],
+            [0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
         ]
         for item in progression_type_family.items():
             if prog_type in item[1]:
@@ -154,9 +151,9 @@ class DP:
         return family_shift_confidence_level[family.index(melo_type.lower())][family.index(prog_family)]
 
     # 微观 + 中观
-    def phrase_template_score(self, melo, chord, weight=0.3):
+    def phrase_template_score(self, melo, chord, weight=0.5):
         return weight * self.__match_template_and_pattern(chord) + (1 - weight) * self.__match_melody_and_chord(melo,
-                                                                                                                chord[1])
+                                                                                                                chord)
 
     # 微观
     @staticmethod
@@ -182,10 +179,11 @@ class DP:
                 this_note = [minor_map_backward[melody_list[i * 2]], minor_map_backward[melody_list[i * 2 + 1]]]
             total_score += musical_knowledge[int(this_chord) - 1][this_note[0]] if this_note[0] != -1 else 0.5
             total_score += musical_knowledge[int(this_chord) - 1][this_note[1]] if this_note[1] != -1 else 0.5
+
         return total_score / len(melody_list)
 
     # 中观
-    def __match_template_and_pattern(self, cp) -> float:
+    def __match_template_and_pattern(self, cp: ChordProgression) -> float:
 
         # final_score = 0
         # max_length = min([len(cp), max([len(i) for i in self.templates])])
@@ -201,7 +199,7 @@ class DP:
         #         cursor += 1
         #     length_avg_score = length_total_score / cursor
         #     final_score += (length / weight_denominator) * length_avg_score
-        return cp[0]
+        return 0.5
 
     def __analyze_pattern(self):
         Logging.debug('analyze pattern...')
@@ -233,7 +231,27 @@ class DP:
 
     # transition prob between i-th phrase and (i-1)-th
     def transition_score(self, i, cur_template, prev_template):
-        return 0.4 + random.random() / 5
+        pass
+
+        # 计算和弦变换速度是否匹配
+        prev_duration = 1
+        for i in range(len(prev_template.progression[-1])):
+            if prev_template.progression[-1][i] == prev_template.progression[-1][i - 1]:
+                prev_duration += 1
+            else:
+                break
+
+        cur_duration = 1
+        for i in range(len(cur_template.progression[0])):
+            if cur_template.progression[0][i] == cur_template.progression[0][i - 1]:
+                cur_duration += 1
+            else:
+                break
+
+        duration_match = cur_duration - prev_duration
+
+        # first bar of cur cp and last bar of prev cp 接在一起对这两个小节做中观打分
+        transition_bars = prev_template.progression[-1] + cur_template.progression[0]
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:
@@ -280,9 +298,12 @@ if __name__ == '__main__':
     # load midi
     pop909_loader = MIDILoader(files='POP909')
     pop909_loader.config(output_form='number')
-    index = '170'
-    melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with=index)
-    Logging.debug('melo_source_name: ', melo_source_name)
+    melo_source_name = ['00301_i8',
+                        '00302_A4',
+                        '00303_A4',
+                        '00304_B4',
+                        '00305_B4',
+                        ]
     test_melo = [pop909_loader.get(name=i) for i in melo_source_name]
     test_melo_meta = {
         'tonic': '',
@@ -290,8 +311,7 @@ if __name__ == '__main__':
         'mode': 'maj',
         'pos': [name[6] for name in melo_source_name]
     }
-    Logging.debug(test_melo)
-    my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions())
+    my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions()[:1000])
     my_dp_model.solve()
     print_progression_list(my_dp_model.get_progression())
     chord_ins = my_dp_model.get_progression_join_as_midi(tonic='C')
