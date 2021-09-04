@@ -19,6 +19,12 @@ class ChordProgression:
         self._progression = []
         self.progression_class = {
             'type': 'unknown',  # positions, e.g., 'verse', 'chorus', ...
+            'pattern': 'unknown',  # e.g., 'I-vi-IV-V', ...
+            'cycle': 'unknown',  # 'no-cycle', 'short', 'mid', 'long', ...?
+            'progression-style': 'unknown',  # 'pop', 'edm', 'dark', ...
+            'chord-style': 'unknown',  # 'classy', 'emotional', 'standard'
+            'rhythm': 'unknown',  # 'fast-back-and-force', 'fast-same-time', 'slow'
+            'epic-endings': 'unknown',  # 'True', 'False'
         }
         try:
             self.progression_class['type'] = type_dict[type]
