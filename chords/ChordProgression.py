@@ -1,3 +1,4 @@
+import json
 import pickle
 from typing import List
 
@@ -16,14 +17,16 @@ class ChordProgression:
     def __init__(self, type=None, tonic=None, metre=None, mode=None, source=None):
         self.meta = {"source": source, "type": type, "tonic": tonic, "metre": metre, "mode": mode}
         self._progression = []
+        self.progression_class = {
+            'type': 'unknown',  # positions, e.g., 'verse', 'chorus', ...
+        }
         try:
-            self.type = type_dict[type]
+            self.progression_class['type'] = type_dict[type]
         except:
-            self.type = "unknown"
+            pass
         self.appeared_time = 1
         self.appeared_in_other_songs = 0
         self.reliability = -1
-        self.progression_class = "unknown"
 
     # chords are stored as Chord Class
     # switch to root note and output the progression in a easy-read way
@@ -78,6 +81,14 @@ class ChordProgression:
                     bar_chords.append(chord)
                 prog.append(bar_chords)
             self._progression = prog
+
+    @property
+    def type(self):
+        return self.progression_class['type']
+
+    @type.setter
+    def type(self, new_type):
+        self.progression_class['type'] = new_type
 
     # all progression getters
 
@@ -205,7 +216,7 @@ class ChordProgression:
         self.reliability = reliability
 
     def set_progression_class(self, progression_class):
-        self.progression_class = progression_class
+        self.progression_class = dict(json.loads(progression_class.replace('\'', '"')))
 
     def __iter__(self):
         if self.progression is None:
