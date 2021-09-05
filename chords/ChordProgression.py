@@ -290,7 +290,7 @@ class ChordProgression:
         return str(value) if value is not None else 'None'
 
 
-def read_progressions(progression_file='progressions_with_type.pk'):
+def read_progressions(progression_file='progressions_with_type.pcls'):
     Logging.info('start read progressions from {f}'.format(f=progression_file))
     if progression_file[-1] == 't':
         file = open(STATIC_DIR + progression_file, "r")
@@ -392,7 +392,7 @@ def read_progressions(progression_file='progressions_with_type.pk'):
                     progression.progression = progression._progression + [bar_chord]
     elif progression_file[-1] == 'k':
         file = open(STATIC_DIR + progression_file, "r")
-        progression_list = pickle.load(open(STATIC_DIR + 'progressions_with_type.pk', 'rb'))
+        progression_list = pickle.load(open(STATIC_DIR + 'progressions_with_type.pcls', 'rb'))
     else:
         Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
         return None

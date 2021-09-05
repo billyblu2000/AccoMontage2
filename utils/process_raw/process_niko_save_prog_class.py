@@ -115,6 +115,24 @@ def two_means_clustering(all_appears):
     return min(cls2)
 
 
+def assign_chord(chord_pos, chord_list):
+    if len(chord_pos) == len(chord_list):
+        return {chord_pos[i]: chord_list[i] for i in range(len(chord_pos))}
+    elif len(chord_pos) % len(chord_list) == 0:
+        length = chord_pos[1] - chord_pos[0]
+        if length <= 4:
+            return False
+        for i in range(len(chord_pos)-1):
+            if chord_pos[i+1] - chord_pos[i] != length:
+                break
+        else:
+            return {chord_pos[i]: chord_list[i % len(chord_list)] for i in range(len(chord_pos))}
+        return False
+    else:
+        return False
+
+
+
 if __name__ == '__main__':
     # notes = PrettyMIDI("/Users/billyyi/dataset/Niko/Niko's Ultimate MIDI Pack/B Major - G# Minor/3 - Rest Of "
     #                    "Pack/G#m-D#m-E (vi-iii-IV)/Epic Endings/Niko_Kotoulas_Epic_Ending_1_G#m-D#m-E ("
@@ -129,18 +147,14 @@ if __name__ == '__main__':
                 if file[0] != '.':
                     chord_pos = analyze_progression_pattern(PrettyMIDI(root + '/' + file).instruments[0].notes)
                     final_pattern = analyze_name(file)
-                    if len(final_pattern) != len(chord_pos):
-                        # print(chord_pos, final_pattern)
-                        # print(root)
+                    assign = assign_chord(chord_pos,final_pattern)
+                    if not assign:
                         chord_pos = analyze_progression_pattern(PrettyMIDI(root + '/' + file).instruments[0].notes,
                                                                 merge=True)
-                        if len(final_pattern) != len(chord_pos):
+                        assign = assign_chord(chord_pos, final_pattern)
+                        if not assign:
                             count += 1
-                        else:
-                            print(root + '/' + file)
-                            print(chord_pos, final_pattern)
-                    else:
-                        print(root + '/' + file)
-                        print(chord_pos, final_pattern)
-
+                            continue
+                    print(root+'/'+file)
+                    print(assign)
     print(count)

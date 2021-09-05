@@ -248,7 +248,7 @@ def process_data(save):
 
     # save progressions
     if save == 'pk':
-        file = open('progressions_with_type.pk', 'bw')
+        file = open('progressions_with_type.pcls', 'bw')
         pickle.dump(prog_list, file, 1)
     if save == 'txt':
         progression_file = open(STATIC_DIR + "progressions_with_type.txt", "w")
