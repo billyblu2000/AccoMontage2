@@ -66,6 +66,8 @@ def analyze_name(file):
                 else:
                     part = chord_part
             # print(part)
+            if part[-1] == ')':
+                part = part.rstrip(')')
             final_pattern = part.split('-')
             # print(final_pattern)
             if len(final_pattern) <= 2:
@@ -116,6 +118,8 @@ def two_means_clustering(all_appears):
 
 
 def assign_chord(chord_pos, chord_list):
+    if len(chord_list) == 1:
+        return False
     if len(chord_pos) == len(chord_list):
         return {chord_pos[i]: chord_list[i] for i in range(len(chord_pos))}
     elif len(chord_pos) % len(chord_list) == 0:
@@ -139,6 +143,7 @@ if __name__ == '__main__':
     #                    "vi-iii-IV).mid").instruments[0].notes
     # print(analyze_progression_pattern(notes))
     count = 0
+    inspect_chord = set()
     data_root_dir = "/Users/billyyi/dataset/Niko/Niko's Ultimate MIDI Pack/"
     for root, dirs, files in os.walk(data_root_dir):
         if '2 - Best Chords' in root \
@@ -157,4 +162,8 @@ if __name__ == '__main__':
                             continue
                     print(root+'/'+file)
                     print(assign)
+                    for chord in assign.values():
+                        inspect_chord.add(chord)
     print(count)
+    for i in inspect_chord:
+        print(i)
