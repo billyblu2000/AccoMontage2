@@ -23,8 +23,10 @@ class ChordProgression:
             'cycle': 'unknown',  # 'no-cycle', 'short', 'mid', 'long', ...?
             'progression-style': 'unknown',  # 'pop', 'edm', 'dark', ...
             'chord-style': 'unknown',  # 'classy', 'emotional', 'standard'
+            'performing-style': 'unknown',  # 'arpeggio'
             'rhythm': 'unknown',  # 'fast-back-and-force', 'fast-same-time', 'slow'
             'epic-endings': 'unknown',  # 'True', 'False'
+            'melodic': 'unknown'
         }
         try:
             self.progression_class['type'] = type_dict[type]
@@ -33,6 +35,7 @@ class ChordProgression:
         self.appeared_time = 1
         self.appeared_in_other_songs = 0
         self.reliability = -1
+        self.midi_source = None
 
     # chords are stored as Chord Class
     # switch to root note and output the progression in a easy-read way
