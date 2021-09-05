@@ -14,7 +14,7 @@ from utils.constants import *
 
 class ChordProgression:
 
-    def __init__(self, type=None, tonic=None, metre=None, mode=None, source=None):
+    def __init__(self, type=None, tonic=None, metre=None, mode=None, source=None, saved_in_source_base=False):
         self.meta = {"source": source, "type": type, "tonic": tonic, "metre": metre, "mode": mode}
         self._progression = []
         self.progression_class = {
@@ -35,7 +35,7 @@ class ChordProgression:
         self.appeared_time = 1
         self.appeared_in_other_songs = 0
         self.reliability = -1
-        self.midi_source = None
+        self.saved_in_source_base = saved_in_source_base
 
     # chords are stored as Chord Class
     # switch to root note and output the progression in a easy-read way
@@ -165,27 +165,30 @@ class ChordProgression:
         midi = PrettyMIDI()
         unit_length = 30 / tempo
         ins = Instrument(instrument)
-        current_pos = 0
-        for i in self.get_chord_progression():
-            memo = -1
-            length = 0
-            for j in i:
-                if j == memo:
-                    length += unit_length
-                else:
-                    if memo != -1:
-                        for pitch in memo.to_midi_pitch(tonic=self.__key_changer(self.meta['tonic'], memo.root, tonic)):
-                            note = Note(pitch=pitch, velocity=80, start=current_pos, end=current_pos + length)
-                            ins.notes.append(note)
-                    current_pos += length
-                    length = unit_length
-                    memo = j
-            for pitch in memo.to_midi_pitch(tonic=self.__key_changer(self.meta['tonic'], memo.root, tonic)):
-                note = Note(pitch=pitch, velocity=80, start=current_pos, end=current_pos + length)
-                ins.notes.append(note)
-            current_pos += length
-        midi.instruments.append(ins)
-        return midi
+        if not self.saved_in_source_base:
+            current_pos = 0
+            for i in self.get_chord_progression():
+                memo = -1
+                length = 0
+                for j in i:
+                    if j == memo:
+                        length += unit_length
+                    else:
+                        if memo != -1:
+                            for pitch in memo.to_midi_pitch(tonic=self.__key_changer(self.meta['tonic'], memo.root, tonic)):
+                                note = Note(pitch=pitch, velocity=80, start=current_pos, end=current_pos + length)
+                                ins.notes.append(note)
+                        current_pos += length
+                        length = unit_length
+                        memo = j
+                for pitch in memo.to_midi_pitch(tonic=self.__key_changer(self.meta['tonic'], memo.root, tonic)):
+                    note = Note(pitch=pitch, velocity=80, start=current_pos, end=current_pos + length)
+                    ins.notes.append(note)
+                current_pos += length
+            midi.instruments.append(ins)
+            return midi
+        else:
+            return midi
 
     def __key_changer(self, original_tonic: str, root: str, new_tonic: str):
         if root == -1:
