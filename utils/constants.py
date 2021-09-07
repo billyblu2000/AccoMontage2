@@ -26,7 +26,9 @@ MIN_SEVENTH = 5
 DOM_SEVENTH = 6
 HALF_DIM_SEVENTH = 7
 FULLY_DIM_SEVENTH = 8
-X = 9
+SUS_4 = 9
+X = 10
+
 
 # inversions
 T6 = 0
