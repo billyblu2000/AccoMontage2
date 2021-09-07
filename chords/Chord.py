@@ -1,17 +1,20 @@
 from utils.constants import *
+from utils.parse_chord import CHORDS_ANALYSIS_2
 from utils.structured import str_to_root, chord_type_to_pitch_relation, root_to_pitch_low
-from utils.utils import listen_pitches
+from utils.utils import listen_pitches, Logging
 
 
 class Chord:
 
     # TODO finish chord class
-    def __init__(self, root=None, attr=None):
+    def __init__(self, root=None, attr=None, name=None):
         self.root = -1
         self.type = -1
         self.inversion = -1
         self.add = -1
         self.sus = -1
+        if name:
+            self.root, self.type, self.inversion, self.sus, self.add = self.__ana_name(name)
         if root:
             self.root = root
         if attr:
@@ -98,6 +101,54 @@ class Chord:
             str_ += '?'
 
         return str_
+
+    @staticmethod
+    def __ana_name(name):
+        rest = name[1:]
+        root = name[0]
+        if len(rest) != 0:
+            if rest[0] == '#' or rest[0] == 'b':
+                root = name[:2]
+                rest = rest[1:]
+            else:
+                root = name[0]
+        rest = rest.lower()
+
+        if len(rest) == 0 or rest == ' ':
+            return root, 0, -1, -1, -1
+        else:
+            adjusted_rest = ''
+            for i in range(len(rest)):
+                if rest[i] == 'm':
+                    if i >= 2:
+                        if rest[i-2:i+1] == 'dim':
+                            adjusted_rest += rest[i]
+                            continue
+                    if i == len(rest) - 1:
+                        adjusted_rest += 'min'
+                        continue
+                    else:
+                        if rest[i + 1] != 'a':
+                            adjusted_rest += 'min'
+                            continue
+                        else:
+                            adjusted_rest += rest[i]
+                            continue
+                else:
+                    adjusted_rest += rest[i]
+            rest = adjusted_rest
+
+        if rest == '9sus4':
+            rest = 'sus4'
+        print(rest)
+        for item in CHORDS_ANALYSIS_2.items():
+            if rest in item[1]:
+                type = item[0]
+                break
+        else:
+            Logging.error('Chord name {n} cannot be recognized!'.format(n=name))
+            return root, -1, -1, -1, -1
+        return root, type, -1, -1, -1
 
 
 if __name__ == '__main__':

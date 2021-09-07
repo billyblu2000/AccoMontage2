@@ -75,7 +75,11 @@ def analyze_name(file):
             break
     else:
         raise Exception
-    return final_pattern
+
+    striped = []
+    for i in final_pattern:
+        striped.append(i.strip())
+    return striped
 
 
 def compare_chords(chord_list1, chord_list2):
@@ -165,3 +169,15 @@ if __name__ == '__main__':
                     for chord in assign.values():
                         inspect_chord.add(chord)
     print(count)
+    print(inspect_chord)
+    # all_rest = set()
+    # a= {'7', 'dim', '9Sus4', 'm7', 'm', '9', 'm9', 'm6', 'dim7', 'Maj9', 'Sus13', 'Maj7'}
+    # for i in inspect_chord:
+    #     print(i)
+    #     rest = i[1:]
+    #     if len(rest) != 0:
+    #         if rest[0] == '#' or rest[0] == 'b':
+    #             rest = rest[1:]
+    #     if len(rest) != 0 and rest != ' ':
+    #         all_rest.add(rest)
+    # print(all_rest)
