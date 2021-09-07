@@ -75,7 +75,7 @@ CHORD_HIERARCHY = {
     1: ['maj', 'min',  'sus4', 'sus2', 'dim'],
     2: ['maj7', '7', 'min7', 'sus4(b7)', '5(b7)'],
     3: ['maj9', '9',  '11', '7(b9)', '7(#9)', '13', 'maj/9', 'maj(9)', 'maj6', 'maj/11', 'maj6(9)',
-        'min9', 'min11', 'min6', 'min/11', 'sus4(b7,9)', 'aug(b7)'],
+        'min9', 'min11', 'min6', 'min/11', 'sus4(b7,9)', 'aug(b7)', 'dim7', 'sus13'],
     4: ['5', 'maj/3', 'min/b3', 'maj/5', 'min/5',
         '7/3', '7/5', 'min7/5', 'maj/7', 'maj/b7', 'min/b7', 'min7/b7']
 }
@@ -87,7 +87,7 @@ CHORDS_ANALYSIS_1 = {
                 '7(b9)', '7(#9)', '13', 'maj/9', 'maj(9)', 'maj6', 'maj/11', 'maj6(9)',
                 'maj/3', 'maj/5', '7/3', '7/5', 'maj/7', 'maj/b7'],
     MIN_TRIAD: ['min', 'min7', 'min9', 'min11', 'min6', 'min/11', 'min/b3', 'min/5', 'min7/5', 'min/b7', 'min7/b7'],
-    X: [ 'sus4', 'sus2', 'dim', 'sus4(b7)', '5(b7)', 'sus4(b7,9)', 'aug(b7)']
+    X: ['sus4', 'sus4(b7)', 'sus4(b7,9)', 'sus13', 'sus2', 'dim', '5(b7)', 'aug(b7)', 'dim7']
 }
 
 
@@ -95,10 +95,12 @@ CHORDS_ANALYSIS_1 = {
 CHORDS_ANALYSIS_2 = {
     MAJ_TRIAD: ['maj', 'maj/9', 'maj(9)', 'maj6', 'maj/11', 'maj6(9)', 'maj/3', 'maj/5'],
     MIN_TRIAD: ['min', 'min6', 'min/11', 'min/b3', 'min/5'],
+    DIM_TRIAD: ['dim', 'dim7'],
     MAJ_SEVENTH: ['maj7', 'maj/7', 'maj9'],
     DOM_SEVENTH: ['7', '9',  '11', '7(b9)', '7(#9)', '13', '7/3', '7/5', 'maj/b7'],
     MIN_SEVENTH: ['min7', 'min9', 'min11', 'min7/5', 'min/b7', 'min7/b7'],
-    X: ['sus4', 'sus2', 'dim', 'sus4(b7)', '5(b7)', 'sus4(b7,9)', 'aug(b7)']
+    SUS_4: ['sus4', 'sus4(b7)', 'sus4(b7,9)', 'sus13'],
+    X: ['sus2', '5(b7)', 'aug(b7)']
 }
 
 
@@ -109,7 +111,7 @@ CHORDS_ANALYSIS_3 = {
     MAJ_TRIAD: ['maj', 'maj/9', 'maj(9)', 'maj/11', 'maj/3', 'maj/5', 'sus4'],
     MIN_TRIAD: ['min', 'min6', 'min/11', 'min/b3', 'min/5'],
     MAJ_SEVENTH: ['maj7', 'maj/7', 'maj9', 'maj6', 'maj6(9)'],
-    DOM_SEVENTH: ['7', '9',  '11', '7(b9)', '7(#9)', '13', '7/3', '7/5', 'maj/b7', 'sus4(b7,9)', '5(b7)'],
+    DOM_SEVENTH: ['7', '9',  '11', '7(b9)', '7(#9)', '13', '7/3', '7/5', 'maj/b7', 'sus4(b7,9)', '5(b7)', 'sus13'],
     MIN_SEVENTH: ['min7', 'min9', 'min11', 'min7/5', 'min/b7', 'min7/b7'],
-    X: ['sus2', 'dim', 'sus4(b7)', 'aug(b7)']
+    X: ['sus2', 'dim', 'sus4(b7)', 'aug(b7)', 'dim7']
 }

@@ -158,15 +158,26 @@ class DP:
     # 微观
     @staticmethod
     def __match_melody_and_chord(melody_list: list, progression: ChordProgression, mode='M') -> float:
-        musical_knowledge = [  # row: chord; col: melody
+        musical_knowledge_M = [  # row: chord; col: melody
             [1, 0.1, 0.4, 0.15, 0.75, 0.7, 0.1, 0.9, 0.1, 0.7, 0.15, 0.2],
             [0.4, 0.1, 1, 0.1, 0.4, 0.75, 0.4, 0.5, 0.1, 0.9, 0.15, 0.4],
             [0.5, 0.1, 0.4, 0.15, 1, 0.3, 0.2, 0.75, 0.2, 0.6, 0.15, 0.9],
             [0.9, 0.1, 0.6, 0.2, 0.5, 1, 0.1, 0.4, 0.4, 0.75, 0.2, 0.2],
             [0.5, 0.1, 0.9, 0.1, 0.5, 0.5, 0.1, 1, 0.1, 0.5, 0.15, 0.75],
             [0.75, 0.1, 0.6, 0.15, 0.9, 0.5, 0.1, 0.4, 0.1, 1, 0.15, 0.4],
-            [0.4, 0.1, 0.8, 0.15, 0.6, 0.8, 0.1, 0.6, 0.1, 0.4, 0.15, 1],
+            [0.4, 0.1, 0.8, 0.15, 0.6, 0.8, 0.1, 0.6, 0.1, 0.4, 0.15, 1]
         ]
+
+        musical_knowledge_m = [  # row: chord; col: melody
+            [1,   0.1, 0.4, 0.75, 0.15, 0.7, 0.1, 0.9, 0.7, 0.1, 0.2, 0.15],
+            [0.4, 0.1, 1,   0.4,  0.1,  0.75,0.4, 0.5, 0.9, 0.1, 0.4, 0.15],
+            [0.5, 0.1, 0.4, 1,    0.15, 0.3, 0.2, 0.75,0.6, 0.2, 0.9, 0.15],
+            [0.9, 0.1, 0.6, 0.5,  0.2,  1,   0.1, 0.4, 0.75,0.4, 0.2, 0.2],
+            [0.5, 0.1, 0.9, 0.5,  0.1,  0.5, 0.1, 1,   0.5, 0.1, 0.75,0.15],
+            [0.75,0.1, 0.6, 0.9,  0.15, 0.5, 0.1, 0.4, 1,   0.1, 0.4, 0.15],
+            [0.4, 0.1, 0.8, 0.6,  0.15, 0.8, 0.1, 0.6, 0.4, 0.1, 1,   0.15]
+        ]
+
 
         total_score = 0.0
         chord_list = progression.get(only_root=True, flattened=True)
@@ -175,10 +186,13 @@ class DP:
             this_chord = chord_list[i]
             if mode == 'M':
                 this_note = [major_map_backward[melody_list[i * 2]], major_map_backward[melody_list[i * 2 + 1]]]
+                total_score += musical_knowledge_M[int(this_chord) - 1][this_note[0]] if this_note[0] != -1 else 0.5
+                total_score += musical_knowledge_M[int(this_chord) - 1][this_note[1]] if this_note[1] != -1 else 0.5
             else:
                 this_note = [minor_map_backward[melody_list[i * 2]], minor_map_backward[melody_list[i * 2 + 1]]]
-            total_score += musical_knowledge[int(this_chord) - 1][this_note[0]] if this_note[0] != -1 else 0.5
-            total_score += musical_knowledge[int(this_chord) - 1][this_note[1]] if this_note[1] != -1 else 0.5
+                total_score += musical_knowledge_m[int(this_chord) - 1][this_note[0]] if this_note[0] != -1 else 0.5
+                total_score += musical_knowledge_m[int(this_chord) - 1][this_note[1]] if this_note[1] != -1 else 0.5
+
 
         return total_score / len(melody_list)
 
@@ -249,7 +263,8 @@ class DP:
         #         break
         #
         # duration_match = cur_duration - prev_duration
-        #
+
+
         # # first bar of cur cp and last bar of prev cp 接在一起对这两个小节做中观打分
         # transition_bars = prev_template.progression[-1] + cur_template.progression[0]
 
