@@ -165,5 +165,3 @@ if __name__ == '__main__':
                     for chord in assign.values():
                         inspect_chord.add(chord)
     print(count)
-    for i in inspect_chord:
-        print(i)
