@@ -14,7 +14,7 @@ G = 7
 GS, AF = 8, 8
 A = 9
 AS, BF = 10, 10
-B = 11
+B, CF = 11, 11
 
 # types
 MAJ_TRIAD = 0

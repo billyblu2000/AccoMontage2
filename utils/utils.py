@@ -205,6 +205,62 @@ def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + "
     os.remove(utils.string.STATIC_DIR + "audio/" + "midi.mid")
 
 
+def calculate_density(prog, WINDOW=None):
+    if WINDOW is None:
+        WINDOW = len(prog.progression[0])
+    K = 0
+    corre_with_k = {}
+    progression = prog.get(only_root=True, flattened=True)
+    if WINDOW >= len(progression):
+        if WINDOW > 10:
+            return 0, 0
+        else:
+            return -1, len(progression)
+    try:
+        while True:
+
+            x, y = [], []
+            K += WINDOW
+            if K > len(progression) // 2:
+                break
+            for i in range(len(progression) // WINDOW):
+                x.append(progression[i * WINDOW:(i + 1) * WINDOW])
+                y.append(progression[i * WINDOW + K:(i + 1) * WINDOW + K])
+                if (i + 1) * WINDOW + K == len(progression):
+                    break
+            x = np.array(x).transpose()
+            y = np.array(y).transpose()
+            i = 0
+            while True:
+                x_row = x[i]
+                y_row = y[i]
+                if len(np.unique(x_row)) == 1 or len(np.unique(y_row)) == 1:
+                    x = np.delete(x, i, axis=0)
+                    y = np.delete(y, i, axis=0)
+                else:
+                    i += 1
+                if i >= len(x):
+                    break
+            corre_mat = np.corrcoef(x, y)
+            avg_corre = 0
+            for i in range(len(x)):
+                avg_corre += corre_mat[i, i + len(x)]
+            corre_with_k[K] = avg_corre / len(x)
+        max_corre = -1
+        max_k = 0
+        for item in corre_with_k.items():
+            if item[1] > max_corre:
+                max_corre = item[1]
+                max_k = item[0]
+            elif item[1] == max_corre:
+                if item[0] < max_k:
+                    max_k = item[0]
+        # print("Max autocorrelation {c} with K = {k}".format(c=max(value), k=max_k))
+        return max_corre, max_k
+    except Exception as e:
+        return calculate_density(prog, WINDOW=WINDOW * 2)
+
+
 def pick_progressions(*args, **kwargs):
     PICKING_PARAMS = {
         'dense_sparse': 32,
@@ -212,61 +268,6 @@ def pick_progressions(*args, **kwargs):
     }
 
     prog_list = kwargs['progression_list']
-
-    def calculate_density(prog, WINDOW=None):
-        if WINDOW is None:
-            WINDOW = len(prog.progression[0])
-        K = 0
-        corre_with_k = {}
-        progression = prog.get(only_root=True, flattened=True)
-        if WINDOW >= len(progression):
-            if WINDOW > 10:
-                return 0, 0
-            else:
-                return -1, len(progression)
-        try:
-            while True:
-
-                x, y = [], []
-                K += WINDOW
-                if K > len(progression) // 2:
-                    break
-                for i in range(len(progression) // WINDOW):
-                    x.append(progression[i * WINDOW:(i + 1) * WINDOW])
-                    y.append(progression[i * WINDOW + K:(i + 1) * WINDOW + K])
-                    if (i + 1) * WINDOW + K == len(progression):
-                        break
-                x = np.array(x).transpose()
-                y = np.array(y).transpose()
-                i = 0
-                while True:
-                    x_row = x[i]
-                    y_row = y[i]
-                    if len(np.unique(x_row)) == 1 or len(np.unique(y_row)) == 1:
-                        x = np.delete(x, i, axis=0)
-                        y = np.delete(y, i, axis=0)
-                    else:
-                        i += 1
-                    if i >= len(x):
-                        break
-                corre_mat = np.corrcoef(x, y)
-                avg_corre = 0
-                for i in range(len(x)):
-                    avg_corre += corre_mat[i, i + len(x)]
-                corre_with_k[K] = avg_corre / len(x)
-            max_corre = -1
-            max_k = 0
-            for item in corre_with_k.items():
-                if item[1] > max_corre:
-                    max_corre = item[1]
-                    max_k = item[0]
-                elif item[1] == max_corre:
-                    if item[0] < max_k:
-                        max_k = item[0]
-            # print("Max autocorrelation {c} with K = {k}".format(c=max(value), k=max_k))
-            return max_corre, max_k
-        except Exception as e:
-            return calculate_density(prog, WINDOW=WINDOW * 2)
 
     new_list = []
     for i in prog_list:

@@ -121,7 +121,7 @@ class Chord:
             for i in range(len(rest)):
                 if rest[i] == 'm':
                     if i >= 2:
-                        if rest[i-2:i+1] == 'dim':
+                        if rest[i - 2:i + 1] == 'dim':
                             adjusted_rest += rest[i]
                             continue
                     if i == len(rest) - 1:
@@ -140,7 +140,6 @@ class Chord:
 
         if rest == '9sus4':
             rest = 'sus4'
-        print(rest)
         for item in CHORDS_ANALYSIS_2.items():
             if rest in item[1]:
                 type = item[0]
@@ -149,6 +148,17 @@ class Chord:
             Logging.error('Chord name {n} cannot be recognized!'.format(n=name))
             return root, -1, -1, -1, -1
         return root, type, -1, -1, -1
+
+
+def print_chord_list(chord_list):
+    string = '['
+    for i in chord_list:
+        string += '['
+        for j in i:
+            string += str(j) + ', '
+        string = string[:-2] + ']\n'
+    string = string[:-1] + ']'
+    print(string)
 
 
 if __name__ == '__main__':

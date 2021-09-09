@@ -17,7 +17,7 @@ chord_type_to_pitch_relation = {
 root_to_pitch = {
     C: 60, CS: 61, DF: 61, D: 62, DS: 63, EF: 63, E: 64,
     F: 65, FS: 66, GF: 66, G: 67, GS: 68, AF: 68, A: 69,
-    AS: 70, BF: 70, B: 71
+    AS: 70, BF: 70, B: 71, CF: 71,
 }
 
 root_to_pitch_low = {}
@@ -27,7 +27,7 @@ for item in root_to_pitch.items():
 root_to_str = {
     C: "C", CS: "C#", DF: "Db", D: "D", DS: "D#", EF: "Eb", E: "E",
     F: "F", FS: "F#", GF: "Gb", G: "G", GS: "G#", AF: "Ab", A: "A",
-    AS: "A#", BF: "Bb", B: "B",
+    AS: "A#", BF: "Bb", B: "B", CF: 'Cb',
 }
 
 str_to_root = {}
@@ -38,6 +38,8 @@ str_to_root["D#"] = DS
 str_to_root["F#"] = FS
 str_to_root["G#"] = GS
 str_to_root["A#"] = AS
+str_to_root["B"] = B
+str_to_root["Cb"] = CF
 
 major_map = {
     0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7, -1: 0
