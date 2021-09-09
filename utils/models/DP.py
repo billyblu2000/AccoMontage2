@@ -3,6 +3,7 @@ import random
 from typing import List, Union
 import numpy as np
 import pretty_midi
+import itertools
 
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
@@ -245,7 +246,7 @@ class DP:
 
     # transition prob between i-th phrase and (i-1)-th
     def transition_score(self, i, cur_template, prev_template):
-        return 0.4 + random.random() / 0.5
+        # return 0.4 + random.random() / 0.5
 
         # 计算和弦变换速度是否匹配
         # prev_duration = 1
@@ -265,8 +266,52 @@ class DP:
         # duration_match = cur_duration - prev_duration
 
 
-        # # first bar of cur cp and last bar of prev cp 接在一起对这两个小节做中观打分
-        # transition_bars = prev_template.progression[-1] + cur_template.progression[0]
+        # first chord of cur cp and last chord of prev cp 这两个和弦连在一起出现过与否 分数 1/0
+        first_chord = cur_template.progression[0][0]
+        last_chord = prev_template.progression[-1][-1]
+        two_chord = [first_chord, last_chord]
+        two_chord_score = 0
+
+        for template in self.templates:
+            if two_chord in template:
+                two_chord_score += 1
+                break
+            else:
+                continue
+
+        # first bar of cur cp and last bar of prev cp 接在一起对这两个小节做中观打分
+        # search for the occurrence of such chord sequence, regardless of chord duration
+
+        transition_bars = prev_template.progression[-1] + cur_template.progression[0]
+
+        chord_sequence_prev = []
+        for i in range(1, len(prev_template.progression[-1])):
+            if prev_template.progression[-1][i] != prev_template.progression[-1][i-1]:
+                chord_sequence_prev.append(prev_template.progression[-1][i])
+
+        chord_sequence_cur = []
+        for i in range(1, len(cur_template.progression[0])):
+            if cur_template.progression[0][i] != cur_template.progression[0][i - 1]:
+                chord_sequence_cur.append(cur_template.progression[0][i])
+
+        prev_part = [chord_sequence_prev[i:] for i in range(len(chord_sequence_prev))]
+        cur_part = [chord_sequence_cur[:i+1] for i in range(len(chord_sequence_cur))]
+
+        # chord_sequences contains all sequences of chord that contains the transition two chords in the transition bars
+
+        chord_sequences = []
+        for i in range(len(prev_part)):
+            for j in range(len(cur_part)):
+                chord_sequences = prev_part[i] + cur_part[j]
+
+
+
+
+
+
+
+
+
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:
