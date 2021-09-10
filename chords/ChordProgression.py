@@ -20,13 +20,13 @@ class ChordProgression:
         self.progression_class = {
             'type': 'unknown',  # positions, e.g., 'verse', 'chorus', ...
             'pattern': 'unknown',  # e.g., 'I-vi-IV-V', ...
-            'cycle': 'unknown',  # 'no-cycle', 'short', 'mid', 'long', ...?
+            'cycle': 'unknown',  # number
             'progression-style': 'unknown',  # 'pop', 'edm', 'dark', ...
             'chord-style': 'unknown',  # 'classy', 'emotional', 'standard'
             'performing-style': 'unknown',  # 'arpeggio'
             'rhythm': 'unknown',  # 'fast-back-and-force', 'fast-same-time', 'slow'
             'epic-endings': 'unknown',  # 'True', 'False'
-            'melodic': 'unknown'
+            'melodic': 'unknown' # 'True', 'False'
         }
         try:
             self.progression_class['type'] = type_dict[type]
@@ -292,7 +292,7 @@ class ChordProgression:
 
 def read_progressions(progression_file='progressions_with_type.pcls'):
     Logging.info('start read progressions from {f}'.format(f=progression_file))
-    if progression_file[-1] == 't':
+    if progression_file[-3:] == 'txt':
         file = open(STATIC_DIR + progression_file, "r")
         progression_list = []
         progression = ChordProgression()
@@ -390,9 +390,10 @@ def read_progressions(progression_file='progressions_with_type.pcls'):
                             memo = chord_str
                         bar_chord.append(my_chord)
                     progression.progression = progression._progression + [bar_chord]
-    elif progression_file[-1] == 'k':
-        file = open(STATIC_DIR + progression_file, "r")
-        progression_list = pickle.load(open(STATIC_DIR + 'progressions_with_type.pcls', 'rb'))
+    elif progression_file[-4:] == 'pcls':
+        file = open(STATIC_DIR + progression_file, "rb")
+        progression_list = pickle.load(file)
+        file.close()
     else:
         Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
         return None
