@@ -232,7 +232,7 @@ class ChordProgression:
 
     def __iter__(self):
         if self.progression is None:
-            Warning("Progression not assigned!")
+            Logging.error("Progression not assigned!")
             return None
         for i in self.get_chord_progression():
             for j in i:
