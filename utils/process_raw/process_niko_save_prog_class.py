@@ -350,5 +350,8 @@ if __name__ == '__main__':
 
                     all_progressions.append(progression)
     print_progression_list(all_progressions)
+    # file = open('new_progressions.pcls', 'wb')
+    # pickle.dump(all_progressions, file)
+    # file.close()
     print(count)
 
