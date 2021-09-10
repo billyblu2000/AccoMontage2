@@ -244,6 +244,35 @@ class ChordProgression:
             count += 1
         return count
 
+    def __contains__(self, item):
+        if type(item) is str:
+            if item.isdigit():
+                item = int(item)
+            else:
+                Logging.error("'Item in ChordProgression': item type cannot be recognized!")
+                return False
+        if type(item) is int or type(item) is Chord:
+            item = [item]
+        if type(item) is list:
+            if len(item) > len(self.get(flattened=True)):
+                Logging.error('Item is longer than progression!')
+                return False
+            if type(item[0]) is Chord and type(item[0].root) is str:
+                ori_prog = self.get(flattened=True)
+            elif type(item[0]) is Chord and type(item[0].root) is int:
+                ori_prog = self.get(flattened=True, only_degree=True)
+            elif type(item[0]) is int:
+                ori_prog = self.get(flattened=True, only_root=True)
+            else:
+                Logging.error("'item in ChordProgression': item type cannot be recognized!")
+                return False
+            all_slices = [ori_prog[i:i+len(item)] for i in range(len(ori_prog) - len(item) + 1)]
+            for slice in all_slices:
+                if slice == item:
+                    return True
+            else:
+                return False
+
     def __str__(self):
         str_ = "Chord Progression\n"
         str_ += "-Source: " + self.__print_accept_none(self.meta["source"]) + "\n"
@@ -290,7 +319,7 @@ class ChordProgression:
         return str(value) if value is not None else 'None'
 
 
-def read_progressions(progression_file='progressions_with_type.pcls'):
+def read_progressions(progression_file='progressions.pcls'):
     Logging.info('start read progressions from {f}'.format(f=progression_file))
     if progression_file[-3:] == 'txt':
         file = open(STATIC_DIR + progression_file, "r")
