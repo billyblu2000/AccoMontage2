@@ -284,15 +284,13 @@ class DP:
 
         transition_bars = prev_template.progression[-1] + cur_template.progression[0]
 
-        chord_sequence_prev = []
-        for i in range(1, len(prev_template.progression[-1])):
-            if prev_template.progression[-1][i] != prev_template.progression[-1][i-1]:
-                chord_sequence_prev.append(prev_template.progression[-1][i])
+        chord_sequence_prev = [prev_template.progression[-1][0]]
+        for i in prev_template.progression[-1]:
+            chord_sequence_prev.append(i) if i != chord_sequence_prev[-1] else None
 
-        chord_sequence_cur = []
-        for i in range(1, len(cur_template.progression[0])):
-            if cur_template.progression[0][i] != cur_template.progression[0][i - 1]:
-                chord_sequence_cur.append(cur_template.progression[0][i])
+        chord_sequence_cur = [cur_template.progression[-1][0]]
+        for i in cur_template.progression[0]:
+            chord_sequence_cur.append(i) if i != chord_sequence_cur[-1] else None
 
         prev_part = [chord_sequence_prev[i:] for i in range(len(chord_sequence_prev))]
         cur_part = [chord_sequence_cur[:i+1] for i in range(len(chord_sequence_cur))]
