@@ -7,7 +7,10 @@ from chords.Chord import Chord, print_chord_list
 from chords.ChordProgression import ChordProgression, print_progression_list
 from utils import utils
 
-file = open('temp', 'rb')
+try:
+    file = open('temp', 'rb')
+except:
+    raise Exception('Please run process_niko_save_source_base.py first!')
 shift_dict = pickle.load(file)
 file.close()
 
