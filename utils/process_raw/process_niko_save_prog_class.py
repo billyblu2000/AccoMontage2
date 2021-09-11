@@ -7,12 +7,6 @@ from chords.Chord import Chord, print_chord_list
 from chords.ChordProgression import ChordProgression, print_progression_list
 from utils import utils
 
-try:
-    file = open('temp', 'rb')
-except:
-    raise Exception('Please run process_niko_save_source_base.py first!')
-shift_dict = pickle.load(file)
-file.close()
 
 def get_class_from_path_and_name(root, file):
     progression_class = {
@@ -277,8 +271,8 @@ def construct_progression(assign, progression_class, metre):
     cursor = 0
     bar_list = []
     for i in range(end_time):
-        if cursor+1 != len(pos_pool):
-            if i >= pos_pool[cursor+1]:
+        if cursor + 1 != len(pos_pool):
+            if i >= pos_pool[cursor + 1]:
                 cursor += 1
         bar_list.append(Chord(name=chord_pool[cursor]))
         if len(bar_list) == 8:
@@ -292,6 +286,12 @@ def analyze_metre(assign):
 
 
 if __name__ == '__main__':
+    try:
+        file = open('temp', 'rb')
+    except:
+        raise Exception('Please run process_niko_save_source_base.py first!')
+    shift_dict = pickle.load(file)
+    file.close()
     count = 0
     all_progressions = []
     # count_mode = {'M':0,'m':0}
@@ -308,7 +308,7 @@ if __name__ == '__main__':
                     final_pattern = analyze_name(file, root)
                     if not final_pattern:
                         count += 1
-                        print('\033[1;31m' + 'Analyze name failed: '+file + ' \033[0m')
+                        print('\033[1;31m' + 'Analyze name failed: ' + file + ' \033[0m')
                         continue
 
                     assign = assign_chord(chord_pos, final_pattern)
@@ -331,7 +331,7 @@ if __name__ == '__main__':
                         print('\033[1;31m' + 'Constructing progression failed: ' + file + ' \033[0m')
                         continue
 
-                    print('\033[1;32m' + 'Success: '+ file + ' \033[0m')
+                    print('\033[1;32m' + 'Success: ' + file + ' \033[0m')
 
                     progression = ChordProgression(source=progression_class['name'],
                                                    tonic=progression_class['tonic'].split('-')[0]
@@ -357,4 +357,3 @@ if __name__ == '__main__':
     # pickle.dump(all_progressions, file)
     # file.close()
     print(count)
-

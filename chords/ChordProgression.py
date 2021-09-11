@@ -26,7 +26,8 @@ class ChordProgression:
             'performing-style': 'unknown',  # 'arpeggio'
             'rhythm': 'unknown',  # 'fast-back-and-force', 'fast-same-time', 'slow'
             'epic-endings': 'unknown',  # 'True', 'False'
-            'melodic': 'unknown'  # 'True', 'False'
+            'melodic': 'unknown',  # 'True', 'False'
+            'folder-id': 'unknown'
         }
         try:
             self.progression_class['type'] = type_dict[type]
