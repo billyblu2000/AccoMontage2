@@ -8,7 +8,7 @@ from chords.Chord import Chord
 from utils.process_raw.ProcessDataUtils import type_dict
 from utils.structured import str_to_root, root_to_str, major_map, major_map_backward
 from utils.string import STATIC_DIR, RESOURCE_DIR
-from utils.utils import compute_distance, compute_destination, Logging
+from utils.utils import compute_distance, compute_destination, Logging, read_lib
 from utils.constants import *
 
 
@@ -26,7 +26,7 @@ class ChordProgression:
             'performing-style': 'unknown',  # 'arpeggio'
             'rhythm': 'unknown',  # 'fast-back-and-force', 'fast-same-time', 'slow'
             'epic-endings': 'unknown',  # 'True', 'False'
-            'melodic': 'unknown' # 'True', 'False'
+            'melodic': 'unknown'  # 'True', 'False'
         }
         try:
             self.progression_class['type'] = type_dict[type]
@@ -156,9 +156,9 @@ class ChordProgression:
             after += bar_prog
         return after
 
-    def to_midi(self, tempo=120, instrument=PIANO, tonic=None):
+    def to_midi(self, tempo=120, instrument=PIANO, tonic=None, lib=None):
         if not self.progression:
-            Warning("Progression not assigned!")
+            Logging.error("Progression not assigned!")
             return None
         if not tonic:
             tonic = self.meta['tonic']
@@ -175,7 +175,8 @@ class ChordProgression:
                         length += unit_length
                     else:
                         if memo != -1:
-                            for pitch in memo.to_midi_pitch(tonic=self.__key_changer(self.meta['tonic'], memo.root, tonic)):
+                            for pitch in memo.to_midi_pitch(
+                                    tonic=self.__key_changer(self.meta['tonic'], memo.root, tonic)):
                                 note = Note(pitch=pitch, velocity=80, start=current_pos, end=current_pos + length)
                                 ins.notes.append(note)
                         current_pos += length
@@ -185,10 +186,26 @@ class ChordProgression:
                     note = Note(pitch=pitch, velocity=80, start=current_pos, end=current_pos + length)
                     ins.notes.append(note)
                 current_pos += length
-            midi.instruments.append(ins)
-            return midi
+
         else:
-            return midi
+            if lib is None:
+                lib = read_lib()
+            try:
+                all_notes = lib[self.meta['source']]
+            except:
+                Logging.error('Progression with source name {n} '
+                              'cannot be find in library! '
+                              'Call set_in_lib(in_lib=False) to generate MIDI '
+                              'by progression list itself'.format(n=self.meta['source']))
+                return False
+            for note in all_notes:
+                ins.notes.append(Note(start=note[0]*unit_length,
+                                      end=note[1]*unit_length,
+                                      pitch=note[2],
+                                      velocity=note[3]))
+
+        midi.instruments.append(ins)
+        return midi
 
     def __key_changer(self, original_tonic: str, root: str, new_tonic: str):
         if root == -1:
@@ -230,6 +247,9 @@ class ChordProgression:
     def set_progression_class(self, progression_class):
         self.progression_class = dict(json.loads(progression_class.replace('\'', '"')))
 
+    def set_in_lib(self, in_lib):
+        self.saved_in_source_base = True if in_lib else False
+
     def __iter__(self):
         if self.progression is None:
             Logging.error("Progression not assigned!")
@@ -266,7 +286,7 @@ class ChordProgression:
             else:
                 Logging.error("'item in ChordProgression': item type cannot be recognized!")
                 return False
-            all_slices = [ori_prog[i:i+len(item)] for i in range(len(ori_prog) - len(item) + 1)]
+            all_slices = [ori_prog[i:i + len(item)] for i in range(len(ori_prog) - len(item) + 1)]
             for slice in all_slices:
                 if slice == item:
                     return True

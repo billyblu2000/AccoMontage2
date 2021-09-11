@@ -287,6 +287,15 @@ def pick_progressions(*args, **kwargs):
     return new_list
 
 
+def read_lib(lib_name='source_base.pnt'):
+    Logging.info('start read progression library from source_base.pnt')
+    file = open(utils.string.STATIC_DIR + lib_name, 'rb')
+    lib = pickle.load(file)
+    file.close()
+    Logging.info('read library done')
+    return lib
+
+
 class MIDILoader:
 
     def __init__(self, midi_dir=utils.string.STATIC_DIR + 'midi/', files="*"):

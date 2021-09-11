@@ -12,6 +12,9 @@ from chords.ChordProgression import read_progressions, print_progression_list, C
 from utils.constants import DENSE, SPARSE
 from utils.string import STATIC_DIR
 
-from utils.utils import MIDILoader, listen, Logging, pick_progressions, np, calculate_density
+from utils.utils import MIDILoader, listen, Logging, pick_progressions, np, calculate_density, read_lib
 
-all_progressions = read_progressions()
+my_progressions = read_progressions()[4520]
+lib = read_lib()
+print(my_progressions)
+my_progressions.to_midi(lib=lib).write('test.mid')
