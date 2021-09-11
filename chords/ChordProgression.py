@@ -275,7 +275,6 @@ class ChordProgression:
             item = [item]
         if type(item) is list:
             if len(item) > len(self.get(flattened=True)):
-                Logging.error('Item is longer than progression!')
                 return False
             if type(item[0]) is Chord and type(item[0].root) is str:
                 ori_prog = self.get(flattened=True)
