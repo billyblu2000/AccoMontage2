@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Chorderator](README.md)
 
 ## Setup
 
