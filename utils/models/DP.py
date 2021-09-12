@@ -3,7 +3,6 @@ import random
 from typing import List, Union
 import numpy as np
 import pretty_midi
-import itertools
 
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
@@ -170,15 +169,14 @@ class DP:
         ]
 
         musical_knowledge_m = [  # row: chord; col: melody
-            [1,   0.1, 0.4, 0.75, 0.15, 0.7, 0.1, 0.9, 0.7, 0.1, 0.2, 0.15],
-            [0.4, 0.1, 1,   0.4,  0.1,  0.75,0.4, 0.5, 0.9, 0.1, 0.4, 0.15],
-            [0.5, 0.1, 0.4, 1,    0.15, 0.3, 0.2, 0.75,0.6, 0.2, 0.9, 0.15],
-            [0.9, 0.1, 0.6, 0.5,  0.2,  1,   0.1, 0.4, 0.75,0.4, 0.2, 0.2],
-            [0.5, 0.1, 0.9, 0.5,  0.1,  0.5, 0.1, 1,   0.5, 0.1, 0.75,0.15],
-            [0.75,0.1, 0.6, 0.9,  0.15, 0.5, 0.1, 0.4, 1,   0.1, 0.4, 0.15],
-            [0.4, 0.1, 0.8, 0.6,  0.15, 0.8, 0.1, 0.6, 0.4, 0.1, 1,   0.15]
+            [1, 0.1, 0.4, 0.75, 0.15, 0.7, 0.1, 0.9, 0.7, 0.1, 0.2, 0.15],
+            [0.4, 0.1, 1, 0.4, 0.1, 0.75, 0.4, 0.5, 0.9, 0.1, 0.4, 0.15],
+            [0.5, 0.1, 0.4, 1, 0.15, 0.3, 0.2, 0.75, 0.6, 0.2, 0.9, 0.15],
+            [0.9, 0.1, 0.6, 0.5, 0.2, 1, 0.1, 0.4, 0.75, 0.4, 0.2, 0.2],
+            [0.5, 0.1, 0.9, 0.5, 0.1, 0.5, 0.1, 1, 0.5, 0.1, 0.75, 0.15],
+            [0.75, 0.1, 0.6, 0.9, 0.15, 0.5, 0.1, 0.4, 1, 0.1, 0.4, 0.15],
+            [0.4, 0.1, 0.8, 0.6, 0.15, 0.8, 0.1, 0.6, 0.4, 0.1, 1, 0.15]
         ]
-
 
         total_score = 0.0
         chord_list = progression.get(only_root=True, flattened=True)
@@ -193,7 +191,6 @@ class DP:
                 this_note = [minor_map_backward[melody_list[i * 2]], minor_map_backward[melody_list[i * 2 + 1]]]
                 total_score += musical_knowledge_m[int(this_chord) - 1][this_note[0]] if this_note[0] != -1 else 0.5
                 total_score += musical_knowledge_m[int(this_chord) - 1][this_note[1]] if this_note[1] != -1 else 0.5
-
 
         return total_score / len(melody_list)
 
@@ -265,7 +262,6 @@ class DP:
         #
         # duration_match = cur_duration - prev_duration
 
-
         # first chord of cur cp and last chord of prev cp 这两个和弦连在一起出现过与否 分数 1/0
         first_chord = cur_template.progression[0][0]
         last_chord = prev_template.progression[-1][-1]
@@ -293,7 +289,7 @@ class DP:
             chord_sequence_cur.append(i) if i != chord_sequence_cur[-1] else None
 
         prev_part = [chord_sequence_prev[i:] for i in range(len(chord_sequence_prev))]
-        cur_part = [chord_sequence_cur[:i+1] for i in range(len(chord_sequence_cur))]
+        cur_part = [chord_sequence_cur[:i + 1] for i in range(len(chord_sequence_cur))]
 
         # chord_sequences contains all sequences of chord that contains the transition two chords in the transition bars
 
@@ -301,15 +297,6 @@ class DP:
         for i in range(len(prev_part)):
             for j in range(len(cur_part)):
                 chord_sequences = prev_part[i] + cur_part[j]
-
-
-
-
-
-
-
-
-
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:
@@ -369,4 +356,4 @@ if __name__ == '__main__':
     print_progression_list(my_dp_model.get_progression())
     chord_ins = my_dp_model.get_progression_join_as_midi(tonic='C')
     melo_ins = MIDILoader.melo_to_midi([i for seg in test_melo for i in seg])
-    combine_ins(melo_ins,chord_ins).write('test2.mid')
+    combine_ins(melo_ins, chord_ins).write('test2.mid')

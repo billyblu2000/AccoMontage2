@@ -1,3 +1,13 @@
+# Chorderator Important Ideas
+
+## Model
+
+## Dataset
+
+### Niko
+
+#### Attribute: Reliability
+
 According to the label of the dataset, assign a reliability to each kinds of source.
 
 | Reliability | Source                                                       |
