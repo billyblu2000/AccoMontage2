@@ -87,8 +87,6 @@ class DP:
 
         # 不管下面了，直接在dp里记录了路径
 
-        # TODO: This is not the actual path...?
-        # TODO: 算法应该选择使 dp[-1]=max 的路径，而不是每轮dp迭代的最优路径?
         # last_index = self._dp[-1].index(max(self._dp[-1]))
         # result_path = [templates[-1][last_index]]
         # i = len(self.melo) - 1
