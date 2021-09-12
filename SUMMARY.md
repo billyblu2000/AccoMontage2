@@ -4,13 +4,13 @@
 
 ## Setup
 
-* [Untitled](setup/untitled.md)
+* [Setup](setup/untitled.md)
 
 ## Usage
 
-* [Untitled](usage/untitled.md)
+* [Usage](usage/untitled.md)
 
 ## Demo
 
-* [Untitled](demo/untitled.md)
+* [Demo](demo/untitled.md)
 
