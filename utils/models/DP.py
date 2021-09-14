@@ -302,9 +302,18 @@ class DP:
             for j in range(len(cur_part)):
                 chord_sequences = prev_part[i] + cur_part[j]
 
+        # search the number of occurrence in the template space
 
+        score = 0
+        for template in self.templates:
+            unique_temp = [template[0]]
+            for i in template:
+                unique_temp.append(i) if i != unique_temp[-1] else None
+                for chord_sequence in chord_sequences:
+                    if chord_sequence in unique_temp:
+                        score += 1
 
-
+        return score
 
 
 
