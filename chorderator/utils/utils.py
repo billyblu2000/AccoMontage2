@@ -8,7 +8,6 @@ from pretty_midi import *
 import utils.constants
 import utils.structured
 import utils.string
-from settings import SHOW_WARNINGS
 
 try:
     from midi2audio import FluidSynth

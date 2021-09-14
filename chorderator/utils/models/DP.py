@@ -337,6 +337,10 @@ class DP:
         return ins
 
 
+def get_class():
+    return DP
+
+
 if __name__ == '__main__':
     # load midi
     pop909_loader = MIDILoader(files='POP909')
