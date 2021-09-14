@@ -293,6 +293,25 @@ class ChordProgression:
             else:
                 return False
 
+    def __getitem__(self, item):
+        raise SyntaxError('Syntax "ChordProgression[key]" should not be used because the type of the return is '
+                          'ambiguous.')
+
+    def __setitem__(self, key, value):
+        pass
+
+    def __add__(self, other):
+        pass
+
+    def __eq__(self, other):
+        pass
+
+    def __ne__(self, other):
+        pass
+
+    def __bool__(self):
+        pass
+
     def __str__(self):
         str_ = "Chord Progression\n"
         str_ += "-Source: " + self.__print_accept_none(self.meta["source"]) + "\n"

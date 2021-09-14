@@ -179,7 +179,6 @@ class DP:
             [0.4, 0.1, 0.8, 0.6, 0.15, 0.8, 0.1, 0.6, 0.4, 0.1, 1, 0.15]
         ]
 
-
         total_score = 0.0
         chord_list = progression.get(only_root=True, flattened=True)
         for i in range(len(chord_list)):
@@ -193,7 +192,6 @@ class DP:
                 this_note = [minor_map_backward[melody_list[i * 2]], minor_map_backward[melody_list[i * 2 + 1]]]
                 total_score += musical_knowledge_m[int(this_chord) - 1][this_note[0]] if this_note[0] != -1 else 0.5
                 total_score += musical_knowledge_m[int(this_chord) - 1][this_note[1]] if this_note[1] != -1 else 0.5
-
 
         return total_score / len(melody_list)
 
@@ -265,7 +263,6 @@ class DP:
         #
         # duration_match = cur_duration - prev_duration
 
-
         # first chord of cur cp and last chord of prev cp 这两个和弦连在一起出现过与否 分数 1/0
         first_chord = cur_template.progression[0][0]
         last_chord = prev_template.progression[-1][-1]
@@ -306,28 +303,34 @@ class DP:
 
         score = 0
         for template in self.templates:
-            unique_temp = [template[0]]
+            unique_temp = [template.get(only_root=True, flattened=True)[0]]
             for i in template:
                 unique_temp.append(i) if i != unique_temp[-1] else None
                 for chord_sequence in chord_sequences:
-                    if chord_sequence in unique_temp:
-                        score += 1
-
+                    # if chord_sequence in unique_temp:
+                    #     score += 1
+                    if len(chord_sequence) > len(unique_temp):
+                        continue
+                    all_slices = [unique_temp[i:i + len(chord_sequence)]
+                                  for i in range(len(unique_temp) - len(chord_sequence) + 1)]
+                    for slc in all_slices:
+                        if slc == chord_sequence:
+                            score += 1
+                            break
         return score
-
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:
             return melo
         else:
-            raise Exception('Model cannot handle melo in this form yet.')
+            raise Exception('Model cannot handle melody in this form yet.')
 
     def __handle_meta(self, melo_meta):
         try:
             if melo_meta['metre'] and melo_meta['mode'] and melo_meta['pos'][0]:
                 return melo_meta
         except:
-            raise Exception('Model cannot handle melo meta in this form yet.')
+            raise Exception('Model cannot handle melody meta in this form yet.')
 
     def get_progression(self):
         if not self.solved:
