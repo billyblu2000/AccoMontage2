@@ -3,6 +3,7 @@ import random
 from typing import List, Union
 import numpy as np
 import pretty_midi
+import itertools
 
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
@@ -87,6 +88,8 @@ class DP:
 
         # 不管下面了，直接在dp里记录了路径
 
+        # TODO: This is not the actual path...?
+        # TODO: 算法应该选择使 dp[-1]=max 的路径，而不是每轮dp迭代的最优路径?
         # last_index = self._dp[-1].index(max(self._dp[-1]))
         # result_path = [templates[-1][last_index]]
         # i = len(self.melo) - 1
@@ -296,18 +299,38 @@ class DP:
             for j in range(len(cur_part)):
                 chord_sequences = prev_part[i] + cur_part[j]
 
+        # search the number of occurrence in the template space
+
+        score = 0
+        for template in self.templates:
+            unique_temp = [template.get(only_root=True, flattened=True)[0]]
+            for i in template:
+                unique_temp.append(i) if i != unique_temp[-1] else None
+                for chord_sequence in chord_sequences:
+                    # if chord_sequence in unique_temp:
+                    #     score += 1
+                    if len(chord_sequence) > len(unique_temp):
+                        continue
+                    all_slices = [unique_temp[i:i + len(chord_sequence)]
+                                  for i in range(len(unique_temp) - len(chord_sequence) + 1)]
+                    for slc in all_slices:
+                        if slc == chord_sequence:
+                            score += 1
+                            break
+        return score
+
     def __split_melody(self, melo):
         if type(melo[0]) is list:
             return melo
         else:
-            raise Exception('Model cannot handle melo in this form yet.')
+            raise Exception('Model cannot handle melody in this form yet.')
 
     def __handle_meta(self, melo_meta):
         try:
             if melo_meta['metre'] and melo_meta['mode'] and melo_meta['pos'][0]:
                 return melo_meta
         except:
-            raise Exception('Model cannot handle melo meta in this form yet.')
+            raise Exception('Model cannot handle melody meta in this form yet.')
 
     def get_progression(self):
         if not self.solved:
