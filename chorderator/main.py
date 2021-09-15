@@ -14,6 +14,6 @@ from utils.string import STATIC_DIR
 
 from utils.utils import MIDILoader, listen, Logging, pick_progressions, np, calculate_density, read_lib
 
-my_progressions = read_progressions()
-lib = read_lib()
-print(my_progressions[0])
+# my_progressions = read_progressions()
+# lib = read_lib()
+# print(my_progressions[0])

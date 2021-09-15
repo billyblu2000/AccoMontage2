@@ -38,12 +38,13 @@ class DP:
         self.melo = self.__split_melody(melo)  # melo : List(List) 是整首歌的melo
         self.melo_meta = self.__handle_meta(melo_meta)
         self.templates = templates
-        self.max_num = 700  # 每一个phrase所对应chord progression的最多数量
+        self.max_num = 10000  # 每一个phrase所对应chord progression的最多数量
         self._dp = np.array(
             [[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
         self.solved = False
         self.result = None
         self.all_patterns = self.__analyze_pattern()
+        self.transition_dict = {}
         Logging.debug('init DP model done')
 
     def solve(self):
@@ -124,6 +125,9 @@ class DP:
         return available_templates
 
     def __progression_melo_type_match(self, melo_type, prog_type):
+
+        if prog_type == 'unknown' or not prog_type:
+            return 0.8
 
         family = ['i', 'a', 'b', 'c', 'o', 'x']
         progression_type_family = {
@@ -246,6 +250,12 @@ class DP:
     def transition_score(self, i, cur_template, prev_template):
         # return 0.4 + random.random() / 0.5
 
+        transition_bars = prev_template.progression[-1] + cur_template.progression[0]
+        print(transition_bars)
+        if tuple(transition_bars) in self.transition_dict:
+            print(self.transition_dict[tuple(transition_bars)])
+            return self.transition_dict[tuple(transition_bars)]
+
         # 计算和弦变换速度是否匹配
         # prev_duration = 1
         # for i in range(len(prev_template.progression[-1])):
@@ -279,8 +289,6 @@ class DP:
         # first bar of cur cp and last bar of prev cp 接在一起对这两个小节做中观打分
         # search for the occurrence of such chord sequence, regardless of chord duration
 
-        transition_bars = prev_template.progression[-1] + cur_template.progression[0]
-
         chord_sequence_prev = [prev_template.progression[-1][0]]
         for i in prev_template.progression[-1]:
             chord_sequence_prev.append(i) if i != chord_sequence_prev[-1] else None
@@ -294,17 +302,23 @@ class DP:
 
         # chord_sequences contains all sequences of chord that contains the transition two chords in the transition bars
 
-        chord_sequences = []
+        chord_sequences_dup = []
         for i in range(len(prev_part)):
             for j in range(len(cur_part)):
-                chord_sequences = prev_part[i] + cur_part[j]
+                chord_sequences_dup.append(prev_part[i] + cur_part[j])
+
+        chord_sequences = []
+        for c in chord_sequences_dup:
+            new = [c[0]]
+            for i in c:
+                new.append(i) if i != new[-1] else None
+            chord_sequences.append(new)
 
         # search the number of occurrence in the template space
-
         score = 0
         for template in self.templates:
             unique_temp = [template.get(only_root=True, flattened=True)[0]]
-            for i in template:
+            for i in template.get(only_root=True, flattened=True):
                 unique_temp.append(i) if i != unique_temp[-1] else None
                 for chord_sequence in chord_sequences:
                     # if chord_sequence in unique_temp:
@@ -313,11 +327,24 @@ class DP:
                         continue
                     all_slices = [unique_temp[i:i + len(chord_sequence)]
                                   for i in range(len(unique_temp) - len(chord_sequence) + 1)]
+                    new = []
+                    for slc in all_slices:
+                        if len(slc) != 1:
+                            new.append(slc)
+                    all_slices = new
+                    # print(all_slices, chord_sequence)
                     for slc in all_slices:
                         if slc == chord_sequence:
                             score += 1
                             break
-        return score
+
+        print(score)
+
+        # new_score = log_{max_score}(score)
+
+        self.transition_dict[tuple(transition_bars)] = score
+
+        return score / len(self.templates)
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:
@@ -375,6 +402,3 @@ if __name__ == '__main__':
     my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions())
     my_dp_model.solve()
     print_progression_list(my_dp_model.get_progression())
-    chord_ins = my_dp_model.get_progression_join_as_midi(tonic='C')
-    melo_ins = MIDILoader.melo_to_midi([i for seg in test_melo for i in seg])
-    combine_ins(melo_ins, chord_ins).write('test2.mid')
