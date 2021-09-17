@@ -27,7 +27,8 @@ class ChordProgression:
             'rhythm': 'unknown',  # 'fast-back-and-force', 'fast-same-time', 'slow'
             'epic-endings': 'unknown',  # 'True', 'False'
             'melodic': 'unknown',  # 'True', 'False'
-            'folder-id': 'unknown'
+            'folder-id': 'unknown',
+            'duplicate-id': 'unknown'
         }
         try:
             self.progression_class['type'] = type_dict[type]
@@ -37,25 +38,33 @@ class ChordProgression:
         self.appeared_in_other_songs = 0
         self.reliability = -1
         self.saved_in_source_base = saved_in_source_base
+        self.cache = {
+            '2d-root': None
+        }
 
     # chords are stored as Chord Class
     # switch to root note and output the progression in a easy-read way
     @property
     def progression(self):
-        prog = []
-        for bar_chords in self._progression:
-            bar_roots = []
-            for chord in bar_chords:
-                if chord.root == -1:
-                    bar_roots.append(0)
-                else:
-                    root = chord.root
-                    bar_roots.append(compute_distance(tonic=self.meta['tonic'], this=root, mode=self.meta['mode']))
-            prog.append(bar_roots)
-        return prog
+        if not self.cache['2d-root']:
+            prog = []
+            for bar_chords in self._progression:
+                bar_roots = []
+                for chord in bar_chords:
+                    if chord.root == -1:
+                        bar_roots.append(0)
+                    else:
+                        root = chord.root
+                        bar_roots.append(compute_distance(tonic=self.meta['tonic'], this=root, mode=self.meta['mode']))
+                prog.append(bar_roots)
+            self.cache['2d-root'] = prog
+            return prog
+        else:
+            return self.cache['2d-root']
 
     @progression.setter
     def progression(self, new):
+        self.cache['2d-root'] = None
         if type(new[0][0]) is not int:
             self._progression = new
         # not recommended to assign numbers to _progression
@@ -200,8 +209,8 @@ class ChordProgression:
                               'by progression list itself'.format(n=self.meta['source']))
                 return False
             for note in all_notes:
-                ins.notes.append(Note(start=note[0]*unit_length,
-                                      end=note[1]*unit_length,
+                ins.notes.append(Note(start=note[0] * unit_length,
+                                      end=note[1] * unit_length,
                                       pitch=note[2],
                                       velocity=note[3]))
 
@@ -250,6 +259,11 @@ class ChordProgression:
 
     def set_in_lib(self, in_lib):
         self.saved_in_source_base = True if in_lib else False
+
+    def add_cache(self):
+        self.cache = {
+            '2d-root': None
+        }
 
     def __iter__(self):
         if self.progression is None:
@@ -304,7 +318,13 @@ class ChordProgression:
         pass
 
     def __eq__(self, other):
-        pass
+        if self.meta['type'] != other.meta['type']:
+            return False
+        if self.meta['mode'] != other.meta['mode']:
+            return False
+        if self.get(flattened=True, only_degree=True) != other.get(flattened=True, only_degree=True):
+            return False
+        return True
 
     def __ne__(self, other):
         pass
