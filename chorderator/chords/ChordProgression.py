@@ -286,18 +286,20 @@ class ChordProgression:
             else:
                 Logging.error("'Item in ChordProgression': item type cannot be recognized!")
                 return False
-        if type(item) is int or type(item) is Chord:
+        if type(item) is int or type(item) is float or type(item) is Chord:
             item = [item]
         if type(item) is list:
             if len(item) > len(self.get(flattened=True)):
                 return False
             if type(item[0]) is Chord and type(item[0].root) is str:
                 ori_prog = self.get(flattened=True)
-            elif type(item[0]) is Chord and type(item[0].root) is int:
+            elif type(item[0]) is Chord and (type(item[0].root) is int or type(item[0].root) is float):
                 ori_prog = self.get(flattened=True, only_degree=True)
-            elif type(item[0]) is int:
+            elif type(item[0]) is int or type(item[0]) is float:
                 ori_prog = self.get(flattened=True, only_root=True)
             else:
+                print(item)
+                raise Exception
                 Logging.error("'item in ChordProgression': item type cannot be recognized!")
                 return False
             all_slices = [ori_prog[i:i + len(item)] for i in range(len(ori_prog) - len(item) + 1)]
