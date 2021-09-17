@@ -1,4 +1,5 @@
 import copy
+import pickle
 import random
 from typing import List, Union
 import numpy as np
@@ -38,68 +39,80 @@ class DP:
         self.melo = self.__split_melody(melo)  # melo : List(List) 是整首歌的melo
         self.melo_meta = self.__handle_meta(melo_meta)
         self.templates = templates
-        self.max_num = 700  # 每一个phrase所对应chord progression的最多数量
+        self.max_num = 10000  # 每一个phrase所对应chord progression的最多数量
         self._dp = np.array(
             [[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
         self.solved = False
         self.result = None
-        self.all_patterns = self.__analyze_pattern()
+        self.transition_dict = {}
         Logging.debug('init DP model done')
 
     def solve(self):
         Logging.info('Melody length {l}, generate progression with {n} templates'.format(l=len(self.melo),
                                                                                          n=len(self.templates)))
-        templates = []
-        weight = 0.5
-        for i in range(len(self.melo)):
-            melo = self.melo[i]
-            melo_meta = copy.copy(self.melo_meta)
-            melo_meta['pos'] = self.melo_meta['pos'][i]
-            # TODO: template now contains a confidence level, some codes to be change
-            templates.append(self.pick_templates(melo, melo_meta))
-            for j in range(len(templates[i])):
-                if i == 0:
-                    self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j][1]))
-                else:
-                    # max_previous = max([self._dp[i - 1][t]
-                    #                     + self.transition_score(i, templates[i][j], templates[i][t]) for t in range(self.max_num)])
-                    previous = [weight * self._dp[i - 1][t][1]
-                                + (1 - weight) * self.transition_score(melo_meta['pos'], templates[i][j][1],
-                                                                       templates[i - 1][t][1])
-                                for t in range(min([self.max_num, len(templates[i - 1])]))]
-                    max_previous = max(previous)
-                    max_previous_index = previous.index(max(previous))
-                    path_l = copy.copy(self._dp[i - 1][max_previous_index][0])
-                    path_l.append(j)
-                    self._dp[i][j] = (
-                        path_l, self.phrase_template_score(self.melo[i], templates[i][j][1]) + max_previous)
-            Logging.debug('dp with i = {}: '.format(i), self._dp[i])
-
-        # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
-        max_score = max([self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))])
-        best_score = max_score / len(self.melo)
-        # find the path，
-        last_index = [self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))].index(max_score)
-        result_path_index = self._dp[-1][last_index][0]
-        result_path = []
-        for i in range(len(self.melo)):
-            index = result_path_index[i]
-            result_path.append(templates[i][index])
-
-        # 不管下面了，直接在dp里记录了路径
-
-        # TODO: This is not the actual path...?
-        # TODO: 算法应该选择使 dp[-1]=max 的路径，而不是每轮dp迭代的最优路径?
-        # last_index = self._dp[-1].index(max(self._dp[-1]))
-        # result_path = [templates[-1][last_index]]
-        # i = len(self.melo) - 1
-        # while i >= 0:
-        #     i -= 1
-        #     index = self._dp[i].index(max(self._dp[i]))
+        # templates = []
+        # weight = 0.5
+        # for i in range(len(self.melo)):
+        #     melo = self.melo[i]
+        #     melo_meta = copy.copy(self.melo_meta)
+        #     melo_meta['pos'] = self.melo_meta['pos'][i]
+        #     # TODO: template now contains a confidence level, some codes to be change
+        #     templates.append(self.pick_templates(melo, melo_meta))
+        #     for j in range(len(templates[i])):
+        #         if i == 0:
+        #             self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j][1]))
+        #         else:
+        #             previous = [weight * self._dp[i - 1][t][1]
+        #                         + (1 - weight) * self.transition_score(melo_meta['pos'], templates[i][j][1],
+        #                                                                templates[i - 1][t][1])
+        #                         for t in range(min([self.max_num, len(templates[i - 1])]))]
+        #             print(len(previous))
+        #             max_previous = max(previous)
+        #             max_previous_index = previous.index(max(previous))
+        #             path_l = copy.copy(self._dp[i - 1][max_previous_index][0])
+        #             path_l.append(j)
+        #             self._dp[i][j] = (
+        #                 path_l, self.phrase_template_score(self.melo[i], templates[i][j][1]) + max_previous)
+        #     Logging.debug('dp with i = {}: '.format(i), self._dp[i])
+        #
+        # file = open('transition_score.dict', 'wb')
+        # pickle.dump(self.transition_dict, file)
+        # file.close()
+        #
+        # # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
+        # max_score = max([self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))])
+        # best_score = max_score / len(self.melo)
+        # # find the path，
+        # last_index = [self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))].index(max_score)
+        # result_path_index = self._dp[-1][last_index][0]
+        # result_path = []
+        # for i in range(len(self.melo)):
+        #     index = result_path_index[i]
         #     result_path.append(templates[i][index])
-        self.solved = True
-        self.result = (result_path, best_score)
-        return result_path, best_score
+        #
+        # # 不管下面了，直接在dp里记录了路径
+        #
+        # # TODO: This is not the actual path...?
+        # # TODO: 算法应该选择使 dp[-1]=max 的路径，而不是每轮dp迭代的最优路径?
+        # # last_index = self._dp[-1].index(max(self._dp[-1]))
+        # # result_path = [templates[-1][last_index]]
+        # # i = len(self.melo) - 1
+        # # while i >= 0:
+        # #     i -= 1
+        # #     index = self._dp[i].index(max(self._dp[i]))
+        # #     result_path.append(templates[i][index])
+        # self.solved = True
+        # self.result = (result_path, best_score)
+        # return result_path, best_score
+        print('l:', len(self.templates))
+        for i in range(len(self.templates)):
+            print('i=',i)
+            for j in range(len(self.templates)):
+                print('j=', j)
+                self.transition_score('', self.templates[i], self.templates[j])
+        file = open('transition_score.dict', 'wb')
+        pickle.dump(self.transition_dict, file)
+        file.close()
 
     def __get_all_available_chords(self) -> List[Chord]:
         pass
@@ -124,6 +137,9 @@ class DP:
         return available_templates
 
     def __progression_melo_type_match(self, melo_type, prog_type):
+
+        if prog_type == 'unknown' or not prog_type:
+            return 0.8
 
         family = ['i', 'a', 'b', 'c', 'o', 'x']
         progression_type_family = {
@@ -245,6 +261,9 @@ class DP:
     # transition prob between i-th phrase and (i-1)-th
     def transition_score(self, i, cur_template, prev_template):
         # return 0.4 + random.random() / 0.5
+        transition_bars = prev_template.progression[-1] + cur_template.progression[0]
+        if tuple(transition_bars) in self.transition_dict:
+            return self.transition_dict[tuple(transition_bars)]
 
         # 计算和弦变换速度是否匹配
         # prev_duration = 1
@@ -279,8 +298,6 @@ class DP:
         # first bar of cur cp and last bar of prev cp 接在一起对这两个小节做中观打分
         # search for the occurrence of such chord sequence, regardless of chord duration
 
-        transition_bars = prev_template.progression[-1] + cur_template.progression[0]
-
         chord_sequence_prev = [prev_template.progression[-1][0]]
         for i in prev_template.progression[-1]:
             chord_sequence_prev.append(i) if i != chord_sequence_prev[-1] else None
@@ -294,30 +311,47 @@ class DP:
 
         # chord_sequences contains all sequences of chord that contains the transition two chords in the transition bars
 
-        chord_sequences = []
+        chord_sequences_dup = []
         for i in range(len(prev_part)):
             for j in range(len(cur_part)):
-                chord_sequences = prev_part[i] + cur_part[j]
+                chord_sequences_dup.append(prev_part[i] + cur_part[j])
+
+        chord_sequences = []
+        for c in chord_sequences_dup:
+            new = [c[0]]
+            for i in c:
+                new.append(i) if i != new[-1] else None
+            chord_sequences.append(new)
 
         # search the number of occurrence in the template space
-
         score = 0
         for template in self.templates:
             unique_temp = [template.get(only_root=True, flattened=True)[0]]
-            for i in template:
+            for i in template.get(only_root=True, flattened=True):
                 unique_temp.append(i) if i != unique_temp[-1] else None
-                for chord_sequence in chord_sequences:
-                    # if chord_sequence in unique_temp:
-                    #     score += 1
-                    if len(chord_sequence) > len(unique_temp):
-                        continue
-                    all_slices = [unique_temp[i:i + len(chord_sequence)]
-                                  for i in range(len(unique_temp) - len(chord_sequence) + 1)]
-                    for slc in all_slices:
-                        if slc == chord_sequence:
-                            score += 1
-                            break
-        return score
+            for chord_sequence in chord_sequences:
+                # if chord_sequence in unique_temp:
+                #     score += 1
+                if len(chord_sequence) > len(unique_temp):
+                    continue
+                all_slices = [unique_temp[i:i + len(chord_sequence)]
+                              for i in range(len(unique_temp) - len(chord_sequence) + 1)]
+                new = []
+                for slc in all_slices:
+                    if len(slc) != 1:
+                        new.append(slc)
+                all_slices = new
+                # print(all_slices, chord_sequence)
+                for slc in all_slices:
+                    if slc == chord_sequence:
+                        score += 1
+                        break
+
+        # new_score = log_{max_score}(score)
+
+        self.transition_dict[tuple(transition_bars)] = score
+
+        return score / len(self.templates)
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:
@@ -376,9 +410,7 @@ if __name__ == '__main__':
         'mode': 'maj',
         'pos': [name[6] for name in melo_source_name]
     }
-    my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta, templates=read_progressions())
+    my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta,
+                     templates=read_progressions('progressions_representative.pcls'))
     my_dp_model.solve()
     print_progression_list(my_dp_model.get_progression())
-    chord_ins = my_dp_model.get_progression_join_as_midi(tonic='C')
-    melo_ins = MIDILoader.melo_to_midi([i for seg in test_melo for i in seg])
-    combine_ins(melo_ins, chord_ins).write('test2.mid')
