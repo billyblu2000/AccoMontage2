@@ -345,14 +345,14 @@ class DP:
         except:
             raise Exception('Model cannot handle melody meta in this form yet.')
 
-    def get_progression(self):
+    def get(self):
         if not self.solved:
             self.solve()
         picked_prog = [i[1] for i in self.result[0]]
         return picked_prog
 
     def get_progression_join_as_midi(self, tonic=None):
-        progressions = self.get_progression()
+        progressions = self.get()
         if not tonic:
             tonic = self.melo_meta['tonic']
         if tonic == '':
@@ -374,7 +374,6 @@ class DP:
 
 
 
-
 if __name__ == '__main__':
     # load midi
     pop909_loader = MIDILoader(files='POP909')
@@ -390,4 +389,4 @@ if __name__ == '__main__':
     my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta,
                      templates=read_progressions('progressions_representative.pcls'))
     my_dp_model.solve()
-    print_progression_list(my_dp_model.get_progression())
+    print_progression_list(my_dp_model.get())

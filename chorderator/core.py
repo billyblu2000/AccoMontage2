@@ -1,15 +1,24 @@
 import importlib
+import inspect
+import time
+
+from utils.pipeline import Pipeline
+from utils.utils import Logging
 
 
 class Core:
     registered_models = {
-        'pre': [''],
+        'pre': ['PreProcessor'],
         'main': ['DP'],
-        'post': ['']
+        'post': ['PostProcessor']
     }
 
     def __init__(self):
         self._pipeline = [self.preprocess_model(), self.main_model(), self.postprocess_model()]
+        self.midi_path = ''
+        self.meta = {}
+        self.output_progression_style = None
+        self.output_chord_style = None
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, '_instance'):
@@ -32,26 +41,30 @@ class Core:
         if post:
             self._pipeline[2] = self.postprocess_model(post)
 
-    def preprocess_model(self, model_name=''):
+    def preprocess_model(self, model_name=registered_models['pre'][0]):
         if model_name not in Core.registered_models['pre']:
             return False
         return self.__import_model(model_name)
 
-    def main_model(self, model_name=''):
+    def main_model(self, model_name=registered_models['main'][0]):
         if model_name not in Core.registered_models['main']:
             return False
         return self.__import_model(model_name)
 
-    def postprocess_model(self, model_name=''):
+    def postprocess_model(self, model_name=registered_models['post'][0]):
         if model_name not in Core.registered_models['post']:
             return False
         return self.__import_model(model_name)
 
     @staticmethod
     def __import_model(model_name):
-        if model_name == '':
-            return True
-        return importlib.import_module('utils.models.' + model_name).get_class()
+        surpass = ['Chord', 'ChordProgression', 'MIDILoader', 'Logging']
+        m = importlib.import_module('utils.models.' + model_name)
+        for cls in dir(m):
+            if inspect.isclass(getattr(m, cls)) and cls not in surpass:
+                return getattr(m, cls)
+        else:
+            return False
 
     def verify_pipeline(self):
         if False in self._pipeline:
@@ -60,4 +73,6 @@ class Core:
             return 100
 
     def run(self):
-        pass
+        pipeline = Pipeline(self._pipeline)
+        pipeline.send_in(self.midi_path,meta=self.meta)
+        print(pipeline.send_out())

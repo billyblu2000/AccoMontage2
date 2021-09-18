@@ -1,28 +1,44 @@
 import importlib
 
+from chords.ChordProgression import read_progressions
+from utils.utils import Logging
+
 
 class Pipeline:
 
     def __init__(self, pipeline):
-        self.pipeline = [importlib.import_module('utils.models.' + module) for module in pipeline]
-        assert len(self.pipeline) == 3
+        self.pipeline = pipeline
+        if len(pipeline) != 3:
+            Logging.critical('Pipeline length not match!')
+        self.final_output = None
 
-    def send_in(self):
-        self.__preprocess()
-        self.__main_model()
-        self.__postprocess()
+    # noinspection PyTupleAssignmentBalance,PyNoneFunctionAssignment
+    def send_in(self, midi_path, **kwargs):
+        splited_melo, meta = self.__preprocess(midi_path, **kwargs)
+        progression_list = self.__main_model(splited_melo, meta)
+        self.final_output = self.__postprocess(progression_list, **kwargs)
 
-    def __preprocess(self):
-        print(self.pipeline[0])
+    def __preprocess(self, midi_path, **kwargs):
+        processor = self.pipeline[0](midi_path, kwargs['meta'])
+        return processor.get()
 
-    def __main_model(self):
-        print(self.pipeline[1])
+    def __main_model(self, splited_melo, meta):
+        templates = read_progressions('progressions_representative.pcls')
+        meta['metre'] = meta['meter']
+        print(meta)
+        processor = self.pipeline[1](splited_melo, meta, templates)
+        processor.solve()
+        return processor.get()
 
-    def __postprocess(self):
-        print(self.pipeline[2])
+    def __postprocess(self, progression_list, **kwargs):
+        processor = self.pipeline[2](progression_list)
+        return processor.get()
 
     def send_out(self):
-        pass
+        if self.final_output:
+            return self.final_output
+        else:
+            Logging.critical('Nothing is in pipeline yet!')
 
 
 if __name__ == '__main__':
