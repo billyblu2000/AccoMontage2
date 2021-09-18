@@ -30,7 +30,8 @@ class Pipeline:
         return processor.get()
 
     def __postprocess(self, progression_list, **kwargs):
-        processor = self.pipeline[2](progression_list)
+        templates = read_progressions('progressions.pcls')
+        processor = self.pipeline[2](progression_list, templates)
         return processor.get()
 
     def send_out(self):
