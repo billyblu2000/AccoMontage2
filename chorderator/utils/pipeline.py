@@ -25,7 +25,6 @@ class Pipeline:
     def __main_model(self, splited_melo, meta):
         templates = read_progressions('progressions_representative.pcls')
         meta['metre'] = meta['meter']
-        print(meta)
         processor = self.pipeline[1](splited_melo, meta, templates)
         processor.solve()
         return processor.get()

@@ -5,15 +5,13 @@ from utils.utils import MIDILoader
 
 class PreProcessor:
 
-    use_test = True
-
     def __init__(self, midi_path, meta):
-        self.midi = PrettyMIDI(midi_path)
+        self.midi = PrettyMIDI(midi_path) if midi_path else None
         self.meta = meta
 
     def get(self):
-        # TODO temp for test!
-        if PreProcessor.use_test:
+
+        if not self.midi:
             pop909_loader = MIDILoader(files='POP909')
             pop909_loader.config(output_form='number')
             melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with='114')[:5]
@@ -21,6 +19,7 @@ class PreProcessor:
             self.meta['pos'] = [name[6] for name in melo_source_name]
 
         else:
+            # TODO
             test_melo = []
             self.meta['pos'] = []
 

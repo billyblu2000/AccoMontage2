@@ -1,6 +1,3 @@
-import sys
-
-sys.path.append('/Users/billyyi/PycharmProjects/Chorderator/chorderator')
 import chorderator as cdt
 from chorderator import Const
 

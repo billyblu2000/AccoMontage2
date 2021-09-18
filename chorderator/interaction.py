@@ -8,32 +8,8 @@ from utils.utils import Logging
 _core = Core.get_core()
 
 
-class Const:
-    class Key:
-        C = 'C'
-        CSharp, DFlat = 'C#', 'Db'
-        D = 'D'
-        DSharp, EFlat = 'D#', 'Eb'
-        E = 'E'
-        F = 'F'
-        FSharp, GFlat = 'F#', 'Gb'
-        G = 'G'
-        GSharp, AFlat = 'G#', 'Ab'
-        A = 'A'
-        ASharp, BFlat = 'A#', 'Bb'
-        B = 'B'
-
-    class Mode:
-        MAJOR = 'maj'
-        MINOR = 'min'
-
-    class Meter:
-        FOUR_FOUR = '4/4'
-        THREE_FOUR = '3/4'
-
-
-def set_melody():
-    pass
+def set_melody(midi_path):
+    _core.midi_path = midi_path
 
 
 def set_meta(tonic=None, mode=None, meter=None):
@@ -85,3 +61,27 @@ def _handel_exception(code):
         else:
             msg = '[Error {e}] Post-process model cannot be recognized!'
         raise ValueError(msg.format(e=code))
+
+
+class Const:
+    class Key:
+        C = 'C'
+        CSharp, DFlat = 'C#', 'Db'
+        D = 'D'
+        DSharp, EFlat = 'D#', 'Eb'
+        E = 'E'
+        F = 'F'
+        FSharp, GFlat = 'F#', 'Gb'
+        G = 'G'
+        GSharp, AFlat = 'G#', 'Ab'
+        A = 'A'
+        ASharp, BFlat = 'A#', 'Bb'
+        B = 'B'
+
+    class Mode:
+        MAJOR = 'maj'
+        MINOR = 'min'
+
+    class Meter:
+        FOUR_FOUR = '4/4'
+        THREE_FOUR = '3/4'
