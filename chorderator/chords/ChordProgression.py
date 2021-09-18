@@ -309,6 +309,11 @@ class ChordProgression:
             else:
                 return False
 
+    def set_cache(self):
+        self.cache = {
+            '2d-root': None
+        }
+
     def __getitem__(self, item):
         raise SyntaxError('Syntax "ChordProgression[key]" should not be used because the type of the return is '
                           'ambiguous.')
