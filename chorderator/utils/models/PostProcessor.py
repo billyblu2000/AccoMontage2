@@ -1,12 +1,20 @@
+import random
+
+
 class PostProcessor:
     def __init__(self, progression_list, progression_lib):
         self.progression_list = progression_list
         self.progression_lib = self.create_dup_progression_list(progression_lib)
         self.evaluate_reliability()
-        print(self.progression_lib[0])
 
     def get(self):
-        return self.progression_list
+        final_out = []
+        for i in range(len(self.progression_lib)):
+            if len(self.progression_lib[i]) == 0:
+                final_out.append(self.progression_list[i])
+            else:
+                final_out.append(random.choice(self.progression_lib[i]))
+        return final_out
 
     def evaluate_reliability(self, threshold=0.8):
         new_list = []

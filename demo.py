@@ -8,3 +8,4 @@ if __name__ == '__main__':
     cdt.set_meta(tonic='', mode=Const.Mode.MAJOR, meter=Const.Meter.FOUR_FOUR)
     cdt.generate()
 
+
