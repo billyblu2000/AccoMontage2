@@ -2,6 +2,7 @@ import importlib
 import inspect
 import time
 
+from chords.ChordProgression import print_progression_list
 from utils.pipeline import Pipeline
 from utils.utils import Logging
 
@@ -75,4 +76,4 @@ class Core:
     def run(self):
         pipeline = Pipeline(self._pipeline)
         pipeline.send_in(self.midi_path,meta=self.meta)
-        print(pipeline.send_out())
+        print_progression_list(pipeline.send_out())
