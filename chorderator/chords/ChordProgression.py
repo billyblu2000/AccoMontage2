@@ -1,3 +1,4 @@
+import copy
 import json
 import pickle
 from typing import List
@@ -298,8 +299,6 @@ class ChordProgression:
             elif type(item[0]) is int or type(item[0]) is float:
                 ori_prog = self.get(flattened=True, only_root=True)
             else:
-                print(item)
-                raise Exception
                 Logging.error("'item in ChordProgression': item type cannot be recognized!")
                 return False
             all_slices = [ori_prog[i:i + len(item)] for i in range(len(ori_prog) - len(item) + 1)]
@@ -385,113 +384,81 @@ class ChordProgression:
         return str(value) if value is not None else 'None'
 
 
-def read_progressions(progression_file='progressions.pcls'):
-    Logging.info('start read progressions from {f}'.format(f=progression_file))
-    if progression_file[-3:] == 'txt':
-        file = open(STATIC_DIR + progression_file, "r")
-        progression_list = []
-        progression = ChordProgression()
-        for line in file.readlines():
-            if line == "\n":
-                progression_list.append(progression)
-                continue
-            if line == "Chord Progression\n":
-                progression = ChordProgression()
-                continue
-            if "-Source:" in line:
-                progression.set_source(line.split(":")[1].strip())
-                continue
-            if "-Source Type:" in line:
-                progression.set_type(line.split(":")[1].strip())
-                continue
-            if "-Source Tonic:" in line:
-                progression.set_tonic(line.split(":")[1].strip())
-                continue
-            if "-Source Metre:" in line:
-                progression.set_metre(line.split(":")[1].strip())
-                continue
-            if "-Source Mode:" in line:
-                progression.set_mode(line[14])
-                continue
-            if "-Appeared Times:" in line:
-                progression.set_appeared_time(int(line.split(":")[1].strip()))
-            if "-Appeared In Other Songs:" in line:
-                progression.set_appeared_in_other_songs(int(line.split(":")[1].strip()))
-            if "-Reliability:" in line:
-                progression.set_reliability(int(line.split(":")[1].strip()))
-            if "-Progression Class:" in line:
-                progression.set_progression_class(line.split(":")[1].strip())
+def read_progressions(progression_file='progressions.pcls', span=False):
 
-            # read from chord
-            # if "|" in line and line[2].isdigit():
-            #     line_split = line.split("|")
-            #     for segment in line_split:
-            #         if segment.strip() == "" or segment.strip() == "\n":
-            #             continue
-            #         bar_chord = []
-            #         memo = -1
-            #         segment = segment[1:-1]
-            #         for char in segment:
-            #             if char.isdigit():
-            #                 if type(memo) is str:
-            #                     bar_chord.append(float(memo + char))
-            #                     memo = float(memo + char)
-            #                 else:
-            #                     bar_chord.append(int(char))
-            #                     memo = int(char)
-            #             if char == "-":
-            #                 bar_chord.append(memo)
-            #             if char == ".":
-            #                 bar_chord = bar_chord[:-1]
-            #                 memo = str(memo) + "."
-            #         progression.progression.append(bar_chord)
-            if "|" in line and line != '| \n' and line != '|\n' and not line[2].isdigit():
-                line_split = line.split("|")
-                for segment in line_split:
-                    if segment.strip() == "" or segment.strip() == "\n":
-                        continue
-                    bar_chord = []
-                    memo = -1
-                    segment = segment[1:-1]
-                    segment_split = segment.split('-')
-                    for chord_str in segment_split:
-                        if chord_str == '':
-                            if memo == '???':
-                                my_chord = Chord(root=-1, attr=[-1, -1, -1, -1])
-                            elif memo[2] == '?':
-                                if memo[1] == ' ':
-                                    my_chord = Chord(root=memo[0], attr=[-1, -1, -1, -1])
-                                else:
-                                    my_chord = Chord(root=memo[0:2], attr=[-1, -1, -1, -1])
-                            else:
-                                if memo[1] == ' ':
-                                    my_chord = Chord(root=memo[0], attr=[int(memo[2]), -1, -1, -1])
-                                else:
-                                    my_chord = Chord(root=memo[0:2], attr=[int(memo[2]), -1, -1, -1])
-                        elif chord_str == '???':
-                            my_chord = Chord(root=-1, attr=[-1, -1, -1, -1])
-                            memo = chord_str
-                        elif chord_str[2] == '?':
-                            if chord_str[1] == ' ':
-                                my_chord = Chord(root=chord_str[0], attr=[-1, -1, -1, -1])
-                            else:
-                                my_chord = Chord(root=chord_str[0:2], attr=[-1, -1, -1, -1])
-                            memo = chord_str
-                        else:
-                            if chord_str[1] == ' ':
-                                my_chord = Chord(root=chord_str[0], attr=[int(chord_str[2]), -1, -1, -1])
-                            else:
-                                my_chord = Chord(root=chord_str[0:2], attr=[int(chord_str[2]), -1, -1, -1])
-                            memo = chord_str
-                        bar_chord.append(my_chord)
-                    progression.progression = progression._progression + [bar_chord]
-    elif progression_file[-4:] == 'pcls':
+    def span_progression(progression):
+
+        def flatten(before):
+            after = []
+            for bar_prog in before:
+                after += bar_prog
+            return after
+
+        def restore(before, bar_length=8):
+            after = []
+            if len(before) % bar_length != 0:
+                raise Exception("Can't span progression: length {l} cannot be restored with bar length {b}"
+                                .format(l=len(before), b=bar_length))
+            for i in range(len(before)// bar_length):
+                after.append(before[i:i+bar_length])
+            return after
+
+        def mul(chord_list, scale=2):
+            flattened = flatten(chord_list)
+            new_chord_list = []
+            for chord in flattened:
+                for i in range(scale):
+                    new_chord_list.append(copy.deepcopy(chord))
+            return restore(new_chord_list, bar_length=len(chord_list[0]))
+
+        def div(chord_list, scale=2):
+            flattened = flatten(chord_list)
+            if len(flattened) % scale != 0:
+                raise Exception("Can't span progression: length {l} cannot be divide by scale {s}"
+                                .format(l=len(flattened),s=scale))
+            new_chord_list = []
+            for i in range(len(flattened)//scale):
+                new_chord_list.append(copy.deepcopy(flattened[i * scale]))
+            return restore(new_chord_list, bar_length=len(chord_list[0]))
+
+        if progression.reliability <= 0.5:
+            return [progression]
+        if len(progression) // 8 == 4 or len(progression) // 8 == 8:
+            p_mul2 = copy.deepcopy(progression)
+            p_mul2.progression = mul(p_mul2.get())
+            p_mul2.meta['source'] = p_mul2.meta['source'] + 'modx2'
+            p_mul2.progression_class['cycle'] *= 2 if type(p_mul2.progression_class['cycle']) is int else 1
+
+            p_div2 = copy.deepcopy(progression)
+            p_div2.progression = div(p_div2.get())
+            p_div2.meta['source'] = p_div2.meta['source'] + 'mod/2'
+            p_div2.progression_class['cycle'] *= 2 if type(p_div2.progression_class['cycle']) is int else 1
+            return [progression, p_mul2, p_div2]
+        else:
+            return [progression]
+
+    Logging.info('start read progressions from {f}'.format(f=progression_file))
+    if progression_file[-4:] == 'pcls':
         file = open(STATIC_DIR + progression_file, "rb")
         progression_list = pickle.load(file)
         file.close()
     else:
         Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
         return None
+    if span:
+        if type(progression_list) is list:
+            new_progression_list = []
+            for prog in progression_list:
+                new_progression_list += span_progression(prog)
+            progression_list = new_progression_list
+        elif type(progression_list) is dict:
+            for item in progression_list.items():
+                new_progression_list = []
+                for prog in item[1]:
+                    new_progression_list += span_progression(prog)
+                progression_list[item[0]] = new_progression_list
+        else:
+            pass
     Logging.info('read progressions done')
     return progression_list
 
