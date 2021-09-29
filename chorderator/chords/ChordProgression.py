@@ -1,6 +1,7 @@
 import copy
 import json
 import pickle
+import os
 from typing import List
 
 from pretty_midi import PrettyMIDI, Instrument, Note
@@ -439,9 +440,24 @@ def read_progressions(progression_file='progressions.pcls', span=False):
 
     Logging.info('start read progressions from {f}'.format(f=progression_file))
     if progression_file[-4:] == 'pcls':
-        file = open(STATIC_DIR + progression_file, "rb")
-        progression_list = pickle.load(file)
-        file.close()
+        try:
+            file = open(STATIC_DIR + progression_file, "rb")
+            progression_list = pickle.load(file)
+            file.close()
+        except:
+            all_file_names = []
+            for file in os.listdir(STATIC_DIR):
+                if progression_file in file:
+                    all_file_names.append(file)
+            if len(all_file_names) == 0:
+                Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
+                return None
+            progression_list = {}
+            for name in all_file_names:
+                file = open(STATIC_DIR + name, "rb")
+                progression_list.update(pickle.load(file))
+                file.close()
+
     else:
         Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
         return None

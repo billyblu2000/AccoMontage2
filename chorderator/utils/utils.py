@@ -204,6 +204,21 @@ def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + "
     os.remove(utils.string.STATIC_DIR + "audio/" + "midi.mid")
 
 
+def split_huge_progression_dict(my_dict):
+    all_dicts = []
+    count = 0
+    sub_dict = {}
+    for item in my_dict.items():
+        count += len(item[1])
+        if count >= 30000:
+            all_dicts.append(sub_dict)
+            count = 0
+            sub_dict = {}
+        sub_dict[item[0]] = item[1]
+    all_dicts.append(sub_dict)
+    return all_dicts
+
+
 def calculate_density(prog, WINDOW=None):
     if WINDOW is None:
         WINDOW = len(prog.progression[0])
