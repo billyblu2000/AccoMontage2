@@ -295,6 +295,32 @@ def read_lib(lib_name='source_base.pnt'):
     return lib
 
 
+class PathGenerator:
+
+    def __init__(self, total_length, template_length):
+        self.total_length = total_length
+        self.template_length = template_length
+        self.memo = {}
+
+    def generate(self):
+        return self.__generate(self.total_length)
+
+    def __generate(self, l):
+        if l in self.memo:
+            return self.memo[l]
+        else:
+            all_path = []
+            for length in self.template_length:
+                if l - length < min(self.template_length):
+                    continue
+                for sub_path in self.__generate(l - length):
+                    all_path.append(sub_path + [length])
+            if l in self.template_length:
+                all_path.append([l])
+            self.memo[l] = all_path
+            return all_path
+
+
 class MIDILoader:
 
     def __init__(self, midi_dir=utils.string.STATIC_DIR + 'midi/', files="*"):
