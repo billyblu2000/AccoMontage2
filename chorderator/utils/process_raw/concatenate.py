@@ -5,6 +5,7 @@ from utils.string import STATIC_DIR
 
 
 class Concatenate:
+    # all available concat rules
     concat_rule = {
         4: [[4]],
         8: [[4, 4], [8]],
@@ -20,7 +21,8 @@ class Concatenate:
         self.transition_score = transition_score
         self.max_score = 1  # 对于不拼接的 打满分
 
-    def compute_transition(self, prog_list):
+    # given a list of progressions, compute the minimum transition score
+    def compute_transition(self, prog_list: List[ChordProgression]):
         if len(prog_list) == 1:
             return self.max_score
         else:
@@ -33,7 +35,8 @@ class Concatenate:
                 cursor += 1
             return min_score
 
-    def combinations(self, ingredients_lists):
+    # pick 1 elements from n lists respectively, compute all combinations
+    def combinations(self, ingredients_lists: List[List[ChordProgression]]):
         if type(ingredients_lists[0][0]) is not list:
             ingredients_lists[0] = [[prog] for prog in ingredients_lists[0]]
         if len(ingredients_lists) == 1:
