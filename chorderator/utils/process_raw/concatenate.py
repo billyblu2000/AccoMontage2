@@ -17,7 +17,7 @@ class Concatenate:
 
     def __init__(self, templates: List[ChordProgression], transition_score: dict):
         self.templates = templates
-        self.threshold = 0  # 每个接合允许的最低分数
+        self.threshold = 0.9  # 每个接合允许的最低分数
         self.transition_score = transition_score
         self.max_score = 1  # 对于不拼接的 打满分
 
@@ -61,16 +61,43 @@ class Concatenate:
         for aim_length in self.concat_rule:
             for rule in self.concat_rule[aim_length]:
                 print(rule)
-                for combination in self.combinations([ingredients[length] for length in rule]):
+                all_ingredients = [ingredients[length] for length in rule]
+                for combination in self.combinations(all_ingredients):
                     score = self.compute_transition(combination)
-                    if score >= self.threshold:
-                        available_templates.append((score, [prog.progression_class['duplicate-id']
-                                                            for prog in combination]))
+                    if len(all_ingredients) == 2 or len(all_ingredients) == 1:
+                        if score >= self.threshold:
+                            available_templates.append((score, [prog.progression_class['duplicate-id']
+                                                                for prog in combination]))
+                    elif len(all_ingredients) == 3:
+                        if score >= self.threshold:
+                            available_templates.append((score, [prog.progression_class['duplicate-id']
+                                                                for prog in combination]))
 
         return available_templates
 
 
 if __name__ == '__main__':
-    my_concatenater = Concatenate(templates=read_progressions('representative.pcls'),
+    templates = read_progressions('representative.pcls')
+    major_templates = []
+    minor_templates = []
+    for template in templates:
+        if template.meta['mode'] == 'M' or template.meta['mode'] == 'maj':
+            major_templates.append(template)
+        else:
+            minor_templates.append(template)
+    print(len(major_templates), len(minor_templates))
+
+    my_concatenater = Concatenate(templates=major_templates,
                                   transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
     all = my_concatenater.concatenate()
+    file = open('major_socre', 'wb')
+    pickle.dump(all, file)
+    file.close()
+
+    my_concatenater = Concatenate(templates=minor_templates,
+                                  transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
+    all = my_concatenater.concatenate()
+    file = open('minor_socre', 'wb')
+    pickle.dump(all, file)
+    file.close()
+
