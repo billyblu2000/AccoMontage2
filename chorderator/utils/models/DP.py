@@ -207,33 +207,6 @@ class DP:
 
         return template[0]
 
-    def __analyze_pattern(self):
-        Logging.debug('analyze pattern...')
-        all_patterns = {0: {}, 1: {}}
-        # max_length = max([len(i) for i in self.templates])
-        # for i in range(2, max_length + 1):
-        #
-        #     length = i
-        #     count_pattern = {}
-        #     # count pattern
-        #     for cp in self.templates:
-        #         prog = cp.get(only_root=True, flattened=True)
-        #         cursor = 0
-        #         while cursor + length <= len(prog):
-        #             pattern = tuple(prog[cursor:cursor + length])
-        #             if pattern in count_pattern.keys():
-        #                 count_pattern[pattern] += 1
-        #             else:
-        #                 count_pattern[pattern] = 1
-        #             cursor += 1
-        #     # normalize
-        #     max_appears = max(count_pattern.values())
-        #     for key in count_pattern.keys():
-        #         count_pattern[key] /= max_appears
-        #
-        #     all_patterns[i] = count_pattern
-        Logging.debug('analyze pattern done')
-        return all_patterns
 
     @staticmethod
     def __load_transition_dict():
