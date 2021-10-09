@@ -90,14 +90,14 @@ if __name__ == '__main__':
     my_concatenater = Concatenate(templates=major_templates,
                                   transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
     all = my_concatenater.concatenate()
-    file = open('major_socre', 'wb')
+    file = open('major_score', 'wb')
     pickle.dump(all, file)
     file.close()
 
     my_concatenater = Concatenate(templates=minor_templates,
                                   transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
     all = my_concatenater.concatenate()
-    file = open('minor_socre', 'wb')
+    file = open('minor_score', 'wb')
     pickle.dump(all, file)
     file.close()
 
