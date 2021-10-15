@@ -12,10 +12,11 @@ from utils.utils import read_lib, split_huge_progression_dict, PathGenerator
 
 if __name__ == '__main__':
     all_prog = read_progressions('dict.pcls')
-    score = pickle.load(open('minor_socre', 'rb'))
+    score = pickle.load(open('major_score', 'rb'))
     print(len(score))
     input()
     for item in score:
+        print('-'*30)
         print(item[0])
         for id in item[1]:
             print(all_prog[id][0].progression)
