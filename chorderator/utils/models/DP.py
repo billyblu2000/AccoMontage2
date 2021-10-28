@@ -299,10 +299,10 @@ class DP:
         else:
             if cur_template.cycle[1] == prev_template.cycle[1]:
                 cycle_penalty = 1
-            elif cur_template.cycle[1]//prev_template.cycle[1] == 2 or prev_template.cyclep[1]//cur_template.cycle[1] == 2:
+            elif cur_template.cycle[1]/prev_template.cycle[1] <= 2 or prev_template.cyclep[1]/cur_template.cycle[1] <= 2:
+                cycle_penalty = 0.95
+            else:
                 cycle_penalty = 0.9
-            elif cur_template.cycle[1]//prev_template.cycle[1] > 2 or prev_template.cycle[1]//cur_template.cycle[1] > 2:
-                cycle_penalty = 0.85
 
         return score * cycle_penalty / len(self.templates)
 
