@@ -63,8 +63,8 @@ class DP:
                     self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j][1]))
                 else:
                     previous = [weight * self._dp[i - 1][t][1]
-                                + (1 - weight) * self.transition_score(melo_meta['pos'], templates[i][j][1],
-                                                                       templates[i - 1][t][1])
+                                + (1 - weight) * self.transition_score(melo_meta['pos'], templates[i][j][1][0],
+                                                                       templates[i - 1][t][1][-1])
                                 for t in range(min([self.max_num, len(templates[i - 1])]))]
                     max_previous = max(previous)
                     max_previous_index = previous.index(max(previous))
