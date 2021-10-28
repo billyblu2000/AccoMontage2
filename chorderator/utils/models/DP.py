@@ -165,7 +165,7 @@ class DP:
 
     # 微观
     @staticmethod
-    def __match_melody_and_chord(melody_list: list, progression: ChordProgression, mode='M') -> float:
+    def __match_melody_and_chord(melody_list: list, progression: List[ChordProgression], mode='M') -> float:
         musical_knowledge_M = [  # row: chord; col: melody
             [1, 0.1, 0.4, 0.15, 0.75, 0.7, 0.1, 0.9, 0.1, 0.7, 0.15, 0.2],
             [0.4, 0.1, 1, 0.1, 0.4, 0.75, 0.4, 0.5, 0.1, 0.9, 0.15, 0.4],
