@@ -17,7 +17,7 @@ class Concatenate:
 
     def __init__(self, templates: List[ChordProgression], transition_score: dict):
         self.templates = templates
-        self.threshold = 0.85  # 每个接合允许的最低分数
+        self.threshold = 0.875  # 每个接合允许的最低分数
         self.transition_score = transition_score
         self.max_score = 1  # 对于不拼接的 打满分
 
@@ -69,7 +69,7 @@ class Concatenate:
                             available_templates.append((score, [prog.progression_class['duplicate-id']
                                                                 for prog in combination]))
                     elif len(all_ingredients) == 3:
-                        if score >= self.threshold * 1.1:
+                        if score >= self.threshold * 1.07:
                             available_templates.append((score, [prog.progression_class['duplicate-id']
                                                                 for prog in combination]))
 
@@ -90,14 +90,14 @@ if __name__ == '__main__':
     my_concatenater = Concatenate(templates=major_templates,
                                   transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
     all = my_concatenater.concatenate()
-    file = open('major_score', 'wb')
+    file = open('major_score.mdch', 'wb')
     pickle.dump(all, file)
     file.close()
 
     my_concatenater = Concatenate(templates=minor_templates,
                                   transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
     all = my_concatenater.concatenate()
-    file = open('minor_score', 'wb')
+    file = open('minor_score.mdch', 'wb')
     pickle.dump(all, file)
     file.close()
 

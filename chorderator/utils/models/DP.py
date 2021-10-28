@@ -1,6 +1,5 @@
 import copy
 import pickle
-import random
 from typing import List, Union
 import numpy as np
 import pretty_midi
@@ -8,7 +7,7 @@ import pretty_midi
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
 from utils.string import STATIC_DIR
-from utils.utils import MIDILoader, Logging, listen, combine_ins
+from utils.utils import MIDILoader, Logging
 from utils.structured import major_map_backward, minor_map_backward
 
 
@@ -36,15 +35,19 @@ class DP:
 
     def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression]):
         Logging.debug('init DP model...')
+
         self.melo = self.__split_melody(melo)  # melo : List(List) 是整首歌的melo
         self.melo_meta = self.__handle_meta(melo_meta)
-        self.templates = templates
+
         self.max_num = 10000  # 每一个phrase所对应chord progression的最多数量
         self._dp = np.array(
             [[None] * self.max_num] * len(self.melo))  # replace None by ([], 0) tuple of path index list and score
         self.solved = False
         self.result = None
+
+        self.templates = self.__load_templates(templates)
         self.transition_dict = self.__load_transition_dict()
+
         Logging.debug('init DP model done')
 
     def solve(self):
@@ -104,21 +107,11 @@ class DP:
         pass
 
     # input是分好段的melo
-    def pick_templates(self, melo, melo_meta) -> List[List[Union[float, List[ChordProgression]]]]:
+    def pick_templates(self, melo, melo_meta) -> List[List[float, List[ChordProgression]]]:
 
-        temp_templates = []
         available_templates = []
 
-        if melo_meta['mode'] == 'maj':
-            melo_meta['mode'] = 'M'
-            maj_temp = pickle.load(open('major_score', 'rb'))
-            temp_templates += maj_temp
-        elif melo_meta['mode'] == 'min':
-            melo_meta['mode'] = 'm'
-            min_temp = pickle.load(open('minor_score', 'rb'))
-            temp_templates += min_temp
-
-        for template in temp_templates:
+        for template in self.templates:
             total_temp_length = 0
             for i in template[1]:
                 total_temp_length += len(i)
@@ -206,7 +199,6 @@ class DP:
     def __match_template_and_pattern(self, template: [float, list]) -> float:
 
         return template[0]
-
 
     @staticmethod
     def __load_transition_dict():
@@ -299,7 +291,8 @@ class DP:
         else:
             if cur_template.cycle[1] == prev_template.cycle[1]:
                 cycle_penalty = 1
-            elif cur_template.cycle[1]/prev_template.cycle[1] <= 2 or prev_template.cyclep[1]/cur_template.cycle[1] <= 2:
+            elif cur_template.cycle[1] / prev_template.cycle[1] <= 2 or prev_template.cyclep[1] / cur_template.cycle[
+                1] <= 2:
                 cycle_penalty = 0.95
             else:
                 cycle_penalty = 0.9
@@ -318,6 +311,19 @@ class DP:
                 return melo_meta
         except:
             raise Exception('Model cannot handle melody meta in this form yet.')
+
+    def __load_templates(self, templates):
+
+        if self.melo_meta['mode'] == 'maj' or self.melo_meta['mode'] == 'M':
+            all_templates = pickle.load(open(STATIC_DIR + 'major_score.mdch', 'rb'))
+        else:
+            all_templates = pickle.load(open(STATIC_DIR + 'minor_score.mdch', 'rb'))
+
+        templates_id_dict = {temp.progression_class['duplicate_id']: temp for temp in templates}
+        for score_id_list_item in all_templates:
+            score_id_list_item[1] = [templates_id_dict[id] for id in score_id_list_item[1]]
+
+        return all_templates
 
     def get(self):
         if not self.solved:
@@ -345,7 +351,6 @@ class DP:
                 ins.notes.append(note)
             shift += lens[i] * 0.25
         return ins
-
 
 
 if __name__ == '__main__':
