@@ -1,4 +1,6 @@
+import math
 import pickle
+from matplotlib import pyplot as plt
 
 import numpy
 from matplotlib import pyplot
@@ -10,5 +12,4 @@ from utils.string import STATIC_DIR
 
 from utils.utils import read_lib, split_huge_progression_dict, PathGenerator
 
-if __name__ == '__main__':
-    pass
+pass

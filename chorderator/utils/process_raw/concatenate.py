@@ -17,7 +17,7 @@ class Concatenate:
 
     def __init__(self, templates: List[ChordProgression], transition_score: dict):
         self.templates = templates
-        self.threshold = 0.9  # 每个接合允许的最低分数
+        self.threshold = 0.85  # 每个接合允许的最低分数
         self.transition_score = transition_score
         self.max_score = 1  # 对于不拼接的 打满分
 
@@ -69,7 +69,7 @@ class Concatenate:
                             available_templates.append((score, [prog.progression_class['duplicate-id']
                                                                 for prog in combination]))
                     elif len(all_ingredients) == 3:
-                        if score >= self.threshold:
+                        if score >= self.threshold * 1.1:
                             available_templates.append((score, [prog.progression_class['duplicate-id']
                                                                 for prog in combination]))
 
