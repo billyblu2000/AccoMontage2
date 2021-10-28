@@ -294,7 +294,17 @@ class DP:
 
         self.transition_dict[tuple(transition_bars)] = score
 
-        return score / len(self.templates)
+        if cur_template.cycle[1] == 0 or prev_template.cycle[1] == 0:
+            cycle_penalty = 1
+        else:
+            if cur_template.cycle[1] == prev_template.cycle[1]:
+                cycle_penalty = 1
+            elif cur_template.cycle[1]//prev_template.cycle[1] == 2 or prev_template.cyclep[1]//cur_template.cycle[1] == 2:
+                cycle_penalty = 0.9
+            elif cur_template.cycle[1]//prev_template.cycle[1] > 2 or prev_template.cycle[1]//cur_template.cycle[1] > 2:
+                cycle_penalty = 0.85
+
+        return score * cycle_penalty / len(self.templates)
 
     def __split_melody(self, melo):
         if type(melo[0]) is list:

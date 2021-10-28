@@ -43,6 +43,9 @@ All information about a progression:
 | Folder-id         | The folder ID of the source                     | DP?                                       |
 
 
+
 1. deal with interface issue in dp
 2. consider squeeze and stretch score (for later)
+3. consider 'cycle' while calculating transition score
+4. retrieve old dataset
 
