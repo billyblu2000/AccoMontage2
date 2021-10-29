@@ -180,7 +180,11 @@ class DP:
         ]
 
         total_score = 0.0
-        chord_list = progression.get(only_root=True, flattened=True)
+        chord_list = []
+        for i in range(len(progression)):
+            for j in progression[i].get(only_root=True, flattened=True):
+                chord_list.append(j)
+
         for i in range(len(chord_list)):
             # this_chord = chord_list[i].to_number(tonic='C')
             this_chord = chord_list[i]
