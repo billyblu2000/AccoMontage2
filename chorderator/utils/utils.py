@@ -8,6 +8,7 @@ from pretty_midi import *
 import utils.constants
 import utils.structured
 import utils.string
+from settings import static_storage
 
 try:
     from midi2audio import FluidSynth
@@ -17,8 +18,14 @@ except ImportError as e:
 fs_exist = True
 if FluidSynth is None:
     fs_exist = False
-    if SHOW_WARNINGS:
-        warnings.warn('Could not import FluidSynth, this will disabled the listen function')
+    warnings.warn('Could not import FluidSynth, this will disabled the listen function')
+
+
+def pickle_read(path):
+    if path == 'lib':
+        return read_lib()
+    else:
+        return pickle.load(open(static_storage[path], 'rb'))
 
 
 def nmat2ins(nmat, program=0, tempo=120, sixteenth_notes_in_bar=16) -> Instrument:
@@ -37,6 +44,15 @@ def combine_ins(*kargs: Instrument, init_tempo=120) -> PrettyMIDI:
     midi = PrettyMIDI(initial_tempo=init_tempo)
     for ins in kargs:
         midi.instruments.append(ins)
+    return midi
+
+
+def midi_shift(midi: PrettyMIDI, shift, tempo=120):
+    unit_length = (60 / tempo) / 4
+    for i in midi.instruments:
+        for note in i.notes:
+            note.start += unit_length * shift
+            note.end += unit_length * shift
     return midi
 
 
@@ -514,12 +530,26 @@ class MIDILoader:
         # TODO
         self.config(output_form='pitch')
         all_names = MIDILoader.auto_find_pop909_source_name(start_with=index)
+
+        # get tonic
+        midis = self.__get_data()
+        for i in range(len(midis)):
+            if midis[i][0] == all_names[0]:
+                tonic = midis[i][1]
+                break
+        else:
+            raise Exception('???')
+
         full_melo = []
         for name in all_names:
             full_melo += self.get(name=name)
         if change_key_to:
-            pass
-        return None
+            distance = utils.structured.root_to_pitch[utils.structured.str_to_root[tonic]] \
+                       - utils.structured.root_to_pitch[utils.structured.str_to_root[change_key_to]]
+            for i in range(len(full_melo)):
+                if full_melo[i] != 0:
+                    full_melo[i] -= distance
+        return full_melo
 
     @staticmethod
     def key_changer(melo, ori_key, des_key):

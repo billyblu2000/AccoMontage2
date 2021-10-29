@@ -3,16 +3,18 @@ __all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output
            'Const']
 
 from core import Core
+from settings import *
+from utils.excp import handle_exception
 from utils.utils import Logging
 
 _core = Core.get_core()
 
 
-def set_melody(midi_path):
+def set_melody(midi_path: str):
     _core.midi_path = midi_path
 
 
-def set_meta(tonic=None, mode=None, meter=None):
+def set_meta(tonic: str = None, mode: str = None, meter: str = None):
     if tonic is not None:
         _core.meta['tonic'] = tonic
     if mode is not None:
@@ -21,46 +23,35 @@ def set_meta(tonic=None, mode=None, meter=None):
         _core.meta['meter'] = meter
 
 
-def set_output_progression_style():
-    pass
+def set_output_progression_style(style: str):
+    _core.set_output_progression_style(style)
 
 
-def set_output_chord_style():
-    pass
+def set_output_chord_style(style: str):
+    _core.set_output_chord_style(style)
 
 
-def set_preprocess_model(name):
+def set_preprocess_model(name: str):
     _core.set_pipeline(pre=name)
     Logging.info('Preprocess model set as', name)
 
 
-def set_main_model(name):
+def set_main_model(name: str):
     _core.set_pipeline(main=name)
     Logging.info('Main model set as', name)
 
 
-def set_postprocess_model(name):
+def set_postprocess_model(name: str):
     _core.set_pipeline(post=name)
     Logging.info('Postprocess model set as', name)
 
 
-def generate():
+def generate(output_name):
     verified = _core.verify_pipeline()
     if verified == 100:
-        _core.run()
+        _core.run(output_name)
     else:
-        _handel_exception(verified)
-
-
-def _handel_exception(code):
-    if code // 100 == 2:
-        if code == 201:
-            msg = '[Error {e}] Pre-process model cannot be recognized!'
-        elif code == 202:
-            msg = '[Error {e}] Main model cannot be recognized!'
-        else:
-            msg = '[Error {e}] Post-process model cannot be recognized!'
-        raise ValueError(msg.format(e=code))
+        handle_exception(verified)
 
 
 class Const:

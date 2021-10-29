@@ -1,13 +1,11 @@
 import copy
-import pickle
-from typing import List, Union
+from typing import List
 import numpy as np
 import pretty_midi
 
 from chords.Chord import Chord
 from chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
-from utils.string import STATIC_DIR
-from utils.utils import MIDILoader, Logging
+from utils.utils import MIDILoader, Logging, pickle_read
 from utils.structured import major_map_backward, minor_map_backward
 
 
@@ -118,6 +116,9 @@ class DP:
             if total_temp_length == len(melo) // 2:
                 available_templates.append(template)
 
+        if len(available_templates) == 0:
+            print('no matched length')
+
         return available_templates
 
     def __progression_melo_type_match(self, melo_type, prog_type):
@@ -206,10 +207,7 @@ class DP:
 
     @staticmethod
     def __load_transition_dict():
-        file = open(STATIC_DIR + 'transition_score.mdch', 'rb')
-        my_dict = pickle.load(file)
-        file.close()
-        return my_dict
+        return pickle_read('trans')
 
     # transition prob between i-th phrase and (i-1)-th
     def transition_score(self, i, cur_template, prev_template):
@@ -319,9 +317,9 @@ class DP:
     def __load_templates(self, templates):
 
         if self.melo_meta['mode'] == 'maj' or self.melo_meta['mode'] == 'M':
-            all_templates = pickle.load(open(STATIC_DIR + 'major_score.mdch', 'rb'))
+            all_templates = pickle_read('concat_major')
         else:
-            all_templates = pickle.load(open(STATIC_DIR + 'minor_score.mdch', 'rb'))
+            all_templates = pickle_read('concat_minor')
 
         templates_id_dict = {temp.progression_class['duplicate-id']: temp for temp in templates}
         replaced_by_progression = []
@@ -366,6 +364,8 @@ if __name__ == '__main__':
     pop909_loader.config(output_form='number')
     melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with='114')[:5]
     test_melo = [pop909_loader.get(name=i) for i in melo_source_name]
+    for i in test_melo:
+        print(len(i)/16)
     test_melo_meta = {
         'tonic': '',
         'metre': '4/4',
@@ -376,3 +376,12 @@ if __name__ == '__main__':
                      templates=read_progressions('representative.pcls'))
     my_dp_model.solve()
     print_progression_list(my_dp_model.get())
+
+    lib = pickle_read('lib')
+    picked = my_dp_model.get()
+    count = 1
+    for i in picked:
+        for j in i:
+            j.to_midi(lib=lib).write(str(count) + '.mid')
+            count += 1
+

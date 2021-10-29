@@ -12,6 +12,7 @@
   </component>
   <component name="PackageRequirementsSettings">
     <option name="requirementsPath" value="" />
+    <option name="versionSpecifier" value="Don't specify version" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="GOOGLE" />

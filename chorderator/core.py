@@ -3,6 +3,7 @@ import inspect
 import time
 
 from chords.ChordProgression import print_progression_list
+from utils.excp import handle_exception
 from utils.pipeline import Pipeline
 from utils.utils import Logging
 
@@ -36,11 +37,30 @@ class Core:
 
     def set_pipeline(self, pre=None, main=None, post=None):
         if pre:
-            self._pipeline[0] = self.preprocess_model(pre)
+            try:
+                self._pipeline[0] = self.preprocess_model(pre)
+            except:
+                handle_exception(0)
         if main:
-            self._pipeline[1] = self.main_model(main)
+            try:
+                self._pipeline[1] = self.main_model(main)
+            except:
+                handle_exception(0)
         if post:
-            self._pipeline[2] = self.postprocess_model(post)
+            try:
+                self._pipeline[2] = self.postprocess_model(post)
+            except:
+                handle_exception(0)
+
+    def set_output_progression_style(self, style):
+        if style not in ['pop']:
+            handle_exception(0)
+        self.output_progression_style = style
+
+    def set_output_chord_style(self, style):
+        if style not in ['standard']:
+            handle_exception(0)
+        self.output_chord_style = style
 
     def preprocess_model(self, model_name=registered_models['pre'][0]):
         if model_name not in Core.registered_models['pre']:
@@ -59,7 +79,7 @@ class Core:
 
     @staticmethod
     def __import_model(model_name):
-        surpass = ['Chord', 'ChordProgression', 'MIDILoader', 'Logging']
+        surpass = ['Chord', 'ChordProgression', 'MIDILoader', 'Logging', 'Instrument', 'PrettyMIDI', 'Note']
         m = importlib.import_module('utils.models.' + model_name)
         for cls in dir(m):
             if inspect.isclass(getattr(m, cls)) and cls not in surpass:
@@ -73,7 +93,10 @@ class Core:
         else:
             return 100
 
-    def run(self):
+    def run(self, output_name):
         pipeline = Pipeline(self._pipeline)
-        pipeline.send_in(self.midi_path,meta=self.meta)
-        print_progression_list(pipeline.send_out())
+        pipeline.send_in(self.midi_path,
+                         meta=self.meta,
+                         output_progression_style=self.output_progression_style,
+                         output_chord_style=self.output_chord_style)
+        return pipeline.send_out(output_name)

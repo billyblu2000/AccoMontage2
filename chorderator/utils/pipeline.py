@@ -1,7 +1,6 @@
-import importlib
-
 from chords.ChordProgression import read_progressions
-from utils.utils import Logging
+from utils.excp import handle_exception
+from utils.utils import Logging, pickle_read, combine_ins
 
 
 class Pipeline:
@@ -14,29 +13,41 @@ class Pipeline:
 
     # noinspection PyTupleAssignmentBalance,PyNoneFunctionAssignment
     def send_in(self, midi_path, **kwargs):
-        splited_melo, meta = self.__preprocess(midi_path, **kwargs)
+        self.melo, splited_melo, meta = self.__preprocess(midi_path, **kwargs)
         progression_list = self.__main_model(splited_melo, meta)
         self.final_output = self.__postprocess(progression_list, **kwargs)
 
     def __preprocess(self, midi_path, **kwargs):
-        processor = self.pipeline[0](midi_path, kwargs['meta'])
-        return processor.get()
+        try:
+            processor = self.pipeline[0](midi_path, kwargs['meta'])
+            print(processor)
+            return processor.get()
+        except:
+            handle_exception(500)
 
     def __main_model(self, splited_melo, meta):
-        templates = read_progressions('progressions_representative.pcls')
+        templates = read_progressions('representative.pcls')
         meta['metre'] = meta['meter']
-        processor = self.pipeline[1](splited_melo, meta, templates)
-        processor.solve()
-        return processor.get()
+        print(splited_melo,meta,templates[:100])
+        try:
+            processor = self.pipeline[1](splited_melo, meta, templates)
+            processor.solve()
+            return processor.get()
+        except Exception as e:
+            handle_exception(600)
 
-    def __postprocess(self, progression_list, **kwargs):
-        templates = read_progressions('progressions_dict.pcls')
-        processor = self.pipeline[2](progression_list, templates)
-        return processor.get()
+    def __postprocess(self, progression_list, meta, **kwargs):
+        templates = read_progressions('dict.pcls')
+        lib = pickle_read('lib')
+        try:
+            processor = self.pipeline[2](progression_list, templates, lib, meta, **kwargs)
+            return processor.get()
+        except Exception as e:
+            handle_exception(700)
 
-    def send_out(self):
+    def send_out(self, output_name):
         if self.final_output:
-            return self.final_output
+            return combine_ins(self.melo,self.final_output).write(output_name)
         else:
             Logging.critical('Nothing is in pipeline yet!')
 
