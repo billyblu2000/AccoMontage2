@@ -63,7 +63,7 @@ class DP:
             templates.append(self.pick_templates(melo, melo_meta))
             for j in range(len(templates[i])):
                 if i == 0:
-                    self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j][1]))
+                    self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j]))
                 else:
                     previous = [weight * self._dp[i - 1][t][1]
                                 + (1 - weight) * self.transition_score(melo_meta['pos'], templates[i][j][1][0],
@@ -74,7 +74,7 @@ class DP:
                     path_l = copy.copy(self._dp[i - 1][max_previous_index][0])
                     path_l.append(j)
                     self._dp[i][j] = (
-                        path_l, self.phrase_template_score(self.melo[i], templates[i][j][1]) + max_previous)
+                        path_l, self.phrase_template_score(self.melo[i], templates[i][j]) + max_previous)
             Logging.debug('dp with i = {}: '.format(i), self._dp[i])
 
         # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
@@ -107,7 +107,7 @@ class DP:
         pass
 
     # input是分好段的melo
-    def pick_templates(self, melo, melo_meta) -> List[List[float, List[ChordProgression]]]:
+    def pick_templates(self, melo, melo_meta):
 
         available_templates = []
 
@@ -115,7 +115,7 @@ class DP:
             total_temp_length = 0
             for i in template[1]:
                 total_temp_length += len(i)
-            if total_temp_length == len(melo):
+            if total_temp_length == len(melo) // 2:
                 available_templates.append(template)
 
         return available_templates
@@ -153,8 +153,8 @@ class DP:
 
     # 微观 + 中观
     def phrase_template_score(self, melo, chord, weight=0.5):
-        return weight * self.__match_template_and_pattern(chord) + (1 - weight) * self.__match_melody_and_chord(melo,
-                                                                                                                chord)
+        return weight * self.__match_template_and_pattern(chord) \
+               + (1 - weight) * self.__match_melody_and_chord(melo, chord[1])
 
     # 微观
     @staticmethod
@@ -323,11 +323,14 @@ class DP:
         else:
             all_templates = pickle.load(open(STATIC_DIR + 'minor_score.mdch', 'rb'))
 
-        templates_id_dict = {temp.progression_class['duplicate_id']: temp for temp in templates}
+        templates_id_dict = {temp.progression_class['duplicate-id']: temp for temp in templates}
+        replaced_by_progression = []
         for score_id_list_item in all_templates:
-            score_id_list_item[1] = [templates_id_dict[id] for id in score_id_list_item[1]]
+            replaced_by_progression.append([score_id_list_item[0],
+                                            [templates_id_dict[id] for id in score_id_list_item[1]]
+                                            ])
 
-        return all_templates
+        return replaced_by_progression
 
     def get(self):
         if not self.solved:
@@ -370,6 +373,6 @@ if __name__ == '__main__':
         'pos': [name[6] for name in melo_source_name]
     }
     my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta,
-                     templates=read_progressions('progressions_representative.pcls'))
+                     templates=read_progressions('representative.pcls'))
     my_dp_model.solve()
     print_progression_list(my_dp_model.get())
