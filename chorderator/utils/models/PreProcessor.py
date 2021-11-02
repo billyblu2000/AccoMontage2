@@ -2,6 +2,7 @@ from pretty_midi import PrettyMIDI, Instrument, Note
 
 from utils.excp import handle_exception
 from utils.utils import MIDILoader
+from utils.structured import major_map, minor_map, str_to_root
 
 
 class PreProcessor:
@@ -27,14 +28,12 @@ class PreProcessor:
             self.meta['pos'] = [name[6] for name in melo_source_name]
         else:
             # TODO
-            print(self.midi.get_beats())
-            input()
-            splited_melo = []
-            self.meta['pos'] = []
+            splited_melo = self.__analyze_midi()
+            self.meta['pos'] = ['x' for i in splited_melo]
 
         for i in splited_melo:
             if len(i) // 16 not in PreProcessor.accepted_phrase_length:
-                handle_exception(0)
+                handle_exception(312)
 
         return self.melo, splited_melo, self.meta
 
@@ -53,8 +52,93 @@ class PreProcessor:
                 if current_pitch is not 0:
                     note = Note(pitch=current_pitch, velocity=80, start=start * 0.125, end=(i + 1) * 0.125)
                     ins.notes.append(note)
-                current_pitch = pitch_list[i+1]
+                current_pitch = pitch_list[i + 1]
                 start = i + 1
         return ins
 
+    def __analyze_midi(self):
 
+        def quantize_note(time, unit):
+            base = time // unit
+            return base if time % unit < unit / 2 else base + 1
+
+        def pitch_to_number(pitch, meta):
+            tonic_distance = str_to_root[meta['tonic']]
+            if meta['mode'] == 'maj':
+                return major_map[(pitch - tonic_distance) % 12]
+            else:
+                return minor_map[(pitch - tonic_distance) % 12]
+
+        all_notes_and_pos = []
+        unit = 60 / self.midi.estimate_tempo() / 4
+        for note in self.midi.instruments[0].notes:
+            all_notes_and_pos.append([quantize_note(note.start, unit),
+                                      quantize_note(note.end, unit),
+                                      pitch_to_number(note.pitch, self.meta),
+                                      note.velocity])
+        melo_sequence = self.__construct_melo_sequence(all_notes_and_pos)
+        splited_melo = []
+        if self.phrase[0] != 1:
+            melo_sequence = melo_sequence[16 * (self.phrase[0] - 1):]
+        for i in range(len(self.phrase)):
+            if i == len(self.phrase) - 1:
+                splited_melo.append(melo_sequence)
+                break
+            if i == 0:
+                continue
+            splited_melo.append(melo_sequence[:16 * (self.phrase[i] - 1)])
+            melo_sequence = melo_sequence[16 * (self.phrase[i] - 1):]
+        return splited_melo
+
+    @staticmethod
+    def __construct_melo_sequence(all_notes_and_pos):
+
+        def fix_end(max_end):
+            fix_mapping = {
+                (0, 4): 4, (4, 8): 8, (8, 12): 12, (12, 16): 16,
+                (16, 20): None, (20, 24): 24, (24, 28): None, (28, 32): 32,
+            }
+            for (interval, fixed) in fix_mapping.items():
+                if interval[0] < max_end <= interval[1]:
+                    return fixed
+            else:
+                return None
+
+        def is_note_playing_at_cursor(note, cursor):
+            return True if note[0] <= cursor < note[1] else False
+
+        max_end = max(all_notes_and_pos, key=lambda x: x[1])[1]
+        fixed_end = fix_end(max_end // 16)
+        if fixed_end is None:
+            handle_exception(312)
+        else:
+            fixed_end *= 16
+        note_dict = {i: all_notes_and_pos[i] for i in range(len(all_notes_and_pos))}
+        melo_sequence, cache = [], -1
+        for cursor in range(fixed_end):
+            if cache != -1:
+                if is_note_playing_at_cursor(note_dict[cache], cursor):
+                    melo_sequence.append(note_dict[cache][2])
+                    continue
+                else:
+                    cache = -1
+            for (key, note) in note_dict.items():
+                if is_note_playing_at_cursor(note, cursor):
+                    melo_sequence.append(note[2])
+                    cache = key
+                    break
+            else:
+                melo_sequence.append(0)
+        return melo_sequence
+
+
+if __name__ == '__main__':
+    midi_path = '/Users/billyyi/PycharmProjects/Chorderator/MIDI demos/inputs/6.mid'
+    meta = {
+        'tonic':'C',
+        'mode':'maj',
+        'meter':'4/4'
+    }
+    phrase = [1]
+    pp = PreProcessor(midi_path=midi_path, phrase=phrase, meta=meta)
+    print(pp.get()[1])

@@ -19,7 +19,7 @@ class Pipeline:
 
     def __preprocess(self, midi_path, **kwargs):
         try:
-            processor = self.pipeline[0](midi_path, kwargs['meta'])
+            processor = self.pipeline[0](midi_path, kwargs['phrase'], kwargs['meta'])
             print(processor)
             return processor.get()
         except:
@@ -40,7 +40,12 @@ class Pipeline:
         templates = read_progressions('dict.pcls')
         lib = pickle_read('lib')
         try:
-            processor = self.pipeline[2](progression_list, templates, lib, meta, **kwargs)
+            processor = self.pipeline[2](progression_list,
+                                         templates,
+                                         lib,
+                                         meta,
+                                         kwargs['output_chord_style'],
+                                         kwargs['output_progression_style'])
             return processor.get()
         except Exception as e:
             handle_exception(700)
