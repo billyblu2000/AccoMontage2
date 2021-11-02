@@ -9,18 +9,26 @@ from utils.utils import Logging
 
 
 class Core:
-    registered_models = {
+    registered = {
         'pre': ['PreProcessor'],
         'main': ['DP'],
-        'post': ['PostProcessor']
+        'post': ['PostProcessor'],
+        'phrase': [4, 8, 12, 16, 24, 32],
+        'chord_style':['classy', 'emotional','standard', 'second-inversion', 'root-note', 'cluster', 'power-chord',
+                       'sus2', 'seventh', 'power-octave', 'unknown', 'sus4', 'first-inversion', 'full-octave'],
+        'progression_style':['emotional', 'pop','dark', 'r&b', 'edm', 'unknown'],
+        'meta.key':['C', 'C#', 'Db', 'Eb', 'D#', 'D', 'F', 'E', 'F#', 'Gb', 'G', 'G#', 'Ab', 'A', 'A#', 'B', 'Bb'],
+        'meta.mode':['maj', 'min'],
+        'meta.meter':['4/4', '3/4'],
     }
 
     def __init__(self):
         self._pipeline = [self.preprocess_model(), self.main_model(), self.postprocess_model()]
         self.midi_path = ''
+        self.phrase = []
         self.meta = {}
-        self.output_progression_style = None
-        self.output_chord_style = None
+        self.output_progression_style = 'unknown'
+        self.output_chord_style = 'unknown'
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, '_instance'):
@@ -62,18 +70,18 @@ class Core:
             handle_exception(0)
         self.output_chord_style = style
 
-    def preprocess_model(self, model_name=registered_models['pre'][0]):
-        if model_name not in Core.registered_models['pre']:
+    def preprocess_model(self, model_name=registered['pre'][0]):
+        if model_name not in Core.registered['pre']:
             return False
         return self.__import_model(model_name)
 
-    def main_model(self, model_name=registered_models['main'][0]):
-        if model_name not in Core.registered_models['main']:
+    def main_model(self, model_name=registered['main'][0]):
+        if model_name not in Core.registered['main']:
             return False
         return self.__import_model(model_name)
 
-    def postprocess_model(self, model_name=registered_models['post'][0]):
-        if model_name not in Core.registered_models['post']:
+    def postprocess_model(self, model_name=registered['post'][0]):
+        if model_name not in Core.registered['post']:
             return False
         return self.__import_model(model_name)
 
@@ -87,15 +95,61 @@ class Core:
         else:
             return False
 
-    def verify_pipeline(self):
+    def verify(self):
         if False in self._pipeline:
             return 200 + self._pipeline.index(False) + 1
+
+        checks = [self.__check_midi_path(),
+                  self.__check_phrase(),
+                  self.__check_meta(),
+                  self.__check_chord_style(),
+                  self.__check_progression_style()]
+
+        for check in checks:
+            if check != 100:
+                return check
         else:
             return 100
+
+    def __check_midi_path(self):
+        return 301 if self.midi_path == '' else 100
+
+    def __check_phrase(self):
+        if not self.phrase:
+            return 311
+        cursor = 1
+        while cursor < len(self.phrase):
+            if self.phrase[cursor] - self.phrase[cursor-1] not in self.registered['phrase']:
+                return 312
+            cursor += 1
+        else:
+            return 100
+
+    def __check_meta(self):
+        if self.meta == {}:
+            return 321
+        if 'tonic' not in self.meta.keys() \
+                or 'meter' not in self.meta.keys() \
+                or 'mode' not in self.meta.keys():
+            return 322
+        if self.meta['tonic'] not in self.registered['meta.key']:
+            return 323
+        if self.meta['mode'] not in self.registered['meta.mode']:
+            return 324
+        if self.meta['meter'] not in self.registered['meta.meter']:
+            return 325
+        return 100
+
+    def __check_chord_style(self):
+        return 331 if self.output_chord_style not in self.registered['chord_style'] else 100
+
+    def __check_progression_style(self):
+        return 341 if self.output_progression_style not in self.registered['progression_style'] else 100
 
     def run(self, output_name):
         pipeline = Pipeline(self._pipeline)
         pipeline.send_in(self.midi_path,
+                         phrase=self.phrase,
                          meta=self.meta,
                          output_progression_style=self.output_progression_style,
                          output_chord_style=self.output_chord_style)

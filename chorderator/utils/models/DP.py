@@ -327,7 +327,6 @@ class DP:
             replaced_by_progression.append([score_id_list_item[0],
                                             [templates_id_dict[id] for id in score_id_list_item[1]]
                                             ])
-
         return replaced_by_progression
 
     def get(self):

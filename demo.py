@@ -6,7 +6,6 @@ import numpy
 from matplotlib import pyplot
 
 import chorderator as cdt
-from chorderator import Const
 from chords.ChordProgression import read_progressions, print_progression_list
 from utils.string import STATIC_DIR
 
@@ -16,9 +15,10 @@ from utils.utils import read_lib, split_huge_progression_dict, PathGenerator, MI
 # cdt.set_main_model('DP')
 # cdt.set_postprocess_model('PostProcessor')
 
-cdt.set_melody('124')
-cdt.set_meta(tonic='', mode='maj', meter='4/4')
+cdt.set_melody('MIDI demos/inputs/0.mid')
+cdt.set_phrase([1])
+cdt.set_meta(tonic=cdt.Key.C, mode=cdt.Mode.MAJOR, meter=cdt.Meter.FOUR_FOUR)
 
-cdt.set_output_chord_style('standard')
-cdt.set_output_progression_style('pop')
-cdt.generate('generated.mid')
+cdt.set_output_chord_style(cdt.ChordStyle.STANDARD)
+cdt.set_output_progression_style(cdt.ProgressionStyle.POP)
+cdt.generate('MIDI demos/outputs/generated.mid')

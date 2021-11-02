@@ -7,9 +7,7 @@ from utils.utils import MIDILoader
 class PreProcessor:
     accepted_phrase_length = [4, 8, 16, 12, 24, 32]
 
-    def __init__(self, midi_path='', meta=None):
-        if meta is None:
-            meta = {}
+    def __init__(self, midi_path='', phrase=None, meta=None):
         try:
             self.midi = PrettyMIDI(midi_path)
             self.melo = self.midi.instruments[0]
@@ -17,6 +15,7 @@ class PreProcessor:
             self.midi = midi_path
             self.melo = self.__load_pop909_melo()
         self.meta = meta
+        self.phrase = phrase
 
     def get(self):
 
@@ -28,6 +27,8 @@ class PreProcessor:
             self.meta['pos'] = [name[6] for name in melo_source_name]
         else:
             # TODO
+            print(self.midi.get_beats())
+            input()
             splited_melo = []
             self.meta['pos'] = []
 
