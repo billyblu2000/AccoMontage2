@@ -13,14 +13,19 @@ class Pipeline:
 
     # noinspection PyTupleAssignmentBalance,PyNoneFunctionAssignment
     def send_in(self, midi_path, **kwargs):
+        Logging.warning('Pre-processing...')
         self.melo, splited_melo, meta = self.__preprocess(midi_path, **kwargs)
+        Logging.warning('Pre-process done!')
+        Logging.warning('Solving...')
         progression_list = self.__main_model(splited_melo, meta)
+        Logging.warning('Solved!')
+        Logging.warning('Post-processing...')
         self.final_output = self.__postprocess(progression_list, **kwargs)
+        Logging.warning('Post-process done!')
 
     def __preprocess(self, midi_path, **kwargs):
         try:
             processor = self.pipeline[0](midi_path, kwargs['phrase'], kwargs['meta'])
-            print(processor)
             return processor.get()
         except:
             handle_exception(500)
@@ -28,7 +33,6 @@ class Pipeline:
     def __main_model(self, splited_melo, meta):
         templates = read_progressions('representative.pcls')
         meta['metre'] = meta['meter']
-        print(splited_melo,meta,templates[:100])
         try:
             processor = self.pipeline[1](splited_melo, meta, templates)
             processor.solve()

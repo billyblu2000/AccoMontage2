@@ -542,7 +542,7 @@ def print_progression_list(progression_list: List[ChordProgression], limit=None)
         count += 1
         if count == limit:
             break
-    print("Total: ", len(progression_list), "\n")
+    print("Total: " + str(len(progression_list)) + "\n")
 
 
 if __name__ == '__main__':

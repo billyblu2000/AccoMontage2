@@ -141,4 +141,3 @@ if __name__ == '__main__':
     }
     phrase = [1]
     pp = PreProcessor(midi_path=midi_path, phrase=phrase, meta=meta)
-    print(pp.get()[1])

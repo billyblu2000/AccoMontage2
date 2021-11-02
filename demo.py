@@ -15,7 +15,7 @@ from utils.utils import read_lib, split_huge_progression_dict, PathGenerator, MI
 # cdt.set_main_model('DP')
 # cdt.set_postprocess_model('PostProcessor')
 
-cdt.set_melody('MIDI demos/inputs/0.mid')
+cdt.set_melody('MIDI demos/inputs/3.mid')
 cdt.set_phrase([1])
 cdt.set_meta(tonic=cdt.Key.C, mode=cdt.Mode.MAJOR, meter=cdt.Meter.FOUR_FOUR)
 
