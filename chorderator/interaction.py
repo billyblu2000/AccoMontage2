@@ -18,13 +18,15 @@ def set_phrase(phrase: list):
     _core.phrase = phrase
 
 
-def set_meta(tonic: str = None, mode: str = None, meter: str = None):
+def set_meta(tonic: str = None, mode: str = None, meter: str = None, tempo=None):
     if tonic is not None:
         _core.meta['tonic'] = tonic
     if mode is not None:
         _core.meta['mode'] = mode
     if meter is not None:
         _core.meta['meter'] = meter
+    if tempo is not None:
+        _core.meta['tempo'] = tempo
 
 
 def set_output_progression_style(style: str):

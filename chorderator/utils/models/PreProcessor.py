@@ -32,7 +32,8 @@ class PreProcessor:
             # TODO
             splited_melo = self.__analyze_midi()
             self.meta['pos'] = ['x' for i in splited_melo]
-            self.meta['tempo'] = self.midi.estimate_tempo()
+            if 'tempo' not in self.meta.keys():
+                self.meta['tempo'] = self.midi.estimate_tempo()
             self.meta['unit'] = 60 / self.meta['tempo'] / 4
             print(self.meta)
 
@@ -75,7 +76,10 @@ class PreProcessor:
                 return minor_map[(pitch - tonic_distance) % 12]
 
         all_notes_and_pos = []
-        unit = 60 / self.midi.estimate_tempo() / 4
+        if 'tempo' not in self.meta.keys():
+            unit = 60 / self.midi.estimate_tempo() / 4
+        else:
+            unit = 60 / self.meta['tempo'] / 4
         for note in self.midi.instruments[0].notes:
             all_notes_and_pos.append([quantize_note(note.start, unit),
                                       quantize_note(note.end, unit),

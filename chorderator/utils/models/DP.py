@@ -209,7 +209,13 @@ class DP:
     # 中观
     def __match_template_and_pattern(self, template: [float, list]) -> float:
 
-        return template[0]
+        punish = 0
+        for temp in template[1]:
+            p = temp.get(flattened=True, only_root=True)
+            for chord in p:
+                if type(chord) is float:
+                    punish = 0.1
+        return template[0] - punish
 
     @staticmethod
     def __load_transition_dict():

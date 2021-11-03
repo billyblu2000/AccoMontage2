@@ -72,8 +72,8 @@ class PostProcessor:
         note_list = []
         shift_count = 0
         for progression in final_progression_list:
-            temp_midi = progression.to_midi(lib=self.midi_lib, tempo=120)
-            temp_midi = midi_shift(temp_midi, shift=shift_count, tempo=120)
+            temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'])
+            temp_midi = midi_shift(temp_midi, shift=shift_count, tempo=self.meta['tempo'])
             note_list += temp_midi.instruments[0].notes
             shift_count += len(progression) * 2
         note_list = self.__smooth_notes(note_list)
