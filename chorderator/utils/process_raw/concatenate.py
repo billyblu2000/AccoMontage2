@@ -80,7 +80,7 @@ if __name__ == '__main__':
     templates = read_progressions('representative.pcls')
     new_templates = []
     for t in templates:
-        if 'mod/2' not in t.meta['source']:
+        if 'mod/2' not in t.meta['source'] and 'modx2' not in t.meta['source']:
             new_templates.append(t)
     templates = new_templates
 

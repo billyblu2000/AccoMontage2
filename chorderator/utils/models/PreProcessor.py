@@ -95,7 +95,7 @@ class PreProcessor:
 
         def fix_end(max_end):
             fix_mapping = {
-                (0, 4): 4, (4, 8): 8, (8, 12): 12, (12, 16): 16,
+                (0, 4): 4, (4, 9): 8, (9, 12): 12, (12, 16): 16,
                 (16, 20): None, (20, 24): 24, (24, 28): None, (28, 32): 32,
             }
             for (interval, fixed) in fix_mapping.items():

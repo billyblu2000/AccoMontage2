@@ -107,6 +107,10 @@ class ChordProgression:
     def type(self):
         return self.progression_class['type']
 
+    @property
+    def id(self):
+        return self.progression_class['duplicate-id']
+
     @type.setter
     def type(self, new_type):
         self.progression_class['type'] = new_type

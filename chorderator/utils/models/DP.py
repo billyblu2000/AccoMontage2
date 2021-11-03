@@ -108,13 +108,19 @@ class DP:
     def pick_templates(self, melo, melo_meta):
 
         available_templates = []
-
         for template in self.templates:
-            total_temp_length = 0
-            for i in template[1]:
-                total_temp_length += len(i)
-            if total_temp_length == len(melo) // 2:
-                available_templates.append(template)
+            # TODO
+            flag = True
+            for temp in template[1]:
+                if temp.id == 128 or temp.id == 147:
+                    flag = False
+                    break
+            if flag:
+                total_temp_length = 0
+                for i in template[1]:
+                    total_temp_length += len(i)
+                if total_temp_length == len(melo) // 2:
+                    available_templates.append(template)
 
         if len(available_templates) == 0:
             print('no matched length')
