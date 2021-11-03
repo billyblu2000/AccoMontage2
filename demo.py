@@ -1,7 +1,7 @@
 import chorderator as cdt
 from chords.ChordProgression import read_progressions
 
-cdt.set_melody('155')
+cdt.set_melody('MIDI demos/inputs/35.mid')
 cdt.set_phrase([1])
 cdt.set_meta(tonic=cdt.Key.C, mode=cdt.Mode.MAJOR, meter=cdt.Meter.FOUR_FOUR)
 

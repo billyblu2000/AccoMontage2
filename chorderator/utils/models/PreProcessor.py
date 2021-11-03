@@ -34,11 +34,12 @@ class PreProcessor:
             self.meta['pos'] = ['x' for i in splited_melo]
             self.meta['tempo'] = self.midi.estimate_tempo()
             self.meta['unit'] = 60 / self.meta['tempo'] / 4
+            print(self.meta)
 
         for i in splited_melo:
             if len(i) // 16 not in PreProcessor.accepted_phrase_length:
                 handle_exception(312)
-
+        print(splited_melo, len(splited_melo[0]))
         return self.melo, splited_melo, self.meta
 
     def __load_pop909_melo(self):
