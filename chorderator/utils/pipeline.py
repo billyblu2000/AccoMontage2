@@ -6,18 +6,19 @@ from utils.utils import Logging, pickle_read, combine_ins
 class Pipeline:
 
     def __init__(self, pipeline):
+        self.meta = None
+        self.melo = None
+        self.final_output = None
         self.pipeline = pipeline
         if len(pipeline) != 3:
             Logging.critical('Pipeline length not match!')
-        self.final_output = None
 
-    # noinspection PyTupleAssignmentBalance,PyNoneFunctionAssignment
     def send_in(self, midi_path, **kwargs):
         Logging.warning('Pre-processing...')
-        self.melo, splited_melo, meta = self.__preprocess(midi_path, **kwargs)
+        self.melo, splited_melo, self.meta = self.__preprocess(midi_path, **kwargs)
         Logging.warning('Pre-process done!')
         Logging.warning('Solving...')
-        progression_list = self.__main_model(splited_melo, meta)
+        progression_list = self.__main_model(splited_melo, self.meta)
         Logging.warning('Solved!')
         Logging.warning('Post-processing...')
         self.final_output = self.__postprocess(progression_list, **kwargs)
@@ -40,14 +41,14 @@ class Pipeline:
         except Exception as e:
             handle_exception(600)
 
-    def __postprocess(self, progression_list, meta, **kwargs):
+    def __postprocess(self, progression_list, **kwargs):
         templates = read_progressions('dict.pcls')
         lib = pickle_read('lib')
         try:
             processor = self.pipeline[2](progression_list,
                                          templates,
                                          lib,
-                                         meta,
+                                         self.meta,
                                          kwargs['output_chord_style'],
                                          kwargs['output_progression_style'])
             return processor.get()

@@ -26,10 +26,14 @@ class PreProcessor:
             melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with=self.midi)[:5]
             splited_melo = [pop909_loader.get(name=i) for i in melo_source_name]
             self.meta['pos'] = [name[6] for name in melo_source_name]
+            self.meta['tempo'] = 120
+            self.meta['unit'] = 0.125
         else:
             # TODO
             splited_melo = self.__analyze_midi()
             self.meta['pos'] = ['x' for i in splited_melo]
+            self.meta['tempo'] = self.midi.estimate_tempo()
+            self.meta['unit'] = 60 / self.meta['tempo'] / 4
 
         for i in splited_melo:
             if len(i) // 16 not in PreProcessor.accepted_phrase_length:

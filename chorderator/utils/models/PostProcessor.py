@@ -21,6 +21,11 @@ class PostProcessor:
         self.midi = self.__construct_midi()
 
     def get(self):
+        new_notes = []
+        for note in self.midi.notes:
+            if note.duration != 0:
+                new_notes.append(note)
+        self.midi.notes = new_notes
         return self.midi
 
     @staticmethod
@@ -67,10 +72,52 @@ class PostProcessor:
         note_list = []
         shift_count = 0
         for progression in final_progression_list:
-            temp_midi = progression.to_midi(lib=self.midi_lib)
-            temp_midi = midi_shift(temp_midi, shift=shift_count, tempo=120)
+            temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'])
+            temp_midi = midi_shift(temp_midi, shift=shift_count, tempo=self.meta['tempo'])
             note_list += temp_midi.instruments[0].notes
             shift_count += len(progression) * 2
+        note_list = self.__smooth_notes(note_list)
         ins.notes += note_list
         return ins
 
+    def __smooth_notes(self, note_list):
+
+        velocity_dynamics = (30, 90)
+        pitch_dynamic = (29, 74)
+
+        def map_velocity(velocity):
+            return int((velocity_dynamics[1] - velocity_dynamics[0]) * (velocity / 128) + velocity_dynamics[0])
+
+        def is_note_list_in_pitch_dynamic(notes_index):
+            try:
+                avg = sum([note_list[idx].pitch for idx in notes_index]) / len(notes_index)
+                min_pitch = min([note_list[idx] for idx in notes_index], key=lambda x:x.pitch).pitch
+                max_pitch = max([note_list[idx] for idx in notes_index], key=lambda x: x.pitch).pitch
+                if avg < (pitch_dynamic[1] - pitch_dynamic[0]) / 10 + pitch_dynamic[0] or min_pitch < pitch_dynamic[0]:
+                    return -1
+                if avg > pitch_dynamic[1] - (pitch_dynamic[1] - pitch_dynamic[0]) / 10 or max_pitch > pitch_dynamic[1]:
+                    return 1
+                return 0
+            except:
+                return 0
+
+        for note in note_list:
+            note.velocity = map_velocity(note.velocity)
+
+        four_bars_length = self.meta['unit'] * 64
+        max_end = max(note_list, key = lambda x:x.end).end
+        cursor = 0
+        while cursor <= max_end:
+            section_notes_index = []
+            for i in range(len(note_list)):
+                if cursor <= note_list[i].start < cursor + four_bars_length:
+                    section_notes_index.append(i)
+            compare_result = is_note_list_in_pitch_dynamic(section_notes_index)
+            if compare_result == 1:
+                for idx in section_notes_index:
+                    note_list[idx].pitch -= 12
+            elif compare_result == -1:
+                for idx in section_notes_index:
+                    note_list[idx].pitch += 12
+            cursor += four_bars_length
+        return note_list
