@@ -1,11 +1,10 @@
 import importlib
 import inspect
-import time
 
-from chords.ChordProgression import print_progression_list
-from utils.excp import handle_exception
-from utils.pipeline import Pipeline
-from utils.utils import Logging
+from .chords.ChordProgression import print_progression_list
+from .utils.excp import handle_exception
+from .utils.pipeline import Pipeline
+from .utils.utils import Logging
 
 
 class Core:
@@ -88,7 +87,7 @@ class Core:
     @staticmethod
     def __import_model(model_name):
         surpass = ['Chord', 'ChordProgression', 'MIDILoader', 'Logging', 'Instrument', 'PrettyMIDI', 'Note']
-        m = importlib.import_module('utils.models.' + model_name)
+        m = importlib.import_module('.utils.models.' + model_name, package='chorderator')
         for cls in dir(m):
             if inspect.isclass(getattr(m, cls)) and cls not in surpass:
                 return getattr(m, cls)

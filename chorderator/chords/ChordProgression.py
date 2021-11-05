@@ -6,12 +6,10 @@ from typing import List
 
 from pretty_midi import PrettyMIDI, Instrument, Note
 
-from chords.Chord import Chord
-from utils.process_raw.ProcessDataUtils import type_dict
-from utils.structured import str_to_root, root_to_str, major_map, major_map_backward
-from utils.string import STATIC_DIR, RESOURCE_DIR
-from utils.utils import compute_distance, compute_destination, Logging, read_lib
-from utils.constants import *
+from .Chord import Chord
+from ..utils.string import STATIC_DIR
+from ..utils.utils import compute_distance, compute_destination, Logging, read_lib
+from ..utils.constants import *
 
 
 class ChordProgression:
@@ -390,6 +388,18 @@ class ChordProgression:
 
 
 def read_progressions(progression_file='progressions.pcls', span=False):
+    class RenameUnpickler(pickle.Unpickler):
+        def find_class(self, module, name):
+            renamed_module = module
+            if module == "chords.Chord":
+                renamed_module = "chorderator.chords.Chord"
+            if module == "chords.ChordProgression":
+                renamed_module = "chorderator.chords.ChordProgression"
+
+            return super(RenameUnpickler, self).find_class(renamed_module, name)
+
+    def renamed_load(file_obj):
+        return RenameUnpickler(file_obj).load()
 
     def span_progression(progression):
 
@@ -404,8 +414,8 @@ def read_progressions(progression_file='progressions.pcls', span=False):
             if len(before) % bar_length != 0:
                 raise Exception("Can't span progression: length {l} cannot be restored with bar length {b}"
                                 .format(l=len(before), b=bar_length))
-            for i in range(len(before)// bar_length):
-                after.append(before[i:i+bar_length])
+            for i in range(len(before) // bar_length):
+                after.append(before[i:i + bar_length])
             return after
 
         def mul(chord_list, scale=2):
@@ -420,9 +430,9 @@ def read_progressions(progression_file='progressions.pcls', span=False):
             flattened = flatten(chord_list)
             if len(flattened) % scale != 0:
                 raise Exception("Can't span progression: length {l} cannot be divide by scale {s}"
-                                .format(l=len(flattened),s=scale))
+                                .format(l=len(flattened), s=scale))
             new_chord_list = []
-            for i in range(len(flattened)//scale):
+            for i in range(len(flattened) // scale):
                 new_chord_list.append(copy.deepcopy(flattened[i * scale]))
             return restore(new_chord_list, bar_length=len(chord_list[0]))
 
@@ -446,7 +456,7 @@ def read_progressions(progression_file='progressions.pcls', span=False):
     if progression_file[-4:] == 'pcls':
         try:
             file = open(STATIC_DIR + progression_file, "rb")
-            progression_list = pickle.load(file)
+            progression_list = renamed_load(file)
             file.close()
         except:
             all_file_names = []
@@ -459,7 +469,7 @@ def read_progressions(progression_file='progressions.pcls', span=False):
             progression_list = {}
             for name in all_file_names:
                 file = open(STATIC_DIR + name, "rb")
-                progression_list.update(pickle.load(file))
+                progression_list.update(renamed_load(file))
                 file.close()
 
     else:
@@ -548,6 +558,30 @@ def print_progression_list(progression_list: List[ChordProgression], limit=None)
             break
     print("Total: " + str(len(progression_list)) + "\n")
 
+
+type_dict = {
+    "fadein": FADEIN,
+    "intro": INTRO,
+    "intro-a": INTRO,
+    "intro-b": INTRO,
+    "pre-verse": PREVERSE,
+    "preverse": PREVERSE,
+    "verse": VERSE,
+    "pre-chorus": PRECHORUS,
+    "prechorus": PRECHORUS,
+    "chorus": CHORUS,
+    "refrain": CHORUS,
+    "bridge": BRIDGE,
+    "trans": TRANS,
+    "transition": TRANS,
+    "interlude": INTERLUDE,
+    "instrumental": INSTRUMENTAL,
+    "solo": SOLO,
+    "outro": OUTRO,
+    "coda": OUTRO,
+    "ending": OUTRO,
+    "fadeout": FADEOUT,
+}
 
 if __name__ == '__main__':
     cp = ChordProgression(type="", metre="", mode="M", tonic="D", source="")

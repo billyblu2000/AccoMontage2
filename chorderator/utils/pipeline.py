@@ -1,6 +1,6 @@
-from chords.ChordProgression import read_progressions
-from utils.excp import handle_exception
-from utils.utils import Logging, pickle_read, combine_ins
+from ..chords.ChordProgression import read_progressions
+from .excp import handle_exception
+from .utils import Logging, pickle_read, combine_ins
 
 
 class Pipeline:

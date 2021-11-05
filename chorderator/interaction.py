@@ -2,10 +2,10 @@ __all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output
            'set_preprocess_model', 'set_main_model', 'set_postprocess_model', 'generate',
            'Key', 'Mode', 'Meter', 'set_phrase', 'ChordStyle', 'ProgressionStyle']
 
-from core import Core
-from settings import *
-from utils.excp import handle_exception
-from utils.utils import Logging
+from .core import Core
+from .settings import *
+from .utils.excp import handle_exception
+from .utils.utils import Logging
 
 _core = Core.get_core()
 

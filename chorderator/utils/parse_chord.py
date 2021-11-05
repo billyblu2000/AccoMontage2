@@ -1,4 +1,4 @@
-from utils.constants import *
+from .constants import *
 
 # types
 # MAJ_TRIAD, MIN_TRIAD, AUG_TRIAD, DIM_TRIAD, MAJ_SEVENTH,

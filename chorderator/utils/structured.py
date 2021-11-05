@@ -1,4 +1,4 @@
-from utils.constants import *
+from .constants import *
 
 # TODO
 chord_type_to_pitch_relation = {

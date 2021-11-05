@@ -2,9 +2,9 @@ import random
 
 from pretty_midi import Instrument
 
-from chords.ChordProgression import print_progression_list
-from utils.excp import handle_exception
-from utils.utils import midi_shift
+from ...chords.ChordProgression import print_progression_list
+from ...utils.excp import handle_exception
+from ...utils.utils import midi_shift
 
 
 class PostProcessor:

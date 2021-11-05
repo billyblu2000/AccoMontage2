@@ -1,8 +1,8 @@
 from pretty_midi import PrettyMIDI, Instrument, Note
 
-from utils.excp import handle_exception
-from utils.utils import MIDILoader
-from utils.structured import major_map, minor_map, str_to_root
+from ...utils.excp import handle_exception
+from ...utils.utils import MIDILoader
+from ...utils.structured import major_map, minor_map, str_to_root
 
 
 class PreProcessor:

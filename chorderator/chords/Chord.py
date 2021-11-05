@@ -1,7 +1,7 @@
-from utils.constants import *
-from utils.parse_chord import CHORDS_ANALYSIS_2
-from utils.structured import str_to_root, chord_type_to_pitch_relation, root_to_pitch_low
-from utils.utils import listen_pitches, Logging
+from ..utils.constants import *
+from ..utils.parse_chord import CHORDS_ANALYSIS_2
+from ..utils.structured import str_to_root, chord_type_to_pitch_relation, root_to_pitch_low
+from ..utils.utils import Logging
 
 
 class Chord:

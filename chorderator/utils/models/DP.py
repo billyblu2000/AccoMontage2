@@ -3,10 +3,10 @@ from typing import List
 import numpy as np
 import pretty_midi
 
-from chords.Chord import Chord
-from chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
-from utils.utils import MIDILoader, Logging, pickle_read
-from utils.structured import major_map_backward, minor_map_backward
+from ...chords.Chord import Chord
+from ...chords.ChordProgression import ChordProgression, read_progressions, print_progression_list
+from ...utils.utils import MIDILoader, Logging, pickle_read
+from ...utils.structured import major_map_backward, minor_map_backward
 
 
 class DP:

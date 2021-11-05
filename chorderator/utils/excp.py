@@ -1,4 +1,4 @@
-from utils.utils import Logging
+from .utils import Logging
 
 website = ' For more information, please visit https://...com.'
 def handle_exception(code):
