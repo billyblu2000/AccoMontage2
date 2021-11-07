@@ -1,10 +1,9 @@
 import importlib
 import inspect
 
-from .chords.ChordProgression import print_progression_list
 from .utils.excp import handle_exception
 from .utils.pipeline import Pipeline
-from .utils.utils import Logging
+from .settings import MAXIMUM_CORES
 
 
 class Core:
@@ -31,14 +30,24 @@ class Core:
         self.output_chord_style = 'unknown'
 
     def __new__(cls, *args, **kwargs):
-        if not hasattr(cls, '_instance'):
-            cls._instance = super(Core, cls).__new__(cls)
-        return cls._instance
+        if not hasattr(cls, '_instance_list'):
+            cls._instance_list = []
+        if len(cls._instance_list) >= MAXIMUM_CORES:
+            new_instance_list = []
+            for instance in cls._instance_list:
+                if instance.get_state() == 6:
+                    del instance
+                else:
+                    new_instance_list.append(instance)
+            cls._instance_list = new_instance_list
+            if len(cls._instance_list) >= MAXIMUM_CORES:
+                return None
+        cls._instance_list.append(super(Core, cls).__new__(cls))
+        return cls._instance_list[-1]
 
     @classmethod
     def get_core(cls):
-        core = Core()
-        return core
+        return Core()
 
     def get_pipeline_models(self):
         return self._pipeline

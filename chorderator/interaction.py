@@ -1,6 +1,7 @@
 __all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output_chord_style',
            'set_preprocess_model', 'set_main_model', 'set_postprocess_model', 'generate',
-           'Key', 'Mode', 'Meter', 'set_phrase', 'ChordStyle', 'ProgressionStyle', 'generate_save']
+           'Key', 'Mode', 'Meter', 'set_phrase', 'ChordStyle', 'ProgressionStyle', 'generate_save',
+           'get_chorderator']
 
 from .core import Core
 from .settings import *
@@ -8,6 +9,10 @@ from .utils.excp import handle_exception
 from .utils.utils import Logging
 
 _core = Core.get_core()
+
+
+def get_chorderator():
+    return Core.get_core()
 
 
 def set_melody(midi_path: str):
@@ -52,11 +57,12 @@ def set_postprocess_model(name: str):
     Logging.info('Postprocess model set as', name)
 
 
-def generate():
+def generate(with_log=False):
     verified = _core.verify()
     if verified != 100:
         handle_exception(verified)
-    return _core.run()
+    gen = _core.run()
+    return gen if with_log else gen[0]
 
 
 def generate_save(output_name, with_log=False):
@@ -65,22 +71,25 @@ def generate_save(output_name, with_log=False):
     except:
         pass
     if not with_log:
-        gen = generate()[0]
-        gen.write(output_name + '/generated.mid')
+        generate().write(output_name + '/generated.mid')
         return
     else:
-        gen, gen_log = generate()
+        gen, gen_log = generate(with_log=True)
         gen.write(output_name + '/generated.mid')
         file = open(output_name + '/generated.log', 'w')
+
         for i in range(len(gen_log)):
-            file.write('Chord Progression {i}\n'.format(i=i))
-            file.write('Score: {s}\n'.format(s=gen_log[i]['score']))
-            file.write('Chord Style: {s}\n'.format(s=gen_log[i]['chord_style']))
-            file.write('Progression Style: {s}\n'.format(s=gen_log[i]['progression_style']))
-            file.write('Cycle: {s}\n'.format(s=gen_log[i]['cycle']))
-            file.write('Pattern: {s}\n'.format(s=gen_log[i]['pattern']))
-            file.write('Position: {s}\n'.format(s=gen_log[i]['position']))
-            file.write('Progression: {s}\n\n'.format(s=gen_log[i]['progression']))
+            file.write('Chord Progression {i}\nScore: {s}\nChord Style: {cs}\nProgression Style: {ps}\nCycle: {c}\n'
+                       'Pattern: {p}\nPosition: {pos}\nProgression: {prog}\n\n'
+                       .format(i=i,
+                               s=gen_log[i]['score'],
+                               cs=gen_log[i]['chord_style'],
+                               ps=gen_log[i]['progression_style'],
+                               c=gen_log[i]['cycle'],
+                               p=gen_log[i]['pattern'],
+                               pos=gen_log[i]['position'],
+                               prog=gen_log[i]['progression']
+                               ))
         file.close()
         return
 

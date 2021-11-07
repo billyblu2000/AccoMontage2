@@ -18,3 +18,5 @@ static_storage = {
     'concat_major': STATIC_DIR + 'major_score.mdch',
     'concat_minor': STATIC_DIR + 'minor_score.mdch',
 }
+
+MAXIMUM_CORES = 3
