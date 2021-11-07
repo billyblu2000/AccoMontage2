@@ -6,7 +6,7 @@ __all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output
 from .core import Core
 from .settings import *
 from .utils.excp import handle_exception
-from .utils.utils import Logging
+from .utils.utils import Logging, listen
 
 _core = Core.get_core()
 
@@ -65,19 +65,13 @@ def generate(with_log=False):
     return gen if with_log else gen[0]
 
 
-def generate_save(output_name, with_log=False):
-    try:
-        os.makedirs(output_name)
-    except:
-        pass
-    if not with_log:
-        generate().write(output_name + '/generated.mid')
-        return
-    else:
-        gen, gen_log = generate(with_log=True)
-        gen.write(output_name + '/generated.mid')
-        file = open(output_name + '/generated.log', 'w')
+def generate_save(output_name, with_log=False, formats=None):
 
+    if formats is None:
+        formats = ['mid']
+
+    def write_log(gen_log):
+        file = open(output_name + '/' + output_name + '.log', 'w')
         for i in range(len(gen_log)):
             file.write('Chord Progression {i}\nScore: {s}\nChord Style: {cs}\nProgression Style: {ps}\nCycle: {c}\n'
                        'Pattern: {p}\nPosition: {pos}\nProgression: {prog}\n\n'
@@ -91,7 +85,20 @@ def generate_save(output_name, with_log=False):
                                prog=gen_log[i]['progression']
                                ))
         file.close()
-        return
+
+    try:
+        os.makedirs(output_name)
+    except:
+        pass
+    if not with_log:
+        gen = generate()
+    else:
+        gen, gen_log = generate(with_log=True)
+        write_log(gen_log)
+    if 'mid' in formats:
+        gen.write(output_name + '/' + output_name + '.mid')
+    if 'wav' in formats:
+        listen(gen, path=output_name, out='/' + output_name + '.wav')
 
 
 class Key:

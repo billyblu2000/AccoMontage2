@@ -21,7 +21,7 @@ except ImportError as e:
 fs_exist = True
 if FluidSynth is None:
     fs_exist = False
-    warnings.warn('Could not import FluidSynth, this will disabled the listen function')
+    warnings.warn('Could not import FluidSynth, audio formats writing disabled')
 
 
 def pickle_read(path):
@@ -209,18 +209,20 @@ def listen_pitches(midi_pitch: list, time, instrument=0):
     listen(midi)
 
 
-def listen(midi: PrettyMIDI, out=time.strftime("%H_%M_%S", time.localtime()) + ".wav"):
+def listen(midi: PrettyMIDI, path = None, out=time.strftime("%H_%M_%S", time.localtime()) + ".wav"):
     if not fs_exist:
-        warnings.warn('FluidSynth not installed!')
-    midi.write(string.STATIC_DIR + "audio/" + "midi.mid")
-    fs = FluidSynth(sound_font=string.BASE_DIR + '.fluidsynth/default_sound_font.sf2')
-    date = time.strftime("%Y-%m-%d", time.localtime()) + "/"
+        return False
+    if not path:
+        path = string.STATIC_DIR + "audio/"
+    midi.write(path + "__listen__.mid")
+    fs = FluidSynth(sound_font=string.STATIC_DIR + 'default_sound_font.sf2')
     try:
-        os.makedirs(string.STATIC_DIR + "audio/" + date)
+        os.makedirs(path)
     except:
         pass
-    fs.midi_to_audio(string.STATIC_DIR + "audio/" + "midi.mid", string.STATIC_DIR + "audio/" + date + out)
-    os.remove(string.STATIC_DIR + "audio/" + "midi.mid")
+    fs.midi_to_audio(path + "__listen__.mid", path + out)
+    os.remove(path + "__listen__.mid")
+    return True
 
 
 def split_huge_progression_dict(my_dict):

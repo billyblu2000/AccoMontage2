@@ -2,6 +2,7 @@ import importlib
 import inspect
 import os
 
+from .utils.utils import listen
 from .utils.excp import handle_exception
 from .utils.pipeline import Pipeline
 from .settings import MAXIMUM_CORES
@@ -204,19 +205,12 @@ class Core:
         gen = self.run()
         return gen if with_log else gen[0]
 
-    def generate_save(self, output_name, with_log=False):
-        try:
-            os.makedirs(output_name)
-        except:
-            pass
-        if not with_log:
-            self.generate().write(output_name + '/generated.mid')
-            return
-        else:
-            gen, gen_log = self.generate(with_log=True)
-            gen.write(output_name + '/generated.mid')
-            file = open(output_name + '/generated.log', 'w')
+    def generate_save(self, output_name, with_log=False, formats=None):
+        if formats is None:
+            formats = ['mid']
 
+        def write_log(gen_log):
+            file = open(output_name + '/' + output_name + '.log', 'w')
             for i in range(len(gen_log)):
                 file.write('Chord Progression {i}\nScore: {s}\nChord Style: {cs}\nProgression Style: {ps}\nCycle: {c}\n'
                            'Pattern: {p}\nPosition: {pos}\nProgression: {prog}\n\n'
@@ -230,4 +224,17 @@ class Core:
                                    prog=gen_log[i]['progression']
                                    ))
             file.close()
-            return
+
+        try:
+            os.makedirs(output_name)
+        except:
+            pass
+        if not with_log:
+            gen = self.generate()
+        else:
+            gen, gen_log = self.generate(with_log=True)
+            write_log(gen_log)
+        if 'mid' in formats:
+            gen.write(output_name + '/' + output_name + '.mid')
+        if 'wav' in formats:
+            listen(gen, path=output_name, out='/' + output_name + '.wav')

@@ -6,4 +6,4 @@ cdt.set_meta(tonic=cdt.Key.C, mode=cdt.Mode.MAJOR, meter=cdt.Meter.FOUR_FOUR, te
 
 cdt.set_output_chord_style(cdt.ChordStyle.EMOTIONAL)
 cdt.set_output_progression_style(cdt.ProgressionStyle.POP)
-cdt.generate_save('generated', with_log=True)
+cdt.generate_save('generated')
