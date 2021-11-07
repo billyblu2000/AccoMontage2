@@ -18,7 +18,7 @@ class PostProcessor:
         self.progression_lib_filtered = self.__filter_style(self.progression_lib_filtered,
                                                             output_chord_style,
                                                             output_progression_style)
-        self.midi = self.__construct_midi()
+        self.midi, self.log = self.__construct_midi()
 
     def get(self):
         new_notes = []
@@ -26,7 +26,7 @@ class PostProcessor:
             if note.duration != 0:
                 new_notes.append(note)
         self.midi.notes = new_notes
-        return self.midi
+        return self.midi, self.log
 
     @staticmethod
     def __evaluate_reliability(progression_lib, threshold=0.8):
@@ -71,14 +71,16 @@ class PostProcessor:
         ins = Instrument(program=0)
         note_list = []
         shift_count = 0
+        log = []
         for progression in final_progression_list:
+            log.append(self.__info(progression))
             temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'])
             temp_midi = midi_shift(temp_midi, shift=shift_count, tempo=self.meta['tempo'])
             note_list += temp_midi.instruments[0].notes
             shift_count += len(progression) * 2
         note_list = self.__smooth_notes(note_list)
         ins.notes += note_list
-        return ins
+        return ins, log
 
     def __smooth_notes(self, note_list):
 
@@ -121,3 +123,28 @@ class PostProcessor:
                     note_list[idx].pitch += 12
             cursor += four_bars_length
         return note_list
+
+    def __info(self, progression):
+        info = {
+            'score': 1,
+            'chord_style': progression.progression_class['chord-style'],
+            'progression_style': progression.progression_class['progression-style'],
+            'cycle': progression.progression_class['cycle'],
+            'pattern': progression.progression_class['pattern'],
+            'position': progression.meta['type'],
+            'progression':None
+        }
+        progression_list = progression.get(flattened=False, only_root=False, only_degree=False)
+        progression_list_str = []
+        for bar in progression_list:
+            memo = None
+            bar_str = []
+            for chord in bar:
+                if memo:
+                    if chord == memo:
+                        continue
+                bar_str.append(str(chord))
+                memo = chord
+            progression_list_str.append(bar_str)
+        info['progression'] = progression_list_str
+        return info

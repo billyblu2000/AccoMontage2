@@ -9,20 +9,26 @@ class Pipeline:
         self.meta = None
         self.melo = None
         self.final_output = None
+        self.final_output_log = None
+        self.state = 0
         self.pipeline = pipeline
         if len(pipeline) != 3:
             Logging.critical('Pipeline length not match!')
 
     def send_in(self, midi_path, **kwargs):
+        self.state = 1
         Logging.warning('Pre-processing...')
         self.melo, splited_melo, self.meta = self.__preprocess(midi_path, **kwargs)
         Logging.warning('Pre-process done!')
+        self.state = 2
         Logging.warning('Solving...')
         progression_list = self.__main_model(splited_melo, self.meta)
         Logging.warning('Solved!')
+        self.state = 3
         Logging.warning('Post-processing...')
-        self.final_output = self.__postprocess(progression_list, **kwargs)
+        self.final_output, self.final_output_log = self.__postprocess(progression_list, **kwargs)
         Logging.warning('Post-process done!')
+        self.state = 6
 
     def __preprocess(self, midi_path, **kwargs):
         try:
@@ -55,9 +61,9 @@ class Pipeline:
         except Exception as e:
             handle_exception(700)
 
-    def send_out(self, output_name):
+    def send_out(self):
         if self.final_output:
-            return combine_ins(self.melo,self.final_output).write(output_name)
+            return combine_ins(self.melo,self.final_output), self.final_output_log
         else:
             Logging.critical('Nothing is in pipeline yet!')
 

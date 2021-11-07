@@ -1,6 +1,6 @@
 __all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output_chord_style',
            'set_preprocess_model', 'set_main_model', 'set_postprocess_model', 'generate',
-           'Key', 'Mode', 'Meter', 'set_phrase', 'ChordStyle', 'ProgressionStyle']
+           'Key', 'Mode', 'Meter', 'set_phrase', 'ChordStyle', 'ProgressionStyle', 'generate_save']
 
 from .core import Core
 from .settings import *
@@ -52,11 +52,37 @@ def set_postprocess_model(name: str):
     Logging.info('Postprocess model set as', name)
 
 
-def generate(output_name):
+def generate():
     verified = _core.verify()
     if verified != 100:
         handle_exception(verified)
-    _core.run(output_name)
+    return _core.run()
+
+
+def generate_save(output_name, with_log=False):
+    try:
+        os.makedirs(output_name)
+    except:
+        pass
+    if not with_log:
+        gen = generate()[0]
+        gen.write(output_name + '/generated.mid')
+        return
+    else:
+        gen, gen_log = generate()
+        gen.write(output_name + '/generated.mid')
+        file = open(output_name + '/generated.log', 'w')
+        for i in range(len(gen_log)):
+            file.write('Chord Progression {i}\n'.format(i=i))
+            file.write('Score: {s}\n'.format(s=gen_log[i]['score']))
+            file.write('Chord Style: {s}\n'.format(s=gen_log[i]['chord_style']))
+            file.write('Progression Style: {s}\n'.format(s=gen_log[i]['progression_style']))
+            file.write('Cycle: {s}\n'.format(s=gen_log[i]['cycle']))
+            file.write('Pattern: {s}\n'.format(s=gen_log[i]['pattern']))
+            file.write('Position: {s}\n'.format(s=gen_log[i]['position']))
+            file.write('Progression: {s}\n\n'.format(s=gen_log[i]['progression']))
+        file.close()
+        return
 
 
 class Key:

@@ -13,16 +13,17 @@ class Core:
         'main': ['DP'],
         'post': ['PostProcessor'],
         'phrase': [4, 8, 12, 16, 24, 32],
-        'chord_style':['classy', 'emotional','standard', 'second-inversion', 'root-note', 'cluster', 'power-chord',
-                       'sus2', 'seventh', 'power-octave', 'unknown', 'sus4', 'first-inversion', 'full-octave'],
-        'progression_style':['emotional', 'pop','dark', 'r&b', 'edm', 'unknown'],
-        'meta.key':['C', 'C#', 'Db', 'Eb', 'D#', 'D', 'F', 'E', 'F#', 'Gb', 'G', 'G#', 'Ab', 'A', 'A#', 'B', 'Bb'],
-        'meta.mode':['maj', 'min'],
-        'meta.meter':['4/4', '3/4'],
+        'chord_style': ['classy', 'emotional', 'standard', 'second-inversion', 'root-note', 'cluster', 'power-chord',
+                        'sus2', 'seventh', 'power-octave', 'unknown', 'sus4', 'first-inversion', 'full-octave'],
+        'progression_style': ['emotional', 'pop', 'dark', 'r&b', 'edm', 'unknown'],
+        'meta.key': ['C', 'C#', 'Db', 'Eb', 'D#', 'D', 'F', 'E', 'F#', 'Gb', 'G', 'G#', 'Ab', 'A', 'A#', 'B', 'Bb'],
+        'meta.mode': ['maj', 'min'],
+        'meta.meter': ['4/4', '3/4'],
     }
 
     def __init__(self):
         self._pipeline = [self.preprocess_model(), self.main_model(), self.postprocess_model()]
+        self.pipeline = None
         self.midi_path = ''
         self.phrase = []
         self.meta = {}
@@ -39,7 +40,7 @@ class Core:
         core = Core()
         return core
 
-    def get_pipeline(self):
+    def get_pipeline_models(self):
         return self._pipeline
 
     def set_pipeline(self, pre=None, main=None, post=None):
@@ -84,6 +85,12 @@ class Core:
             return False
         return self.__import_model(model_name)
 
+    def get_state(self):
+        if self.pipeline is not None:
+            return self.pipeline.state
+        else:
+            return 0
+
     @staticmethod
     def __import_model(model_name):
         surpass = ['Chord', 'ChordProgression', 'MIDILoader', 'Logging', 'Instrument', 'PrettyMIDI', 'Note']
@@ -118,7 +125,7 @@ class Core:
             return 311
         cursor = 1
         while cursor < len(self.phrase):
-            if self.phrase[cursor] - self.phrase[cursor-1] not in self.registered['phrase']:
+            if self.phrase[cursor] - self.phrase[cursor - 1] not in self.registered['phrase']:
                 return 312
             cursor += 1
         else:
@@ -145,11 +152,11 @@ class Core:
     def __check_progression_style(self):
         return 341 if self.output_progression_style not in self.registered['progression_style'] else 100
 
-    def run(self, output_name):
-        pipeline = Pipeline(self._pipeline)
-        pipeline.send_in(self.midi_path,
-                         phrase=self.phrase,
-                         meta=self.meta,
-                         output_progression_style=self.output_progression_style,
-                         output_chord_style=self.output_chord_style)
-        return pipeline.send_out(output_name)
+    def run(self):
+        self.pipeline = Pipeline(self._pipeline)
+        self.pipeline.send_in(self.midi_path,
+                              phrase=self.phrase,
+                              meta=self.meta,
+                              output_progression_style=self.output_progression_style,
+                              output_chord_style=self.output_chord_style)
+        return self.pipeline.send_out()
