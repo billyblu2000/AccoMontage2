@@ -1,5 +1,6 @@
 import importlib
 import inspect
+import os
 
 from .utils.excp import handle_exception
 from .utils.pipeline import Pipeline
@@ -169,3 +170,64 @@ class Core:
                               output_progression_style=self.output_progression_style,
                               output_chord_style=self.output_chord_style)
         return self.pipeline.send_out()
+
+    # added APIs, making it similar with package API
+    def set_melody(self, midi_path: str):
+        self.midi_path = midi_path
+
+    def set_phrase(self, phrase: list):
+        self.phrase = phrase
+
+    def set_meta(self, tonic: str = None, mode: str = None, meter: str = None, tempo=None):
+        if tonic is not None:
+            self.meta['tonic'] = tonic
+        if mode is not None:
+            self.meta['mode'] = mode
+        if meter is not None:
+            self.meta['meter'] = meter
+        if tempo is not None:
+            self.meta['tempo'] = tempo
+
+    def set_preprocess_model(self, name: str):
+        self.set_pipeline(pre=name)
+
+    def set_main_model(self, name: str):
+        self.set_pipeline(main=name)
+
+    def set_postprocess_model(self, name: str):
+        self.set_pipeline(post=name)
+
+    def generate(self, with_log=False):
+        verified = self.verify()
+        if verified != 100:
+            handle_exception(verified)
+        gen = self.run()
+        return gen if with_log else gen[0]
+
+    def generate_save(self, output_name, with_log=False):
+        try:
+            os.makedirs(output_name)
+        except:
+            pass
+        if not with_log:
+            self.generate().write(output_name + '/generated.mid')
+            return
+        else:
+            gen, gen_log = self.generate(with_log=True)
+            gen.write(output_name + '/generated.mid')
+            file = open(output_name + '/generated.log', 'w')
+
+            for i in range(len(gen_log)):
+                file.write('Chord Progression {i}\nScore: {s}\nChord Style: {cs}\nProgression Style: {ps}\nCycle: {c}\n'
+                           'Pattern: {p}\nPosition: {pos}\nProgression: {prog}\n\n'
+                           .format(i=i,
+                                   s=gen_log[i]['score'],
+                                   cs=gen_log[i]['chord_style'],
+                                   ps=gen_log[i]['progression_style'],
+                                   c=gen_log[i]['cycle'],
+                                   p=gen_log[i]['pattern'],
+                                   pos=gen_log[i]['position'],
+                                   prog=gen_log[i]['progression']
+                                   ))
+            file.close()
+            return
