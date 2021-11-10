@@ -10,6 +10,7 @@ from .Chord import Chord
 from ..utils.string import STATIC_DIR
 from ..utils.utils import compute_distance, compute_destination, Logging, read_lib
 from ..utils.constants import *
+from ..settings import static_storage
 
 
 class ChordProgression:
@@ -453,28 +454,24 @@ def read_progressions(progression_file='progressions.pcls', span=False):
             return [progression]
 
     Logging.info('start read progressions from {f}'.format(f=progression_file))
-    if progression_file[-4:] == 'pcls':
-        try:
-            file = open(STATIC_DIR + progression_file, "rb")
-            progression_list = renamed_load(file)
+    try:
+        file = open(static_storage[progression_file], "rb")
+        progression_list = renamed_load(file)
+        file.close()
+    except:
+        all_file_names = []
+        for file in os.listdir(STATIC_DIR):
+            if progression_file in file:
+                all_file_names.append(file)
+        if len(all_file_names) == 0:
+            Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
+            return None
+        progression_list = {}
+        for name in all_file_names:
+            file = open(STATIC_DIR + name, "rb")
+            progression_list.update(renamed_load(file))
             file.close()
-        except:
-            all_file_names = []
-            for file in os.listdir(STATIC_DIR):
-                if progression_file in file:
-                    all_file_names.append(file)
-            if len(all_file_names) == 0:
-                Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
-                return None
-            progression_list = {}
-            for name in all_file_names:
-                file = open(STATIC_DIR + name, "rb")
-                progression_list.update(renamed_load(file))
-                file.close()
 
-    else:
-        Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))
-        return None
     if span:
         if type(progression_list) is list:
             new_progression_list = []

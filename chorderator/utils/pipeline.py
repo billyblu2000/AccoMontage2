@@ -28,7 +28,7 @@ class Pipeline:
         Logging.warning('Post-processing...')
         self.final_output, self.final_output_log = self.__postprocess(progression_list, **kwargs)
         Logging.warning('Post-process done!')
-        self.state = 6
+        self.state = 4
 
     def __preprocess(self, midi_path, **kwargs):
         try:
@@ -38,7 +38,7 @@ class Pipeline:
             handle_exception(500)
 
     def __main_model(self, splited_melo, meta):
-        templates = read_progressions('representative.pcls')
+        templates = read_progressions('rep')
         meta['metre'] = meta['meter']
         try:
             processor = self.pipeline[1](splited_melo, meta, templates)
@@ -48,7 +48,7 @@ class Pipeline:
             handle_exception(600)
 
     def __postprocess(self, progression_list, **kwargs):
-        templates = read_progressions('dict.pcls')
+        templates = read_progressions('dict')
         lib = pickle_read('lib')
         try:
             processor = self.pipeline[2](progression_list,

@@ -1,16 +1,3 @@
-import math
-import pickle
-
-import numpy
-from matplotlib import pyplot
-
-import chorderator as cdt
-from chorderator import Const
-from chords.ChordProgression import read_progressions, print_progression_list
-from utils.string import STATIC_DIR
-
-from utils.utils import read_lib, split_huge_progression_dict, PathGenerator
-
 transition_dict = {}
 
 
@@ -87,24 +74,25 @@ def transition_score(cur_template, prev_template, templates):
 
 
 if __name__ == '__main__':
-    all = read_progressions('representative.pcls')
-    count = 0
-    for i in all:
-        print(count)
-        for j in all:
-            transition_score(i,j,all)
-        count += 1
-    file = open('new_transition_score.mdch', 'wb')
-    pickle.dump(transition_dict, file)
-    file.close()
-
-    trans = pickle.load(open('new_transition_score.mdch', 'rb'))
-    max_score = max(trans.values())
-    for item in trans.items():
-        trans[item[0]] = math.log(item[1]) / math.log(max_score) if item[1] != 0 else 0
-
-    file = open('new_new_transition_score.mdch', 'wb')
-    pickle.dump(trans, file)
-    file.close()
+    # all = read_progressions('representative.pcls')
+    # count = 0
+    # for i in all:
+    #     print(count)
+    #     for j in all:
+    #         transition_score(i,j,all)
+    #     count += 1
+    # file = open('new_transition_score.mdch', 'wb')
+    # pickle.dump(transition_dict, file)
+    # file.close()
+    #
+    # trans = pickle.load(open('new_transition_score.mdch', 'rb'))
+    # max_score = max(trans.values())
+    # for item in trans.items():
+    #     trans[item[0]] = math.log(item[1]) / math.log(max_score) if item[1] != 0 else 0
+    #
+    # file = open('new_new_transition_score.mdch', 'wb')
+    # pickle.dump(trans, file)
+    # file.close()
+    pass
 
 

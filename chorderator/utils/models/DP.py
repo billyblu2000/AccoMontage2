@@ -384,7 +384,7 @@ if __name__ == '__main__':
         'pos': [name[6] for name in melo_source_name]
     }
     my_dp_model = DP(melo=test_melo, melo_meta=test_melo_meta,
-                     templates=read_progressions('representative.pcls'))
+                     templates=read_progressions('rep'))
     my_dp_model.solve()
     print_progression_list(my_dp_model.get())
 

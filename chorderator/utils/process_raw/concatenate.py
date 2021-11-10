@@ -1,7 +1,4 @@
-import pickle
 from typing import List
-from chords.ChordProgression import ChordProgression, read_progressions
-from utils.string import STATIC_DIR
 
 
 class Concatenate:
@@ -15,14 +12,14 @@ class Concatenate:
         32: [[16, 16]]
     }
 
-    def __init__(self, templates: List[ChordProgression], transition_score: dict):
+    def __init__(self, templates, transition_score: dict):
         self.templates = templates
         self.threshold = 0.875  # 每个接合允许的最低分数
         self.transition_score = transition_score
         self.max_score = 1  # 对于不拼接的 打满分
 
     # given a list of progressions, compute the minimum transition score
-    def compute_transition(self, prog_list: List[ChordProgression]):
+    def compute_transition(self, prog_list):
         if len(prog_list) == 1:
             return self.max_score
         else:
@@ -36,19 +33,22 @@ class Concatenate:
             return min_score
 
     # pick 1 elements from n lists respectively, compute all combinations
-    def combinations(self, ingredients_lists: List[List[ChordProgression]]):
-        if type(ingredients_lists[0][0]) is not list:
-            ingredients_lists[0] = [[prog] for prog in ingredients_lists[0]]
-        if len(ingredients_lists) == 1:
-            return ingredients_lists[0]
-        if len(ingredients_lists[1]) == 0:
-            return ingredients_lists[0]
-        else:
-            recur_memo = []
-            for comb in ingredients_lists[0]:
-                for item in ingredients_lists[1]:
-                    recur_memo.append(comb + [item])
-            return self.combinations([recur_memo]+ ingredients_lists[2:])
+    def combinations(self, ingredients_lists):
+        try:
+            if type(ingredients_lists[0][0]) is not list:
+                ingredients_lists[0] = [[prog] for prog in ingredients_lists[0]]
+            if len(ingredients_lists) == 1:
+                return ingredients_lists[0]
+            if len(ingredients_lists[1]) == 0:
+                return ingredients_lists[0]
+            else:
+                recur_memo = []
+                for comb in ingredients_lists[0]:
+                    for item in ingredients_lists[1]:
+                        recur_memo.append(comb + [item])
+                return self.combinations([recur_memo] + ingredients_lists[2:])
+        except:
+            return []
 
     def concatenate(self):
         available_templates = []
@@ -77,33 +77,34 @@ class Concatenate:
 
 
 if __name__ == '__main__':
-    templates = read_progressions('representative.pcls')
-    new_templates = []
-    for t in templates:
-        if 'mod/2' not in t.meta['source'] and 'modx2' not in t.meta['source']:
-            new_templates.append(t)
-    templates = new_templates
-
-    major_templates = []
-    minor_templates = []
-    for template in templates:
-        if template.meta['mode'] == 'M' or template.meta['mode'] == 'maj':
-            major_templates.append(template)
-        else:
-            minor_templates.append(template)
-    print(len(major_templates), len(minor_templates))
-
-    my_concatenater = Concatenate(templates=major_templates,
-                                  transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
-    all = my_concatenater.concatenate()
-    file = open('major_score.mdch', 'wb')
-    pickle.dump(all, file)
-    file.close()
-
-    my_concatenater = Concatenate(templates=minor_templates,
-                                  transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
-    all = my_concatenater.concatenate()
-    file = open('minor_score.mdch', 'wb')
-    pickle.dump(all, file)
-    file.close()
+    # templates = read_progressions('representative.pcls')
+    # new_templates = []
+    # for t in templates:
+    #     if 'mod/2' not in t.meta['source'] and 'modx2' not in t.meta['source']:
+    #         new_templates.append(t)
+    # templates = new_templates
+    #
+    # major_templates = []
+    # minor_templates = []
+    # for template in templates:
+    #     if template.meta['mode'] == 'M' or template.meta['mode'] == 'maj':
+    #         major_templates.append(template)
+    #     else:
+    #         minor_templates.append(template)
+    # print(len(major_templates), len(minor_templates))
+    #
+    # my_concatenater = Concatenate(templates=major_templates,
+    #                               transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
+    # all = my_concatenater.concatenate()
+    # file = open('new_major_score.mdch', 'wb')
+    # pickle.dump(all, file)
+    # file.close()
+    #
+    # my_concatenater = Concatenate(templates=minor_templates,
+    #                               transition_score=pickle.load(open(STATIC_DIR + 'transition_score.mdch', 'rb')))
+    # all = my_concatenater.concatenate()
+    # file = open('new_minor_score.mdch', 'wb')
+    # pickle.dump(all, file)
+    # file.close()
+    pass
 

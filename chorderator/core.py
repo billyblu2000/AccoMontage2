@@ -24,6 +24,7 @@ class Core:
 
     def __init__(self):
         self._pipeline = [self.preprocess_model(), self.main_model(), self.postprocess_model()]
+        self.state = 0
         self.pipeline = None
         self.midi_path = ''
         self.phrase = []
@@ -97,10 +98,13 @@ class Core:
         return self.__import_model(model_name)
 
     def get_state(self):
-        if self.pipeline is not None:
-            return self.pipeline.state
+        if self.state <= 5:
+            if self.pipeline is not None:
+                return self.pipeline.state
+            else:
+                return 0
         else:
-            return 0
+            return self.state
 
     @staticmethod
     def __import_model(model_name):
@@ -205,12 +209,15 @@ class Core:
         gen = self.run()
         return gen if with_log else gen[0]
 
-    def generate_save(self, output_name, with_log=False, formats=None):
+    def generate_save(self, output_name, file_name=None, with_log=False, formats=None):
         if formats is None:
             formats = ['mid']
 
+        if file_name is None:
+                file_name = output_name.split('/')[-1]
+
         def write_log(gen_log):
-            file = open(output_name + '/' + output_name + '.log', 'w')
+            file = open(output_name + '/' + file_name + '.log', 'w')
             for i in range(len(gen_log)):
                 file.write('Chord Progression {i}\nScore: {s}\nChord Style: {cs}\nProgression Style: {ps}\nCycle: {c}\n'
                            'Pattern: {p}\nPosition: {pos}\nProgression: {prog}\n\n'
@@ -235,6 +242,8 @@ class Core:
             gen, gen_log = self.generate(with_log=True)
             write_log(gen_log)
         if 'mid' in formats:
-            gen.write(output_name + '/' + output_name + '.mid')
+            gen.write(output_name + '/' + file_name + '.mid')
+            self.state = 5
         if 'wav' in formats:
-            listen(gen, path=output_name, out='/' + output_name + '.wav')
+            listen(gen, path=output_name, out='/' + file_name + '.wav')
+            self.state = 6

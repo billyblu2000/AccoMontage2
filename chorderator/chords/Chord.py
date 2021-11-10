@@ -149,6 +149,9 @@ class Chord:
             return root, -1, -1, -1, -1
         return root, type, -1, -1, -1
 
+    def change_structure(self, note_list):
+        pass
+
 
 def print_chord_list(chord_list):
     string = '['
