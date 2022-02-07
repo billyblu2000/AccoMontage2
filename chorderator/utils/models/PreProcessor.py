@@ -38,9 +38,9 @@ class PreProcessor:
             print(self.meta)
 
         for i in splited_melo:
+
             if len(i) // 16 not in PreProcessor.accepted_phrase_length:
                 handle_exception(312)
-        print(splited_melo, len(splited_melo[0]))
         return self.melo, splited_melo, self.meta
 
     def __load_pop909_melo(self):
@@ -87,16 +87,18 @@ class PreProcessor:
                                       note.velocity])
         melo_sequence = self.__construct_melo_sequence(all_notes_and_pos)
         splited_melo = []
+
         if self.phrase[0] != 1:
             melo_sequence = melo_sequence[16 * (self.phrase[0] - 1):]
         for i in range(len(self.phrase)):
-            if i == len(self.phrase) - 1:
-                splited_melo.append(melo_sequence)
-                break
             if i == 0:
                 continue
-            splited_melo.append(melo_sequence[:16 * (self.phrase[i] - 1)])
-            melo_sequence = melo_sequence[16 * (self.phrase[i] - 1):]
+            splited_melo.append(melo_sequence[16 * (self.phrase[i - 1] - 1):16 * (self.phrase[i] - 1)])
+            if i == len(self.phrase) - 1:
+                splited_melo.append(melo_sequence[16 * (self.phrase[i] - 1):])
+                break
+        if len(splited_melo) == 0:
+            splited_melo = [melo_sequence]
         return splited_melo
 
     @staticmethod
@@ -117,11 +119,14 @@ class PreProcessor:
             return True if note[0] <= cursor < note[1] else False
 
         max_end = max(all_notes_and_pos, key=lambda x: x[1])[1]
+
         fixed_end = fix_end(max_end // 16)
+
         if fixed_end is None:
             handle_exception(312)
         else:
             fixed_end *= 16
+
         note_dict = {i: all_notes_and_pos[i] for i in range(len(all_notes_and_pos))}
         melo_sequence, cache = [], -1
         for cursor in range(fixed_end):
@@ -144,9 +149,9 @@ class PreProcessor:
 if __name__ == '__main__':
     midi_path = '/Users/billyyi/PycharmProjects/Chorderator/MIDI demos/inputs/6.mid'
     meta = {
-        'tonic':'C',
-        'mode':'maj',
-        'meter':'4/4'
+        'tonic': 'C',
+        'mode': 'maj',
+        'meter': '4/4'
     }
     phrase = [1]
     pp = PreProcessor(midi_path=midi_path, phrase=phrase, meta=meta)

@@ -13,6 +13,8 @@ class Chord:
         self.inversion = -1
         self.add = -1
         self.sus = -1
+        self.name = None
+        self.note_list = None
         if name:
             self.root, self.type, self.inversion, self.sus, self.add = self.__ana_name(name)
         if root:
@@ -150,7 +152,12 @@ class Chord:
         return root, type, -1, -1, -1
 
     def change_structure(self, note_list):
-        pass
+        self.note_list = note_list
+        self.name = None
+        self.type = None
+        self.add = None
+        self.inversion = None
+        self.sus = None
 
 
 def print_chord_list(chord_list):
