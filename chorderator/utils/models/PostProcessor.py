@@ -74,7 +74,7 @@ class PostProcessor:
         log = []
         for progression in final_progression_list:
             log.append(self.__info(progression))
-            temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'])
+            temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'],tonic=self.meta['tonic'])
             temp_midi = midi_shift(temp_midi, shift=shift_count, tempo=self.meta['tempo'])
             note_list += temp_midi.instruments[0].notes
             shift_count += len(progression) * 2

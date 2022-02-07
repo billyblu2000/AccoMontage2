@@ -38,7 +38,6 @@ class PreProcessor:
             print(self.meta)
 
         for i in splited_melo:
-
             if len(i) // 16 not in PreProcessor.accepted_phrase_length:
                 handle_exception(312)
         return self.melo, splited_melo, self.meta
