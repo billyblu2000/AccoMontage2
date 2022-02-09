@@ -10,20 +10,21 @@ class PreProcessor:
 
     def __init__(self, midi_path='', phrase=None, meta=None):
         try:
+            self.midi_path = None
             self.midi = PrettyMIDI(midi_path)
             self.melo = self.midi.instruments[0]
         except:
-            self.midi = midi_path
+            self.midi_path = midi_path
             self.melo = self.__load_pop909_melo()
         self.meta = meta
         self.phrase = phrase
 
     def get(self):
 
-        if type(self.midi) is str:
+        if self.midi_path is not None:
             pop909_loader = MIDILoader(files='POP909')
             pop909_loader.config(output_form='number')
-            melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with=self.midi)[:5]
+            melo_source_name = MIDILoader.auto_find_pop909_source_name(start_with=self.midi_path)[:5]
             splited_melo = [pop909_loader.get(name=i) for i in melo_source_name]
             self.meta['pos'] = [name[6] for name in melo_source_name]
             self.meta['tempo'] = 120
@@ -33,18 +34,19 @@ class PreProcessor:
             splited_melo = self.__analyze_midi()
             self.meta['pos'] = ['x' for i in splited_melo]
             if 'tempo' not in self.meta.keys():
-                self.meta['tempo'] = self.midi.estimate_tempo()
-            self.meta['unit'] = 60 / self.meta['tempo'] / 4
+                self.meta['tempo'] = self.midi.get_tempo_changes()[1][0]
+                self.meta['unit'] = 60 / self.meta['tempo'] / 4
             print(self.meta)
 
         for i in splited_melo:
             if len(i) // 16 not in PreProcessor.accepted_phrase_length:
                 handle_exception(312)
+        print(splited_melo)
         return self.melo, splited_melo, self.meta
 
     def __load_pop909_melo(self):
         pop909_loader = MIDILoader(files='POP909')
-        pitch_list = pop909_loader.get_full_midi_ins_from_pop909(index=self.midi, change_key_to='C')
+        pitch_list = pop909_loader.get_full_midi_ins_from_pop909(index=self.midi_path, change_key_to='C')
         ins = Instrument(program=0)
         current_pitch = pitch_list[0]
         start = 0
@@ -76,7 +78,8 @@ class PreProcessor:
 
         all_notes_and_pos = []
         if 'tempo' not in self.meta.keys():
-            unit = 60 / self.midi.estimate_tempo() / 4
+            # unit = 60 / self.midi.estimate_tempo() / 4
+            unit = 60 / self.midi.get_tempo_changes()[1][0] / 4
         else:
             unit = 60 / self.meta['tempo'] / 4
         for note in self.midi.instruments[0].notes:

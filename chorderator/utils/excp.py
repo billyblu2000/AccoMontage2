@@ -50,9 +50,3 @@ def handle_exception(code):
         else:
             msg = ''
         raise ValueError('[Error {e}] '.format(e=code) + msg + website)
-    elif int(str(code)[0]) == 5:
-        raise RuntimeError('pre')
-    elif int(str(code)[0]) == 6:
-        raise RuntimeError('main')
-    elif int(str(code)[0]) == 7:
-        raise RuntimeError('post')

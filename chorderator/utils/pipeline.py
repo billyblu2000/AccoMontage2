@@ -31,39 +31,30 @@ class Pipeline:
         self.state = 4
 
     def __preprocess(self, midi_path, **kwargs):
-        try:
-            processor = self.pipeline[0](midi_path, kwargs['phrase'], kwargs['meta'])
-            return processor.get()
-        except:
-            handle_exception(500)
+        processor = self.pipeline[0](midi_path, kwargs['phrase'], kwargs['meta'])
+        return processor.get()
 
     def __main_model(self, splited_melo, meta):
         templates = read_progressions('rep')
         meta['metre'] = meta['meter']
-        try:
-            processor = self.pipeline[1](splited_melo, meta, templates)
-            processor.solve()
-            return processor.get()
-        except Exception as e:
-            handle_exception(600)
+        processor = self.pipeline[1](splited_melo, meta, templates)
+        processor.solve()
+        return processor.get()
 
     def __postprocess(self, progression_list, **kwargs):
         templates = read_progressions('dict')
         lib = pickle_read('lib')
-        try:
-            processor = self.pipeline[2](progression_list,
-                                         templates,
-                                         lib,
-                                         self.meta,
-                                         kwargs['output_chord_style'],
-                                         kwargs['output_progression_style'])
-            return processor.get()
-        except Exception as e:
-            handle_exception(700)
+        processor = self.pipeline[2](progression_list,
+                                     templates,
+                                     lib,
+                                     self.meta,
+                                     kwargs['output_chord_style'],
+                                     kwargs['output_progression_style'])
+        return processor.get()
 
     def send_out(self):
         if self.final_output:
-            return combine_ins(self.melo,self.final_output), self.final_output_log
+            return combine_ins(self.melo, self.final_output, init_tempo=59), self.final_output_log
         else:
             Logging.critical('Nothing is in pipeline yet!')
 
