@@ -169,16 +169,26 @@ class Core:
         return 341 if self.output_progression_style not in self.registered['progression_style'] else 100
 
     def __check_style(self):
-        return 351 if self.output_style not in self.registered['style'] else 100
+        if type(self.output_style) == str:
+            return 351 if self.output_style not in self.registered['style'] else 100
+        if type(self.output_style) == list:
+            for i in self.output_style:
+                if i not in self.registered['style']:
+                    return 351
+            else:
+                return 100
+        return 351
 
-    def run(self):
+    def run(self, cut_in, **kwargs):
         self.pipeline = Pipeline(self._pipeline)
         self.pipeline.send_in(self.midi_path,
+                              cut_in=cut_in,
                               phrase=self.phrase,
                               meta=self.meta,
                               output_progression_style=self.output_progression_style,
                               output_chord_style=self.output_chord_style,
-                              output_style=self.output_style)
+                              output_style=self.output_style,
+                              **kwargs)
         return self.pipeline.send_out()
 
     # added APIs, making it similar with package API
@@ -207,14 +217,14 @@ class Core:
     def set_postprocess_model(self, name: str):
         self.set_pipeline(post=name)
 
-    def generate(self, with_log=False):
+    def generate(self, cut_in=False, with_log=False, **kwargs):
         verified = self.verify()
         if verified != 100:
             handle_exception(verified)
-        gen = self.run()
+        gen = self.run(cut_in, **kwargs)
         return gen if with_log else gen[0]
 
-    def generate_save(self, output_name, file_name=None, with_log=False, formats=None):
+    def generate_save(self, output_name, file_name=None, with_log=False, formats=None, cut_in=False, **kwargs):
         if formats is None:
             formats = ['mid']
 
@@ -242,9 +252,9 @@ class Core:
         except:
             pass
         if not with_log:
-            gen = self.generate()
+            gen = self.generate(cut_in, **kwargs)
         else:
-            gen, gen_log = self.generate(with_log=True)
+            gen, gen_log = self.generate(cut_in, with_log=with_log, **kwargs)
             write_log(gen_log)
         if 'mid' in formats:
             gen.write(output_name + '/' + file_name + '.mid')

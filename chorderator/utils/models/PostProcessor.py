@@ -2,7 +2,7 @@ import random
 
 from pretty_midi import Instrument
 
-from ...chords.ChordProgression import print_progression_list
+from ...chords.ChordProgression import print_progression_list, read_progressions
 from ...utils.excp import handle_exception
 from ...utils.utils import midi_shift
 
@@ -12,11 +12,14 @@ class PostProcessor:
     filter_by_new_label = True
 
     def __init__(self, progression_list, progression_lib, lib, meta, output_chord_style, output_progression_style, output_style):
+        if type(progression_list[0][0]) == int:
+            progression_list = [[progression_lib[i][0] for i in sub_list] for sub_list in progression_list]
         print_progression_list(progression_list)
         self.progression_list = [p for l in progression_list for p in l]
         self.midi_lib = lib
         self.meta = meta
-        self.progression_lib = self.__create_dup_progression_list(progression_lib)
+        self.original_progression_lib = progression_lib
+        self.progression_lib = self.__create_dup_progression_list(self.original_progression_lib)
         self.progression_lib_filtered = self.__evaluate_reliability(self.progression_lib)
         self.progression_lib_filtered = self.__filter_style(self.progression_lib_filtered,
                                                             output_chord_style,
@@ -54,12 +57,19 @@ class PostProcessor:
 
     def __filter_style(self, progression_lib_filtered, chord_style, prog_style, output_style):
         new_list = []
+        count = 0
         for lst in progression_lib_filtered:
             new_sub_list = []
             for progression in lst:
                 if self.filter_by_new_label:
-                    if progression.progression_class['new_label'] == output_style:
-                        new_sub_list.append(progression)
+                    if type(output_style) == str:
+                        if progression.progression_class['new_label'] == output_style:
+                            new_sub_list.append(progression)
+                    elif type(output_style) == list and len(output_style) == len(progression_lib_filtered):
+                        if progression.progression_class['new_label'] == output_style[count]:
+                            new_sub_list.append(progression)
+                    else:
+                        handle_exception(351)
                 else:
                     if progression.progression_class['chord-style'] == chord_style \
                             and progression.progression_class['progression-style'] == prog_style:
@@ -67,6 +77,7 @@ class PostProcessor:
             if len(new_sub_list) == 0:
                 handle_exception(0)
             new_list.append(new_sub_list)
+            count += 1
         return new_list
 
     def __construct_midi(self):
@@ -137,10 +148,13 @@ class PostProcessor:
             'score': 1,
             'chord_style': progression.progression_class['chord-style'],
             'progression_style': progression.progression_class['progression-style'],
+            'duplicate_id': progression.progression_class['duplicate-id'],
+            'style': progression.progression_class['new_label'],
             'cycle': progression.progression_class['cycle'],
             'pattern': progression.progression_class['pattern'],
             'position': progression.meta['type'],
-            'progression': None
+            'progression': None,
+            'other_possible_styles': self.__search_other_styles(progression)
         }
         progression_list = progression.get(flattened=False, only_root=False, only_degree=False)
         progression_list_str = []
@@ -156,3 +170,10 @@ class PostProcessor:
             progression_list_str.append(bar_str)
         info['progression'] = progression_list_str
         return info
+
+    def __search_other_styles(self, progression):
+        all_others = self.original_progression_lib[progression.progression_class['duplicate-id']]
+        my_set = set()
+        for prog in all_others:
+            my_set.add(prog.progression_class['new_label'])
+        return list(my_set)

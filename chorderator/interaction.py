@@ -3,6 +3,8 @@ __all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output
            'Key', 'Mode', 'Meter', 'Style', 'set_phrase', 'ChordStyle', 'ProgressionStyle', 'generate_save',
            'get_chorderator']
 
+import json
+
 from .core import Core
 from .settings import *
 from .utils.excp import handle_exception
@@ -44,7 +46,7 @@ def set_output_chord_style(style: str):
     _core.set_output_chord_style(style)
 
 
-def set_output_style(style: str):
+def set_output_style(style):
     _core.set_output_style(style)
 
 
@@ -63,32 +65,21 @@ def set_postprocess_model(name: str):
     Logging.info('Postprocess model set as', name)
 
 
-def generate(with_log=False):
+def generate(cut_in=False, with_log=False, **kwargs):
     verified = _core.verify()
     if verified != 100:
         handle_exception(verified)
-    gen = _core.run()
+    gen = _core.run(cut_in, **kwargs)
     return gen if with_log else gen[0]
 
 
-def generate_save(output_name, with_log=False, formats=None):
+def generate_save(output_name, with_log=False, formats=None, cut_in=False, **kwargs):
     if formats is None:
         formats = ['mid']
 
     def write_log(gen_log):
-        file = open(output_name + '/' + output_name + '.log', 'w')
-        for i in range(len(gen_log)):
-            file.write('Chord Progression {i}\nScore: {s}\nChord Style: {cs}\nProgression Style: {ps}\nCycle: {c}\n'
-                       'Pattern: {p}\nPosition: {pos}\nProgression: {prog}\n\n'
-                       .format(i=i,
-                               s=gen_log[i]['score'],
-                               cs=gen_log[i]['chord_style'],
-                               ps=gen_log[i]['progression_style'],
-                               c=gen_log[i]['cycle'],
-                               p=gen_log[i]['pattern'],
-                               pos=gen_log[i]['position'],
-                               prog=gen_log[i]['progression']
-                               ))
+        file = open(output_name + '/' + output_name + '.json', 'w')
+        json.dump(gen_log, file)
         file.close()
 
     try:
@@ -96,9 +87,9 @@ def generate_save(output_name, with_log=False, formats=None):
     except:
         pass
     if not with_log:
-        gen = generate()
+        gen = generate(cut_in, **kwargs)
     else:
-        gen, gen_log = generate(with_log=True)
+        gen, gen_log = generate(cut_in, with_log=with_log, **kwargs)
         write_log(gen_log)
     if 'mid' in formats:
         gen.write(output_name + '/' + output_name + '.mid')

@@ -15,20 +15,33 @@ class Pipeline:
         if len(pipeline) != 3:
             Logging.critical('Pipeline length not match!')
 
-    def send_in(self, midi_path, **kwargs):
-        self.state = 1
-        Logging.warning('Pre-processing...')
-        self.melo, splited_melo, self.meta = self.__preprocess(midi_path, **kwargs)
-        Logging.warning('Pre-process done!')
-        self.state = 2
-        Logging.warning('Solving...')
-        progression_list = self.__main_model(splited_melo, self.meta)
-        Logging.warning('Solved!')
-        self.state = 3
-        Logging.warning('Post-processing...')
-        self.final_output, self.final_output_log = self.__postprocess(progression_list, **kwargs)
-        Logging.warning('Post-process done!')
-        self.state = 4
+    def send_in(self, midi_path, cut_in = False, **kwargs):
+        if cut_in == 'from_post':
+            self.state = 1
+            Logging.warning('Pre-processing...')
+            self.melo, splited_melo, self.meta = self.__preprocess(midi_path, **kwargs)
+            Logging.warning('Pre-process done!')
+            if 'progression_list' not in kwargs:
+                handle_exception(500)
+            self.state = 3
+            Logging.warning('Post-processing...')
+            self.final_output, self.final_output_log = self.__postprocess(**kwargs)
+            Logging.warning('Post-process done!')
+            self.state = 4
+        else:
+            self.state = 1
+            Logging.warning('Pre-processing...')
+            self.melo, splited_melo, self.meta = self.__preprocess(midi_path, **kwargs)
+            Logging.warning('Pre-process done!')
+            self.state = 2
+            Logging.warning('Solving...')
+            progression_list = self.__main_model(splited_melo, self.meta)
+            Logging.warning('Solved!')
+            self.state = 3
+            Logging.warning('Post-processing...')
+            self.final_output, self.final_output_log = self.__postprocess(progression_list, **kwargs)
+            Logging.warning('Post-process done!')
+            self.state = 4
 
     def __preprocess(self, midi_path, **kwargs):
         processor = self.pipeline[0](midi_path, kwargs['phrase'], kwargs['meta'])

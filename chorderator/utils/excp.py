@@ -57,3 +57,12 @@ def handle_exception(code):
         else:
             msg = ''
         raise ValueError('[Error {e}] '.format(e=code) + msg + website)
+    elif int(str(code)[0]) == 5:
+        if int(str(code)[1]) == 0:
+            if code == 500:
+                msg = 'Cut in from post-process should pass in a progression list'
+            else:
+                msg = ''
+        else:
+            msg = ''
+        raise ValueError('[Error {e}] '.format(e=code) + msg + website)
