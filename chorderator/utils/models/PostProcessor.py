@@ -8,7 +8,10 @@ from ...utils.utils import midi_shift
 
 
 class PostProcessor:
-    def __init__(self, progression_list, progression_lib, lib, meta, output_chord_style, output_progression_style):
+
+    filter_by_new_label = True
+
+    def __init__(self, progression_list, progression_lib, lib, meta, output_chord_style, output_progression_style, output_style):
         print_progression_list(progression_list)
         self.progression_list = [p for l in progression_list for p in l]
         self.midi_lib = lib
@@ -17,7 +20,8 @@ class PostProcessor:
         self.progression_lib_filtered = self.__evaluate_reliability(self.progression_lib)
         self.progression_lib_filtered = self.__filter_style(self.progression_lib_filtered,
                                                             output_chord_style,
-                                                            output_progression_style)
+                                                            output_progression_style,
+                                                            output_style)
         self.midi, self.log = self.__construct_midi()
 
     def get(self):
@@ -48,17 +52,18 @@ class PostProcessor:
             new_list.append(progression_lib[dup_id])
         return new_list
 
-    def __filter_style(self, progression_lib_filtered, chord_style, prog_style):
-        style_map = {
-
-        }
+    def __filter_style(self, progression_lib_filtered, chord_style, prog_style, output_style):
         new_list = []
         for lst in progression_lib_filtered:
             new_sub_list = []
             for progression in lst:
-                if progression.progression_class['chord-style'] == chord_style \
-                        and progression.progression_class['progression-style'] == prog_style:
-                    new_sub_list.append(progression)
+                if self.filter_by_new_label:
+                    if progression.progression_class['new_label'] == output_style:
+                        new_sub_list.append(progression)
+                else:
+                    if progression.progression_class['chord-style'] == chord_style \
+                            and progression.progression_class['progression-style'] == prog_style:
+                        new_sub_list.append(progression)
             if len(new_sub_list) == 0:
                 handle_exception(0)
             new_list.append(new_sub_list)

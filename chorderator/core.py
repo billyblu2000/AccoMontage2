@@ -17,6 +17,7 @@ class Core:
         'chord_style': ['classy', 'emotional', 'standard', 'second-inversion', 'root-note', 'cluster', 'power-chord',
                         'sus2', 'seventh', 'power-octave', 'unknown', 'sus4', 'first-inversion', 'full-octave'],
         'progression_style': ['emotional', 'pop', 'dark', 'r&b', 'edm', 'unknown'],
+        'style': ['pop_standard', 'pop_complex', 'dark', 'r&b', 'unknown'],
         'meta.key': ['C', 'C#', 'Db', 'Eb', 'D#', 'D', 'F', 'E', 'F#', 'Gb', 'G', 'G#', 'Ab', 'A', 'A#', 'B', 'Bb'],
         'meta.mode': ['maj', 'min'],
         'meta.meter': ['4/4', '3/4'],
@@ -31,6 +32,7 @@ class Core:
         self.meta = {}
         self.output_progression_style = 'unknown'
         self.output_chord_style = 'unknown'
+        self.output_style = 'unknown'
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, '_instance_list'):
@@ -73,14 +75,13 @@ class Core:
                 handle_exception(0)
 
     def set_output_progression_style(self, style):
-        if style not in ['pop']:
-            handle_exception(0)
         self.output_progression_style = style
 
     def set_output_chord_style(self, style):
-        if style not in ['standard']:
-            handle_exception(0)
         self.output_chord_style = style
+
+    def set_output_style(self, style):
+        self.output_style = style
 
     def preprocess_model(self, model_name=registered['pre'][0]):
         if model_name not in Core.registered['pre']:
@@ -167,13 +168,17 @@ class Core:
     def __check_progression_style(self):
         return 341 if self.output_progression_style not in self.registered['progression_style'] else 100
 
+    def __check_style(self):
+        return 351 if self.output_style not in self.registered['style'] else 100
+
     def run(self):
         self.pipeline = Pipeline(self._pipeline)
         self.pipeline.send_in(self.midi_path,
                               phrase=self.phrase,
                               meta=self.meta,
                               output_progression_style=self.output_progression_style,
-                              output_chord_style=self.output_chord_style)
+                              output_chord_style=self.output_chord_style,
+                              output_style=self.output_style)
         return self.pipeline.send_out()
 
     # added APIs, making it similar with package API

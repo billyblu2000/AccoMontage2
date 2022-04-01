@@ -49,7 +49,8 @@ class Pipeline:
                                      lib,
                                      self.meta,
                                      kwargs['output_chord_style'],
-                                     kwargs['output_progression_style'])
+                                     kwargs['output_progression_style'],
+                                     kwargs['output_style'])
         return processor.get()
 
     def send_out(self):

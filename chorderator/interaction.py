@@ -1,6 +1,6 @@
-__all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output_chord_style',
+__all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output_chord_style', 'set_output_style',
            'set_preprocess_model', 'set_main_model', 'set_postprocess_model', 'generate',
-           'Key', 'Mode', 'Meter', 'set_phrase', 'ChordStyle', 'ProgressionStyle', 'generate_save',
+           'Key', 'Mode', 'Meter', 'Style', 'set_phrase', 'ChordStyle', 'ProgressionStyle', 'generate_save',
            'get_chorderator']
 
 from .core import Core
@@ -34,12 +34,18 @@ def set_meta(tonic: str = None, mode: str = None, meter: str = None, tempo=None)
         _core.meta['tempo'] = tempo
 
 
+# abandoned
 def set_output_progression_style(style: str):
     _core.set_output_progression_style(style)
 
 
+# abandoned
 def set_output_chord_style(style: str):
     _core.set_output_chord_style(style)
+
+
+def set_output_style(style: str):
+    _core.set_output_style(style)
 
 
 def set_preprocess_model(name: str):
@@ -66,7 +72,6 @@ def generate(with_log=False):
 
 
 def generate_save(output_name, with_log=False, formats=None):
-
     if formats is None:
         formats = ['mid']
 
@@ -147,4 +152,11 @@ class ProgressionStyle:
     POP = 'pop'
     DARK = 'dark'
     EDM = 'edm'
+    RANDB = 'r&b'
+
+
+class Style:
+    POP_STANDARD = 'pop_standard'
+    POP_COMPLEX = 'pop_complex'
+    DARK = 'dark'
     RANDB = 'r&b'

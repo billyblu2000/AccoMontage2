@@ -49,6 +49,11 @@ def handle_exception(code):
                 msg = 'Progression style cannot be recognized.'
             else:
                 msg = ''
+        elif int(str(code)[1]) == 5:
+            if code == 341:
+                msg = 'Output style cannot be recognized.'
+            else:
+                msg = ''
         else:
             msg = ''
         raise ValueError('[Error {e}] '.format(e=code) + msg + website)
