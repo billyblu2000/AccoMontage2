@@ -1,5 +1,6 @@
 import importlib
 import inspect
+import json
 import os
 
 from .utils.utils import listen
@@ -232,19 +233,8 @@ class Core:
                 file_name = output_name.split('/')[-1]
 
         def write_log(gen_log):
-            file = open(output_name + '/' + file_name + '.log', 'w')
-            for i in range(len(gen_log)):
-                file.write('Chord Progression {i}\nScore: {s}\nChord Style: {cs}\nProgression Style: {ps}\nCycle: {c}\n'
-                           'Pattern: {p}\nPosition: {pos}\nProgression: {prog}\n\n'
-                           .format(i=i,
-                                   s=gen_log[i]['score'],
-                                   cs=gen_log[i]['chord_style'],
-                                   ps=gen_log[i]['progression_style'],
-                                   c=gen_log[i]['cycle'],
-                                   p=gen_log[i]['pattern'],
-                                   pos=gen_log[i]['position'],
-                                   prog=gen_log[i]['progression']
-                                   ))
+            file = open(output_name + '/' + output_name + '.json', 'w')
+            json.dump(gen_log, file)
             file.close()
 
         try:
