@@ -1,6 +1,9 @@
 import copy
 from typing import List
 import numpy as np
+import sys
+from matplotlib import pyplot as plt
+np.set_printoptions(threshold=sys.maxsize)
 import pretty_midi
 
 from ...chords.Chord import Chord
@@ -45,6 +48,7 @@ class DP:
 
         self.templates = self.__load_templates(templates)
         self.transition_dict = self.__load_transition_dict()
+        self.all_transitions = []
 
         Logging.debug('init DP model done')
 
@@ -59,6 +63,7 @@ class DP:
             melo_meta['pos'] = self.melo_meta['pos'][i]
             # TODO: template now contains a confidence level, some codes to be change
             templates.append(self.pick_templates(melo, melo_meta))
+            # print(templates[i])
             for j in range(len(templates[i])):
                 if i == 0:
                     self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j]))
@@ -69,6 +74,7 @@ class DP:
                                 for t in range(min([self.max_num, len(templates[i - 1])]))]
                     max_previous = max(previous)
                     max_previous_index = previous.index(max(previous))
+                    # print('i={}, j={}, max_previous_index={}'.format(i,j,max_previous_index))
                     path_l = copy.copy(self._dp[i - 1][max_previous_index][0])
                     path_l.append(j)
                     self._dp[i][j] = (
@@ -76,6 +82,7 @@ class DP:
             Logging.debug('dp with i = {}: '.format(i), self._dp[i])
 
         # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
+        # print([self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))])
         max_score = max([self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))])
         best_score = max_score / len(self.melo)
         # find the path，
@@ -99,6 +106,8 @@ class DP:
         #     result_path.append(templates[i][index])
         self.solved = True
         self.result = (result_path, best_score)
+        plt.hist(self.all_transitions)
+        plt.show()
         return result_path, best_score
 
     def __get_all_available_chords(self) -> List[Chord]:
@@ -203,7 +212,7 @@ class DP:
                 this_note = [minor_map_backward[melody_list[i * 2]], minor_map_backward[melody_list[i * 2 + 1]]]
                 total_score += musical_knowledge_m[int(this_chord) - 1][this_note[0]] if this_note[0] != -1 else 0.5
                 total_score += musical_knowledge_m[int(this_chord) - 1][this_note[1]] if this_note[1] != -1 else 0.5
-
+        # print("微观", total_score / len(melody_list), [p.progression_class['duplicate-id'] for p in progression])
         return total_score / len(melody_list)
 
     # 中观
@@ -225,6 +234,8 @@ class DP:
     def transition_score(self, i, cur_template, prev_template):
         transition_bars = prev_template.progression[-1] + cur_template.progression[0]
         if tuple(transition_bars) in self.transition_dict:
+            # print('宏观', self.transition_dict[tuple(transition_bars)], tuple(transition_bars))
+            self.all_transitions.append(self.transition_dict[tuple(transition_bars)])
             return self.transition_dict[tuple(transition_bars)]
 
         # 计算和弦变换速度是否匹配

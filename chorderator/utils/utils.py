@@ -240,6 +240,19 @@ def split_huge_progression_dict(my_dict):
     return all_dicts
 
 
+def calculate_new_label(chord_style, progression_style):
+    if progression_style == 'dark' or progression_style == 'r&b':
+        new_style = progression_style
+    else:
+        if chord_style == 'standard':
+            new_style = 'pop_standard'
+        elif chord_style == 'emotional' or chord_style == 'classy':
+            new_style = 'pop_complex'
+        else:
+            new_style = 'unknown'
+    return new_style
+
+
 def calculate_density(prog, WINDOW=None):
     if WINDOW is None:
         WINDOW = len(prog.progression[0])

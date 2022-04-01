@@ -12,11 +12,11 @@ RESOURCE_DIR = PROJECT_DIR + "resource/"
 
 static_storage = {
     'lib': STATIC_DIR + 'source_base.pnt',
-    'trans': STATIC_DIR + 'new_transition_score.mdch',
-    'concat_major': STATIC_DIR + 'new_major_score.mdch',
-    'concat_minor': STATIC_DIR + 'new_minor_score.mdch',
-    'dict': STATIC_DIR + 'new_dict.pcls',
-    'rep': STATIC_DIR + 'new_representatives.pcls',
+    'trans': STATIC_DIR + 'transition_score.mdch',
+    'concat_major': STATIC_DIR + 'major_score.mdch',
+    'concat_minor': STATIC_DIR + 'minor_score.mdch',
+    'dict': STATIC_DIR + 'dict.pcls',
+    'rep': STATIC_DIR + 'representatives.pcls',
 }
 
 MAXIMUM_CORES = 3

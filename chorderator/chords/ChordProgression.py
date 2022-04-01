@@ -30,7 +30,8 @@ class ChordProgression:
             'epic-endings': 'unknown',  # 'True', 'False'
             'melodic': 'unknown',  # 'True', 'False'
             'folder-id': 'unknown',
-            'duplicate-id': 'unknown'
+            'duplicate-id': 'unknown',
+            'new_label':'unknown'
         }
         try:
             self.progression_class['type'] = type_dict[type]
@@ -401,7 +402,10 @@ def read_progressions(progression_file='progressions.pcls', span=False):
             return super(RenameUnpickler, self).find_class(renamed_module, name)
 
     def renamed_load(file_obj):
-        return RenameUnpickler(file_obj).load()
+        try:
+            return RenameUnpickler(file_obj).load()
+        except:
+            return pickle.load(file_obj)
 
     def span_progression(progression):
 
@@ -462,7 +466,7 @@ def read_progressions(progression_file='progressions.pcls', span=False):
     except:
         all_file_names = []
         for file in os.listdir(STATIC_DIR):
-            if progression_file in file:
+            if static_storage[progression_file].split('/')[-1] in file:
                 all_file_names.append(file)
         if len(all_file_names) == 0:
             Logging.error('cannot recognize progression_file "{n}"'.format(n=progression_file))

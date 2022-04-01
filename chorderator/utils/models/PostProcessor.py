@@ -49,6 +49,9 @@ class PostProcessor:
         return new_list
 
     def __filter_style(self, progression_lib_filtered, chord_style, prog_style):
+        style_map = {
+
+        }
         new_list = []
         for lst in progression_lib_filtered:
             new_sub_list = []
@@ -74,7 +77,7 @@ class PostProcessor:
         log = []
         for progression in final_progression_list:
             log.append(self.__info(progression))
-            temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'],tonic=self.meta['tonic'])
+            temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'], tonic=self.meta['tonic'])
             temp_midi = midi_shift(temp_midi, shift=shift_count, tempo=self.meta['tempo'])
             note_list += temp_midi.instruments[0].notes
             shift_count += len(progression) * 2
@@ -93,7 +96,7 @@ class PostProcessor:
         def is_note_list_in_pitch_dynamic(notes_index):
             try:
                 avg = sum([note_list[idx].pitch for idx in notes_index]) / len(notes_index)
-                min_pitch = min([note_list[idx] for idx in notes_index], key=lambda x:x.pitch).pitch
+                min_pitch = min([note_list[idx] for idx in notes_index], key=lambda x: x.pitch).pitch
                 max_pitch = max([note_list[idx] for idx in notes_index], key=lambda x: x.pitch).pitch
                 if avg < (pitch_dynamic[1] - pitch_dynamic[0]) / 10 + pitch_dynamic[0] or min_pitch < pitch_dynamic[0]:
                     return -1
@@ -107,7 +110,7 @@ class PostProcessor:
             note.velocity = map_velocity(note.velocity)
 
         four_bars_length = self.meta['unit'] * 64
-        max_end = max(note_list, key = lambda x:x.end).end
+        max_end = max(note_list, key=lambda x: x.end).end
         cursor = 0
         while cursor <= max_end:
             section_notes_index = []
@@ -132,7 +135,7 @@ class PostProcessor:
             'cycle': progression.progression_class['cycle'],
             'pattern': progression.progression_class['pattern'],
             'position': progression.meta['type'],
-            'progression':None
+            'progression': None
         }
         progression_list = progression.get(flattened=False, only_root=False, only_degree=False)
         progression_list_str = []

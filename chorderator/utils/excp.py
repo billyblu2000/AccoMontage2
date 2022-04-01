@@ -1,6 +1,8 @@
 from .utils import Logging
 
 website = ' For more information, please visit https://...com.'
+
+
 def handle_exception(code):
     if int(str(code)[0]) == 2:
         if code == 201:
@@ -18,7 +20,7 @@ def handle_exception(code):
                 msg = 'Phrase have to be assigned! You may want to call chorderator.set_phrase(PHRASE: ' \
                       'list).'
             elif code == 312:
-                msg = 'Phrase length not accepted. Up to the current version, only the following length is supported: '\
+                msg = 'Phrase length not accepted. Up to the current version, only the following length is supported: ' \
                       '4, 8, 12, 16, 24, 32.'
             else:
                 msg = ''
