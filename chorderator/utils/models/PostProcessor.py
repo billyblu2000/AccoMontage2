@@ -153,6 +153,7 @@ class PostProcessor:
             'cycle': progression.progression_class['cycle'],
             'pattern': progression.progression_class['pattern'],
             'position': progression.meta['type'],
+            'rhythm': progression.progression_class['rhythm'],
             'progression': None,
             'other_possible_styles': self.__search_other_styles(progression)
         }

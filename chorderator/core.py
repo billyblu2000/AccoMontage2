@@ -233,7 +233,7 @@ class Core:
                 file_name = output_name.split('/')[-1]
 
         def write_log(gen_log):
-            file = open(output_name + '/' + output_name + '.json', 'w')
+            file = open(output_name + '/' + file_name + '.json', 'w')
             json.dump(gen_log, file)
             file.close()
 
