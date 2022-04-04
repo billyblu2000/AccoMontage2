@@ -3,10 +3,12 @@ import inspect
 import json
 import os
 
-from .utils.utils import listen
+from .utils.utils import listen, pickle_read
 from .utils.excp import handle_exception
 from .utils.pipeline import Pipeline
 from .settings import MAXIMUM_CORES
+
+from .chords.ChordProgression import read_progressions
 
 
 class Core:
@@ -34,6 +36,10 @@ class Core:
         self.output_progression_style = 'unknown'
         self.output_chord_style = 'unknown'
         self.output_style = 'unknown'
+        self.cache = {
+            'dict': None,
+            'lib': None
+        }
 
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, '_instance_list'):
@@ -83,6 +89,12 @@ class Core:
 
     def set_output_style(self, style):
         self.output_style = style
+
+    def set_cache(self, **kwargs):
+        if 'lib' in kwargs:
+            self.cache['lib'] = kwargs['lib']
+        if 'dict' in kwargs:
+            self.cache['dict'] = kwargs['dict']
 
     def preprocess_model(self, model_name=registered['pre'][0]):
         if model_name not in Core.registered['pre']:
@@ -182,6 +194,12 @@ class Core:
 
     def run(self, cut_in, **kwargs):
         self.pipeline = Pipeline(self._pipeline)
+        if self.cache['dict'] is None:
+            templates = read_progressions('dict')
+            self.cache['dict'] = templates
+        if self.cache['lib'] is None:
+            lib = pickle_read('lib')
+            self.cache['lib'] = lib
         self.pipeline.send_in(self.midi_path,
                               cut_in=cut_in,
                               phrase=self.phrase,
@@ -189,6 +207,8 @@ class Core:
                               output_progression_style=self.output_progression_style,
                               output_chord_style=self.output_chord_style,
                               output_style=self.output_style,
+                              lib=self.cache['lib'],
+                              templates=self.cache['dict'],
                               **kwargs)
         return self.pipeline.send_out()
 
@@ -230,7 +250,7 @@ class Core:
             formats = ['mid']
 
         if file_name is None:
-                file_name = output_name.split('/')[-1]
+            file_name = output_name.split('/')[-1]
 
         def write_log(gen_log):
             file = open(output_name + '/' + file_name + '.json', 'w')
