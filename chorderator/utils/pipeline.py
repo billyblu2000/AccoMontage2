@@ -55,8 +55,14 @@ class Pipeline:
         return processor.get()
 
     def __postprocess(self, progression_list, **kwargs):
-        templates = read_progressions('dict')
-        lib = pickle_read('lib')
+        if 'templates' not in kwargs:
+            templates = read_progressions('dict')
+        else:
+            templates = kwargs['templates']
+        if 'lib' not in kwargs:
+            lib = pickle_read('lib')
+        else:
+            lib = kwargs['lib']
         processor = self.pipeline[2](progression_list,
                                      templates,
                                      lib,
