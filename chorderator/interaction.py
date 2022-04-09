@@ -90,11 +90,21 @@ def generate_save(output_name, with_log=False, formats=None, cut_in=False, **kwa
         gen = generate(cut_in, **kwargs)
     else:
         gen, gen_log = generate(cut_in, with_log=with_log, **kwargs)
+        if 'base_dir' in kwargs:
+            cwd = os.getcwd()
+            os.chdir(kwargs['base_dir'])
         write_log(gen_log)
+        if 'base_dir' in kwargs:
+            os.chdir(cwd)
+    if 'base_dir' in kwargs:
+        cwd = os.getcwd()
+        os.chdir(kwargs['base_dir'])
     if 'mid' in formats:
         gen.write(output_name + '/' + output_name + '.mid')
     if 'wav' in formats:
         listen(gen, path=output_name, out='/' + output_name + '.wav')
+    if 'base_dir' in kwargs:
+        os.chdir(cwd)
 
 
 class Key:
