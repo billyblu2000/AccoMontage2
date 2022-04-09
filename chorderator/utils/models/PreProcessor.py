@@ -107,15 +107,7 @@ class PreProcessor:
     def __construct_melo_sequence(all_notes_and_pos):
 
         def fix_end(max_end):
-            fix_mapping = {
-                (0, 4): 4, (4, 9): 8, (9, 12): 12, (12, 16): 16,
-                (16, 20): None, (20, 24): 24, (24, 28): None, (28, 32): 32,
-            }
-            for (interval, fixed) in fix_mapping.items():
-                if interval[0] < max_end <= interval[1]:
-                    return fixed
-            else:
-                return None
+            return int(((max_end // 4) + 1) * 4)
 
         def is_note_playing_at_cursor(note, cursor):
             return True if note[0] <= cursor < note[1] else False

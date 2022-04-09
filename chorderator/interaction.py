@@ -83,7 +83,12 @@ def generate_save(output_name, with_log=False, formats=None, cut_in=False, **kwa
         file.close()
 
     try:
+        if 'base_dir' in kwargs:
+            cwd = os.getcwd()
+            os.chdir(kwargs['base_dir'])
         os.makedirs(output_name)
+        if 'base_dir' in kwargs:
+            os.chdir(cwd)
     except:
         pass
     if not with_log:
