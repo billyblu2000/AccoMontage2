@@ -344,6 +344,12 @@ class DP:
         else:
             all_templates = pickle_read('concat_minor')
 
+        all_templates_new = []
+        for score_id_list_item in all_templates:
+            if 511 not in score_id_list_item[1]:
+                all_templates_new.append(score_id_list_item)
+        all_templates = all_templates_new
+
         templates_id_dict = {temp.progression_class['duplicate-id']: temp for temp in templates}
         replaced_by_progression = []
         for score_id_list_item in all_templates:
