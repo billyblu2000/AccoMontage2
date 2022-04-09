@@ -3,6 +3,7 @@ import os
 import numpy as np
 
 from chorderator.chords.ChordProgression import ChordProgression, print_progression_list
+from pitch_lists_to_midi_file import pitch_lists_to_midi_file
 
 np.set_printoptions(edgeitems=1000)
 
@@ -22,13 +23,18 @@ c_major = [36, 38, 40, 41, 43, 45, 47, 48, 50, 52, 53, 55, 57, 59, 60, 62, 64, 6
 
 def process(data_root):
     data = []
+    num = 6  # we only take first 6 phrases
     data_indices = [] # list of dictionaries, each dict. is {pos:(melody,length), ...} e.g. 01_i4.npz is 01: [melody,4]
+    test_list = [] # p001 = ([[],[],..], [4,8,4,..])
     for song in os.listdir(data_root):
         try:
             int(song)
         except:
             continue
-        temp = {}
+        temp_dict = {}
+
+        melody_list = []
+        length_list = []
         song_root = os.path.join(data_root, song)
         for file in os.listdir(song_root):
             if file.split('.')[-1] == 'npz':
@@ -71,8 +77,17 @@ def process(data_root):
                 len_of_phrase = int(file.split('.')[0][-1])
                 pos_of_phrase = int(file.split('.')[0][:2])
 
-                temp[pos_of_phrase] = [melody_pitch_sequence_c_major, len_of_phrase]
-        data_indices.append(temp)
+                # if pos_of_phrase <= 6:
+                #     temp = melody_pitch_sequence_c_major.tolist()
+                #     melody_list.append(temp)
+                #     length_list.append(len_of_phrase)
+
+        # tup = (melody_list,length_list)
+        # test_list.append(tup)
+
+
+                temp_dict[pos_of_phrase] = [melody_pitch_sequence_c_major, len_of_phrase]
+        data_indices.append(temp_dict)
 
     return data_indices
 
@@ -123,3 +138,34 @@ def melody_to_c_major(melody_pitch_sequence, original_tonic):
             return None
     return melody_pitch_sequence_c_major
 
+
+data = process(POP909_DIR)
+
+
+num = 6 # we only take first 6 phrases
+test_list = []
+for song in data:
+    melody_list = []
+    length_list = []
+    for pos in song.keys():
+        if int(pos) <= 6:
+            if song[pos][0] is None:
+                song[pos][0] = np.array([0] * (int(song[pos][1]) * 16))
+            phrase = song[pos][0].astype(int)
+            melody_list.append(phrase.tolist())
+            length_list.append(song[pos][1])
+    temp = (melody_list, length_list)
+    test_list.append(temp)
+
+
+
+for i in range(len(test_list)):
+    l = test_list[i][1]
+    n = ''
+    for e in l:
+        n += '_' + str(e)
+    name = 'POP' + str(i) + '_'+ n + '.mid'
+    print(test_list[i][0])
+    pitch_lists_to_midi_file(pitch_lists= test_list[i][0], midi_path=name)
+
+# '001_4_8_4_4_8.mid'
