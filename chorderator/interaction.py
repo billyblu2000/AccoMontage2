@@ -82,15 +82,14 @@ def generate_save(output_name, with_log=False, formats=None, cut_in=False, **kwa
         json.dump(gen_log, file)
         file.close()
 
+    cwd = os.getcwd()
     try:
         if 'base_dir' in kwargs:
-            cwd = os.getcwd()
             os.chdir(kwargs['base_dir'])
         os.makedirs(output_name)
-        if 'base_dir' in kwargs:
-            os.chdir(cwd)
     except:
         pass
+    os.chdir(cwd)
     if not with_log:
         gen = generate(cut_in, **kwargs)
     else:

@@ -1,8 +1,9 @@
 import copy
+import json
 from typing import List
 import numpy as np
 import sys
-from matplotlib import pyplot as plt
+
 np.set_printoptions(threshold=sys.maxsize)
 import pretty_midi
 
@@ -34,7 +35,10 @@ class DP:
         Template database. List of ChordProgressions.
     """
 
-    def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression]):
+    SOLVE_ONLY_WITH_THESE_PROGRESSIONS = [] # if empty, solve with all
+    SOLVE_WITHOUT_THESE_PROGRESSIONS = [511, 128, 147]
+
+    def __init__(self, melo: list, melo_meta: dict, templates: List[ChordProgression], write_log=None):
         Logging.debug('init DP model...')
 
         self.melo = self.__split_melody(melo)  # melo : List(List) 是整首歌的melo
@@ -48,88 +52,138 @@ class DP:
 
         self.templates = self.__load_templates(templates)
         self.transition_dict = self.__load_transition_dict()
-        self.all_transitions = []
+
+        # dp_score_report：记录dp中每个node的微观中观宏观分，以及当前总分和当前路径
+        # shape: (number of phrases, number of templates at each phrase)
+        # 每个element形如：{
+        #                     'progression_ids':[],
+        #                     'micro':0,
+        #                     'mid':0,
+        #                     'macro':[],
+        #                     'cumulative':0,
+        #                     'path':[],
+        #                 }
+        self.dp_score_report = []
+
+        self.write_log = write_log
 
         Logging.debug('init DP model done')
 
     def solve(self):
         Logging.info('Melody length {l}, generate progression with {n} templates'.format(l=len(self.melo),
                                                                                          n=len(self.templates)))
+
+        # templates shape: (number of phrases, number of available templates at a phrase, 2)
+        # template[i][j] = [中观分，[ChordProgression, ...]]
         templates = []
+
+        # 这个weight是宏观 (transition) 的weight, wight 越大，宏观权重越少
         weight = 0.5
+
+        # iterate through phrases
         for i in range(len(self.melo)):
+
+            # self._dp的shape是(number of phrases, number of maximum available templates at a phrase)
+            # self._dp[i][j] = (path, score)
+            # path 是走到当前node的最佳路径
+            # score 是当前node的dp分数
+
+            # pick templates at current phrase i
             melo = self.melo[i]
             melo_meta = copy.copy(self.melo_meta)
             melo_meta['pos'] = self.melo_meta['pos'][i]
-            # TODO: template now contains a confidence level, some codes to be change
             templates.append(self.pick_templates(melo, melo_meta))
-            # print(templates[i])
+
+            current_layer_score_report = []
+
+            # calculate score for each available templates at current phrase i
             for j in range(len(templates[i])):
+
+                current_element_score_report = {
+                    'progression_ids':[progression.id for progression in templates[i][j][1]],
+                    'micro':0,
+                    'mid':0,
+                    'macro':[],
+                    'cumulative':0,
+                    'path':[],
+                }
+
+                # 算一下微观和中观分并记录
+                # micro_and_mid = (微观中观综合分，微观分，中观分)
+                micro_and_mid = self.phrase_template_score(self.melo[i], templates[i][j])
+                current_element_score_report['micro'] = micro_and_mid[1]
+                current_element_score_report['mid'] = micro_and_mid[2]
+
                 if i == 0:
-                    self._dp[i][j] = ([j], self.phrase_template_score(self.melo[i], templates[i][j]))
+                    self._dp[i][j] = ([j], micro_and_mid[0])
+
                 else:
-                    previous = [weight * self._dp[i - 1][t][1]
-                                + (1 - weight) * self.transition_score(melo_meta['pos'], templates[i][j][1][0],
-                                                                       templates[i - 1][t][1][-1])
-                                for t in range(min([self.max_num, len(templates[i - 1])]))]
+
+                    # previous: 上一层(i-1)的每一个progression转移到当前progression(第i层的第j个)的score都是多少
+                    previous = []
+                    for t in range(min([self.max_num, len(templates[i - 1])])):
+                        transition = self.transition_score(melo_meta['pos'],
+                                                           templates[i][j][1][0],
+                                                           templates[i - 1][t][1][-1])
+                        current_element_score_report['macro'].append(transition)
+                        previous.append(weight * self._dp[i - 1][t][1] + (1 - weight) * transition)
+
+                    # 找到上一层转移到当前progression的分最大的那个progression的分和index
                     max_previous = max(previous)
                     max_previous_index = previous.index(max(previous))
-                    # print('i={}, j={}, max_previous_index={}'.format(i,j,max_previous_index))
+
+                    # path_l 是走到当前progression的最优路径
                     path_l = copy.copy(self._dp[i - 1][max_previous_index][0])
                     path_l.append(j)
-                    self._dp[i][j] = (
-                        path_l, self.phrase_template_score(self.melo[i], templates[i][j]) + max_previous)
+
+                    # 记录dp score和path
+                    self._dp[i][j] = (path_l, micro_and_mid[0] + max_previous)
+                    current_element_score_report['path'] = self._dp[i][j][0]
+                    current_element_score_report['cumulative'] = self._dp[i][j][1]
+
+                current_layer_score_report.append(current_element_score_report)
+
             Logging.debug('dp with i = {}: '.format(i), self._dp[i])
+            self.dp_score_report.append(current_layer_score_report)
 
         # 记录生成和弦进行的分数用于定量横向比较生成和弦的质量（不同旋律间对比），除以乐段数量因为每一段都会加分
         # print([self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))])
+        # 找到最高分
         max_score = max([self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))])
         best_score = max_score / len(self.melo)
-        # find the path，
+
+        # 找到最后一层分最高的那个node,获取走到这个node的最佳路径，存在result_path_index里面
         last_index = [self._dp[-1][i][1] for i in range(min([self.max_num, len(templates[-1])]))].index(max_score)
         result_path_index = self._dp[-1][last_index][0]
+
+        # 从result_path_index获取template本身，构建result_path
         result_path = []
         for i in range(len(self.melo)):
             index = result_path_index[i]
             result_path.append(templates[i][index])
 
-        # 不管下面了，直接在dp里记录了路径
-
-        # TODO: This is not the actual path...?
-        # TODO: 算法应该选择使 dp[-1]=max 的路径，而不是每轮dp迭代的最优路径?
-        # last_index = self._dp[-1].index(max(self._dp[-1]))
-        # result_path = [templates[-1][last_index]]
-        # i = len(self.melo) - 1
-        # while i >= 0:
-        #     i -= 1
-        #     index = self._dp[i].index(max(self._dp[i]))
-        #     result_path.append(templates[i][index])
         self.solved = True
         self.result = (result_path, best_score)
-        plt.hist(self.all_transitions)
-        plt.show()
-        return result_path, best_score
 
-    def __get_all_available_chords(self) -> List[Chord]:
-        pass
+        if self.write_log:
+            file = open(self.write_log, 'w')
+            json.dump(self.dp_score_report, file)
+            file.close()
+
+        return result_path, best_score, self.dp_score_report
 
     # input是分好段的melo
     def pick_templates(self, melo, melo_meta):
 
         available_templates = []
         for template in self.templates:
-            # TODO
-            flag = True
-            for temp in template[1]:
-                if temp.id == 128 or temp.id == 147:
-                    flag = False
-                    break
-            if flag:
-                total_temp_length = 0
-                for i in template[1]:
-                    total_temp_length += len(i)
-                if total_temp_length == len(melo) // 2:
-                    available_templates.append(template)
+
+            # 找到总长度匹配的，加入候选名单
+            total_temp_length = 0
+            for i in template[1]:
+                total_temp_length += len(i)
+            if total_temp_length == len(melo) // 2:
+                available_templates.append(template)
 
         if len(available_templates) == 0:
             print('no matched length')
@@ -169,8 +223,9 @@ class DP:
 
     # 微观 + 中观
     def phrase_template_score(self, melo, chord, weight=0.5):
-        return weight * self.__match_template_and_pattern(chord) \
-               + (1 - weight) * self.__match_melody_and_chord(melo, chord[1])
+        micro = self.__match_melody_and_chord(melo, chord[1])
+        mid = self.__match_template_and_pattern(chord)
+        return weight * mid + (1 - weight) * micro, micro, mid
 
     # 微观
     @staticmethod
@@ -234,8 +289,6 @@ class DP:
     def transition_score(self, i, cur_template, prev_template):
         transition_bars = prev_template.progression[-1] + cur_template.progression[0]
         if tuple(transition_bars) in self.transition_dict:
-            # print('宏观', self.transition_dict[tuple(transition_bars)], tuple(transition_bars))
-            self.all_transitions.append(self.transition_dict[tuple(transition_bars)])
             return self.transition_dict[tuple(transition_bars)]
 
         # 计算和弦变换速度是否匹配
@@ -344,11 +397,25 @@ class DP:
         else:
             all_templates = pickle_read('concat_minor')
 
-        all_templates_new = []
-        for score_id_list_item in all_templates:
-            if 511 not in score_id_list_item[1]:
-                all_templates_new.append(score_id_list_item)
-        all_templates = all_templates_new
+        if self.SOLVE_ONLY_WITH_THESE_PROGRESSIONS:
+            all_templates_new = []
+            for score_id_list_item in all_templates:
+                for progression_id in score_id_list_item:
+                    if progression_id not in self.SOLVE_ONLY_WITH_THESE_PROGRESSIONS:
+                        break
+                else:
+                    all_templates_new.append(score_id_list_item)
+            all_templates = all_templates_new
+
+        if self.SOLVE_WITHOUT_THESE_PROGRESSIONS:
+            all_templates_new = []
+            for score_id_list_item in all_templates:
+                for progression_id in score_id_list_item:
+                    if progression_id in self.SOLVE_WITHOUT_THESE_PROGRESSIONS:
+                        break
+                else:
+                    all_templates_new.append(score_id_list_item)
+            all_templates = all_templates_new
 
         templates_id_dict = {temp.progression_class['duplicate-id']: temp for temp in templates}
         replaced_by_progression = []
