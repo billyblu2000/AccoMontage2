@@ -1,0 +1,8 @@
+setuptools
+torch
+numpy
+pandas
+tqdm
+matplotlib
+six
+pretty_midi

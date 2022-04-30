@@ -74,7 +74,7 @@ class Pipeline:
 
     def send_out(self):
         if self.final_output:
-            return combine_ins(self.melo, self.final_output, init_tempo=59), self.final_output_log
+            return combine_ins(self.melo, self.final_output, init_tempo=self.meta['tempo']), self.final_output_log
         else:
             Logging.critical('Nothing is in pipeline yet!')
 

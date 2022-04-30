@@ -6,27 +6,21 @@
 ### Demo
 
 ```python
+from accomontage.AccoMontage_inference import accomontage
 import chorderator as cdt
 
-# set your input MIDI path
-cdt.set_melody('MIDI demos/inputs/4.mid')
+name = 'D#_78_4-4-4-4.mid'
+cdt.set_melody('MIDI demos/inputs/' + name)
+cdt.set_phrase([1, 5, 9, 13])
+cdt.set_meta(tonic=cdt.Key.DSharp, mode=cdt.Mode.MAJOR, meter=cdt.Meter.FOUR_FOUR)
 
-# set phrase for your melody. If your melody have only one phrase, simply
-# call set_phrase([1]) or remove the statement
-cdt.set_phrase([1])
+cdt.set_output_style(cdt.Style.POP_STANDARD)
+cdt.generate_save('generated_' + name, with_log=True)
 
-# set melody meta. tonic, mode, and meter must be specified
-cdt.set_meta(tonic=cdt.Key.C, mode=cdt.Mode.MAJOR, meter=cdt.Meter.FOUR_FOUR)
-
-# choose an output chord style; default is STANDARD
-cdt.set_output_chord_style(cdt.ChordStyle.STANDARD)
-
-# choose an output progression style; default is POP
-cdt.set_output_progression_style(cdt.ProgressionStyle.POP)
-
-# generate the progression. please specify the output MIDI path
-cdt.generate('MIDI demos/outputs/generated.mid')
-
+accomontage(song_name='generated_' + name + '.mid',
+            song_root='generated_' + name,
+            segmentation='A4A4A4A4\n',
+            output_name='final.mid')
 ```
 
 
