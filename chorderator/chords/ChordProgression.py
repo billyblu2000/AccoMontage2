@@ -8,7 +8,7 @@ from pretty_midi import PrettyMIDI, Instrument, Note
 
 from .Chord import Chord
 from ..utils.string import STATIC_DIR
-from ..utils.utils import compute_distance, compute_destination, Logging, read_lib
+from ..utils.utils import compute_distance, compute_destination, Logging, pickle_read
 from ..utils.constants import *
 from ..utils.structured import str_to_root
 from ..settings import static_storage
@@ -31,7 +31,7 @@ class ChordProgression:
             'melodic': 'unknown',  # 'True', 'False'
             'folder-id': 'unknown',
             'duplicate-id': 'unknown',
-            'new_label':'unknown'
+            'new_label': 'unknown'
         }
         try:
             self.progression_class['type'] = type_dict[type]
@@ -41,9 +41,12 @@ class ChordProgression:
         self.appeared_in_other_songs = 0
         self.reliability = -1
         self.saved_in_source_base = saved_in_source_base
-        self.cache = {
-            '2d-root': None
+        self.style = {
+            'color': -1,
+            'density': -1,
+            'thickness': -1
         }
+        self.cache = {'2d-root': None}
 
     # chords are stored as Chord Class
     # switch to root note and output the progression in a easy-read way
@@ -206,7 +209,7 @@ class ChordProgression:
 
         else:
             if lib is None:
-                lib = read_lib()
+                lib = pickle_read('lib')
             try:
                 all_notes = lib[self.meta['source']]
             except:
@@ -267,9 +270,16 @@ class ChordProgression:
     def set_in_lib(self, in_lib):
         self.saved_in_source_base = True if in_lib else False
 
-    def add_cache(self):
+    def set_cache(self):
         self.cache = {
             '2d-root': None
+        }
+
+    def set_style(self, color=-1, density=-1, thickness=-1):
+        self.style = {
+            'color': color,
+            'density': density,
+            'thickness': thickness,
         }
 
     def __iter__(self):
@@ -313,11 +323,6 @@ class ChordProgression:
                     return True
             else:
                 return False
-
-    def set_cache(self):
-        self.cache = {
-            '2d-root': None
-        }
 
     def __getitem__(self, item):
         raise SyntaxError('Syntax "ChordProgression[key]" should not be used because the type of the return is '

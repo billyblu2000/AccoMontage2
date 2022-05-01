@@ -26,9 +26,49 @@ if FluidSynth is None:
 
 def pickle_read(path):
     if path == 'lib':
-        return read_lib()
+        Logging.info('start read progression library from source_base.pnt')
+        file = open(static_storage[path], 'rb')
+        lib = pickle.load(file)
+        file.close()
+        Logging.info('read library done')
+        return lib
     else:
-        return pickle.load(open(static_storage[path], 'rb'))
+        with open(static_storage[path], 'rb') as file:
+            return pickle.load(file)
+
+
+def pitch_lists_to_midi_file(pitch_lists, midi_path):
+    midi = PrettyMIDI()
+    ins = Instrument(0)
+    cursor = 0
+    unit_length = 0.125
+    for pitch_list in pitch_lists:
+        for pitch in pitch_list:
+            if pitch != 0:
+                ins.notes.append(Note(start=cursor, end=cursor + unit_length, pitch=pitch, velocity=60))
+            cursor += unit_length
+    midi.instruments.append(ins)
+    midi.write(midi_path)
+
+
+def get_all_chord_pitches(progression_list, lib=None):
+    if type(progression_list) is not list:
+        progression_list = [progression_list]
+    data = []
+    if not lib:
+        lib = pickle_read('lib')
+    for progression in progression_list:
+        midi_data = lib[progression.meta['source']]
+        max_length = max([note[1] for note in midi_data])
+        pitch_data = []
+        for cursor in range(max_length):
+            current_pitch_list = []
+            for note in midi_data:
+                if note[0] <= cursor < note[1]:
+                    current_pitch_list.append(note[2])
+            pitch_data.append(current_pitch_list)
+        data.append(pitch_data)
+    return data if type(progression_list) is list else data[0]
 
 
 def nmat2ins(nmat, program=0, tempo=120, sixteenth_notes_in_bar=16) -> Instrument:
@@ -209,7 +249,7 @@ def listen_pitches(midi_pitch: list, time, instrument=0):
     listen(midi)
 
 
-def listen(midi: PrettyMIDI, path = None, out=time.strftime("%H_%M_%S", time.localtime()) + ".wav"):
+def listen(midi: PrettyMIDI, path=None, out=None):
     if not fs_exist:
         return False
     if not path:
@@ -220,6 +260,8 @@ def listen(midi: PrettyMIDI, path = None, out=time.strftime("%H_%M_%S", time.loc
         os.makedirs(path)
     except:
         pass
+    if out is None:
+        out = time.strftime("%H_%M_%S", time.localtime()) + ".wav"
     fs.midi_to_audio(path + "__listen__.mid", path + out)
     os.remove(path + "__listen__.mid")
     return True
@@ -333,15 +375,6 @@ def pick_progressions(*args, **kwargs):
                 continue
         new_list.append(i)
     return new_list
-
-
-def read_lib(lib_name='source_base.pnt'):
-    Logging.info('start read progression library from source_base.pnt')
-    file = open(string.STATIC_DIR + lib_name, 'rb')
-    lib = pickle.load(file)
-    file.close()
-    Logging.info('read library done')
-    return lib
 
 
 class PathGenerator:

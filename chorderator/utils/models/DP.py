@@ -1,5 +1,6 @@
 import copy
 import json
+import time
 from typing import List
 import numpy as np
 import sys
@@ -78,7 +79,7 @@ class DP:
         templates = []
 
         # 这个weight是宏观 (transition) 的weight, wight 越大，宏观权重越少
-        weight = 0.5
+        weight = 0.9
 
         # iterate through phrases
         for i in range(len(self.melo)):
@@ -165,10 +166,10 @@ class DP:
         self.solved = True
         self.result = (result_path, best_score)
 
-        if self.write_log:
-            file = open(self.write_log, 'w')
-            json.dump(self.dp_score_report, file)
-            file.close()
+
+        file = open('output/'+str(time.time())+'.json', 'w')
+        json.dump(self.dp_score_report, file)
+        file.close()
 
         return result_path, best_score, self.dp_score_report
 
@@ -400,7 +401,7 @@ class DP:
         if self.SOLVE_ONLY_WITH_THESE_PROGRESSIONS:
             all_templates_new = []
             for score_id_list_item in all_templates:
-                for progression_id in score_id_list_item:
+                for progression_id in score_id_list_item[1]:
                     if progression_id not in self.SOLVE_ONLY_WITH_THESE_PROGRESSIONS:
                         break
                 else:
@@ -410,12 +411,20 @@ class DP:
         if self.SOLVE_WITHOUT_THESE_PROGRESSIONS:
             all_templates_new = []
             for score_id_list_item in all_templates:
-                for progression_id in score_id_list_item:
+                for progression_id in score_id_list_item[1]:
                     if progression_id in self.SOLVE_WITHOUT_THESE_PROGRESSIONS:
                         break
                 else:
                     all_templates_new.append(score_id_list_item)
             all_templates = all_templates_new
+
+        all_templates_new = []
+        duplicate_checker = []
+        for score_id_list_item in all_templates:
+            if score_id_list_item[1] not in duplicate_checker:
+                all_templates_new.append(score_id_list_item)
+                duplicate_checker.append(score_id_list_item[1])
+        all_templates = all_templates_new
 
         templates_id_dict = {temp.progression_class['duplicate-id']: temp for temp in templates}
         replaced_by_progression = []
