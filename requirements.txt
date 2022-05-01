@@ -1,5 +1,5 @@
-setuptools
 torch
+tensorboard
 numpy
 pandas
 tqdm

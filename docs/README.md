@@ -23,4 +23,4 @@ accomontage(song_name='generated_' + name + '.mid',
             output_name='final.mid')
 ```
 
-
+Folder ``accomotage`` referencing AccoMontage by Jingwei Zhao and Gus Xia, available at https://github.com/zhaojw1998/AccoMontage
