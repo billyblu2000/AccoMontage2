@@ -245,30 +245,41 @@ class Core:
         gen = self.run(cut_in, **kwargs)
         return gen if with_log else gen[0]
 
-    def generate_save(self, output_name, file_name=None, with_log=False, formats=None, cut_in=False, **kwargs):
+    def generate_save(self, output_name, with_log=False, formats=None, cut_in=False, **kwargs):
         if formats is None:
             formats = ['mid']
 
-        if file_name is None:
-            file_name = output_name.split('/')[-1]
-
         def write_log(gen_log):
-            file = open(output_name + '/' + file_name + '.json', 'w')
+            file = open(output_name + '/' + output_name + '.json', 'w')
             json.dump(gen_log, file)
             file.close()
 
+        cwd = os.getcwd()
         try:
+            if 'base_dir' in kwargs:
+                os.chdir(kwargs['base_dir'])
             os.makedirs(output_name)
         except:
             pass
+        os.chdir(cwd)
         if not with_log:
             gen = self.generate(cut_in, **kwargs)
         else:
             gen, gen_log = self.generate(cut_in, with_log=with_log, **kwargs)
+            if 'base_dir' in kwargs:
+                cwd = os.getcwd()
+                os.chdir(kwargs['base_dir'])
             write_log(gen_log)
+            if 'base_dir' in kwargs:
+                os.chdir(cwd)
+        if 'base_dir' in kwargs:
+            cwd = os.getcwd()
+            os.chdir(kwargs['base_dir'])
         if 'mid' in formats:
-            gen.write(output_name + '/' + file_name + '.mid')
+            gen.write(output_name + '/' + output_name + '.mid')
             self.state = 5
         if 'wav' in formats:
-            listen(gen, path=output_name, out='/' + file_name + '.wav')
+            listen(gen, path=output_name, out='/' + output_name + '.wav')
             self.state = 6
+        if 'base_dir' in kwargs:
+            os.chdir(cwd)

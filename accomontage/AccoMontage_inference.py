@@ -19,16 +19,21 @@ def accomontage(song_name,
                 output_root='',
                 output_name='',
                 spotlight=[],
-                prefilter=(4, 1)):
+                prefilter=(4, 1),
+                state_dict=None,
+                phrase_data=None,
+                edge_weights=None,
+                song_index=None,
+                ):
     SPOTLIGHT, PREFILTER = spotlight, prefilter
     SONG_NAME, SONG_ROOT, SEGMENTATION, NOTE_SHIFT = song_name, song_root, segmentation, note_shift
 
     print('Loading Reference Data')
-    data = np.load(DATA_DIR + '/phrase_data0714.npz', allow_pickle=True)
+    data = np.load(DATA_DIR + '/phrase_data0714.npz', allow_pickle=True) if phrase_data is None else phrase_data
     melody = data['melody']
     acc = data['acc']
     chord = data['chord']
-    edge_weights = np.load(DATA_DIR + '/edge_weights_0714.npz', allow_pickle=True)
+    edge_weights = np.load(DATA_DIR + '/edge_weights_0714.npz', allow_pickle=True) if edge_weights is None else edge_weights
 
     print('Processing Query Lead Sheet')
     midi = pyd.PrettyMIDI(os.path.join(SONG_ROOT, SONG_NAME))
@@ -78,12 +83,13 @@ def accomontage(song_name,
         edge_weights,
         texture_filter,
         filter_id=PREFILTER,
-        spotlights=ref_spotlight(SPOTLIGHT))
+        spotlights=ref_spotlight(SPOTLIGHT, song_index=song_index))
 
     path = phrase_indice[0]
     shift = chord_shift[0]
     reference_set = []
-    df = pd.read_excel(DATA_DIR + "/POP909 4bin quntization/four_beat_song_index.xlsx")
+    df = pd.read_excel(DATA_DIR + "/POP909 4bin quntization/four_beat_song_index.xlsx") \
+        if song_index is None else song_index
     for idx_phrase, phrase in enumerate(query_phrases):
         phrase_len = phrase[1]
         song_ref = acc_pool[phrase_len][-1]
@@ -94,7 +100,7 @@ def accomontage(song_name,
     print('Pitch Transpositon (Fit by Model):', shift)
 
     print('Generating...')
-    midi = render_acc(pianoRoll, chord_table, query_seg, path, shift, acc_pool)
+    midi = render_acc(pianoRoll, chord_table, query_seg, path, shift, acc_pool, state_dict=state_dict)
     output_name = SONG_NAME if output_name == '' else output_name
     output_path = output_root + '/' + output_name if output_root != '' else output_name
     midi.write(output_path)

@@ -153,7 +153,7 @@ def dp_search(query_phrases, seg_query, acc_pool, edge_weights, texture_filter=N
     return [path[arg[i]] for i in range(topk)], [shift[arg[i]] for i in range(topk)]
 
 
-def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool):
+def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool, state_dict=None):
     acc_emsemble = np.empty((0, 128))
     for i, idx in enumerate(indices):
         length = int(query_seg[i][1:])
@@ -167,7 +167,8 @@ def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool):
     pianoRoll = melodySplit(pianoRoll, WINDOWSIZE=32, HOPSIZE=32, VECTORSIZE=142)
     if torch.cuda.is_available():
         model = DisentangleVAE.init_model(torch.device('cuda')).cuda()
-        checkpoint = torch.load(DATA_DIR + '/model_master_final.pt')
+        checkpoint = torch.load(DATA_DIR + '/model_master_final.pt') \
+            if state_dict is None else state_dict
         model.load_state_dict(checkpoint)
         pr_matrix = torch.from_numpy(acc_emsemble).float().cuda()
         # pr_matrix_shifted = torch.from_numpy(pr_matrix_shifted).float().cuda()
@@ -181,7 +182,8 @@ def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool):
         # midiReGen.write('accompaniment_test_NEW.mid')
     else:
         model = DisentangleVAE.init_model(torch.device('cpu'))
-        checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cpu'))
+        checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cpu')) \
+            if state_dict is None else state_dict
         model.load_state_dict(checkpoint)
         pr_matrix = torch.from_numpy(acc_emsemble).float()
         gt_chord = torch.from_numpy(chord_table).float()
@@ -190,8 +192,9 @@ def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool):
         return midiReGen
 
 
-def ref_spotlight(ref_name_list):
-    df = pd.read_excel(DATA_DIR + "/POP909 4bin quntization/four_beat_song_index.xlsx")
+def ref_spotlight(ref_name_list, song_index=None):
+    df = pd.read_excel(DATA_DIR + "/POP909 4bin quntization/four_beat_song_index.xlsx") \
+        if song_index is None else song_index
     check_idx = []
     for name in ref_name_list:
         line = df[df.name == name]
