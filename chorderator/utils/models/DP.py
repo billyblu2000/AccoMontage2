@@ -166,10 +166,10 @@ class DP:
         self.solved = True
         self.result = (result_path, best_score)
 
-
-        file = open('output/'+str(time.time())+'.json', 'w')
-        json.dump(self.dp_score_report, file)
-        file.close()
+        if self.write_log:
+            file = open('output/'+str(time.time())+'.json', 'w')
+            json.dump(self.dp_score_report, file)
+            file.close()
 
         return result_path, best_score, self.dp_score_report
 

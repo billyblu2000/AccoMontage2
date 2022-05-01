@@ -301,7 +301,7 @@ def accompany_matrix2data(pr_matrix, tempo=120, start_time=0.0, get_list=False):
             if pr_matrix[t, p] >= 1:
                 s = alpha * t + start_time
                 e = alpha * (t + pr_matrix[t, p]) + start_time
-                notes.append(pyd.Note(100, int(p), s, e))
+                notes.append(pyd.Note(80, int(p), s, e))
     if get_list:
         return notes
     else:

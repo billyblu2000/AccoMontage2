@@ -1,8 +1,7 @@
 import os
-
+import pretty_midi
 from accomontage.AccoMontage_inference import accomontage
 import chorderator as cdt
-import pretty_midi
 
 
 def generate_chord_and_accompaniment(input_name,
@@ -96,38 +95,22 @@ def generate_chord_and_accompaniment(input_name,
         accomontage(song_name='chord_gen_120.mid',
                     song_root=output_root + '/' + 'chord_gen',
                     segmentation=segmentation,
-                    output_name=output_name +'_120.mid',
+                    output_name=output_name,
                     output_root=output_root,
                     spotlight=texture_spotlight,
-                    prefilter=texture_prefilter)
+                    prefilter=texture_prefilter,
+                    original_tempo=original_tempo)
     else:
         accomontage(song_name='chord_gen.mid',
                     song_root='chord_gen',
                     segmentation=segmentation,
-                    output_name=output_name + '_120.mid',
+                    output_name=output_name,
                     output_root=output_root,
                     spotlight=texture_spotlight,
-                    prefilter=texture_prefilter)
-    if output_root != '':
-        midi = pretty_midi.PrettyMIDI(output_root + '/' + output_name+'_120.mid')
-    else:
-        midi = pretty_midi.PrettyMIDI(output_name+'_120.mid')
-    new_midi = pretty_midi.PrettyMIDI(initial_tempo=original_tempo)
-    for ins in midi.instruments:
-        new_ins = pretty_midi.Instrument(0)
-        for note in ins.notes:
-            new_ins.notes.append(pretty_midi.Note(start=note.start * 120 / original_tempo,
-                                                  end=note.end * 120 / original_tempo,
-                                                  pitch=note.pitch,
-                                                  velocity=note.velocity))
-        new_midi.instruments.append(new_ins)
-    if output_root != '':
-        new_midi.write(output_root + '/' + output_name)
-    else:
-        new_midi.write(output_name)
+                    prefilter=texture_prefilter,
+                    original_tempo=original_tempo)
+
     if output_root != '':
         os.remove(output_root + '/chord_gen/chord_gen_120.mid')
-        os.remove(output_root + '/' + output_name+'_120.mid')
     else:
         os.remove('chord_gen/chord_gen_120.mid')
-        os.remove(output_name+'_120.mid')

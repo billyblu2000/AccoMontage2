@@ -12,7 +12,7 @@ class Pipeline:
         self.final_output_log = None
         self.state = 0
         self.pipeline = pipeline
-        if len(pipeline) != 3:
+        if len(pipeline) < 3:
             Logging.critical('Pipeline length not match!')
 
     def send_in(self, midi_path, cut_in = False, **kwargs):
@@ -71,6 +71,9 @@ class Pipeline:
                                      kwargs['output_progression_style'],
                                      kwargs['output_style'])
         return processor.get()
+
+    def __add_textures(self):
+        pass
 
     def send_out(self):
         if self.final_output:

@@ -24,6 +24,7 @@ def accomontage(song_name,
                 phrase_data=None,
                 edge_weights=None,
                 song_index=None,
+                original_tempo=120,
                 ):
     SPOTLIGHT, PREFILTER = spotlight, prefilter
     SONG_NAME, SONG_ROOT, SEGMENTATION, NOTE_SHIFT = song_name, song_root, segmentation, note_shift
@@ -101,6 +102,11 @@ def accomontage(song_name,
 
     print('Generating...')
     midi = render_acc(pianoRoll, chord_table, query_seg, path, shift, acc_pool, state_dict=state_dict)
+    if original_tempo != 120:
+        for ins in midi.instruments:
+            for note in ins.notes:
+                note.start = note.start * 120 / original_tempo
+                note.end = note.end * 120 / original_tempo
     output_name = SONG_NAME if output_name == '' else output_name
     output_path = output_root + '/' + output_name if output_root != '' else output_name
     midi.write(output_path)
