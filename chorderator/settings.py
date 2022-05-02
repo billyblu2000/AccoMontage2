@@ -8,6 +8,7 @@ logging.basicConfig(level=LOG_LEVEL, format=LOG_FORMAT)
 PROJECT_DIR = "/".join(os.path.abspath(__file__).replace('\\', '/').split("/")[:-2]) + '/'
 BASE_DIR = PROJECT_DIR + "chorderator/"
 STATIC_DIR = BASE_DIR + "static/"
+ACCOMONTAGE_DATA_DIR = BASE_DIR + "utils/models/accomontage/data files"
 RESOURCE_DIR = PROJECT_DIR + "resource/"
 
 static_storage = {

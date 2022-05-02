@@ -17,8 +17,8 @@ def handle_exception(code):
             msg = 'MIDI file have to be assigned! You may want to call chorderator.set_melody(PATH: str).'
         elif int(str(code)[1]) == 1:
             if code == 311:
-                msg = 'Phrase have to be assigned! You may want to call chorderator.set_phrase(PHRASE: ' \
-                      'list).'
+                msg = 'Phrase or segmentation have to be assigned! You may want to call chorderator.set_phrase(PHRASE: ' \
+                      'list) or chorderator.set_segmentation(str)'
             elif code == 312:
                 msg = 'Phrase length not accepted. Up to the current version, only the following length is supported: ' \
                       '4, 8, 12, 16, 24, 32.'

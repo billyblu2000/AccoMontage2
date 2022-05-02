@@ -20,7 +20,7 @@ class LogPathManager:
         ctime = datetime.datetime.now().time().strftime("%H%M%S") \
             if with_time else ''
         log_folder = '_'.join([log_path_name, date, ctime])
-        log_path = os.path.join('.', log_folder)
+        log_path = os.path.join('', log_folder)
         writer_path = os.path.join(log_path, writer_folder)
         model_path = os.path.join(log_path, model_folder)
         self.log_path = log_path

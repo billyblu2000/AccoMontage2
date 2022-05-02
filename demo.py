@@ -1,21 +1,7 @@
-from interfaces import generate_chord_and_accompaniment, cdt
+import chorderator as cdt
 
-generate_chord_and_accompaniment(input_name='E_86_8-8.mid',
-                                 segmentation='A8A8\n',
-                                 tonic=cdt.Key.E,
-                                 input_root='MIDI demos/inputs',
-                                 # mode=cdt.Mode.MAJOR,
-                                 # meter=cdt.Meter.FOUR_FOUR,
-                                 # chord_output_style=cdt.Style.POP_STANDARD,
-                                 # texture_spotlight=[],
-                                 # texture_prefilter=(4, 1),
-                                 output_root='final_output',
-                                 output_name='test.mid',
-                                 # data_cache={
-                                 #     'chord_gen_dict': None,
-                                 #     'chord_gen_lib': None,
-                                 #     'texture_gen_state_dict': None,
-                                 #     'texture_gen_phrase_data': None,
-                                 #     'texture_gen_edge_weights': None,
-                                 #     'texture_gen_four_beat_song_index': None, }
-                                 )
+cdt.set_melody('MIDI demos/inputs/E_86_8-8.mid')
+cdt.set_meta(tonic=cdt.Key.E, meter=cdt.Meter.FOUR_FOUR, mode=cdt.Mode.MAJOR)
+cdt.set_segmentation('A8A8')
+cdt.set_output_style(cdt.Style.POP_STANDARD)
+cdt.generate_save('final_out', task=['textured_chord', 'chord'], log=True)

@@ -4,11 +4,13 @@ import pandas as pd
 import torch
 import os
 
+from .....settings import ACCOMONTAGE_DATA_DIR
 from .acc_utils import melodySplit, chordSplit, computeTIV, chord_shift, cosine, cosine_rhy, accomapnimentGeneration
 from ..models.model import DisentangleVAE
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-DATA_DIR = "/".join(os.path.abspath(__file__).replace('\\', '/').split("/")[:-2]) + '/data files'
+DATA_DIR = ACCOMONTAGE_DATA_DIR
+
 
 def find_by_length(melody_data, acc_data, chord_data, length):
     melody_record = []
@@ -116,8 +118,8 @@ def dp_search(query_phrases, seg_query, acc_pool, edge_weights, texture_filter=N
         if seg_query[i] == seg_query[i - 1]:
             melody_pre = melody_record
             matrix = np.matmul(melody_pre, np.transpose(melody_flat, (1, 0))) / (
-                        np.linalg.norm(melody_pre, axis=-1)[:, np.newaxis] * (np.linalg.norm(
-                    np.transpose(melody_flat, (1, 0)), axis=0))[np.newaxis, :])
+                    np.linalg.norm(melody_pre, axis=-1)[:, np.newaxis] * (np.linalg.norm(
+                np.transpose(melody_flat, (1, 0)), axis=0))[np.newaxis, :])
             if i == 1:
                 for k in range(matrix.shape[1]):
                     matrix[k, :k] = -1

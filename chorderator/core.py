@@ -2,11 +2,14 @@ import importlib
 import inspect
 import json
 import os
-
+import warnings
+import numpy as np
+import pandas as pd
+import torch
 from .utils.utils import listen, pickle_read
 from .utils.excp import handle_exception
 from .utils.pipeline import Pipeline
-from .settings import MAXIMUM_CORES
+from .settings import MAXIMUM_CORES, ACCOMONTAGE_DATA_DIR
 
 from .chords.ChordProgression import read_progressions
 
@@ -16,6 +19,7 @@ class Core:
         'pre': ['PreProcessor'],
         'main': ['DP'],
         'post': ['PostProcessor'],
+        'texture': ['AccoMontage'],
         'phrase': [4, 8, 12, 16, 24, 32],
         'chord_style': ['classy', 'emotional', 'standard', 'second-inversion', 'root-note', 'cluster', 'power-chord',
                         'sus2', 'seventh', 'power-octave', 'unknown', 'sus4', 'first-inversion', 'full-octave'],
@@ -27,18 +31,26 @@ class Core:
     }
 
     def __init__(self):
-        self._pipeline = [self.preprocess_model(), self.main_model(), self.postprocess_model()]
+
+        self._pipeline = [self.preprocess_model(), self.main_model(), self.postprocess_model(), self.texture_model()]
         self.state = 0
         self.pipeline = None
         self.midi_path = ''
         self.phrase = []
+        self.segmentation = ''
         self.meta = {}
         self.output_progression_style = 'unknown'
         self.output_chord_style = 'unknown'
         self.output_style = 'unknown'
+        self.texture_spotlight = []
+        self.texture_prefilter = (4, 1)
         self.cache = {
             'dict': None,
-            'lib': None
+            'lib': None,
+            'state_dict': None,
+            'phrase_data': None,
+            'edge_weights': None,
+            'song_index': None,
         }
 
     def __new__(cls, *args, **kwargs):
@@ -64,7 +76,7 @@ class Core:
     def get_pipeline_models(self):
         return self._pipeline
 
-    def set_pipeline(self, pre=None, main=None, post=None):
+    def set_pipeline(self, pre=None, main=None, post=None, texture=None):
         if pre:
             try:
                 self._pipeline[0] = self.preprocess_model(pre)
@@ -80,21 +92,45 @@ class Core:
                 self._pipeline[2] = self.postprocess_model(post)
             except:
                 handle_exception(0)
+        if texture:
+            try:
+                self._pipeline[3] = None
+            except:
+                handle_exception(0)
 
-    def set_output_progression_style(self, style):
+    def set_output_progression_style(self, style: str):
         self.output_progression_style = style
 
-    def set_output_chord_style(self, style):
+    def set_output_chord_style(self, style: str):
         self.output_chord_style = style
 
-    def set_output_style(self, style):
+    def set_output_style(self, style: str):
         self.output_style = style
 
+    def set_texture_spotlight(self, spotlight: list):
+        self.texture_spotlight = spotlight
+
+    def set_texture_prefilter(self, prefilter: tuple):
+        assert 0 <= prefilter[0] <= 4 and 0 <= prefilter[1] <= 4 and len(prefilter) == 2
+        self.texture_prefilter = prefilter
+
     def set_cache(self, **kwargs):
-        if 'lib' in kwargs:
-            self.cache['lib'] = kwargs['lib']
-        if 'dict' in kwargs:
-            self.cache['dict'] = kwargs['dict']
+        for cache_name in ['lib, dict, state_dict', 'phrase_data', 'edge_weights', 'song_index']:
+            if cache_name in kwargs:
+                self.cache[cache_name] = kwargs[cache_name]
+
+    def load_data(self):
+        self.cache = {
+            'dict': read_progressions('dict'),
+            'lib': pickle_read('lib'),
+            'state_dict': torch.load(ACCOMONTAGE_DATA_DIR + '/model_master_final.pt', map_location=torch.device('cpu')) \
+                if not torch.cuda.is_available() else torch.load(ACCOMONTAGE_DATA_DIR + '/model_master_final.pt',
+                                                                 map_location=torch.device('cuda')),
+            'phrase_data': np.load(ACCOMONTAGE_DATA_DIR + '/phrase_data0714.npz', allow_pickle=True),
+            'edge_weights': np.load(ACCOMONTAGE_DATA_DIR + '/edge_weights_0714.npz', allow_pickle=True),
+            'song_index': pd.read_excel(ACCOMONTAGE_DATA_DIR + '/POP909 4bin quntization/four_beat_song_index.xlsx'),
+        }
+        return self.cache
 
     def preprocess_model(self, model_name=registered['pre'][0]):
         if model_name not in Core.registered['pre']:
@@ -111,6 +147,11 @@ class Core:
             return False
         return self.__import_model(model_name)
 
+    def texture_model(self, model_name=registered['texture'][0]):
+        if model_name not in Core.registered['texture']:
+            return False
+        return self.__import_model(model_name)
+
     def get_state(self):
         if self.state <= 5:
             if self.pipeline is not None:
@@ -123,7 +164,10 @@ class Core:
     @staticmethod
     def __import_model(model_name):
         surpass = ['Chord', 'ChordProgression', 'MIDILoader', 'Logging', 'Instrument', 'PrettyMIDI', 'Note']
-        m = importlib.import_module('.utils.models.' + model_name, package='chorderator')
+        try:
+            m = importlib.import_module('.utils.models.' + model_name, package='chorderator')
+        except:
+            m = importlib.import_module('.utils.models.accomontage.' + model_name, package='chorderator')
         for cls in dir(m):
             if inspect.isclass(getattr(m, cls)) and cls not in surpass:
                 return getattr(m, cls)
@@ -136,9 +180,9 @@ class Core:
 
         checks = [self.__check_midi_path(),
                   self.__check_phrase(),
+                  self.__check_segmentation(),
                   self.__check_meta(),
-                  self.__check_chord_style(),
-                  self.__check_progression_style()]
+                  self.__check_style()]
 
         for check in checks:
             if check != 100:
@@ -151,10 +195,28 @@ class Core:
 
     def __check_phrase(self):
         if not self.phrase:
-            return 311
+            if self.segmentation:
+                self.phrase = self.__segmentation_to_phrase(self.segmentation)
+            else:
+                return 311
         cursor = 1
         while cursor < len(self.phrase):
             if self.phrase[cursor] - self.phrase[cursor - 1] not in self.registered['phrase']:
+                return 312
+            cursor += 1
+        else:
+            return 100
+
+    def __check_segmentation(self):
+        if not self.segmentation:
+            if self.phrase:
+                self.segmentation = self.__phrase_to_segmentation(self.phrase)
+            else:
+                return 311
+        phrase = self.__segmentation_to_phrase(self.segmentation)
+        cursor = 1
+        while cursor < len(phrase):
+            if phrase[cursor] - phrase[cursor - 1] not in self.registered['phrase']:
                 return 312
             cursor += 1
         else:
@@ -209,6 +271,13 @@ class Core:
                               output_style=self.output_style,
                               lib=self.cache['lib'],
                               templates=self.cache['dict'],
+                              state_dict=self.cache['state_dict'],
+                              phrase_data=self.cache['phrase_data'],
+                              edge_weights=self.cache['edge_weights'],
+                              song_index=self.cache['song_index'],
+                              segmentation=self.segmentation,
+                              texture_spotlight=self.texture_spotlight,
+                              texture_prefilter=self.texture_prefilter,
                               **kwargs)
         return self.pipeline.send_out()
 
@@ -217,7 +286,38 @@ class Core:
         self.midi_path = midi_path
 
     def set_phrase(self, phrase: list):
-        self.phrase = phrase
+        warnings.warn('set_phrase not supported currently, should use set_segmentation')
+
+    @staticmethod
+    def __segmentation_to_phrase(s):
+        phrase = [1]
+        memo = ''
+        for i in s:
+            if i == '\\':
+                return phrase
+            if not i.isdigit():
+                if memo != '':
+                    phrase.append(phrase[-1] + int(memo))
+                    memo = ''
+            else:
+                memo += i
+        return phrase[:-1]
+
+    @staticmethod
+    def __phrase_to_segmentation(p):
+        seg = ''
+        for i in range(len(p) - 1):
+            seg += 'A' + str(p[i + 1] - p[i])
+        return seg + '\n'
+
+    def set_segmentation(self, segmentation):
+        if self.phrase:
+            if self.phrase != self.__segmentation_to_phrase(segmentation):
+                warnings.warn(
+                    'Segmentation {} not match phrase {}, using segmentation'.format(segmentation, self.phrase))
+                self.phrase = self.__segmentation_to_phrase(segmentation)
+        self.segmentation = segmentation + '\n'
+        self.phrase = self.__segmentation_to_phrase(self.segmentation)
 
     def set_meta(self, tonic: str = None, mode: str = None, meter: str = None, tempo=None):
         if tonic is not None:
@@ -238,21 +338,20 @@ class Core:
     def set_postprocess_model(self, name: str):
         self.set_pipeline(post=name)
 
-    def generate(self, cut_in=False, with_log=False, **kwargs):
+    def set_texture_model(self, name: str):
+        self.set_pipeline(texture=name)
+
+    def generate(self, cut_in=False, log=False, **kwargs):
         verified = self.verify()
         if verified != 100:
             handle_exception(verified)
         gen = self.run(cut_in, **kwargs)
-        return gen if with_log else gen[0]
+        return gen if log else gen[0:2]
 
-    def generate_save(self, output_name, with_log=False, formats=None, cut_in=False, **kwargs):
-        if formats is None:
-            formats = ['mid']
+    def generate_save(self, output_name, task=None, log=False, wav=False, cut_in=False, **kwargs):
 
-        def write_log(gen_log):
-            file = open(output_name + '/' + output_name + '.json', 'w')
-            json.dump(gen_log, file)
-            file.close()
+        if task is None:
+            task = ['textured_chord']
 
         cwd = os.getcwd()
         try:
@@ -262,24 +361,54 @@ class Core:
         except:
             pass
         os.chdir(cwd)
-        if not with_log:
-            gen = self.generate(cut_in, **kwargs)
+
+        if not log:
+            gen, chord_gen = self.generate(cut_in, **kwargs)
         else:
-            gen, gen_log = self.generate(cut_in, with_log=with_log, **kwargs)
+            gen, chord_gen, gen_log = self.generate(cut_in, log=True, **kwargs)
             if 'base_dir' in kwargs:
                 cwd = os.getcwd()
                 os.chdir(kwargs['base_dir'])
-            write_log(gen_log)
+            file = open(output_name + '/chord_gen_log.json', 'w')
+            json.dump(gen_log, file)
+            file.close()
             if 'base_dir' in kwargs:
                 os.chdir(cwd)
+
         if 'base_dir' in kwargs:
             cwd = os.getcwd()
             os.chdir(kwargs['base_dir'])
-        if 'mid' in formats:
-            gen.write(output_name + '/' + output_name + '.mid')
-            self.state = 5
-        if 'wav' in formats:
-            listen(gen, path=output_name, out='/' + output_name + '.wav')
-            self.state = 6
+        if 'chord' in task:
+            chord_gen.write(output_name + '/chord_gen.mid')
+        if 'textured_chord' in task:
+            gen.write(output_name + '/textured_chord_gen.mid')
+        self.state = 6
+        if wav:
+            if 'chord' in task:
+                listen(chord_gen, path=output_name, out='/chord_gen.wav')
+            if 'textured_chord' in task:
+                listen(gen, path=output_name, out='/textured_chord_gen.wav')
+        self.state = 7
         if 'base_dir' in kwargs:
             os.chdir(cwd)
+
+    def __str__(self):
+        s = '''Chorderator Core (
+state = {}
+pipeline = {}
+melody_midi_path = {}
+phrase = {}
+segmentation = {}
+melody_meta_data = {}
+chord_gen_style = {}
+texture_spotlight = {}
+texture_prefilter = {})'''.format(self.state,
+                                  self.pipeline,
+                                  self.midi_path,
+                                  self.phrase,
+                                  self.segmentation.rstrip('\n'),
+                                  self.meta,
+                                  self.output_style,
+                                  self.texture_spotlight,
+                                  self.texture_prefilter)
+        return s

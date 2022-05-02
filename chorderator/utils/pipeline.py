@@ -1,3 +1,5 @@
+import pretty_midi
+
 from ..chords.ChordProgression import read_progressions
 from .excp import handle_exception
 from .utils import Logging, pickle_read, combine_ins
@@ -10,12 +12,13 @@ class Pipeline:
         self.melo = None
         self.final_output = None
         self.final_output_log = None
+        self.chord_gen_output = None
         self.state = 0
         self.pipeline = pipeline
         if len(pipeline) < 3:
             Logging.critical('Pipeline length not match!')
 
-    def send_in(self, midi_path, cut_in = False, **kwargs):
+    def send_in(self, midi_path, cut_in=False, **kwargs):
         if cut_in == 'from_post':
             self.state = 1
             Logging.warning('Pre-processing...')
@@ -25,9 +28,13 @@ class Pipeline:
                 handle_exception(500)
             self.state = 3
             Logging.warning('Post-processing...')
-            self.final_output, self.final_output_log = self.__postprocess(**kwargs)
+            self.chord_gen_output, self.final_output_log = self.__postprocess(**kwargs)
             Logging.warning('Post-process done!')
             self.state = 4
+            Logging.warning('Generating textures...')
+            self.final_output = self.__add_textures(self.chord_gen_output, **kwargs)
+            self.state = 5
+            Logging.warning('All process finished!')
         else:
             self.state = 1
             Logging.warning('Pre-processing...')
@@ -39,9 +46,13 @@ class Pipeline:
             Logging.warning('Solved!')
             self.state = 3
             Logging.warning('Post-processing...')
-            self.final_output, self.final_output_log = self.__postprocess(progression_list, **kwargs)
+            self.chord_gen_output, self.final_output_log = self.__postprocess(progression_list, **kwargs)
             Logging.warning('Post-process done!')
             self.state = 4
+            Logging.warning('Generating textures...')
+            self.final_output = self.__add_textures(self.chord_gen_output, **kwargs)
+            self.state = 5
+            Logging.warning('All process finished!')
 
     def __preprocess(self, midi_path, **kwargs):
         processor = self.pipeline[0](midi_path, kwargs['phrase'], kwargs['meta'])
@@ -72,12 +83,35 @@ class Pipeline:
                                      kwargs['output_style'])
         return processor.get()
 
-    def __add_textures(self):
-        pass
+    def __add_textures(self, output, **kwargs):
+        original_tempo = self.meta['tempo']
+        new_melo = self.__to_tempo(self.melo, original_tempo, 120)
+        new_chord = self.__to_tempo(output, original_tempo, 120)
+        midi = combine_ins(new_melo, new_chord, init_tempo=120)
+        processor = self.pipeline[3](midi=midi, segmentation=kwargs['segmentation'], note_shift=0,
+                                     spotlight=kwargs['texture_spotlight'],
+                                     prefilter=kwargs['texture_prefilter'], state_dict=kwargs['state_dict'],
+                                     phrase_data=kwargs['phrase_data'], edge_weights=kwargs['edge_weights'],
+                                     song_index=kwargs['song_index'], original_tempo=original_tempo)
+        processor.solve()
+        return processor.get()
+
+    @staticmethod
+    def __to_tempo(ins, original, target):
+        new_ins = pretty_midi.Instrument(0)
+        for note in ins.notes:
+            new_ins.notes.append(pretty_midi.Note(
+                start=note.start*original/target,
+                end=note.end*original/target,
+                pitch=note.pitch,
+                velocity=note.velocity
+            ))
+        return new_ins
 
     def send_out(self):
         if self.final_output:
-            return combine_ins(self.melo, self.final_output, init_tempo=self.meta['tempo']), self.final_output_log
+            return self.final_output, combine_ins(self.chord_gen_output, self.melo, init_tempo=self.meta['tempo']), \
+                   self.final_output_log
         else:
             Logging.critical('Nothing is in pipeline yet!')
 

@@ -6,7 +6,7 @@
 ### Demo
 
 ```python
-from accomontage.AccoMontage_inference import accomontage
+from utils.models.accomontage.AccoMontage import accomontage
 import chorderator as cdt
 
 name = 'D#_78_4-4-4-4.mid'

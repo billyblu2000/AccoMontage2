@@ -1,14 +1,11 @@
 __all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output_chord_style', 'set_output_style',
            'set_preprocess_model', 'set_main_model', 'set_postprocess_model', 'generate',
            'Key', 'Mode', 'Meter', 'Style', 'set_phrase', 'ChordStyle', 'ProgressionStyle', 'generate_save',
-           'get_chorderator']
-
-import json
+           'get_chorderator', 'set_texture_model', 'set_texture_prefilter', 'set_texture_spotlight', 'set_segmentation',
+           'get_current_config', 'load_data']
 
 from .core import Core
-from .settings import *
-from .utils.excp import handle_exception
-from .utils.utils import Logging, listen
+from .utils.utils import Logging
 
 _core = Core.get_core()
 
@@ -18,11 +15,15 @@ def get_chorderator():
 
 
 def set_melody(midi_path: str):
-    _core.midi_path = midi_path
+    _core.set_melody(midi_path)
 
 
 def set_phrase(phrase: list):
-    _core.phrase = phrase
+    _core.set_phrase(phrase)
+
+
+def set_segmentation(segmentation: str):
+    _core.set_segmentation(segmentation)
 
 
 def set_meta(tonic: str = None, mode: str = None, meter: str = None, tempo=None):
@@ -46,8 +47,16 @@ def set_output_chord_style(style: str):
     _core.set_output_chord_style(style)
 
 
-def set_output_style(style):
+def set_output_style(style: str):
     _core.set_output_style(style)
+
+
+def set_texture_spotlight(spotlight: list):
+    _core.set_texture_spotlight(spotlight)
+
+
+def set_texture_prefilter(prefilter: tuple):
+    _core.set_texture_prefilter(prefilter)
 
 
 def set_preprocess_model(name: str):
@@ -65,50 +74,27 @@ def set_postprocess_model(name: str):
     Logging.info('Postprocess model set as', name)
 
 
+def set_texture_model(name: str):
+    _core.set_texture_model(name=name)
+    Logging.info('Texture model set as', name)
+
+
 def generate(cut_in=False, with_log=False, **kwargs):
-    verified = _core.verify()
-    if verified != 100:
-        handle_exception(verified)
-    gen = _core.run(cut_in, **kwargs)
-    return gen if with_log else gen[0]
+    return _core.generate(cut_in=cut_in, with_log=with_log, **kwargs)
 
 
-def generate_save(output_name, with_log=False, formats=None, cut_in=False, **kwargs):
-    if formats is None:
-        formats = ['mid']
+def generate_save(output_name, task=None, log=False, wav=False, cut_in=False, **kwargs):
+    if task is None:
+        task = ['textured_chord']
+    return _core.generate_save(output_name=output_name, task=task, log=log, wav=wav, cut_in=cut_in, **kwargs)
 
-    def write_log(gen_log):
-        file = open(output_name + '/' + output_name + '.json', 'w')
-        json.dump(gen_log, file)
-        file.close()
 
-    cwd = os.getcwd()
-    try:
-        if 'base_dir' in kwargs:
-            os.chdir(kwargs['base_dir'])
-        os.makedirs(output_name)
-    except:
-        pass
-    os.chdir(cwd)
-    if not with_log:
-        gen = generate(cut_in, **kwargs)
-    else:
-        gen, gen_log = generate(cut_in, with_log=with_log, **kwargs)
-        if 'base_dir' in kwargs:
-            cwd = os.getcwd()
-            os.chdir(kwargs['base_dir'])
-        write_log(gen_log)
-        if 'base_dir' in kwargs:
-            os.chdir(cwd)
-    if 'base_dir' in kwargs:
-        cwd = os.getcwd()
-        os.chdir(kwargs['base_dir'])
-    if 'mid' in formats:
-        gen.write(output_name + '/' + output_name + '.mid')
-    if 'wav' in formats:
-        listen(gen, path=output_name, out='/' + output_name + '.wav')
-    if 'base_dir' in kwargs:
-        os.chdir(cwd)
+def get_current_config():
+    return str(_core)
+
+
+def load_data():
+    return _core.load_data()
 
 
 class Key:
