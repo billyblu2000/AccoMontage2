@@ -79,14 +79,12 @@ def set_texture_model(name: str):
     Logging.info('Texture model set as', name)
 
 
-def generate(cut_in=False, with_log=False, **kwargs):
-    return _core.generate(cut_in=cut_in, with_log=with_log, **kwargs)
+def generate(cut_in=False, with_texture=True, log=False, **kwargs):
+    return _core.generate(cut_in=cut_in, with_texture=with_texture, log=log, **kwargs)
 
 
-def generate_save(output_name, task=None, log=False, wav=False, cut_in=False, **kwargs):
-    if task is None:
-        task = ['textured_chord']
-    return _core.generate_save(output_name=output_name, task=task, log=log, wav=wav, cut_in=cut_in, **kwargs)
+def generate_save(output_name, task='textured_chord', log=False, wav=False, **kwargs):
+    return _core.generate_save(output_name=output_name, task=task, log=log, wav=wav, **kwargs)
 
 
 def get_current_config():

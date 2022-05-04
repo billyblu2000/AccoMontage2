@@ -225,10 +225,14 @@ class Core:
     def __check_meta(self):
         if self.meta == {}:
             return 321
-        if 'tonic' not in self.meta.keys() \
-                or 'meter' not in self.meta.keys() \
-                or 'mode' not in self.meta.keys():
+        if 'tonic' not in self.meta.keys():
             return 322
+        if 'meter' not in self.meta.keys():
+            self.meta['meter'] = '4/4'
+            warnings.warn('Meter auto set to 4/4/. Please set meter if this is not your expectation')
+        if 'mode' not in self.meta.keys():
+            self.meta['mode'] = 'maj'
+            warnings.warn('Mode auto set to major. Please set mode if this is not your expectation')
         if self.meta['tonic'] not in self.registered['meta.key']:
             return 323
         if self.meta['mode'] not in self.registered['meta.mode']:
@@ -254,7 +258,7 @@ class Core:
                 return 100
         return 351
 
-    def run(self, cut_in, **kwargs):
+    def run(self, cut_in, cut_in_arg, with_texture, **kwargs):
         self.pipeline = Pipeline(self._pipeline)
         if self.cache['dict'] is None:
             templates = read_progressions('dict')
@@ -264,6 +268,8 @@ class Core:
             self.cache['lib'] = lib
         self.pipeline.send_in(self.midi_path,
                               cut_in=cut_in,
+                              cut_in_arg=cut_in_arg,
+                              with_texture=with_texture,
                               phrase=self.phrase,
                               meta=self.meta,
                               output_progression_style=self.output_progression_style,
@@ -341,17 +347,14 @@ class Core:
     def set_texture_model(self, name: str):
         self.set_pipeline(texture=name)
 
-    def generate(self, cut_in=False, log=False, **kwargs):
+    def generate(self, cut_in=False, cut_in_arg=None, with_texture=True, log=False, **kwargs):
         verified = self.verify()
         if verified != 100:
             handle_exception(verified)
-        gen = self.run(cut_in, **kwargs)
+        gen = self.run(cut_in, cut_in_arg, with_texture, **kwargs)
         return gen if log else gen[0:2]
 
-    def generate_save(self, output_name, task=None, log=False, wav=False, cut_in=False, **kwargs):
-
-        if task is None:
-            task = ['textured_chord']
+    def generate_save(self, output_name, task='textured_chord', log=False, wav=False, **kwargs):
 
         cwd = os.getcwd()
         try:
@@ -362,10 +365,25 @@ class Core:
             pass
         os.chdir(cwd)
 
-        if not log:
-            gen, chord_gen = self.generate(cut_in, **kwargs)
+        cut_in, cut_in_arg, with_texture = False, None, True
+
+        if task == 'chord':
+            cut_in, cut_in_arg, with_texture = False, None, False
+        elif task == 'textured_chord':
+            cut_in, cut_in_arg, with_texture = False, None, True
+        elif task == 'texture':
+            cut_in, cut_in_arg, with_texture = 'from_texture', kwargs['cut_in_arg'], True
         else:
-            gen, chord_gen, gen_log = self.generate(cut_in, log=True, **kwargs)
+            raise RuntimeError(task)
+
+        if 'cut_in_arg' in kwargs:
+            del kwargs['cut_in_arg']
+
+        if not log:
+            gen, chord_gen = self.generate(cut_in=cut_in, cut_in_arg=cut_in_arg, with_texture=with_texture, **kwargs)
+        else:
+            gen, chord_gen, gen_log = self.generate(cut_in=cut_in, cut_in_arg=cut_in_arg, with_texture=with_texture,
+                                                    log=True, **kwargs)
             if 'base_dir' in kwargs:
                 cwd = os.getcwd()
                 os.chdir(kwargs['base_dir'])
@@ -378,15 +396,15 @@ class Core:
         if 'base_dir' in kwargs:
             cwd = os.getcwd()
             os.chdir(kwargs['base_dir'])
-        if 'chord' in task:
+        if task == 'chord':
             chord_gen.write(output_name + '/chord_gen.mid')
-        if 'textured_chord' in task:
+        if task == 'textured_chord' or task == 'texture':
             gen.write(output_name + '/textured_chord_gen.mid')
         self.state = 6
         if wav:
-            if 'chord' in task:
+            if task == 'chord':
                 listen(chord_gen, path=output_name, out='/chord_gen.wav')
-            if 'textured_chord' in task:
+            if task == 'textured_chord' or task == 'texture':
                 listen(gen, path=output_name, out='/textured_chord_gen.wav')
         self.state = 7
         if 'base_dir' in kwargs:

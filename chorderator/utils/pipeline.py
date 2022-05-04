@@ -18,23 +18,28 @@ class Pipeline:
         if len(pipeline) < 3:
             Logging.critical('Pipeline length not match!')
 
-    def send_in(self, midi_path, cut_in=False, **kwargs):
+    def send_in(self, midi_path, cut_in=False, cut_in_arg=None, with_texture=True, **kwargs):
         if cut_in == 'from_post':
             self.state = 1
             Logging.warning('Pre-processing...')
             self.melo, splited_melo, self.meta = self.__preprocess(midi_path, **kwargs)
             Logging.warning('Pre-process done!')
-            if 'progression_list' not in kwargs:
+            if not cut_in_arg:
                 handle_exception(500)
             self.state = 3
             Logging.warning('Post-processing...')
-            self.chord_gen_output, self.final_output_log = self.__postprocess(**kwargs)
+            self.chord_gen_output, self.final_output_log = self.__postprocess(kwargs['cut_in_arg'], **kwargs)
             Logging.warning('Post-process done!')
             self.state = 4
-            Logging.warning('Generating textures...')
-            self.final_output = self.__add_textures(self.chord_gen_output, **kwargs)
-            self.state = 5
-            Logging.warning('All process finished!')
+        elif cut_in == 'from_texture':
+            self.state = 1
+            Logging.warning('Pre-processing...')
+            self.melo, splited_melo, self.meta = self.__preprocess(midi_path, **kwargs)
+            Logging.warning('Pre-process done!')
+            self.state = 4
+            if not cut_in_arg:
+                handle_exception(500)
+            self.chord_gen_output = pretty_midi.PrettyMIDI(kwargs['cut_in_arg']).instruments[1]
         else:
             self.state = 1
             Logging.warning('Pre-processing...')
@@ -49,10 +54,13 @@ class Pipeline:
             self.chord_gen_output, self.final_output_log = self.__postprocess(progression_list, **kwargs)
             Logging.warning('Post-process done!')
             self.state = 4
-            Logging.warning('Generating textures...')
+        Logging.warning('Generating textures...')
+        if with_texture:
             self.final_output = self.__add_textures(self.chord_gen_output, **kwargs)
-            self.state = 5
-            Logging.warning('All process finished!')
+        else:
+            self.final_output = self.__add_textures(self.chord_gen_output, do_add_textures=False, **kwargs)
+        self.state = 5
+        Logging.warning('All process finished!')
 
     def __preprocess(self, midi_path, **kwargs):
         processor = self.pipeline[0](midi_path, kwargs['phrase'], kwargs['meta'])
@@ -83,18 +91,21 @@ class Pipeline:
                                      kwargs['output_style'])
         return processor.get()
 
-    def __add_textures(self, output, **kwargs):
+    def __add_textures(self, output, do_add_textures=True, **kwargs):
         original_tempo = self.meta['tempo']
         new_melo = self.__to_tempo(self.melo, original_tempo, 120)
         new_chord = self.__to_tempo(output, original_tempo, 120)
         midi = combine_ins(new_melo, new_chord, init_tempo=120)
-        processor = self.pipeline[3](midi=midi, segmentation=kwargs['segmentation'], note_shift=0,
-                                     spotlight=kwargs['texture_spotlight'],
-                                     prefilter=kwargs['texture_prefilter'], state_dict=kwargs['state_dict'],
-                                     phrase_data=kwargs['phrase_data'], edge_weights=kwargs['edge_weights'],
-                                     song_index=kwargs['song_index'], original_tempo=original_tempo)
-        processor.solve()
-        return processor.get()
+        if do_add_textures:
+            processor = self.pipeline[3](midi=midi, segmentation=kwargs['segmentation'], note_shift=0,
+                                         spotlight=kwargs['texture_spotlight'],
+                                         prefilter=kwargs['texture_prefilter'], state_dict=kwargs['state_dict'],
+                                         phrase_data=kwargs['phrase_data'], edge_weights=kwargs['edge_weights'],
+                                         song_index=kwargs['song_index'], original_tempo=original_tempo)
+            processor.solve()
+            return processor.get()
+        else:
+            return midi
 
     @staticmethod
     def __to_tempo(ins, original, target):
@@ -110,7 +121,8 @@ class Pipeline:
 
     def send_out(self):
         if self.final_output:
-            return self.final_output, combine_ins(self.chord_gen_output, self.melo, init_tempo=self.meta['tempo']), \
+            return combine_ins(self.melo, self.final_output.instruments[1], init_tempo=self.meta['tempo']), \
+                   combine_ins(self.melo, self.chord_gen_output, init_tempo=self.meta['tempo']), \
                    self.final_output_log
         else:
             Logging.critical('Nothing is in pipeline yet!')
