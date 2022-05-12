@@ -7,5 +7,5 @@ __pycache__/
 *.npz
 *.mscz
 *.pyc
-/frontend/node_modules/
+/front-end/node_modules/
 temp.py

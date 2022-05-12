@@ -1,0 +1,51 @@
+.down{
+    height: 500px;
+    background-color: rgba(224, 224, 224, 0.418);
+    width: 100%;
+    overflow: scroll;
+    border: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-width:10px;
+}
+.upper{
+    min-height: 300px;
+}
+.status{
+    background-color: rgb(70, 70, 70);
+    padding: 30px;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    min-width: 100%;
+    min-height: 100%;
+    font-family: Fira Code,Menlo,Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+}
+
+.card-start{
+    background-color: rgba(0, 0, 0, 0.712);
+    height: 485px;
+    width: 50px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    text-align: center;
+    float: left;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);;
+}
+.card-end{
+    background-color: rgba(0, 0, 0, 0.712);
+    height: 485px;
+    width: 50px;
+    margin-top: 4px;
+    float: left;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);;
+}

@@ -1,0 +1,17 @@
+.card{
+    background-color: white;
+    height: 485px;
+    width: 300px;
+    margin-right: 4px;
+    margin-top: 4px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-duration: 0.5s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.712);
+}
