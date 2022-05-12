@@ -8,9 +8,10 @@ from ...utils.structured import major_map, minor_map, str_to_root
 class PreProcessor:
     accepted_phrase_length = [4, 8, 16, 12, 24, 32]
 
-    def __init__(self, midi_path='', phrase=None, meta=None):
+    def __init__(self, midi_path='', phrase=None, meta=None, note_shift=0, **kwargs):
         try:
             self.midi_path = None
+            self.note_shift = note_shift
             self.midi = PrettyMIDI(midi_path)
             self.melo = self.midi.instruments[0]
         except:
@@ -56,7 +57,7 @@ class PreProcessor:
                 ins.notes.append(note)
                 break
             if pitch_list[i + 1] != pitch_list[i]:
-                if current_pitch is not 0:
+                if current_pitch != 0:
                     note = Note(pitch=current_pitch, velocity=80, start=start * 0.125, end=(i + 1) * 0.125)
                     ins.notes.append(note)
                 current_pitch = pitch_list[i + 1]
@@ -83,10 +84,11 @@ class PreProcessor:
         else:
             unit = 60 / self.meta['tempo'] / 4
         for note in self.midi.instruments[0].notes:
-            all_notes_and_pos.append([quantize_note(note.start, unit),
-                                      quantize_note(note.end, unit),
-                                      pitch_to_number(note.pitch, self.meta),
-                                      note.velocity])
+            if quantize_note(note.end, unit) >= self.note_shift:
+                all_notes_and_pos.append([quantize_note(note.start, unit)-self.note_shift,
+                                          quantize_note(note.end, unit)-self.note_shift,
+                                          pitch_to_number(note.pitch, self.meta),
+                                          note.velocity])
         melo_sequence = self.__construct_melo_sequence(all_notes_and_pos)
         splited_melo = []
 

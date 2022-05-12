@@ -66,6 +66,8 @@ def dp_search(query_phrases, seg_query, acc_pool, edge_weights, texture_filter=N
     shift = [[shift_const[i]] for i in arg_chord]
     melody_record = np.argmax(mel_set, axis=-1)
     record = []
+    if len(query_length) == 1:
+        return path, shift
 
     for i in range(1, len(query_length)):
         print('Searching for Phrase', i + 1)

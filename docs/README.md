@@ -1,26 +1,26 @@
 # CHORDERATOR
 
-> A useful tool to generate chord progressions according to melody MIDIs
+> A useful tool to generate chord progressions and accompaniment according to melody MIDIs
 
 
 ### Demo
 
 ```python
-from utils.models.accomontage.AccoMontage import accomontage
 import chorderator as cdt
 
-name = 'D#_78_4-4-4-4.mid'
-cdt.set_melody('MIDI demos/inputs/' + name)
-cdt.set_phrase([1, 5, 9, 13])
-cdt.set_meta(tonic=cdt.Key.DSharp, mode=cdt.Mode.MAJOR, meter=cdt.Meter.FOUR_FOUR)
+if __name__ == '__main__':
 
-cdt.set_output_style(cdt.Style.POP_STANDARD)
-cdt.generate_save('generated_' + name, with_log=True)
+    demo_name = 'hpps30'
+    input_melody_path = 'MIDI demos/inputs/' + demo_name + '/melody.mid'
 
-accomontage(song_name='generated_' + name + '.mid',
-            song_root='generated_' + name,
-            segmentation='A4A4A4A4\n',
-            output_name='final.mid')
+    cdt.set_melody(input_melody_path)
+    cdt.set_meta(tonic=cdt.Key.A)
+    cdt.set_segmentation('A8B8A8B8')
+    cdt.set_texture_prefilter((0, 2))
+    cdt.set_note_shift(16)
+    cdt.set_output_style(cdt.Style.POP_STANDARD)
+    cdt.generate_save(demo_name + '_output_results')
+    
 ```
 
-Folder ``accomotage`` referencing AccoMontage by Jingwei Zhao and Gus Xia, available at https://github.com/zhaojw1998/AccoMontage
+Folder ``chorderator/utils/models/accomontage`` referencing AccoMontage by Jingwei Zhao and Gus Xia, available at https://github.com/zhaojw1998/AccoMontage

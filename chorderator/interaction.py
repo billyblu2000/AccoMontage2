@@ -2,7 +2,7 @@ __all__ = ['set_meta', 'set_melody', 'set_output_progression_style', 'set_output
            'set_preprocess_model', 'set_main_model', 'set_postprocess_model', 'generate',
            'Key', 'Mode', 'Meter', 'Style', 'set_phrase', 'ChordStyle', 'ProgressionStyle', 'generate_save',
            'get_chorderator', 'set_texture_model', 'set_texture_prefilter', 'set_texture_spotlight', 'set_segmentation',
-           'get_current_config', 'load_data']
+           'get_current_config', 'load_data', 'set_note_shift']
 
 from .core import Core
 from .utils.utils import Logging
@@ -59,6 +59,10 @@ def set_texture_prefilter(prefilter: tuple):
     _core.set_texture_prefilter(prefilter)
 
 
+def set_note_shift(shift: int):
+    _core.set_note_shift(shift)
+
+
 def set_preprocess_model(name: str):
     _core.set_pipeline(pre=name)
     Logging.info('Preprocess model set as', name)
@@ -83,7 +87,7 @@ def generate(cut_in=False, with_texture=True, log=False, **kwargs):
     return _core.generate(cut_in=cut_in, with_texture=with_texture, log=log, **kwargs)
 
 
-def generate_save(output_name, task='textured_chord', log=False, wav=False, **kwargs):
+def generate_save(output_name, task='chord_and_textured_chord', log=True, wav=False, **kwargs):
     return _core.generate_save(output_name=output_name, task=task, log=log, wav=wav, **kwargs)
 
 

@@ -11,13 +11,15 @@ class PostProcessor:
 
     filter_by_new_label = True
 
-    def __init__(self, progression_list, progression_lib, lib, meta, output_chord_style, output_progression_style, output_style):
+    def __init__(self, progression_list, progression_lib, lib, meta, output_chord_style, output_progression_style,
+                 output_style, note_shift):
         if type(progression_list[0][0]) == int:
             progression_list = [[progression_lib[i][0] for i in sub_list] for sub_list in progression_list]
         print_progression_list(progression_list)
         self.progression_list = [p for l in progression_list for p in l]
         self.midi_lib = lib
         self.meta = meta
+        self.note_shift = note_shift
         self.original_progression_lib = progression_lib
         self.progression_lib = self.__create_dup_progression_list(self.original_progression_lib)
         self.progression_lib_filtered = self.__evaluate_reliability(self.progression_lib)
@@ -94,7 +96,7 @@ class PostProcessor:
         for progression in final_progression_list:
             log.append(self.__info(progression))
             temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'], tonic=self.meta['tonic'])
-            temp_midi = midi_shift(temp_midi, shift=shift_count, tempo=self.meta['tempo'])
+            temp_midi = midi_shift(temp_midi, shift=shift_count+self.note_shift, tempo=self.meta['tempo'])
             note_list += temp_midi.instruments[0].notes
             shift_count += len(progression) * 2
         note_list = self.__smooth_notes(note_list)

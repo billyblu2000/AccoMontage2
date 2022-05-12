@@ -1,9 +1,11 @@
 /resource/
 .DS_Store
 __pycache__/
+.idea/
 *.pt
 *.npy
 *.npz
 *.mscz
 *.pyc
-
+/frontend/node_modules/
+temp.py

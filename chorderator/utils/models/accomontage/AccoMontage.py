@@ -19,7 +19,7 @@ class AccoMontage:
         self.final_output = None
         self.midi = midi
         self.segmentation = segmentation
-        self.note_shift = note_shift
+        self.note_shift = note_shift//4
         self.spotlight = spotlight
         self.prefilter = prefilter
         self.state_dict = state_dict

@@ -39,6 +39,7 @@ class Core:
         self.phrase = []
         self.segmentation = ''
         self.meta = {}
+        self.note_shift = 0
         self.output_progression_style = 'unknown'
         self.output_chord_style = 'unknown'
         self.output_style = 'unknown'
@@ -97,6 +98,9 @@ class Core:
                 self._pipeline[3] = None
             except:
                 handle_exception(0)
+
+    def set_note_shift(self, shift):
+        self.note_shift = shift
 
     def set_output_progression_style(self, style: str):
         self.output_progression_style = style
@@ -272,6 +276,7 @@ class Core:
                               with_texture=with_texture,
                               phrase=self.phrase,
                               meta=self.meta,
+                              note_shift=self.note_shift,
                               output_progression_style=self.output_progression_style,
                               output_chord_style=self.output_chord_style,
                               output_style=self.output_style,
@@ -354,22 +359,21 @@ class Core:
         gen = self.run(cut_in, cut_in_arg, with_texture, **kwargs)
         return gen if log else gen[0:2]
 
-    def generate_save(self, output_name, task='textured_chord', log=False, wav=False, **kwargs):
+    def generate_save(self, output_name, task='chord_and_textured_chord', log=True, wav=False, **kwargs):
 
         cwd = os.getcwd()
         try:
             if 'base_dir' in kwargs:
+                os.makedirs(kwargs['base_dir'], exist_ok=True)
                 os.chdir(kwargs['base_dir'])
             os.makedirs(output_name)
         except:
             pass
         os.chdir(cwd)
 
-        cut_in, cut_in_arg, with_texture = False, None, True
-
         if task == 'chord':
             cut_in, cut_in_arg, with_texture = False, None, False
-        elif task == 'textured_chord':
+        elif task == 'textured_chord' or task == 'chord_and_textured_chord':
             cut_in, cut_in_arg, with_texture = False, None, True
         elif task == 'texture':
             cut_in, cut_in_arg, with_texture = 'from_texture', kwargs['cut_in_arg'], True
@@ -396,9 +400,9 @@ class Core:
         if 'base_dir' in kwargs:
             cwd = os.getcwd()
             os.chdir(kwargs['base_dir'])
-        if task == 'chord':
+        if task == 'chord' or task == 'chord_and_textured_chord':
             chord_gen.write(output_name + '/chord_gen.mid')
-        if task == 'textured_chord' or task == 'texture':
+        if task == 'textured_chord' or task == 'texture' or task == 'chord_and_textured_chord':
             gen.write(output_name + '/textured_chord_gen.mid')
         self.state = 6
         if wav:
