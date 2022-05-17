@@ -16,6 +16,8 @@ class AccoMontage:
 
     def __init__(self, midi, segmentation, note_shift=0, spotlight=[], prefilter=(4, 1),
                  state_dict=None, phrase_data=None, edge_weights=None, song_index=None, original_tempo=120):
+        # all_ref = [i[:-1] for i in open(r'D:\projects\Chorderator\a.txt', encoding='utf-8').readlines()]
+        # all_ref.remove('今生只为遇见你')
         self.final_output = None
         self.midi = midi
         self.segmentation = segmentation

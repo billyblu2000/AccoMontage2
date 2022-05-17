@@ -10,14 +10,10 @@ const { Step } = Steps;
 const { Title } = Typography;
 
 const stepText = {
-    0:{
-        0:{ title:'Set Parameters', des:'Upload melodies.'},
-        1:{ title:'Generate Progressions', des:'Choose the best.'} 
-    },
-    1:{
-        0:{ title:'Set Parameters', des:'Upload melodies.'},
-        1:{ title:'Generate Progressions', des:'Choose the best.'}
-    }
+
+    0:{ title:'Set Parameters', des:'Upload melodies.'},
+    1:{ title:'Generate Accompaniment', des:'Choose the best.'} 
+
 }
 
 function toTop(){
@@ -40,7 +36,7 @@ export default class MainInterface extends Component {
     constructor(){
         super()
         this.state = {
-            step:0,
+            step:1,
             values:[]
         }
         PubSub.subscribe('submit', this.onSubmit)
@@ -58,11 +54,11 @@ export default class MainInterface extends Component {
         return (
             <div>
                 <div className='head'>
-                    <a href='/'><Title level={1} style={{float:'left', marginTop:'0px', fontSize:'55px'}} className='title'><span style={{color:'#1890FF'}}>A</span>uto <span style={{color:'#1890FF'}}>C</span>hord <span style={{color:'#1890FF'}}>G</span>enerator</Title></a>
-                    <Steps current={this.state.step} style={{maxWidth:'500px', float:'right', marginTop:'10px'}}>
-                        <Step title={stepText[this.state.step]['0'].title} description={stepText[this.state.step]['0'].des} >
+                    <a href='/'><Title level={1} style={{float:'left', marginTop:'0px', fontSize:'55px'}} className='title'><span style={{color:'#1890FF'}}>A</span>cco<span style={{color:'#1890FF'}}>M</span>ontage<span style={{color:'#1890FF'}}>2</span></Title></a>
+                    <Steps current={this.state.step} style={{maxWidth:'500px', float:'right', marginTop:'10px', marginBottom:'20px'}}>
+                        <Step title={stepText['0'].title} description={stepText['0'].des} >
                         </Step>
-                        <Step title={stepText[this.state.step]['1'].title} description={stepText[this.state.step]['1'].des} />
+                        <Step title={stepText['1'].title} description={stepText['1'].des} />
                     </Steps>
                 </div>
                 <Divider style={{marginBottom:'50px', backgroundColor:'#1890FF'}}/ >

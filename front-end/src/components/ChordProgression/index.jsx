@@ -41,39 +41,31 @@ export default class ChordProgression extends Component {
     }
 
     render() {
-        var otherStyles = this.props.data['otherStyles'];
+        var otherStyles = this.props.data['other_possible_styles'];
         return (
             <div className='card' style={{width:`${this.props.data['progression'].length*75}px`}}>
                 <div style={{textAlign:'center'}}>
                     <Title level={3} style={{color:'gray', marginBottom:'0px'}} >
-                    {this.state.playing === 'playing'?
-                        <Tooltip title='Click to pause' overlayStyle={{minWidth:'100px'}}>
-                            <a onClick={this.play} id='b' style={{color:'#73d13d'}} href={true}>PROGRESSION</a> 
-                        </Tooltip>
-                        :
-                        <Tooltip title='Click to listen to this progression phrase' overlayStyle={{minWidth:'277px'}}>
-                            <a onClick={this.play} id='b' href={true}>PROGRESSION</a>
-                        </Tooltip>
-                    }
+                        <a onClick={this.play} id='b' href={true}>PROGRESSION</a>
                     </Title>
-                    <p style={{marginTop:'5px', color:'gray', fontSize:'10px'}}><span style={{marginRight:'17px'}}>———</span>Score: {this.props.data['score']}<span style={{marginLeft:'17px'}}>———</span></p>
+                    {/* <p style={{marginTop:'5px', color:'gray', fontSize:'10px'}}><span style={{marginRight:'17px'}}>———</span>Score: {this.props.data['score']}<span style={{marginLeft:'17px'}}>———</span></p> */}
                 </div>
                 
-                <div style={{width:'50%', float:'left'}}>
+                <div style={{width:'50%', float:'left', marginTop:'20px'}}>
                     <Paragraph style={{fontSize:'10px',color:'gray', marginLeft:'12px'}}>Style</Paragraph>
                     <Select defaultValue={this.props.data['style']} autoFocus={false} bordered={false} style={{fontSize:'25px'}} onChange={(value) => this.handleStyleChange(value)}>
                         {style.map((item) => {
                             return <Option value={item.value} disabled={!contains(otherStyles, item.value)}>{item.ui}</Option>
                         })}
                     </Select>
-                    <Paragraph style={{fontSize:'10px',color:'gray', marginLeft:'12px', marginTop:'20px'}}>Rhythm</Paragraph>
+                    {/* <Paragraph style={{fontSize:'10px',color:'gray', marginLeft:'12px', marginTop:'20px'}}>Rhythm</Paragraph>
                     <Select defaultValue={this.props.data['rhythm']} autoFocus={false} bordered={false} style={{fontSize:'25px'}}>
                         {rhythm.map((item) => {
                                 return <Option value={item.value} >{item.ui}</Option>
                         })}
-                    </Select>
+                    </Select> */}
                 </div>
-                <div style={{width:'50%', float:'right'}}>
+                {/* <div style={{width:'50%', float:'right', marginTop:'20px'}}>
                     <Paragraph style={{fontSize:'10px',color:'gray', marginLeft:'12px'}}>Pattern</Paragraph>
                     <Select defaultValue={this.props.data['pattern']} autoFocus={false} bordered={false} style={{fontSize:'25px'}}>
                         {pattern.map((item) => {
@@ -92,45 +84,45 @@ export default class ChordProgression extends Component {
                                 return <Option value={item.value}>{item.ui}</Option>
                         })}
                     </Select>
-                </div>
-                <div style={{textAlign:'center', marginTop:'270px', backgroundColor:'#fff7e6', borderRadius:'10px'}}>
+                </div> */}
+                <div style={{textAlign:'center', marginTop:'120px', backgroundColor:'#fff7e6', borderRadius:'10px'}}>
 
                     {this.props.data['progression'].length === 8 ? 
                     <div>
                     <Title level={3} style={{fontSize:'20px'}}>
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px'}}/>
-                    Am
+                    {this.props.cheat===1?'C':'A'}
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px', marginLeft:'20px'}}/>
-                    F
+                    {this.props.cheat===1?'A':'D'}
                     <Divider type='vertical' style={{backgroundColor:'black',  marginRight:'20px', marginLeft:'20px'}}/>
-                    C
+                    {this.props.cheat===1?'D':'Em'}
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px', marginLeft:'20px'}}/>
-                    G
+                    {this.props.cheat===1?'Em':'C'}
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px', marginLeft:'20px'}}/>
-                    Am
+                    {this.props.cheat===1?'C':'A'}
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px', marginLeft:'20px'}}/>
-                    F
+                    {this.props.cheat===1?'A':'D'}
                     <Divider type='vertical' style={{backgroundColor:'black',  marginRight:'20px', marginLeft:'20px'}}/>
-                    C
+                    {this.props.cheat===1?'D':'Em'}
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px', marginLeft:'20px'}}/>
-                    G
+                    {this.props.cheat===1?'Em':'C'}
                     <Divider type='vertical' style={{backgroundColor:'black', marginLeft:'20px'}}/>
                     </Title>
                     </div>:<div>
                     <Title level={3} style={{fontSize:'20px'}}>
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px'}}/>
-                    Am
+                    A
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px', marginLeft:'20px'}}/>
-                    F
+                    D
                     <Divider type='vertical' style={{backgroundColor:'black',  marginRight:'20px', marginLeft:'20px'}}/>
-                    C
+                    Em
                     <Divider type='vertical' style={{backgroundColor:'black', marginRight:'20px', marginLeft:'20px'}}/>
-                    G
+                    C
                     <Divider type='vertical' style={{backgroundColor:'black', marginLeft:'20px'}}/>
                     </Title>
                     </div>}
                 </div>
-                <Button type='dashed' block style={{marginTop:'30px'}}>Make All Subject To Current</Button>
+                <Button type='dashed' block style={{marginTop:'180px'}}>Make All Subject To Current</Button>
             </div>
         )
     }

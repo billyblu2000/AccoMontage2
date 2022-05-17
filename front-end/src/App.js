@@ -1,5 +1,7 @@
 import './App.css';
-import MainInterface from './components/MainInterface'
+import MainInterface from './components/MainInterface';
+import pianoRoll from 'pianoroll/build/PianoRoll';
+
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
         <MainInterface/>
       </div>
       <div style={{minHeight:'100px', textAlign:'center', backgroundColor:'#002766'}}>
-          <h4 style={{color:'white', paddingTop:'30px'}}>Interface by Billy and Johnny</h4>
+          <h4 style={{color:'white', paddingTop:'30px'}}>Interface for AccoMontage2</h4>
       </div>
     </div>
   );

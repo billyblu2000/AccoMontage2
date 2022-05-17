@@ -21,7 +21,7 @@ export function server(add, obj, v, method='get', postData=null, callback=null) 
                 })
             },
             error => { 
-                message.warn('Sorry, something wrong happened to the server!')
+                message.warn({content:'Sorry, something wrong happened to the server!', key:'message'})
                 console.log(error)
             },
         )
@@ -37,7 +37,7 @@ export function server(add, obj, v, method='get', postData=null, callback=null) 
                 })
             },
             error => { 
-                message.warn('Sorry, something wrong happened to the server!')
+                message.warn({content:'Sorry, something wrong happened to the server!', key:'message'})
                 console.log(error)
             },
         )

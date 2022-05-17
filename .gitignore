@@ -9,3 +9,6 @@ __pycache__/
 *.pyc
 /front-end/node_modules/
 temp.py
+a.txt
+lookup.xlsx
+myplot.png
