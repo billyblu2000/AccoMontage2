@@ -24,3 +24,13 @@ if __name__ == '__main__':
 ```
 
 Folder ``chorderator/utils/models/accomontage`` referencing AccoMontage by Jingwei Zhao and Gus Xia, available at https://github.com/zhaojw1998/AccoMontage
+
+### Run GUI
+
+Please check all the requirements in ``backend/requirments.txt`` are satisfied, and run
+
+```
+python backend/app.py
+```
+
+You can interact with the GUI at http://127.0.0.1:5000.
