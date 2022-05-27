@@ -1,4 +1,4 @@
-# CHORDERATOR
+# AccoMontage2
 
 > A useful tool to generate chord progressions and accompaniment according to melody MIDIs
 
