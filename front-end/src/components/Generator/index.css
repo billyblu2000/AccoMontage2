@@ -25,7 +25,7 @@
 
 .card-start{
     background-color: rgba(0, 0, 0, 0.712);
-    height: 485px;
+    height: 470px;
     width: 50px;
     margin-left: 4px;
     margin-right: 4px;
@@ -39,7 +39,7 @@
 }
 .card-end{
     background-color: rgba(0, 0, 0, 0.712);
-    height: 485px;
+    height: 470px;
     width: 50px;
     margin-top: 4px;
     float: left;

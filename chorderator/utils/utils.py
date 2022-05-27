@@ -225,6 +225,7 @@ def compute_destination(tonic, order, mode='M'):
     if tonic == 'Gb': tonic = 'F#'
     if tonic == 'Ab': tonic = 'G#'
     if tonic == 'Bb': tonic = 'A#'
+    if tonic == 'Cb': tonic = 'B'
     index = root_list.index(tonic)
     if mode == 'M':
         order_to_distance = {

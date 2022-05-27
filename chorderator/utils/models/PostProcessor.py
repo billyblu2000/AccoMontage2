@@ -1,14 +1,14 @@
+import copy
 import random
 
 from pretty_midi import Instrument
 
 from ...chords.ChordProgression import print_progression_list, read_progressions
 from ...utils.excp import handle_exception
-from ...utils.utils import midi_shift
+from ...utils.utils import midi_shift, compute_distance, compute_destination
 
 
 class PostProcessor:
-
     filter_by_new_label = True
 
     def __init__(self, progression_list, progression_lib, lib, meta, output_chord_style, output_progression_style,
@@ -65,10 +65,10 @@ class PostProcessor:
             for progression in lst:
                 if self.filter_by_new_label:
                     if type(output_style) == str:
-                        if progression.progression_class['new_label'] == output_style:
+                        if progression.progression_class['new_label'] == output_style or output_style == '*':
                             new_sub_list.append(progression)
                     elif type(output_style) == list and len(output_style) == len(progression_lib_filtered):
-                        if progression.progression_class['new_label'] == output_style[count]:
+                        if progression.progression_class['new_label'] == output_style[count] or output_style[count] == '*':
                             new_sub_list.append(progression)
                     else:
                         handle_exception(351)
@@ -96,7 +96,7 @@ class PostProcessor:
         for progression in final_progression_list:
             log.append(self.__info(progression))
             temp_midi = progression.to_midi(lib=self.midi_lib, tempo=self.meta['tempo'], tonic=self.meta['tonic'])
-            temp_midi = midi_shift(temp_midi, shift=shift_count+self.note_shift, tempo=self.meta['tempo'])
+            temp_midi = midi_shift(temp_midi, shift=shift_count + self.note_shift, tempo=self.meta['tempo'])
             note_list += temp_midi.instruments[0].notes
             shift_count += len(progression) * 2
         note_list = self.__smooth_notes(note_list)
@@ -168,11 +168,19 @@ class PostProcessor:
                 if memo:
                     if chord == memo:
                         continue
-                bar_str.append(str(chord))
+                bar_str.append(str(self.__chord_to_correct_tonic(chord, progression.meta['tonic'])))
                 memo = chord
             progression_list_str.append(bar_str)
         info['progression'] = progression_list_str
         return info
+
+    def __chord_to_correct_tonic(self, chord, original_tonic):
+        correct_tonic = self.meta['tonic']
+        distance = compute_distance(original_tonic, correct_tonic, mode='M' if self.meta['mode'] == 'maj' else 'm')
+        correct_root = compute_destination(chord.root, distance, mode='M' if self.meta['mode'] == 'maj' else 'm')
+        new_chord = copy.deepcopy(chord)
+        new_chord.root = correct_root
+        return new_chord
 
     def __search_other_styles(self, progression):
         all_others = self.original_progression_lib[progression.progression_class['duplicate-id']]

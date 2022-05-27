@@ -1,0 +1,720 @@
+<html>
+
+<head>
+	<title>PianoRoll</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="PianoRoll">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet" type="text/css">
+	<script type="text/javascript" charset="utf-8" async="" src="./build/0.js"></script>
+	<style type="text/css">
+		#RollContainer {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			overflow: hidden
+		}
+
+		#RollContainer #ScrollContainer {
+			height: calc(100% + 25px);
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			overflow-y: hidden;
+			overflow-x: scroll
+		}
+
+		#RollContainer #ScrollContainer #PianoRoll {
+			display: inline;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			background-color: transparent
+		}
+
+		#RollContainer #TriggerLine {
+			position: absolute;
+			left: calc(50% - 1.5px);
+			height: 100%;
+			background-color: #000;
+			width: 3px;
+			z-index: 2;
+			opacity: .1;
+			pointer-events: none
+		}
+
+		#RollContainer #ScoreCanvas {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 0;
+			height: calc(100% - 25px)
+		}
+	</style>
+	<style type="text/css">
+		#LoadingScreen {
+			width: 100%;
+			height: 100%;
+			z-index: 10000;
+			background-color: #fff;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			pointer-events: none;
+			transition: opacity .3s
+		}
+
+		#LoadingScreen,
+		#LoadingScreen #GIF:before {
+			position: absolute
+		}
+
+		#LoadingScreen #GIF {
+			position: absolute;
+			width: 75pt;
+			height: 75pt;
+			top: 50%;
+			left: 50%;
+			background-size: 100% 100%;
+			margin-top: -50px;
+			margin-left: -50px;
+			font-size: 75pt;
+			line-height: 75pt;
+			color: #666
+		}
+
+		#LoadingScreen #GIF .Spinner {
+			animation: rotation 1.4s linear infinite;
+			stroke: #cbcbcb;
+			width: 75pt;
+			height: 75pt
+		}
+
+		@keyframes rotation {
+			0% {
+				transform: rotate(0deg)
+			}
+
+			to {
+				transform: rotate(270deg)
+			}
+		}
+
+		#LoadingScreen #GIF .Circle {
+			stroke-dasharray: 187;
+			stroke-dashoffset: 0;
+			transform-origin: center;
+			animation: turn 1.4s ease-in-out infinite
+		}
+
+		@keyframes turn {
+			0% {
+				stroke-dashoffset: 187
+			}
+
+			50% {
+				stroke-dashoffset: 46.75;
+				transform: rotate(135deg)
+			}
+
+			to {
+				stroke-dashoffset: 187;
+				transform: rotate(450deg)
+			}
+		}
+
+		#LoadingScreen #Text {
+			position: absolute;
+			bottom: 50%;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			height: auto;
+			padding-bottom: 30px;
+			font-family: Roboto;
+			font-size: 24px;
+			font-weight: 300;
+			line-height: 40px
+		}
+
+		#LoadingScreen.Visible {
+			opacity: 1;
+			pointer-events: initial;
+			transition: opacity .1s
+		}
+	</style>
+	<style type="text/css">
+		.Button {
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background-color: #fff;
+			box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
+			text-align: center;
+			font-family: sans-serif;
+			cursor: pointer;
+			color: #666;
+			font-size: 30px;
+			line-height: 30px;
+			transition: transform .05s ease-in, opacity .35s ease-in-out
+		}
+
+		.Button.Shifted {
+			transform: translateY(-100px)
+		}
+
+		.Button.Hidden {
+			opacity: 0
+		}
+
+		.Button:active {
+			transform: scale(1.1)
+		}
+
+		.Button:active.Shifted {
+			transform: scale(1.1) translateY(-100px)
+		}
+
+		.TextButton {
+			-ms-flex-align: center;
+			align-items: center;
+			background-color: #fff;
+			border-radius: 40px;
+			bottom: 40px;
+			box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
+			cursor: pointer;
+			color: #666;
+			display: -ms-flexbox;
+			display: flex;
+			font-family: Roboto, sans-serif;
+			font-size: 1pc;
+			height: 40px;
+			left: 50%;
+			line-height: 40px;
+			max-width: 350px;
+			opacity: 0;
+			overflow: hidden;
+			padding: 5px 18px;
+			position: absolute;
+			text-align: center;
+			transform: translateX(-50%);
+			transition: opacity .35s ease-in-out;
+			visibility: hidden;
+			width: auto
+		}
+
+		.TextButton span {
+			margin: 5px
+		}
+
+		.TextButton span.Text {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap
+		}
+
+		.TextButton.Active {
+			opacity: 1;
+			visibility: visible
+		}
+
+		#ContextLoading {
+			z-index: 100000;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			background-color: rgba(0, 0, 0, .4);
+			color: #fff;
+			font-size: 20px;
+			line-height: 200px;
+			font-family: sans-serif
+		}
+
+		#SynthControls {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 0;
+			background-color: #efefef;
+			box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, .4);
+			z-index: 111
+		}
+
+		#SynthControls .Button {
+			position: fixed;
+			bottom: 0;
+			margin-left: -15px;
+			margin-bottom: -15px;
+			background-repeat: no-repeat;
+			text-align: center;
+			cursor: pointer
+		}
+
+		#SynthControls .Button.Active {
+			background-color: #ffb729;
+			color: #fff
+		}
+
+		#SynthControls #Piano {
+			left: calc(50% - 90pt)
+		}
+
+		#SynthControls #Synth {
+			left: 50%
+		}
+
+		@media screen and (max-width:360px) {
+			#SynthControls #Piano {
+				left: calc(50% - 75pt) !important
+			}
+
+			#SynthControls #Sampler {
+				left: calc(50% + 75pt) !important
+			}
+		}
+
+		#SynthControls #Sampler {
+			left: calc(50% + 90pt);
+			z-index: 1000
+		}
+
+		#SynthControls #Sampler #MeterRing {
+			position: absolute;
+			margin-left: -15px;
+			margin-top: -15px;
+			left: 50%;
+			top: 50%;
+			border: 1px solid #efefef;
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			box-sizing: border-box;
+			opacity: 0
+		}
+
+		#SynthControls #Sampler.Unsupported {
+			opacity: .5;
+			background-color: #efefef
+		}
+
+		#SynthControls.Recording {
+			background-color: transparent;
+			box-shadow: none
+		}
+
+		#SynthControls.Recording .Button {
+			display: none
+		}
+
+		#SynthControls.Recording #Sampler.Active {
+			display: initial;
+			background-color: #db4437
+		}
+
+		#SynthControls.Recording #Sampler.Active #MeterRing {
+			opacity: 1
+		}
+
+		#SongControls {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 0;
+			z-index: 100
+		}
+
+		#SongControls #PlayPause {
+			font-size: 30px;
+			position: absolute;
+			bottom: 10px;
+			left: 50%;
+			margin-left: -15px
+		}
+
+		#SongControls .ScoreButton {
+			position: absolute;
+			height: 30px;
+			width: 30px;
+			line-height: 30px;
+			bottom: 10px;
+			margin-left: -15px;
+			transition: opacity .2s, transform .05s
+		}
+
+		#SongControls .ScoreButton:before {
+			font-size: 30px;
+			line-height: 30px;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0
+		}
+
+		#SongControls .ScoreButton.Disabled {
+			opacity: 0;
+			pointer-events: none
+		}
+
+		#SongControls #Previous {
+			left: calc(50% - 5pc)
+		}
+
+		#SongControls #Next {
+			left: calc(50% + 5pc)
+		}
+
+		#Scrubber {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%
+		}
+	</style>
+	<style type="text/css">
+		#MicOverlay {
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			background-color: #fff;
+			left: 0;
+			top: 0;
+			opacity: 0;
+			z-index: 0;
+			transition: opacity .1s;
+			pointer-events: none;
+			display: none
+		}
+
+		#MicOverlay #WaveformContainer {
+			position: absolute;
+			width: 100%;
+			height: 200px;
+			left: 0;
+			top: 50%;
+			margin-top: -75pt
+		}
+
+		#MicOverlay #WaveformContainer canvas {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0
+		}
+
+		#MicOverlay #WaveformContainer #Playhead {
+			border-radius: 5px;
+			position: absolute;
+			left: 0;
+			height: 100%;
+			background-color: #db4437;
+			width: 10px;
+			margin-left: 2px
+		}
+
+		#MicOverlay #CountDown {
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			font-size: 40px;
+			height: 40px;
+			line-height: 40px;
+			top: 30%;
+			font-family: sans-serif
+		}
+
+		#MicOverlay #Cancel {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			margin-left: 0;
+			box-shadow: none;
+			color: #cbcbcb;
+			background-color: #fff;
+			font-size: 40px
+		}
+
+		#MicOverlay #Cancel:active {
+			color: #000
+		}
+
+		@keyframes Scrub {
+
+			0%,
+			3% {
+				left: 0;
+				opacity: 0
+			}
+
+			3.5%,
+			14% {
+				left: 0;
+				opacity: 1
+			}
+
+			to {
+				left: 100%;
+				opacity: 1
+			}
+		}
+
+		#MicOverlay.Visible {
+			display: initial;
+			opacity: 1;
+			pointer-events: initial;
+			z-index: 110
+		}
+
+		#MicOverlay.Visible #WaveformContainer #Playhead {
+			transition: left 50ms
+		}
+	</style>
+	<style type="text/css">
+		@font-face {
+			font-family: icons;
+			src: url(images/font/2cb978d07172e2c538ec54603bdd83c6.eot);
+			src: url(images/font/2cb978d07172e2c538ec54603bdd83c6.eot) format("eot"), url(images/font/0a14cc288fd4bf65cc49c8a523295b02.woff) format("woff"), url(images/font/cef64b5d598734b83d7abd743239e755.ttf) format("truetype")
+		}
+
+		.icon-svg_808:before,
+		.icon-svg_back_arrow:before,
+		.icon-svg_bird:before,
+		.icon-svg_close-button:before,
+		.icon-svg_computer:before,
+		.icon-svg_facebook:before,
+		.icon-svg_fast_man:before,
+		.icon-svg_flute:before,
+		.icon-svg_frowny_face:before,
+		.icon-svg_go_arrow:before,
+		.icon-svg_gplus:before,
+		.icon-svg_hamburger_menu:before,
+		.icon-svg_hand:before,
+		.icon-svg_harp:before,
+		.icon-svg_horn:before,
+		.icon-svg_left_arrow:before,
+		.icon-svg_man:before,
+		.icon-svg_metronome:before,
+		.icon-svg_no_record:before,
+		.icon-svg_pause:before,
+		.icon-svg_piano:before,
+		.icon-svg_play:before,
+		.icon-svg_record:before,
+		.icon-svg_right_arrow:before,
+		.icon-svg_rotate_phone:before,
+		.icon-svg_slow_man:before,
+		.icon-svg_twitter:before,
+		.icon-svg_wave_form:before,
+		.icon-svg_wine_glass:before {
+			font-family: icons;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 400;
+			text-decoration: none;
+			text-transform: none
+		}
+
+		.icon-svg_808:before {
+			content: "\E001"
+		}
+
+		.icon-svg_back_arrow:before {
+			content: "\E002"
+		}
+
+		.icon-svg_bird:before {
+			content: "\E003"
+		}
+
+		.icon-svg_close-button:before {
+			content: "\E004"
+		}
+
+		.icon-svg_computer:before {
+			content: "\E005"
+		}
+
+		.icon-svg_facebook:before {
+			content: "\E006"
+		}
+
+		.icon-svg_fast_man:before {
+			content: "\E007"
+		}
+
+		.icon-svg_flute:before {
+			content: "\E008"
+		}
+
+		.icon-svg_frowny_face:before {
+			content: "\E009"
+		}
+
+		.icon-svg_go_arrow:before {
+			content: "\E00A"
+		}
+
+		.icon-svg_gplus:before {
+			content: "\E00B"
+		}
+
+		.icon-svg_hamburger_menu:before {
+			content: "\E00C"
+		}
+
+		.icon-svg_hand:before {
+			content: "\E00D"
+		}
+
+		.icon-svg_harp:before {
+			content: "\E00E"
+		}
+
+		.icon-svg_horn:before {
+			content: "\E00F"
+		}
+
+		.icon-svg_left_arrow:before {
+			content: "\E010"
+		}
+
+		.icon-svg_man:before {
+			content: "\E011"
+		}
+
+		.icon-svg_metronome:before {
+			content: "\E012"
+		}
+
+		.icon-svg_no_record:before {
+			content: "\E013"
+		}
+
+		.icon-svg_pause:before {
+			content: "\E014"
+		}
+
+		.icon-svg_piano:before {
+			content: "\E015"
+		}
+
+		.icon-svg_play:before {
+			content: "\E016"
+		}
+
+		.icon-svg_record:before {
+			content: "\E017"
+		}
+
+		.icon-svg_right_arrow:before {
+			content: "\E018"
+		}
+
+		.icon-svg_rotate_phone:before {
+			content: "\E019"
+		}
+
+		.icon-svg_slow_man:before {
+			content: "\E01A"
+		}
+
+		.icon-svg_twitter:before {
+			content: "\E01B"
+		}
+
+		.icon-svg_wave_form:before {
+			content: "\E01C"
+		}
+
+		.icon-svg_wine_glass:before {
+			content: "\E01D"
+		}
+
+		body,
+		html {
+			position: fixed;
+			overflow: hidden;
+			margin: 0;
+			-webkit-touch-callout: none;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+		}
+
+		#iOSTap,
+		body,
+		html {
+			width: 100%;
+			height: 100%
+		}
+
+		#iOSTap {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 10000;
+			background-color: #fff
+		}
+	</style>
+	<style type="text/css">
+		.Overlay {
+			-ms-flex-align: center;
+			align-items: center;
+			background-color: hsla(0, 0%, 100%, .9);
+			bottom: 0;
+			color: #333;
+			display: -ms-flexbox;
+			display: flex;
+			font-family: Roboto, sans-serif;
+			font-size: 24px;
+			font-weight: 700;
+			-ms-flex-pack: center;
+			justify-content: center;
+			left: 0;
+			opacity: 0;
+			outline: 2px dashed #000;
+			outline-offset: -40px;
+			position: fixed;
+			right: 0;
+			top: 0;
+			visibility: hidden;
+			z-index: 2147483647
+		}
+
+		.Overlay.Active {
+			opacity: 1;
+			visibility: visible
+		}
+	</style>
+</head>
+
+<body>
+	<script type="text/javascript" src="./build/PianoRoll.js"></script>
+
+	<div id="RollContainer">
+		<div id="TriggerLine"></div>
+		<div id="ScrollContainer">
+			<div id="PianoRoll" style="width: 4471.04px;"></div>
+		</div><canvas id="ScoreCanvas" width="1320" height="550"></canvas>
+	</div>
+	<div id="SongControls">
+		<div id="PlayPause" class="Button icon-svg_play"></div>
+		<div id="Midi" class="TextButton"><span>x</span><span class="Text">testfile.mid</span></div>
+	</div>
+	<div class="Overlay">Drop your MIDI file here.</div>
+</body>
+
+</html>

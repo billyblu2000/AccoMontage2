@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './index.css'
-import { LoadingOutlined, CheckCircleOutlined, CaretRightFilled, CaretLeftFilled, PlayCircleOutlined, ReloadOutlined } from '@ant-design/icons';
-import { Empty, Spin, Button, Typography, Divider, Card, Tooltip, Form,Slider } from 'antd';
+import { LoadingOutlined, CheckCircleOutlined, CaretRightFilled, CaretLeftFilled, PlayCircleOutlined } from '@ant-design/icons';
+import { Empty, Spin, Button, Typography, Divider, Card, Form, Slider, Checkbox } from 'antd';
 import Icon from '../Icon';
-import { myServer, server, getCookie } from '../../utils';
+import { myServer, server } from '../../utils';
 import ChordProgression from '../ChordProgression';
 
 const { Title } = Typography;
@@ -37,22 +37,20 @@ export default class Generator extends Component {
     state = {
         generatingStage: 0,
         generated: [],
-        playing: 'stop'
+        playing: 'stop',
+        textureStyleControl: this.props.values['enable_texture_style'],
+        styles: []
     }
 
-    styles = [];
     count = 0;
 
     calcDivWidth = () => {
 
         var card = 0;
         this.state.generated.forEach(function (val, _, __) {
-            console.log(val.progression.length)
             card += val.progression.length * 75;
         }, 0);
         var total = card + 100 + (this.state.generated.length + 3) * 4 + 2
-        console.log(this.state.generated.length)
-        console.log(total)
         return total;
     }
 
@@ -60,9 +58,8 @@ export default class Generator extends Component {
     playMp3 = (e) => {
 
         if (this.state.playing === 'stop') {
-            this.mp3 = new Audio(`/api/chorderator_back_end/music/generated?sessionID=${getCookie('sessionID')}`);
+            this.mp3 = new Audio(myServer + `/wav/${Math.random()}`);
             this.mp3.play();
-            this.fadeIn();
             this.mp3.addEventListener('ended', (event) => {
                 this.setState({
                     playing: 'stop'
@@ -77,46 +74,37 @@ export default class Generator extends Component {
             this.setState({
                 playing: 'playing'
             })
-            this.fadeIn();
         }
         else if (this.state.playing === 'playing') {
             this.setState({
                 playing: 'pause'
             })
-            this.fadeOut();
             this.mp3.pause();
         }
     }
-    fadeIn = () => {
-        var fadeInTimer = setInterval(() => {
-            if (this.mp3.volume >= 0.9) {
-                window.clearInterval(fadeInTimer)
-            }
-            if (this.mp3.volume + (this.mp3.volume - this.mp3.volume * this.mp3.volume + 0.02) < 1) {
-                this.mp3.volume += this.mp3.volume - this.mp3.volume * this.mp3.volume + 0.02;
-            }
-        }, 50)
-    }
-    fadeOut = () => {
-        var fadeOutTimer = setInterval(() => {
-            if (this.mp3.volume <= 0.1) {
-                window.clearInterval(fadeOutTimer)
-            }
-            if (this.mp3.volume - (this.mp3.volume - this.mp3.volume * this.mp3.volume + 0.02) > 0) {
-                this.mp3.volume -= this.mp3.volume - this.mp3.volume * this.mp3.volume + 0.02;
-            }
-        }, 50)
-    }
+
     askStage = () => {
-        server(`/api/chorderator_back_end/stage_query`, this, 'generatingStage');
-        if (this.state.generatingStage === 6) {
-            console.log('1')
+        server(`/stage_query`, this, null, 'get', null, this.askStageCallback);
+        if (this.state.generatingStage === 7) {
             window.clearInterval(this.askStageInterval);
-            server(`/api/chorderator_back_end/generated_query`, this, 'generated');
+            server(`/generated_query`, this, null, 'get', null, this.generateQueryCallback);
         }
     }
+
+    askStageCallback = (res) => {
+        if (res.status === 'ok') {
+            this.setState({ generatingStage: parseInt(res.stage) })
+        }
+    }
+
+    generateQueryCallback = (res) => {
+        if (res.status === 'ok') {
+            this.setState({ generated: res.log, styles: res.log.map(item => item.style) })
+        }
+    }
+
     componentDidMount() {
-        this.askStageInterval = setInterval(this.askStage, 500);
+        this.askStageInterval = setInterval(this.askStage, 500)
     }
     componentWillUnmount() {
         window.clearInterval(this.askStageInterval);
@@ -126,28 +114,38 @@ export default class Generator extends Component {
         this.mp3 = null
     }
     regenerate = () => {
+        this.mp3.pause();
         var values = this.props.values;
-        values['newStyles'] = this.styles;
-        console.log(values);
-        server(`/api/chorderator_back_end/generate?sessionID=${getCookie("sessionID")}`, this, null, 'post', values)
+        values['chord_style'] = this.state.styles;
+        values['rhythm_density'] = this.refs.form.getFieldValue('rhythm_density');
+        values['voice_number'] = this.refs.form.getFieldValue('voice_number');
+        values['enable_texture_style'] = this.refs.form.getFieldValue('enable_texture_style');
+        server(`/generate`, this, null, 'post', values)
         this.askStageInterval = setInterval(this.askStage, 500);
         this.setState({
             generated: [],
-            generatingStage: 0
+            generatingStage: 0,
+            playing: 'stop'
         })
+        this.mp3 = null;
         toTop();
     }
 
-    calcStyles = (generated) => {
-        console.log(generated);
-        this.styles = generated.map(function (item) {
-            return item.style;
-        });
-        console.log(this.styles)
+    tryChangeAllStyle = (newStyle) => {
+        var newStyles = [];
+        for (let i = 0; i < this.state.generated.length; i++) {
+            if (contains(this.state.generated[i].otherStyles, newStyle)) {
+                newStyles.push(newStyle);
+            }
+            else {
+                newStyles.push(this.state.styles[i]);
+            }
+        }
+        this.setState({ styles: newStyles });
     }
 
+
     render() {
-        this.calcStyles(this.state.generated);
         return (
             <div>
                 <div className='upper'>
@@ -177,24 +175,24 @@ export default class Generator extends Component {
                             <div style={{ paddingLeft: '50px', paddingRight: '50px' }}>
                                 <Title level={1} style={{ float: 'right', fontSize: '25px', color: '#AAAAAA', userSelect: 'none' }}>Progression generated!</Title>
                                 <Divider></Divider>
-                                <a download='generated.wav' href={true}>
+                                <a href={true} onClick={this.playMp3}>
                                     <Card hoverable style={{ marginTop: '10px', marginBottom: '10px' }}>
                                         <Meta
                                             avatar={this.state.playing === 'playing' ?
-                                                <a href={true} onClick={this.playMp3} style={{ color: '#73d13d' }} id='whole'><PlayCircleOutlined style={{ fontSize: '32px' }} /></a>
+                                                <a href={true} style={{ color: '#73d13d' }} id='whole'><PlayCircleOutlined style={{ fontSize: '32px' }} /></a>
                                                 :
-                                                <a href={true} onClick={this.playMp3}><PlayCircleOutlined style={{ fontSize: '32px' }} id='whole' /></a>
+                                                <a href={true}><PlayCircleOutlined style={{ fontSize: '32px' }} id='whole' /></a>
                                             }
-                                            title="Listen to or download WAV"
+                                            title={<div style={{ fontSize: '20px' }}>Listen to the Generated Audio</div>}
                                             description="Click the play button on the left to play"
                                         />
                                     </Card>
                                 </a>
-                                <a download='generated.wav' href={myServer + `/api/chorderator_back_end/midi/generated?sessionID=${getCookie("sessionID")}`}>
+                                <a download='generated.mid' href={myServer + `/midi/${Math.random()}`}>
                                     <Card hoverable style={{ marginTop: '10px', marginBottom: '10px' }}>
                                         <Meta
                                             avatar={<Icon which='midi' />}
-                                            title="Download MIDI"
+                                            title={<div style={{ fontSize: '20px' }}>Download MIDI</div>}
                                             description="MIDI consist a melody track and a progression track"
                                         />
                                     </Card>
@@ -204,7 +202,7 @@ export default class Generator extends Component {
                         }
                     </div>
                 </div>
-                <div className='down' style={{marginBottom:'30px'}}>
+                <div className='down' style={{ marginBottom: '30px' }}>
                     {this.state.generated.length === 0 ?
                         <div style={{ width: '100%' }}>
                             <Empty style={{ marginTop: '150px' }} description='Progression not generated yet.' />
@@ -214,34 +212,41 @@ export default class Generator extends Component {
                             <div style={{ padding: '2px' }}>
                                 <div className='card-start'><CaretRightFilled style={{ lineHeight: '485px', fontSize: '25px' }} /></div>
                                 {this.state.generated.map((item, idx) => {
-                                    return <ChordProgression data={item} father={this} index={idx} cheat={idx===0?1:2}></ChordProgression>
+                                    return <ChordProgression data={item} father={this} index={idx} style={this.state.styles[idx]}></ChordProgression>
                                 })}
                                 <div className='card-end'><CaretLeftFilled style={{ lineHeight: '485px', fontSize: '25px' }} /></div>
                             </div>
                         </div>
                     }
                 </div>
+                <Form ref='form'
+                    initialValues={{
+                        enable_texture_style: this.props.values['enable_texture_style'],
+                        rhythm_density: this.props.values['rhythm_density'],
+                        voice_number: this.props.values['voice_number']
+                    }}>
+                    <Form.Item name="enable_texture_style" label='Enable Texture Style Controlling' valuePropName="checked">
+                        <Checkbox checked={this.state.textureStyleControl} onChange={(e) => this.setState({ textureStyleControl: e.target.checked })} />
+                    </Form.Item>
 
-                <Form.Item name="rhythm_density" label="Texture Rhythm Density (RD)"
-                    rules={[{ required: true, message: 'Please select a RD!' }]}
-                >
-                    <Slider defaultValue={2} max={4} min={0} step={1} dots />
-                </Form.Item>
+                    <Form.Item name="rhythm_density" label="Texture Rhythm Density (RD)"
+                        rules={[{ required: true, message: 'Please select a RD!' }]}
+                    >
+                        <Slider max={4} min={0} step={1} dots disabled={!this.state.textureStyleControl} />
+                    </Form.Item>
 
-                <Form.Item name="voice_number" label="Texture Voice Number (VN)"
-                    rules={[{ required: true, message: 'Please select a VN!' }]}
-                >
-                    <Slider defaultValue={2} max={4} min={0} step={1} dots />
-                </Form.Item>
-
+                    <Form.Item name="voice_number" label="Texture Voice Number (VN)"
+                        rules={[{ required: true, message: 'Please select a VN!' }]}
+                    >
+                        <Slider max={4} min={0} step={1} dots disabled={!this.state.textureStyleControl} />
+                    </Form.Item>
+                </Form>
                 <div style={{ marginTop: '50px', marginLeft: '20%', marginRight: '20%', textAlign: 'center' }}>
-                    <Tooltip title="Regenerate with new parameters and styles" overlayStyle={{ minWidth: '300px' }}>
-                        {this.state.generated.length === 0 ?
-                            <Button shape="round" type='primary' size='large' disabled >Re-generate subject to selected styles</Button>
-                            :
-                            <Button shape="round" type='primary' size='large' onClick={this.regenerate} >Re-generate subject to selected styles</Button>
-                        }
-                    </Tooltip>
+                    {this.state.generated.length === 0 ?
+                        <Button shape="round" type='primary' size='large' style={{ height: '40px' }} disabled ><div style={{ fontSize: '16px' }}>Re-generate subject to the selected styles</div></Button>
+                        :
+                        <Button shape="round" type='primary' size='large' style={{ height: '40px' }} onClick={this.regenerate} ><div style={{ fontSize: '16px' }}>Re-generate subject to the selected styles</div></Button>
+                    }
                 </div>
                 <div style={{ minHeight: '50px' }}>
 
@@ -249,4 +254,13 @@ export default class Generator extends Component {
             </div>
         )
     }
+}
+function contains(arr, obj) {
+    var i = arr.length;
+    while (i--) {
+        if (arr[i] === obj) {
+            return true;
+        }
+    }
+    return false;
 }

@@ -2,16 +2,15 @@ import React, { Component } from 'react'
 import {
     Form,
     Select,
-    InputNumber,
     Button,
     Upload,
     Divider,
     Space,
     Slider,
-    Checkbox
+    Checkbox,
 } from 'antd';
 import { InboxOutlined, PlusOutlined, MinusCircleOutlined } from '@ant-design/icons';
-import { server, meter, tonic, style, mode, getCookie } from '../../utils';
+import { server, meter, tonic, style, mode } from '../../utils';
 import PubSub from 'pubsub-js';
 const { Option } = Select;
 
@@ -22,13 +21,18 @@ const formItemLayout = {
 
 export default class ParaSetter extends Component {
 
+    state = {
+        chordStyleControl: true,
+        textureStyleControl: true,
+        values: null,
+    }
+
     onFinish = (values) => {
-        server(`/api/chorderator_back_end/generate?sessionID=${getCookie("sessionID")}`, this, null, 'post', values)
-        PubSub.publish('submit', values)
+        server(`/generate`, this, null, 'post', values);
+        PubSub.publish('submit', values);
     }
 
     normFile = (e) => {
-        console.log('Upload event:', e);
         if (Array.isArray(e)) {
             return e;
         }
@@ -51,7 +55,10 @@ export default class ParaSetter extends Component {
                         meter: '4/4',
                         mode: 'maj',
                         chord_style: 'pop_standard',
-                        tempo: 120
+                        rhythm_density:2,
+                        voice_number:2,
+                        enable_texture_style:true,
+                        enable_chord_style:true,
                     }}
                 >
                     <Divider orientation="left">Set Melody</Divider>
@@ -103,10 +110,10 @@ export default class ParaSetter extends Component {
                                                         rules={[{ required: true, message: 'Missing Name' }]}
                                                     >
                                                         <Select placeholder="Please select a name">
-                                                            <Option value='A'>A<span style={{ color:'white'}}>____________________</span></Option>
-                                                            <Option value='B'>B<span style={{ color:'white'}}>____________________</span></Option>
-                                                            <Option value='C'>C<span style={{ color:'white'}}>____________________</span></Option>
-                                                            <Option value='D'>D<span style={{ color:'white'}}>____________________</span></Option>
+                                                            <Option value='A'>A<span style={{ visibility:'hidden'}}>____________________</span></Option>
+                                                            <Option value='B'>B<span style={{ visibility:'hidden'}}>____________________</span></Option>
+                                                            <Option value='C'>C<span style={{ visibility:'hidden'}}>____________________</span></Option>
+                                                            <Option value='D'>D<span style={{ visibility:'hidden'}}>____________________</span></Option>
                                                         </Select>
                                                     </Form.Item>
                                                 )}
@@ -119,8 +126,8 @@ export default class ParaSetter extends Component {
                                                 rules={[{ required: true, message: 'Missing length' }]}
                                             >
                                                 <Select placeholder="Please select a length">
-                                                    <Option value={4}>4<span style={{ color:'white'}}>_____________________</span></Option>
-                                                    <Option value={8}>8<span style={{ color:'white'}}>_____________________</span></Option>
+                                                    <Option value={4}>4<span style={{visibility:'hidden'}}>_____________________</span></Option>
+                                                    <Option value={8}>8<span style={{visibility:'hidden'}}>_____________________</span></Option>
                                                 </Select>
                                             </Form.Item>
 
@@ -165,41 +172,41 @@ export default class ParaSetter extends Component {
                     >
                         <Select placeholder="Please select a meter">
                             {meter.map((item) => {
-                                return <Option value={item.value}>{item.ui}</Option>
+                                return <Option value={item.value} disabled={item.value === '3/4'?true:false}>{item.ui}</Option>
                             })}
                         </Select>
                     </Form.Item>
 
                     <Divider orientation="left">Set Style</Divider>
 
-                    <Form.Item name="enable_chord_style" label='Enable Chord Style Controlling'>
-                        <Checkbox defaultChecked />
+                    <Form.Item name="enable_chord_style" label='Enable Chord Style Controlling' valuePropName="checked">
+                        <Checkbox checked={this.state.chordStyleControl} onChange={(e) => this.setState({chordStyleControl:e.target.checked})}/>
                     </Form.Item>
 
                     <Form.Item name="chord_style" label="Chord Style"
                         rules={[{ required: true, message: 'Please select a style!' }]}
                     >
-                        <Select placeholder="Please select a style" defaultValue={'pop_standard'}>
+                        <Select placeholder="Please select a style" disabled={!this.state.chordStyleControl}>
                             {style.map((item) => {
                                 return <Option value={item.value}>{item.ui}</Option>
                             })}
                         </Select>
                     </Form.Item>
 
-                    <Form.Item name="enable_texture_style" label='Enable Texture Style Controlling'>
-                        <Checkbox defaultChecked />
+                    <Form.Item name="enable_texture_style" label='Enable Texture Style Controlling' valuePropName="checked">
+                        <Checkbox checked={this.state.textureStyleControl} onChange={(e) => this.setState({textureStyleControl:e.target.checked})} />
                     </Form.Item>
 
                     <Form.Item name="rhythm_density" label="Texture Rhythm Density (RD)"
                         rules={[{ required: true, message: 'Please select a RD!' }]}
                     >
-                        <Slider defaultValue={2} max={4} min={0} step={1} dots />
+                        <Slider max={4} min={0} step={1} dots disabled={!this.state.textureStyleControl}/>
                     </Form.Item>
 
                     <Form.Item name="voice_number" label="Texture Voice Number (VN)"
                         rules={[{ required: true, message: 'Please select a VN!' }]}
                     >
-                        <Slider defaultValue={2} max={4} min={0} step={1} dots />
+                        <Slider max={4} min={0} step={1} dots disabled={!this.state.textureStyleControl}/>
                     </Form.Item>
 
                     <Form.Item

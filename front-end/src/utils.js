@@ -2,10 +2,10 @@ import { message } from "antd";
 import axios from "axios";
 
 // export const env = 'dev';
-export const env = 'dev';
-export const prodServer = 'https://billyyi.top'
-export const publicServer = 'http://10.209.83.40';
-export const privateServer = 'http://localhost:3000';
+export const env = 'prod';
+export const prodServer = 'https://billyyi.top/api/chorderator_back_end'
+export const publicServer = 'http://127.0.0.1:5000/api';
+export const privateServer = 'http://localhost:3000/api';
 var comp = env === 'dev' ? privateServer : publicServer;
 export const myServer = env === 'prod' ? prodServer : comp;
 

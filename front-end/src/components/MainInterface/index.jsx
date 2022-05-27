@@ -36,7 +36,7 @@ export default class MainInterface extends Component {
     constructor(){
         super()
         this.state = {
-            step:1,
+            step:0,
             values:[]
         }
         PubSub.subscribe('submit', this.onSubmit)
@@ -54,16 +54,15 @@ export default class MainInterface extends Component {
         return (
             <div>
                 <div className='head'>
-                    <a href='/'><Title level={1} style={{float:'left', marginTop:'0px', fontSize:'55px'}} className='title'><span style={{color:'#1890FF'}}>A</span>cco<span style={{color:'#1890FF'}}>M</span>ontage<span style={{color:'#1890FF'}}>2</span></Title></a>
+                    <a href='/'><Title level={1} style={{float:'left', marginTop:'0px', fontSize:'55px'}} className='title'><span style={{color:'#003b76'}}>A</span>cco<span style={{color:'#003b76'}}>M</span>ontage<span style={{color:'#003b76'}}>2</span></Title></a>
                     <Steps current={this.state.step} style={{maxWidth:'500px', float:'right', marginTop:'10px', marginBottom:'20px'}}>
                         <Step title={stepText['0'].title} description={stepText['0'].des} >
                         </Step>
                         <Step title={stepText['1'].title} description={stepText['1'].des} />
                     </Steps>
                 </div>
-                <Divider style={{marginBottom:'50px', backgroundColor:'#1890FF'}}/ >
+                <Divider style={{marginBottom:'50px', backgroundColor:'#003b76'}}/ >
                 {this.state.step === 0 ? <ParaSetter></ParaSetter> : <Generator values={this.state.values}></Generator>}
-                
             </div>
         )
     }

@@ -25,6 +25,7 @@
     <option name="namespacePackageFolders">
       <list>
         <option value="$MODULE_DIR$/chorderator/utils/models/accomontage" />
+        <option value="$MODULE_DIR$/back-end" />
       </list>
     </option>
   </component>

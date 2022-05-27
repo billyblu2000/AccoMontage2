@@ -169,31 +169,40 @@ def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool, sta
     chord_table = chordSplit(chord_table, 8, 8)
     # print(acc_emsemble.shape, chord_table.shape)
     pianoRoll = melodySplit(pianoRoll, WINDOWSIZE=32, HOPSIZE=32, VECTORSIZE=142)
-    if torch.cuda.is_available():
-        model = DisentangleVAE.init_model(torch.device('cuda')).cuda()
-        checkpoint = torch.load(DATA_DIR + '/model_master_final.pt') \
-            if state_dict is None else state_dict
-        model.load_state_dict(checkpoint)
-        pr_matrix = torch.from_numpy(acc_emsemble).float().cuda()
-        # pr_matrix_shifted = torch.from_numpy(pr_matrix_shifted).float().cuda()
-        gt_chord = torch.from_numpy(chord_table).float().cuda()
-        # print(gt_chord.shape, pr_matrix.shape)
-        est_x = model.inference(pr_matrix, gt_chord, sample=False)
-        # print('est:', est_x.shape)
-        # est_x_shifted = model.inference(pr_matrix_shifted, gt_chord, sample=False)
-        midiReGen = accomapnimentGeneration(pianoRoll, est_x, 120)
-        return midiReGen
-        # midiReGen.write('accompaniment_test_NEW.mid')
-    else:
-        model = DisentangleVAE.init_model(torch.device('cpu'))
-        checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cpu')) \
-            if state_dict is None else state_dict
-        model.load_state_dict(checkpoint)
-        pr_matrix = torch.from_numpy(acc_emsemble).float()
-        gt_chord = torch.from_numpy(chord_table).float()
-        est_x = model.inference(pr_matrix, gt_chord, sample=False)
-        midiReGen = accomapnimentGeneration(pianoRoll, est_x, 120)
-        return midiReGen
+    # if torch.cuda.is_available():
+    #     model = DisentangleVAE.init_model(torch.device('cuda')).cuda()
+    #     checkpoint = torch.load(DATA_DIR + '/model_master_final.pt') \
+    #         if state_dict is None else state_dict
+    #     model.load_state_dict(checkpoint)
+    #     pr_matrix = torch.from_numpy(acc_emsemble).float().cuda()
+    #     # pr_matrix_shifted = torch.from_numpy(pr_matrix_shifted).float().cuda()
+    #     gt_chord = torch.from_numpy(chord_table).float().cuda()
+    #     # print(gt_chord.shape, pr_matrix.shape)
+    #     est_x = model.inference(pr_matrix, gt_chord, sample=False)
+    #     # print('est:', est_x.shape)
+    #     # est_x_shifted = model.inference(pr_matrix_shifted, gt_chord, sample=False)
+    #     midiReGen = accomapnimentGeneration(pianoRoll, est_x, 120)
+    #     return midiReGen
+    #     # midiReGen.write('accompaniment_test_NEW.mid')
+    # else:
+    #     model = DisentangleVAE.init_model(torch.device('cpu'))
+    #     checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cpu')) \
+    #         if state_dict is None else state_dict
+    #     model.load_state_dict(checkpoint)
+    #     pr_matrix = torch.from_numpy(acc_emsemble).float()
+    #     gt_chord = torch.from_numpy(chord_table).float()
+    #     est_x = model.inference(pr_matrix, gt_chord, sample=False)
+    #     midiReGen = accomapnimentGeneration(pianoRoll, est_x, 120)
+    #     return midiReGen
+    model = DisentangleVAE.init_model(torch.device('cpu'))
+    checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cpu')) \
+        if state_dict is None else state_dict
+    model.load_state_dict(checkpoint)
+    pr_matrix = torch.from_numpy(acc_emsemble).float()
+    gt_chord = torch.from_numpy(chord_table).float()
+    est_x = model.inference(pr_matrix, gt_chord, sample=False)
+    midiReGen = accomapnimentGeneration(pianoRoll, est_x, 120)
+    return midiReGen
 
 
 def ref_spotlight(ref_name_list, song_index=None):

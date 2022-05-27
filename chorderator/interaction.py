@@ -38,7 +38,7 @@ def set_meta(tonic: str = None, mode: str = None, meter: str = None, tempo=None)
 
 
 # abandoned
-def set_output_progression_style(style: str):
+def set_output_progression_style(style):
     _core.set_output_progression_style(style)
 
 
@@ -153,3 +153,4 @@ class Style:
     POP_COMPLEX = 'pop_complex'
     DARK = 'dark'
     RANDB = 'r&b'
+    NOCONSTRAINT = '*'

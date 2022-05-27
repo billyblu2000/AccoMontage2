@@ -24,7 +24,7 @@ class Core:
         'chord_style': ['classy', 'emotional', 'standard', 'second-inversion', 'root-note', 'cluster', 'power-chord',
                         'sus2', 'seventh', 'power-octave', 'unknown', 'sus4', 'first-inversion', 'full-octave'],
         'progression_style': ['emotional', 'pop', 'dark', 'r&b', 'edm', 'unknown'],
-        'style': ['pop_standard', 'pop_complex', 'dark', 'r&b', 'unknown'],
+        'style': ['pop_standard', 'pop_complex', 'dark', 'r&b', 'unknown', '*'],
         'meta.key': ['C', 'C#', 'Db', 'Eb', 'D#', 'D', 'F', 'E', 'F#', 'Gb', 'G', 'G#', 'Ab', 'A', 'A#', 'B', 'Bb'],
         'meta.mode': ['maj', 'min'],
         'meta.meter': ['4/4', '3/4'],
@@ -42,9 +42,9 @@ class Core:
         self.note_shift = 0
         self.output_progression_style = 'unknown'
         self.output_chord_style = 'unknown'
-        self.output_style = 'unknown'
+        self.output_style = '*'
         self.texture_spotlight = []
-        self.texture_prefilter = (4, 1)
+        self.texture_prefilter = None
         self.cache = {
             'dict': None,
             'lib': None,
@@ -54,21 +54,21 @@ class Core:
             'song_index': None,
         }
 
-    def __new__(cls, *args, **kwargs):
-        if not hasattr(cls, '_instance_list'):
-            cls._instance_list = []
-        if len(cls._instance_list) >= MAXIMUM_CORES:
-            new_instance_list = []
-            for instance in cls._instance_list:
-                if instance.get_state() == 6:
-                    del instance
-                else:
-                    new_instance_list.append(instance)
-            cls._instance_list = new_instance_list
-            if len(cls._instance_list) >= MAXIMUM_CORES:
-                return None
-        cls._instance_list.append(super(Core, cls).__new__(cls))
-        return cls._instance_list[-1]
+    # def __new__(cls, *args, **kwargs):
+    #     if not hasattr(cls, '_instance_list'):
+    #         cls._instance_list = []
+    #     if len(cls._instance_list) >= MAXIMUM_CORES:
+    #         new_instance_list = []
+    #         for instance in cls._instance_list:
+    #             if instance.get_state() == 6:
+    #                 del instance
+    #             else:
+    #                 new_instance_list.append(instance)
+    #         cls._instance_list = new_instance_list
+    #         if len(cls._instance_list) >= MAXIMUM_CORES:
+    #             return None
+    #     cls._instance_list.append(super(Core, cls).__new__(cls))
+    #     return cls._instance_list[-1]
 
     @classmethod
     def get_core(cls):
@@ -115,10 +115,12 @@ class Core:
         self.texture_spotlight = spotlight
 
     def set_texture_prefilter(self, prefilter: tuple):
-        assert 0 <= prefilter[0] <= 4 and 0 <= prefilter[1] <= 4 and len(prefilter) == 2
-        self.texture_prefilter = prefilter
+        if prefilter is not None:
+            assert 0 <= prefilter[0] <= 4 and 0 <= prefilter[1] <= 4 and len(prefilter) == 2
+            self.texture_prefilter = prefilter
 
     def set_cache(self, **kwargs):
+        print('check', kwargs.keys())
         for cache_name in ['lib, dict, state_dict', 'phrase_data', 'edge_weights', 'song_index']:
             if cache_name in kwargs:
                 self.cache[cache_name] = kwargs[cache_name]
@@ -408,7 +410,7 @@ class Core:
         if wav:
             if task == 'chord':
                 listen(chord_gen, path=output_name, out='/chord_gen.wav')
-            if task == 'textured_chord' or task == 'texture':
+            if task == 'textured_chord' or task == 'texture' or task == 'chord_and_textured_chord':
                 listen(gen, path=output_name, out='/textured_chord_gen.wav')
         self.state = 7
         if 'base_dir' in kwargs:
