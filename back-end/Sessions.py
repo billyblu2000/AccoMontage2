@@ -231,12 +231,15 @@ class Sessions:
 
     def __clear_inactive(self):
         current_time = time.time()
+        new_sessions = {}
         for session_id, session in self.sessions.items():
-            if current_time - session.last_active >= EXPIRE:
-                del self.sessions[session_id]
+            if current_time - session.last_active < EXPIRE:
+                new_sessions[session_id] = session
+            else:
                 for file in os.listdir('..'):
                     if session_id in file:
                         shutil.rmtree(file)
+        self.sessions = new_sessions
         for file in os.listdir('static/pianoroll/midi'):
             session_time = int(file.split('_')[1])
             if current_time - session_time >= EXPIRE:

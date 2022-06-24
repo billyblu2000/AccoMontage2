@@ -8,7 +8,7 @@ __pycache__/
 *.mscz
 *.pyc
 /front-end/node_modules/
-temp.py
+complex_chord_test.py
 a.txt
 lookup.xlsx
 myplot.png

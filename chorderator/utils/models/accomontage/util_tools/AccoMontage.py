@@ -1,9 +1,12 @@
 import numpy as np
+import pretty_midi
 from tqdm import tqdm
 import pandas as pd
 import torch
 import os
 
+from .format_converter import accompany_matrix2data, chord_matrix2data
+from ..models.ptvae import PtvaeDecoder
 from .....settings import ACCOMONTAGE_DATA_DIR
 from .acc_utils import melodySplit, chordSplit, computeTIV, chord_shift, cosine, cosine_rhy, accomapnimentGeneration
 from ..models.model import DisentangleVAE
@@ -157,6 +160,53 @@ def dp_search(query_phrases, seg_query, acc_pool, edge_weights, texture_filter=N
     return [path[arg[i]] for i in range(topk)], [shift[arg[i]] for i in range(topk)]
 
 
+def render_acc_new(chord_table, acc_pool):
+    length = 8
+    idx = 0
+    acc_emsemble = acc_pool[length][1][idx]
+    acc_emsemble = melodySplit(acc_emsemble, WINDOWSIZE=32, HOPSIZE=32, VECTORSIZE=128)
+    chord_table_split = chordSplit(chord_table, 8, 8)
+
+    model = DisentangleVAE.init_model(torch.device('cuda')).cuda()
+    checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cuda'))
+    model.load_state_dict(checkpoint)
+    pr_matrix = torch.from_numpy(acc_emsemble).float().cuda()
+    gt_chord = torch.from_numpy(chord_table_split).float().cuda()
+    est_x = model.inference(pr_matrix, gt_chord, sample=False)
+    midiReGen = midi_output_test(acc_pool[length][2][idx], acc_pool[length][1][idx], chord_table, est_x)
+    return midiReGen
+
+
+def midi_output_test(original_chord, original_acc, chord_table, est_x):
+    midiReGen = pretty_midi.PrettyMIDI(initial_tempo=120)
+
+    # decode original_chord
+    original_chord_track = chord_matrix2data(original_chord, tempo=30)
+
+    # decode original_acc
+    original_texture_track = accompany_matrix2data(original_acc)
+
+    # decode chord_table
+    new_chord_track = chord_matrix2data(chord_table, tempo=30)
+
+    # decode est_x
+    new_texture_track = pretty_midi.Instrument(program=pretty_midi.instrument_name_to_program('Acoustic Grand Piano'))
+    pt_decoder = PtvaeDecoder(note_embedding=None, dec_dur_hid_size=64, z_size=512)
+    start = 0
+    for idx in range(0, est_x.shape[0]):
+        pr, _ = pt_decoder.grid_to_pr_and_notes(grid=est_x[idx], bpm=120, start=0)
+        texture_notes = accompany_matrix2data(pr_matrix=pr, tempo=120, start_time=start, get_list=True)
+        new_texture_track.notes += texture_notes
+        start += 60 / 120 * 8
+
+    # append ins
+    midiReGen.instruments.append(original_chord_track)
+    midiReGen.instruments.append(original_texture_track)
+    midiReGen.instruments.append(new_chord_track)
+    midiReGen.instruments.append(new_texture_track)
+    return midiReGen
+
+
 def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool, state_dict=None):
     acc_emsemble = np.empty((0, 128))
     for i, idx in enumerate(indices):
@@ -216,11 +266,31 @@ def get_texture_filter(acc_pool):
     texture_filter = {}
     for key in acc_pool:
         acc_track = acc_pool[key][1]
-        # CALCULATE HORIZONTAL DENSITY
+        # print('acc track shape', acc_track.shape)  #(number, time, MIDI)
+
+        # CALCULATE HORIZONTAL DENSITY (rhythmic density)
         onset_positions = (np.sum(acc_track, axis=-1) > 0) * 1.
-        HD = np.sum(onset_positions, axis=-1) / acc_track.shape[1]
-        simu_notes = np.sum((acc_track > 0) * 1., axis=-1)
-        VD = np.sum(simu_notes, axis=-1) / (np.sum(onset_positions, axis=-1) + 1e-10)
+        HD = np.sum(onset_positions, axis=-1) / acc_track.shape[1]  # (N)
+
+        # CALCULATE VERTICAL DENSITY (voice number)
+        beat_positions = acc_track[:, ::4, :]
+        # downbeat_positions = acc_track[:, ::16, :]
+        upbeat_positions = acc_track[:, 2::4, :]
+
+        # simu_notes = np.sum((acc_track > 0) * 1., axis=-1)
+        simu_notes_on_beats = np.sum((beat_positions > 0) * 1., axis=-1)  # N*T
+        # simu_notes_on_downbeats = np.sum((downbeat_positions > 0) * 1., axis=-1)
+        simu_notes_on_upbeats = np.sum((upbeat_positions > 0) * 1., axis=-1)
+
+        VD_beat = np.sum(simu_notes_on_beats, axis=-1) / (np.sum((simu_notes_on_beats > 0) * 1., axis=-1) + 1e-10)
+        VD_upbeat = np.sum(simu_notes_on_upbeats, axis=-1) / (np.sum((simu_notes_on_upbeats > 0) * 1., axis=-1) + 1e-10)
+        # VD_downbeat = np.sum(simu_notes_on_downbeats, axis=-1) / (
+        #             np.sum((simu_notes_on_downbeats > 0) * 1., axis=-1) + 1e-10)
+
+        # VD_original = np.sum(simu_notes, axis=-1) / (np.sum(onset_positions, axis=-1) + 1e-10)
+        VD = np.max(np.stack((VD_beat, VD_upbeat), axis=-1), axis=-1)
+
+        # get 五等分点 of HD
         dst = np.sort(HD)
         HD_anchors = [dst[len(dst) // 5], dst[len(dst) // 5 * 2], dst[len(dst) // 5 * 3], dst[len(dst) // 5 * 4]]
         HD_Bins = [
@@ -231,6 +301,7 @@ def get_texture_filter(acc_pool):
             HD >= HD_anchors[3]
         ]
 
+        # get 五等分点 of VD
         dst = np.sort(VD)
         VD_anchors = [dst[len(dst) // 5], dst[len(dst) // 5 * 2], dst[len(dst) // 5 * 3], dst[len(dst) // 5 * 4]]
         VD_Bins = [
@@ -240,5 +311,6 @@ def get_texture_filter(acc_pool):
             (VD >= VD_anchors[2]) * (VD < VD_anchors[3]),
             VD >= VD_anchors[3]
         ]
-        texture_filter[key] = (HD_Bins, VD_Bins)
+
+        texture_filter[key] = (HD_Bins, VD_Bins)  # ((5, N), (5, N))
     return texture_filter
