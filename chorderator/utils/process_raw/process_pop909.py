@@ -2,12 +2,14 @@ import os
 
 import numpy as np
 
-from chords.ChordProgression import ChordProgression, print_progression_list
+from chorderator.chords.ChordProgression import ChordProgression, print_progression_list
 
 np.set_printoptions(edgeitems=1000)
 
-POP909_DIR = "/Users/billyyi/Desktop/POP909 Phrase Split Data/Phrase Split Data/"
-POP909_ORI_DIR = "/Users/billyyi/Desktop/POP909-Dataset-master/POP909/"
+POP909_DIR = "/Users/johnnyhu/PycharmProjects/Chorderator/resource/phrase_split_data/"
+    # "/Users/billyyi/Desktop/POP909 Phrase Split Data/Phrase Split Data/"
+POP909_ORI_DIR = "/Users/johnnyhu/PycharmProjects/Chorderator/resource/POP909/"
+    # "/Users/billyyi/Desktop/POP909-Dataset-master/POP909/"
 
 tonic_map = {'C': 0, 'C#': 1, 'Db': 1, 'D': 2, 'D#': 3, 'Eb': 3, 'E': 4, 'F': 5, 'F#': 6, 'Gb': 6, 'G': 7, 'G#': 8,
              'Ab': 8, 'A': 9, 'A#': 10, 'Bb': 10, 'B': 11}
@@ -20,11 +22,13 @@ c_major = [36, 38, 40, 41, 43, 45, 47, 48, 50, 52, 53, 55, 57, 59, 60, 62, 64, 6
 
 def process(data_root):
     data = []
+    data_indices = [] # list of dictionaries, each dict. is {array:(position,length), ...} e.g. 01_i4.npz is array: (01,4)
     for song in os.listdir(data_root):
         try:
             int(song)
         except:
             continue
+        temp = {}
         song_root = os.path.join(data_root, song)
         for file in os.listdir(song_root):
             if file.split('.')[-1] == 'npz':
@@ -63,6 +67,13 @@ def process(data_root):
                     if sum(melody_pitch_sequence_c_major) != 0 and \
                             len(melody_pitch_sequence_c_major) == 4 * len(chord_sequence_c_major):
                         data.append([melody_pitch_sequence_c_major, chord_sequence_c_major])
+
+                len_of_phrase = int(file.split('.')[0][-1])
+                pos_of_phrase = int(file.split('.')[0][:2])
+
+                temp[pos_of_phrase] = [melody_pitch_sequence_c_major, len_of_phrase]
+        data_indices.append(temp)
+
     return np.array(data, dtype=object)
 
 
@@ -116,29 +127,31 @@ def melody_to_c_major(melody_pitch_sequence, original_tonic):
 
 if __name__ == '__main__':
     data = process(POP909_DIR)
-    prog_list = []
-    for i in range(len(data)):
-        chord = data[i][1].astype('int32').tolist()
-        progression = []
-        bar = []
-        if len(chord) % 4 == 0:
-            for j in chord:
-                bar.append(j)
-                bar.append(j)
-                if len(bar) == 8:
-                    progression.append(bar)
-                    bar = []
-        elif len(chord) % 3 == 0:
-            for j in chord:
-                bar.append(j)
-                bar.append(j)
-                if len(bar) == 6:
-                    progression.append(bar)
-                    bar = []
-        else:
-            continue
-        p = ChordProgression()
-        p.progression = progression
-        prog_list.append(p)
-    print_progression_list(prog_list)
-
+    print(data)
+    print(len(data),len(data[0]))
+    # prog_list = []
+    # for i in range(len(data)):
+    #     chord = data[i][1].astype('int32').tolist()
+    #     progression = []
+    #     bar = []
+    #     if len(chord) % 4 == 0:
+    #         for j in chord:
+    #             bar.append(j)
+    #             bar.append(j)
+    #             if len(bar) == 8:
+    #                 progression.append(bar)
+    #                 bar = []
+    #     elif len(chord) % 3 == 0:
+    #         for j in chord:
+    #             bar.append(j)
+    #             bar.append(j)
+    #             if len(bar) == 6:
+    #                 progression.append(bar)
+    #                 bar = []
+    #     else:
+    #         continue
+    #     p = ChordProgression()
+    #     p.progression = progression
+    #     prog_list.append(p)
+    # print_progression_list(prog_list)
+    #

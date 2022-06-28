@@ -86,36 +86,34 @@ class AccoMontage:
 
         texture_filter = get_texture_filter(acc_pool)
 
-        # print('Phrase Selection Begins:\n\t', len(query_phrases), 'phrases in query lead sheet;\n\t', 'Refer to',
-        #       SPOTLIGHT,
-        #       'as much as possible;\n\t', 'Set note density filter:', PREFILTER, '.')
-        # phrase_indice, chord_shift = dp_search(
-        #     melody_queries,
-        #     query_seg,
-        #     acc_pool,
-        #     edge_weights,
-        #     texture_filter,
-        #     filter_id=PREFILTER,
-        #     spotlights=ref_spotlight(SPOTLIGHT, song_index=self.song_index))
+        print('Phrase Selection Begins:\n\t', len(query_phrases), 'phrases in query lead sheet;\n\t', 'Refer to',
+              SPOTLIGHT,
+              'as much as possible;\n\t', 'Set note density filter:', PREFILTER, '.')
+        phrase_indice, chord_shift = dp_search(
+            melody_queries,
+            query_seg,
+            acc_pool,
+            edge_weights,
+            texture_filter,
+            filter_id=PREFILTER,
+            spotlights=ref_spotlight(SPOTLIGHT, song_index=self.song_index))
 
-        # path = phrase_indice[0]
-        # shift = chord_shift[0]
-        # reference_set = []
-        # df = pd.read_excel(DATA_DIR + "/POP909 4bin quntization/four_beat_song_index.xlsx") \
-        #     if self.song_index is None else self.song_index
-        # for idx_phrase, phrase in enumerate(query_phrases):
-        #     phrase_len = phrase[1]
-        #     song_ref = acc_pool[phrase_len][-1]
-        #     idx_song = song_ref[path[idx_phrase][0]][0]
-        #     song_name = df.iloc[idx_song][1]
-        #     reference_set.append((idx_song, song_name))
-        # print('Reference chosen:', reference_set)
-        # print('Pitch Transposition (Fit by Model):', shift)
+        path = phrase_indice[0]
+        shift = chord_shift[0]
+        reference_set = []
+        df = pd.read_excel(DATA_DIR + "/POP909 4bin quntization/four_beat_song_index.xlsx") \
+            if self.song_index is None else self.song_index
+        for idx_phrase, phrase in enumerate(query_phrases):
+            phrase_len = phrase[1]
+            song_ref = acc_pool[phrase_len][-1]
+            idx_song = song_ref[path[idx_phrase][0]][0]
+            song_name = df.iloc[idx_song][1]
+            reference_set.append((idx_song, song_name))
+        print('Reference chosen:', reference_set)
+        print('Pitch Transposition (Fit by Model):', shift)
 
         print('Generating...')
-        # midi = render_acc(piano_roll, chord_table, query_seg, path, shift, acc_pool, state_dict=self.state_dict)
         midi = render_acc_new(chord_table, acc_pool)
-
         if self.original_tempo != 120:
             for ins in midi.instruments:
                 for note in ins.notes:

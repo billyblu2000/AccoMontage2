@@ -6,27 +6,17 @@
       <sourceFolder url="file://$MODULE_DIR$/chorderator" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chorderator/static" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/resource" />
-      <excludeFolder url="file://$MODULE_DIR$/chorderator/.pytest_cache/v" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (base)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings">
-    <option name="requirementsPath" value="D:\projects\Chorderator\requirements.txt" />
+    <option name="requirementsPath" value="" />
     <option name="versionSpecifier" value="Don't specify version" />
-    <option name="modifyBaseFiles" value="true" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="GOOGLE" />
     <option name="myDocStringFormat" value="Google" />
     <option name="renderExternalDocumentation" value="true" />
-  </component>
-  <component name="PyNamespacePackagesService">
-    <option name="namespacePackageFolders">
-      <list>
-        <option value="$MODULE_DIR$/chorderator/utils/models/accomontage" />
-        <option value="$MODULE_DIR$/back-end" />
-      </list>
-    </option>
   </component>
 </module>

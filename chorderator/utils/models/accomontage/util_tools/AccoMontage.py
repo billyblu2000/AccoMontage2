@@ -162,16 +162,22 @@ def dp_search(query_phrases, seg_query, acc_pool, edge_weights, texture_filter=N
 
 def render_acc_new(chord_table, acc_pool):
     length = 8
-    idx = 0
+    idx = 144  # 改 reference
     acc_emsemble = acc_pool[length][1][idx]
     acc_emsemble = melodySplit(acc_emsemble, WINDOWSIZE=32, HOPSIZE=32, VECTORSIZE=128)
     chord_table_split = chordSplit(chord_table, 8, 8)
-
-    model = DisentangleVAE.init_model(torch.device('cuda')).cuda()
-    checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cuda'))
-    model.load_state_dict(checkpoint)
-    pr_matrix = torch.from_numpy(acc_emsemble).float().cuda()
-    gt_chord = torch.from_numpy(chord_table_split).float().cuda()
+    if torch.cuda.is_available():
+        model = DisentangleVAE.init_model(torch.device('cuda')).cuda()
+        checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cuda'))
+        model.load_state_dict(checkpoint)
+        pr_matrix = torch.from_numpy(acc_emsemble).float().cuda()
+        gt_chord = torch.from_numpy(chord_table_split).float().cuda()
+    else:
+        model = DisentangleVAE.init_model(torch.device('cpu'))
+        checkpoint = torch.load(DATA_DIR + '/model_master_final.pt', map_location=torch.device('cpu'))
+        model.load_state_dict(checkpoint)
+        pr_matrix = torch.from_numpy(acc_emsemble).float()
+        gt_chord = torch.from_numpy(chord_table_split).float()
     est_x = model.inference(pr_matrix, gt_chord, sample=False)
     midiReGen = midi_output_test(acc_pool[length][2][idx], acc_pool[length][1][idx], chord_table, est_x)
     return midiReGen
@@ -209,6 +215,7 @@ def midi_output_test(original_chord, original_acc, chord_table, est_x):
 
 def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool, state_dict=None):
     acc_emsemble = np.empty((0, 128))
+    indices = [(2530, 0.525433783259948), (2531, 0.44795138966679), (1610, 0.45484691858288895)]
     for i, idx in enumerate(indices):
         length = int(query_seg[i][1:])
         shift = shifts[i]
