@@ -82,6 +82,106 @@ def melody_matrix2data(melody_matrix, tempo=120, start_time=0.0, get_list=False)
         melody.notes = melody_notes
         return melody
 
+# 改
+def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_expand=True, tolerence=0.125):
+    """applicable to triple chords and seventh chords"""
+    if resolution == 'beat':
+        num_anchords = 4
+    elif resolution == 'quater':
+        num_anchords = 16
+
+    """processing self.log"""
+    list_of_roots = []
+    table_of_root = {'C': 0, 'C#': 1, 'Db': 1, 'D': 2, 'D#': 3, 'Eb': 3, 'E': 4, 'Fb': 4, 'E#': 5, 'F': 5, "F#": 6,\
+                     'Gb': 6, 'G': 7, 'G#': 8, 'Ab': 8, 'A': 9, 'A#': 10, 'Bb': 10, 'B': 11, 'Cb': 11, 'B#': 0}
+    for prog in log:
+        temp = prog['progression_full']
+        for bar in temp:
+            for i in range(len(bar)):
+                c = bar[i][:-1].rstrip()
+                chord_num = table_of_root[c]
+                list_of_roots.append(chord_num)
+                list_of_roots.append(chord_num)
+
+
+    NC = [-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1]
+    last_time = 0
+    chord_set = []
+    chord_time = [[0.0], [0.0]]
+    chordsRecord = []
+    for note in chord_track.notes:
+        if len(chord_set) == 0:
+            chord_set.append(note.pitch)
+            chord_time[0] = [note.start]
+            chord_time[1] = [note.end]
+        else:
+            if (abs(note.start - np.mean(chord_time[0])) < tolerence) and (
+                    abs(note.end - np.mean(chord_time[1])) < tolerence):
+                chord_set.append(note.pitch)
+                chord_time[0].append(note.start)
+                chord_time[1].append(note.end)
+            else:
+                if last_time < np.mean(chord_time[0]):  # where did we update last_time?
+                    chordsRecord.append({"start": last_time, "end": np.mean(chord_time[0]), "chord": NC})
+                chord_set.sort()
+                chroma = copy.copy(NC)
+                for idx in chord_set:
+                    chroma[idx % 12 + 1] = 1
+                chroma[0] = 0  # use our label
+                chroma[-1] = chord_set[0] % 12
+
+                # concatenate
+                chordsRecord.append({"start": np.mean(chord_time[0]), "end": np.mean(chord_time[1]), "chord": chroma})
+                last_time = np.mean(chord_time[1])
+                chord_set = []
+                chord_set.append(note.pitch)
+                chord_time[0] = [note.start]
+                chord_time[1] = [note.end]
+    if len(chord_set) > 0:
+        if last_time < np.mean(chord_time[0]):
+            chordsRecord.append({"start": last_time, "end": np.mean(chord_time[0]), "chord": NC})
+        # chord_set.sort()
+        chroma = copy.copy(NC)
+        for idx in chord_set:
+            chroma[idx % 12 + 1] = 1
+        chroma[0] = 0  # use our label
+        chroma[-1] = chord_set[0] % 12
+        chordsRecord.append({"start": np.mean(chord_time[0]), "end": np.mean(chord_time[1]), "chord": chroma})
+        last_time = np.mean(chord_time[1])
+    ChordTable = []
+    anchor = 0
+    chord = chordsRecord[anchor]
+    start = chord['start']
+    downbeats = list(downbeats)
+    downbeats.append(downbeats[-1] + (downbeats[-1] - downbeats[-2]))
+    for i in range(len(downbeats) - 1):
+        s_curr = round(downbeats[i] * 4) / 4
+        s_next = round(downbeats[i + 1] * 4) / 4
+        delta = (s_next - s_curr) / num_anchords
+        for j in range(num_anchords):  # one-beat resolution
+            while chord['end'] <= (s_curr + j * delta) and anchor < len(chordsRecord) - 1:
+                anchor += 1
+                chord = chordsRecord[anchor]
+                start = chord['start']
+            if s_curr + j * delta < start:
+                if chord_expand:
+                    ChordTable.append(expand_chord(chord=NC, shift=0))
+                else:
+                    ChordTable.append(NC)
+            else:
+                if chord_expand:
+                    fourteen_dim_chroma = chord['chord']
+                    fourteen_dim_chroma[0] = list_of_roots[16 * i + j]
+                    fourteen_dim_chroma[-1] = (fourteen_dim_chroma[-1] - list_of_roots[16 * i + j]) % 12
+                    ChordTable.append(expand_chord(chord=fourteen_dim_chroma, shift=0))
+                else:
+                    fourteen_dim_chroma = chord['chord']
+                    fourteen_dim_chroma[0] = list_of_roots[16 * i + j]
+                    fourteen_dim_chroma[-1] = (fourteen_dim_chroma[-1] - list_of_roots[16 * i + j]) % 12
+                    ChordTable.append(fourteen_dim_chroma)
+    return np.array(ChordTable)
+
+
 
 def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=True, tolerence=0.125):
     """applicable to triple chords and seventh chords"""
@@ -107,7 +207,7 @@ def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=Tr
                 chord_time[0].append(note.start)
                 chord_time[1].append(note.end)
             else:
-                if last_time < np.mean(chord_time[0]):
+                if last_time < np.mean(chord_time[0]):  # where did we update last_time?
                     chordsRecord.append({"start": last_time, "end": np.mean(chord_time[0]), "chord": NC})
                 chord_set.sort()
                 chroma = copy.copy(NC)
