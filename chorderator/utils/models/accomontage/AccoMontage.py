@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import pretty_midi
 
 from ....settings import ACCOMONTAGE_DATA_DIR
 from .util_tools.acc_utils import split_phrases
@@ -15,12 +16,13 @@ DATA_DIR = ACCOMONTAGE_DATA_DIR
 
 class AccoMontage:
 
-    def __init__(self, midi, segmentation, note_shift=0, spotlight=[], prefilter=None,
+    def __init__(self, midi, log, segmentation, note_shift=0, spotlight=[], prefilter=None,
                  state_dict=None, phrase_data=None, edge_weights=None, song_index=None, original_tempo=120):
         # all_ref = [i[:-1] for i in open(r'D:\projects\Chorderator\a.txt', encoding='utf-8').readlines()]
         # all_ref.remove('今生只为遇见你')
         self.final_output = None
         self.midi = midi
+        self.chord_gen_log = log
         self.segmentation = segmentation
         self.note_shift = note_shift//4
         self.spotlight = spotlight
@@ -56,13 +58,24 @@ class AccoMontage:
             melody_matrix = np.concatenate(
                 (melody_matrix[int(NOTE_SHIFT * 4):, :], melody_matrix[-int(NOTE_SHIFT * 4):, :]), axis=0)
 
-
-
-        # 改！！
+        # old chroma version: root and bass are wrong
         chroma = cvt.chord_data2matrix(chord_track, downbeats, 'quater')  # T*36, quantized at 16th note (quater beat)
+        old_chroma_ins = cvt.chord_matrix2data_new(chroma, tempo=self.original_tempo)
+        old_chroma_old_ins = cvt.chord_matrix2data(chroma, tempo=self.original_tempo)
 
+        # new chroma version: add root and bass via chord information
+        chroma = cvt.chord_data2matrix_new(chord_track, downbeats, self.chord_gen_log, 'quater')
+        chroma_ins = cvt.chord_matrix2data_new(chroma, tempo=self.original_tempo)
+        chroma_old_ins = cvt.chord_matrix2data(chroma, tempo=self.original_tempo)
 
-
+        m = pretty_midi.PrettyMIDI(initial_tempo=self.original_tempo)
+        m.instruments.append(chord_track)
+        m.instruments.append(old_chroma_ins)
+        m.instruments.append(old_chroma_old_ins)
+        m.instruments.append(chroma_ins)
+        m.instruments.append(chroma_old_ins)
+        m.write('chroma_test.mid')
+        input()
 
         if not NOTE_SHIFT == 0:
             chroma = np.concatenate((chroma[int(NOTE_SHIFT * 4):, :], chroma[-int(NOTE_SHIFT * 4):, :]), axis=0)
@@ -121,7 +134,13 @@ class AccoMontage:
         print('Pitch Transposition (Fit by Model):', shift)
 
         print('Generating...')
+
+        # AccoMontage MIDI render
+        # midi = render_acc(piano_roll, chord_table, query_seg, path, shift, acc_pool, state_dict=self.state_dict)
+
+        # test
         midi = render_acc_new(chord_table, acc_pool)
+
         if self.original_tempo != 120:
             for ins in midi.instruments:
                 for note in ins.notes:

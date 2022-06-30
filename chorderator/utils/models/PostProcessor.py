@@ -161,17 +161,22 @@ class PostProcessor:
         }
         progression_list = progression.get(flattened=False, only_root=False, only_degree=False)
         progression_list_str = []
+        progression_full_list_str = []
         for bar in progression_list:
             memo = None
             bar_str = []
+            full_bar_str = []
             for chord in bar:
+                full_bar_str.append(str(self.__chord_to_correct_tonic(chord, progression.meta['tonic'])))
                 if memo:
                     if chord == memo:
                         continue
                 bar_str.append(str(self.__chord_to_correct_tonic(chord, progression.meta['tonic'])))
                 memo = chord
             progression_list_str.append(bar_str)
+            progression_full_list_str.append(full_bar_str)
         info['progression'] = progression_list_str
+        info['progression_full'] = progression_full_list_str
         return info
 
     def __chord_to_correct_tonic(self, chord, original_tonic):

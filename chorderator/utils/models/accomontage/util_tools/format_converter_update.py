@@ -82,6 +82,7 @@ def melody_matrix2data(melody_matrix, tempo=120, start_time=0.0, get_list=False)
         melody.notes = melody_notes
         return melody
 
+
 # 改
 def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_expand=True, tolerence=0.125):
     """applicable to triple chords and seventh chords"""
@@ -92,7 +93,7 @@ def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_
 
     """processing self.log"""
     list_of_roots = []
-    table_of_root = {'C': 0, 'C#': 1, 'Db': 1, 'D': 2, 'D#': 3, 'Eb': 3, 'E': 4, 'Fb': 4, 'E#': 5, 'F': 5, "F#": 6,\
+    table_of_root = {'C': 0, 'C#': 1, 'Db': 1, 'D': 2, 'D#': 3, 'Eb': 3, 'E': 4, 'Fb': 4, 'E#': 5, 'F': 5, "F#": 6, \
                      'Gb': 6, 'G': 7, 'G#': 8, 'Ab': 8, 'A': 9, 'A#': 10, 'Bb': 10, 'B': 11, 'Cb': 11, 'B#': 0}
     for prog in log:
         temp = prog['progression_full']
@@ -102,7 +103,6 @@ def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_
                 chord_num = table_of_root[c]
                 list_of_roots.append(chord_num)
                 list_of_roots.append(chord_num)
-
 
     NC = [-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1]
     last_time = 0
@@ -170,17 +170,17 @@ def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_
                     ChordTable.append(NC)
             else:
                 if chord_expand:
-                    fourteen_dim_chroma = chord['chord']
+                    fourteen_dim_chroma = copy.copy(chord['chord'])
                     fourteen_dim_chroma[0] = list_of_roots[16 * i + j]
                     fourteen_dim_chroma[-1] = (fourteen_dim_chroma[-1] - list_of_roots[16 * i + j]) % 12
                     ChordTable.append(expand_chord(chord=fourteen_dim_chroma, shift=0))
                 else:
-                    fourteen_dim_chroma = chord['chord']
+                    fourteen_dim_chroma = copy.copy(chord['chord'])
                     fourteen_dim_chroma[0] = list_of_roots[16 * i + j]
                     fourteen_dim_chroma[-1] = (fourteen_dim_chroma[-1] - list_of_roots[16 * i + j]) % 12
                     ChordTable.append(fourteen_dim_chroma)
+    print('new', np.array(ChordTable))
     return np.array(ChordTable)
-
 
 
 def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=True, tolerence=0.125):
@@ -259,6 +259,7 @@ def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=Tr
                     ChordTable.append(expand_chord(chord=chord['chord'], shift=0))
                 else:
                     ChordTable.append(chord['chord'])
+    print('old', np.array(ChordTable))
     return np.array(ChordTable)
 
 
@@ -305,6 +306,43 @@ def chord_matrix2data(chordMatrix, tempo=120, start_time=0.0, get_list=False):
         chord = pyd.Instrument(program=pyd.instrument_name_to_program('Acoustic Grand Piano'))
         chord.notes = chord_notes
         return chord
+
+
+def chord_matrix2data_new(chord_mat, tempo=120):
+
+    def chord2notes(chord_notes):
+        notes = []
+        for i in range(12, 24):
+            if chord_notes[i] == 1:
+                notes.append(pyd.Note(start=cursor, end=cursor + note_length, pitch=chroma_bass + i, velocity=60))
+        root_part = chord_notes[:12]
+        bass_part = chord_notes[24:]
+        root, bass = 0, 0
+        for i in range(12):
+            if root_part[i] == 1:
+                root = i
+            if bass_part[i] == 1:
+                bass = i
+        notes.append(pyd.Note(start=cursor, end=cursor + note_length, pitch=bass_bass + root + bass, velocity=70))
+        return notes
+
+    cursor, unit, bass_bass, chroma_bass, note_length, memo = 0, 60/tempo/4, 36, 48, 0, [-1]*14
+    ins = pyd.Instrument(0)
+
+    for current_chord in chord_mat:
+        if list(current_chord) != list(memo) and list(memo) != [-1]*14:
+            ins.notes += chord2notes(memo)
+            memo = current_chord
+            cursor += note_length
+            note_length = unit
+        elif list(current_chord) != list(memo) and list(memo) == [-1]*14:
+            memo = current_chord
+            note_length += unit
+        elif list(current_chord) == list(memo):
+            note_length += unit
+    if list(memo) != [-1]*14:
+        ins.notes += chord2notes(memo)
+    return ins
 
 
 def accompany_data2matrix(accompany_track, downbeats):

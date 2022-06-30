@@ -59,7 +59,7 @@ class Pipeline:
             self.state = 4
         Logging.warning('Generating textures...')
         if with_texture:
-            self.final_output = self.__add_textures(self.chord_gen_output, **kwargs)
+            self.final_output = self.__add_textures(self.chord_gen_output, self.final_output_log, **kwargs)
             self.__shift_note(self.final_output.instruments[1], kwargs['note_shift'], self.meta['tempo'])
         else:
             self.final_output = self.__add_textures(self.chord_gen_output, do_add_textures=False, **kwargs)
@@ -97,7 +97,7 @@ class Pipeline:
                                      kwargs['note_shift'])
         return processor.get()
 
-    def __add_textures(self, output, melo=None, do_add_textures=True, **kwargs):
+    def __add_textures(self, output, log, melo=None, do_add_textures=True, **kwargs):
         original_tempo = self.meta['tempo']
         if not melo:
             melo = self.melo
@@ -105,7 +105,7 @@ class Pipeline:
         new_chord = self.__to_tempo(output, original_tempo, 120)
         midi = combine_ins(new_melo, new_chord, init_tempo=120)
         if do_add_textures:
-            processor = self.pipeline[3](midi=midi, segmentation=kwargs['segmentation'], note_shift=kwargs['note_shift'],
+            processor = self.pipeline[3](midi=midi, log=log, segmentation=kwargs['segmentation'], note_shift=kwargs['note_shift'],
                                          spotlight=kwargs['texture_spotlight'],
                                          prefilter=kwargs['texture_prefilter'], state_dict=kwargs['state_dict'],
                                          phrase_data=kwargs['phrase_data'], edge_weights=kwargs['edge_weights'],
