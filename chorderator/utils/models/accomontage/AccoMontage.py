@@ -64,18 +64,18 @@ class AccoMontage:
         old_chroma_old_ins = cvt.chord_matrix2data(chroma, tempo=self.original_tempo)
 
         # new chroma version: add root and bass via chord information
-        chroma = cvt.chord_data2matrix_new(chord_track, downbeats, self.chord_gen_log, 'quater')
-        chroma_ins = cvt.chord_matrix2data_new(chroma, tempo=self.original_tempo)
-        chroma_old_ins = cvt.chord_matrix2data(chroma, tempo=self.original_tempo)
-
-        m = pretty_midi.PrettyMIDI(initial_tempo=self.original_tempo)
-        m.instruments.append(chord_track)
-        m.instruments.append(old_chroma_ins)
-        m.instruments.append(old_chroma_old_ins)
-        m.instruments.append(chroma_ins)
-        m.instruments.append(chroma_old_ins)
-        m.write('chroma_test.mid')
-        input()
+        # chroma = cvt.chord_data2matrix_new(chord_track, downbeats, self.chord_gen_log, 'quater')
+        # chroma_ins = cvt.chord_matrix2data_new(chroma, tempo=self.original_tempo)
+        # chroma_old_ins = cvt.chord_matrix2data(chroma, tempo=self.original_tempo)
+        #
+        # m = pretty_midi.PrettyMIDI(initial_tempo=self.original_tempo)
+        # m.instruments.append(chord_track)
+        # m.instruments.append(old_chroma_ins)
+        # m.instruments.append(old_chroma_old_ins)
+        # m.instruments.append(chroma_ins)
+        # m.instruments.append(chroma_old_ins)
+        # m.write('chroma_test.mid')
+        # input()
 
         if not NOTE_SHIFT == 0:
             chroma = np.concatenate((chroma[int(NOTE_SHIFT * 4):, :], chroma[-int(NOTE_SHIFT * 4):, :]), axis=0)

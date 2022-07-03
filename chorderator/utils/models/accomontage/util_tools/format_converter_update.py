@@ -326,6 +326,12 @@ def chord_matrix2data_new(chord_mat, tempo=120):
         notes.append(pyd.Note(start=cursor, end=cursor + note_length, pitch=bass_bass + root + bass, velocity=70))
         return notes
 
+    if len(chord_mat[0]) == 14:
+        new_chord_mat = np.zeros((chord_mat.shape[0], 36))
+        for i in range(len(chord_mat)):
+            new_chord_mat[i] = expand_chord(chord_mat[i], shift=0)
+        chord_mat = new_chord_mat
+
     cursor, unit, bass_bass, chroma_bass, note_length, memo = 0, 60/tempo/4, 36, 48, 0, [-1]*14
     ins = pyd.Instrument(0)
 

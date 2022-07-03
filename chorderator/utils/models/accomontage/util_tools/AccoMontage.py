@@ -5,7 +5,7 @@ import pandas as pd
 import torch
 import os
 
-from .format_converter import accompany_matrix2data, chord_matrix2data
+from .format_converter_update import accompany_matrix2data, chord_matrix2data_new
 from ..models.ptvae import PtvaeDecoder
 from .....settings import ACCOMONTAGE_DATA_DIR
 from .acc_utils import melodySplit, chordSplit, computeTIV, chord_shift, cosine, cosine_rhy, accomapnimentGeneration
@@ -162,7 +162,7 @@ def dp_search(query_phrases, seg_query, acc_pool, edge_weights, texture_filter=N
 
 def render_acc_new(chord_table, acc_pool):
     length = 8
-    idx = 144  # 改 reference
+    idx = 77  # 改 reference
     acc_emsemble = acc_pool[length][1][idx]
     acc_emsemble = melodySplit(acc_emsemble, WINDOWSIZE=32, HOPSIZE=32, VECTORSIZE=128)
     chord_table_split = chordSplit(chord_table, 8, 8)
@@ -187,13 +187,13 @@ def midi_output_test(original_chord, original_acc, chord_table, est_x):
     midiReGen = pretty_midi.PrettyMIDI(initial_tempo=120)
 
     # decode original_chord
-    original_chord_track = chord_matrix2data(original_chord, tempo=30)
+    original_chord_track = chord_matrix2data_new(original_chord, tempo=30)
 
     # decode original_acc
     original_texture_track = accompany_matrix2data(original_acc)
 
     # decode chord_table
-    new_chord_track = chord_matrix2data(chord_table, tempo=30)
+    new_chord_track = chord_matrix2data_new(chord_table, tempo=30)
 
     # decode est_x
     new_texture_track = pretty_midi.Instrument(program=pretty_midi.instrument_name_to_program('Acoustic Grand Piano'))
