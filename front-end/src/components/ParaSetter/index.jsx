@@ -110,10 +110,10 @@ export default class ParaSetter extends Component {
                                                         rules={[{ required: true, message: 'Missing Name' }]}
                                                     >
                                                         <Select placeholder="Please select a name">
-                                                            <Option value='A'>A<span style={{ visibility:'hidden'}}>____________________</span></Option>
-                                                            <Option value='B'>B<span style={{ visibility:'hidden'}}>____________________</span></Option>
-                                                            <Option value='C'>C<span style={{ visibility:'hidden'}}>____________________</span></Option>
-                                                            <Option value='D'>D<span style={{ visibility:'hidden'}}>____________________</span></Option>
+                                                            <Option key='phrase_name_option_A' value='A'>A<span style={{ visibility:'hidden'}}>____________________</span></Option>
+                                                            <Option key='phrase_name_option_B' value='B'>B<span style={{ visibility:'hidden'}}>____________________</span></Option>
+                                                            <Option key='phrase_name_option_C' value='C'>C<span style={{ visibility:'hidden'}}>____________________</span></Option>
+                                                            <Option key='phrase_name_option_C' value='D'>D<span style={{ visibility:'hidden'}}>____________________</span></Option>
                                                         </Select>
                                                     </Form.Item>
                                                 )}
@@ -126,8 +126,8 @@ export default class ParaSetter extends Component {
                                                 rules={[{ required: true, message: 'Missing length' }]}
                                             >
                                                 <Select placeholder="Please select a length">
-                                                    <Option value={4}>4<span style={{visibility:'hidden'}}>_____________________</span></Option>
-                                                    <Option value={8}>8<span style={{visibility:'hidden'}}>_____________________</span></Option>
+                                                    <Option key='phrase_length_option_4' value={4}>4<span style={{visibility:'hidden'}}>_____________________</span></Option>
+                                                    <Option key='phrase_length_option_8' value={8}>8<span style={{visibility:'hidden'}}>_____________________</span></Option>
                                                 </Select>
                                             </Form.Item>
 
@@ -152,7 +152,7 @@ export default class ParaSetter extends Component {
                     >
                         <Select placeholder="Please select a tonic">
                             {tonic.map((item) => {
-                                return <Option value={item}>{item}</Option>
+                                return <Option key={`tonic_option_${item}`} value={item}>{item}</Option>
                             })}
                         </Select>
                     </Form.Item>
@@ -162,7 +162,7 @@ export default class ParaSetter extends Component {
                     >
                         <Select placeholder="Please select a mode">
                             {mode.map((item) => {
-                                return <Option value={item.value}>{item.ui}</Option>
+                                return <Option key={`mode_option_${item}`} value={item.value}>{item.ui}</Option>
                             })}
                         </Select>
                     </Form.Item>
@@ -172,7 +172,7 @@ export default class ParaSetter extends Component {
                     >
                         <Select placeholder="Please select a meter">
                             {meter.map((item) => {
-                                return <Option value={item.value} disabled={item.value === '3/4'?true:false}>{item.ui}</Option>
+                                return <Option key={`meter_option_${item}`} value={item.value} disabled={item.value === '3/4'?true:false}>{item.ui}</Option>
                             })}
                         </Select>
                     </Form.Item>
@@ -188,7 +188,7 @@ export default class ParaSetter extends Component {
                     >
                         <Select placeholder="Please select a style" disabled={!this.state.chordStyleControl}>
                             {style.map((item) => {
-                                return <Option value={item.value}>{item.ui}</Option>
+                                return <Option key={`chord_style_option_${item}`} value={item.value}>{item.ui}</Option>
                             })}
                         </Select>
                     </Form.Item>

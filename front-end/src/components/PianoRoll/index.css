@@ -1,0 +1,17 @@
+canvas{
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10px;
+    box-shadow: 10px 10px 43px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 10px 10px 43px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 43px 0px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+canvas:hover{
+    background-color: #003b7615;
+    box-shadow: 10px 10px 43px 0px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 10px 10px 43px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 10px 10px 43px 0px rgba(0,0,0,0.21);
+}

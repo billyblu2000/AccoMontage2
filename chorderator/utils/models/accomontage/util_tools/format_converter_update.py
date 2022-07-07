@@ -91,7 +91,7 @@ def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_
     elif resolution == 'quater':
         num_anchords = 16
 
-    """processing self.log"""
+    # processing self.log
     list_of_roots = []
     table_of_root = {'C': 0, 'C#': 1, 'Db': 1, 'D': 2, 'D#': 3, 'Eb': 3, 'E': 4, 'Fb': 4, 'E#': 5, 'F': 5, "F#": 6, \
                      'Gb': 6, 'G': 7, 'G#': 8, 'Ab': 8, 'A': 9, 'A#': 10, 'Bb': 10, 'B': 11, 'Cb': 11, 'B#': 0}
@@ -110,6 +110,10 @@ def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_
     chord_time = [[0.0], [0.0]]
     chordsRecord = []
     for note in chord_track.notes:
+        # handle the 'short notes' (bugs of pretty_midi)
+        if note.end - note.start <= 0.1:
+            note.end = note.start + downbeats[-1] - downbeats[-2]
+
         if len(chord_set) == 0:
             chord_set.append(note.pitch)
             chord_time[0] = [note.start]
@@ -179,7 +183,6 @@ def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_
                     fourteen_dim_chroma[0] = list_of_roots[16 * i + j]
                     fourteen_dim_chroma[-1] = (fourteen_dim_chroma[-1] - list_of_roots[16 * i + j]) % 12
                     ChordTable.append(fourteen_dim_chroma)
-    print('new', np.array(ChordTable))
     return np.array(ChordTable)
 
 
@@ -196,6 +199,10 @@ def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=Tr
     chord_time = [[0.0], [0.0]]
     chordsRecord = []
     for note in chord_track.notes:
+        # handle the 'short notes' (bugs of pretty_midi)
+        if note.end - note.start <= 0.1:
+            note.end += note.start + downbeats[-1] - downbeats[-2]
+
         if len(chord_set) == 0:
             chord_set.append(note.pitch)
             chord_time[0] = [note.start]
@@ -234,6 +241,7 @@ def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=Tr
         chroma[-1] = 0
         chordsRecord.append({"start": np.mean(chord_time[0]), "end": np.mean(chord_time[1]), "chord": chroma})
         last_time = np.mean(chord_time[1])
+    print(chordsRecord)
     ChordTable = []
     anchor = 0
     chord = chordsRecord[anchor]
@@ -259,7 +267,6 @@ def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=Tr
                     ChordTable.append(expand_chord(chord=chord['chord'], shift=0))
                 else:
                     ChordTable.append(chord['chord'])
-    print('old', np.array(ChordTable))
     return np.array(ChordTable)
 
 
