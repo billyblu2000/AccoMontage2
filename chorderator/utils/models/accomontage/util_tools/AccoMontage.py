@@ -162,7 +162,7 @@ def dp_search(query_phrases, seg_query, acc_pool, edge_weights, texture_filter=N
 
 def render_acc_new(chord_table, acc_pool):
     length = 8
-    idx = 77  # 改 reference
+    idx = 144  # 改 reference
     acc_emsemble = acc_pool[length][1][idx]
     acc_emsemble = melodySplit(acc_emsemble, WINDOWSIZE=32, HOPSIZE=32, VECTORSIZE=128)
     chord_table_split = chordSplit(chord_table, 8, 8)

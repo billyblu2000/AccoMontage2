@@ -109,10 +109,11 @@ def chord_data2matrix_new(chord_track, downbeats, log, resolution='beat', chord_
     chord_set = []
     chord_time = [[0.0], [0.0]]
     chordsRecord = []
-    for note in chord_track.notes:
-        # handle the 'short notes' (bugs of pretty_midi)
+
+    sorted_chord_track_notes = sorted(chord_track.notes, key=lambda x: x.start)
+    for note in sorted_chord_track_notes:
         if note.end - note.start <= 0.1:
-            note.end = note.start + downbeats[-1] - downbeats[-2]
+            note.end += downbeats[-1] - downbeats[-2]
 
         if len(chord_set) == 0:
             chord_set.append(note.pitch)
@@ -198,10 +199,12 @@ def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=Tr
     chord_set = []
     chord_time = [[0.0], [0.0]]
     chordsRecord = []
-    for note in chord_track.notes:
+    # for note in chord_track.notes:
         # handle the 'short notes' (bugs of pretty_midi)
+    sorted_chord_track_notes = sorted(chord_track.notes, key=lambda x: x.start)
+    for note in sorted_chord_track_notes:
         if note.end - note.start <= 0.1:
-            note.end += note.start + downbeats[-1] - downbeats[-2]
+            note.end += downbeats[-1] - downbeats[-2]
 
         if len(chord_set) == 0:
             chord_set.append(note.pitch)
