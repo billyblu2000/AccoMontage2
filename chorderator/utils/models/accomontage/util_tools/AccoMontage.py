@@ -215,16 +215,13 @@ def midi_output_test(original_chord, original_acc, chord_table, est_x):
 
 def render_acc(pianoRoll, chord_table, query_seg, indices, shifts, acc_pool, state_dict=None):
     acc_emsemble = np.empty((0, 128))
-    indices = [(2530, 0.525433783259948), (2531, 0.44795138966679), (1610, 0.45484691858288895)]
     for i, idx in enumerate(indices):
         length = int(query_seg[i][1:])
         shift = shifts[i]
         acc_matrix = np.roll(acc_pool[length][1][idx[0]], shift, axis=-1)
         acc_emsemble = np.concatenate((acc_emsemble, acc_matrix), axis=0)
-    # print(acc_emsemble.shape)
     acc_emsemble = melodySplit(acc_emsemble, WINDOWSIZE=32, HOPSIZE=32, VECTORSIZE=128)
     chord_table = chordSplit(chord_table, 8, 8)
-    # print(acc_emsemble.shape, chord_table.shape)
     pianoRoll = melodySplit(pianoRoll, WINDOWSIZE=32, HOPSIZE=32, VECTORSIZE=142)
     if torch.cuda.is_available():
         model = DisentangleVAE.init_model(torch.device('cuda')).cuda()

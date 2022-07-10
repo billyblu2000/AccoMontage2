@@ -58,24 +58,7 @@ class AccoMontage:
             melody_matrix = np.concatenate(
                 (melody_matrix[int(NOTE_SHIFT * 4):, :], melody_matrix[-int(NOTE_SHIFT * 4):, :]), axis=0)
 
-        # old chroma version: root and bass are wrong
-        chroma = cvt.chord_data2matrix(chord_track, downbeats, 'quater')  # T*36, quantized at 16th note (quater beat)
-        old_chroma_ins = cvt.chord_matrix2data_new(chroma, tempo=self.original_tempo)
-        old_chroma_old_ins = cvt.chord_matrix2data(chroma, tempo=self.original_tempo)
-
-        # new chroma version: add root and bass via chord information
-        # chroma = cvt.chord_data2matrix_new(chord_track, downbeats, self.chord_gen_log, 'quater')
-        # chroma_ins = cvt.chord_matrix2data_new(chroma, tempo=self.original_tempo)
-        # chroma_old_ins = cvt.chord_matrix2data(chroma, tempo=self.original_tempo)
-        #
-        # m = pretty_midi.PrettyMIDI(initial_tempo=self.original_tempo)
-        # m.instruments.append(chord_track)
-        # m.instruments.append(old_chroma_ins)
-        # m.instruments.append(old_chroma_old_ins)
-        # m.instruments.append(chroma_ins)
-        # m.instruments.append(chroma_old_ins)
-        # m.write('chroma_test.mid')
-        # input()
+        chroma = cvt.chord_data2matrix_new(chord_track, downbeats, self.chord_gen_log, 'quater')  # T*36, quantized at 16th note (quater beat)
 
         if not NOTE_SHIFT == 0:
             chroma = np.concatenate((chroma[int(NOTE_SHIFT * 4):, :], chroma[-int(NOTE_SHIFT * 4):, :]), axis=0)
@@ -136,10 +119,7 @@ class AccoMontage:
         print('Generating...')
 
         # AccoMontage MIDI render
-        # midi = render_acc(piano_roll, chord_table, query_seg, path, shift, acc_pool, state_dict=self.state_dict)
-
-        # test
-        midi = render_acc_new(chord_table, acc_pool)
+        midi = render_acc(piano_roll, chord_table, query_seg, path, shift, acc_pool, state_dict=self.state_dict)
 
         if self.original_tempo != 120:
             for ins in midi.instruments:
