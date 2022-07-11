@@ -37,6 +37,8 @@ export default class Generator extends Component {
     state = {
         generatingStage: 0,
         generated: [],
+        generatedChordName: null,
+        generatedAccName: null,
         playing: 'stop',
         textureStyleControl: this.props.values['enable_texture_style'],
         styles: []
@@ -99,7 +101,7 @@ export default class Generator extends Component {
 
     generateQueryCallback = (res) => {
         if (res.status === 'ok') {
-            this.setState({ generated: res.log, styles: res.log.map(item => item.style) })
+            this.setState({ generated: res.log, styles: res.log.map(item => item.style), generatedChordName: res.chord_midi_name, generatedAccName: res.acc_midi_name })
         }
     }
 
@@ -114,7 +116,6 @@ export default class Generator extends Component {
         this.mp3 = null
     }
     regenerate = () => {
-        this.mp3.pause();
         var values = this.props.values;
         values['chord_style'] = this.state.styles;
         values['rhythm_density'] = this.refs.form.getFieldValue('rhythm_density');
@@ -127,7 +128,6 @@ export default class Generator extends Component {
             generatingStage: 0,
             playing: 'stop'
         })
-        this.mp3 = null;
         toTop();
     }
 
@@ -175,29 +175,24 @@ export default class Generator extends Component {
                             <div style={{ paddingLeft: '50px', paddingRight: '50px' }}>
                                 <Title level={1} style={{ float: 'right', fontSize: '25px', color: '#AAAAAA', userSelect: 'none' }}>Progression generated!</Title>
                                 <Divider></Divider>
-                                <a href={true} onClick={this.playMp3}>
-                                    <Card hoverable style={{ marginTop: '10px', marginBottom: '10px' }}>
-                                        <Meta
-                                            avatar={this.state.playing === 'playing' ?
-                                                <a href={true} style={{ color: '#73d13d' }} id='whole'><PlayCircleOutlined style={{ fontSize: '32px' }} /></a>
-                                                :
-                                                <a href={true}><PlayCircleOutlined style={{ fontSize: '32px' }} id='whole' /></a>
-                                            }
-                                            title={<div style={{ fontSize: '20px' }}>Listen to the Generated Audio</div>}
-                                            description="Click the play button on the left to play"
-                                        />
-                                    </Card>
-                                </a>
-                                <a download='generated.mid' href={myServer + `/midi/${Math.random()}`}>
+                                <a download='chord.mid' href={`http://127.0.0.1:5000/midi/${this.state.generatedChordName}`}>
                                     <Card hoverable style={{ marginTop: '10px', marginBottom: '10px' }}>
                                         <Meta
                                             avatar={<Icon which='midi' />}
-                                            title={<div style={{ fontSize: '20px' }}>Download MIDI</div>}
+                                            title={<div style={{ fontSize: '20px' }}>Download Chords</div>}
                                             description="MIDI consist a melody track and a progression track"
                                         />
                                     </Card>
                                 </a>
-
+                                <a download='accompaniment.mid' href={`http://127.0.0.1:5000/midi/${this.state.generatedAccName}`}>
+                                    <Card hoverable style={{ marginTop: '10px', marginBottom: '10px' }}>
+                                        <Meta
+                                            avatar={<Icon which='midi' />}
+                                            title={<div style={{ fontSize: '20px' }}>Download Accompaniment</div>}
+                                            description="MIDI consist a melody track and a accompaniment track"
+                                        />
+                                    </Card>
+                                </a>
                             </div>
                         }
                     </div>

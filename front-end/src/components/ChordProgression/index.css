@@ -1,6 +1,6 @@
 .card{
     background-color: white;
-    height: 470px;
+    height: 680px;
     width: 300px;
     margin-right: 4px;
     margin-top: 4px;
@@ -9,7 +9,9 @@
     padding-left: 20px;
     padding-right: 20px;
     transition-duration: 0.5s;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: auto;
 }
 .card:hover{
     cursor: pointer;

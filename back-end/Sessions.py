@@ -38,6 +38,7 @@ class Session:
                        'pattern': progression['pattern'],
                        'position': progression['position'],
                        'progression': progression['progression'],
+                       'progression_full': progression['progression_full'],
                        'style': progression['style'],
                        'otherStyles': progression['other_possible_styles'],
                        'rhythm': progression['rhythm'],
@@ -240,8 +241,3 @@ class Sessions:
                     if session_id in file:
                         shutil.rmtree(file)
         self.sessions = new_sessions
-        for file in os.listdir('static/pianoroll/midi'):
-            session_time = int(file.split('_')[1])
-            if current_time - session_time >= EXPIRE:
-                os.remove(file)
-

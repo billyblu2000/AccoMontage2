@@ -1,25 +1,74 @@
 import React, { Component } from 'react'
 import { Typography, Select, Divider, Button } from 'antd'
-import { style } from '../../utils';
+import { style, myServer } from '../../utils';
+import PianoRoll from '../PianoRoll';
 import './index.css'
 
 const { Title, Paragraph } = Typography;
 const { Option } = Select;
 
+function ChordText({ index, progression }) {
+
+    function parseChord(chord){
+        var parsed = chord[0];
+        if (chord[1] !== ' '){
+            parsed = parsed + chord[1];
+        }
+        if (chord[2] === '1'){
+            parsed = parsed + 'm';
+        }
+        return parsed;
+    }
+
+    React.useEffect(() => {
+
+        var allChords = [];
+        for (let i=0; i<progression.length; i++){
+            allChords = allChords.concat(progression[i]);
+        }
+
+        const pixelsPerEighthNote = 8.4;
+        var allChordsPositions = [];
+        var last = '';
+        for (let i=0; i<allChords.length; i++){
+            if (allChords[i] !== last){
+                last = allChords[i];
+                allChordsPositions.push([parseChord(allChords[i]), pixelsPerEighthNote*i]);
+            }
+        }
+
+        var myChordTextCanvas = document.getElementById('chord-text' + index);
+        var ctx = myChordTextCanvas.getContext('2d');
+        ctx.font = '20px Times New Roman';
+        for (let i=0; i<allChordsPositions.length; i++){
+            ctx.fillText(allChordsPositions[i][0], allChordsPositions[i][1], 18);
+        }
+    }, []);
+
+    return (
+        <canvas id={'chord-text' + index} width={540} height={20} style={{ backgroundColor: '#fff7e6' }}></canvas>
+    )
+}
+
 export default class ChordProgression extends Component {
 
     state = {
-        style: this.props.style
+        style: this.props.style,
+        melodyVis: null,
+    }
+
+    setMelodyVis = (melodyVis) => {
+        this.setState({ melodyVis: melodyVis })
     }
 
     handleStyleChange = (value) => {
         var prevStyles = this.props.father.state.styles;
         prevStyles[this.props.index] = value;
-        this.props.father.setState({styles:prevStyles})
+        this.props.father.setState({ styles: prevStyles })
     }
 
-    static getDerivedStateFromProps(nextProps, prevState){
-        return {style: nextProps.style}
+    static getDerivedStateFromProps(nextProps, prevState) {
+        return { style: nextProps.style }
     }
 
     render() {
@@ -40,7 +89,7 @@ export default class ChordProgression extends Component {
                     </Select>
 
                 </div>
-
+                {/* 
                 <div style={{ textAlign: 'center', marginTop: '120px', backgroundColor: '#fff7e6', borderRadius: '10px' }}>
                     <div>
                         <Title level={3} style={{ fontSize: '20px' }}>
@@ -52,9 +101,17 @@ export default class ChordProgression extends Component {
                             })}
                         </Title>
                     </div>
+                </div> */}
+                <div style={{marginTop:'110px'}}></div>
+                <PianoRoll midiURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.melody} id={this.props.index + 'melody'} pixelsPerTimeStep={35} setAdditionalVisualizer={this.setMelodyVis}></PianoRoll>
+                <div style={{ marginTop: '20px' }}></div>
+                <div style={{ marginTop: '10px' }}>
+                    <ChordText index={this.props.index} progression={this.props.data.progression_full}></ChordText>
                 </div>
-                <iframe title={`pianoroll-${this.props.data['midi_name']}`} src={`/accomontage2/pianoroll/player.html#midi/${this.props.data['midi_name']}`} style={{width:'100%', height:'150px', marginTop:"20px", paddingLeft:'20px', paddingRight:'20px', border:'0px'}}></iframe>
-                <Button type='dashed' block style={{ marginTop: '20px' }} onClick={() => this.props.father.tryChangeAllStyle(this.state.style)}>Change all styles to current style</Button>
+                <PianoRoll midiURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.chord} midiWithoutMelodyURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.chord_WM} id={this.props.index + 'chord'} pixelsPerTimeStep={35} noteHeight={3} additionalVisualizer={this.state.melodyVis}></PianoRoll>
+                <div style={{ marginTop: '5px' }}></div>
+                <PianoRoll midiURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.acc} midiWithoutMelodyURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.acc_WM} id={this.props.index + 'acc'} pixelsPerTimeStep={35} noteHeight={3} additionalVisualizer={this.state.melodyVis}></PianoRoll>
+                <Button type='dashed' style={{ bottom: '20px', position: 'absolute', width: '80%', left: '10%' }} onClick={() => this.props.father.tryChangeAllStyle(this.state.style)}>Change all styles to current style</Button>
             </div>
         )
     }

@@ -1,5 +1,5 @@
 .down{
-    height: 500px;
+    height: 710px;
     background-color: rgba(224, 224, 224, 0.418);
     width: 100%;
     overflow: scroll;
@@ -25,7 +25,7 @@
 
 .card-start{
     background-color: rgba(0, 0, 0, 0.712);
-    height: 470px;
+    height: 680px;
     width: 50px;
     margin-left: 4px;
     margin-right: 4px;
@@ -39,7 +39,7 @@
 }
 .card-end{
     background-color: rgba(0, 0, 0, 0.712);
-    height: 470px;
+    height: 680px;
     width: 50px;
     margin-top: 4px;
     float: left;

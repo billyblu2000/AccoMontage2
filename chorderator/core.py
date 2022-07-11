@@ -120,7 +120,7 @@ class Core:
             self.texture_prefilter = prefilter
 
     def set_cache(self, **kwargs):
-        for cache_name in ['lib, dict, state_dict', 'phrase_data', 'edge_weights', 'song_index']:
+        for cache_name in ['lib', 'dict', 'state_dict', 'phrase_data', 'edge_weights', 'song_index']:
             if cache_name in kwargs:
                 self.cache[cache_name] = kwargs[cache_name]
                 print(f'using cached {cache_name}')

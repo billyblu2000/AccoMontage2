@@ -10,7 +10,7 @@ import {
     Checkbox,
 } from 'antd';
 import { InboxOutlined, PlusOutlined, MinusCircleOutlined } from '@ant-design/icons';
-import { server, meter, tonic, style, mode } from '../../utils';
+import { myServer, server, meter, tonic, style, mode } from '../../utils';
 import PubSub from 'pubsub-js';
 const { Option } = Select;
 
@@ -75,7 +75,7 @@ export default class ParaSetter extends Component {
                             },
                         ]}
                     >
-                        <Upload.Dragger name="midi" action="/api/chorderator_back_end/upload_melody" accept='.mid' maxCount={1} >
+                        <Upload.Dragger name="midi" action={`${myServer}/upload_melody`} accept='.mid' maxCount={1} >
                             <p className="ant-upload-drag-icon">
                                 <InboxOutlined />
                             </p>

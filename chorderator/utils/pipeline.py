@@ -136,10 +136,9 @@ class Pipeline:
 
     def send_out(self):
         if self.final_output:
-            # return combine_ins(self.melo, self.final_output.instruments[1], init_tempo=self.meta['tempo']), \
-            #        combine_ins(self.melo, self.chord_gen_output, init_tempo=self.meta['tempo']), \
-            #        self.final_output_log
-            return self.final_output, self.final_output, self.final_output_log
+            return combine_ins(self.melo, self.final_output.instruments[1], init_tempo=self.meta['tempo']), \
+                   combine_ins(self.melo, self.chord_gen_output, init_tempo=self.meta['tempo']), \
+                   self.final_output_log
         else:
             Logging.critical('Nothing is in pipeline yet!')
 
