@@ -2,7 +2,7 @@ import { message } from "antd";
 import axios from "axios";
 
 // export const env = 'dev';
-export const env = 'dev';
+export const env = 'staging';
 export const prodServer = 'https://billyyi.top/api/chorderator_back_end'
 export const publicServer = 'http://127.0.0.1:5000/api';
 export const privateServer = 'http://localhost:3000/api';

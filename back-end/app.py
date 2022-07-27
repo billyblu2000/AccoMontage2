@@ -146,9 +146,9 @@ def midi_seg(idx):
     return send_file_from_session(session.generate_midi_seg[idx], f'accomontage2-{idx}.mid')
 
 
-# @app.errorhandler(404)
-# def index(error):
-#     return make_response(send_from_directory('static', 'index.html'))
+@app.errorhandler(404)
+def index(error):
+    return make_response(send_from_directory('static', 'index.html'))
 
 
 if __name__ == '__main__':
