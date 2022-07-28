@@ -21,6 +21,7 @@ saved_data = cdt.load_data()
 APP_ROUTE = '/api'
 sessions = Sessions()
 logging.basicConfig(level=logging.DEBUG)
+os.makedirs('static/midi/', exist_ok=True)
 
 
 def resp(msg=None, session_id=None, more=()):

@@ -60,7 +60,7 @@ More detailed controllability is provided. Please refer to the `Core` Class in `
 Please check all the requirements in ``backend/requirments.txt`` are satisfied, and run
 
 ```
-python backend/app.py
+python back-end/app.py
 ```
 
 You can interact with the GUI at http://127.0.0.1:5000.
