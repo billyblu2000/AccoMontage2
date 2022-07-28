@@ -57,7 +57,7 @@ More detailed controllability is provided. Please refer to the `Core` Class in `
 
 ##### Run with GUI
 
-Please check all the requirements in ``backend/requirments.txt`` are satisfied, and run
+Please check all the requirements in ``back-end/requirments.txt`` are satisfied, and run
 
 ```
 python back-end/app.py
