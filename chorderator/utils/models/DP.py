@@ -111,7 +111,7 @@ class DP:
 
                 # 算一下微观和中观分并记录
                 # micro_and_mid = (微观中观综合分，微观分，中观分)
-                micro_and_mid = self.phrase_template_score(self.melo[i], templates[i][j])
+                micro_and_mid = self.phrase_template_score(self.melo[i], templates[i][j], mode=melo_meta['mode'])
                 current_element_score_report['micro'] = micro_and_mid[1]
                 current_element_score_report['mid'] = micro_and_mid[2]
 
@@ -223,8 +223,8 @@ class DP:
         return family_shift_confidence_level[family.index(melo_type.lower())][family.index(prog_family)]
 
     # 微观 + 中观
-    def phrase_template_score(self, melo, chord, weight=0.5):
-        micro = self.__match_melody_and_chord(melo, chord[1])
+    def phrase_template_score(self, melo, chord, weight=0.5, mode='M'):
+        micro = self.__match_melody_and_chord(melo, chord[1], mode=mode)
         mid = self.__match_template_and_pattern(chord)
         return weight * mid + (1 - weight) * micro, micro, mid
 

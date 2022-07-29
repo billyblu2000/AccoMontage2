@@ -21,6 +21,7 @@ saved_data = cdt.load_data()
 APP_ROUTE = '/api'
 sessions = Sessions()
 logging.basicConfig(level=logging.DEBUG)
+os.makedirs('static/midi/', exist_ok=True)
 
 
 def resp(msg=None, session_id=None, more=()):
@@ -146,9 +147,9 @@ def midi_seg(idx):
     return send_file_from_session(session.generate_midi_seg[idx], f'accomontage2-{idx}.mid')
 
 
-# @app.errorhandler(404)
-# def index(error):
-#     return make_response(send_from_directory('static', 'index.html'))
+@app.errorhandler(404)
+def index(error):
+    return make_response(send_from_directory('static', 'index.html'))
 
 
 if __name__ == '__main__':

@@ -10,7 +10,7 @@ from .Chord import Chord
 from ..utils.string import STATIC_DIR
 from ..utils.utils import compute_distance, compute_destination, Logging, pickle_read
 from ..utils.constants import *
-from ..utils.structured import str_to_root
+from ..utils.structured import str_to_root, str_to_root_minor
 from ..settings import static_storage
 
 
@@ -221,9 +221,9 @@ class ChordProgression:
             for note in all_notes:
                 ins.notes.append(Note(start=note[0] * unit_length,
                                       end=note[1] * unit_length,
-                                      pitch=note[2] + str_to_root[tonic],
+                                      pitch=note[2] + str_to_root[tonic]
+                                      if self.meta['mode'] == 'M' else note[2] + str_to_root_minor[tonic],
                                       velocity=note[3]))
-
         midi.instruments.append(ins)
         return midi
 

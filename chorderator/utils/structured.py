@@ -40,6 +40,9 @@ str_to_root["G#"] = GS
 str_to_root["A#"] = AS
 str_to_root["B"] = B
 str_to_root["Cb"] = CF
+str_to_root_minor = {i: str_to_root[i] - 9 for i in str_to_root.keys()}
+str_to_root_minor = {i: str_to_root_minor[i] + 12 if str_to_root_minor[i] < 0 else str_to_root_minor[i]
+                     for i in str_to_root_minor.keys()}
 
 major_map = {
     0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 4, 6: 4.5, 7: 5, 8: 5.5, 9: 6, 10: 6.5, 11: 7, -1: 0

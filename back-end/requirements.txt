@@ -6,5 +6,4 @@ tqdm
 matplotlib
 six
 pretty_midi
-midi2audio
 flask
