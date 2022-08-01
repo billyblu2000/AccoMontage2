@@ -9,14 +9,10 @@ class PreProcessor:
     accepted_phrase_length = [4, 8, 16, 12, 24, 32]
 
     def __init__(self, midi_path='', phrase=None, meta=None, note_shift=0, **kwargs):
-        try:
-            self.midi_path = None
-            self.note_shift = note_shift
-            self.midi = PrettyMIDI(midi_path)
-            self.melo = self.midi.instruments[0]
-        except:
-            self.midi_path = midi_path
-            self.melo = self.__load_pop909_melo()
+        self.midi_path = None
+        self.note_shift = note_shift
+        self.midi = PrettyMIDI(midi_path)
+        self.melo = self.midi.instruments[0]
         self.meta = meta
         self.phrase = phrase
 
