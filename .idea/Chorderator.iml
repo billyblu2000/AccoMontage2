@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/chorderator" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chorderator/static" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/resource" />
+      <excludeFolder url="file://$MODULE_DIR$/poly-dis-niko" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.9 (base)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

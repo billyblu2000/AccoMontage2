@@ -8,7 +8,7 @@ AccoMontage2 is a system capable of doing full-length song harmonization and acc
 
 ### Binary Data Files Download
 
-Will be uploaded in a few days.
+You might have to download some data files and store them in `chorderator/static` before running. You can find them [here](https://drive.google.com/drive/folders/1z8oW16dZtdS06woHc7_rxserNJRrkc4s?usp=sharing).
 
 ### Interfaces and Demo
 

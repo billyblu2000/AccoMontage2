@@ -164,6 +164,7 @@ if __name__ == '__main__':
     #                 # print(all_pr)
     #                 c = note_mat2chroma(source, prog.get(flattened=True))
     #                 # print(all_c)
+    #                 np.savez_compressed(f'poly-dis-niko/{filtered}.npz', pr=pr, c=c)
     #                 all_pr.append(pr)
     #                 all_c.append(c)
     #                 filtered += 1
@@ -172,11 +173,9 @@ if __name__ == '__main__':
     #                 print(e)
     #         total += 1
     # print(total, filtered)
-    # np.savez('poly-dis-niko.npz', pr=all_pr, c=all_c)
+    # np.savez_compressed('poly-dis-niko.npz', pr=all_pr, c=all_c)
 
     data = np.load('poly-dis-niko.npz', allow_pickle=True)
     pr = data['pr']
     c = data['c']
-    print(pr[0])
-    print(c[0])
-    pass
+    print(len(c), c[0])
