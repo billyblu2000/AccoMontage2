@@ -244,7 +244,6 @@ def chord_data2matrix(chord_track, downbeats, resolution='beat', chord_expand=Tr
         chroma[-1] = 0
         chordsRecord.append({"start": np.mean(chord_time[0]), "end": np.mean(chord_time[1]), "chord": chroma})
         last_time = np.mean(chord_time[1])
-    print(chordsRecord)
     ChordTable = []
     anchor = 0
     chord = chordsRecord[anchor]

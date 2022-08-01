@@ -58,7 +58,7 @@ class AccoMontage:
             melody_matrix = np.concatenate(
                 (melody_matrix[int(NOTE_SHIFT * 4):, :], melody_matrix[-int(NOTE_SHIFT * 4):, :]), axis=0)
 
-        chroma = cvt.chord_data2matrix_new(chord_track, downbeats, self.chord_gen_log, 'quater')  # T*36, quantized at 16th note (quater beat)
+        chroma = cvt.chord_data2matrix(chord_track, downbeats, 'quater')  # T*36, quantized at 16th note (quater beat)
 
         if not NOTE_SHIFT == 0:
             chroma = np.concatenate((chroma[int(NOTE_SHIFT * 4):, :], chroma[-int(NOTE_SHIFT * 4):, :]), axis=0)
