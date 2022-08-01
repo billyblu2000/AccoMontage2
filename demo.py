@@ -2,7 +2,7 @@ import chorderator as cdt
 
 if __name__ == '__main__':
 
-    demo_name = 'hpps30'
+    demo_name = 'hpps65'
     input_melody_path = 'MIDI demos/inputs/' + demo_name + '/melody.mid'
 
     cdt.set_melody(input_melody_path)

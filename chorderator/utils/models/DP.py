@@ -260,7 +260,7 @@ class DP:
         for i in range(len(chord_list)):
             # this_chord = chord_list[i].to_number(tonic='C')
             this_chord = chord_list[i]
-            if mode == 'M':
+            if mode == 'M' or mode == 'maj':
                 this_note = [major_map_backward[melody_list[i * 2]], major_map_backward[melody_list[i * 2 + 1]]]
                 total_score += musical_knowledge_M[int(this_chord) - 1][this_note[0]] if this_note[0] != -1 else 0.5
                 total_score += musical_knowledge_M[int(this_chord) - 1][this_note[1]] if this_note[1] != -1 else 0.5
