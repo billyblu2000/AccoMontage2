@@ -20,7 +20,7 @@ A demo is provided. If you want to run demo, please check all the requirements i
 python demo.py
 ```
 
-This demo takes in the melody midi file `hpps30` and output the result in folder `hpps30_output_results`.
+This demo takes in the melody midi file `hpps65` and output the result in folder `hpps65_output_results`.
 
 ```python
 # demo.py
