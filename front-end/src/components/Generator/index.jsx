@@ -106,7 +106,7 @@ export default class Generator extends Component {
     }
 
     componentDidMount() {
-        this.askStageInterval = setInterval(this.askStage, 500)
+        this.askStageInterval = setInterval(this.askStage, 2000)
     }
     componentWillUnmount() {
         window.clearInterval(this.askStageInterval);

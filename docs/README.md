@@ -10,6 +10,31 @@ AccoMontage2 is a system capable of doing full-length song harmonization and acc
 
 You might have to download some data files and store them in `chorderator/static` before running. You can find them [here](https://drive.google.com/drive/folders/1z8oW16dZtdS06woHc7_rxserNJRrkc4s?usp=sharing).
 
+### Dataset Download
+
+If you want to explore our dataset or use it for your own project, you can find it [here](https://drive.google.com/drive/folders/1OxM_wjcDyprrDzXSEy7AAJ2v8E04TQAI?usp=sharing). Note that you don't need to download them if you only want to run AccoMontage2.
+
+The dataset is re-organized from the original [Niko Dataset](https://www.pianoforproducers.com/nikos-ultimate-midi-pack/). It contains 30k+ chord progressions with style labels. All progressions are already normalized to C Major or C minor. We provide our dataset in two formats:
+
+1. MIDI: each chord progression piece stored as a single MIDI file.
+2. Quantized Note Matrix: a python dictionary with format like the following. `nmat`is an 2-d matrix, each row represent a quantized note: `[start, end, pitch, velocity]`. <u>Each note is quantized at the eighth note level. eg., `start=2` means the note begins at the third eighth note.</u> `root` is also an 2-d matrix. It labels the roots of the chords using an eighth note sample rate. Each row of the `root` represents a bar. Each element is an integer ranged from 0 (C note) to 11 (B note).
+
+```python
+{'piece name': 
+ 	{'nmat': [[0, 3, 60, 60], ...],    # 2-d matrix: note matrix
+     'root': [[0,0,0,0,0,0,0,0], ...], # 2-d matrix: root label
+     'style': 'some style',            # pop_standard, pop_complex, dark, r&b, unknown
+     'mode': 'some mode',              # M, m
+    }, 
+ ...
+}
+
+# load the dataset using pickle
+import pickle
+with open('dataset_path_and_name.pkl', 'rb') as file:
+    dataset = pickle.load(file)
+```
+
 ### Interfaces and Demo
 
 ##### Run with terminal
