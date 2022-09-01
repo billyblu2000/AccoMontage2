@@ -12,7 +12,7 @@ You might have to download some data files and store them in `chorderator/static
 
 ### Dataset Download
 
-If you want to explore our dataset or use it for your own project, you can find it [here](https://drive.google.com/drive/folders/1OxM_wjcDyprrDzXSEy7AAJ2v8E04TQAI?usp=sharing). Note that you don't need to download them if you only want to run AccoMontage2.
+If you want to explore our dataset or use it for your own project, you can find it [here](https://drive.google.com/drive/folders/1OxM_wjcDyprrDzXSEy7AAJ2v8E04TQAI?usp=sharing) (For those who don't have access to Google, you can use the mirror at [Baidu Netdisk](https://pan.baidu.com/s/15SAUUbwma7nva0y70IcSnw?pwd=k2iy)). Note that you don't need to download them if you only want to run AccoMontage2.
 
 The dataset is re-organized from the original [Niko Dataset](https://www.pianoforproducers.com/nikos-ultimate-midi-pack/). It contains 5k+ chord progressions with style labels. We provide our dataset in two formats:
 
