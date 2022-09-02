@@ -83,6 +83,8 @@ More detailed controllability is provided. Please refer to the `Core` Class in `
 
 ##### Run with GUI
 
+![gui](https://github.com/billyblu2000/accomontage2/blob/master/docs/imgs/gui.jpg)
+
 Please check all the requirements in ``back-end/requirments.txt`` are satisfied, and run
 
 ```
