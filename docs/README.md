@@ -4,7 +4,7 @@
 
 ### Introduction
 
-AccoMontage2 is a system capable of doing full-length song harmonization and accompaniment arrangement based on a lead melody. Based on AccoMontage, AccoMontage2 invents a harmonization module to generated chord progression, and provides a [GUI](https://billyyi.top/accomontage2/) to control the generating styles of chords and textures. Our paper *[AccoMontage2: A Complete Harmonization and Accompaniment Arrangement System](https://arxiv.org/abs/2209.00353)* is accepted by [ISMIR 2022](https://ismir2022.ismir.net/) (to be published). This repository stores the code corresponding to the paper.
+AccoMontage2 is a system capable of doing full-length song harmonization and accompaniment arrangement based on a lead melody. Based on [AccoMontage](https://github.com/zhaojw1998/accomontage), AccoMontage2 invents a harmonization module to generated chord progression, and provides a [GUI](https://billyyi.top/accomontage2/) to control the generating styles of chords and textures. Our paper *[AccoMontage2: A Complete Harmonization and Accompaniment Arrangement System](https://arxiv.org/abs/2209.00353)* is accepted by [ISMIR 2022](https://ismir2022.ismir.net/) (to be published). This repository stores the code corresponding to the paper.
 
 ### Binary Data Files Download
 
@@ -80,6 +80,8 @@ Interfaces are provided as follows:
 | `generate_save`         | Start generating with the specified parameters. A string must be passed in to specify the output folder. By default, the program will output three files: `chord_gen.mid`: a melody track and a chord progression track; `chord_gen.json`: generate log of the harmonization module; `textured_chord_gen.mid`: a melody track and a accompaniment track. Three more parameters are available for this method. `task`: what to output and from where to generate, for example, `task='textured_chord'` will make the program only output the `textured_chord_gen.mid`; `log`: whether to output the log file; `wav`: whether to generate a .wav file for the generating result. If you want to generate a .wav file, please make sure you have [midi2audio](https://pypi.org/project/midi2audio/) and [FulidSynth](https://www.fluidsynth.org/) installed. | -                                                            | `generate_save('generate_result', log=False, wav=False)` |
 
 More detailed controllability is provided. Please refer to the `Core` Class in `chorderator/core.py`. A core object can be instantiated by calling `cdt.get_chorderator()`.
+
+In addition, if you have problems trying AccoMontage2 with a custom melody, please refer to issue [#2](https://github.com/billyblu2000/AccoMontage2/issues/2).
 
 ##### Run with GUI
 
