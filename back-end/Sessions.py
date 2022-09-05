@@ -5,7 +5,7 @@ import time
 import uuid
 
 EXPIRE = 3600
-
+from construct_midi_seg import MIDI_FOLDER
 
 class Session:
 
@@ -240,4 +240,9 @@ class Sessions:
                 for file in os.listdir('..'):
                     if session_id in file:
                         shutil.rmtree(file)
+                for file in os.listdir(MIDI_FOLDER):
+                    if session_id in file:
+                        shutil.rmtree(os.path.join(MIDI_FOLDER, file))
+                del session
+                del session_id
         self.sessions = new_sessions

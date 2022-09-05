@@ -1,7 +1,5 @@
 # AccoMontage2
 
-<u>Code and files still refining. Will be completed in a few days.</u>
-
 ### Introduction
 
 AccoMontage2 is a system capable of doing full-length song harmonization and accompaniment arrangement based on a lead melody. Based on [AccoMontage](https://github.com/zhaojw1998/accomontage), AccoMontage2 invents a harmonization module to generated chord progression, and provides a [GUI](https://billyyi.top/accomontage2/) to control the generating styles of chords and textures. Our paper *[AccoMontage2: A Complete Harmonization and Accompaniment Arrangement System](https://arxiv.org/abs/2209.00353)* is accepted by [ISMIR 2022](https://ismir2022.ismir.net/) (to be published). This repository stores the code corresponding to the paper.
@@ -97,7 +95,7 @@ You can interact with the GUI at http://127.0.0.1:5000.
 
 ### Reference and Acknowledgement
 
-Thanks to Prof. Gus Xia for his guidance. Thanks to Jingwei Zhao and the AccoMontage system that provides solid foundations for this research. His repository can be found at [AccoMontage](https://github.com/zhaojw1998/AccoMontage). Thanks to all members at NYUSH Music-X-Lab for their generous support.
+Thanks to Prof. Gus Xia for his guidance. Thanks to Jingwei Zhao and the AccoMontage system that provides solid foundations for this research. His repository can be found at [AccoMontage](https://github.com/zhaojw1998/AccoMontage). Thanks to all members at [New York University Shanghai Music-X-Lab](http://musicxlab.com) for their generous support.
 
 ### Cite Our Work
 

@@ -54,7 +54,7 @@ export default class MainInterface extends Component {
         return (
             <div>
                 <div className='head'>
-                    <a href='/'><Title level={1} style={{float:'left', marginTop:'0px', fontSize:'55px'}} className='title'><span style={{color:'#003b76'}}>A</span>cco<span style={{color:'#003b76'}}>M</span>ontage<span style={{color:'#003b76'}}>2</span></Title></a>
+                    <a href='/accomontage2-online'><Title level={1} style={{float:'left', marginTop:'0px', fontSize:'55px'}} className='title'><span style={{color:'#003b76'}}>A</span>cco<span style={{color:'#003b76'}}>M</span>ontage<span style={{color:'#003b76'}}>2</span></Title></a>
                     <Steps current={this.state.step} style={{maxWidth:'500px', float:'right', marginTop:'10px', marginBottom:'20px'}}>
                         <Step title={stepText['0'].title} description={stepText['0'].des} >
                         </Step>

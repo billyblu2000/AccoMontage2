@@ -1,8 +1,10 @@
+import os
 import time
-
 import pretty_midi
 
-STORE_PATH = 'static/midi/'
+MIDI_FOLDER = 'static/midi'
+# MIDI_FOLDER = '../../xampp/htdocs/accomontage2-online/midi'
+os.makedirs(MIDI_FOLDER, exist_ok=True)
 
 
 def construct_midi_seg(session, session_id):
@@ -37,7 +39,7 @@ def construct_midi_seg(session, session_id):
         for seg in all_seg:
             name = session_id + '_' + current_time + '_{}_'.format(channel_name) + str(count) + '.mid'
             names.append(name)
-            seg.write(STORE_PATH + name)
+            seg.write(MIDI_FOLDER + '/' + name)
             count += 1
         return names
 

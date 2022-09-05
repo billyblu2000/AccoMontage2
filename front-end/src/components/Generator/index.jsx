@@ -3,7 +3,7 @@ import './index.css'
 import { LoadingOutlined, CheckCircleOutlined, CaretRightFilled, CaretLeftFilled, PlayCircleOutlined } from '@ant-design/icons';
 import { Empty, Spin, Button, Typography, Divider, Card, Form, Slider, Checkbox } from 'antd';
 import Icon from '../Icon';
-import { myServer, server } from '../../utils';
+import { myServer, server, myDomain, myRoot } from '../../utils';
 import ChordProgression from '../ChordProgression';
 
 const { Title } = Typography;
@@ -175,20 +175,20 @@ export default class Generator extends Component {
                             <div style={{ paddingLeft: '50px', paddingRight: '50px' }}>
                                 <Title level={1} style={{ float: 'right', fontSize: '25px', color: '#AAAAAA', userSelect: 'none' }}>Progression generated!</Title>
                                 <Divider></Divider>
-                                <a download='chord.mid' href={`http://127.0.0.1:5000/midi/${this.state.generatedChordName}`}>
+                                <a download='chord.mid' href={`${myRoot}/midi/${this.state.generatedChordName}`}>
                                     <Card hoverable style={{ marginTop: '10px', marginBottom: '10px' }}>
                                         <Meta
                                             avatar={<Icon which='midi' />}
-                                            title={<div style={{ fontSize: '20px' }}>Download Chords</div>}
+                                            title={<div>Download Chords</div>}
                                             description="MIDI consist a melody track and a progression track"
                                         />
                                     </Card>
                                 </a>
-                                <a download='accompaniment.mid' href={`http://127.0.0.1:5000/midi/${this.state.generatedAccName}`}>
+                                <a download='accompaniment.mid' href={`${myRoot}/midi/${this.state.generatedAccName}`}>
                                     <Card hoverable style={{ marginTop: '10px', marginBottom: '10px' }}>
                                         <Meta
                                             avatar={<Icon which='midi' />}
-                                            title={<div style={{ fontSize: '20px' }}>Download Accompaniment</div>}
+                                            title={<div>Download Accompaniment</div>}
                                             description="MIDI consist a melody track and a accompaniment track"
                                         />
                                     </Card>
@@ -220,17 +220,17 @@ export default class Generator extends Component {
                         rhythm_density: this.props.values['rhythm_density'],
                         voice_number: this.props.values['voice_number']
                     }}>
-                    <Form.Item name="enable_texture_style" label='Enable Texture Style Controlling' valuePropName="checked">
+                    <Form.Item name="enable_texture_style" label={<div>Enable texture style controlling</div>} valuePropName="checked">
                         <Checkbox checked={this.state.textureStyleControl} onChange={(e) => this.setState({ textureStyleControl: e.target.checked })} />
                     </Form.Item>
 
-                    <Form.Item name="rhythm_density" label="Texture Rhythm Density (RD)"
+                    <Form.Item name="rhythm_density" label={<div>Texture Rhythm Density (RD)</div>}
                         rules={[{ required: true, message: 'Please select a RD!' }]}
                     >
                         <Slider max={4} min={0} step={1} dots disabled={!this.state.textureStyleControl} />
                     </Form.Item>
 
-                    <Form.Item name="voice_number" label="Texture Voice Number (VN)"
+                    <Form.Item name="voice_number" label={<div>Texture Voice Number (VN)</div>}
                         rules={[{ required: true, message: 'Please select a VN!' }]}
                     >
                         <Slider max={4} min={0} step={1} dots disabled={!this.state.textureStyleControl} />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Typography, Select, Divider, Button } from 'antd'
-import { style, myServer } from '../../utils';
+import { style, myServer, myDomain, myRoot } from '../../utils';
 import PianoRoll from '../PianoRoll';
 import './index.css'
 
@@ -103,14 +103,14 @@ export default class ChordProgression extends Component {
                     </div>
                 </div> */}
                 <div style={{marginTop:'110px'}}></div>
-                <PianoRoll midiURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.melody} id={this.props.index + 'melody'} pixelsPerTimeStep={35} setAdditionalVisualizer={this.setMelodyVis}></PianoRoll>
+                <PianoRoll midiURL={myRoot + '/midi/' + this.props.data.midi_name.melody} id={this.props.index + 'melody'} pixelsPerTimeStep={35} setAdditionalVisualizer={this.setMelodyVis}></PianoRoll>
                 <div style={{ marginTop: '20px' }}></div>
                 <div style={{ marginTop: '10px' }}>
                     <ChordText index={this.props.index} progression={this.props.data.progression_full}></ChordText>
                 </div>
-                <PianoRoll midiURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.chord} midiWithoutMelodyURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.chord_WM} id={this.props.index + 'chord'} pixelsPerTimeStep={35} noteHeight={3} additionalVisualizer={this.state.melodyVis}></PianoRoll>
+                <PianoRoll midiURL={myRoot + '/midi/' + this.props.data.midi_name.chord} midiWithoutMelodyURL={myRoot + '/midi/' + this.props.data.midi_name.chord_WM} id={this.props.index + 'chord'} pixelsPerTimeStep={35} noteHeight={3} additionalVisualizer={this.state.melodyVis}></PianoRoll>
                 <div style={{ marginTop: '5px' }}></div>
-                <PianoRoll midiURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.acc} midiWithoutMelodyURL={myServer.slice(0, -4) + '/midi/' + this.props.data.midi_name.acc_WM} id={this.props.index + 'acc'} pixelsPerTimeStep={35} noteHeight={3} additionalVisualizer={this.state.melodyVis}></PianoRoll>
+                <PianoRoll midiURL={myRoot + '/midi/' + this.props.data.midi_name.acc} midiWithoutMelodyURL={myRoot + '/midi/' + this.props.data.midi_name.acc_WM} id={this.props.index + 'acc'} pixelsPerTimeStep={35} noteHeight={3} additionalVisualizer={this.state.melodyVis}></PianoRoll>
                 <Button type='dashed' style={{ bottom: '20px', position: 'absolute', width: '80%', left: '10%' }} onClick={() => this.props.father.tryChangeAllStyle(this.state.style)}>Change all styles to current style</Button>
             </div>
         )

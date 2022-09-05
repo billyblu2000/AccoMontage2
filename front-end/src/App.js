@@ -22,10 +22,10 @@ const help1 = (
 const help2 = (
   <div style={{paddingLeft:'5%', paddingRight:'5%'}}>
     <Typography.Title level={4}>When generating...</Typography.Title>
-    <Typography.Paragraph>Please wait patiently, the generating process might take 1 minute. You can view the process on the left part.</Typography.Paragraph>
+    <Typography.Paragraph>Please wait patiently, due to the limited server resource, the generating process might take 1-2 minutes. You can view the process on the left part.</Typography.Paragraph>
     <Typography.Title level={4}>After generated</Typography.Title>
     <Typography.Title level={5}>Listen and download</Typography.Title>
-    <Typography.Paragraph>You may click to listen to the generated audio or download the generated MIDI file. You can aslo listen to the audio of each phrase separately by clicking the piano roll.</Typography.Paragraph>
+    <Typography.Paragraph>You may click to download the generated MIDI file (chord or accompaniment). You can aslo listen to the audio of each phrase separately by clicking the piano roll.</Typography.Paragraph>
     <Typography.Title level={5}>Change style and re-generate</Typography.Title>
     <Typography.Paragraph>The choosen chord style of each phrase is displayed. You can click on and choose a new style. Some styles may not be available. You can also change the texture style of the whole melody. Click on the button at the bottom to re-generate based on new styles.</Typography.Paragraph>
   </div>
@@ -39,16 +39,14 @@ const help3 = (
       <ul>
         <li><Typography.Text strong>Blank melody at the begining. </Typography.Text>AccoMontage2 marks the first bar of the melody as the begining of the first phrase. If your melody have a piece of blank at the begining and you are not willing to make it part of your phrase, please remove it (including anacrusis).</li>
         <li><Typography.Text strong>Melody is too sparse. </Typography.Text>AccoMontage2 generates only based on the melody. Please make sure the melody have enough notes for reference. Sparce melody might also produce dissatisfying results.</li>
-        <li><Typography.Text strong>Melody not homophonic. </Typography.Text>AccoMontage2 prefers homophonic music. That is to say, the melody is expected to have at most one note playing at any moment.</li>
+        <li><Typography.Text strong>Melody not monophonic. </Typography.Text>AccoMontage2 prefers monophonic music. That is to say, the melody is expected to have at most one note playing at any moment.</li>
         <li><Typography.Text strong>Tempo too large or too small. </Typography.Text>In most cases, AccoMonatage2 will harmonize a bar with a single chord. If this is not your wish, you can modify the tempo to a suitable range (usually tempo between 70-120 will produce good results).</li>
         <li><Typography.Text strong>Wrong tonic/mode/meter. </Typography.Text>This might cause the algorithm to generate someting that is completely wrong.</li>
       </ul>
     </Typography.Paragraph>
     <Typography.Paragraph>If you are very sure that the above problem is already solved, you can also try other chord styles and texture styles, or even phrase structures (e.g., split an 8-bar phrase into two 4-bar phrases).</Typography.Paragraph>
     <Typography.Title level={5}>Why the generation fails?</Typography.Title>
-    <Typography.Paragraph>Please make sure the phrase label is correct. Currently, a limitation is the melody cannot exceed the labeled phrases. Please make sure your last note is within the provided phrases. Other bugs please contact <a href={true}>anonymous@anonymous.com</a>.</Typography.Paragraph>
-    <Typography.Title level={5}>Why the piano roll cannot show up?</Typography.Title>
-    <Typography.Paragraph>Piano roll is supported by <a href='https://github.com/googlecreativelab/chrome-music-lab'>Chrome Music Lab</a>. If your region do not have access to Google, the piano roll might fails to render. We are also updating the technolody to overcome this predicament.</Typography.Paragraph>
+    <Typography.Paragraph>Please make sure the phrase label is correct. Currently, a limitation is the melody cannot exceed the labeled phrases. Please make sure your last note is within the provided phrases. Other bugs please contact <a href={true}>ly1387@nyu.edu</a>.</Typography.Paragraph>
   </div>
 )
 
@@ -65,8 +63,8 @@ function App() {
       <div className="App">
         <MainInterface />
       </div>
-      <div style={{ minHeight: '70px', textAlign: 'center', backgroundColor: '#003b76' }}>
-        <h4 style={{ color: 'white', paddingTop: '20px' }}>Interface for AccoMontage2</h4>
+      <div style={{ minHeight: '50px', textAlign: 'center', backgroundColor: '#003b76' }}>
+        <h4 style={{ color: 'white', paddingTop: '10px' }}>Interface for AccoMontage2. Copyright © 2022 NYU Shanghai Music X Lab.</h4>
       </div>
       <Modal title="AccoMonatage2 GUI Help" visible={isModalVisible} width={800} onOk={closeModal} onCancel={closeModal} footer={[<Button type="primary" onClick={closeModal}>Ok</Button>]}>
         <Tabs defaultActiveKey="1" centered>

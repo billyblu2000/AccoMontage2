@@ -2,12 +2,34 @@ import { message } from "antd";
 import axios from "axios";
 
 // export const env = 'dev';
-export const env = 'staging';
-export const prodServer = 'https://billyyi.top/api/chorderator_back_end'
-export const publicServer = 'http://127.0.0.1:5000/api';
-export const privateServer = 'http://localhost:3000/api';
-var comp = env === 'dev' ? privateServer : publicServer;
-export const myServer = env === 'prod' ? prodServer : comp;
+export const env = 'prod';
+// export const env = 'prod';
+export const localhost3000 = 'http://localhost:3000';
+export const localhost5000 = 'http://127.0.0.1:5000';
+export const publicDomain = 'https://billyyi.top';
+export const backendPath = '/api/chorderator_back_end';
+export const frontendPath = '/accomontage2-online'
+export const prodServer = publicDomain + backendPath;
+export const stagingServer = localhost5000 + backendPath;
+export const devServer = localhost3000 + backendPath;
+export var myServer;
+export var myDomain;
+export var myRoot;
+if (env === 'prod'){
+    myServer = prodServer;
+    myDomain = publicDomain;
+    myRoot = publicDomain + frontendPath;
+}
+else if(env === 'staging'){
+    myServer = stagingServer;
+    myDomain = localhost5000;
+    myRoot = localhost5000;
+}
+else if (env === 'dev'){
+    myServer = devServer;
+    myDomain = localhost3000;
+    myRoot = localhost3000;
+}
 
 export function server(add, obj, v, method='get', postData=null, callback=null) {
     if (method === 'get'){

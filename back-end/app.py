@@ -13,15 +13,14 @@ from flask import Flask, request, send_from_directory, send_file, make_response,
 sys.path.append('..')
 import chorderator as cdt
 from Sessions import Sessions
-from construct_midi_seg import construct_midi_seg
+from construct_midi_seg import construct_midi_seg, MIDI_FOLDER
 
 app = Flask(__name__, static_url_path='')
 app.secret_key = 'AccoMontage2-GUI'
 saved_data = cdt.load_data()
-APP_ROUTE = '/api'
+APP_ROUTE = '/api/chorderator_back_end'
 sessions = Sessions()
 logging.basicConfig(level=logging.DEBUG)
-os.makedirs('static/midi/', exist_ok=True)
 
 
 def resp(msg=None, session_id=None, more=()):
@@ -107,10 +106,10 @@ def answer_gen():
     session.generate_midi_seg = construct_midi_seg(session, session_id)
     chord_midi_name = session_id + '_' + str(time.time()) + '_chord_gen.mid'
     acc_midi_name = session_id + '_' + str(time.time()) + '_textured_chord_gen.mid'
-    pretty_midi.PrettyMIDI(session_id + '/chord_gen.mid').write('static/midi/' + chord_midi_name)
-    # shutil.copy(session_id + '/chord_gen.mid', 'static/midi/' + chord_midi_name)
-    pretty_midi.PrettyMIDI(session_id + '/textured_chord_gen.mid').write('static/midi/' + acc_midi_name)
-    # shutil.copy(session_id + '/textured_chord_gen.mid', 'static/midi/' + acc_midi_name)
+    pretty_midi.PrettyMIDI(session_id + '/chord_gen.mid').write(MIDI_FOLDER + '/' + chord_midi_name)
+    # shutil.copy(session_id + '/chord_gen.mid', MIDI_FOLDER + chord_midi_name)
+    pretty_midi.PrettyMIDI(session_id + '/textured_chord_gen.mid').write(MIDI_FOLDER + '/' + acc_midi_name)
+    # shutil.copy(session_id + '/textured_chord_gen.mid', MIDI_FOLDER + acc_midi_name)
     shutil.rmtree(session_id)
     new_log = []
     for i in range(len(session.generate_log)):

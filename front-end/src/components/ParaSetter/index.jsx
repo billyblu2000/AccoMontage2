@@ -221,7 +221,7 @@ export default class ParaSetter extends Component {
                         </Button>
                     </Form.Item>
                 </Form>
-                <div style={{ minHeight: '150px' }}></div>
+                <div style={{ minHeight: '100px' }}></div>
             </div>
         )
     }
