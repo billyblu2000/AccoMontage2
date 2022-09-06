@@ -80,6 +80,7 @@ Interfaces are provided as follows:
 More detailed controllability is provided. Please refer to the `Core` Class in `chorderator/core.py`. A core object can be instantiated by calling `cdt.get_chorderator()`.
 
 In addition, if you have problems trying AccoMontage2 with a custom melody, please refer to issue [#2](https://github.com/billyblu2000/AccoMontage2/issues/2).
+There is also an [interactive tutorial](https://github.com/billyblu2000/AccoMontage2/tree/master/colab-notebooks) available, credit to [@asigalov61](https://github.com/asigalov61).
 
 ##### Run with GUI
 
