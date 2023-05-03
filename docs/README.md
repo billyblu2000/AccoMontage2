@@ -2,7 +2,7 @@
 
 ### Introduction
 
-AccoMontage2 is a system capable of doing full-length song harmonization and accompaniment arrangement based on a lead melody. Based on [AccoMontage](https://github.com/zhaojw1998/accomontage), AccoMontage2 invents a harmonization module to generated chord progression, and provides a [GUI](https://billyyi.top/accomontage2/) to control the generating styles of chords and textures. Our paper *[AccoMontage2: A Complete Harmonization and Accompaniment Arrangement System](https://arxiv.org/abs/2209.00353)* is accepted by [ISMIR 2022](https://ismir2022.ismir.net/) (to be published). This repository stores the code corresponding to the paper.
+AccoMontage2 is a system capable of doing full-length song harmonization and accompaniment arrangement based on a lead melody. Based on [AccoMontage](https://github.com/zhaojw1998/accomontage), AccoMontage2 invents a harmonization module to generated chord progression, and provides a [GUI](https://billyyi.top/accomontage2/) to control the generating styles of chords and textures. Our paper *[AccoMontage2: A Complete Harmonization and Accompaniment Arrangement System](https://arxiv.org/abs/2209.00353)* is accepted by [ISMIR 2022](https://ismir2022.ismir.net/). This repository stores the code corresponding to the paper.
 
 ### Binary Data Files Download
 
@@ -80,6 +80,7 @@ Interfaces are provided as follows:
 More detailed controllability is provided. Please refer to the `Core` Class in `chorderator/core.py`. A core object can be instantiated by calling `cdt.get_chorderator()`.
 
 In addition, if you have problems trying AccoMontage2 with a custom melody, please refer to issue [#2](https://github.com/billyblu2000/AccoMontage2/issues/2).
+There is also an [interactive tutorial](https://github.com/billyblu2000/AccoMontage2/tree/master/colab-notebooks) available, credit to [@asigalov61](https://github.com/asigalov61).
 
 ##### Run with GUI
 
@@ -98,5 +99,18 @@ You can interact with the GUI at http://127.0.0.1:5000.
 Thanks to Prof. Gus Xia for his guidance. Thanks to Jingwei Zhao and the AccoMontage system that provides solid foundations for this research. His repository can be found at [AccoMontage](https://github.com/zhaojw1998/AccoMontage). Thanks to all members at [New York University Shanghai Music-X-Lab](http://musicxlab.com) for their generous support.
 
 ### Cite Our Work
-
-To be published Dec 2022.
+```
+@inproceedings{yi_2022_accomontage2,
+  author       = {Li Yi and Haochen Hu and Jingwei Zhao and Gus Xia},
+  title        = {{AccoMontage2: A Complete Harmonization and Accompaniment Arrangement System}},
+  booktitle    = {{Proceedings of the 23rd International Society for Music Information Retrieval Conference}},
+  year         = 2022,
+  pages        = {248-255},
+  publisher    = {ISMIR},
+  address      = {Bengaluru, India},
+  month        = dec,
+  venue        = {Bengaluru, India},
+  doi          = {10.5281/zenodo.7316642},
+  url          = {https://doi.org/10.5281/zenodo.7316642}
+}
+```
